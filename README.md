@@ -33,7 +33,12 @@ Client libraries for various languages, sorted roughly by their feature set.
 
 
 
-## Community
+## Apps
+
+- [`DVB mobil`](https://www.dvb.de/de-de/fahrplan/dvb-mobil/) - Official, cross-platform
+- [`Faplino`](https://play.google.com/store/apps/details?id=de.faplino) - Android
+- [`FahrInfo Dresden`](https://itunes.apple.com/de/app/fahrinfo-dresden/id314790387?mt=8) - cross-platform
+- [`Öffi`](https://play.google.com/store/apps/details?id=de.schildbach.oeffi) - Android
 
 
 
