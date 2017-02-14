@@ -8,7 +8,7 @@ This document is inspired by [derhuerst/vbb-modules](https://github.com/derhuers
 
 ## Static Data
 
-- [`stations.csv`](https://github.com/kiliankoe/vvo/stations.csv) - A list of all stations including coordinates.
+- [`stations.csv`](https://raw.githubusercontent.com/kiliankoe/vvo/master/stations.csv) - A list of all stations including coordinates.
 
 
 
