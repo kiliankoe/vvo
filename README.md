@@ -34,11 +34,12 @@ Client libraries for various languages, sorted roughly by their feature set. Alt
 - [`dvbgo`](https://github.com/kiliankoe/dvbgo) - Client library for Go
 - [`dvb-rs`](https://github.com/hoodie/dvb-rs) - Client library for Rust
 
-## Tools, UIs & Experiments
 
 
 
 ## Apps
+
+A handful popular and widely-used/known apps in Dresden at least.
 
 - [`DVB mobil`](https://www.dvb.de/de-de/fahrplan/dvb-mobil/) - Official, cross-platform
 - [`Faplino`](https://play.google.com/store/apps/details?id=de.faplino) - Android
@@ -47,7 +48,14 @@ Client libraries for various languages, sorted roughly by their feature set. Alt
 
 
 
-## Utilities
+
+## Tools, UIs & Experiments
+
+- [`Magic Mirror`](http://blog.thomas-bachmann.com/2016/02/magic-mirror-2-0-mit-gestensteuerung.html) - Shows current departure data (using [`dvbpy`](https://github.com/kiliankoe/dvbpy))
+- [`alfred_dvb`](https://github.com/kiliankoe/alfred_dvb) - [Alfred](https://www.alfredapp.com) workflow for departure data (using [`dvbgo`](https://github.com/kiliankoe/dvbgo))
+- [`Amazon Echo`](https://twitter.com/ubahnverleih/status/830079491523358721) - Tweet [@ubahnverleih](https://twitter.com/ubahnverleih) for more info
 
 
 
+
+Got any more info, details, links? Please don't hesitate to open an issue and/or PR 🙃
