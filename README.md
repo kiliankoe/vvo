@@ -18,7 +18,7 @@ This document is inspired by [derhuerst/vbb-modules](https://github.com/derhuers
 - [`widgets.vvo-online.de`](http://widgets.vvo-online.de) - Built for the [VVO widgets](https://www.vvo-online.de/de/service/widgets/index.cshtml) - No known (public) documentation ([yet?](https://github.com/kiliankoe/vvo/wiki))
 - [`webapi.vvo-online.de`](https://webapi.vvo-online.de) - New API used by the mobile page - No known (public) documentation ([yet?](https://github.com/kiliankoe/vvo/wiki))
 - [`EFA`](http://efa.vvo-online.de:8080) - "Classic" interface for trip requests - No known (public) documentation ([yet?](https://github.com/kiliankoe/vvo/wiki))
-- [`Trias`](http://trias.vvo-online.de:9000) - Brand new and still in the process of being implemented afaik - "Documentation" [here](https://www.vdv.de/431-2sds-v1.1.pdfx?forced=true)
+- [`Trias`](http://trias.vvo-online.de:9000/middleware/data/trias) - Brand new and still in the process of being implemented afaik - "Documentation" [here](https://www.vdv.de/431-2sds-v1.1.pdfx?forced=true)
 
 
 
