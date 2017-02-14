@@ -19,7 +19,7 @@ This document is inspired by [derhuerst/vbb-modules](https://github.com/derhuers
 
 ## Libraries
 
-Client libraries for various languages, sorted roughly by their feature set.
+Client libraries for various languages, sorted roughly by their feature set. Although the names are specific to the DVB, most if not all of them are compatible with everything in the VVO network.
 
 - [`dvbjs`](https://github.com/kiliankoe/dvbjs) - Client library for Node.js
 - [`dvbpy`](https://github.com/kiliankoe/dvbpy) - Client library for Python
