@@ -1,6 +1,6 @@
-# 🚏VVO API, Libraries and Documentation
+# 🚏VVO
 
-This is a list of API endpoints, libraries and basic documentation for what's available in the [Verkehrsverbund Oberelbe](https://www.vvo-online.de/de) network. This includes the [Dresdner Verkehrsbetriebe](https://www.dvb.de/de-de/).
+This is a list of API endpoints, libraries, apps, tools and anything else what's available to access data in the [Verkehrsverbund Oberelbe](https://www.vvo-online.de/de) network. This includes the [Dresdner Verkehrsbetriebe](https://www.dvb.de/de-de/).
 
 This document is inspired by [derhuerst/vbb-modules](https://github.com/derhuerst/vbb-modules).
 
