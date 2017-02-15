@@ -29,7 +29,7 @@ Got any more info, details, links? Please don't hesitate to open an issue and/or
   - No known (public) documentation ([yet?](https://github.com/kiliankoe/vvo/wiki))
 - [`Trias`](http://trias.vvo-online.de:9000/middleware/data/trias)
   - Brand new and still in the process of being implemented afaik
-  - "Documentation" [here
+  - "Documentation" [here](https://www.vdv.de/431-2sds-v1.1.pdfx?forced=true)
 - [`DVB WebDFI`](http://dfi.dvb.de/)
   - Closed access
   - For web-based [departure monitors](https://www.dvb.de/de-de/service/geschaeftskunden/abfahrtsmonitor/)
