@@ -18,9 +18,9 @@ Got any more info, details, links? Please don't hesitate to open an issue and/or
 ## APIs
 
 - [`Widgets`](http://widgets.vvo-online.de)
-  - Built for the [VVO widgets](https://www.vvo-online.de/de/service/widgets/index.cshtml)
+  - For the [VVO widgets](https://www.vvo-online.de/de/service/widgets/index.cshtml)
   - No known official documentation
-  - See [Wiki](https://github.com/kiliankoe/vvo/wiki/Widgets) for reverse-engineered docs.
+  - See [Wiki](https://github.com/kiliankoe/vvo/wiki/Widgets) for reverse-engineered docs
 - [`WebAPI`](https://webapi.vvo-online.de)
   - New API used by the mobile page (and therefore the official app)
   - No known (public) documentation ([yet?](https://github.com/kiliankoe/vvo/wiki))
