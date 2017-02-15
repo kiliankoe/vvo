@@ -30,6 +30,11 @@ Got any more info, details, links? Please don't hesitate to open an issue and/or
 - [`Trias`](http://trias.vvo-online.de:9000/middleware/data/trias)
   - Brand new and still in the process of being implemented afaik
   - "Documentation" [here
+- [`WebDFI`](http://dfi.dvb.de/)
+  - Closed access
+  - For web-based [departure monitors](https://www.dvb.de/de-de/service/geschaeftskunden/abfahrtsmonitor/)
+  - See [#3](https://github.com/kiliankoe/vvo/issues/3) for some more information
+  - No known (public) documentation ([yet?](https://github.com/kiliankoe/vvo/wiki))
 
 
 
