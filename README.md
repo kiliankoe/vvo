@@ -72,3 +72,4 @@ A handful popular and widely-used/known apps in Dresden at least.
 - [`Amazon Echo`](https://twitter.com/ubahnverleih/status/830079491523358721) - Tweet [@ubahnverleih](https://twitter.com/ubahnverleih) for more info
 - [`catch-my-bus-python`](https://github.com/meepoSenpai/catch-my-bus-python) - GTK3 StatusIcon showing current departure data
 - [`DVBot`](https://www.messenger.com/t/dvbot) - DVB Facebook Messenger Bot
+- [`ddplan`](https://github.com/4gray/ddplan) - Electron based station monitor that lives in the menubar
