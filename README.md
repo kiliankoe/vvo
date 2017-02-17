@@ -73,3 +73,4 @@ A handful popular and widely-used/known apps in Dresden at least.
 - [`catch-my-bus-python`](https://github.com/meepoSenpai/catch-my-bus-python) - GTK3 StatusIcon showing current departure data
 - [`DVBot`](https://www.messenger.com/t/dvbot) - DVB Facebook Messenger Bot
 - [`ddplan`](https://github.com/4gray/ddplan) - Electron based station monitor that lives in the menubar
+- [`Abfahrtsmonitor`](https://github.com/HeEAaD/Abfahrtsmonitor) - Departure board for your Apple Watch
