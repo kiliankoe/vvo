@@ -74,3 +74,4 @@ A handful popular and widely-used/known apps in Dresden at least.
 - [`DVBot`](https://www.messenger.com/t/dvbot) - DVB Facebook Messenger Bot
 - [`ddplan`](https://github.com/4gray/ddplan) - Electron based station monitor that lives in the menubar
 - [`Abfahrtsmonitor`](https://github.com/HeEAaD/Abfahrtsmonitor) - Departure board for your Apple Watch
+- [`hubot-dvb`](https://github.com/kiliankoe/hubot-dvb) - [Hubot](https://hubot.github.com) script (using [`dvbjs`](https://github.com/kiliankoe/dvbjs))
