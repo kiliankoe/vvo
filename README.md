@@ -23,7 +23,8 @@ Got any more info, details, links? Please don't hesitate to open an issue and/or
   - See [Wiki](https://github.com/kiliankoe/vvo/wiki/Widgets) for reverse-engineered docs
 - [`WebAPI`](https://webapi.vvo-online.de)
   - New API used by the mobile page (and therefore the official app)
-  - No known (public) documentation ([yet?](https://github.com/kiliankoe/vvo/wiki))
+  - No known official documentation
+  - See [Wiki](https://github.com/kiliankoe/vvo/wiki/WebAPI) for reverse-engineered docs
 - [`EFA`](http://efa.vvo-online.de:8080)
   - "Classic" interface for trip requests
   - No known (public) documentation ([yet?](https://github.com/kiliankoe/vvo/wiki))
