@@ -52,6 +52,21 @@ Client libraries for various languages, sorted roughly by their feature set. Alt
 - [`dvb-rs`](https://github.com/hoodie/dvb-rs) - Client library for Rust
 
 
+To make it more obvious which lib support which features, here's a nifty table.
+
+|                       | JavaScript | Python  | Haskell | Swift | Ruby |  Go  | Rust |
+| --------------------- | :--------: | :-----: | :-----: | :---: | :--: | :--: | :--: |
+| Find stops via name   |     ✅      |    ✅    |         |   ✅   |  ✅   |      |  ✅   |
+| Find stops via coords |     ✅      |    ✅    |         |   ✅   |      |      |      |
+| Departure Monitor     |     ✅      |    ✅    |    ✅    |   ✅   |  ✅   |  ✅   |  ✅   |
+| Routing               |     ✅      |    ✅    |    ✅    |       |      |      |      |
+| Reverse Geocoding     |     ✅      |    ✅    |         |       |      |      |      |
+| POI Search            |     ✅      |    ✅    |         |       |      |      |      |
+| Route Changes         |            |         |         |   ✅   |      |      |      |
+| Used API              |  A, E, D   | W, E, D |  W, E   |   A   |  W   |  W   |  W   |
+
+W: Widgets, E: EFA, A: WebAPI, D: DVBApps
+
 
 
 ## Apps
