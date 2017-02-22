@@ -36,6 +36,9 @@ Got any more info, details, links? Please don't hesitate to open an issue and/or
   - For web-based [departure monitors](https://www.dvb.de/de-de/service/geschaeftskunden/abfahrtsmonitor/)
   - See [#3](https://github.com/kiliankoe/vvo/issues/3) for some more information
   - No known (public) documentation ([yet?](https://github.com/kiliankoe/vvo/wiki))
+- [`DVB Maps App`](https://www.dvb.de/apps/map/)
+  - POI search and reverse geocoding
+  - No known (public) documentation ([yet?](https://github.com/kiliankoe/vvo/wiki))
 
 
 
