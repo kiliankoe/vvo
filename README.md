@@ -66,6 +66,8 @@ To make it more obvious which lib support which features, here's a nifty table.
 | Reverse Geocoding     |     ✅      |    ✅    |         |       |      |      |      |
 | POI Search            |     ✅      |    ✅    |         |       |      |      |      |
 | Route Changes         |            |         |         |   ✅   |      |      |      |
+| Supported Lines       |            |         |         |        |      |      |      |
+| Trip Status           |            |         |         |        |      |      |      |
 | Used API              |  A, E, D   | W, E, D |  W, E   |   A   |  W   |  W   |  W   |
 
 W: Widgets, E: EFA, A: WebAPI, D: DVBApps
