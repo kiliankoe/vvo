@@ -67,7 +67,7 @@ To make it more obvious which lib support which features, here's a nifty table.
 | POI Search            |     ✅      |    ✅    |         |       |      |      |      |
 | Route Changes         |            |         |         |   ✅   |      |      |      |
 | Supported Lines       |            |         |         |        |      |      |      |
-| Trip Status           |            |         |         |        |      |      |      |
+| Route Map Location    |            |         |         |        |      |      |      |
 | Used API              |  A, E, D   | W, E, D |  W, E   |   A   |  W   |  W   |  W   |
 
 W: Widgets, E: EFA, A: WebAPI, D: DVBApps
