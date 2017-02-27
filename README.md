@@ -63,10 +63,10 @@ To make it more obvious which lib support which features, here's a nifty table.
 | Find stops via coords |     ✅      |    ✅    |         |   ✅   |      |      |      |
 | Departure Monitor     |     ✅      |    ✅    |    ✅    |   ✅   |  ✅   |  ✅   |  ✅   |
 | Routing               |     ✅      |    ✅    |    ✅    |       |      |      |      |
-| Reverse Geocoding     |     ✅      |    ✅    |         |       |      |      |      |
+| Reverse Geocoding     |     ✅      |    ✅    |         |   ✅   |      |      |      |
 | POI Search            |     ✅      |    ✅    |         |       |      |      |      |
 | Route Changes         |            |         |         |   ✅   |      |      |      |
-| Supported Lines       |            |         |         |        |      |      |      |
+| Supported Lines       |            |         |         |   ✅   |      |      |      |
 | Route Map Location    |            |         |         |        |      |      |      |
 | Used API              |  A, E, D   | W, E, D |  W, E   |   A   |  W   |  W   |  W   |
 
