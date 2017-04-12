@@ -44,7 +44,7 @@ Got any more info, details, links? Please don't hesitate to open an issue and/or
 
 ## Libraries
 
-Client libraries for various languages, sorted roughly by their feature set. Although the names are specific to the DVB, most if not all of them are compatible with everything in the VVO network.
+Client libraries for various languages, sorted in no particular order. Although the names are specific to the DVB, most if not all of them are compatible with everything in the VVO network.
 
 - [`dvbjs`](https://github.com/kiliankoe/dvbjs) - Client library for Node.js
 - [`dvbpy`](https://github.com/kiliankoe/dvbpy) - Client library for Python
