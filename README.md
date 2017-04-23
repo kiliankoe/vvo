@@ -96,3 +96,4 @@ A handful popular and widely-used/known apps in Dresden at least.
 - [`ddplan`](https://github.com/4gray/ddplan) - Electron based station monitor that lives in the menubar
 - [`Abfahrtsmonitor`](https://github.com/HeEAaD/Abfahrtsmonitor) - Departure board for your Apple Watch
 - [`hubot-dvb`](https://github.com/kiliankoe/hubot-dvb) - [Hubot](https://hubot.github.com) script (using [`dvbjs`](https://github.com/kiliankoe/dvbjs))
+- [`dresden-departure-monitor`](https://github.com/don-philipe/dresden-departure-monitor) - Bashscript for getting current departure times
