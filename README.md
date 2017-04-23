@@ -91,6 +91,7 @@ A handful popular and widely-used/known apps in Dresden at least.
 - [`Magic Mirror`](http://blog.thomas-bachmann.com/2016/02/magic-mirror-2-0-mit-gestensteuerung.html) - Shows current departure data (using [`dvbpy`](https://github.com/kiliankoe/dvbpy))
 - [`alfred_dvb`](https://github.com/kiliankoe/alfred_dvb) - [Alfred](https://www.alfredapp.com) workflow for departure data (using [`dvbgo`](https://github.com/kiliankoe/dvbgo))
 - [`Amazon Echo`](https://twitter.com/ubahnverleih/status/830079491523358721) - Tweet [@ubahnverleih](https://twitter.com/ubahnverleih) for more info
+- [`catch-my-bus`](https://github.com/hoodie/catch-my-bus) - ruby script notifying you about your next bus
 - [`catch-my-bus-python`](https://github.com/meepoSenpai/catch-my-bus-python) - GTK3 StatusIcon showing current departure data
 - [`DVBot`](https://www.messenger.com/t/dvbot) - DVB Facebook Messenger Bot
 - [`ddplan`](https://github.com/4gray/ddplan) - Electron based station monitor that lives in the menubar
