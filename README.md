@@ -99,3 +99,4 @@ Mobile apps known and used in Dresden.
 - [`hubot-dvb`](https://github.com/kiliankoe/hubot-dvb) - [Hubot](https://hubot.github.com) script (using [`dvbjs`](https://github.com/kiliankoe/dvbjs))
 - [`dresden-departure-monitor`](https://github.com/don-philipe/dresden-departure-monitor) - Bashscript for getting current departure times
 - [`AbfahrtsTV`](https://github.com/kiliankoe/AbfahrtsTV) - Current departure times on your AppleTV, 'cause why not
+- [`DVBManniBot`](https://github.com/freakyblue/DVBManniBot) - Telegram bot for checking current departures
