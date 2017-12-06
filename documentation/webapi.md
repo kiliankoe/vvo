@@ -151,11 +151,87 @@ curl -X "POST" "https://webapi.vvo-online.de/dm" \
 }'
 ```
 
+
+# Trip Details
+
+Get details about the stations involved in a particular trip.
+
+## Request
+
+POST https://webapi.vvo-online.de/dm/trip
+
+### JSON Body:
+
+| Name	    | Type	    | Description	                                                    | Required |
+| --------- | --------- | ----------------------------------------------------------------- | -------- |
+| `tripid`  | String	| The "id" received from the departure monitor (Departures\[\*\].Id).	| Yes      |
+| `time`    | String	| The current time as unix timestamp plus timezone. Has to be in the future. Most likely from a departure monitor response (Departures\[\*\].RealTime / Departures\[\*\].ScheduledTime). | Yes |
+| `stopid`  | String	| ID of a stop in the route. This stop will be marked with Position=Current in the response. | Yes |
+| `mapdata` | Bool	    | Unknown. Seems to have no effect.	                                | No       |
+
+
+```
+curl -X "POST" "https://webapi.vvo-online.de/dm/trip" \
+     -H 'Content-Type: application/json; charset=utf-8' \
+     -d $'{
+  "tripid": "71313709",
+  "time": "/Date(1512563081000+0100)/",
+  "stopid": "33000077"
+}'
+```
+
+## Response
+```
+{
+  "Stops": [
+    ...
+    {
+      "Id": "33000076",
+      "Place": "Dresden",
+      "Name": "Laibacher Straße",
+      "Position": "Previous",
+      "Platform": {
+        "Name": "2",
+        "Type": "Platform"
+      },
+      "Time": "\/Date(1512563021000+0100)\/"
+    },
+    {
+      "Id": "33000077",
+      "Place": "Dresden",
+      "Name": "Großglocknerstraße",
+      "Position": "Current",
+      "Platform": {
+        "Name": "2",
+        "Type": "Platform"
+      },
+      "Time": "\/Date(1512563081000+0100)\/"
+    },
+    {
+      "Id": "33000078",
+      "Place": "Dresden",
+      "Name": "Friedhof Leuben",
+      "Position": "Next",
+      "Platform": {
+        "Name": "2",
+        "Type": "Platform"
+      },
+      "Time": "\/Date(1512563141000+0100)\/"
+    },
+    ...
+  ],
+  "Status": {
+    "Code": "Ok"
+  },
+  "ExpirationTime": "\/Date(1512565171371+0100)\/"
+}
+```
+
+
 # TODO
 
 - https://webapi.vvo-online.de/tr/trips
 - https://webapi.vvo-online.de/map/pins
 - https://webapi.vvo-online.de/rc
 - https://webapi.vvo-online.de/stt/lines
-- https://webapi.vvo-online.de/dm/trip
 - (https://webapi.vvo-online.de/tr/handyticket)
