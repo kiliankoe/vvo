@@ -20,14 +20,14 @@ Got any more info, details, links? Please don't hesitate to open an issue and/or
 - [`Widgets`](http://widgets.vvo-online.de)
   - For the [VVO widgets](https://www.vvo-online.de/de/service/widgets/index.cshtml)
   - No known official documentation
-  - See [Wiki](https://github.com/kiliankoe/vvo/wiki/Widgets) for reverse-engineered docs
+  - See [documentation/widgets](https://github.com/kiliankoe/vvo/blob/master/documentation/widgets.md) for reverse-engineered docs
 - [`WebAPI`](https://webapi.vvo-online.de)
   - New API used by the mobile page (and therefore the official app)
   - No known official documentation
-  - See [Wiki](https://github.com/kiliankoe/vvo/wiki/WebAPI) for reverse-engineered docs
+  - See [documentation/webapi](https://github.com/kiliankoe/vvo/blob/master/documentation/webapi.md) for reverse-engineered docs
 - [`EFA`](http://efa.vvo-online.de:8080)
   - "Classic" interface for trip requests
-  - No known (public) documentation ([yet?](https://github.com/kiliankoe/vvo/wiki))
+  - No known (public) documentation (yet?)
 - [`Trias`](http://trias.vvo-online.de:9000/middleware/data/trias)
   - Brand new and still in the process of being implemented afaik
   - "Documentation" [here](https://www.vdv.de/431-2sds-v1.1.pdfx?forced=true)
@@ -35,10 +35,10 @@ Got any more info, details, links? Please don't hesitate to open an issue and/or
   - Closed access
   - For web-based [departure monitors](https://www.dvb.de/de-de/service/geschaeftskunden/abfahrtsmonitor/)
   - See [#3](https://github.com/kiliankoe/vvo/issues/3) for some more information
-  - No known (public) documentation ([yet?](https://github.com/kiliankoe/vvo/wiki))
+  - No known (public) documentation (yet?)
 - [`DVB Maps App`](https://www.dvb.de/apps/map/)
   - POI search and reverse geocoding
-  - No known (public) documentation ([yet?](https://github.com/kiliankoe/vvo/wiki))
+  - No known (public) documentation (yet?)
 
 
 
