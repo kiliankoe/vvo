@@ -228,6 +228,236 @@ curl -X "POST" "https://webapi.vvo-online.de/dm/trip" \
 ```
 
 
+# Query a Trip
+
+Query how to get from station "Hauptbahnhof" (stopid 33000028) to station
+"Bahnhof Neustadt" (stopid 33000016).
+
+## Request
+
+POST https://webapi.vvo-online.de/tr/trips
+
+### JSON body
+
+| Name               | Type        | Description       | Required |
+| ------------------ | ----------- | ----------------- | -------- |
+| `origin`           | String      | stopid of start station | yes |
+| `destination`      | String      | stopid of destination station | yes |
+| `shorttermchanges` | Bool        | unknown           | no (missing behaves like `shorttermchanges = false`) |
+| `time`             | String      | ISO8601 timestamp | no  |
+| `isarrivaltime`    | Bool        | is `time` arrival or departure | no |
+
+```bash
+curl -X "POST" "https://webapi.vvo-online.de/tr/trips?format=json" \
+     -H 'Content-Type: application/json; charset=utf-8' \
+     -H 'X-Requested-With: de.dvb.dvbmobil' \
+     -d $'{
+            "destination": "33000016",
+            "isarrivaltime": false,
+            "mobilitySettings": {
+                "mobilityRestriction": "None"
+            },
+            "origin": "33000028",
+            "shorttermchanges": true,
+            "standardSettings": {
+                "footpathToStop": 5,
+                "includeAlternativeStops": true,
+                "maxChanges": "Unlimited",
+                "mot": [
+                    "Tram",
+                    "CityBus",
+                    "IntercityBus",
+                    "SuburbanRailway",
+                    "Train",
+                    "Cableway",
+                    "Ferry",
+                    "HailedSharedTaxi"
+                ],
+                "walkingSpeed": "Normal"
+            },
+            "time": "2017-12-08T21:36:42.775Z"
+        }'
+```
+
+## Response
+
+```json
+{
+    "Routes": [
+        ...
+        {
+            "Duration": 11,
+            "FareZoneDestination": 10,
+            "FareZoneOrigin": 10,
+            "Interchanges": 0,
+            "MapData": [
+                "Tram|5657496|4621684|5657555|4621712|5657572|4621722|5657589|4621733|5657611|4621746|5657637|4621762|5657694|4621796|5657694|4621796|5657700|4621800|5657729|4621819|5657795|4621859|5657861|4621902|5657888|4621922|5657930|4621954|5657978|4621990|5657978|4621990|5658017|4622019|5658176|4622138|5658240|4622191|5658279|4622224|5658347|4622282|5658358|4622291|5658377|4622302|5658414|4622319|5658476|4622350|5658551|4622387|5658551|4622387|5658574|4622398|5658588|4622406|5658595|4622411|5658607|4622421|5658621|4622432|5658628|4622440|5658629|4622441|5658638|4622450|5658661|4622474|5658682|4622494|5658692|4622502|5658702|4622509|5658765|4622541|5658816|4622567|5658852|4622582|5658870|4622587|5658888|4622592|5658901|4622595|5658937|4622602|5658957|4622607|5658957|4622607|5658966|4622609|5658990|4622613|5659010|4622615|5659021|4622615|5659035|4622614|5659058|4622612|5659091|4622606|5659388|4622527|5659435|4622516|5659441|4622514|5659473|4622506|5659512|4622508|5659520|4622508|5659556|4622511|5659556|4622511|5659562|4622512|5659581|4622513|5659603|4622512|5659946|4622487|5659981|4622486|5660008|4622484|5660032|4622487|5660053|4622494|5660065|4622499|5660090|4622515|5660123|4622534|5660124|4622534|5660124|4622534|5660134|4622541|5660148|4622549|5660244|4622401|5660271|4622315|5660278|4622254|5660285|4622217|5660291|4622151|"
+            ],
+            "MapPdfId": "VVO_5A2B062D3",
+            "MotChain": [
+                {
+                    "Changes": [
+                        "510690"
+                    ],
+                    "Direction": " Btf Trachenberge",
+                    "Diva": {
+                        "Network": "voe",
+                        "Number": "11003"
+                    },
+                    "Name": "3",
+                    "Type": "Tram"
+                }
+            ],
+            "PartialRoutes": [
+                {
+                    "Duration": 11,
+                    "MapDataIndex": 0,
+                    "Mot": {
+                        "Changes": [
+                            "510690"
+                        ],
+                        "Direction": " Btf Trachenberge",
+                        "Diva": {
+                            "Network": "voe",
+                            "Number": "11003"
+                        },
+                        "Name": "3",
+                        "Type": "Tram"
+                    },
+                    "PartialRouteId": 0,
+                    "RegularStops": [
+                        {
+                            "ArrivalTime": "/Date(1512769800000-0000)/",
+                            "DataId": "33000028",
+                            "DepartureTime": "/Date(1512769800000-0000)/",
+                            "Latitude": 5657497,
+                            "Longitude": 4621685,
+                            "MapPdfId": "VVO_5A2B062D4",
+                            "Name": "Hauptbahnhof",
+                            "Place": "Dresden",
+                            "Platform": {
+                                "Name": "3",
+                                "Type": "Railtrack"
+                            },
+                            "Type": "Stop"
+                        },
+                        {
+                            "ArrivalTime": "/Date(1512769860000-0000)/",
+                            "DataId": "33000032",
+                            "DepartureTime": "/Date(1512769860000-0000)/",
+                            "Latitude": 5657693,
+                            "Longitude": 4621797,
+                            "Name": "Hauptbahnhof Nord",
+                            "Place": "Dresden",
+                            "Platform": {
+                                "Name": "1",
+                                "Type": "Platform"
+                            },
+                            "Type": "Stop"
+                        },
+                        {
+                            "ArrivalTime": "/Date(1512769920000-0000)/",
+                            "DataId": "33000029",
+                            "DepartureTime": "/Date(1512769920000-0000)/",
+                            "Latitude": 5657981,
+                            "Longitude": 4621985,
+                            "Name": "Walpurgisstraße",
+                            "Place": "Dresden",
+                            "Platform": {
+                                "Name": "1",
+                                "Type": "Platform"
+                            },
+                            "Type": "Stop"
+                        },
+                        {
+                            "ArrivalTime": "/Date(1512770040000-0000)/",
+                            "DataId": "33000005",
+                            "DepartureTime": "/Date(1512770040000-0000)/",
+                            "Latitude": 5658549,
+                            "Longitude": 4622390,
+                            "Name": "Pirnaischer Platz",
+                            "Place": "Dresden",
+                            "Platform": {
+                                "Name": "4",
+                                "Type": "Platform"
+                            },
+                            "Type": "Stop"
+                        },
+                        {
+                            "ArrivalTime": "/Date(1512770100000-0000)/",
+                            "DataId": "33000015",
+                            "DepartureTime": "/Date(1512770100000-0000)/",
+                            "Latitude": 5658956,
+                            "Longitude": 4622609,
+                            "Name": "Synagoge",
+                            "Place": "Dresden",
+                            "Platform": {
+                                "Name": "2",
+                                "Type": "Platform"
+                            },
+                            "Type": "Stop"
+                        },
+                        {
+                            "ArrivalTime": "/Date(1512770220000-0000)/",
+                            "DataId": "33000014",
+                            "DepartureTime": "/Date(1512770220000-0000)/",
+                            "Latitude": 5659556,
+                            "Longitude": 4622513,
+                            "Name": "Carolaplatz",
+                            "Place": "Dresden",
+                            "Platform": {
+                                "Name": "4",
+                                "Type": "Platform"
+                            },
+                            "Type": "Stop"
+                        },
+                        {
+                            "ArrivalTime": "/Date(1512770340000-0000)/",
+                            "DataId": "33000013",
+                            "DepartureTime": "/Date(1512770340000-0000)/",
+                            "Latitude": 5660122,
+                            "Longitude": 4622537,
+                            "Name": "Albertplatz",
+                            "Place": "Dresden",
+                            "Platform": {
+                                "Name": "2",
+                                "Type": "Platform"
+                            },
+                            "Type": "Stop"
+                        },
+                        {
+                            "ArrivalTime": "/Date(1512770460000-0000)/",
+                            "DataId": "33000016",
+                            "DepartureTime": "/Date(1512770460000-0000)/",
+                            "Latitude": 5660290,
+                            "Longitude": 4622151,
+                            "MapPdfId": "VVO_5A2B062D5",
+                            "Name": "Bahnhof Neustadt",
+                            "Place": "Dresden",
+                            "Platform": {
+                                "Name": "2",
+                                "Type": "Platform"
+                            },
+                            "Type": "Stop"
+                        }
+                    ],
+                    "Shift": "None"
+                }
+            ],
+            "Price": "2,30",
+            "PriceLevel": 1,
+            "RouteId": 1
+        },
+        ...
+    ],
+    "SessionId": "367417461:efa4",
+    "Status": {
+        "Code": "Ok"
+    }
+}
+```
+
+
 # Route Changes
 
 Get information about route changes because of construction work or such.
@@ -240,7 +470,7 @@ POST https://webapi.vvo-online.de/rc
 
 | Name        | Type        | Description    | Required |
 | ----------- | ----------- | -------------- | -------- |
-| shortterm   | Bool        | unknown. I diffed the output with and without -> no diff | no        |
+| `shortterm` | Bool        | unknown. I diffed the output with and without -> no diff | no        |
 
 I also tried to pass other keys like mot, name, id, change, ... (each camel, pascal and lower case)
 but no error and no change in result. So it looks like you need to fetch all route changes for the
@@ -287,7 +517,6 @@ curl -X "POST" "https://webapi.vvo-online.de/rc" \
 
 # TODO
 
-- https://webapi.vvo-online.de/tr/trips
 - https://webapi.vvo-online.de/map/pins
 - https://webapi.vvo-online.de/stt/lines
 - (https://webapi.vvo-online.de/tr/handyticket)
