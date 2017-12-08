@@ -228,10 +228,66 @@ curl -X "POST" "https://webapi.vvo-online.de/dm/trip" \
 ```
 
 
+# Route Changes
+
+Get information about route changes because of construction work or such.
+
+## Request
+
+POST https://webapi.vvo-online.de/rc
+
+### JSON body
+
+| Name        | Type        | Description    | Required |
+| ----------- | ----------- | -------------- | -------- |
+| shortterm   | Bool        | unknown. I diffed the output with and without -> no diff | no        |
+
+I also tried to pass other keys like mot, name, id, change, ... (each camel, pascal and lower case)
+but no error and no change in result. So it looks like you need to fetch all route changes for the
+whole VVO and filter yourself.
+
+```bash
+curl -X "POST" "https://webapi.vvo-online.de/rc" \
+     -H 'Content-Type: application/json; charset=utf-8' \
+     -d $'{ "shortterm": true }'
+```
+
+## Response
+
+```json
+{
+    "Changes": [
+        ...
+        {
+            "Description": "<p><DIV ></DIV>\n<H2>Beschreibung</H2>\n<P><STRONG>Buslinie 79:</STRONG><BR>Umleitung <FONT color=#ff0000>nur in Richtung&nbsp;Overbeckstraße</FONT> zwischen den Haltestellen&nbsp;Rethelstraße und&nbsp;Mengsstraße über den Fahrweg <U>Rethelstraße - Werftstraße</U>.</P>\n<H2>Haltestellenanpassungen</H2>\n<UL>\n<LI>Die Haltestellen <STRONG>Kaditzer Straße</STRONG> und <STRONG>Thäterstraße</STRONG>&nbsp;werden in die <U>Rethelstraße</U> verlegt.</LI></UL></p>",
+            "Id": "511595",
+            "LineIds": [
+                "428296"
+            ],
+            "PublishDate": "/Date(1512400560000+0100)/",
+            "Title": "Dresden - Mengsstraße, Vollsperrung wegen Asphaltarbeiten",
+            "Type": "Scheduled",
+            "ValidityPeriods": [
+                {
+                    "Begin": "/Date(1512529200000+0100)/",
+                    "End": "/Date(1512788400000+0100)/"
+                }
+            ]
+        },
+        ...
+    ],
+    "Status": {
+        "Code": "Ok"
+    }
+}
+```
+
+(sometimes they come back: `<font color="#abc" />`)
+
+
 # TODO
 
 - https://webapi.vvo-online.de/tr/trips
 - https://webapi.vvo-online.de/map/pins
-- https://webapi.vvo-online.de/rc
 - https://webapi.vvo-online.de/stt/lines
 - (https://webapi.vvo-online.de/tr/handyticket)
