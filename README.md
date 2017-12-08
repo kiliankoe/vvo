@@ -102,3 +102,4 @@ Mobile apps known and used in Dresden.
 - [`DVBManniBot`](https://github.com/freakyblue/DVBManniBot) - Telegram bot for checking current departures
 - [`Verkehrsbot`](https://github.com/dirkonet/verkehrsbot) - another Telegram bot for checking current departures (using [`dvbpy`](https://github.com/kiliankoe/dvbpy))
 - [`dvb-on-esp32`](https://github.com/andiikaa/dvb-on-esp32) - Current depature times on lcd via ESP32 (Arduino)
+- [`dvb-browser`](https://github.com/pabra/dvb-browser) - Vue.js (mobile) browser app showing real time departures really fast
