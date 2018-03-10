@@ -11,8 +11,8 @@ Got any more info, details, links? Please don't hesitate to open an issue and/or
 ## Static Data
 
 - [`stations.csv`](https://raw.githubusercontent.com/kiliankoe/vvo/master/stations.csv) - A list of all stations including coordinates.
-- [`kuerzel_dresden.csv`](https://raw.githubusercontent.com/kiliankoe/vvo/master/kuerzel/kuerzel_dresden.csv) - A list of stations abbreviations in Dresden
-- [`kuerzel_umland.csv`](https://raw.githubusercontent.com/kiliankoe/vvo/master/kuerzel/kuerzel_umland.csv) - A list of stations abbreviations around Dresden including their city
+- [`kuerzel_dresden.csv`](https://raw.githubusercontent.com/kiliankoe/vvo/master/kuerzel/kuerzel_dresden.csv) - A list of station abbreviations in Dresden
+- [`kuerzel_umland.csv`](https://raw.githubusercontent.com/kiliankoe/vvo/master/kuerzel/kuerzel_umland.csv) - A list of station abbreviations around Dresden
 
 
 
