@@ -52,6 +52,7 @@ Client libraries for various languages, sorted in no particular order. Although 
 - [`dvbpy`](https://github.com/kiliankoe/dvbpy) - Client library for Python
 - [`dresdner-verkehrsbetriebe`](https://github.com/offenesdresden/dresdner-verkehrsbetriebe) - Client library for Haskell
 - [`DVB`](https://github.com/kiliankoe/DVB) - Client library for Swift
+- [`jVVO`](https://github.com/PhilippMatthes/jVVO) - Client library for Java (ported from [`DVB`](https://github.com/kiliankoe/DVB))
 - [`dvbrb`](https://github.com/kiliankoe/dvbrb) - Client library for Ruby
 - [`dvbgo`](https://github.com/kiliankoe/dvbgo) - Client library for Go
 - [`dvb-rs`](https://github.com/hoodie/dvb-rs) - Client library for Rust
@@ -59,18 +60,18 @@ Client libraries for various languages, sorted in no particular order. Although 
 
 To make it more obvious which lib support which features, here's a nifty table.
 
-|                       | JavaScript | Python  | Haskell | Swift | Ruby |  Go  | Rust |
-| --------------------- | :--------: | :-----: | :-----: | :---: | :--: | :--: | :--: |
-| Find stops via name   |     ✅      |    ✅    |         |   ✅   |  ✅   |      |  ✅   |
-| Find stops via coords |     ✅      |    ✅    |         |   ✅   |      |      |      |
-| Departure Monitor     |     ✅      |    ✅    |    ✅    |   ✅   |  ✅   |  ✅   |  ✅   |
-| Routing               |     ✅      |    ✅    |    ✅    |   ✅   |      |      |      |
-| Reverse Geocoding     |     ✅      |    ✅    |         |   ✅   |      |      |      |
-| POI Search            |     ✅      |    ✅    |         |       |      |      |      |
-| Route Changes         |            |         |         |   ✅   |      |      |      |
-| Supported Lines       |            |         |         |   ✅   |      |      |      |
-| Route Map Location    |            |         |         |        |      |      |      |
-| Used API              |  A, E, D   | W, E, D |  W, E   |   A   |  W   |  W   |  W   |
+|                       | JavaScript | Python  | Haskell | Swift | Java | Ruby |  Go  | Rust |
+| --------------------- | :--------: | :-----: | :-----: | :---: | :--: | :--: | :--: | :--: |
+| Find stops via name   |     ✅      |    ✅    |         |   ✅   |   ✅  |  ✅   |      |  ✅   |
+| Find stops via coords |     ✅      |    ✅    |         |   ✅   |   ✅  |      |      |      |
+| Departure Monitor     |     ✅      |    ✅    |    ✅    |   ✅   |   ✅  |  ✅   |  ✅   |  ✅   |
+| Routing               |     ✅      |    ✅    |    ✅    |   ✅   |   ✅  |      |      |      |
+| Reverse Geocoding     |     ✅      |    ✅    |         |   ✅   |     |      |      |      |
+| POI Search            |     ✅      |    ✅    |         |       |      |      |      |      |
+| Route Changes         |            |         |         |   ✅   |   ✅  |      |      |      |
+| Supported Lines       |            |         |         |   ✅   |   ✅  |      |      |      |
+| Route Map Location    |            |         |         |        |      |      |      |      |
+| Used API              |  A, E, D   | W, E, D |  W, E   |   A   |   A   |  W   |  W   |  W   |
 
 W: Widgets, E: EFA, A: WebAPI, D: DVBApps
 
