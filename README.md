@@ -48,14 +48,14 @@ Got any more info, details, links? Please don't hesitate to open an issue and/or
 
 Client libraries for various languages, sorted in no particular order. Although the names are specific to the DVB, most if not all of them are compatible with everything in the VVO network.
 
-- [`dvbjs`](https://github.com/kiliankoe/dvbjs) - Client library for Node.js
-- [`dvbpy`](https://github.com/kiliankoe/dvbpy) - Client library for Python
-- [`dresdner-verkehrsbetriebe`](https://github.com/offenesdresden/dresdner-verkehrsbetriebe) - Client library for Haskell
-- [`DVB`](https://github.com/kiliankoe/DVB) - Client library for Swift
-- [`jVVO`](https://github.com/PhilippMatthes/jVVO) - Client library for Java (ported from [`DVB`](https://github.com/kiliankoe/DVB))
-- [`dvbrb`](https://github.com/kiliankoe/dvbrb) - Client library for Ruby
-- [`dvbgo`](https://github.com/kiliankoe/dvbgo) - Client library for Go
-- [`dvb-rs`](https://github.com/hoodie/dvb-rs) - Client library for Rust
+- Node.js: [`dvbjs`](https://github.com/kiliankoe/dvbjs)
+- Python: [`dvbpy`](https://github.com/kiliankoe/dvbpy)
+- Haskell: [`dresdner-verkehrsbetriebe`](https://github.com/offenesdresden/dresdner-verkehrsbetriebe)
+- Swift: [`DVB`](https://github.com/kiliankoe/DVB)
+- Java: [`jVVO`](https://github.com/PhilippMatthes/jVVO)
+- Ruby: [`dvbrb`](https://github.com/kiliankoe/dvbrb)
+- Go: [`dvbgo`](https://github.com/kiliankoe/dvbgo)
+- Rust: [`dvb-rs`](https://github.com/hoodie/dvb-rs)
 
 
 To make it more obvious which lib support which features, here's a nifty table.
