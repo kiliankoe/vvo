@@ -108,3 +108,4 @@ Mobile apps known and used in Dresden.
 - [`dvb-on-esp32`](https://github.com/andiikaa/dvb-on-esp32) - Current depature times on lcd via ESP32 (Arduino)
 - [`dvb-browser`](https://github.com/pabra/dvb-browser) - Vue.js (mobile) browser app showing real time departures really fast
 - [`oepnvdresdenbot`](https://t.me/oepnvdresdenbot) - Telegram bot featuring natural language queries for departures and routes
+- [`ARKit Abfahrtsmonitor`](https://twitter.com/kiliankoe/status/1009788336976908289) - iOS ARKit demo showing departure information
