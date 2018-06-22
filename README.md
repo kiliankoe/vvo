@@ -86,7 +86,7 @@ Mobile apps known and used in Dresden.
 - [`FahrInfo Dresden`](https://itunes.apple.com/de/app/fahrinfo-dresden/id314790387?mt=8) - cross-platform
 - [`Öffi`](https://play.google.com/store/apps/details?id=de.schildbach.oeffi) - Android
 - [`DVB-Verspaetungen`](https://github.com/alexander-fischer/DVB-Verspaetungen) - Android app informing you about the current delay situation
-- [`Manni`](https://itunes.apple.com/us/app/manni/id1347527695?l=de&ls=1&mt=8) - iOS app to find the current location of your upcoming departure
+- `Manni` - [iOS](https://itunes.apple.com/us/app/manni/id1347527695?l=de&ls=1&mt=8) and [Android](https://play.google.com/store/apps/details?id=philippmatthes.com.manni)
 
 
 
