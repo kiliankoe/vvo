@@ -109,3 +109,4 @@ Mobile apps known and used in Dresden.
 - [`dvb-browser`](https://github.com/pabra/dvb-browser) - Vue.js (mobile) browser app showing real time departures really fast
 - [`oepnvdresdenbot`](https://t.me/oepnvdresdenbot) - Telegram bot featuring natural language queries for departures and routes
 - [`ARKit Abfahrtsmonitor`](https://twitter.com/kiliankoe/status/1009788336976908289) - iOS ARKit demo showing departure information
+- [`Departure Shortcut`](https://github.com/kiliankoe/shortcuts#dvb-abfahrten) - Shortcut for iOS' Shortcuts app showing departures
