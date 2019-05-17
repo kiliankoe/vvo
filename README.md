@@ -77,6 +77,12 @@ W: Widgets, E: EFA, A: WebAPI, D: DVBApps
 
 
 
+### Other
+
+- [TripKit/VVOProvider](https://github.com/alexander-albers/tripkit/blob/master/TripKit/VvoProvider.swift) - Part of TripKit, a Swift port of [schildbach/public-transport-enabler](https://github.com/schildbach/public-transport-enabler) for the iOS app [ÖPNV Navigator](http://navigatorapp.net)
+
+
+
 ## Apps
 
 Mobile apps known and used in Dresden.
@@ -87,6 +93,7 @@ Mobile apps known and used in Dresden.
 - [`Öffi`](https://play.google.com/store/apps/details?id=de.schildbach.oeffi) - Android
 - [`DVB-Verspaetungen`](https://github.com/alexander-fischer/DVB-Verspaetungen) - Android app informing you about the current delay situation
 - `Manni` - [iOS](https://itunes.apple.com/us/app/manni/id1347527695?l=de&ls=1&mt=8) and [Android](https://play.google.com/store/apps/details?id=philippmatthes.com.manni)
+- [`ÖPNV Navigator`](https://itunes.apple.com/de/app/öpnv-navigator/id1239908782?mt=8) - iOS, not specific to the VVO network
 
 
 
