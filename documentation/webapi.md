@@ -515,8 +515,256 @@ curl -X "POST" "https://webapi.vvo-online.de/rc" \
 (sometimes they come back: `<font color="#abc" />`)
 
 
+# Lines
+
+Get information about which lines do service which stations.
+
+## Request
+
+POST https://webapi.vvo-online.de/stt/lines
+
+### JSON body
+
+| Name     | Type   | Description    | Required |
+|----------|--------|----------------|----------|
+| `stopid` | String | ID of the stop | Yes      |
+
+```bash
+curl -X "POST" "https://webapi.vvo-online.de/stt/lines" \
+     -H 'Content-Type: application/json; charset=utf-8' \
+     -d $'{ "stopid": "33000293" }'
+```
+
+## Response
+
+```json
+  {
+    "Lines": [
+      {
+        "Name": "41",
+        "Mot": "Tram",
+        "Changes": [
+          "5482",
+          "5480",
+          "5481"
+        ],
+        "Directions": [
+          {
+            "Name": "Dresden Südvorstadt",
+            "TimeTables": [
+              {
+                "Id": "voe:11041: :H:j19:2",
+                "Name": "Ferienfahrplan - gültig vom 06.07. bis 18.08.2019"
+              }
+            ]
+          },
+          {
+            "Name": "Dresden Bühlau Ullersdorfer Platz",
+            "TimeTables": [
+              {
+                "Id": "voe:11041: :R:j19:2",
+                "Name": "Ferienfahrplan - gültig vom 06.07. bis 18.08.2019"
+              }
+            ]
+          }
+        ],
+        "Diva": {
+          "Number": "11041",
+          "Network": "voe"
+        }
+      },
+      {
+        "Name": "64",
+        "Mot": "CityBus",
+        "Changes": [
+          "5481",
+          "5466",
+          "4472"
+        ],
+        "Directions": [
+          {
+            "Name": "Dresden Kaditz Am Vorwerksfeld",
+            "TimeTables": [
+              {
+                "Id": "voe:21064: :H:j19:17",
+                "Name": "Aktualisierter Standardfahrplan - gültig ab 21.06.2019"
+              },
+              {
+                "Id": "voe:21064: :H:j19:18",
+                "Name": "Ferienfahrplan - gültig vom 08.07. bis 18.08.2019"
+              }
+            ]
+          },
+          {
+            "Name": "Dresden Reick Hülße-Gymnasium",
+            "TimeTables": [
+              {
+                "Id": "voe:21064: :R:j19:17",
+                "Name": "Aktualisierter Standardfahrplan - gültig ab 21.06.2019"
+              },
+              {
+                "Id": "voe:21064: :R:j19:18",
+                "Name": "Ferienfahrplan - gültig vom 08.07. bis 18.08.2019"
+              }
+            ]
+          }
+        ],
+        "Diva": {
+          "Number": "21064",
+          "Network": "voe"
+        }
+      },
+      {
+        "Name": "74",
+        "Mot": "CityBus",
+        "Directions": [
+          {
+            "Name": "Dresden Marienallee",
+            "TimeTables": [
+              {
+                "Id": "voe:21074:D:H:j19:1",
+                "Name": "Standardfahrplan (gültig ab 07.01.2019)"
+              }
+            ]
+          },
+          {
+            "Name": "Dresden Mathias-Oeder-Straße",
+            "TimeTables": [
+              {
+                "Id": "voe:21074:D:R:j19:1",
+                "Name": "Standardfahrplan (gültig ab 07.01.2019)"
+              }
+            ]
+          }
+        ],
+        "Diva": {
+          "Number": "21074D",
+          "Network": "voe"
+        }
+      },
+      {
+        "Name": "74",
+        "Mot": "CityBus",
+        "Directions": [
+          {
+            "Name": "Dresden Marienallee",
+            "TimeTables": [
+              {
+                "Id": "voe:21074: :H:j19:11",
+                "Name": "Ferienfahrplan - gültig vom 08.07. bis 18.08.2019"
+              }
+            ]
+          },
+          {
+            "Name": "Dresden Jägerpark Heideblick",
+            "TimeTables": [
+              {
+                "Id": "voe:21074: :R:j19:11",
+                "Name": "Ferienfahrplan - gültig vom 08.07. bis 18.08.2019"
+              }
+            ]
+          }
+        ],
+        "Diva": {
+          "Number": "21074",
+          "Network": "voe"
+        }
+      },
+      {
+        "Name": "261",
+        "Mot": "IntercityBus",
+        "Directions": [
+          {
+            "Name": "Dresden Hauptbahnhof",
+            "TimeTables": [
+              {
+                "Id": "voe:15261:m:H:j19:1",
+                "Name": "Jahresfahrplan 2019 - Gültig ab 9. Dezember 2018"
+              }
+            ]
+          },
+          {
+            "Name": "Sebnitz Busbahnhof",
+            "TimeTables": [
+              {
+                "Id": "voe:15261:m:R:j19:1",
+                "Name": "Jahresfahrplan 2019 - Gültig ab 9. Dezember 2018"
+              }
+            ]
+          }
+        ],
+        "Diva": {
+          "Number": "15261m",
+          "Network": "voe"
+        }
+      },
+      {
+        "Name": "305",
+        "Mot": "IntercityBus",
+        "Directions": [
+          {
+            "Name": "Bischofswerda Bahnhof",
+            "TimeTables": [
+              {
+                "Id": "voe:27305: :H:j19:1",
+                "Name": "Jahresfahrplan 2019 - Gültig ab 9. Dezember 2018"
+              },
+              {
+                "Id": "voe:27305: :H:j19:4",
+                "Name": "Fahrbahnerneuerung S 158 in Rammenau"
+              },
+              {
+                "Id": "voe:27305: :H:j19:6",
+                "Name": "Fahrbahnerneuerung S 158 in Rammenau + Fischhausstraße"
+              },
+              {
+                "Id": "voe:27305: :H:j19:7",
+                "Name": "Bau Fischhausstraße 29. JUli bis 16. August 2019"
+              }
+            ]
+          },
+          {
+            "Name": "Dresden Augsburger Straße",
+            "TimeTables": [
+              {
+                "Id": "voe:27305: :R:j19:1",
+                "Name": "Jahresfahrplan 2019 - Gültig ab 9. Dezember 2018"
+              }
+            ]
+          },
+          {
+            "Name": "Dresden Ammonstraße / Budapester Straße",
+            "TimeTables": [
+              {
+                "Id": "voe:27305: :R:j19:4",
+                "Name": "Fahrbahnerneuerung S 158 in Rammenau"
+              },
+              {
+                "Id": "voe:27305: :R:j19:6",
+                "Name": "Fahrbahnerneuerung S 158 in Rammenau + Fischhausstraße"
+              },
+              {
+                "Id": "voe:27305: :R:j19:7",
+                "Name": "Bau Fischhausstraße 29. JUli bis 16. August 2019"
+              }
+            ]
+          }
+        ],
+        "Diva": {
+          "Number": "27305",
+          "Network": "voe"
+        }
+      }
+    ],
+    "Status": {
+      "Code": "Ok"
+    },
+    "ExpirationTime": "/Date(1563544805289+0200)/"
+  }
+```
+
+
 # TODO
 
 - https://webapi.vvo-online.de/map/pins
-- https://webapi.vvo-online.de/stt/lines
 - (https://webapi.vvo-online.de/tr/handyticket)
