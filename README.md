@@ -120,3 +120,5 @@ Mobile apps known and used in Dresden.
 - [`ARKit Abfahrtsmonitor`](https://twitter.com/kiliankoe/status/1009788336976908289) - iOS ARKit demo showing departure information
 - [`Departure Shortcut`](https://github.com/kiliankoe/shortcuts#dvb-abfahrten) - Shortcut for iOS' Shortcuts app showing departures
 - [`dvb-mqtt`](https://github.com/seb-daehne/dvb-mqtt) - Periodically publish departure data to an mqtt broker
+- [`dvblive`](https://github.com/Tiffel/dvblive) - Visualization of tram delays for the entire city ([live demo](https://rpi.heep.sax.de/dvblive/) - [#odcdresden19](http://dresden.de/odcdresden19) project)
+- [`VV...Wo?`](https://github.com/kiliankoe/vvwo) - iOS app using natural language queries ([#odcdresden19](http://dresden.de/odcdresden19) project)
