@@ -17,6 +17,8 @@ JSON body:
 | `query`     | String | Search query                    | Yes      |
 | `limit`     | Int    | Maximum number of results       | No       |
 | `stopsOnly` | Bool   | Only search for stops if `true` | No       |
+| `regionalOnly` | Bool | Include only stops in VVO area if `true` | No |
+| `stopShortcuts` | Bool | Include stop shortcuts if `true` | No |
 
 or
 
