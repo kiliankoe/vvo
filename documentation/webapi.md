@@ -58,7 +58,18 @@ curl -X "POST" "https://webapi.vvo-online.de/tr/pointfinder" \
 
 Be aware that the elements of the `Points` array can take different forms with different types. If doing a PointFinder request for a coordinate, the first element will look like the following for example `coord:4621020:504065:NAV4:Nöthnitzer Straße 46|c||Nöthnitzer Straße 46|5655935|4621020|0||`.
 
-Any info on the format of the strings contained within `Points` would be much appreciated.
+Point strings contain nine values separated by a vertical bar (`|`). As far as we know the values are:
+| Index | Type | Description | Always included |
+| ----- | ---- | ----------- | --------------- |
+| 0     | Int or string | ID of the stop or an ID describing the point (e.g. street id) | Yes |
+| 1     | String | Unknown. Single chars like a, b, c ... | No |
+| 2     | String | City name if point is not in the VVO area | No |
+| 3     | String | Name of the stop or street | Yes |
+| 4     | Int | Right part of the GK4 coordinates | Yes |
+| 5     | Int | Up part of the GK4 coordinates | Yes |
+| 6     | Int | Unknown. Mostly 0 | Yes |
+| 7     | ??? | Unknown. | No |
+| 8     | String | Shortcut of the stop | No |
 
 
 # Departure Monitor
