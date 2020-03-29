@@ -1,5 +1,16 @@
 Base URL: `https://webapi.vvo-online.de`
 
+# Note
+VVO is using a server software called [EFA](https://www.mentz.net/loesungen/) from the German company [MENTZ GmbH](https://www.mentz.net/), located in Munich, Germany. Therefore not only the VVO is using this system, but also a lot of other transport organisations and associations like:
+* [NVBW (Nahverkehrsgesellschaft Baden-Württemberg)](https://www.nvbw.de/)
+* [Ruhrbahn](https://www.ruhrbahn.de/)
+* [DVB](https://www.dvb.de/)
+* [VRR (Verkehrsverbund Rhein-Ruhr)](https://www.vrr.de/)
+* [Naldo (Verkehrsverbund Neckar-Alb-Donau)](https://www.naldo.de/)
+* [VMS (Verkehrsverbund Mittelsachsen)](https://www.vms.de/)
+* [KVV (Karlsruher Verkehrsverbund)](https://www.kvv.de/)
+* [Verkehrsverbund Steiermark](https://verbundlinie.at/)
+
 ***All requests take a JSON body to be sent via a POST request. The parameters to be included in this are specified below.***
 
 # PointFinder
@@ -17,6 +28,8 @@ JSON body:
 | `query`     | String | Search query                    | Yes      |
 | `limit`     | Int    | Maximum number of results       | No       |
 | `stopsOnly` | Bool   | Only search for stops if `true` | No       |
+| `regionalOnly` | Bool | Include only stops in VVO area if `true` | No |
+| `stopShortcuts` | Bool | Include stop shortcuts if `true` | No |
 
 or
 
@@ -56,8 +69,69 @@ curl -X "POST" "https://webapi.vvo-online.de/tr/pointfinder" \
 
 Be aware that the elements of the `Points` array can take different forms with different types. If doing a PointFinder request for a coordinate, the first element will look like the following for example `coord:4621020:504065:NAV4:Nöthnitzer Straße 46|c||Nöthnitzer Straße 46|5655935|4621020|0||`.
 
-Any info on the format of the strings contained within `Points` would be much appreciated.
+Point strings contain nine values separated by a vertical bar (`|`). As far as we know the values are:
+| Index | Type | Description | Always included |
+| ----- | ---- | ----------- | --------------- |
+| 0     | Int or string | ID of a stop (int), or an other type (string, see below) | Yes |
+| 1     | String | Unknown. Propably type of point: `a` for streets, `p` for pois, `c` for coordinates | No |
+| 2     | String | City name if point is not in the VVO area | No |
+| 3     | String | Name of the stop or street | Yes |
+| 4     | Int | Right part of the GK4 coordinates | Yes |
+| 5     | Int | Up part of the GK4 coordinates | Yes |
+| 6     | Int | Unknown. Mostly 0 | Yes |
+| 7     | ??? | Unknown. | No |
+| 8     | String | Shortcut of the stop | No |
 
+Instead of a numeric ID for a stop, there are other types of ids:
+* streetID
+* poiID
+* suburbID
+* placeID
+* coords
+
+### Street IDs
+
+Street IDs contain 17 values separated by colons (`:`). As far as we know the values are:
+
+| Index | Type | Description | Always included |
+| ----- | ---- | ----------- | --------------- |
+| 0 | String | Suffix for streets: `streetID` | Yes |
+| 1 | Int | ID of the street (OMC) | Yes |
+| 2 | String | Street number, e.g. for `Musterstraße 42a` it's `42a` | No |
+| 3 | Int | Unknown | Yes |
+| 4 | Int | Unknown, but mostly `-1` (invalid value) | Yes |
+| 5 | String | Street name | Yes |
+| 6 | String | City name | Yes |
+| 7 | String | Street name | Yes |
+| 8 | ??? | Unknown | No |
+| 9 | String | Street name | Yes |
+| 10 | String | Postal code | Yes |
+| 11 | String | `ANY` | Yes |
+| 12 | String | Either `DIVA_STREET` for a complete street or `DIVA_SINGLEHOUSE` for a point with street number | Yes |
+| 13 | Int | Unknown. Propably right part of coordinates in MDV format | Yes |
+| 14 | Int | Unknown. Propably up part of coordinates in MDV format | Yes |
+| 15 | String | Map name, e.g. `MRCV` or `NAV4` | Yes |
+| 16 | String | Acronym of the transport association, e.g. `VVO` | Yes |
+
+### POI IDs
+
+POI IDs contain 13 values separated by colons (`:`). As far as we know the values are:
+
+| Index | Type | Description | Always included |
+| ----- | ---- | ----------- | --------------- |
+| 0 | String | Suffix for pois: `poiID` | Yes |
+| 1 | Int | ID of the poi | Yes |
+| 2 | Int | Unknown. | Yes |
+| 3 | Int | Unknown, but mostly `-1` (invalid value) | Yes |
+| 4 | String | Name of the poi | Yes |
+| 5 | String | City name | Yes |
+| 6 | String | Name of the poi | Yes |
+| 7 | String | `ANY` | Yes |
+| 8 | String | `POI` | Yes |
+| 9 | Int | Unknown. Propably right part of coordinates in MDV format | Yes |
+| 10 | Int | Unknown. Propably up part of coordinates in MDV format | Yes |
+| 11 | String | Map name, e.g. `MRCV` or `NAV4` | Yes |
+| 12 | String | Acronym of the transport association, e.g. `VVO` | Yes |
 
 # Departure Monitor
 
@@ -763,6 +837,13 @@ curl -X "POST" "https://webapi.vvo-online.de/stt/lines" \
   }
 ```
 
+# Sources
+* http://data.linz.gv.at/katalog/linz_ag/linz_ag_linien/fahrplan/EFA_XML_Schnittstelle_20151217.pdf
+* http://data.linz.gv.at/katalog/linz_ag/linz_ag_linien/fahrplan/LINZ_AG_Linien_Schnitstelle_EFA_v7_Echtzeit.pdf
+* http://data.linz.gv.at/katalog/linz_ag/linz_ag_linien/fahrplan/LINZ_LINIEN_Schnittstelle_EFA_V1.pdf
+* http://mobilitaet21.de/wp-content/uploads/2016/03/Anlage7-Demonstrator-MDV-EFA_HB_V1.2_201007_EFAFRS.pdf
+* https://www.yumpu.com/de/document/read/10943659/efa-version-10-mentz-datenverarbeitung-gmbh
+* http://dati.retecivica.bz.it/dataset/575f7455-6447-4626-a474-0f93ff03067b/resource/c4e66cdf-7749-40ad-bcfd-179f18743d84/download/dokumentationxmlschnittstelleapbv32014-08-28.pdf
 
 # TODO
 
