@@ -73,7 +73,7 @@ Point strings contain nine values separated by a vertical bar (`|`). As far as w
 | Index | Type | Description | Always included |
 | ----- | ---- | ----------- | --------------- |
 | 0     | Int or string | ID of a stop (int), or an other type (string, see below) | Yes |
-| 1     | String | Unknown. Single chars like a, b, c ... | No |
+| 1     | String | Unknown. Propably type of point: `a` for streets, `p` for pois, `c` for coordinates | No |
 | 2     | String | City name if point is not in the VVO area | No |
 | 3     | String | Name of the stop or street | Yes |
 | 4     | Int | Right part of the GK4 coordinates | Yes |
@@ -89,7 +89,10 @@ Instead of a numeric ID for a stop, there are other types of ids:
 * placeID
 * coords
 
+### Street IDs
+
 Street IDs contain 17 values separated by colons (`:`). As far as we know the values are:
+
 | Index | Type | Description | Always included |
 | ----- | ---- | ----------- | --------------- |
 | 0 | String | Suffix for streets: `streetID` | Yes |
@@ -110,6 +113,25 @@ Street IDs contain 17 values separated by colons (`:`). As far as we know the va
 | 15 | String | Map name, e.g. `MRCV` or `NAV4` | Yes |
 | 16 | String | Acronym of the transport association, e.g. `VVO` | Yes |
 
+### POI IDs
+
+POI IDs contain 13 values separated by colons (`:`). As far as we know the values are:
+
+| Index | Type | Description | Always included |
+| ----- | ---- | ----------- | --------------- |
+| 0 | String | Suffix for pois: `poiID` | Yes |
+| 1 | Int | ID of the poi | Yes |
+| 2 | Int | Unknown. | Yes |
+| 3 | Int | Unknown, but mostly `-1` (invalid value) | Yes |
+| 4 | String | Name of the poi | Yes |
+| 5 | String | City name | Yes |
+| 6 | String | Name of the poi | Yes |
+| 7 | String | `ANY` | Yes |
+| 8 | String | `POI` | Yes |
+| 9 | Int | Unknown. Propably right part of coordinates in MDV format | Yes |
+| 10 | Int | Unknown. Propably up part of coordinates in MDV format | Yes |
+| 11 | String | Map name, e.g. `MRCV` or `NAV4` | Yes |
+| 12 | String | Acronym of the transport association, e.g. `VVO` | Yes |
 
 # Departure Monitor
 
