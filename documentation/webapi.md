@@ -78,7 +78,7 @@ Point strings contain nine values separated by a vertical bar (`|`). As far as w
 | 3     | String | Name of the stop or street | Yes |
 | 4     | Int | Right part of the GK4 coordinates | Yes |
 | 5     | Int | Up part of the GK4 coordinates | Yes |
-| 6     | Int | Unknown. Mostly 0 | Yes |
+| 6     | Int | Distance, when submitting coords in query otherwise 0 | Yes |
 | 7     | ??? | Unknown. | No |
 | 8     | String | Shortcut of the stop | No |
 
