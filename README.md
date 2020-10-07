@@ -12,6 +12,7 @@ Got any more info, details, links? Please don't hesitate to open an issue and/or
 
 - [`stations.csv`](https://raw.githubusercontent.com/kiliankoe/vvo/master/stations/stations.csv) - A list of all stations including coordinates.
 - [`stations.json`](https://raw.githubusercontent.com/kiliankoe/vvo/master/stations/stations.json) - Same as above, but as GeoJSON.
+- [`VVO_STOPS.JSON`](https://www.vvo-online.de/open_data/VVO_STOPS.JSON) - daily updated list of all VVO stations.
 - [`kuerzel_dresden.csv`](https://raw.githubusercontent.com/kiliankoe/vvo/master/kuerzel/kuerzel_dresden.csv) - A list of station abbreviations in Dresden
 - [`kuerzel_umland.csv`](https://raw.githubusercontent.com/kiliankoe/vvo/master/kuerzel/kuerzel_umland.csv) - A list of station abbreviations around Dresden
 
