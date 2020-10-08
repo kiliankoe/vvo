@@ -31,7 +31,7 @@ Got any more info, details, links? Please don't hesitate to open an issue and/or
 - [`EFA`](http://efa.vvo-online.de:8080)
   - "Classic" interface for trip requests
   - No known (public) documentation (yet?)
-- [`Trias`](http://trias.vvo-online.de:9000/middleware/data/trias)
+- [`Trias`](http://trias.vvo-online.de:9000/middleware/data/trias) or [`here`](http://efa.vvo-online.de:8080/std3/trias)
   - Brand new and still in the process of being implemented afaik
   - "Documentation" [here](https://www.vdv.de/431-2sds-v1.1.pdfx?forced=true)
 - [`DVB WebDFI`](http://dfi.dvb.de/)
