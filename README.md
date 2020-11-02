@@ -123,3 +123,4 @@ Mobile apps known and used in Dresden.
 - [`dvb-mqtt`](https://github.com/seb-daehne/dvb-mqtt) - Periodically publish departure data to an mqtt broker
 - [`dvblive`](https://github.com/Tiffel/dvblive) - Visualization of tram delays for the entire city ([live demo](https://rpi.heep.sax.de/dvblive/) - [#odcdresden19](http://dresden.de/odcdresden19) project)
 - [`VV...Wo?`](https://github.com/kiliankoe/vvwo) - iOS app using natural language queries ([#odcdresden19](http://dresden.de/odcdresden19) project)
+- [`DVBFast`](https://github.com/lucasvog/dvbfast) - WebApp that displays the departure infos of the nearest stations using GPS ([live Version](https://dvbfast.github.io/))
