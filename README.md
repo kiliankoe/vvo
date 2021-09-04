@@ -101,7 +101,7 @@ Mobile apps known and used in Dresden.
 
 ## Tools, UIs & Experiments
 
-- [`Magic Mirror`](http://blog.thomas-bachmann.com/2016/02/magic-mirror-2-0-mit-gestensteuerung.html) - Shows current departure data (using [`dvbpy`](https://github.com/kiliankoe/dvbpy))
+- [`Magic Mirror`](https://web.archive.org/web/20180422030559/http://blog.thomas-bachmann.com/2016/02/magic-mirror-2-0-mit-gestensteuerung.html) - Shows current departure data (using [`dvbpy`](https://github.com/kiliankoe/dvbpy))
 - [`alfred_dvb`](https://github.com/kiliankoe/alfred_dvb) - [Alfred](https://www.alfredapp.com) workflow for departure data (using [`dvbgo`](https://github.com/kiliankoe/dvbgo))
 - [`Amazon Echo`](https://twitter.com/ubahnverleih/status/830079491523358721) - Tweet [@ubahnverleih](https://twitter.com/ubahnverleih) for more info
 - [`catch-my-bus`](https://github.com/hoodie/catch-my-bus) - ruby script notifying you about your next bus
@@ -124,3 +124,4 @@ Mobile apps known and used in Dresden.
 - [`dvblive`](https://github.com/Tiffel/dvblive) - Visualization of tram delays for the entire city ([live demo](https://rpi.heep.sax.de/dvblive/) - [#odcdresden19](http://dresden.de/odcdresden19) project)
 - [`VV...Wo?`](https://github.com/kiliankoe/vvwo) - iOS app using natural language queries ([#odcdresden19](http://dresden.de/odcdresden19) project)
 - [`DVBFast`](https://github.com/lucasvog/dvbfast) - WebApp that displays the departure infos of the nearest stations using GPS ([live Version](https://dvbfast.github.io/))
+- [`MMM-DVB`](https://github.com/skastenholz/MMM-DVB) - MagicMirror² module
