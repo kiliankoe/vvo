@@ -12,7 +12,7 @@ Params:
 
 | Name        | Type    | Description                              | Required |
 | :---------- | ------- | ---------------------------------------- | :------- |
-| `hst`       | String  | Name of the stop                         | No       |
+| `hst`       | String  | Name of the stop                         | Yes      |
 | `vz`        | Int     | Time offset, e.g. `1` minute in the future | No       |
 | `ort`       | String  | City to further specify the stop         | No       |
 | `vm`        | String  | Comma-separated list of allowed transport modes, see below | No       |
@@ -57,7 +57,7 @@ Params:
 | Name  | Type   | Description | Required |
 | ----- | ------ | ----------- | -------- |
 | `ort` | String | City name   | No       |
-| `hst` | String | Stop name   | No       |
+| `hst` | String | Stop name   | Yes      |
 
 ### Response
 
