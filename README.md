@@ -101,6 +101,7 @@ Mobile apps known and used in Dresden.
 
 ## Tools, UIs & Experiments
 
+- [`Home Assistant Integration`](https://github.com/VDenisyuk/home-assistant-transport) - Show current departure data for selected stop on Home Assistant Dashboard
 - [`Magic Mirror`](https://web.archive.org/web/20180422030559/http://blog.thomas-bachmann.com/2016/02/magic-mirror-2-0-mit-gestensteuerung.html) - Shows current departure data (using [`dvbpy`](https://github.com/kiliankoe/dvbpy))
 - [`alfred_dvb`](https://github.com/kiliankoe/alfred_dvb) - [Alfred](https://www.alfredapp.com) workflow for departure data (using [`dvbgo`](https://github.com/kiliankoe/dvbgo))
 - [`Amazon Echo`](https://twitter.com/ubahnverleih/status/830079491523358721) - Tweet [@ubahnverleih](https://twitter.com/ubahnverleih) for more info
