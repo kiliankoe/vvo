@@ -126,3 +126,4 @@ Mobile apps known and used in Dresden.
 - [`VV...Wo?`](https://github.com/kiliankoe/vvwo) - iOS app using natural language queries ([#odcdresden19](http://dresden.de/odcdresden19) project)
 - [`DVBFast`](https://github.com/lucasvog/dvbfast) - WebApp that displays the departure infos of the nearest stations using GPS ([live Version](https://dvbfast.github.io/))
 - [`MMM-DVB`](https://github.com/skastenholz/MMM-DVB) - MagicMirror² module
+- [`vvo-departures-cli`](https://aur.archlinux.org/packages/vvo-departures-cli) - CLI for querying departures information, also see [#32](https://github.com/kiliankoe/vvo/issues/32)
