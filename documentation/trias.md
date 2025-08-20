@@ -250,4 +250,3 @@ When migrating from Widget or WebAPI to TRIAS:
 
 - [VDV Website](https://www.vdv.de/) - Standards documentation
 - [TRIAS Schema Files](https://github.com/VDVde/TRIAS) - XSD definitions
-- [OpenService Platform](https://www.openservice-online.de/) - Additional TRIAS documentation
