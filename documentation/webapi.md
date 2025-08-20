@@ -1,7 +1,22 @@
+# VVO WebAPI Documentation
+
 Base URL: `https://webapi.vvo-online.de`
 
-# Note
-VVO is using a server software called [EFA](https://www.mentz.net/loesungen/) from the German company [MENTZ GmbH](https://www.mentz.net/), located in Munich, Germany. Therefore not only the VVO is using this system, but also a lot of other transport organisations and associations like:
+## Overview
+
+The WebAPI is a JSON-based REST interface used by VVO's mobile web portal (vvo-mobil.de) and the official DVB mobil app. It provides comprehensive access to transit data including stop search, departure monitors, trip planning, and route change information.
+
+**Key Characteristics:**
+- All endpoints use POST requests with JSON payloads
+- Responses use Microsoft JSON date format: `/Date(timestamp+timezone)/`
+- No authentication required for basic queries
+- Some endpoints may expect the header `X-Requested-With: de.dvb.dvbmobil`
+- Real-time data includes delay information and service alerts
+
+## Technical Notes
+
+### EFA System Background
+VVO uses the EFA (Elektronische Fahrplanauskunft) server software from [MENTZ GmbH](https://www.mentz.net/). This system is also used by many other German transit organizations including:
 * [NVBW (Nahverkehrsgesellschaft Baden-Württemberg)](https://www.nvbw.de/)
 * [Ruhrbahn](https://www.ruhrbahn.de/)
 * [DVB](https://www.dvb.de/)
@@ -11,7 +26,27 @@ VVO is using a server software called [EFA](https://www.mentz.net/loesungen/) fr
 * [KVV (Karlsruher Verkehrsverbund)](https://www.kvv.de/)
 * [Verkehrsverbund Steiermark](https://verbundlinie.at/)
 
-***All requests take a JSON body to be sent via a POST request. The parameters to be included in this are specified below.***
+### Date Format
+All timestamps in responses use Microsoft JSON date format:
+- Format: `/Date(milliseconds+timezone)/`
+- Example: `/Date(1487778279147+0100)/`
+- The timestamp is in milliseconds since Unix epoch
+- Timezone offset is included (e.g., +0100 for CET)
+
+### Coordinate System
+The API uses GK4 (Gauss-Krüger Zone 4) coordinates for location data. When working with coordinates:
+- Right (Rechtswert) and Up (Hochwert) values are used
+- These need to be converted for use with standard GPS/WGS84 systems
+
+### Rate Limiting and Stability
+Community reports indicate:
+- Occasional 503 Service Unavailable errors
+- Random timeouts may occur
+- IP-based restrictions may apply (e.g., TU Dresden network ranges)
+- Implement retry logic with exponential backoff
+- Cache responses where appropriate
+
+---
 
 # PointFinder
 
@@ -845,7 +880,51 @@ curl -X "POST" "https://webapi.vvo-online.de/stt/lines" \
 * https://www.yumpu.com/de/document/read/10943659/efa-version-10-mentz-datenverarbeitung-gmbh
 * http://dati.retecivica.bz.it/dataset/575f7455-6447-4626-a474-0f93ff03067b/resource/c4e66cdf-7749-40ad-bcfd-179f18743d84/download/dokumentationxmlschnittstelleapbv32014-08-28.pdf
 
-# TODO
+# Additional Endpoints (Not Yet Documented)
 
-- https://webapi.vvo-online.de/map/pins
-- (https://webapi.vvo-online.de/tr/handyticket)
+The following endpoints have been identified but require further documentation:
+
+## Map Pins
+- **Endpoint:** `https://webapi.vvo-online.de/map/pins`
+- **Purpose:** Likely returns map markers/pins for stops or POIs
+- **Method:** POST (assumed)
+
+## Handy Ticket
+- **Endpoint:** `https://webapi.vvo-online.de/tr/handyticket`
+- **Purpose:** Mobile ticketing integration
+- **Method:** POST (assumed)
+- **Note:** May require authentication or special access
+
+## POI Search (DVB Maps)
+- **Purpose:** Points of Interest search and reverse geocoding
+- **Note:** Used by DVB's interactive map at dvb.de/apps/map/
+- **Status:** Internal API, not publicly documented
+
+---
+
+# Error Handling
+
+All endpoints return a status object in the response:
+
+```json
+{
+  "Status": {
+    "Code": "Ok"
+  }
+}
+```
+
+Common status codes:
+- `Ok` - Request successful
+- `InvalidRequest` - Malformed request or missing parameters
+- `NoData` - No results found
+- `ServerError` - Internal server error
+
+## Best Practices
+
+1. **Error Handling**: Always check the Status.Code field before processing results
+2. **Timeouts**: Set reasonable timeouts (10-30 seconds) for requests
+3. **Retries**: Implement exponential backoff for failed requests
+4. **Caching**: Cache stop IDs and static data to reduce API calls
+5. **User Agent**: Consider setting a descriptive User-Agent header
+6. **Rate Limiting**: Be respectful of the service; avoid excessive requests

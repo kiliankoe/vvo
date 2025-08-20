@@ -1,10 +1,32 @@
 # 🚏VVO
 
-This is a list of API endpoints, libraries, apps, tools and anything else that's available to access data in the [Verkehrsverbund Oberelbe](https://www.vvo-online.de/de) network. This includes the [Dresdner Verkehrsbetriebe](https://www.dvb.de/de-de/).
+This is a comprehensive list of API endpoints, libraries, apps, tools and resources for accessing public transportation data in the [Verkehrsverbund Oberelbe](https://www.vvo-online.de/de) (VVO) network, which includes the [Dresdner Verkehrsbetriebe](https://www.dvb.de/de-de/) (DVB).
+
+This repository serves as the primary community resource for Dresden transit API documentation, containing reverse-engineered specifications, links to client libraries, and a comprehensive ecosystem overview.
 
 This document is inspired by [derhuerst/vbb-modules](https://github.com/derhuerst/vbb-modules).
 
 Got any more info, details, links? Please don't hesitate to open an issue and/or PR 🙃
+
+## 📚 Documentation Overview
+
+- **[API Comparison Guide](documentation/api-comparison.md)** - Feature matrix and selection guide for choosing the right API
+- **[Widget API](documentation/widgets.md)** - Simple GET-based API for departure monitors
+- **[WebAPI](documentation/webapi.md)** - JSON REST API used by mobile apps
+- **[TRIAS API](documentation/trias.md)** - Official XML-based API following European standards
+- **[GTFS Data](documentation/gtfs.md)** - Standard transit data format with static and real-time feeds
+
+## ⚖️ Legal Information
+
+**EU Open Data Requirements**: Under EU Regulation 2017/1926, transit data must be made available in machine-readable formats. VVO complies through various APIs and data formats.
+
+**Usage Terms**:
+- **Widget API**: Non-commercial use only, fair use policy applies
+- **WebAPI**: No official terms, use respectfully
+- **TRIAS**: Official API, commercial use allowed with agreement
+- **GTFS**: Licensed under CC BY-SA 4.0 or DL-DE-BY 2.0
+
+For commercial applications or high-volume usage, contact VVO at opendata@vvo-online.de.
 
 ## Static Data
 
@@ -16,41 +38,64 @@ Got any more info, details, links? Please don't hesitate to open an issue and/or
 
 ## APIs
 
-- [`Widgets`](http://widgets.vvo-online.de)
-  - For the VVO widgets
-  - No known official documentation
-  - See [documentation/widgets](https://github.com/kiliankoe/vvo/blob/master/documentation/widgets.md) for reverse-engineered docs
-- [`WebAPI`](https://webapi.vvo-online.de)
-  - New API used by the mobile page (and therefore the official app)
-  - No known official documentation
-  - See [documentation/webapi](https://github.com/kiliankoe/vvo/blob/master/documentation/webapi.md) for reverse-engineered docs
-- [`EFA`](http://efa.vvo-online.de:8080)
-  - "Classic" interface for trip requests
-  - No known (public) documentation (yet?)
-- [`Trias`](http://trias.vvo-online.de:9000/middleware/data/trias) or [`here`](http://efa.vvo-online.de:8080/std3/trias)
-  - Brand new and still in the process of being implemented afaik
-  - "Documentation" [v1.1](https://www.vdv.de/431-2sds-v1.1.pdfx?forced=true) or [v1.2](https://www.vdv.de/431-2-sdsv1.2.pdfx?forced=false)
-- [`DVB WebDFI`](http://dfi.dvb.de/)
-  - Closed access
-  - For web-based [departure monitors](https://www.dvb.de/de-de/service/geschaeftskunden/abfahrtsmonitor/)
-  - See [#3](https://github.com/kiliankoe/vvo/issues/3) for some more information
-  - No known (public) documentation (yet?)
-- [`DVB Maps App`](https://www.dvb.de/apps/map/)
+### 🟢 Open Access APIs
+
+- **[TRIAS API](documentation/trias.md)** - `https://trias.vvo-online.de:9000/middleware/data/trias`
+  - **Official** XML-based API following VDV 431-2 standard
+  - Comprehensive features: journey planning, real-time departures, stop search
+  - No authentication required (use RequestorRef: "OpenService")
+  - [VDV Standard v1.1](https://www.vdv.de/431-2sds-v1.1.pdfx?forced=true) or [v1.2](https://www.vdv.de/431-2-sdsv1.2.pdfx?forced=false)
+
+- **[Widget API](documentation/widgets.md)** - `http://widgets.vvo-online.de`
+  - Simple GET-based API for departure monitors
+  - Lightweight JSON responses
+  - ⚠️ Non-commercial use only
+  - [Documentation](documentation/widgets.md) (reverse-engineered)
+
+- **[WebAPI](documentation/webapi.md)** - `https://webapi.vvo-online.de`
+  - JSON REST API used by mobile apps
+  - Real-time data with delays and platform info
+  - Comprehensive but unofficial
+  - [Documentation](documentation/webapi.md) (reverse-engineered)
+
+- **[EFA Classic](http://efa.vvo-online.de:8080)** - `http://efa.vvo-online.de:8080`
+  - Legacy XML trip planning interface
+  - Being superseded by TRIAS
+  - No public documentation
+
+### 🔒 Restricted Access APIs
+
+- **[DVB WebDFI](http://dfi.dvb.de/)** - `http://dfi.dvb.de/`
+  - Digital departure display interface
+  - Requires registration with DVB
+  - For business customers only
+  - See [#3](https://github.com/kiliankoe/vvo/issues/3) for details
+
+- **[DVB Maps API](https://www.dvb.de/apps/map/)**
   - POI search and reverse geocoding
-  - No known (public) documentation (yet?)
+  - Internal API, not publicly accessible
+  - No documentation available
+
+### 📊 Data Downloads
+
+- **[GTFS Feeds](documentation/gtfs.md)**
+  - Static: Daily updated schedule data
+  - Real-time: Vehicle positions and delays
+  - Standard format compatible with many tools
+  - Licensed under CC BY-SA 4.0
 
 ## Libraries
 
-Client libraries for various languages, sorted in no particular order. Although the names are specific to the DVB, most if not all of them are compatible with everything in the VVO network.
+Client libraries for various languages, sorted in no particular order. Although some of the names are specific to the DVB, most if not all of them are compatible with everything in the VVO network.
 
-- Node.js: [`dvbjs`](https://github.com/kiliankoe/dvbjs)
-- Python: [`dvbpy`](https://github.com/kiliankoe/dvbpy)
-- Haskell: [`dresdner-verkehrsbetriebe`](https://github.com/offenesdresden/dresdner-verkehrsbetriebe)
-- Swift: [`DVB`](https://github.com/kiliankoe/DVB)
-- Java: [`jVVO`](https://github.com/PhilippMatthes/jVVO)
-- Ruby: [`dvbrb`](https://github.com/kiliankoe/dvbrb)
-- Go: [`dvbgo`](https://github.com/kiliankoe/dvbgo)
-- Rust: [`dvb-rs`](https://github.com/hoodie/dvb-rs)
+- **Node.js**: [`dvbjs`](https://github.com/kiliankoe/dvbjs) - WebAPI client with TypeScript support
+- **Python**: [`dvbpy`](https://github.com/kiliankoe/dvbpy) - Pythonic WebAPI wrapper
+- **Haskell**: [`dresdner-verkehrsbetriebe`](https://github.com/offenesdresden/dresdner-verkehrsbetriebe) - Widget API client
+- **Swift**: [`DVB`](https://github.com/kiliankoe/DVB) - iOS/macOS client for WebAPI
+- **Java**: [`jVVO`](https://github.com/PhilippMatthes/jVVO) - WebAPI client for JVM
+- **Ruby**: [`dvbrb`](https://github.com/kiliankoe/dvbrb) - Supports both APIs
+- **Go**: [`dvbgo`](https://github.com/kiliankoe/dvbgo) - WebAPI client
+- **Rust**: [`dvb-rs`](https://github.com/hoodie/dvb-rs) - Widget API client
 
 ### Other
 
