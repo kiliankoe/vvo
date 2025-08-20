@@ -2,8 +2,8 @@ name: Update Station Data
 
 on:
   schedule:
-    # Run every Monday at 3:00 AM UTC
-    - cron: '0 3 * * 1'
+    # Run daily at 3:00 AM UTC
+    - cron: '0 3 * * *'
   workflow_dispatch: # Allow manual trigger
 
 jobs:
