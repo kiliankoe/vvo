@@ -6,8 +6,6 @@ This document is inspired by [derhuerst/vbb-modules](https://github.com/derhuers
 
 Got any more info, details, links? Please don't hesitate to open an issue and/or PR 🙃
 
-
-
 ## Static Data
 
 - [`stations.csv`](https://raw.githubusercontent.com/kiliankoe/vvo/master/stations/stations.csv) - A list of all stations including coordinates.
@@ -16,13 +14,10 @@ Got any more info, details, links? Please don't hesitate to open an issue and/or
 - [`kuerzel_dresden.csv`](https://raw.githubusercontent.com/kiliankoe/vvo/master/kuerzel/kuerzel_dresden.csv) - A list of station abbreviations in Dresden
 - [`kuerzel_umland.csv`](https://raw.githubusercontent.com/kiliankoe/vvo/master/kuerzel/kuerzel_umland.csv) - A list of station abbreviations around Dresden
 
-
-
-
 ## APIs
 
 - [`Widgets`](http://widgets.vvo-online.de)
-  - For the [VVO widgets](https://www.vvo-online.de/de/service/widgets/index.cshtml)
+  - For the VVO widgets
   - No known official documentation
   - See [documentation/widgets](https://github.com/kiliankoe/vvo/blob/master/documentation/widgets.md) for reverse-engineered docs
 - [`WebAPI`](https://webapi.vvo-online.de)
@@ -44,8 +39,6 @@ Got any more info, details, links? Please don't hesitate to open an issue and/or
   - POI search and reverse geocoding
   - No known (public) documentation (yet?)
 
-
-
 ## Libraries
 
 Client libraries for various languages, sorted in no particular order. Although the names are specific to the DVB, most if not all of them are compatible with everything in the VVO network.
@@ -59,31 +52,9 @@ Client libraries for various languages, sorted in no particular order. Although 
 - Go: [`dvbgo`](https://github.com/kiliankoe/dvbgo)
 - Rust: [`dvb-rs`](https://github.com/hoodie/dvb-rs)
 
-
-To make it more obvious which lib support which features, here's a nifty table.
-
-|                       | JavaScript | Python  | Haskell | Swift | Java | Ruby |  Go  | Rust |
-| --------------------- | :--------: | :-----: | :-----: | :---: | :--: | :--: | :--: | :--: |
-| Find stops via name   |     ✅      |    ✅    |         |   ✅   |   ✅  |  ✅   |      |  ✅   |
-| Find stops via coords |     ✅      |    ✅    |         |   ✅   |   ✅  |      |      |      |
-| Departure Monitor     |     ✅      |    ✅    |    ✅    |   ✅   |   ✅  |  ✅   |  ✅   |  ✅   |
-| Routing               |     ✅      |    ✅    |    ✅    |   ✅   |   ✅  |      |      |      |
-| Reverse Geocoding     |     ✅      |    ✅    |         |   ✅   |     |      |      |      |
-| POI Search            |     ✅      |    ✅    |         |       |      |      |      |      |
-| Route Changes         |            |         |         |   ✅   |   ✅  |      |      |      |
-| Supported Lines       |            |         |         |   ✅   |   ✅  |      |      |      |
-| Route Map Location    |            |         |         |        |      |      |      |      |
-| Used API              |  A, E, D   | W, E, D |  W, E   |   A   |   A   |  W   |  W   |  W   |
-
-W: Widgets, E: EFA, A: WebAPI, D: DVBApps
-
-
-
 ### Other
 
-- [TripKit/VVOProvider](https://github.com/alexander-albers/tripkit/blob/master/TripKit/VvoProvider.swift) - Part of TripKit, a Swift port of [schildbach/public-transport-enabler](https://github.com/schildbach/public-transport-enabler) for the iOS app [ÖPNV Navigator](http://navigatorapp.net)
-
-
+- [TripKit/VvoProvider](https://github.com/alexander-albers/tripkit/blob/main/Sources/TripKit/Provider/Implementations/VvoProvider.swift) - Part of TripKit, a Swift port of [schildbach/public-transport-enabler](https://github.com/schildbach/public-transport-enabler) for the iOS app [ÖPNV Navigator](http://navigatorapp.net)
 
 ## Apps
 
@@ -91,14 +62,14 @@ Mobile apps known and used in Dresden.
 
 - [`DVB mobil`](https://www.dvb.de/de-de/fahrplan/dvb-mobil/) - Official, cross-platform
 - [`ÖPNV Navigator`](https://itunes.apple.com/de/app/öpnv-navigator/id1239908782?mt=8) - iOS, not specific to the VVO network
-- [`Faplino`](https://play.google.com/store/apps/details?id=de.faplino) - Android
-- [`Öffi`](https://play.google.com/store/apps/details?id=de.schildbach.oeffi) - Android
-- [`FahrInfo Dresden`](https://itunes.apple.com/de/app/fahrinfo-dresden/id314790387?mt=8) - cross-platform
+- [`Öffi`](https://f-droid.org/packages/de.schildbach.oeffi/) - Android
 - [`Haltestellenmonitor-v3`](https://github.com/HanashiDev/Haltestellenmonitor-v3) - iOS
-- [`DVB-Verspaetungen`](https://github.com/alexander-fischer/DVB-Verspaetungen) - Android app informing you about the current delay situation
-- [`Manni`](https://itunes.apple.com/us/app/manni/id1347527695?l=de&ls=1&mt=8) - iOS
 
-
+**Deprecated**
+- [`Manni`](https://github.com/manni-app/manni-ios) - iOS (no longer on App Store, repository archived)
+- [`DVB-Verspaetungen`](https://github.com/alexander-fischer/DVB-Verspaetungen) - Android app informing you about the current delay situation (repository archived)
+- `FahrInfo Dresden` - cross-platform (removed from public stores)
+- `Faplino` - Android (removed from Play Store in July 2022)
 
 ## Tools, UIs & Experiments
 
@@ -123,7 +94,7 @@ Mobile apps known and used in Dresden.
 - [`ARKit Abfahrtsmonitor`](https://twitter.com/kiliankoe/status/1009788336976908289) - iOS ARKit demo showing departure information
 - [`Departure Shortcut`](https://github.com/kiliankoe/shortcuts#dvb-abfahrten) - Shortcut for iOS' Shortcuts app showing departures
 - [`dvb-mqtt`](https://github.com/seb-daehne/dvb-mqtt) - Periodically publish departure data to an mqtt broker
-- [`dvblive`](https://github.com/Tiffel/dvblive) - Visualization of tram delays for the entire city ([live demo](https://rpi.heep.sax.de/dvblive/) - [#odcdresden19](http://dresden.de/odcdresden19) project)
+- [`dvblive`](https://github.com/Tiffel/dvblive) - Visualization of tram delays for the entire city ([#odcdresden19](http://dresden.de/odcdresden19) project, no longer actively maintained)
 - [`VV...Wo?`](https://github.com/kiliankoe/vvwo) - iOS app using natural language queries ([#odcdresden19](http://dresden.de/odcdresden19) project)
 - [`DVBFast`](https://github.com/lucasvog/dvbfast) - WebApp that displays the departure infos of the nearest stations using GPS ([live Version](https://dvbfast.github.io/))
 - [`MMM-DVB`](https://github.com/skastenholz/MMM-DVB) - MagicMirror² module
