@@ -90,12 +90,13 @@ W: Widgets, E: EFA, A: WebAPI, D: DVBApps
 Mobile apps known and used in Dresden.
 
 - [`DVB mobil`](https://www.dvb.de/de-de/fahrplan/dvb-mobil/) - Official, cross-platform
+- [`ÖPNV Navigator`](https://itunes.apple.com/de/app/öpnv-navigator/id1239908782?mt=8) - iOS, not specific to the VVO network
 - [`Faplino`](https://play.google.com/store/apps/details?id=de.faplino) - Android
-- [`FahrInfo Dresden`](https://itunes.apple.com/de/app/fahrinfo-dresden/id314790387?mt=8) - cross-platform
 - [`Öffi`](https://play.google.com/store/apps/details?id=de.schildbach.oeffi) - Android
+- [`FahrInfo Dresden`](https://itunes.apple.com/de/app/fahrinfo-dresden/id314790387?mt=8) - cross-platform
+- [`Haltestellenmonitor-v3`](https://github.com/HanashiDev/Haltestellenmonitor-v3) - iOS
 - [`DVB-Verspaetungen`](https://github.com/alexander-fischer/DVB-Verspaetungen) - Android app informing you about the current delay situation
 - [`Manni`](https://itunes.apple.com/us/app/manni/id1347527695?l=de&ls=1&mt=8) - iOS
-- [`ÖPNV Navigator`](https://itunes.apple.com/de/app/öpnv-navigator/id1239908782?mt=8) - iOS, not specific to the VVO network
 
 
 
