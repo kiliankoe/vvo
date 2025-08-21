@@ -398,8 +398,8 @@
       "name": "Am Rittergut",
       "city": "Altfranken",
       "name_with_city": "Altfranken Am Rittergut",
-      "longitude": 13.645867,
-      "latitude": 51.033785,
+      "longitude": 13.643388,
+      "latitude": 51.033463,
       "operators": [
         "DVB"
       ],
@@ -417,8 +417,8 @@
       "name": "Hohe Straße",
       "city": "Altfranken",
       "name_with_city": "Altfranken Hohe Straße",
-      "longitude": 13.636219,
-      "latitude": 51.032451,
+      "longitude": 13.637163,
+      "latitude": 51.031971,
       "operators": [
         "DVB"
       ],
@@ -1246,6 +1246,7 @@
       "operators": [
         "DB AG",
         "DB Regio AG Südost",
+        "European Sleeper",
         "RVSOE",
         "Österreichische Bundesbahnen"
       ],
@@ -15719,6 +15720,7 @@
         "DB Fernverkehr AG",
         "DB Regio AG Südost",
         "DVB",
+        "European Sleeper",
         "FlixTrain",
         "Mitteldeutsche Regiobahn",
         "RVSOE",
@@ -60809,10 +60811,11 @@
       ],
       "lines": {
         "Regionalbus": [
+          "Sv140",
           "Sv256"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4756",
@@ -67603,14 +67606,13 @@
         ],
         "Zug": [
           "RB45",
-          "RE50",
-          "RE6E"
+          "RE50"
         ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 28
+      "total_lines": 27
     },
     {
       "id": "de:14627:5566",
@@ -75850,11 +75852,10 @@
           "442"
         ],
         "Bus": [
-          "762",
           "810"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14627:5595",
@@ -75874,12 +75875,11 @@
           "433"
         ],
         "Bus": [
-          "762",
           "805",
           "810"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14627:5592",

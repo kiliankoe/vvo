@@ -70,6 +70,7 @@ Total stations: 3937
 - Verkehrsmanagement Elbe-Elster GmbH: 8 stations
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 4 stations
+- European Sleeper: 2 stations
 - FlixTrain: 2 stations
 - Nordsachsen Mobil: 2 stations
 - DB Fernverkehr AG: 1 stations
@@ -79,7 +80,7 @@ Total stations: 3937
 
 - Dresden Hauptbahnhof: 38 lines
 - Meißen Busbahnhof: 36 lines
-- Riesa Busbahnhof / Bahnhof: 28 lines
+- Riesa Busbahnhof / Bahnhof: 27 lines
 - Kamenz Bahnhof: 24 lines
 - Dresden Bahnhof Neustadt: 23 lines
 - Meißen Altstadtbrücke: 22 lines

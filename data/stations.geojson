@@ -545,8 +545,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.645867,
-          51.033785
+          13.643388,
+          51.033463
         ]
       },
       "properties": {
@@ -572,8 +572,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.636219,
-          51.032451
+          13.637163,
+          51.031971
         ]
       },
       "properties": {
@@ -1721,6 +1721,7 @@
         "operators": [
           "DB AG",
           "DB Regio AG Südost",
+          "European Sleeper",
           "RVSOE",
           "Österreichische Bundesbahnen"
         ],
@@ -21698,6 +21699,7 @@
           "DB Fernverkehr AG",
           "DB Regio AG Südost",
           "DVB",
+          "European Sleeper",
           "FlixTrain",
           "Mitteldeutsche Regiobahn",
           "RVSOE",
@@ -83772,10 +83774,11 @@
         ],
         "lines": {
           "Regionalbus": [
+            "Sv140",
             "Sv256"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -93214,14 +93217,13 @@
           ],
           "Zug": [
             "RB45",
-            "RE50",
-            "RE6E"
+            "RE50"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 28
+        "total_lines": 27
       }
     },
     {
@@ -104669,11 +104671,10 @@
             "442"
           ],
           "Bus": [
-            "762",
             "810"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -104701,12 +104702,11 @@
             "433"
           ],
           "Bus": [
-            "762",
             "805",
             "810"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
