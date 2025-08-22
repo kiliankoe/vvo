@@ -28206,11 +28206,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "161",
           "162"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:1178",
@@ -39177,11 +39176,10 @@
       "lines": {
         "Regionalbus": [
           "417",
-          "Sv125",
           "Sv170"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4505",
@@ -59474,11 +59472,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "G/L (Pirna)",
-          "H/S (Pirna)"
+          "G/L (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3436",
@@ -60811,11 +60808,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "Sv140",
           "Sv256"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4756",
@@ -78974,11 +78970,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411",
-          "Sv250"
+          "411"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4151",
