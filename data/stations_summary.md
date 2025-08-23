@@ -29,14 +29,14 @@ Total stations: 3937
 
 ## Stations by Transit Type
 
-- Regionalbus: 2728 stations
+- Regionalbus: 2725 stations
 - Stadtbus: 1346 stations
 - PlusBus: 607 stations
 - Anruflinienbus: 478 stations
 - Straßenbahn: 270 stations
 - Anruflinientaxi: 202 stations
-- Ersatzverkehr: 117 stations
-- Zug: 102 stations
+- Ersatzverkehr: 118 stations
+- Zug: 103 stations
 - Taktbus: 75 stations
 - Bus: 58 stations
 - S-Bahn: 54 stations
@@ -70,17 +70,16 @@ Total stations: 3937
 - Verkehrsmanagement Elbe-Elster GmbH: 8 stations
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 4 stations
-- European Sleeper: 2 stations
 - FlixTrain: 2 stations
+- DB Fernverkehr AG: 2 stations
 - Nordsachsen Mobil: 2 stations
-- DB Fernverkehr AG: 1 stations
 - Omnibusbetrieb Siegfried Wilhelm: 1 stations
 
 ## Major Transit Hubs (10+ lines)
 
 - Dresden Hauptbahnhof: 38 lines
 - Meißen Busbahnhof: 36 lines
-- Riesa Busbahnhof / Bahnhof: 27 lines
+- Riesa Busbahnhof / Bahnhof: 28 lines
 - Kamenz Bahnhof: 24 lines
 - Dresden Bahnhof Neustadt: 23 lines
 - Meißen Altstadtbrücke: 22 lines
@@ -127,6 +126,7 @@ Total stations: 3937
 - Dresden Anton-/Leipziger Straße: 13 lines
 - Dresden Betriebshof Gorbitz: 13 lines
 - Dresden Prager Straße: 13 lines
+- Dresden S-Bf. Freiberger Straße: 13 lines
 - Kamenz Flugplatz: 13 lines
 - Nossen Markt: 13 lines
 - Nossen Talstraße: 13 lines
@@ -137,7 +137,6 @@ Total stations: 3937
 - Dresden Merianplatz: 12 lines
 - Dresden Pirnaischer Platz: 12 lines
 - Dresden S-Bahnhof Niedersedlitz: 12 lines
-- Dresden S-Bf. Freiberger Straße: 12 lines
 - Dresden Schlehenstraße: 12 lines
 - Dresden Wasaplatz: 12 lines
 - Dresden Zeithainer Straße: 12 lines
@@ -155,7 +154,6 @@ Total stations: 3937
 - Gompitz Gompitzer Höhe: 11 lines
 - Großenhain Hohe Straße: 11 lines
 - Lommatzsch Meißner Straße: 11 lines
-- Pirna Robert-Koch-Straße: 11 lines
 - Pulsnitz Bahnhof: 11 lines
 - Weinböhla Haltepunkt: 11 lines
 - Bischofswerda Schulstraße: 10 lines
@@ -175,4 +173,5 @@ Total stations: 3937
 - Dresden Schillerplatz: 10 lines
 - Freital S-Bahnhof Hainsberg: 10 lines
 - Königswartha Kirchplatz: 10 lines
+- Pirna Robert-Koch-Straße: 10 lines
 - Tharandt Bahnhof: 10 lines

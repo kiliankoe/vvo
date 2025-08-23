@@ -1246,7 +1246,6 @@
       "operators": [
         "DB AG",
         "DB Regio AG Südost",
-        "European Sleeper",
         "RVSOE",
         "Österreichische Bundesbahnen"
       ],
@@ -15720,7 +15719,6 @@
         "DB Fernverkehr AG",
         "DB Regio AG Südost",
         "DVB",
-        "European Sleeper",
         "FlixTrain",
         "Mitteldeutsche Regiobahn",
         "RVSOE",
@@ -21889,9 +21887,12 @@
         "S-Bahn": [
           "S1",
           "S2"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 12
+      "total_lines": 13
     },
     {
       "id": "de:14612:267",
@@ -43279,13 +43280,14 @@
       ],
       "lines": {
         "Zug": [
-          "RE50"
+          "RE50",
+          "U28"
         ],
         "S-Bahn": [
           "S1"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3503",
@@ -48456,12 +48458,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "417",
           "500",
           "Sv170"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4585",
@@ -50414,11 +50415,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "A (Meißen)",
-          "B (Meißen)"
+          "A (Meißen)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4069",
@@ -56403,11 +56403,14 @@
         "S-Bahn": [
           "S1"
         ],
+        "Zug": [
+          "U28"
+        ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:477",
@@ -60155,14 +60158,13 @@
           "237",
           "241",
           "245",
-          "246",
           "207a"
         ],
         "Stadtbus": [
           "Z (Pirna)"
         ]
       },
-      "total_lines": 11
+      "total_lines": 10
     },
     {
       "id": "de:14628:3382",
@@ -62310,11 +62312,10 @@
         ],
         "Regionalbus": [
           "440",
-          "461",
-          "462"
+          "461"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14627:5832",
@@ -63056,12 +63057,9 @@
       "lines": {
         "Stadtbus": [
           "28"
-        ],
-        "Regionalbus": [
-          "760"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:6733",
@@ -63232,11 +63230,10 @@
           "28"
         ],
         "Regionalbus": [
-          "760",
-          "761"
+          "760"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:6738",
@@ -63563,13 +63560,9 @@
         "PlusBus": [
           "520",
           "521"
-        ],
-        "Regionalbus": [
-          "760",
-          "761"
         ]
       },
-      "total_lines": 5
+      "total_lines": 3
     },
     {
       "id": "de:14625:6724",
@@ -65917,13 +65910,14 @@
       ],
       "lines": {
         "Zug": [
-          "RE50"
+          "RE50",
+          "U28"
         ],
         "S-Bahn": [
           "S1"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3713",
@@ -67564,6 +67558,7 @@
       "latitude": 51.309397,
       "operators": [
         "DB AG",
+        "DB Fernverkehr AG",
         "DB Regio AG Südost",
         "Mitteldeutsche Regiobahn",
         "VGM",
@@ -67602,13 +67597,14 @@
         ],
         "Zug": [
           "RB45",
+          "RE17",
           "RE50"
         ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 27
+      "total_lines": 28
     },
     {
       "id": "de:14627:5566",
@@ -68629,17 +68625,12 @@
           "431",
           "445"
         ],
-        "Regionalbus": [
-          "430",
-          "431",
-          "445"
-        ],
         "Stadtbus": [
           "A1 (Riesa)",
           "A2 (Riesa)"
         ]
       },
-      "total_lines": 8
+      "total_lines": 5
     },
     {
       "id": "de:14627:5540",
@@ -74669,7 +74660,8 @@
       ],
       "lines": {
         "Zug": [
-          "RE50"
+          "RE50",
+          "U28"
         ],
         "S-Bahn": [
           "S1"
@@ -74678,7 +74670,7 @@
           "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3721",

@@ -1721,7 +1721,6 @@
         "operators": [
           "DB AG",
           "DB Regio AG Südost",
-          "European Sleeper",
           "RVSOE",
           "Österreichische Bundesbahnen"
         ],
@@ -21699,7 +21698,6 @@
           "DB Fernverkehr AG",
           "DB Regio AG Südost",
           "DVB",
-          "European Sleeper",
           "FlixTrain",
           "Mitteldeutsche Regiobahn",
           "RVSOE",
@@ -30036,9 +30034,12 @@
           "S-Bahn": [
             "S1",
             "S2"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 12
+        "total_lines": 13
       }
     },
     {
@@ -59618,13 +59619,14 @@
         ],
         "lines": {
           "Zug": [
-            "RE50"
+            "RE50",
+            "U28"
           ],
           "S-Bahn": [
             "S1"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -66827,12 +66829,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "417",
             "500",
             "Sv170"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -69481,11 +69482,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "A (Meißen)",
-            "B (Meißen)"
+            "A (Meißen)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -77694,11 +77694,14 @@
           "S-Bahn": [
             "S1"
           ],
+          "Zug": [
+            "U28"
+          ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -82894,14 +82897,13 @@
             "237",
             "241",
             "245",
-            "246",
             "207a"
           ],
           "Stadtbus": [
             "Z (Pirna)"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -85865,11 +85867,10 @@
           ],
           "Regionalbus": [
             "440",
-            "461",
-            "462"
+            "461"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -86907,12 +86908,9 @@
         "lines": {
           "Stadtbus": [
             "28"
-          ],
-          "Regionalbus": [
-            "760"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -87139,11 +87137,10 @@
             "28"
           ],
           "Regionalbus": [
-            "760",
-            "761"
+            "760"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -87598,13 +87595,9 @@
           "PlusBus": [
             "520",
             "521"
-          ],
-          "Regionalbus": [
-            "760",
-            "761"
           ]
         },
-        "total_lines": 5
+        "total_lines": 3
       }
     },
     {
@@ -90872,13 +90865,14 @@
         ],
         "lines": {
           "Zug": [
-            "RE50"
+            "RE50",
+            "U28"
           ],
           "S-Bahn": [
             "S1"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -93175,6 +93169,7 @@
         "name_with_city": "Riesa Busbahnhof / Bahnhof",
         "operators": [
           "DB AG",
+          "DB Fernverkehr AG",
           "DB Regio AG Südost",
           "Mitteldeutsche Regiobahn",
           "VGM",
@@ -93213,13 +93208,14 @@
           ],
           "Zug": [
             "RB45",
+            "RE17",
             "RE50"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 27
+        "total_lines": 28
       }
     },
     {
@@ -94624,17 +94620,12 @@
             "431",
             "445"
           ],
-          "Regionalbus": [
-            "430",
-            "431",
-            "445"
-          ],
           "Stadtbus": [
             "A1 (Riesa)",
             "A2 (Riesa)"
           ]
         },
-        "total_lines": 8
+        "total_lines": 5
       }
     },
     {
@@ -103024,7 +103015,8 @@
         ],
         "lines": {
           "Zug": [
-            "RE50"
+            "RE50",
+            "U28"
           ],
           "S-Bahn": [
             "S1"
@@ -103033,7 +103025,7 @@
             "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
