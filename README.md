@@ -15,6 +15,7 @@ Got any more info, details, links? Please don't hesitate to open an issue and/or
 - **[WebAPI](documentation/webapi.md)** - JSON REST API used by mobile apps
 - **[TRIAS API](documentation/trias.md)** - Official XML-based API following European standards
 - **[GTFS Data](documentation/gtfs.md)** - Standard transit data format with static and real-time feeds
+- **[Dresden OpenData](documentation/opendata.md)** - Geographic transit datasets via OGC API Features (lines, stops, accessibility)
 
 ## ⚖️ Legal Information
 
@@ -85,6 +86,12 @@ For commercial applications or high-volume usage, contact VVO at opendata@vvo-on
   - Real-time: Vehicle positions and delays
   - Standard format compatible with many tools
   - Licensed under CC BY-SA 4.0
+
+- **[Dresden OpenData Portal](documentation/opendata.md)** - `https://kommisdd.dresden.de/net4/public/ogcapi/`
+  - Geographic data: Line routes, stop locations, infrastructure
+  - Accessibility information: Platform heights, tactile paving
+  - OGC API Features standard (GeoJSON/JSON)
+  - Open Data License, commercial use allowed
 
 ## Libraries
 
