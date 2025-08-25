@@ -29,7 +29,7 @@ Total stations: 3937
 
 ## Stations by Transit Type
 
-- Regionalbus: 2725 stations
+- Regionalbus: 2728 stations
 - Stadtbus: 1346 stations
 - PlusBus: 607 stations
 - Anruflinienbus: 478 stations
@@ -154,6 +154,7 @@ Total stations: 3937
 - Gompitz Gompitzer Höhe: 11 lines
 - Großenhain Hohe Straße: 11 lines
 - Lommatzsch Meißner Straße: 11 lines
+- Pirna Robert-Koch-Straße: 11 lines
 - Pulsnitz Bahnhof: 11 lines
 - Weinböhla Haltepunkt: 11 lines
 - Bischofswerda Schulstraße: 10 lines
@@ -173,5 +174,4 @@ Total stations: 3937
 - Dresden Schillerplatz: 10 lines
 - Freital S-Bahnhof Hainsberg: 10 lines
 - Königswartha Kirchplatz: 10 lines
-- Pirna Robert-Koch-Straße: 10 lines
 - Tharandt Bahnhof: 10 lines

@@ -34836,10 +34836,13 @@
         "lines": {
           "Regionalbus": [
             "226",
-            "234"
+            "232",
+            "233",
+            "234",
+            "236"
           ]
         },
-        "total_lines": 2
+        "total_lines": 5
       }
     },
     {
@@ -38706,10 +38709,11 @@
         ],
         "lines": {
           "Stadtbus": [
+            "161",
             "162"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -53956,10 +53960,11 @@
         "lines": {
           "Regionalbus": [
             "417",
+            "Sv125",
             "Sv170"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -66829,11 +66834,12 @@
         ],
         "lines": {
           "Regionalbus": [
+            "417",
             "500",
             "Sv170"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -69482,10 +69488,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "A (Meißen)"
+            "A (Meißen)",
+            "B (Meißen)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -82897,13 +82904,14 @@
             "237",
             "241",
             "245",
+            "246",
             "207a"
           ],
           "Stadtbus": [
             "Z (Pirna)"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -85867,10 +85875,11 @@
           ],
           "Regionalbus": [
             "440",
-            "461"
+            "461",
+            "462"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -86908,9 +86917,12 @@
         "lines": {
           "Stadtbus": [
             "28"
+          ],
+          "Regionalbus": [
+            "760"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -87137,10 +87149,11 @@
             "28"
           ],
           "Regionalbus": [
-            "760"
+            "760",
+            "761"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -87595,9 +87608,13 @@
           "PlusBus": [
             "520",
             "521"
+          ],
+          "Regionalbus": [
+            "760",
+            "761"
           ]
         },
-        "total_lines": 3
+        "total_lines": 5
       }
     },
     {
@@ -94620,12 +94637,17 @@
             "431",
             "445"
           ],
+          "Regionalbus": [
+            "430",
+            "431",
+            "445"
+          ],
           "Stadtbus": [
             "A1 (Riesa)",
             "A2 (Riesa)"
           ]
         },
-        "total_lines": 5
+        "total_lines": 8
       }
     },
     {
@@ -109021,10 +109043,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411"
+            "411",
+            "Sv250"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
