@@ -119,7 +119,11 @@ Mobile apps known and used in Dresden.
 - [`Öffi`](https://f-droid.org/packages/de.schildbach.oeffi/) - Android
 - [`Haltestellenmonitor-v3`](https://github.com/HanashiDev/Haltestellenmonitor-v3) - iOS
 
-**Deprecated**
+### Assistive apps & accessibility
+
+- [`DVBerry`](https://github.com/Julius-Babies/JH_DVBerry) - a Kotlin app that reads out departures for nearby VVO stops for blind and visually impaired users
+
+### Deprecated
 - [`Manni`](https://github.com/manni-app/manni-ios) - iOS (no longer on App Store, repository archived)
 - [`DVB-Verspaetungen`](https://github.com/alexander-fischer/DVB-Verspaetungen) - Android app informing you about the current delay situation (repository archived)
 - `FahrInfo Dresden` - cross-platform (removed from public stores)
@@ -153,7 +157,3 @@ Mobile apps known and used in Dresden.
 - [`DVBFast`](https://github.com/lucasvog/dvbfast) - WebApp that displays the departure infos of the nearest stations using GPS ([live Version](https://dvbfast.github.io/))
 - [`MMM-DVB`](https://github.com/skastenholz/MMM-DVB) - MagicMirror² module
 - [`vvo-departures-cli`](https://aur.archlinux.org/packages/vvo-departures-cli) - CLI for querying departures information, also see [#32](https://github.com/kiliankoe/vvo/issues/32)
-
-## Assistive apps & accessibility
-
-- [`DVBerry`](https://github.com/Julius-Babies/JH_DVBerry) - a Kotlin app that reads out departures for nearby VVO stops for blind and visually impaired users
