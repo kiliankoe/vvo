@@ -1008,18 +1008,18 @@ de:14612:636,33000636,Rähnitzer Allee,Dresden,Dresden Rähnitzer Allee,51.12480
 de:14612:254,33000254,Rückertstraße,Dresden,Dresden Rückertstraße,51.088357,13.725485,,0,,,,
 de:14612:707,33000707,Rüdesheimer Straße,Dresden,Dresden Rüdesheimer Straße,51.031706,13.685744,DVB,2,,62|90,,
 de:14612:247,33000247,S-Bahnhof Bischofsplatz,Dresden,Dresden S-Bahnhof Bischofsplatz,51.072053,13.746739,DB Regio AG Südost|DVB|VGM,7,13|7|8,64,,S1
-de:14612:919,33000919,S-Bahnhof Dobritz,Dresden,Dresden S-Bahnhof Dobritz,51.011635,13.808516,DB Regio AG Südost|DVB|RVSOE,17,1|10|12|2|44|46|6|9,162|65|86,RE19|RE20,S1|S2
+de:14612:919,33000919,S-Bahnhof Dobritz,Dresden,Dresden S-Bahnhof Dobritz,51.011635,13.808516,DB Regio AG Südost|DVB|RVSOE,18,1|10|12|2|44|46|6|9,162|65|86,RE19|RE20|U28,S1|S2
 de:14612:662,33000662,S-Bahnhof Grenzstraße,Dresden,Dresden S-Bahnhof Grenzstraße,51.128244,13.777974,DB Regio AG Südost|DVB,4,,77|80,,S2
-de:14612:98,33000098,S-Bahnhof Niedersedlitz,Dresden,Dresden S-Bahnhof Niedersedlitz,50.999459,13.828818,DB Regio AG Südost|DVB,12,46,65|88|EV 6,RE19|RE20,S1|S2
+de:14612:98,33000098,S-Bahnhof Niedersedlitz,Dresden,Dresden S-Bahnhof Niedersedlitz,50.999459,13.828818,DB Regio AG Südost|DVB,13,46,65|88|EV 6,RE19|RE20|U28,S1|S2
 de:14612:593,33000593,S-Bahnhof Pieschen,Dresden,Dresden S-Bahnhof Pieschen,51.081512,13.726051,DB Regio AG Südost|DVB,7,,64|70|73,,S1
 de:14612:166,33000166,S-Bahnhof Plauen,Dresden,Dresden S-Bahnhof Plauen,51.029796,13.703153,DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn,7,,62|63|85,RB30|RE3,S3
-de:14612:907,33000907,S-Bahnhof Reick,Dresden,Dresden S-Bahnhof Reick,51.02127,13.79064,DB Regio AG Südost|DVB,8,,64|65|87,RE19|RE20,S1|S2
+de:14612:907,33000907,S-Bahnhof Reick,Dresden,Dresden S-Bahnhof Reick,51.02127,13.79064,DB Regio AG Südost|DVB,9,,64|65|87,RE19|RE20|U28,S1|S2
 de:14612:622,33000622,S-Bahnhof Trachau,Dresden,Dresden S-Bahnhof Trachau,51.089937,13.703854,DB Regio AG Südost|DVB|VGM,5,,70|80,,S1
 de:14612:212,33000212,S-Bahnhof Trachau West,Dresden,Dresden S-Bahnhof Trachau West,51.090214,13.702569,DVB,2,4,EV 4,,
 de:14612:25,33000025,S-Bf. Freiberger Straße,Dresden,Dresden S-Bf. Freiberger Straße,51.048617,13.720122,DB Regio AG Südost|DVB,12,10|11|12|20|3|44|7|8,62,,S1|S2
 de:14612:267,33000267,S-Bf. Industriegelände,Dresden,Dresden S-Bf. Industriegelände,51.086992,13.763026,DB Regio AG Südost|DVB|trilex - Die Länderbahn GmbH DLB,11,7|8,EV 8,RB33|RB60|RB61|RE1|RE2,S2|S8
-de:14612:757,33000757,S-Bf. Strehlen,Dresden,Dresden S-Bf. Strehlen,51.031022,13.761139,DB Regio AG Südost|DVB,13,10|12|13|4,61|63|68|85,RE19|RE20,S1|S2
-de:14612:910,33000910,S-Bf. Zschachwitz,Dresden,Dresden S-Bf. Zschachwitz,50.989649,13.845168,DB Regio AG Südost,3,,,RE19,S1|S2
+de:14612:757,33000757,S-Bf. Strehlen,Dresden,Dresden S-Bf. Strehlen,51.031022,13.761139,DB Regio AG Südost|DVB,14,10|12|13|4,61|63|68|85,RE19|RE20|U28,S1|S2
+de:14612:910,33000910,S-Bf. Zschachwitz,Dresden,Dresden S-Bf. Zschachwitz,50.989649,13.845168,DB Regio AG Südost,4,,,RE19|U28,S1|S2
 de:14612:711,33000711,Saalhausener Straße,Dresden,Dresden Saalhausener Straße,51.036513,13.683372,DVB,2,,62|90,,
 de:14612:163,33000163,Saarstraße,Dresden,Dresden Saarstraße,51.019111,13.706135,DVB,3,3,63|EV 3,,
 de:14612:10,33000010,Sachsenallee,Dresden,Dresden Sachsenallee,51.054603,13.757375,DVB,4,13|6|8,EV 6,,
@@ -1310,7 +1310,7 @@ de:14628:1198,33001198,Schweinsdorf W-Müller-Straße,Freital,Freital Schweinsdo
 de:14628:1170,33001170,Turnergäßchen,Freital,Freital Turnergäßchen,50.985188,13.635591,RVSOE,6,,160,,
 de:14628:1108,33001108,Turnerstraße,Freital,Freital Turnerstraße,51.009781,13.660986,RVSOE,4,,160|161|162|164,,
 de:14628:1164,33001164,Wehrstraße,Freital,Freital Wehrstraße,50.994563,13.64576,RVSOE,6,,160,,
-de:14628:1168,33001168,Wehrstraße (Schule),Freital,Freital Wehrstraße (Schule),50.99307,13.646864,RVSOE,2,,161|162,,
+de:14628:1168,33001168,Wehrstraße (Schule),Freital,Freital Wehrstraße (Schule),50.99307,13.646864,RVSOE,1,,162,,
 de:14628:1178,33001178,Weißeritzpark,Freital,Freital Weißeritzpark,50.974566,13.621703,RVSOE,4,,160,,
 de:14628:1154,33001154,Weißig Deubener Weg,Freital,Freital Weißig Deubener Weg,50.999419,13.610159,RVSOE,2,,164,,
 de:14628:1153,33001153,Weißig Schulstraße,Freital,Freital Weißig Schulstraße,51.002687,13.616465,RVSOE,2,,164,,
@@ -1623,7 +1623,7 @@ de:14628:3840,33003840,Markt,Heeselicht,Heeselicht Markt,51.007944,14.09083,RVSO
 de:14627:5873,33005873,Abzw Tiefenau (SV),Heidehäuser (Wülknitz),Heidehäuser (Wülknitz) Abzw Tiefenau (SV),51.392055,13.376481,VGM,1,,,,
 de:14628:3073,33003073,August-Bebel-Straße,Heidenau (Sachsen),Heidenau (Sachsen) August-Bebel-Straße,50.97624,13.861364,RVSOE,5,,A (Heidenau)|B (Heidenau)|H/S (Pirna),,
 de:14628:3070,33003070,Ausspann,Heidenau (Sachsen),Heidenau (Sachsen) Ausspann,50.981489,13.845554,RVSOE,1,,H/S (Pirna),,
-de:14628:3040,33003040,Bahnhof,Heidenau (Sachsen),Heidenau (Sachsen) Bahnhof,50.98081,13.859945,DB Regio AG Südost|DVB|RVSOE,14,,65|86|A (Heidenau)|B (Heidenau)|H/S (Pirna),RB72|RE19|RE20,S1|S2
+de:14628:3040,33003040,Bahnhof,Heidenau (Sachsen),Heidenau (Sachsen) Bahnhof,50.98081,13.859945,DB Regio AG Südost|DVB|RVSOE,15,,65|86|A (Heidenau)|B (Heidenau)|H/S (Pirna),RB72|RE19|RE20|U28,S1|S2
 de:14628:3064,33003064,Barockgarten Großsedlitz,Heidenau (Sachsen),Heidenau (Sachsen) Barockgarten Großsedlitz,50.952518,13.887038,RVSOE,2,,A (Heidenau),,
 de:14628:3059,33003059,Beethovenstraße,Heidenau (Sachsen),Heidenau (Sachsen) Beethovenstraße,50.967003,13.870554,RVSOE,1,,A (Heidenau),,
 de:14628:3071,33003071,Breitscheidstraße,Heidenau (Sachsen),Heidenau (Sachsen) Breitscheidstraße,50.98046,13.855552,RVSOE,1,,H/S (Pirna),,
@@ -1651,8 +1651,8 @@ de:14628:3078,33003078,Pirnaer Straße/Niederhof,Heidenau (Sachsen),Heidenau (Sa
 de:14628:3051,33003051,Rathaus,Heidenau (Sachsen),Heidenau (Sachsen) Rathaus,50.980573,13.869674,RVSOE,1,,A (Heidenau),,
 de:14628:3055,33003055,Reifenwerk,Heidenau (Sachsen),Heidenau (Sachsen) Reifenwerk,50.969373,13.874623,RVSOE,2,,A (Heidenau)|H/S (Pirna),,
 de:14628:3066,33003066,Rosa-Luxemburg-Straße,Heidenau (Sachsen),Heidenau (Sachsen) Rosa-Luxemburg-Straße,50.964327,13.882088,RVSOE,1,,A (Heidenau),,
-de:14628:3053,33003053,S-Bahnhof Süd,Heidenau (Sachsen),Heidenau (Sachsen) S-Bahnhof Süd,50.972371,13.874345,DB Regio AG Südost|RVSOE,4,,A (Heidenau),,S1|S2
-de:14628:3065,33003065,S-Bf. Großsedlitz,Heidenau (Sachsen),Heidenau (Sachsen) S-Bf. Großsedlitz,50.960989,13.894449,DB Regio AG Südost,2,,,,S1|S2
+de:14628:3053,33003053,S-Bahnhof Süd,Heidenau (Sachsen),Heidenau (Sachsen) S-Bahnhof Süd,50.972371,13.874345,DB Regio AG Südost|RVSOE,5,,A (Heidenau),U28,S1|S2
+de:14628:3065,33003065,S-Bf. Großsedlitz,Heidenau (Sachsen),Heidenau (Sachsen) S-Bf. Großsedlitz,50.960989,13.894449,DB Regio AG Südost,3,,,U28,S1|S2
 de:14628:3054,33003054,Sachseneck,Heidenau (Sachsen),Heidenau (Sachsen) Sachseneck,50.969628,13.877705,RVSOE,1,,A (Heidenau),,
 de:14628:3043,33003043,Sedlitzer Straße,Heidenau (Sachsen),Heidenau (Sachsen) Sedlitzer Straße,50.965221,13.870042,RVSOE,1,,A (Heidenau),,
 de:14628:3044,33003044,Stadtzentrum,Heidenau (Sachsen),Heidenau (Sachsen) Stadtzentrum,50.98025,13.86476,RVSOE,1,,A (Heidenau),,
@@ -1668,7 +1668,7 @@ de:14628:3261,33003261,Dorfplatz,Hellendorf (bei Pirna),Hellendorf (bei Pirna) D
 de:14628:3262,33003262,Grenzlandstraße,Hellendorf (bei Pirna),Hellendorf (bei Pirna) Grenzlandstraße,50.82481,13.967698,RVSOE,3,,,,
 de:14628:3264,33003264,Kretzschmarmühle,Hellendorf (bei Pirna),Hellendorf (bei Pirna) Kretzschmarmühle,50.833026,13.978334,RVSOE,2,,,,
 de:14628:3263,33003263,Siedlung,Hellendorf (bei Pirna),Hellendorf (bei Pirna) Siedlung,50.820855,13.958131,RVSOE,3,,,,
-de:14628:3846,33003846,Bahnhof,Helmsdorf (Stolpen),Helmsdorf (Stolpen) Bahnhof,51.034474,14.046219,DB Regio AG Südost|RVSOE,3,,,RB71,
+de:14628:3846,33003846,Bahnhof,Helmsdorf (Stolpen),Helmsdorf (Stolpen) Bahnhof,51.034474,14.046219,DB Regio AG Südost|RVSOE,4,,,RB71,
 de:14628:3849,33003849,Erbgericht,Helmsdorf (Stolpen),Helmsdorf (Stolpen) Erbgericht,51.038117,14.042923,RVSOE,2,,,,
 de:14628:3835,33003835,Rennersdorfer Straße,Helmsdorf (Stolpen),Helmsdorf (Stolpen) Rennersdorfer Straße,51.038405,14.040434,RVSOE,2,,,,
 de:14628:3848,33003848,Schafbrücke,Helmsdorf (Stolpen),Helmsdorf (Stolpen) Schafbrücke,51.035361,14.02996,RVSOE,2,,,,
@@ -1693,7 +1693,7 @@ de:14625:6622,33006622,Nordstraße,Hermsdorf (bei Dresden),Hermsdorf (bei Dresde
 de:14625:6999,33006999,Königswarthaer Straße,Hermsdorf/Spree,Hermsdorf/Spree Königswarthaer Straße,51.32546,14.407675,RBO,1,,,,
 de:14628:3952,33003952,Abzweig Ottendorf,Hertigswalde,Hertigswalde Abzweig Ottendorf,50.961402,14.284201,RVSOE,2,,,,
 de:14628:3953,33003953,Morgenröte,Hertigswalde,Hertigswalde Morgenröte,50.960446,14.277841,RVSOE,1,,,,
-de:14628:3955,33003955,Ortsmitte,Hertigswalde,Hertigswalde Ortsmitte,50.960151,14.290696,RVSOE,1,,,,
+de:14628:3955,33003955,Ortsmitte,Hertigswalde,Hertigswalde Ortsmitte,50.960151,14.290696,RVSOE,2,,,,
 de:14628:3956,33003956,Schaffrath,Hertigswalde,Hertigswalde Schaffrath,50.958929,14.300703,RVSOE,1,,,,
 de:14628:3954,33003954,Siedlung,Hertigswalde,Hertigswalde Siedlung,50.955902,14.279853,RVSOE,1,,,,
 de:14628:3957,33003957,Waldhaus,Hertigswalde,Hertigswalde Waldhaus,50.955081,14.305806,RVSOE,1,,,,
@@ -1828,7 +1828,7 @@ de:14627:5975,33005975,Abzw Ibanitz,Ibanitz,Ibanitz Abzw Ibanitz,51.217795,13.23
 de:14627:4934,33004934,Ickowitz,Ickowitz,Ickowitz Ickowitz,51.20474,13.371962,VGM,3,,,,
 de:14627:4878,33004878,Abzw Ilkendorfer Lehden,Ilkendorf,Ilkendorf Abzw Ilkendorfer Lehden,51.080175,13.300492,VGM,1,,,,
 de:14627:4570,33004570,Ilkendorf,Ilkendorf,Ilkendorf Ilkendorf,51.08421,13.323031,VGM,2,,,,
-de:14627:5629,33005629,Am Walde,Jacobsthal,Jacobsthal Am Walde,51.382144,13.313104,VGM,1,,,,
+de:14627:5629,33005629,Am Walde,Jacobsthal,Jacobsthal Am Walde,51.381696,13.313976,VGM,1,,,,
 de:14627:5628,33005628,Kirche,Jacobsthal,Jacobsthal Kirche,51.379997,13.279031,VGM,1,,,,
 de:14625:6410,33006410,S 100,Jauer,Jauer S 100,51.237839,14.183814,RBO,1,,,,
 de:14625:6230,33006230,Elsteraue,Jesau,Jesau Elsteraue,51.278928,14.114986,RBO,2,,920|21 (Kamenz),,
@@ -1846,7 +1846,7 @@ de:14628:1931,33001931,Oberdorf,Johnsbach (Glashütte),Johnsbach (Glashütte) Ob
 de:14628:1930,33001930,Wendeplatz,Johnsbach (Glashütte),Johnsbach (Glashütte) Wendeplatz,50.829282,13.747898,RVSOE,1,,,,
 de:14625:7742,33007742,Johnsdorf b Bautzen,Johnsdorf b Bautzen,Johnsdorf b Bautzen Johnsdorf b Bautzen,51.305219,14.36902,RBO,3,,,,
 de:14627:4504,33004504,Abzweig Pröda,Kaisitz,Kaisitz Abzweig Pröda,51.161646,13.396612,VGM,2,,,,
-de:14627:4508,33004508,Abzweig Stroischen,Kaisitz,Kaisitz Abzweig Stroischen,51.155449,13.387323,VGM,3,,,,
+de:14627:4508,33004508,Abzweig Stroischen,Kaisitz,Kaisitz Abzweig Stroischen,51.155449,13.387323,VGM,2,,,,
 de:14627:4505,33004505,Kaisitz,Kaisitz,Kaisitz Kaisitz,51.1571,13.388365,VGM,3,,,,
 de:14627:5955,33005955,Kalbitz,Kalbitz,Kalbitz Kalbitz,51.273674,13.264263,VGM,2,,,,
 de:14627:5234,33005234,Abzweig Reinersdorf,Kalkreuth,Kalkreuth Abzweig Reinersdorf,51.273089,13.633758,VGM,1,,,,
@@ -2094,14 +2094,14 @@ de:14628:3521,33003521,Waldburg,Langenhennersdorf,Langenhennersdorf Waldburg,50.
 de:14628:3525,33003525,Zwieselbrücke,Langenhennersdorf,Langenhennersdorf Zwieselbrücke,50.883738,13.982161,RVSOE,2,,,,
 de:14628:3822,33003822,Abzweig Lauterbach,Langenwolmsdorf,Langenwolmsdorf Abzweig Lauterbach,51.040823,14.13412,RVSOE,1,,,,
 de:14628:3820,33003820,Alte Ziegelei,Langenwolmsdorf,Langenwolmsdorf Alte Ziegelei,51.048312,14.1418,RVSOE,1,,,,
-de:14628:3819,33003819,Aue,Langenwolmsdorf,Langenwolmsdorf Aue,51.039524,14.089033,RVSOE,1,,,,
-de:14628:3824,33003824,Bahnhof,Langenwolmsdorf,Langenwolmsdorf Bahnhof,51.036445,14.153963,DB Regio AG Südost|RVSOE,4,,,RB71,
+de:14628:3819,33003819,Aue,Langenwolmsdorf,Langenwolmsdorf Aue,51.039524,14.089033,DB Regio AG Südost|RVSOE,2,,,,
+de:14628:3824,33003824,Bahnhof,Langenwolmsdorf,Langenwolmsdorf Bahnhof,51.036445,14.153963,DB Regio AG Südost|RVSOE,5,,,RB71,
 de:14628:3813,33003813,Bahnhofsweg,Langenwolmsdorf,Langenwolmsdorf Bahnhofsweg,51.040004,14.128442,,0,,,,
 de:14628:3823,33003823,Bahnübergang,Langenwolmsdorf,Langenwolmsdorf Bahnübergang,51.036716,14.160368,RVSOE,4,,,,
 de:14628:3828,33003828,Hp Mitte,Langenwolmsdorf,Langenwolmsdorf Hp Mitte,51.038733,14.126924,DB Regio AG Südost,1,,,RB71,
 de:14628:3827,33003827,Niederdorf,Langenwolmsdorf,Langenwolmsdorf Niederdorf,51.045115,14.100595,RVSOE,4,,,,
-de:14628:3825,33003825,Oberdorf,Langenwolmsdorf,Langenwolmsdorf Oberdorf,51.039326,14.132359,RVSOE,3,,,,
-de:14628:3826,33003826,Ortszentrum,Langenwolmsdorf,Langenwolmsdorf Ortszentrum,51.041913,14.119046,RVSOE,4,,,,
+de:14628:3825,33003825,Oberdorf,Langenwolmsdorf,Langenwolmsdorf Oberdorf,51.039326,14.132359,DB Regio AG Südost|RVSOE,4,,,,
+de:14628:3826,33003826,Ortszentrum,Langenwolmsdorf,Langenwolmsdorf Ortszentrum,51.041913,14.119046,DB Regio AG Südost|RVSOE,5,,,,
 de:14628:3821,33003821,Spritzenhaus,Langenwolmsdorf,Langenwolmsdorf Spritzenhaus,51.04498,14.139752,RVSOE,1,,,,
 de:14628:3829,33003829,Zenker,Langenwolmsdorf,Langenwolmsdorf Zenker,51.042207,14.101241,RVSOE,1,,,,
 de:14625:6466,33006466,Laske,Laske,Laske Laske,51.301158,14.228901,RBO|SchmidtSchwarz GmbH & CO. KG,3,,,,
@@ -2791,7 +2791,7 @@ de:14628:3408,33003408,Am Lohmgrund,Pirna,Pirna Am Lohmgrund,50.918806,13.965865
 de:14628:3393,33003393,An der Seidewitz,Pirna,Pirna An der Seidewitz,50.942591,13.927714,RVSOE,4,,Z (Pirna),,
 de:14628:3378,33003378,An der Viehleite,Pirna,Pirna An der Viehleite,50.947317,13.942356,RVSOE,4,,N (Pirna),,
 de:14628:3374,33003374,Aufbauring/Friedhof,Pirna,Pirna Aufbauring/Friedhof,50.955172,13.927624,RVSOE,1,,Z (Pirna),,
-de:14628:3370,33003370,Bahnhof,Pirna,Pirna Bahnhof,50.962352,13.928855,DB Regio AG Südost,6,,,RB71|RE20|RE50,S1|S2
+de:14628:3370,33003370,Bahnhof,Pirna,Pirna Bahnhof,50.962352,13.928855,DB Regio AG Südost,7,,,RB71|RE20|RE50|U28,S1|S2
 de:14628:3383,33003383,Bergstraße,Pirna,Pirna Bergstraße,50.957792,13.944045,RVSOE,4,,H/S (Pirna),,
 de:14628:3380,33003380,Breite Straße,Pirna,Pirna Breite Straße,50.960191,13.939086,RVSOE,15,,G/L (Pirna)|H/S (Pirna)|M (Pirna)|N (Pirna)|P (Pirna)|Z (Pirna),,
 de:14628:3385,33003385,Clara-Zetkin-Straße,Pirna,Pirna Clara-Zetkin-Straße,50.956038,13.939994,RVSOE,8,,N (Pirna)|Z (Pirna),,
@@ -2868,7 +2868,7 @@ de:14628:3398,33003398,Zuschendorf Lindental,Pirna,Pirna Zuschendorf Lindental,5
 de:14627:4936,33004936,Dorfeingang,Piskowitz (Lommatzsch),Piskowitz (Lommatzsch) Dorfeingang,51.197946,13.380703,VGM,5,,,,
 de:14627:4935,33004935,Kreuzung,Piskowitz (Lommatzsch),Piskowitz (Lommatzsch) Kreuzung,51.197884,13.370812,VGM,6,,,,
 de:14627:5153,33005153,Piskowitz (b GRH),Piskowitz (Priestewitz),Piskowitz (Priestewitz) Piskowitz (b GRH),51.232496,13.503664,VGM,3,,,,
-de:14627:4764,33004764,(SV),Piskowitz (Taubenheim),Piskowitz (Taubenheim) (SV),51.103589,13.437243,VGM,2,,,,
+de:14627:4764,33004764,(SV),Piskowitz (Taubenheim),Piskowitz (Taubenheim) (SV),51.103589,13.437243,VGM,1,,,,
 de:14627:4756,33004756,Piskowitz b Taubenheim,Piskowitz (Taubenheim),Piskowitz (Taubenheim) Piskowitz b Taubenheim,51.103731,13.436614,VGM,4,,,,
 de:14625:6469,33006469,Kapelle,Piskowitz (b Kamenz),Piskowitz (b Kamenz) Kapelle,51.284345,14.189456,RBO,1,,,,
 de:14625:6468,33006468,S 97,Piskowitz (b Kamenz),Piskowitz (b Kamenz) S 97,51.283749,14.187758,RBO|SchmidtSchwarz GmbH & CO. KG,4,,,,
@@ -2979,14 +2979,14 @@ de:14628:1291,33001291,Waldfrieden,Rabenau (Sachsen),Rabenau (Sachsen) Waldfried
 de:14625:6944,33006944,Am Spielplatz,Rachlau (Kr BZ),Rachlau (Kr BZ) Am Spielplatz,51.355174,14.281434,RBO|SchmidtSchwarz GmbH & CO. KG,2,,,,
 de:14625:6943,33006943,Gaststätte,Rachlau (Kr BZ),Rachlau (Kr BZ) Gaststätte,51.354663,14.279485,RBO|SchmidtSchwarz GmbH & CO. KG,2,,,,
 de:14625:6946,33006946,Huschk,Rachlau (Kr BZ),Rachlau (Kr BZ) Huschk,51.357149,14.277733,RBO|SchmidtSchwarz GmbH & CO. KG,2,,,,
-de:14625:6732,33006732,Am Sandberg,Radeberg,Radeberg Am Sandberg,51.130955,13.920581,RBO,2,,28,,
+de:14625:6732,33006732,Am Sandberg,Radeberg,Radeberg Am Sandberg,51.130955,13.920581,RBO,1,,28,,
 de:14625:6733,33006733,Am Wall,Radeberg,Radeberg Am Wall,51.12887,13.924516,RBO,1,,28,,
 de:14625:6731,33006731,An der Ziegelei,Radeberg,Radeberg An der Ziegelei,51.128808,13.916287,RBO,1,,28,,
 de:14625:6708,33006708,August-Bebel-Straße,Radeberg,Radeberg August-Bebel-Straße,51.116657,13.916233,DVB|RBO,7,,28|78,,
 de:14625:6700,33006700,Bahnhof,Radeberg,Radeberg Bahnhof,51.111948,13.91246,DB Regio AG Südost|DVB|RBO|trilex - Die Länderbahn GmbH DLB,14,,28|78,RB60|RB61|RE1|RE2,S8
 de:14625:6717,33006717,Doktor-Albert-Dietze-Straße,Radeberg,Radeberg Doktor-Albert-Dietze-Straße,51.112298,13.918605,RBO,2,,28,,
 de:14625:6704,33006704,Doktor-Rudolf-Friedrichs-Straße,Radeberg,Radeberg Doktor-Rudolf-Friedrichs-Straße,51.124669,13.914661,DVB|RBO,3,,28|78,,
-de:14625:6736,33006736,Einkaufszentrum,Radeberg,Radeberg Einkaufszentrum,51.127686,13.916629,RBO,3,,28,,
+de:14625:6736,33006736,Einkaufszentrum,Radeberg,Radeberg Einkaufszentrum,51.127686,13.916629,RBO,2,,28,,
 de:14625:6738,33006738,F.-Freiligrath-Str.,Radeberg,Radeberg F.-Freiligrath-Str.,51.105891,13.908759,RBO,3,,,,
 de:14625:6711,33006711,Forststraße,Radeberg,Radeberg Forststraße,51.112078,13.898168,RBO,1,,28,,
 de:14625:6714,33006714,Georg-Büchner-Straße,Radeberg,Radeberg Georg-Büchner-Straße,51.102478,13.913484,RBO,1,,28,,
@@ -3002,7 +3002,7 @@ de:14625:6707,33006707,Lotzdorf Schule,Radeberg,Radeberg Lotzdorf Schule,51.1290
 de:14625:6721,33006721,Markt,Radeberg,Radeberg Markt,51.118146,13.923249,RBO,2,,28,,
 de:14625:6703,33006703,Oberstraße,Radeberg,Radeberg Oberstraße,51.119956,13.92024,DVB|RBO,4,,28|78,,
 de:14625:6702,33006702,Otto-Uhlig-Straße,Radeberg,Radeberg Otto-Uhlig-Straße,51.118721,13.918425,DVB|RBO,4,,28|78,,
-de:14625:6718,33006718,Pulsnitzer Straße,Radeberg,Radeberg Pulsnitzer Straße,51.119601,13.921848,RBO,5,,28,,
+de:14625:6718,33006718,Pulsnitzer Straße,Radeberg,Radeberg Pulsnitzer Straße,51.119601,13.921848,RBO,3,,28,,
 de:14625:6724,33006724,Randsiedlung,Radeberg,Radeberg Randsiedlung,51.127263,13.949938,RBO,1,,,,
 de:14625:6716,33006716,Rathenaustraße,Radeberg,Radeberg Rathenaustraße,51.112399,13.917473,RBO,4,,28,,
 de:14625:6730,33006730,Richard-Wagner-Straße,Radeberg,Radeberg Richard-Wagner-Straße,51.106162,13.920105,RBO,3,,28,,
@@ -3457,8 +3457,8 @@ de:14612:3762,33003762,Sportplatz,Schönfeld (Dresden),Schönfeld (Dresden) Spor
 de:14627:5450,33005450,Schloss,Schönfeld (bei Großenhain),Schönfeld (bei Großenhain) Schloss,51.303657,13.708255,VGM,2,,,,
 de:14627:5451,33005451,Straße der MTS,Schönfeld (bei Großenhain),Schönfeld (bei Großenhain) Straße der MTS,51.301647,13.69894,VGM,2,,,,
 de:14628:3920,33003920,Bahnhof,Sebnitz,Sebnitz Bahnhof,50.976031,14.272119,DB Regio AG Südost|RVSOE,9,,R (Sebnitz)|T (Sebnitz),RB71|U28,
-de:14628:3944,33003944,Betriebshof,Sebnitz,Sebnitz Betriebshof,50.969933,14.246301,RVSOE,1,,,,
-de:14628:3935,33003935,Brückenschänke,Sebnitz,Sebnitz Brückenschänke,50.968768,14.257225,RVSOE,7,,R (Sebnitz)|T (Sebnitz),,
+de:14628:3944,33003944,Betriebshof,Sebnitz,Sebnitz Betriebshof,50.969933,14.246301,RVSOE,7,,,,
+de:14628:3935,33003935,Brückenschänke,Sebnitz,Sebnitz Brückenschänke,50.968768,14.257225,RVSOE,9,,R (Sebnitz)|T (Sebnitz),,
 de:14628:3921,33003921,Busbahnhof,Sebnitz,Sebnitz Busbahnhof,50.967144,14.270529,RVSOE,9,,R (Sebnitz)|T (Sebnitz),,
 de:14628:3932,33003932,Böhmische Straße,Sebnitz,Sebnitz Böhmische Straße,50.975901,14.281704,RVSOE,2,,R (Sebnitz)|T (Sebnitz),,
 de:14628:3929,33003929,Dr.-Petzold-Straße,Sebnitz,Sebnitz Dr.-Petzold-Straße,50.971676,14.263378,RVSOE,2,,R (Sebnitz)|T (Sebnitz),,
@@ -3467,10 +3467,10 @@ de:14628:3948,33003948,Forellenschänke,Sebnitz,Sebnitz Forellenschänke,50.9743
 de:14628:3928,33003928,Forum am Knöchel,Sebnitz,Sebnitz Forum am Knöchel,50.975992,14.264825,RVSOE,2,,R (Sebnitz)|T (Sebnitz),,
 de:14628:3951,33003951,Friedhof,Sebnitz,Sebnitz Friedhof,50.969192,14.274356,RVSOE,1,,T (Sebnitz),,
 de:14628:3933,33003933,Gartenstraße,Sebnitz,Sebnitz Gartenstraße,50.97667,14.265139,RVSOE,7,,R (Sebnitz)|T (Sebnitz),,
-de:14628:3958,33003958,Hainersdorfer Weg,Sebnitz,Sebnitz Hainersdorfer Weg,50.967761,14.255114,RVSOE,1,,,,
+de:14628:3958,33003958,Hainersdorfer Weg,Sebnitz,Sebnitz Hainersdorfer Weg,50.967761,14.255114,RVSOE,2,,,,
 de:14628:3924,33003924,Heinestraße,Sebnitz,Sebnitz Heinestraße,50.982914,14.270646,RVSOE,2,,R (Sebnitz)|T (Sebnitz),,
 de:14628:3950,33003950,Hertigswalder Straße,Sebnitz,Sebnitz Hertigswalder Straße,50.970669,14.271885,,0,,,,
-de:14628:3937,33003937,Hohnsteiner Straße,Sebnitz,Sebnitz Hohnsteiner Straße,50.9687,14.254979,RVSOE,4,,R (Sebnitz)|T (Sebnitz),,
+de:14628:3937,33003937,Hohnsteiner Straße,Sebnitz,Sebnitz Hohnsteiner Straße,50.9687,14.254979,RVSOE,9,,R (Sebnitz)|T (Sebnitz),,
 de:14628:3949,33003949,KiEZ,Sebnitz,Sebnitz KiEZ,50.968638,14.284435,RVSOE,1,,T (Sebnitz),,
 de:14628:3930,33003930,Krankenhaus,Sebnitz,Sebnitz Krankenhaus,50.983593,14.264312,RVSOE,2,,R (Sebnitz)|T (Sebnitz),,
 de:14628:3931,33003931,Kreuzstraße,Sebnitz,Sebnitz Kreuzstraße,50.976099,14.276907,RVSOE,2,,R (Sebnitz)|T (Sebnitz),,
@@ -3755,7 +3755,7 @@ de:14627:4147,33004147,Köhlerstraße,Weinböhla,Weinböhla Köhlerstraße,51.15
 de:14627:4148,33004148,Laubengasse,Weinböhla,Weinböhla Laubengasse,51.163854,13.588573,VGM,2,,,,
 de:14627:4141,33004141,Laubenhöhe,Weinböhla,Weinböhla Laubenhöhe,51.157742,13.594924,VGM,1,,,,
 de:14627:4153,33004153,Laubenschlößchen,Weinböhla,Weinböhla Laubenschlößchen,51.162987,13.594061,VGM,3,,,,
-de:14627:4146,33004146,Lessingstraße,Weinböhla,Weinböhla Lessingstraße,51.152355,13.566726,VGM,2,,,,
+de:14627:4146,33004146,Lessingstraße,Weinböhla,Weinböhla Lessingstraße,51.152355,13.566726,VGM,1,,,,
 de:14627:4151,33004151,Maxstraße,Weinböhla,Weinböhla Maxstraße,51.163702,13.577685,VGM,2,,,,
 de:14627:4152,33004152,Moritzburger Straße,Weinböhla,Weinböhla Moritzburger Straße,51.164716,13.582464,VGM,2,,,,
 de:14627:4402,33004402,Nassauhalle,Weinböhla,Weinböhla Nassauhalle,51.162547,13.562162,VGM,5,,,,

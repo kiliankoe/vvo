@@ -21528,7 +21528,8 @@
         ],
         "Zug": [
           "RE19",
-          "RE20"
+          "RE20",
+          "U28"
         ],
         "S-Bahn": [
           "S1",
@@ -21538,7 +21539,7 @@
           "SEV"
         ]
       },
-      "total_lines": 17
+      "total_lines": 18
     },
     {
       "id": "de:14612:662",
@@ -21589,7 +21590,8 @@
         ],
         "Zug": [
           "RE19",
-          "RE20"
+          "RE20",
+          "U28"
         ],
         "S-Bahn": [
           "S1",
@@ -21604,7 +21606,7 @@
           "SEV"
         ]
       },
-      "total_lines": 12
+      "total_lines": 13
     },
     {
       "id": "de:14612:593",
@@ -21689,7 +21691,8 @@
         ],
         "Zug": [
           "RE19",
-          "RE20"
+          "RE20",
+          "U28"
         ],
         "S-Bahn": [
           "S1",
@@ -21699,7 +21702,7 @@
           "SEV"
         ]
       },
-      "total_lines": 8
+      "total_lines": 9
     },
     {
       "id": "de:14612:622",
@@ -21853,7 +21856,8 @@
         ],
         "Zug": [
           "RE19",
-          "RE20"
+          "RE20",
+          "U28"
         ],
         "S-Bahn": [
           "S1",
@@ -21863,7 +21867,7 @@
           "SEV"
         ]
       },
-      "total_lines": 13
+      "total_lines": 14
     },
     {
       "id": "de:14612:910",
@@ -21878,14 +21882,15 @@
       ],
       "lines": {
         "Zug": [
-          "RE19"
+          "RE19",
+          "U28"
         ],
         "S-Bahn": [
           "S1",
           "S2"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:711",
@@ -28081,11 +28086,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "161",
           "162"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:1178",
@@ -34532,7 +34536,8 @@
         "Zug": [
           "RB72",
           "RE19",
-          "RE20"
+          "RE20",
+          "U28"
         ],
         "S-Bahn": [
           "S1",
@@ -34542,7 +34547,7 @@
           "SEV"
         ]
       },
-      "total_lines": 14
+      "total_lines": 15
     },
     {
       "id": "de:14628:3064",
@@ -35065,6 +35070,9 @@
           "S1",
           "S2"
         ],
+        "Zug": [
+          "U28"
+        ],
         "Stadtbus": [
           "A (Heidenau)"
         ],
@@ -35072,7 +35080,7 @@
           "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3065",
@@ -35089,9 +35097,12 @@
         "S-Bahn": [
           "S1",
           "S2"
+        ],
+        "Zug": [
+          "U28"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3054",
@@ -35405,9 +35416,12 @@
         ],
         "Zug": [
           "RB71"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3849",
@@ -35906,10 +35920,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "268"
+          "268",
+          "269"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3956",
@@ -38713,8 +38728,8 @@
       "name": "Am Walde",
       "city": "Jacobsthal",
       "name_with_city": "Jacobsthal Am Walde",
-      "longitude": 13.313104,
-      "latitude": 51.382144,
+      "longitude": 13.313976,
+      "latitude": 51.381696,
       "operators": [
         "VGM"
       ],
@@ -39069,11 +39084,10 @@
       "lines": {
         "Regionalbus": [
           "417",
-          "Sv125",
           "Sv170"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4505",
@@ -44249,14 +44263,18 @@
       "longitude": 14.089033,
       "latitude": 51.039524,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "265"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3824",
@@ -44280,9 +44298,12 @@
         ],
         "Zug": [
           "RB71"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3813",
@@ -44369,6 +44390,7 @@
       "longitude": 14.132359,
       "latitude": 51.039326,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -44378,9 +44400,12 @@
         ],
         "PlusBus": [
           "261"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3826",
@@ -44391,6 +44416,7 @@
       "longitude": 14.119046,
       "latitude": 51.041913,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -44401,9 +44427,12 @@
         ],
         "PlusBus": [
           "261"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3821",
@@ -58946,7 +58975,8 @@
         "Zug": [
           "RB71",
           "RE20",
-          "RE50"
+          "RE50",
+          "U28"
         ],
         "S-Bahn": [
           "S1",
@@ -58956,7 +58986,7 @@
           "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14628:3383",
@@ -60686,11 +60716,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "Sv140",
           "Sv256"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4756",
@@ -62935,12 +62964,9 @@
       "lines": {
         "Stadtbus": [
           "28"
-        ],
-        "Regionalbus": [
-          "760"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:6733",
@@ -63111,11 +63137,10 @@
           "28"
         ],
         "Regionalbus": [
-          "760",
-          "761"
+          "760"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:6738",
@@ -63442,13 +63467,9 @@
         "PlusBus": [
           "520",
           "521"
-        ],
-        "Regionalbus": [
-          "760",
-          "761"
         ]
       },
-      "total_lines": 5
+      "total_lines": 3
     },
     {
       "id": "de:14625:6724",
@@ -72811,10 +72832,20 @@
       ],
       "lines": {
         "Regionalbus": [
-          "237"
+          "236",
+          "237",
+          "260",
+          "268",
+          "269"
+        ],
+        "PlusBus": [
+          "261"
+        ],
+        "Taktbus": [
+          "267"
         ]
       },
-      "total_lines": 1
+      "total_lines": 7
     },
     {
       "id": "de:14628:3935",
@@ -72831,7 +72862,9 @@
         "Regionalbus": [
           "236",
           "237",
-          "260"
+          "260",
+          "268",
+          "269"
         ],
         "PlusBus": [
           "261"
@@ -72844,7 +72877,7 @@
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 7
+      "total_lines": 9
     },
     {
       "id": "de:14628:3921",
@@ -73034,10 +73067,11 @@
       ],
       "lines": {
         "Regionalbus": [
+          "237",
           "260"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3924",
@@ -73084,14 +73118,23 @@
       "lines": {
         "Regionalbus": [
           "236",
-          "237"
+          "237",
+          "260",
+          "268",
+          "269"
+        ],
+        "PlusBus": [
+          "261"
+        ],
+        "Taktbus": [
+          "267"
         ],
         "Stadtbus": [
           "R (Sebnitz)",
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 9
     },
     {
       "id": "de:14628:3949",
@@ -78830,11 +78873,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411",
-          "Sv250"
+          "411"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4151",

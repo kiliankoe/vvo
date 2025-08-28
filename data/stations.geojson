@@ -29603,7 +29603,8 @@
           ],
           "Zug": [
             "RE19",
-            "RE20"
+            "RE20",
+            "U28"
           ],
           "S-Bahn": [
             "S1",
@@ -29613,7 +29614,7 @@
             "SEV"
           ]
         },
-        "total_lines": 17
+        "total_lines": 18
       }
     },
     {
@@ -29680,7 +29681,8 @@
           ],
           "Zug": [
             "RE19",
-            "RE20"
+            "RE20",
+            "U28"
           ],
           "S-Bahn": [
             "S1",
@@ -29695,7 +29697,7 @@
             "SEV"
           ]
         },
-        "total_lines": 12
+        "total_lines": 13
       }
     },
     {
@@ -29804,7 +29806,8 @@
           ],
           "Zug": [
             "RE19",
-            "RE20"
+            "RE20",
+            "U28"
           ],
           "S-Bahn": [
             "S1",
@@ -29814,7 +29817,7 @@
             "SEV"
           ]
         },
-        "total_lines": 8
+        "total_lines": 9
       }
     },
     {
@@ -30008,7 +30011,8 @@
           ],
           "Zug": [
             "RE19",
-            "RE20"
+            "RE20",
+            "U28"
           ],
           "S-Bahn": [
             "S1",
@@ -30018,7 +30022,7 @@
             "SEV"
           ]
         },
-        "total_lines": 13
+        "total_lines": 14
       }
     },
     {
@@ -30041,14 +30045,15 @@
         ],
         "lines": {
           "Zug": [
-            "RE19"
+            "RE19",
+            "U28"
           ],
           "S-Bahn": [
             "S1",
             "S2"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -38572,11 +38577,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "161",
             "162"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -47527,7 +47531,8 @@
           "Zug": [
             "RB72",
             "RE19",
-            "RE20"
+            "RE20",
+            "U28"
           ],
           "S-Bahn": [
             "S1",
@@ -47537,7 +47542,7 @@
             "SEV"
           ]
         },
-        "total_lines": 14
+        "total_lines": 15
       }
     },
     {
@@ -48284,6 +48289,9 @@
             "S1",
             "S2"
           ],
+          "Zug": [
+            "U28"
+          ],
           "Stadtbus": [
             "A (Heidenau)"
           ],
@@ -48291,7 +48299,7 @@
             "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -48316,9 +48324,12 @@
           "S-Bahn": [
             "S1",
             "S2"
+          ],
+          "Zug": [
+            "U28"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -48760,9 +48771,12 @@
           ],
           "Zug": [
             "RB71"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -49461,10 +49475,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "268"
+            "268",
+            "269"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -53340,8 +53355,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.313104,
-          51.382144
+          13.313976,
+          51.381696
         ]
       },
       "properties": {
@@ -53848,11 +53863,10 @@
         "lines": {
           "Regionalbus": [
             "417",
-            "Sv125",
             "Sv170"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -61012,14 +61026,18 @@
         "city": "Langenwolmsdorf",
         "name_with_city": "Langenwolmsdorf Aue",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "265"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -61051,9 +61069,12 @@
           ],
           "Zug": [
             "RB71"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -61180,6 +61201,7 @@
         "city": "Langenwolmsdorf",
         "name_with_city": "Langenwolmsdorf Oberdorf",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -61189,9 +61211,12 @@
           ],
           "PlusBus": [
             "261"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -61210,6 +61235,7 @@
         "city": "Langenwolmsdorf",
         "name_with_city": "Langenwolmsdorf Ortszentrum",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -61220,9 +61246,12 @@
           ],
           "PlusBus": [
             "261"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -81285,7 +81314,8 @@
           "Zug": [
             "RB71",
             "RE20",
-            "RE50"
+            "RE50",
+            "U28"
           ],
           "S-Bahn": [
             "S1",
@@ -81295,7 +81325,7 @@
             "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -83641,11 +83671,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "Sv140",
             "Sv256"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -86778,12 +86807,9 @@
         "lines": {
           "Stadtbus": [
             "28"
-          ],
-          "Regionalbus": [
-            "760"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -87010,11 +87036,10 @@
             "28"
           ],
           "Regionalbus": [
-            "760",
-            "761"
+            "760"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -87469,13 +87494,9 @@
           "PlusBus": [
             "520",
             "521"
-          ],
-          "Regionalbus": [
-            "760",
-            "761"
           ]
         },
-        "total_lines": 5
+        "total_lines": 3
       }
     },
     {
@@ -100478,10 +100499,20 @@
         ],
         "lines": {
           "Regionalbus": [
-            "237"
+            "236",
+            "237",
+            "260",
+            "268",
+            "269"
+          ],
+          "PlusBus": [
+            "261"
+          ],
+          "Taktbus": [
+            "267"
           ]
         },
-        "total_lines": 1
+        "total_lines": 7
       }
     },
     {
@@ -100506,7 +100537,9 @@
           "Regionalbus": [
             "236",
             "237",
-            "260"
+            "260",
+            "268",
+            "269"
           ],
           "PlusBus": [
             "261"
@@ -100519,7 +100552,7 @@
             "T (Sebnitz)"
           ]
         },
-        "total_lines": 7
+        "total_lines": 9
       }
     },
     {
@@ -100781,10 +100814,11 @@
         ],
         "lines": {
           "Regionalbus": [
+            "237",
             "260"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -100855,14 +100889,23 @@
         "lines": {
           "Regionalbus": [
             "236",
-            "237"
+            "237",
+            "260",
+            "268",
+            "269"
+          ],
+          "PlusBus": [
+            "261"
+          ],
+          "Taktbus": [
+            "267"
           ],
           "Stadtbus": [
             "R (Sebnitz)",
             "T (Sebnitz)"
           ]
         },
-        "total_lines": 4
+        "total_lines": 9
       }
     },
     {
@@ -108881,11 +108924,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411",
-            "Sv250"
+            "411"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
