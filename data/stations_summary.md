@@ -29,7 +29,7 @@ Total stations: 3936
 
 ## Stations by Transit Type
 
-- Regionalbus: 2726 stations
+- Regionalbus: 2727 stations
 - Stadtbus: 1350 stations
 - PlusBus: 609 stations
 - Anruflinienbus: 478 stations
@@ -51,7 +51,7 @@ Total stations: 3936
 ## Transit Operators
 
 - RVSOE: 1310 stations
-- VGM: 1183 stations
+- VGM: 1184 stations
 - DVB: 771 stations
 - RBO: 722 stations
 - DB Regio AG Südost: 129 stations

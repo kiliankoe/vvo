@@ -28086,10 +28086,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "161",
           "162"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:1178",
@@ -39084,10 +39085,11 @@
       "lines": {
         "Regionalbus": [
           "417",
+          "Sv125",
           "Sv170"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:4505",
@@ -60716,10 +60718,11 @@
       ],
       "lines": {
         "Regionalbus": [
+          "Sv140",
           "Sv256"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4756",
@@ -64368,14 +64371,18 @@
       "longitude": 13.654383,
       "latitude": 51.099861,
       "operators": [
-        "DVB"
+        "DVB",
+        "VGM"
       ],
       "lines": {
         "Stadtbus": [
           "72"
+        ],
+        "Regionalbus": [
+          "475"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4263",
@@ -78873,10 +78880,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411"
+          "411",
+          "Sv250"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4151",
