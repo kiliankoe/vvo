@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3936,
+    "count": 3937,
     "format_version": "2.0"
   },
   "stations": [
@@ -2130,10 +2130,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "451"
+          "451",
+          "461"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:5181",
@@ -12015,11 +12016,14 @@
           "S2",
           "S8"
         ],
+        "Fernbus": [
+          "Fernbus"
+        ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 24
+      "total_lines": 25
     },
     {
       "id": "de:14612:198",
@@ -25293,13 +25297,10 @@
       "lines": {
         "Regionalbus": [
           "226",
-          "232",
-          "233",
-          "234",
-          "236"
+          "234"
         ]
       },
-      "total_lines": 5
+      "total_lines": 2
     },
     {
       "id": "de:14628:3755",
@@ -28086,11 +28087,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "161",
           "162"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:1178",
@@ -39085,11 +39085,10 @@
       "lines": {
         "Regionalbus": [
           "417",
-          "Sv125",
           "Sv170"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4505",
@@ -48363,12 +48362,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "417",
           "500",
           "Sv170"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4585",
@@ -50321,11 +50319,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "A (Meißen)",
-          "B (Meißen)"
+          "A (Meißen)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4069",
@@ -60065,14 +60062,13 @@
           "237",
           "241",
           "245",
-          "246",
           "207a"
         ],
         "Stadtbus": [
           "Z (Pirna)"
         ]
       },
-      "total_lines": 11
+      "total_lines": 10
     },
     {
       "id": "de:14628:3382",
@@ -60718,11 +60714,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "Sv140",
           "Sv256"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4756",
@@ -62221,11 +62216,10 @@
         ],
         "Regionalbus": [
           "440",
-          "461",
-          "462"
+          "461"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14627:5832",
@@ -65453,6 +65447,25 @@
       "total_lines": 4
     },
     {
+      "id": "de:14627:4375",
+      "numeric_id": "33004375",
+      "name": "Kiebitzweg",
+      "city": "Radeburg",
+      "name_with_city": "Radeburg Kiebitzweg",
+      "longitude": 13.713124,
+      "latitude": 51.216085,
+      "operators": [
+        "VGM"
+      ],
+      "lines": {
+        "Regionalbus": [
+          "403",
+          "405"
+        ]
+      },
+      "total_lines": 2
+    },
+    {
       "id": "de:14627:4367",
       "numeric_id": "33004367",
       "name": "Meißner Berg",
@@ -68516,17 +68529,12 @@
           "431",
           "445"
         ],
-        "Regionalbus": [
-          "430",
-          "431",
-          "445"
-        ],
         "Stadtbus": [
           "A1 (Riesa)",
           "A2 (Riesa)"
         ]
       },
-      "total_lines": 8
+      "total_lines": 5
     },
     {
       "id": "de:14627:5540",
@@ -72217,8 +72225,8 @@
       "name": "Schänitz (b Meißen)",
       "city": "Schänitz (Nossen)",
       "name_with_city": "Schänitz (Nossen) Schänitz (b Meißen)",
-      "longitude": 13.341033,
-      "latitude": 51.128317,
+      "longitude": 13.342255,
+      "latitude": 51.128024,
       "operators": [
         "VGM"
       ],
@@ -78880,11 +78888,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411",
-          "Sv250"
+          "411"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4151",

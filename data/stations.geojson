@@ -2941,10 +2941,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "451"
+            "451",
+            "461"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -16642,11 +16643,14 @@
             "S2",
             "S8"
           ],
+          "Fernbus": [
+            "Fernbus"
+          ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 24
+        "total_lines": 25
       }
     },
     {
@@ -34704,13 +34708,10 @@
         "lines": {
           "Regionalbus": [
             "226",
-            "232",
-            "233",
-            "234",
-            "236"
+            "234"
           ]
         },
-        "total_lines": 5
+        "total_lines": 2
       }
     },
     {
@@ -38577,11 +38578,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "161",
             "162"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -53864,11 +53864,10 @@
         "lines": {
           "Regionalbus": [
             "417",
-            "Sv125",
             "Sv170"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -66726,12 +66725,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "417",
             "500",
             "Sv170"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -69380,11 +69378,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "A (Meißen)",
-            "B (Meißen)"
+            "A (Meißen)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -82796,14 +82793,13 @@
             "237",
             "241",
             "245",
-            "246",
             "207a"
           ],
           "Stadtbus": [
             "Z (Pirna)"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -83673,11 +83669,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "Sv140",
             "Sv256"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -85768,11 +85763,10 @@
           ],
           "Regionalbus": [
             "440",
-            "461",
-            "462"
+            "461"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -90269,6 +90263,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.713124,
+          51.216085
+        ]
+      },
+      "properties": {
+        "id": "de:14627:4375",
+        "numeric_id": "33004375",
+        "name": "Kiebitzweg",
+        "city": "Radeburg",
+        "name_with_city": "Radeburg Kiebitzweg",
+        "operators": [
+          "VGM"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "403",
+            "405"
+          ]
+        },
+        "total_lines": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.715388,
           51.21357
         ]
@@ -94503,17 +94524,12 @@
             "431",
             "445"
           ],
-          "Regionalbus": [
-            "430",
-            "431",
-            "445"
-          ],
           "Stadtbus": [
             "A1 (Riesa)",
             "A2 (Riesa)"
           ]
         },
-        "total_lines": 8
+        "total_lines": 5
       }
     },
     {
@@ -99636,8 +99652,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.341033,
-          51.128317
+          13.342255,
+          51.128024
         ]
       },
       "properties": {
@@ -108931,11 +108947,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411",
-            "Sv250"
+            "411"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {

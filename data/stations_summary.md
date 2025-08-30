@@ -1,6 +1,6 @@
 # VVO Station Data Summary
 
-Total stations: 3936
+Total stations: 3937
 
 ## Stations by City
 
@@ -44,14 +44,14 @@ Total stations: 3936
 - Stadtverkehr: 29 stations
 - Schülerlinie: 12 stations
 - TaktBus: 5 stations
+- Fernbus: 2 stations
 - Schwebebahn: 2 stations
 - Seilbahn: 2 stations
-- Fernbus: 1 stations
 
 ## Transit Operators
 
 - RVSOE: 1310 stations
-- VGM: 1184 stations
+- VGM: 1185 stations
 - DVB: 771 stations
 - RBO: 722 stations
 - DB Regio AG Südost: 129 stations
@@ -80,7 +80,7 @@ Total stations: 3936
 - Dresden Hauptbahnhof: 36 lines
 - Meißen Busbahnhof: 36 lines
 - Riesa Busbahnhof / Bahnhof: 28 lines
-- Dresden Bahnhof Neustadt: 24 lines
+- Dresden Bahnhof Neustadt: 25 lines
 - Kamenz Bahnhof: 24 lines
 - Meißen Altstadtbrücke: 22 lines
 - Pirna ZOB / Bahnhof: 22 lines
@@ -149,7 +149,6 @@ Total stations: 3936
 - Dresden Zeithainer Straße: 11 lines
 - Großenhain Hohe Straße: 11 lines
 - Lommatzsch Meißner Straße: 11 lines
-- Pirna Robert-Koch-Straße: 11 lines
 - Pulsnitz Bahnhof: 11 lines
 - Weinböhla Haltepunkt: 11 lines
 - Bischofswerda Schulstraße: 10 lines
@@ -163,4 +162,5 @@ Total stations: 3936
 - Freital S-Bahnhof Hainsberg: 10 lines
 - Gompitz Gompitzer Höhe: 10 lines
 - Königswartha Kirchplatz: 10 lines
+- Pirna Robert-Koch-Straße: 10 lines
 - Tharandt Bahnhof: 10 lines
