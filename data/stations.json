@@ -25297,10 +25297,13 @@
       "lines": {
         "Regionalbus": [
           "226",
-          "234"
+          "232",
+          "233",
+          "234",
+          "236"
         ]
       },
-      "total_lines": 2
+      "total_lines": 5
     },
     {
       "id": "de:14628:3755",
@@ -28087,10 +28090,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "161",
           "162"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:1178",
@@ -39085,10 +39089,11 @@
       "lines": {
         "Regionalbus": [
           "417",
+          "Sv125",
           "Sv170"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:4505",
@@ -48362,11 +48367,12 @@
       ],
       "lines": {
         "Regionalbus": [
+          "417",
           "500",
           "Sv170"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:4585",
@@ -50319,10 +50325,11 @@
       ],
       "lines": {
         "Stadtbus": [
-          "A (Meißen)"
+          "A (Meißen)",
+          "B (Meißen)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4069",
@@ -60062,13 +60069,14 @@
           "237",
           "241",
           "245",
+          "246",
           "207a"
         ],
         "Stadtbus": [
           "Z (Pirna)"
         ]
       },
-      "total_lines": 10
+      "total_lines": 11
     },
     {
       "id": "de:14628:3382",
@@ -62216,10 +62224,11 @@
         ],
         "Regionalbus": [
           "440",
-          "461"
+          "461",
+          "462"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14627:5832",
@@ -68529,12 +68538,17 @@
           "431",
           "445"
         ],
+        "Regionalbus": [
+          "430",
+          "431",
+          "445"
+        ],
         "Stadtbus": [
           "A1 (Riesa)",
           "A2 (Riesa)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 8
     },
     {
       "id": "de:14627:5540",
@@ -78888,10 +78902,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411"
+          "411",
+          "Sv250"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4151",
