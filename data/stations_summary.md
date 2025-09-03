@@ -29,7 +29,7 @@ Total stations: 3936
 
 ## Stations by Transit Type
 
-- Regionalbus: 2728 stations
+- Regionalbus: 2737 stations
 - Stadtbus: 1331 stations
 - PlusBus: 609 stations
 - Anruflinienbus: 478 stations
@@ -55,10 +55,10 @@ Total stations: 3936
 - DVB: 764 stations
 - RBO: 722 stations
 - DB Regio AG Südost: 129 stations
+- Müller Busreisen: 106 stations
 - VGH: 82 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 68 stations
-- Müller Busreisen: 58 stations
 - SATRA: 43 stations
 - RBM: 31 stations
 - DB AG: 28 stations
@@ -161,4 +161,8 @@ Total stations: 3936
 - Dresden Zwinglistraße: 10 lines
 - Freital S-Bahnhof Hainsberg: 10 lines
 - Königswartha Kirchplatz: 10 lines
+- Sebnitz Brückenschänke: 10 lines
+- Sebnitz Busbahnhof: 10 lines
+- Sebnitz Gartenstraße: 10 lines
+- Sebnitz Hohnsteiner Straße: 10 lines
 - Tharandt Bahnhof: 10 lines

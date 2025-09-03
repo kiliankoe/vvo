@@ -26143,10 +26143,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "68"
+            "68",
+            "EV 12"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -30612,7 +30613,8 @@
             "68",
             "91",
             "92",
-            "93"
+            "93",
+            "EV 12"
           ],
           "Anruflinienbus": [
             "91",
@@ -30622,7 +30624,7 @@
             "alita 92"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -33189,10 +33191,11 @@
         ],
         "lines": {
           "Stadtbus": [
+            "63",
             "66"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -34624,13 +34627,10 @@
         "lines": {
           "Regionalbus": [
             "226",
-            "232",
-            "233",
-            "234",
-            "236"
+            "234"
           ]
         },
-        "total_lines": 5
+        "total_lines": 2
       }
     },
     {
@@ -34953,6 +34953,7 @@
         "city": "Ehrenberg b Sebnitz",
         "name_with_city": "Ehrenberg b Sebnitz Abzweig Cunnersdorf",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
@@ -34960,10 +34961,11 @@
             "235",
             "236",
             "237",
-            "264"
+            "264",
+            "7"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -34982,6 +34984,7 @@
         "city": "Ehrenberg b Sebnitz",
         "name_with_city": "Ehrenberg b Sebnitz Oberehrenberg",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
@@ -34989,10 +34992,11 @@
             "235",
             "236",
             "237",
-            "264"
+            "264",
+            "7"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -35011,6 +35015,7 @@
         "city": "Ehrenberg b Sebnitz",
         "name_with_city": "Ehrenberg b Sebnitz Schule",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
@@ -35018,13 +35023,14 @@
             "235",
             "236",
             "237",
-            "264"
+            "264",
+            "7"
           ],
           "Taktbus": [
             "267"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -35043,19 +35049,21 @@
         "city": "Ehrenberg b Sebnitz",
         "name_with_city": "Ehrenberg b Sebnitz Unterehrenberg",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "235",
             "236",
-            "237"
+            "237",
+            "7"
           ],
           "Taktbus": [
             "267"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -38497,11 +38505,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "161",
             "162"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -46618,18 +46625,20 @@
         "name_with_city": "Hainersdorf (Sebnitz) Haltepunkt Amtshainersdorf",
         "operators": [
           "DB Regio AG Südost",
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "236",
-            "237"
+            "237",
+            "7"
           ],
           "Zug": [
             "U28"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -46648,15 +46657,17 @@
         "city": "Hainersdorf (Sebnitz)",
         "name_with_city": "Hainersdorf (Sebnitz) Sebnitztal",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "236",
-            "237"
+            "237",
+            "7"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -46675,15 +46686,17 @@
         "city": "Hainersdorf (Sebnitz)",
         "name_with_city": "Hainersdorf (Sebnitz) Siedlerstraße",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "236",
-            "237"
+            "237",
+            "7"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -49333,15 +49346,17 @@
         "city": "Hertigswalde",
         "name_with_city": "Hertigswalde Abzweig Ottendorf",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "268",
-            "269"
+            "269",
+            "5"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -49360,14 +49375,16 @@
         "city": "Hertigswalde",
         "name_with_city": "Hertigswalde Morgenröte",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
-            "269"
+            "269",
+            "5"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -49386,15 +49403,17 @@
         "city": "Hertigswalde",
         "name_with_city": "Hertigswalde Ortsmitte",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "268",
-            "269"
+            "269",
+            "5"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -49413,14 +49432,16 @@
         "city": "Hertigswalde",
         "name_with_city": "Hertigswalde Schaffrath",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
-            "268"
+            "268",
+            "5"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -49439,14 +49460,16 @@
         "city": "Hertigswalde",
         "name_with_city": "Hertigswalde Siedlung",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
-            "269"
+            "269",
+            "5"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -49465,14 +49488,16 @@
         "city": "Hertigswalde",
         "name_with_city": "Hertigswalde Waldhaus",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
-            "268"
+            "268",
+            "5"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -49752,16 +49777,18 @@
         "city": "Hinterhermsdorf",
         "name_with_city": "Hinterhermsdorf Erbgericht",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "241",
             "268",
-            "269"
+            "269",
+            "5"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -49780,16 +49807,18 @@
         "city": "Hinterhermsdorf",
         "name_with_city": "Hinterhermsdorf Hirschewaldweg",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "241",
             "268",
-            "269"
+            "269",
+            "5"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -49808,16 +49837,18 @@
         "city": "Hinterhermsdorf",
         "name_with_city": "Hinterhermsdorf Hoffnung",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "241",
             "268",
-            "269"
+            "269",
+            "5"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -49836,16 +49867,18 @@
         "city": "Hinterhermsdorf",
         "name_with_city": "Hinterhermsdorf Zeltplatz",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "241",
             "268",
-            "269"
+            "269",
+            "5"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -50022,6 +50055,7 @@
         "city": "Hohnstein",
         "name_with_city": "Hohnstein Abzweig Bad Schandau",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
@@ -50030,10 +50064,11 @@
             "236",
             "237",
             "254",
-            "264"
+            "264",
+            "7"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -50052,6 +50087,7 @@
         "city": "Hohnstein",
         "name_with_city": "Hohnstein Eiche",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
@@ -50060,10 +50096,11 @@
             "236",
             "237",
             "254",
-            "264"
+            "264",
+            "7"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -50219,6 +50256,7 @@
         "city": "Hohnstein",
         "name_with_city": "Hohnstein Sebnitzer Straße",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
@@ -50226,10 +50264,11 @@
             "235",
             "236",
             "237",
-            "264"
+            "264",
+            "7"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -53778,11 +53817,10 @@
         "lines": {
           "Regionalbus": [
             "417",
-            "Sv125",
             "Sv170"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -58502,9 +58540,13 @@
         "name_with_city": "Krumhermsdorf Am Park",
         "operators": [
           "DB Regio AG Südost",
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
+          "Regionalbus": [
+            "6"
+          ],
           "Taktbus": [
             "267"
           ],
@@ -58512,7 +58554,7 @@
             "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -64730,16 +64772,18 @@
         "city": "Lohsdorf (bei Pirna)",
         "name_with_city": "Lohsdorf (bei Pirna) Ehemaliger Bahnhof",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "235",
             "236",
-            "237"
+            "237",
+            "7"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -66537,9 +66581,12 @@
         "lines": {
           "PlusBus": [
             "500"
+          ],
+          "Regionalbus": [
+            "794"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -78653,15 +78700,17 @@
         "city": "Ottendorf (Sebnitz)",
         "name_with_city": "Ottendorf (Sebnitz) Buschmühle",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "241",
-            "269"
+            "269",
+            "5"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -78707,14 +78756,16 @@
         "city": "Ottendorf (Sebnitz)",
         "name_with_city": "Ottendorf (Sebnitz) Gasthaus",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
-            "269"
+            "269",
+            "5"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -78760,14 +78811,16 @@
         "city": "Ottendorf (Sebnitz)",
         "name_with_city": "Ottendorf (Sebnitz) Ortsmitte",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
-            "269"
+            "269",
+            "5"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -78786,14 +78839,16 @@
         "city": "Ottendorf (Sebnitz)",
         "name_with_city": "Ottendorf (Sebnitz) Ottendorfer Hütte",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
-            "269"
+            "269",
+            "5"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -78812,14 +78867,16 @@
         "city": "Ottendorf (Sebnitz)",
         "name_with_city": "Ottendorf (Sebnitz) Steinbruch",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
-            "269"
+            "269",
+            "5"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -78865,15 +78922,17 @@
         "city": "Ottendorf (Sebnitz)",
         "name_with_city": "Ottendorf (Sebnitz) Zum Thorwald",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "241",
-            "269"
+            "269",
+            "5"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -83579,11 +83638,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "Sv140",
             "Sv256"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -97426,14 +97484,16 @@
         "city": "Saupsdorf",
         "name_with_city": "Saupsdorf Am Wachberg",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
-            "268"
+            "268",
+            "5"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -97452,14 +97512,16 @@
         "city": "Saupsdorf",
         "name_with_city": "Saupsdorf Niederdorf",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
-            "268"
+            "268",
+            "5"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -97478,14 +97540,16 @@
         "city": "Saupsdorf",
         "name_with_city": "Saupsdorf Richtermühle",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
-            "268"
+            "268",
+            "5"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -97504,16 +97568,18 @@
         "city": "Saupsdorf",
         "name_with_city": "Saupsdorf Räumichtmühle",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "241",
             "268",
-            "269"
+            "269",
+            "5"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -97532,16 +97598,18 @@
         "city": "Saupsdorf",
         "name_with_city": "Saupsdorf Saupsdorfer Räumicht",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "241",
             "268",
-            "269"
+            "269",
+            "5"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -97560,15 +97628,17 @@
         "city": "Saupsdorf",
         "name_with_city": "Saupsdorf Sturmbauers Eck",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "241",
-            "269"
+            "269",
+            "5"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -99835,14 +99905,18 @@
         "city": "Schönbach (Sebnitz)",
         "name_with_city": "Schönbach (Sebnitz) Gasthaus",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
+          "Regionalbus": [
+            "6"
+          ],
           "Taktbus": [
             "267"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -99861,14 +99935,18 @@
         "city": "Schönbach (Sebnitz)",
         "name_with_city": "Schönbach (Sebnitz) Ortsanfang",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
+          "Regionalbus": [
+            "6"
+          ],
           "Taktbus": [
             "267"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -100409,6 +100487,7 @@
         "city": "Sebnitz",
         "name_with_city": "Sebnitz Betriebshof",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
@@ -100417,7 +100496,8 @@
             "237",
             "260",
             "268",
-            "269"
+            "269",
+            "7"
           ],
           "PlusBus": [
             "261"
@@ -100426,7 +100506,7 @@
             "267"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -100445,6 +100525,7 @@
         "city": "Sebnitz",
         "name_with_city": "Sebnitz Brückenschänke",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
@@ -100453,7 +100534,8 @@
             "237",
             "260",
             "268",
-            "269"
+            "269",
+            "5"
           ],
           "PlusBus": [
             "261"
@@ -100466,7 +100548,7 @@
             "T (Sebnitz)"
           ]
         },
-        "total_lines": 9
+        "total_lines": 10
       }
     },
     {
@@ -100485,6 +100567,7 @@
         "city": "Sebnitz",
         "name_with_city": "Sebnitz Busbahnhof",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
@@ -100493,7 +100576,8 @@
             "237",
             "260",
             "268",
-            "269"
+            "269",
+            "5"
           ],
           "PlusBus": [
             "261"
@@ -100506,7 +100590,7 @@
             "T (Sebnitz)"
           ]
         },
-        "total_lines": 9
+        "total_lines": 10
       }
     },
     {
@@ -100579,9 +100663,15 @@
         "city": "Sebnitz",
         "name_with_city": "Sebnitz Dr.-Steudner-Straße",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
+          "Regionalbus": [
+            "5",
+            "6",
+            "7"
+          ],
           "PlusBus": [
             "261"
           ],
@@ -100590,7 +100680,7 @@
             "T (Sebnitz)"
           ]
         },
-        "total_lines": 3
+        "total_lines": 6
       }
     },
     {
@@ -100688,6 +100778,7 @@
         "city": "Sebnitz",
         "name_with_city": "Sebnitz Gartenstraße",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
@@ -100695,7 +100786,10 @@
             "237",
             "260",
             "268",
-            "269"
+            "269",
+            "5",
+            "6",
+            "7"
           ],
           "PlusBus": [
             "261"
@@ -100705,7 +100799,7 @@
             "T (Sebnitz)"
           ]
         },
-        "total_lines": 7
+        "total_lines": 10
       }
     },
     {
@@ -100751,15 +100845,21 @@
         "city": "Sebnitz",
         "name_with_city": "Sebnitz Heinestraße",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
+          "Regionalbus": [
+            "5",
+            "6",
+            "7"
+          ],
           "Stadtbus": [
             "R (Sebnitz)",
             "T (Sebnitz)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 5
       }
     },
     {
@@ -100798,6 +100898,7 @@
         "city": "Sebnitz",
         "name_with_city": "Sebnitz Hohnsteiner Straße",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
@@ -100806,7 +100907,8 @@
             "237",
             "260",
             "268",
-            "269"
+            "269",
+            "7"
           ],
           "PlusBus": [
             "261"
@@ -100819,7 +100921,7 @@
             "T (Sebnitz)"
           ]
         },
-        "total_lines": 9
+        "total_lines": 10
       }
     },
     {
@@ -100864,15 +100966,21 @@
         "city": "Sebnitz",
         "name_with_city": "Sebnitz Krankenhaus",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
+          "Regionalbus": [
+            "5",
+            "6",
+            "7"
+          ],
           "Stadtbus": [
             "R (Sebnitz)",
             "T (Sebnitz)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 5
       }
     },
     {
@@ -101074,12 +101182,16 @@
         "city": "Sebnitz",
         "name_with_city": "Sebnitz Schönbacher Weg",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "237",
-            "260"
+            "260",
+            "5",
+            "6",
+            "7"
           ],
           "PlusBus": [
             "261"
@@ -101091,7 +101203,7 @@
             "T (Sebnitz)"
           ]
         },
-        "total_lines": 5
+        "total_lines": 8
       }
     },
     {
@@ -101110,15 +101222,21 @@
         "city": "Sebnitz",
         "name_with_city": "Sebnitz Seniorenheim",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
+          "Regionalbus": [
+            "5",
+            "6",
+            "7"
+          ],
           "Stadtbus": [
             "R (Sebnitz)",
             "T (Sebnitz)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 5
       }
     },
     {
@@ -101137,9 +101255,13 @@
         "city": "Sebnitz",
         "name_with_city": "Sebnitz Siedlung",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
+          "Regionalbus": [
+            "6"
+          ],
           "Taktbus": [
             "267"
           ],
@@ -101147,7 +101269,7 @@
             "T (Sebnitz)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -106965,16 +107087,18 @@
         "city": "Ulbersdorf",
         "name_with_city": "Ulbersdorf Almenhof",
         "operators": [
+          "Müller Busreisen",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "235",
             "236",
-            "237"
+            "237",
+            "7"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -108838,11 +108962,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411",
-            "Sv250"
+            "411"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {

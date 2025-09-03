@@ -18972,10 +18972,11 @@
       ],
       "lines": {
         "Stadtbus": [
-          "68"
+          "68",
+          "EV 12"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:335",
@@ -22289,7 +22290,8 @@
           "68",
           "91",
           "92",
-          "93"
+          "93",
+          "EV 12"
         ],
         "Anruflinienbus": [
           "91",
@@ -22299,7 +22301,7 @@
           "alita 92"
         ]
       },
-      "total_lines": 7
+      "total_lines": 8
     },
     {
       "id": "de:14612:517",
@@ -24186,10 +24188,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "63",
           "66"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:295",
@@ -25221,13 +25224,10 @@
       "lines": {
         "Regionalbus": [
           "226",
-          "232",
-          "233",
-          "234",
-          "236"
+          "234"
         ]
       },
-      "total_lines": 5
+      "total_lines": 2
     },
     {
       "id": "de:14628:3755",
@@ -25454,6 +25454,7 @@
       "longitude": 14.141189,
       "latitude": 50.998763,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
@@ -25461,10 +25462,11 @@
           "235",
           "236",
           "237",
-          "264"
+          "264",
+          "7"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3691",
@@ -25475,6 +25477,7 @@
       "longitude": 14.148609,
       "latitude": 50.991244,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
@@ -25482,10 +25485,11 @@
           "235",
           "236",
           "237",
-          "264"
+          "264",
+          "7"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3692",
@@ -25496,6 +25500,7 @@
       "longitude": 14.160557,
       "latitude": 50.988417,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
@@ -25503,13 +25508,14 @@
           "235",
           "236",
           "237",
-          "264"
+          "264",
+          "7"
         ],
         "Taktbus": [
           "267"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14628:3693",
@@ -25520,19 +25526,21 @@
       "longitude": 14.171373,
       "latitude": 50.987122,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "235",
           "236",
-          "237"
+          "237",
+          "7"
         ],
         "Taktbus": [
           "267"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3746",
@@ -28014,11 +28022,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "161",
           "162"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:1178",
@@ -33871,18 +33878,20 @@
       "latitude": 50.966301,
       "operators": [
         "DB Regio AG Südost",
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "236",
-          "237"
+          "237",
+          "7"
         ],
         "Zug": [
           "U28"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3941",
@@ -33893,15 +33902,17 @@
       "longitude": 14.240848,
       "latitude": 50.967801,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "236",
-          "237"
+          "237",
+          "7"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3943",
@@ -33912,15 +33923,17 @@
       "longitude": 14.239034,
       "latitude": 50.968338,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "236",
-          "237"
+          "237",
+          "7"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3942",
@@ -35802,15 +35815,17 @@
       "longitude": 14.284201,
       "latitude": 50.961402,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "268",
-          "269"
+          "269",
+          "5"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3953",
@@ -35821,14 +35836,16 @@
       "longitude": 14.277841,
       "latitude": 50.960446,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
-          "269"
+          "269",
+          "5"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3955",
@@ -35839,15 +35856,17 @@
       "longitude": 14.290696,
       "latitude": 50.960151,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "268",
-          "269"
+          "269",
+          "5"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3956",
@@ -35858,14 +35877,16 @@
       "longitude": 14.300703,
       "latitude": 50.958929,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
-          "268"
+          "268",
+          "5"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3954",
@@ -35876,14 +35897,16 @@
       "longitude": 14.279853,
       "latitude": 50.955902,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
-          "269"
+          "269",
+          "5"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3957",
@@ -35894,14 +35917,16 @@
       "longitude": 14.305806,
       "latitude": 50.955081,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
-          "268"
+          "268",
+          "5"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:1349",
@@ -36101,16 +36126,18 @@
       "longitude": 14.359444,
       "latitude": 50.925579,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "241",
           "268",
-          "269"
+          "269",
+          "5"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3995",
@@ -36121,16 +36148,18 @@
       "longitude": 14.343786,
       "latitude": 50.925375,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "241",
           "268",
-          "269"
+          "269",
+          "5"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3960",
@@ -36141,16 +36170,18 @@
       "longitude": 14.355779,
       "latitude": 50.922804,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "241",
           "268",
-          "269"
+          "269",
+          "5"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3964",
@@ -36161,16 +36192,18 @@
       "longitude": 14.350928,
       "latitude": 50.923116,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "241",
           "268",
-          "269"
+          "269",
+          "5"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:1990",
@@ -36291,6 +36324,7 @@
       "longitude": 14.128317,
       "latitude": 50.98383,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
@@ -36299,10 +36333,11 @@
           "236",
           "237",
           "254",
-          "264"
+          "264",
+          "7"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14628:3683",
@@ -36313,6 +36348,7 @@
       "longitude": 14.115704,
       "latitude": 50.979051,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
@@ -36321,10 +36357,11 @@
           "236",
           "237",
           "254",
-          "264"
+          "264",
+          "7"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14628:3706",
@@ -36432,6 +36469,7 @@
       "longitude": 14.139671,
       "latitude": 50.987031,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
@@ -36439,10 +36477,11 @@
           "235",
           "236",
           "237",
-          "264"
+          "264",
+          "7"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3680",
@@ -39007,11 +39046,10 @@
       "lines": {
         "Regionalbus": [
           "417",
-          "Sv125",
           "Sv170"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4505",
@@ -42435,9 +42473,13 @@
       "latitude": 50.990633,
       "operators": [
         "DB Regio AG Südost",
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
+        "Regionalbus": [
+          "6"
+        ],
         "Taktbus": [
           "267"
         ],
@@ -42445,7 +42487,7 @@
           "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3914",
@@ -46911,16 +46953,18 @@
       "longitude": 14.180679,
       "latitude": 50.971591,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "235",
           "236",
-          "237"
+          "237",
+          "7"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14627:4900",
@@ -48214,9 +48258,12 @@
       "lines": {
         "PlusBus": [
           "500"
+        ],
+        "Regionalbus": [
+          "794"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:6953",
@@ -57042,15 +57089,17 @@
       "longitude": 14.288648,
       "latitude": 50.925335,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "241",
-          "269"
+          "269",
+          "5"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3975",
@@ -57080,14 +57129,16 @@
       "longitude": 14.285297,
       "latitude": 50.945268,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
-          "269"
+          "269",
+          "5"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3974",
@@ -57117,14 +57168,16 @@
       "longitude": 14.288603,
       "latitude": 50.943944,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
-          "269"
+          "269",
+          "5"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3969",
@@ -57135,14 +57188,16 @@
       "longitude": 14.291603,
       "latitude": 50.944164,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
-          "269"
+          "269",
+          "5"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3972",
@@ -57153,14 +57208,16 @@
       "longitude": 14.29782,
       "latitude": 50.943423,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
-          "269"
+          "269",
+          "5"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3977",
@@ -57190,15 +57247,17 @@
       "longitude": 14.300775,
       "latitude": 50.9264,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "241",
-          "269"
+          "269",
+          "5"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3346",
@@ -60632,11 +60691,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "Sv140",
           "Sv256"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4756",
@@ -70599,14 +70657,16 @@
       "longitude": 14.331246,
       "latitude": 50.940559,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
-          "268"
+          "268",
+          "5"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3992",
@@ -70617,14 +70677,16 @@
       "longitude": 14.3275,
       "latitude": 50.938159,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
-          "268"
+          "268",
+          "5"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3990",
@@ -70635,14 +70697,16 @@
       "longitude": 14.317313,
       "latitude": 50.946564,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
-          "268"
+          "268",
+          "5"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3993",
@@ -70653,16 +70717,18 @@
       "longitude": 14.326152,
       "latitude": 50.928931,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "241",
           "268",
-          "269"
+          "269",
+          "5"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3994",
@@ -70673,16 +70739,18 @@
       "longitude": 14.336798,
       "latitude": 50.926836,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "241",
           "268",
-          "269"
+          "269",
+          "5"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3979",
@@ -70693,15 +70761,17 @@
       "longitude": 14.314133,
       "latitude": 50.928625,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "241",
-          "269"
+          "269",
+          "5"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:4613",
@@ -72328,14 +72398,18 @@
       "longitude": 14.220591,
       "latitude": 50.983208,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
+        "Regionalbus": [
+          "6"
+        ],
         "Taktbus": [
           "267"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3945",
@@ -72346,14 +72420,18 @@
       "longitude": 14.231892,
       "latitude": 50.982993,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
+        "Regionalbus": [
+          "6"
+        ],
         "Taktbus": [
           "267"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:6696",
@@ -72742,6 +72820,7 @@
       "longitude": 14.246301,
       "latitude": 50.969933,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
@@ -72750,7 +72829,8 @@
           "237",
           "260",
           "268",
-          "269"
+          "269",
+          "7"
         ],
         "PlusBus": [
           "261"
@@ -72759,7 +72839,7 @@
           "267"
         ]
       },
-      "total_lines": 7
+      "total_lines": 8
     },
     {
       "id": "de:14628:3935",
@@ -72770,6 +72850,7 @@
       "longitude": 14.257225,
       "latitude": 50.968768,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
@@ -72778,7 +72859,8 @@
           "237",
           "260",
           "268",
-          "269"
+          "269",
+          "5"
         ],
         "PlusBus": [
           "261"
@@ -72791,7 +72873,7 @@
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14628:3921",
@@ -72802,6 +72884,7 @@
       "longitude": 14.270529,
       "latitude": 50.967144,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
@@ -72810,7 +72893,8 @@
           "237",
           "260",
           "268",
-          "269"
+          "269",
+          "5"
         ],
         "PlusBus": [
           "261"
@@ -72823,7 +72907,7 @@
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14628:3932",
@@ -72872,9 +72956,15 @@
       "longitude": 14.262148,
       "latitude": 50.982773,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
+        "Regionalbus": [
+          "5",
+          "6",
+          "7"
+        ],
         "PlusBus": [
           "261"
         ],
@@ -72883,7 +72973,7 @@
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 6
     },
     {
       "id": "de:14628:3948",
@@ -72949,6 +73039,7 @@
       "longitude": 14.265139,
       "latitude": 50.97667,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
@@ -72956,7 +73047,10 @@
           "237",
           "260",
           "268",
-          "269"
+          "269",
+          "5",
+          "6",
+          "7"
         ],
         "PlusBus": [
           "261"
@@ -72966,7 +73060,7 @@
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 7
+      "total_lines": 10
     },
     {
       "id": "de:14628:3958",
@@ -72996,15 +73090,21 @@
       "longitude": 14.270646,
       "latitude": 50.982914,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
+        "Regionalbus": [
+          "5",
+          "6",
+          "7"
+        ],
         "Stadtbus": [
           "R (Sebnitz)",
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 5
     },
     {
       "id": "de:14628:3950",
@@ -73027,6 +73127,7 @@
       "longitude": 14.254979,
       "latitude": 50.9687,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
@@ -73035,7 +73136,8 @@
           "237",
           "260",
           "268",
-          "269"
+          "269",
+          "7"
         ],
         "PlusBus": [
           "261"
@@ -73048,7 +73150,7 @@
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14628:3949",
@@ -73077,15 +73179,21 @@
       "longitude": 14.264312,
       "latitude": 50.983593,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
+        "Regionalbus": [
+          "5",
+          "6",
+          "7"
+        ],
         "Stadtbus": [
           "R (Sebnitz)",
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 5
     },
     {
       "id": "de:14628:3931",
@@ -73231,12 +73339,16 @@
       "longitude": 14.26133,
       "latitude": 50.977366,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "237",
-          "260"
+          "260",
+          "5",
+          "6",
+          "7"
         ],
         "PlusBus": [
           "261"
@@ -73248,7 +73360,7 @@
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 8
     },
     {
       "id": "de:14628:3927",
@@ -73259,15 +73371,21 @@
       "longitude": 14.276287,
       "latitude": 50.978865,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
+        "Regionalbus": [
+          "5",
+          "6",
+          "7"
+        ],
         "Stadtbus": [
           "R (Sebnitz)",
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 5
     },
     {
       "id": "de:14628:3936",
@@ -73278,9 +73396,13 @@
       "longitude": 14.252158,
       "latitude": 50.978503,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
+        "Regionalbus": [
+          "6"
+        ],
         "Taktbus": [
           "267"
         ],
@@ -73288,7 +73410,7 @@
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3939",
@@ -77450,16 +77572,18 @@
       "longitude": 14.203964,
       "latitude": 50.966516,
       "operators": [
+        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "235",
           "236",
-          "237"
+          "237",
+          "7"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3674",
@@ -78787,11 +78911,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411",
-          "Sv250"
+          "411"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4151",
