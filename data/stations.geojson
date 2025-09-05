@@ -2894,10 +2894,12 @@
         ],
         "lines": {
           "Regionalbus": [
-            "426"
+            "426",
+            "428",
+            "Sv191"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {
@@ -50272,10 +50274,11 @@
             "784"
           ],
           "Stadtbus": [
-            "1 (Hoyerswerda)"
+            "1 (Hoyerswerda)",
+            "2 (Hoyerswerda)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -50512,10 +50515,11 @@
           ],
           "Stadtbus": [
             "2 (Hoyerswerda)",
+            "3 (Hoyerswerda)",
             "4 (Hoyerswerda)"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -50658,10 +50662,11 @@
             "779"
           ],
           "Stadtbus": [
+            "2 (Hoyerswerda)",
             "3 (Hoyerswerda)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -50717,10 +50722,12 @@
             "792"
           ],
           "Stadtbus": [
-            "1 (Hoyerswerda)"
+            "1 (Hoyerswerda)",
+            "3 (Hoyerswerda)",
+            "4 (Hoyerswerda)"
           ]
         },
-        "total_lines": 5
+        "total_lines": 7
       }
     },
     {
@@ -51046,9 +51053,16 @@
         "name": "Hufelandstraße",
         "city": "Hoyerswerda",
         "name_with_city": "Hoyerswerda Hufelandstraße",
-        "operators": [],
-        "lines": {},
-        "total_lines": 0
+        "operators": [
+          "VGH"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "2 (Hoyerswerda)",
+            "3 (Hoyerswerda)"
+          ]
+        },
+        "total_lines": 2
       }
     },
     {
@@ -51101,11 +51115,12 @@
             "779"
           ],
           "Stadtbus": [
+            "1 (Hoyerswerda)",
             "2 (Hoyerswerda)",
             "4 (Hoyerswerda)"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -51347,10 +51362,12 @@
         ],
         "lines": {
           "Stadtbus": [
-            "3 (Hoyerswerda)"
+            "1 (Hoyerswerda)",
+            "3 (Hoyerswerda)",
+            "4 (Hoyerswerda)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {
@@ -51628,10 +51645,12 @@
         ],
         "lines": {
           "Stadtbus": [
-            "3 (Hoyerswerda)"
+            "1 (Hoyerswerda)",
+            "3 (Hoyerswerda)",
+            "4 (Hoyerswerda)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {
@@ -51684,10 +51703,12 @@
             "794"
           ],
           "Stadtbus": [
+            "2 (Hoyerswerda)",
+            "3 (Hoyerswerda)",
             "4 (Hoyerswerda)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 4
       }
     },
     {
@@ -51801,7 +51822,8 @@
         "city": "Hoyerswerda",
         "name_with_city": "Hoyerswerda Stadtzentrum Gymnasium",
         "operators": [
-          "RBO"
+          "RBO",
+          "VGH"
         ],
         "lines": {
           "Regionalbus": [
@@ -51809,9 +51831,13 @@
             "784",
             "792",
             "794"
+          ],
+          "Stadtbus": [
+            "1 (Hoyerswerda)",
+            "2 (Hoyerswerda)"
           ]
         },
-        "total_lines": 4
+        "total_lines": 6
       }
     },
     {
@@ -51917,10 +51943,11 @@
         ],
         "lines": {
           "Stadtbus": [
+            "2 (Hoyerswerda)",
             "3 (Hoyerswerda)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {

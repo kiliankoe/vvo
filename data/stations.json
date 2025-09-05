@@ -2091,10 +2091,12 @@
       ],
       "lines": {
         "Regionalbus": [
-          "426"
+          "426",
+          "428",
+          "Sv191"
         ]
       },
-      "total_lines": 1
+      "total_lines": 3
     },
     {
       "id": "de:14627:5180",
@@ -36413,10 +36415,11 @@
           "784"
         ],
         "Stadtbus": [
-          "1 (Hoyerswerda)"
+          "1 (Hoyerswerda)",
+          "2 (Hoyerswerda)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:8090",
@@ -36597,10 +36600,11 @@
         ],
         "Stadtbus": [
           "2 (Hoyerswerda)",
+          "3 (Hoyerswerda)",
           "4 (Hoyerswerda)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14625:8010",
@@ -36711,10 +36715,11 @@
           "779"
         ],
         "Stadtbus": [
+          "2 (Hoyerswerda)",
           "3 (Hoyerswerda)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:8003",
@@ -36754,10 +36759,12 @@
           "792"
         ],
         "Stadtbus": [
-          "1 (Hoyerswerda)"
+          "1 (Hoyerswerda)",
+          "3 (Hoyerswerda)",
+          "4 (Hoyerswerda)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 7
     },
     {
       "id": "de:14625:8053",
@@ -36987,9 +36994,16 @@
       "name_with_city": "Hoyerswerda Hufelandstraße",
       "longitude": 14.262812,
       "latitude": 51.43318,
-      "operators": [],
-      "lines": {},
-      "total_lines": 0
+      "operators": [
+        "VGH"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "2 (Hoyerswerda)",
+          "3 (Hoyerswerda)"
+        ]
+      },
+      "total_lines": 2
     },
     {
       "id": "de:14625:8038",
@@ -37026,11 +37040,12 @@
           "779"
         ],
         "Stadtbus": [
+          "1 (Hoyerswerda)",
           "2 (Hoyerswerda)",
           "4 (Hoyerswerda)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14625:8131",
@@ -37208,10 +37223,12 @@
       ],
       "lines": {
         "Stadtbus": [
-          "3 (Hoyerswerda)"
+          "1 (Hoyerswerda)",
+          "3 (Hoyerswerda)",
+          "4 (Hoyerswerda)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 3
     },
     {
       "id": "de:14625:8082",
@@ -37409,10 +37426,12 @@
       ],
       "lines": {
         "Stadtbus": [
-          "3 (Hoyerswerda)"
+          "1 (Hoyerswerda)",
+          "3 (Hoyerswerda)",
+          "4 (Hoyerswerda)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 3
     },
     {
       "id": "de:14625:8035",
@@ -37449,10 +37468,12 @@
           "794"
         ],
         "Stadtbus": [
+          "2 (Hoyerswerda)",
+          "3 (Hoyerswerda)",
           "4 (Hoyerswerda)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 4
     },
     {
       "id": "de:14625:8018",
@@ -37534,7 +37555,8 @@
       "longitude": 14.254072,
       "latitude": 51.437789,
       "operators": [
-        "RBO"
+        "RBO",
+        "VGH"
       ],
       "lines": {
         "Regionalbus": [
@@ -37542,9 +37564,13 @@
           "784",
           "792",
           "794"
+        ],
+        "Stadtbus": [
+          "1 (Hoyerswerda)",
+          "2 (Hoyerswerda)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 6
     },
     {
       "id": "de:14625:8019",
@@ -37618,10 +37644,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "2 (Hoyerswerda)",
           "3 (Hoyerswerda)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:8055",
