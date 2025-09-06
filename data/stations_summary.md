@@ -29,7 +29,7 @@ Total stations: 3927
 
 ## Stations by Transit Type
 
-- Regionalbus: 2731 stations
+- Regionalbus: 2728 stations
 - Stadtbus: 1311 stations
 - PlusBus: 605 stations
 - Anruflinienbus: 474 stations
@@ -51,7 +51,7 @@ Total stations: 3927
 ## Transit Operators
 
 - RVSOE: 1309 stations
-- VGM: 1180 stations
+- VGM: 1178 stations
 - DVB: 761 stations
 - RBO: 719 stations
 - DB Regio AG Südost: 125 stations
@@ -70,6 +70,7 @@ Total stations: 3927
 - Verkehrsmanagement Elbe-Elster GmbH: 8 stations
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 4 stations
+- European Sleeper: 2 stations
 - FlixTrain: 2 stations
 - DB Fernverkehr AG: 2 stations
 - Nordsachsen Mobil: 2 stations
@@ -83,10 +84,10 @@ Total stations: 3927
 - Riesa Busbahnhof / Bahnhof: 28 lines
 - Dresden Bahnhof Neustadt: 24 lines
 - Kamenz Bahnhof: 24 lines
+- Hoyerswerda Bahnhof: 23 lines
 - Pirna ZOB / Bahnhof: 22 lines
 - Großenhain Cottbuser Bahnhof: 21 lines
 - Meißen Bahnhofstraße: 21 lines
-- Hoyerswerda Bahnhof: 20 lines
 - Riesa Alexander-Puschkin-Platz: 19 lines
 - Riesa R.-Breitscheid-Str.: 19 lines
 - Bischofswerda Bahnhof: 18 lines
@@ -105,12 +106,12 @@ Total stations: 3927
 - Riesa Sachsenhof: 16 lines
 - Freital S-Bf. / Busbf. Deuben: 15 lines
 - Heidenau (Sachsen) Bahnhof: 15 lines
+- Hoyerswerda Behördenpark: 15 lines
 - Meißen Uferstraße: 15 lines
 - Pirna Breite Straße: 15 lines
 - Dippoldiswalde Busbahnhof: 14 lines
 - Dresden Liststraße: 14 lines
 - Dresden S-Bf. Strehlen: 14 lines
-- Hoyerswerda Behördenpark: 14 lines
 - Hoyerswerda Lausitzer Platz: 14 lines
 - Kamenz Landesämter: 14 lines
 - Lommatzsch Parkstraße: 14 lines
@@ -138,7 +139,6 @@ Total stations: 3927
 - Dresden Pirnaischer Platz: 11 lines
 - Dresden S-Bf. Industriegelände: 11 lines
 - Großenhain Hohe Straße: 11 lines
-- Pirna Robert-Koch-Straße: 11 lines
 - Pulsnitz Bahnhof: 11 lines
 - Weinböhla Haltepunkt: 11 lines
 - Bischofswerda Schulstraße: 10 lines
@@ -152,6 +152,7 @@ Total stations: 3927
 - Dresden Wasaplatz: 10 lines
 - Freital S-Bahnhof Hainsberg: 10 lines
 - Königswartha Kirchplatz: 10 lines
+- Pirna Robert-Koch-Straße: 10 lines
 - Sebnitz Brückenschänke: 10 lines
 - Sebnitz Busbahnhof: 10 lines
 - Sebnitz Gartenstraße: 10 lines

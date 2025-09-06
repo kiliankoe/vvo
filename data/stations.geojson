@@ -1705,6 +1705,7 @@
         "operators": [
           "DB AG",
           "DB Regio AG Südost",
+          "European Sleeper",
           "RVSOE",
           "Österreichische Bundesbahnen"
         ],
@@ -2894,12 +2895,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "426",
-            "428",
-            "Sv191"
+            "426"
           ]
         },
-        "total_lines": 3
+        "total_lines": 1
       }
     },
     {
@@ -21454,6 +21453,7 @@
           "DB Fernverkehr AG",
           "DB Regio AG Südost",
           "DVB",
+          "European Sleeper",
           "FlixTrain",
           "Mitteldeutsche Regiobahn",
           "RVSOE",
@@ -38211,11 +38211,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "161",
             "162"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -50187,10 +50186,11 @@
             "784"
           ],
           "Stadtbus": [
-            "2 (Hoyerswerda)"
+            "2 (Hoyerswerda)",
+            "P2 (Hoyerswerda)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -50244,10 +50244,12 @@
           ],
           "Stadtbus": [
             "1 (Hoyerswerda)",
-            "3 (Hoyerswerda)"
+            "3 (Hoyerswerda)",
+            "P1 (Hoyerswerda)",
+            "P3 (Hoyerswerda)"
           ]
         },
-        "total_lines": 3
+        "total_lines": 5
       }
     },
     {
@@ -50275,10 +50277,11 @@
           ],
           "Stadtbus": [
             "1 (Hoyerswerda)",
-            "2 (Hoyerswerda)"
+            "P1 (Hoyerswerda)",
+            "P2 (Hoyerswerda)"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -50301,10 +50304,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "1 (Hoyerswerda)"
+            "1 (Hoyerswerda)",
+            "P1 (Hoyerswerda)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -50421,10 +50425,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "2 (Hoyerswerda)"
+            "2 (Hoyerswerda)",
+            "P2 (Hoyerswerda)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -50475,7 +50480,10 @@
             "1 (Hoyerswerda)",
             "2 (Hoyerswerda)",
             "3 (Hoyerswerda)",
-            "5 (Hoyerswerda)"
+            "5 (Hoyerswerda)",
+            "P1 (Hoyerswerda)",
+            "P2 (Hoyerswerda)",
+            "P3 (Hoyerswerda)"
           ],
           "Zug": [
             "RB64",
@@ -50486,7 +50494,7 @@
             "SEV"
           ]
         },
-        "total_lines": 20
+        "total_lines": 23
       }
     },
     {
@@ -50515,11 +50523,12 @@
           ],
           "Stadtbus": [
             "2 (Hoyerswerda)",
-            "3 (Hoyerswerda)",
-            "4 (Hoyerswerda)"
+            "4 (Hoyerswerda)",
+            "P3 (Hoyerswerda)",
+            "P4 (Hoyerswerda)"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -50566,10 +50575,11 @@
             "794"
           ],
           "Stadtbus": [
-            "3 (Hoyerswerda)"
+            "3 (Hoyerswerda)",
+            "P3 (Hoyerswerda)"
           ]
         },
-        "total_lines": 14
+        "total_lines": 15
       }
     },
     {
@@ -50632,10 +50642,11 @@
             "800"
           ],
           "Stadtbus": [
-            "1 (Hoyerswerda)"
+            "1 (Hoyerswerda)",
+            "P1 (Hoyerswerda)"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -50662,11 +50673,12 @@
             "779"
           ],
           "Stadtbus": [
-            "2 (Hoyerswerda)",
-            "3 (Hoyerswerda)"
+            "3 (Hoyerswerda)",
+            "P2 (Hoyerswerda)",
+            "P3 (Hoyerswerda)"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -50723,8 +50735,8 @@
           ],
           "Stadtbus": [
             "1 (Hoyerswerda)",
-            "3 (Hoyerswerda)",
-            "4 (Hoyerswerda)"
+            "P3 (Hoyerswerda)",
+            "P4 (Hoyerswerda)"
           ]
         },
         "total_lines": 7
@@ -50750,10 +50762,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "2 (Hoyerswerda)"
+            "2 (Hoyerswerda)",
+            "P2 (Hoyerswerda)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -50862,10 +50875,11 @@
             "776"
           ],
           "Stadtbus": [
-            "3 (Hoyerswerda)"
+            "3 (Hoyerswerda)",
+            "P3 (Hoyerswerda)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -50888,10 +50902,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "3 (Hoyerswerda)"
+            "3 (Hoyerswerda)",
+            "P3 (Hoyerswerda)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -50920,10 +50935,11 @@
             "792"
           ],
           "Stadtbus": [
-            "2 (Hoyerswerda)"
+            "2 (Hoyerswerda)",
+            "P2 (Hoyerswerda)"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -50946,10 +50962,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "4 (Hoyerswerda)"
+            "4 (Hoyerswerda)",
+            "P4 (Hoyerswerda)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -50973,10 +50990,12 @@
         "lines": {
           "Stadtbus": [
             "1 (Hoyerswerda)",
-            "3 (Hoyerswerda)"
+            "3 (Hoyerswerda)",
+            "P1 (Hoyerswerda)",
+            "P3 (Hoyerswerda)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 4
       }
     },
     {
@@ -51026,7 +51045,8 @@
         ],
         "lines": {
           "Stadtbus": [
-            "4 (Hoyerswerda)"
+            "4 (Hoyerswerda)",
+            "P4 (Hoyerswerda)"
           ],
           "Zug": [
             "RB64"
@@ -51035,7 +51055,7 @@
             "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -51058,8 +51078,8 @@
         ],
         "lines": {
           "Stadtbus": [
-            "2 (Hoyerswerda)",
-            "3 (Hoyerswerda)"
+            "P2 (Hoyerswerda)",
+            "P3 (Hoyerswerda)"
           ]
         },
         "total_lines": 2
@@ -51085,10 +51105,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "4 (Hoyerswerda)"
+            "4 (Hoyerswerda)",
+            "P4 (Hoyerswerda)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -51115,12 +51136,13 @@
             "779"
           ],
           "Stadtbus": [
-            "1 (Hoyerswerda)",
             "2 (Hoyerswerda)",
-            "4 (Hoyerswerda)"
+            "4 (Hoyerswerda)",
+            "P1 (Hoyerswerda)",
+            "P4 (Hoyerswerda)"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -51179,10 +51201,11 @@
             "619"
           ],
           "Stadtbus": [
-            "2 (Hoyerswerda)"
+            "2 (Hoyerswerda)",
+            "P2 (Hoyerswerda)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -51242,10 +51265,11 @@
             "800"
           ],
           "Stadtbus": [
-            "3 (Hoyerswerda)"
+            "3 (Hoyerswerda)",
+            "P3 (Hoyerswerda)"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -51276,10 +51300,11 @@
             "784"
           ],
           "Stadtbus": [
-            "2 (Hoyerswerda)"
+            "2 (Hoyerswerda)",
+            "P2 (Hoyerswerda)"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -51306,10 +51331,11 @@
             "779"
           ],
           "Stadtbus": [
-            "4 (Hoyerswerda)"
+            "4 (Hoyerswerda)",
+            "P4 (Hoyerswerda)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -51336,10 +51362,11 @@
             "792"
           ],
           "Stadtbus": [
-            "1 (Hoyerswerda)"
+            "1 (Hoyerswerda)",
+            "P1 (Hoyerswerda)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -51362,9 +51389,9 @@
         ],
         "lines": {
           "Stadtbus": [
-            "1 (Hoyerswerda)",
             "3 (Hoyerswerda)",
-            "4 (Hoyerswerda)"
+            "P1 (Hoyerswerda)",
+            "P4 (Hoyerswerda)"
           ]
         },
         "total_lines": 3
@@ -51390,10 +51417,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "3 (Hoyerswerda)"
+            "3 (Hoyerswerda)",
+            "P3 (Hoyerswerda)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -51416,10 +51444,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "1 (Hoyerswerda)"
+            "1 (Hoyerswerda)",
+            "P1 (Hoyerswerda)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -51489,10 +51518,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "1 (Hoyerswerda)"
+            "1 (Hoyerswerda)",
+            "P1 (Hoyerswerda)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -51515,10 +51545,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "2 (Hoyerswerda)"
+            "2 (Hoyerswerda)",
+            "P2 (Hoyerswerda)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -51567,10 +51598,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "1 (Hoyerswerda)"
+            "1 (Hoyerswerda)",
+            "P1 (Hoyerswerda)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -51619,10 +51651,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "1 (Hoyerswerda)"
+            "1 (Hoyerswerda)",
+            "P1 (Hoyerswerda)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -51645,9 +51678,9 @@
         ],
         "lines": {
           "Stadtbus": [
-            "1 (Hoyerswerda)",
             "3 (Hoyerswerda)",
-            "4 (Hoyerswerda)"
+            "P1 (Hoyerswerda)",
+            "P4 (Hoyerswerda)"
           ]
         },
         "total_lines": 3
@@ -51703,12 +51736,13 @@
             "794"
           ],
           "Stadtbus": [
-            "2 (Hoyerswerda)",
-            "3 (Hoyerswerda)",
-            "4 (Hoyerswerda)"
+            "4 (Hoyerswerda)",
+            "P2 (Hoyerswerda)",
+            "P3 (Hoyerswerda)",
+            "P4 (Hoyerswerda)"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -51744,10 +51778,11 @@
             "794"
           ],
           "Stadtbus": [
-            "2 (Hoyerswerda)"
+            "2 (Hoyerswerda)",
+            "P2 (Hoyerswerda)"
           ]
         },
-        "total_lines": 8
+        "total_lines": 9
       }
     },
     {
@@ -51833,8 +51868,8 @@
             "794"
           ],
           "Stadtbus": [
-            "1 (Hoyerswerda)",
-            "2 (Hoyerswerda)"
+            "P1 (Hoyerswerda)",
+            "P2 (Hoyerswerda)"
           ]
         },
         "total_lines": 6
@@ -51861,10 +51896,11 @@
         "lines": {
           "Stadtbus": [
             "2 (Hoyerswerda)",
-            "5 (Hoyerswerda)"
+            "5 (Hoyerswerda)",
+            "P2 (Hoyerswerda)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -51891,10 +51927,11 @@
             "500"
           ],
           "Stadtbus": [
-            "2 (Hoyerswerda)"
+            "2 (Hoyerswerda)",
+            "P2 (Hoyerswerda)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -51917,10 +51954,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "2 (Hoyerswerda)"
+            "2 (Hoyerswerda)",
+            "P2 (Hoyerswerda)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -51943,11 +51981,12 @@
         ],
         "lines": {
           "Stadtbus": [
-            "2 (Hoyerswerda)",
-            "3 (Hoyerswerda)"
+            "3 (Hoyerswerda)",
+            "P2 (Hoyerswerda)",
+            "P3 (Hoyerswerda)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -51970,10 +52009,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "2 (Hoyerswerda)"
+            "2 (Hoyerswerda)",
+            "P2 (Hoyerswerda)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -52026,10 +52066,11 @@
             "536"
           ],
           "Stadtbus": [
-            "1 (Hoyerswerda)"
+            "1 (Hoyerswerda)",
+            "P1 (Hoyerswerda)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -52078,10 +52119,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "2 (Hoyerswerda)"
+            "2 (Hoyerswerda)",
+            "P2 (Hoyerswerda)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -52104,10 +52146,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "3 (Hoyerswerda)"
+            "3 (Hoyerswerda)",
+            "P3 (Hoyerswerda)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -52187,10 +52230,12 @@
           ],
           "Stadtbus": [
             "2 (Hoyerswerda)",
-            "4 (Hoyerswerda)"
+            "4 (Hoyerswerda)",
+            "P2 (Hoyerswerda)",
+            "P4 (Hoyerswerda)"
           ]
         },
-        "total_lines": 3
+        "total_lines": 5
       }
     },
     {
@@ -52214,10 +52259,11 @@
         "lines": {
           "Stadtbus": [
             "1 (Hoyerswerda)",
-            "2 (Hoyerswerda)"
+            "2 (Hoyerswerda)",
+            "P1 (Hoyerswerda)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -52244,10 +52290,11 @@
             "792"
           ],
           "Stadtbus": [
-            "1 (Hoyerswerda)"
+            "1 (Hoyerswerda)",
+            "P1 (Hoyerswerda)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -53503,11 +53550,10 @@
         "lines": {
           "Regionalbus": [
             "417",
-            "Sv125",
             "Sv170"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -62690,13 +62736,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "417",
-            "500",
-            "Sv125",
-            "Sv170"
+            "500"
           ]
         },
-        "total_lines": 4
+        "total_lines": 1
       }
     },
     {
@@ -66288,12 +66331,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "417",
             "500",
             "Sv170"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -71254,10 +71296,11 @@
         "lines": {
           "Regionalbus": [
             "405",
-            "458"
+            "458",
+            "M"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -71421,13 +71464,14 @@
         "lines": {
           "Regionalbus": [
             "405",
-            "458"
+            "458",
+            "M"
           ],
           "PlusBus": [
             "477"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -82294,14 +82338,13 @@
             "237",
             "241",
             "245",
-            "246",
             "207a"
           ],
           "Stadtbus": [
             "Z (Pirna)"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -85263,11 +85306,10 @@
           ],
           "Regionalbus": [
             "440",
-            "461",
-            "462"
+            "461"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -87801,11 +87843,10 @@
             "4"
           ],
           "Regionalbus": [
-            "850",
-            "Sv270"
+            "850"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -88659,18 +88700,14 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Radebl. West (Flemmingstraße)",
         "operators": [
-          "DVB",
-          "VGM"
+          "DVB"
         ],
         "lines": {
           "Straßenbahn": [
             "4"
-          ],
-          "Regionalbus": [
-            "Sv270"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -93889,17 +93926,12 @@
             "431",
             "445"
           ],
-          "Regionalbus": [
-            "430",
-            "431",
-            "445"
-          ],
           "Stadtbus": [
             "A1 (Riesa)",
             "A2 (Riesa)"
           ]
         },
-        "total_lines": 8
+        "total_lines": 5
       }
     },
     {
@@ -105662,15 +105694,9 @@
         "name": "Welxander Straße",
         "city": "Thiendorf",
         "name_with_city": "Thiendorf Welxander Straße",
-        "operators": [
-          "VGM"
-        ],
-        "lines": {
-          "Regionalbus": [
-            "456"
-          ]
-        },
-        "total_lines": 1
+        "operators": [],
+        "lines": {},
+        "total_lines": 0
       }
     },
     {
@@ -108377,11 +108403,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411",
-            "Sv250"
+            "411"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -108458,7 +108483,6 @@
         ],
         "lines": {
           "Regionalbus": [
-            "403",
             "411",
             "459",
             "M",
@@ -108469,7 +108493,7 @@
             "421"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
@@ -108710,11 +108734,10 @@
             "4"
           ],
           "Regionalbus": [
-            "459",
-            "Sv250"
+            "459"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -112780,10 +112803,11 @@
             "794"
           ],
           "Stadtbus": [
-            "4 (Hoyerswerda)"
+            "4 (Hoyerswerda)",
+            "P4 (Hoyerswerda)"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -112810,10 +112834,11 @@
             "794"
           ],
           "Stadtbus": [
-            "4 (Hoyerswerda)"
+            "4 (Hoyerswerda)",
+            "P4 (Hoyerswerda)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
