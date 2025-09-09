@@ -2092,13 +2092,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "426",
-          "428",
-          "Sv190",
-          "Sv191"
+          "426"
         ]
       },
-      "total_lines": 4
+      "total_lines": 1
     },
     {
       "id": "de:14627:5180",
@@ -28196,8 +28193,8 @@
       "name": "Dippelsdorf Großenhainer Straße",
       "city": "Friedewald (Moritzburg)",
       "name_with_city": "Friedewald (Moritzburg) Dippelsdorf Großenhainer Straße",
-      "longitude": 13.662226,
-      "latitude": 51.13985,
+      "longitude": 13.661759,
+      "latitude": 51.139935,
       "operators": [
         "VGM"
       ],
@@ -66029,12 +66026,10 @@
       "lines": {
         "Regionalbus": [
           "426",
-          "428",
-          "Sv190",
-          "Sv191"
+          "Sv190"
         ]
       },
-      "total_lines": 4
+      "total_lines": 2
     },
     {
       "id": "de:14627:4615",
@@ -78508,10 +78503,8 @@
       ],
       "lines": {
         "Regionalbus": [
-          "403",
           "411",
           "459",
-          "M",
           "Sv152",
           "Sv250"
         ],
@@ -78519,7 +78512,7 @@
           "421"
         ]
       },
-      "total_lines": 7
+      "total_lines": 5
     },
     {
       "id": "de:14627:4406",
@@ -78688,11 +78681,10 @@
           "4"
         ],
         "Regionalbus": [
-          "459",
-          "Sv250"
+          "459"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4781",

@@ -2895,13 +2895,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "426",
-            "428",
-            "Sv190",
-            "Sv191"
+            "426"
           ]
         },
-        "total_lines": 4
+        "total_lines": 1
       }
     },
     {
@@ -38839,8 +38836,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.662226,
-          51.13985
+          13.661759,
+          51.139935
         ]
       },
       "properties": {
@@ -91192,12 +91189,10 @@
         "lines": {
           "Regionalbus": [
             "426",
-            "428",
-            "Sv190",
-            "Sv191"
+            "Sv190"
           ]
         },
-        "total_lines": 4
+        "total_lines": 2
       }
     },
     {
@@ -108511,10 +108506,8 @@
         ],
         "lines": {
           "Regionalbus": [
-            "403",
             "411",
             "459",
-            "M",
             "Sv152",
             "Sv250"
           ],
@@ -108522,7 +108515,7 @@
             "421"
           ]
         },
-        "total_lines": 7
+        "total_lines": 5
       }
     },
     {
@@ -108763,11 +108756,10 @@
             "4"
           ],
           "Regionalbus": [
-            "459",
-            "Sv250"
+            "459"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
