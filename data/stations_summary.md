@@ -1,10 +1,10 @@
 # VVO Station Data Summary
 
-Total stations: 3927
+Total stations: 3928
 
 ## Stations by City
 
-- Dresden: 657
+- Dresden: 658
 - Meißen: 107
 - Freital: 89
 - Pirna: 84
@@ -30,10 +30,10 @@ Total stations: 3927
 ## Stations by Transit Type
 
 - Regionalbus: 2731 stations
-- Stadtbus: 1311 stations
+- Stadtbus: 1308 stations
 - PlusBus: 605 stations
 - Anruflinienbus: 474 stations
-- Straßenbahn: 257 stations
+- Straßenbahn: 258 stations
 - Anruflinientaxi: 199 stations
 - Ersatzverkehr: 108 stations
 - Zug: 105 stations
@@ -52,7 +52,7 @@ Total stations: 3927
 
 - RVSOE: 1309 stations
 - VGM: 1180 stations
-- DVB: 761 stations
+- DVB: 762 stations
 - RBO: 719 stations
 - DB Regio AG Südost: 125 stations
 - Müller Busreisen: 106 stations

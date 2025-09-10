@@ -3170,8 +3170,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.725341,
-          51.190402
+          13.725207,
+          51.190126
         ]
       },
       "properties": {
@@ -3273,8 +3273,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.723428,
-          51.186191
+          13.723715,
+          51.186754
         ]
       },
       "properties": {
@@ -12438,8 +12438,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.664624,
-          50.891065
+          13.664462,
+          50.891343
         ]
       },
       "properties": {
@@ -17928,13 +17928,15 @@
             "11",
             "12",
             "2",
+            "6",
+            "7",
             "9"
           ],
           "Stadtbus": [
             "EV 12"
           ]
         },
-        "total_lines": 7
+        "total_lines": 9
       }
     },
     {
@@ -18102,10 +18104,12 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "12"
+            "12",
+            "6",
+            "7"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {
@@ -18294,13 +18298,15 @@
             "11",
             "12",
             "2",
+            "6",
+            "7",
             "9"
           ],
           "Stadtbus": [
             "70"
           ]
         },
-        "total_lines": 7
+        "total_lines": 9
       }
     },
     {
@@ -18454,6 +18460,7 @@
             "11",
             "12",
             "2",
+            "7",
             "9"
           ],
           "Stadtbus": [
@@ -18463,7 +18470,7 @@
             "alita 70"
           ]
         },
-        "total_lines": 8
+        "total_lines": 9
       }
     },
     {
@@ -21606,13 +21613,15 @@
             "11",
             "12",
             "2",
+            "6",
+            "7",
             "9"
           ],
           "Stadtbus": [
             "EV 12"
           ]
         },
-        "total_lines": 7
+        "total_lines": 9
       }
     },
     {
@@ -26593,6 +26602,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.694134,
+          51.043348
+        ]
+      },
+      "properties": {
+        "id": "de:14612:150",
+        "numeric_id": "33000150",
+        "name": "Neuer Annenfriedhof",
+        "city": "Dresden",
+        "name_with_city": "Dresden Neuer Annenfriedhof",
+        "operators": [
+          "DVB"
+        ],
+        "lines": {
+          "Straßenbahn": [
+            "12",
+            "6",
+            "7"
+          ]
+        },
+        "total_lines": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.715702,
           51.099071
         ]
@@ -27432,10 +27469,12 @@
             "11",
             "12",
             "2",
+            "6",
+            "7",
             "9"
           ]
         },
-        "total_lines": 6
+        "total_lines": 8
       }
     },
     {
@@ -35403,14 +35442,11 @@
           "RBO"
         ],
         "lines": {
-          "Stadtbus": [
-            "28"
-          ],
           "Regionalbus": [
             "760"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -35432,14 +35468,11 @@
           "RBO"
         ],
         "lines": {
-          "Stadtbus": [
-            "28"
-          ],
           "Regionalbus": [
             "760"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -38836,8 +38869,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.661759,
-          51.139935
+          13.661516,
+          51.139969
         ]
       },
       "properties": {
@@ -54302,12 +54335,9 @@
           ],
           "Regionalbus": [
             "789"
-          ],
-          "Stadtbus": [
-            "21 (Kamenz)"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -55608,8 +55638,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.676832,
-          50.806852
+          13.676203,
+          50.805751
         ]
       },
       "properties": {
@@ -65870,8 +65900,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.654554,
-          50.923059
+          13.654419,
+          50.92354
         ]
       },
       "properties": {
@@ -76377,8 +76407,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.665415,
-          50.860388
+          13.665406,
+          50.86062
         ]
       },
       "properties": {
@@ -86034,8 +86064,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.634971,
-          50.963269
+          13.635088,
+          50.963156
         ]
       },
       "properties": {
@@ -89312,8 +89342,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.661929,
-          51.105784
+          13.661714,
+          51.106398
         ]
       },
       "properties": {
@@ -89438,8 +89468,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.728198,
-          51.209366
+          13.727955,
+          51.209388
         ]
       },
       "properties": {
@@ -98064,8 +98094,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.677147,
-          50.834178
+          13.677299,
+          50.834048
         ]
       },
       "properties": {
@@ -98086,8 +98116,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.689948,
-          50.826501
+          13.689903,
+          50.826603
         ]
       },
       "properties": {
@@ -98149,8 +98179,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.668011,
-          50.844015
+          13.667993,
+          50.843958
         ]
       },
       "properties": {
@@ -101121,8 +101151,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.647808,
-          50.939761
+          13.647691,
+          50.939789
         ]
       },
       "properties": {
@@ -106508,8 +106538,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.671784,
-          50.874006
+          13.671874,
+          50.873768
         ]
       },
       "properties": {

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3927,
+    "count": 3928,
     "format_version": "2.0"
   },
   "stations": [
@@ -2287,8 +2287,8 @@
       "name": "Abzweig Bärwalde",
       "city": "Berbisdorf",
       "name_with_city": "Berbisdorf Abzweig Bärwalde",
-      "longitude": 13.725341,
-      "latitude": 51.190402,
+      "longitude": 13.725207,
+      "latitude": 51.190126,
       "operators": [
         "VGM"
       ],
@@ -2358,8 +2358,8 @@
       "name": "Landgasthof",
       "city": "Berbisdorf",
       "name_with_city": "Berbisdorf Landgasthof",
-      "longitude": 13.723428,
-      "latitude": 51.186191,
+      "longitude": 13.723715,
+      "latitude": 51.186754,
       "operators": [
         "VGM"
       ],
@@ -8931,8 +8931,8 @@
       "name": "Bahnhof",
       "city": "Dippoldiswalde",
       "name_with_city": "Dippoldiswalde Bahnhof",
-      "longitude": 13.664624,
-      "latitude": 50.891065,
+      "longitude": 13.664462,
+      "latitude": 50.891343,
       "operators": [
         "RVSOE",
         "SDG"
@@ -12949,13 +12949,15 @@
           "11",
           "12",
           "2",
+          "6",
+          "7",
           "9"
         ],
         "Stadtbus": [
           "EV 12"
         ]
       },
-      "total_lines": 7
+      "total_lines": 9
     },
     {
       "id": "de:14612:723",
@@ -13075,10 +13077,12 @@
       ],
       "lines": {
         "Straßenbahn": [
-          "12"
+          "12",
+          "6",
+          "7"
         ]
       },
-      "total_lines": 1
+      "total_lines": 3
     },
     {
       "id": "de:14612:785",
@@ -13219,13 +13223,15 @@
           "11",
           "12",
           "2",
+          "6",
+          "7",
           "9"
         ],
         "Stadtbus": [
           "70"
         ]
       },
-      "total_lines": 7
+      "total_lines": 9
     },
     {
       "id": "de:14612:861",
@@ -13339,6 +13345,7 @@
           "11",
           "12",
           "2",
+          "7",
           "9"
         ],
         "Stadtbus": [
@@ -13348,7 +13355,7 @@
           "alita 70"
         ]
       },
-      "total_lines": 8
+      "total_lines": 9
     },
     {
       "id": "de:14612:260",
@@ -15627,13 +15634,15 @@
           "11",
           "12",
           "2",
+          "6",
+          "7",
           "9"
         ],
         "Stadtbus": [
           "EV 12"
         ]
       },
-      "total_lines": 7
+      "total_lines": 9
     },
     {
       "id": "de:14612:99",
@@ -19257,6 +19266,26 @@
       "total_lines": 0
     },
     {
+      "id": "de:14612:150",
+      "numeric_id": "33000150",
+      "name": "Neuer Annenfriedhof",
+      "city": "Dresden",
+      "name_with_city": "Dresden Neuer Annenfriedhof",
+      "longitude": 13.694134,
+      "latitude": 51.043348,
+      "operators": [
+        "DVB"
+      ],
+      "lines": {
+        "Straßenbahn": [
+          "12",
+          "6",
+          "7"
+        ]
+      },
+      "total_lines": 3
+    },
+    {
       "id": "de:14612:628",
       "numeric_id": "33000628",
       "name": "Neuländer Straße",
@@ -19861,10 +19890,12 @@
           "11",
           "12",
           "2",
+          "6",
+          "7",
           "9"
         ]
       },
-      "total_lines": 6
+      "total_lines": 8
     },
     {
       "id": "de:14612:41",
@@ -25712,14 +25743,11 @@
         "RBO"
       ],
       "lines": {
-        "Stadtbus": [
-          "28"
-        ],
         "Regionalbus": [
           "760"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:6659",
@@ -25733,14 +25761,11 @@
         "RBO"
       ],
       "lines": {
-        "Stadtbus": [
-          "28"
-        ],
         "Regionalbus": [
           "760"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:6796",
@@ -28193,8 +28218,8 @@
       "name": "Dippelsdorf Großenhainer Straße",
       "city": "Friedewald (Moritzburg)",
       "name_with_city": "Friedewald (Moritzburg) Dippelsdorf Großenhainer Straße",
-      "longitude": 13.661759,
-      "latitude": 51.139935,
+      "longitude": 13.661516,
+      "latitude": 51.139969,
       "operators": [
         "VGM"
       ],
@@ -39363,12 +39388,9 @@
         ],
         "Regionalbus": [
           "789"
-        ],
-        "Stadtbus": [
-          "21 (Kamenz)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:6219",
@@ -40325,8 +40347,8 @@
       "name": "Bahnhof",
       "city": "Kipsdorf Kurort",
       "name_with_city": "Kipsdorf Kurort Bahnhof",
-      "longitude": 13.676832,
-      "latitude": 50.806852,
+      "longitude": 13.676203,
+      "latitude": 50.805751,
       "operators": [
         "RVSOE",
         "SDG"
@@ -47699,8 +47721,8 @@
       "name": "Bahnhof",
       "city": "Malter",
       "name_with_city": "Malter Bahnhof",
-      "longitude": 13.654554,
-      "latitude": 50.923059,
+      "longitude": 13.654419,
+      "latitude": 50.92354,
       "operators": [
         "SDG"
       ],
@@ -55374,8 +55396,8 @@
       "name": "Bahnhof",
       "city": "Obercarsdorf",
       "name_with_city": "Obercarsdorf Bahnhof",
-      "longitude": 13.665415,
-      "latitude": 50.860388,
+      "longitude": 13.665406,
+      "latitude": 50.86062,
       "operators": [
         "RVSOE",
         "SDG"
@@ -62343,8 +62365,8 @@
       "name": "Bahnhof",
       "city": "Rabenau (Sachsen)",
       "name_with_city": "Rabenau (Sachsen) Bahnhof",
-      "longitude": 13.634971,
-      "latitude": 50.963269,
+      "longitude": 13.635088,
+      "latitude": 50.963156,
       "operators": [
         "RVSOE",
         "SDG"
@@ -64685,8 +64707,8 @@
       "name": "Weißes Roß",
       "city": "Radebeul",
       "name_with_city": "Radebeul Weißes Roß",
-      "longitude": 13.661929,
-      "latitude": 51.105784,
+      "longitude": 13.661714,
+      "latitude": 51.106398,
       "operators": [
         "SDG"
       ],
@@ -64771,8 +64793,8 @@
       "name": "Bahnhof",
       "city": "Radeburg",
       "name_with_city": "Radeburg Bahnhof",
-      "longitude": 13.728198,
-      "latitude": 51.209366,
+      "longitude": 13.727955,
+      "latitude": 51.209388,
       "operators": [
         "SDG",
         "VGM"
@@ -71005,8 +71027,8 @@
       "name": "Bahnhof",
       "city": "Schmiedeberg (Dippoldiswalde)",
       "name_with_city": "Schmiedeberg (Dippoldiswalde) Bahnhof",
-      "longitude": 13.677147,
-      "latitude": 50.834178,
+      "longitude": 13.677299,
+      "latitude": 50.834048,
       "operators": [
         "SDG"
       ],
@@ -71019,8 +71041,8 @@
       "name": "Buschmühle",
       "city": "Schmiedeberg (Dippoldiswalde)",
       "name_with_city": "Schmiedeberg (Dippoldiswalde) Buschmühle",
-      "longitude": 13.689948,
-      "latitude": 50.826501,
+      "longitude": 13.689903,
+      "latitude": 50.826603,
       "operators": [
         "RVSOE",
         "SDG"
@@ -71066,8 +71088,8 @@
       "name": "Naundorf Hp",
       "city": "Schmiedeberg (Dippoldiswalde)",
       "name_with_city": "Schmiedeberg (Dippoldiswalde) Naundorf Hp",
-      "longitude": 13.668011,
-      "latitude": 50.844015,
+      "longitude": 13.667993,
+      "latitude": 50.843958,
       "operators": [
         "SDG"
       ],
@@ -73230,8 +73252,8 @@
       "name": "Bahnhof",
       "city": "Seifersdorf (Dippoldiswalde)",
       "name_with_city": "Seifersdorf (Dippoldiswalde) Bahnhof",
-      "longitude": 13.647808,
-      "latitude": 50.939761,
+      "longitude": 13.647691,
+      "latitude": 50.939789,
       "operators": [
         "SDG"
       ],
@@ -77081,8 +77103,8 @@
       "name": "Bahnhof",
       "city": "Ulberndorf",
       "name_with_city": "Ulberndorf Bahnhof",
-      "longitude": 13.671784,
-      "latitude": 50.874006,
+      "longitude": 13.671874,
+      "latitude": 50.873768,
       "operators": [
         "RVSOE",
         "SDG"
