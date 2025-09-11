@@ -35,7 +35,7 @@ Total stations: 3928
 - Anruflinienbus: 474 stations
 - Straßenbahn: 258 stations
 - Anruflinientaxi: 199 stations
-- Ersatzverkehr: 108 stations
+- Ersatzverkehr: 109 stations
 - Zug: 105 stations
 - Taktbus: 77 stations
 - Bus: 57 stations
@@ -70,7 +70,6 @@ Total stations: 3928
 - Verkehrsmanagement Elbe-Elster GmbH: 8 stations
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 4 stations
-- European Sleeper: 2 stations
 - FlixTrain: 2 stations
 - DB Fernverkehr AG: 2 stations
 - Nordsachsen Mobil: 2 stations
@@ -88,9 +87,9 @@ Total stations: 3928
 - Pirna ZOB / Bahnhof: 22 lines
 - Großenhain Cottbuser Bahnhof: 21 lines
 - Meißen Bahnhofstraße: 21 lines
+- Bischofswerda Bahnhof: 19 lines
 - Riesa Alexander-Puschkin-Platz: 19 lines
 - Riesa R.-Breitscheid-Str.: 19 lines
-- Bischofswerda Bahnhof: 18 lines
 - Dresden Bahnhof Mitte: 18 lines
 - Lommatzsch Busbahnhof: 18 lines
 - Großenhain Mozartallee: 17 lines

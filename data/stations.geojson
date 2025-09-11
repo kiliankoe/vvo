@@ -1705,7 +1705,6 @@
         "operators": [
           "DB AG",
           "DB Regio AG Südost",
-          "European Sleeper",
           "RVSOE",
           "Österreichische Bundesbahnen"
         ],
@@ -4750,9 +4749,12 @@
             "RB61",
             "RE1",
             "RE2"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 18
+        "total_lines": 19
       }
     },
     {
@@ -21460,7 +21462,6 @@
           "DB Fernverkehr AG",
           "DB Regio AG Südost",
           "DVB",
-          "European Sleeper",
           "FlixTrain",
           "Mitteldeutsche Regiobahn",
           "RVSOE",

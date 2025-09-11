@@ -58,7 +58,7 @@ de:14628:3629,33003629,Kiefricht,Bad Schandau,Bad Schandau Kiefricht,50.927804,1
 de:14628:3622,33003622,Kurpark,Bad Schandau,Bad Schandau Kurpark,50.920913,14.157772,RVSOE,5,Kirnitzschtalbahn,,,
 de:14628:3617,33003617,Lindenallee,Bad Schandau,Bad Schandau Lindenallee,50.919752,14.149903,RVSOE,1,,,,
 de:14628:3626,33003626,Marktplatz,Bad Schandau,Bad Schandau Marktplatz,50.917679,14.153092,RVSOE,2,,,,
-de:14628:3620,33003620,Nationalparkbahnhof,Bad Schandau,Bad Schandau Nationalparkbahnhof,50.91927,14.138099,DB AG|DB Regio AG Südost|European Sleeper|RVSOE|Österreichische Bundesbahnen,12,,,RE20|RE50|U28,S1
+de:14628:3620,33003620,Nationalparkbahnhof,Bad Schandau,Bad Schandau Nationalparkbahnhof,50.91927,14.138099,DB AG|DB Regio AG Südost|RVSOE|Österreichische Bundesbahnen,12,,,RE20|RE50|U28,S1
 de:14628:3627,33003627,Personenaufzug,Bad Schandau,Bad Schandau Personenaufzug,50.916541,14.160575,RVSOE,3,,,,
 de:14628:3624,33003624,Waldhäus´l,Bad Schandau,Bad Schandau Waldhäus´l,50.925114,14.180527,RVSOE,2,Kirnitzschtalbahn,,,
 de:14627:4969,33004969,Abzw Badersen/Dobschütz,Badersen,Badersen Abzw Badersen/Dobschütz,51.14645,13.275833,VGM,4,,,,
@@ -165,7 +165,7 @@ de:14625:6348,33006348,Niederdorf,Bischheim (Sachs),Bischheim (Sachs) Niederdorf
 de:14625:6345,33006345,Oberdorf,Bischheim (Sachs),Bischheim (Sachs) Oberdorf,51.235364,14.042995,RBO,3,,,,
 de:14625:6347,33006347,Schulstraße,Bischheim (Sachs),Bischheim (Sachs) Schulstraße,51.238019,14.032008,RBO,1,,,,
 de:14625:7031,33007031,August-König-Straße,Bischofswerda,Bischofswerda August-König-Straße,51.132551,14.18076,Omnibusunternehmen Gottfried Beck|RBO|RVSOE,7,,,,
-de:14625:7000,33007000,Bahnhof,Bischofswerda,Bischofswerda Bahnhof,51.125639,14.185836,Omnibusunternehmen Gottfried Beck|RBO|RVSOE|trilex - Die Länderbahn GmbH DLB,18,,,RB60|RB61|RE1|RE2,
+de:14625:7000,33007000,Bahnhof,Bischofswerda,Bischofswerda Bahnhof,51.125639,14.185836,Omnibusunternehmen Gottfried Beck|RBO|RVSOE|trilex - Die Länderbahn GmbH DLB,19,,,RB60|RB61|RE1|RE2,
 de:14625:7034,33007034,Bautzener Straße,Bischofswerda,Bischofswerda Bautzener Straße,51.135465,14.189968,Omnibusunternehmen Gottfried Beck|RBO,5,,,,
 de:14625:7006,33007006,Beethovenstraße,Bischofswerda,Bischofswerda Beethovenstraße,51.124681,14.177158,Omnibusunternehmen Gottfried Beck|RBO,6,,,,
 de:14625:7040,33007040,Belmsdorf,Bischofswerda,Bischofswerda Belmsdorf,51.120503,14.203748,Omnibusunternehmen Gottfried Beck,1,,,,
@@ -743,7 +743,7 @@ de:14612:186,33000186,Hamburger Straße,Dresden,Dresden Hamburger Straße,51.059
 de:14612:548,33000548,Hammeraue,Dresden,Dresden Hammeraue,51.067932,13.666277,SATRA,4,,91|93,,
 de:14612:764,33000764,Hans-Dankner-Straße,Dresden,Dresden Hans-Dankner-Straße,51.042591,13.742086,DVB,2,,62|68,,
 de:14612:287,33000287,Hans-Oster-Straße,Dresden,Dresden Hans-Oster-Straße,51.074909,13.760654,DVB,1,,64,,
-de:14612:28,33000028,Hauptbahnhof,Dresden,Dresden Hauptbahnhof,51.03993,13.732932,DB AG|DB Fernverkehr AG|DB Regio AG Südost|DVB|European Sleeper|FlixTrain|Mitteldeutsche Regiobahn|RVSOE|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,31,10|11|20|3|7|8,66|H/S (Pirna),RB30|RB60|RB61|RE1|RE17|RE19|RE2|RE20|RE3|RE50,S1|S2|S3|S8
+de:14612:28,33000028,Hauptbahnhof,Dresden,Dresden Hauptbahnhof,51.03993,13.732932,DB AG|DB Fernverkehr AG|DB Regio AG Südost|DVB|FlixTrain|Mitteldeutsche Regiobahn|RVSOE|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,31,10|11|20|3|7|8,66|H/S (Pirna),RB30|RB60|RB61|RE1|RE17|RE19|RE2|RE20|RE3|RE50,S1|S2|S3|S8
 de:14612:36,33000036,Hauptbahnhof (Strehlener Str.),Dresden,Dresden Hauptbahnhof (Strehlener Str.),51.038671,13.734279,DB AG|DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn|trilex - Die Länderbahn GmbH DLB,3,,66,,
 de:14612:32,33000032,Hauptbahnhof Nord,Dresden,Dresden Hauptbahnhof Nord,51.041365,13.735088,DVB,7,11|12|20|3|4|7|8,,,
 de:14612:179,33000179,Hebbelplatz,Dresden,Dresden Hebbelplatz,51.051333,13.682743,DVB,9,1|10|11|12|2|6|7|9,EV 12,,
