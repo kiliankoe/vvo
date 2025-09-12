@@ -20913,6 +20913,7 @@
           "Straßenbahn": [
             "10",
             "11",
+            "12",
             "4",
             "8"
           ],
@@ -20920,7 +20921,7 @@
             "66"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -31516,13 +31517,14 @@
         ],
         "lines": {
           "Stadtbus": [
-            "62"
+            "62",
+            "64"
           ],
           "PlusBus": [
             "520"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -32947,9 +32949,12 @@
           "Stadtbus": [
             "63",
             "66"
+          ],
+          "Anruflinientaxi": [
+            "alita 63"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -45581,10 +45586,12 @@
           ],
           "Regionalbus": [
             "440",
+            "461",
+            "462",
             "Sv313"
           ]
         },
-        "total_lines": 3
+        "total_lines": 5
       }
     },
     {
@@ -50552,8 +50559,16 @@
           "VGH"
         ],
         "lines": {
+          "PlusBus": [
+            "536"
+          ],
           "Regionalbus": [
+            "776",
+            "779",
+            "780",
             "782",
+            "784",
+            "792",
             "794"
           ],
           "Stadtbus": [
@@ -50563,7 +50578,7 @@
             "P4 (Hoyerswerda)"
           ]
         },
-        "total_lines": 6
+        "total_lines": 12
       }
     },
     {
@@ -50762,8 +50777,12 @@
           "VGH"
         ],
         "lines": {
+          "PlusBus": [
+            "536"
+          ],
           "Regionalbus": [
             "776",
+            "779",
             "780",
             "784",
             "792"
@@ -50774,7 +50793,7 @@
             "P4 (Hoyerswerda)"
           ]
         },
-        "total_lines": 7
+        "total_lines": 9
       }
     },
     {
@@ -51076,9 +51095,14 @@
         "name_with_city": "Hoyerswerda Hp Neustadt",
         "operators": [
           "Ostdeutsche Eisenbahn GmbH",
+          "RBO",
           "VGH"
         ],
         "lines": {
+          "Regionalbus": [
+            "782",
+            "794"
+          ],
           "Stadtbus": [
             "4 (Hoyerswerda)",
             "P4 (Hoyerswerda)"
@@ -51090,7 +51114,7 @@
             "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 6
       }
     },
     {
@@ -52012,16 +52036,30 @@
         "city": "Hoyerswerda",
         "name_with_city": "Hoyerswerda Straße des Friedens",
         "operators": [
+          "RBO",
           "VGH"
         ],
         "lines": {
+          "PlusBus": [
+            "500",
+            "536"
+          ],
+          "Regionalbus": [
+            "776",
+            "779",
+            "780",
+            "782",
+            "784",
+            "792",
+            "794"
+          ],
           "Stadtbus": [
             "3 (Hoyerswerda)",
             "P2 (Hoyerswerda)",
             "P3 (Hoyerswerda)"
           ]
         },
-        "total_lines": 3
+        "total_lines": 12
       }
     },
     {
@@ -64001,11 +64039,12 @@
         ],
         "lines": {
           "Regionalbus": [
+            "775",
             "776",
             "777"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -64402,6 +64441,7 @@
         ],
         "lines": {
           "Regionalbus": [
+            "775",
             "776",
             "777"
           ],
@@ -64409,7 +64449,7 @@
             "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -85342,11 +85382,10 @@
           ],
           "Regionalbus": [
             "440",
-            "461",
-            "462"
+            "461"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {

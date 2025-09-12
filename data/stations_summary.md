@@ -29,12 +29,12 @@ Total stations: 3928
 
 ## Stations by Transit Type
 
-- Regionalbus: 2731 stations
+- Regionalbus: 2733 stations
 - Stadtbus: 1308 stations
-- PlusBus: 605 stations
+- PlusBus: 608 stations
 - Anruflinienbus: 474 stations
 - Straßenbahn: 258 stations
-- Anruflinientaxi: 199 stations
+- Anruflinientaxi: 200 stations
 - Ersatzverkehr: 109 stations
 - Zug: 105 stations
 - Taktbus: 77 stations
@@ -53,7 +53,7 @@ Total stations: 3928
 - RVSOE: 1309 stations
 - VGM: 1180 stations
 - DVB: 762 stations
-- RBO: 719 stations
+- RBO: 721 stations
 - DB Regio AG Südost: 125 stations
 - Müller Busreisen: 106 stations
 - VGH: 83 stations
@@ -128,6 +128,8 @@ Total stations: 3928
 - Dresden Prager Straße: 12 lines
 - Dresden S-Bahnhof Niedersedlitz: 12 lines
 - Glashütte (Sachsen) Bahnhof / Busbahnhof: 12 lines
+- Hoyerswerda Bautzener Allee: 12 lines
+- Hoyerswerda Straße des Friedens: 12 lines
 - Pirna Copitz Schulstraße: 12 lines
 - Riesa Goethestraße: 12 lines
 - Altenberg (Erzgebirge) Bahnhof: 11 lines
