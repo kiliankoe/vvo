@@ -1705,6 +1705,7 @@
         "operators": [
           "DB AG",
           "DB Regio AG Südost",
+          "European Sleeper",
           "RVSOE",
           "Österreichische Bundesbahnen"
         ],
@@ -4749,12 +4750,9 @@
             "RB61",
             "RE1",
             "RE2"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 19
+        "total_lines": 18
       }
     },
     {
@@ -21463,6 +21461,7 @@
           "DB Fernverkehr AG",
           "DB Regio AG Südost",
           "DVB",
+          "European Sleeper",
           "FlixTrain",
           "Mitteldeutsche Regiobahn",
           "RVSOE",
@@ -38250,11 +38249,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "161",
             "162"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -50559,16 +50557,8 @@
           "VGH"
         ],
         "lines": {
-          "PlusBus": [
-            "536"
-          ],
           "Regionalbus": [
-            "776",
-            "779",
-            "780",
             "782",
-            "784",
-            "792",
             "794"
           ],
           "Stadtbus": [
@@ -50578,7 +50568,7 @@
             "P4 (Hoyerswerda)"
           ]
         },
-        "total_lines": 12
+        "total_lines": 6
       }
     },
     {
@@ -50777,12 +50767,8 @@
           "VGH"
         ],
         "lines": {
-          "PlusBus": [
-            "536"
-          ],
           "Regionalbus": [
             "776",
-            "779",
             "780",
             "784",
             "792"
@@ -50793,7 +50779,7 @@
             "P4 (Hoyerswerda)"
           ]
         },
-        "total_lines": 9
+        "total_lines": 7
       }
     },
     {
@@ -51095,14 +51081,9 @@
         "name_with_city": "Hoyerswerda Hp Neustadt",
         "operators": [
           "Ostdeutsche Eisenbahn GmbH",
-          "RBO",
           "VGH"
         ],
         "lines": {
-          "Regionalbus": [
-            "782",
-            "794"
-          ],
           "Stadtbus": [
             "4 (Hoyerswerda)",
             "P4 (Hoyerswerda)"
@@ -51114,7 +51095,7 @@
             "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 4
       }
     },
     {
@@ -52041,17 +52022,7 @@
         ],
         "lines": {
           "PlusBus": [
-            "500",
-            "536"
-          ],
-          "Regionalbus": [
-            "776",
-            "779",
-            "780",
-            "782",
-            "784",
-            "792",
-            "794"
+            "500"
           ],
           "Stadtbus": [
             "3 (Hoyerswerda)",
@@ -52059,7 +52030,7 @@
             "P3 (Hoyerswerda)"
           ]
         },
-        "total_lines": 12
+        "total_lines": 4
       }
     },
     {
@@ -53623,11 +53594,10 @@
         "lines": {
           "Regionalbus": [
             "417",
-            "Sv125",
             "Sv170"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -62807,13 +62777,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "417",
-            "500",
-            "Sv125",
-            "Sv170"
+            "500"
           ]
         },
-        "total_lines": 4
+        "total_lines": 1
       }
     },
     {
@@ -66407,12 +66374,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "417",
             "500",
             "Sv170"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -82413,14 +82379,13 @@
             "237",
             "241",
             "245",
-            "246",
             "207a"
           ],
           "Stadtbus": [
             "Z (Pirna)"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -87911,6 +87876,7 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Gerhart-Hauptmann-Straße",
         "operators": [
+          "DB Regio AG Südost",
           "DVB",
           "VGM"
         ],
@@ -87919,8 +87885,10 @@
             "4"
           ],
           "Regionalbus": [
-            "850",
-            "Sv270"
+            "850"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
         "total_lines": 3
@@ -88231,14 +88199,18 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Johannisbergstraße",
         "operators": [
+          "DB Regio AG Südost",
           "DVB"
         ],
         "lines": {
           "Straßenbahn": [
             "4"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -88532,6 +88504,7 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Moritzburger Straße",
         "operators": [
+          "DB Regio AG Südost",
           "DVB",
           "VGM"
         ],
@@ -88544,9 +88517,12 @@
             "476",
             "850",
             "Sv270"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -88777,18 +88753,14 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Radebl. West (Flemmingstraße)",
         "operators": [
-          "DVB",
-          "VGM"
+          "DVB"
         ],
         "lines": {
           "Straßenbahn": [
             "4"
-          ],
-          "Regionalbus": [
-            "Sv270"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -88899,9 +88871,12 @@
           ],
           "S-Bahn": [
             "S1"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -89467,14 +89442,18 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Zillerstraße",
         "operators": [
+          "DB Regio AG Südost",
           "DVB"
         ],
         "lines": {
           "Straßenbahn": [
             "4"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -94007,17 +93986,12 @@
             "431",
             "445"
           ],
-          "Regionalbus": [
-            "430",
-            "431",
-            "445"
-          ],
           "Stadtbus": [
             "A1 (Riesa)",
             "A2 (Riesa)"
           ]
         },
-        "total_lines": 8
+        "total_lines": 5
       }
     },
     {
@@ -105780,15 +105754,9 @@
         "name": "Welxander Straße",
         "city": "Thiendorf",
         "name_with_city": "Thiendorf Welxander Straße",
-        "operators": [
-          "VGM"
-        ],
-        "lines": {
-          "Regionalbus": [
-            "456"
-          ]
-        },
-        "total_lines": 1
+        "operators": [],
+        "lines": {},
+        "total_lines": 0
       }
     },
     {
@@ -108495,11 +108463,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411",
-            "Sv250"
+            "411"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {

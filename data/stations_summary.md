@@ -29,13 +29,13 @@ Total stations: 3928
 
 ## Stations by Transit Type
 
-- Regionalbus: 2733 stations
+- Regionalbus: 2728 stations
 - Stadtbus: 1308 stations
-- PlusBus: 608 stations
+- PlusBus: 606 stations
 - Anruflinienbus: 474 stations
 - Straßenbahn: 258 stations
 - Anruflinientaxi: 200 stations
-- Ersatzverkehr: 109 stations
+- Ersatzverkehr: 113 stations
 - Zug: 105 stations
 - Taktbus: 77 stations
 - Bus: 57 stations
@@ -51,10 +51,10 @@ Total stations: 3928
 ## Transit Operators
 
 - RVSOE: 1309 stations
-- VGM: 1180 stations
+- VGM: 1178 stations
 - DVB: 762 stations
-- RBO: 721 stations
-- DB Regio AG Südost: 125 stations
+- RBO: 720 stations
+- DB Regio AG Südost: 129 stations
 - Müller Busreisen: 106 stations
 - VGH: 83 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
@@ -70,6 +70,7 @@ Total stations: 3928
 - Verkehrsmanagement Elbe-Elster GmbH: 8 stations
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 4 stations
+- European Sleeper: 2 stations
 - FlixTrain: 2 stations
 - DB Fernverkehr AG: 2 stations
 - Nordsachsen Mobil: 2 stations
@@ -87,9 +88,9 @@ Total stations: 3928
 - Pirna ZOB / Bahnhof: 22 lines
 - Großenhain Cottbuser Bahnhof: 21 lines
 - Meißen Bahnhofstraße: 21 lines
-- Bischofswerda Bahnhof: 19 lines
 - Riesa Alexander-Puschkin-Platz: 19 lines
 - Riesa R.-Breitscheid-Str.: 19 lines
+- Bischofswerda Bahnhof: 18 lines
 - Dresden Bahnhof Mitte: 18 lines
 - Lommatzsch Busbahnhof: 18 lines
 - Großenhain Mozartallee: 17 lines
@@ -128,8 +129,6 @@ Total stations: 3928
 - Dresden Prager Straße: 12 lines
 - Dresden S-Bahnhof Niedersedlitz: 12 lines
 - Glashütte (Sachsen) Bahnhof / Busbahnhof: 12 lines
-- Hoyerswerda Bautzener Allee: 12 lines
-- Hoyerswerda Straße des Friedens: 12 lines
 - Pirna Copitz Schulstraße: 12 lines
 - Riesa Goethestraße: 12 lines
 - Altenberg (Erzgebirge) Bahnhof: 11 lines
@@ -140,7 +139,6 @@ Total stations: 3928
 - Dresden Pirnaischer Platz: 11 lines
 - Dresden S-Bf. Industriegelände: 11 lines
 - Großenhain Hohe Straße: 11 lines
-- Pirna Robert-Koch-Straße: 11 lines
 - Pulsnitz Bahnhof: 11 lines
 - Weinböhla Haltepunkt: 11 lines
 - Bischofswerda Schulstraße: 10 lines
@@ -154,6 +152,7 @@ Total stations: 3928
 - Dresden Wasaplatz: 10 lines
 - Freital S-Bahnhof Hainsberg: 10 lines
 - Königswartha Kirchplatz: 10 lines
+- Pirna Robert-Koch-Straße: 10 lines
 - Sebnitz Brückenschänke: 10 lines
 - Sebnitz Busbahnhof: 10 lines
 - Sebnitz Gartenstraße: 10 lines
