@@ -37710,20 +37710,16 @@
       "longitude": 14.258985,
       "latitude": 51.434933,
       "operators": [
-        "RBO",
         "VGH"
       ],
       "lines": {
-        "PlusBus": [
-          "500"
-        ],
         "Stadtbus": [
           "3 (Hoyerswerda)",
           "P2 (Hoyerswerda)",
           "P3 (Hoyerswerda)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14625:8055",
@@ -51704,10 +51700,11 @@
       "lines": {
         "Regionalbus": [
           "405",
-          "458"
+          "458",
+          "M"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:4331",
@@ -51823,13 +51820,14 @@
       "lines": {
         "Regionalbus": [
           "405",
-          "458"
+          "458",
+          "M"
         ],
         "PlusBus": [
           "477"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14627:4336",

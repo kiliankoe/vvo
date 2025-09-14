@@ -52017,20 +52017,16 @@
         "city": "Hoyerswerda",
         "name_with_city": "Hoyerswerda Straße des Friedens",
         "operators": [
-          "RBO",
           "VGH"
         ],
         "lines": {
-          "PlusBus": [
-            "500"
-          ],
           "Stadtbus": [
             "3 (Hoyerswerda)",
             "P2 (Hoyerswerda)",
             "P3 (Hoyerswerda)"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -71339,10 +71335,11 @@
         "lines": {
           "Regionalbus": [
             "405",
-            "458"
+            "458",
+            "M"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -71506,13 +71503,14 @@
         "lines": {
           "Regionalbus": [
             "405",
-            "458"
+            "458",
+            "M"
           ],
           "PlusBus": [
             "477"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {

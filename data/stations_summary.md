@@ -31,7 +31,7 @@ Total stations: 3928
 
 - Regionalbus: 2728 stations
 - Stadtbus: 1308 stations
-- PlusBus: 606 stations
+- PlusBus: 605 stations
 - Anruflinienbus: 474 stations
 - Straßenbahn: 258 stations
 - Anruflinientaxi: 200 stations
@@ -53,7 +53,7 @@ Total stations: 3928
 - RVSOE: 1309 stations
 - VGM: 1178 stations
 - DVB: 762 stations
-- RBO: 720 stations
+- RBO: 719 stations
 - DB Regio AG Südost: 129 stations
 - Müller Busreisen: 106 stations
 - VGH: 83 stations
