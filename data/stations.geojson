@@ -81442,10 +81442,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "G/L (Pirna)"
+            "G/L (Pirna)",
+            "H/S (Pirna)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
