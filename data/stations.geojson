@@ -14112,10 +14112,11 @@
         ],
         "lines": {
           "Stadtbus": [
+            "70",
             "80"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -18749,10 +18750,11 @@
             "3"
           ],
           "Stadtbus": [
+            "70",
             "80"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -21577,6 +21579,7 @@
         ],
         "lines": {
           "Straßenbahn": [
+            "10",
             "11",
             "12",
             "20",
@@ -21586,7 +21589,7 @@
             "8"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -24143,10 +24146,11 @@
         ],
         "lines": {
           "Stadtbus": [
+            "70",
             "80"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -27781,10 +27785,11 @@
         ],
         "lines": {
           "Stadtbus": [
+            "70",
             "80"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -27981,6 +27986,7 @@
         "lines": {
           "Straßenbahn": [
             "1",
+            "10",
             "11",
             "12",
             "2",
@@ -28002,7 +28008,7 @@
             "477"
           ]
         },
-        "total_lines": 16
+        "total_lines": 17
       }
     },
     {
@@ -28026,6 +28032,7 @@
         ],
         "lines": {
           "Straßenbahn": [
+            "10",
             "11",
             "12",
             "20",
@@ -28044,7 +28051,7 @@
             "360"
           ]
         },
-        "total_lines": 12
+        "total_lines": 13
       }
     },
     {
@@ -30479,6 +30486,7 @@
         "lines": {
           "Straßenbahn": [
             "1",
+            "10",
             "2",
             "9"
           ],
@@ -30486,7 +30494,7 @@
             "68"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -31085,10 +31093,11 @@
         ],
         "lines": {
           "Stadtbus": [
+            "70",
             "80"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -32453,6 +32462,7 @@
         ],
         "lines": {
           "Straßenbahn": [
+            "10",
             "11",
             "12",
             "20",
@@ -32474,7 +32484,7 @@
             "H/S (Pirna)"
           ]
         },
-        "total_lines": 13
+        "total_lines": 14
       }
     },
     {
@@ -32597,11 +32607,12 @@
         ],
         "lines": {
           "Straßenbahn": [
+            "2",
             "4",
             "7"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {

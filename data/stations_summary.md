@@ -93,10 +93,10 @@ Total stations: 3928
 - Bischofswerda Bahnhof: 18 lines
 - Dresden Bahnhof Mitte: 18 lines
 - Lommatzsch Busbahnhof: 18 lines
+- Dresden Postplatz: 17 lines
 - Großenhain Mozartallee: 17 lines
 - Kamenz Macherstraße: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
-- Dresden Postplatz: 16 lines
 - Dresden S-Bahnhof Dobritz: 16 lines
 - Dresden Trachenberger Platz: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
@@ -112,6 +112,7 @@ Total stations: 3928
 - Dippoldiswalde Busbahnhof: 14 lines
 - Dresden Liststraße: 14 lines
 - Dresden S-Bf. Strehlen: 14 lines
+- Dresden Walpurgisstraße: 14 lines
 - Hoyerswerda Lausitzer Platz: 14 lines
 - Kamenz Landesämter: 14 lines
 - Lommatzsch Parkstraße: 14 lines
@@ -119,14 +120,13 @@ Total stations: 3928
 - Meißen Talbad: 14 lines
 - Radeberg Bahnhof: 14 lines
 - Dresden Bahnhof Klotzsche: 13 lines
+- Dresden Prager Straße: 13 lines
 - Dresden Tharandter Straße: 13 lines
-- Dresden Walpurgisstraße: 13 lines
 - Kamenz Flugplatz: 13 lines
 - Nossen Markt: 13 lines
 - Nossen Talstraße: 13 lines
 - Bad Schandau Nationalparkbahnhof: 12 lines
 - Coswig (bei Dresden) Bahnhof: 12 lines
-- Dresden Prager Straße: 12 lines
 - Dresden S-Bahnhof Niedersedlitz: 12 lines
 - Glashütte (Sachsen) Bahnhof / Busbahnhof: 12 lines
 - Pirna Copitz Schulstraße: 12 lines
