@@ -817,9 +817,12 @@
           ],
           "S-Bahn": [
             "S8"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -38260,11 +38263,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "161",
             "162"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -41598,6 +41600,32 @@
         "lines": {
           "Regionalbus": [
             "235"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.150783,
+          50.964129
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3677",
+        "numeric_id": "33003677",
+        "name": "Waitzdorfer Kreuz",
+        "city": "Goßdorf",
+        "name_with_city": "Goßdorf Waitzdorfer Kreuz",
+        "operators": [
+          "DB Regio AG Südost"
+        ],
+        "lines": {
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
         "total_lines": 1
@@ -46379,9 +46407,12 @@
           ],
           "Zug": [
             "U28"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -49012,9 +49043,12 @@
           ],
           "Zug": [
             "RB33"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -53602,11 +53636,10 @@
         "lines": {
           "Regionalbus": [
             "417",
-            "Sv125",
             "Sv170"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -57186,9 +57219,7 @@
         "name": "Bahnhof Goßdorf-Kohlmühle",
         "city": "Kohlmühle (Hohnstein)",
         "name_with_city": "Kohlmühle (Hohnstein) Bahnhof Goßdorf-Kohlmühle",
-        "operators": [
-          "DB Regio AG Südost"
-        ],
+        "operators": [],
         "lines": {
           "Zug": [
             "U28"
@@ -58908,9 +58939,12 @@
           ],
           "Zug": [
             "RB33"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -61908,9 +61942,12 @@
           ],
           "Zug": [
             "RB33"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -62787,12 +62824,10 @@
         "lines": {
           "Regionalbus": [
             "417",
-            "500",
-            "Sv125",
-            "Sv170"
+            "500"
           ]
         },
-        "total_lines": 4
+        "total_lines": 2
       }
     },
     {
@@ -64095,7 +64130,6 @@
         "city": "Lohmen (bei Pirna)",
         "name_with_city": "Lohmen (bei Pirna) Bahnhofstraße",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -64105,12 +64139,9 @@
             "237",
             "238",
             "254"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -78786,9 +78817,12 @@
           ],
           "Zug": [
             "RB33"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -78894,9 +78928,12 @@
         "lines": {
           "Zug": [
             "RB33"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -78914,9 +78951,15 @@
         "name": "Dresdner Straße",
         "city": "Ottendorf-Okrilla",
         "name_with_city": "Ottendorf-Okrilla Dresdner Straße",
-        "operators": [],
-        "lines": {},
-        "total_lines": 0
+        "operators": [
+          "DB Regio AG Südost"
+        ],
+        "lines": {
+          "Ersatzverkehr": [
+            "SEV"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
@@ -81318,7 +81361,6 @@
         "city": "Pirna",
         "name_with_city": "Pirna Copitz Heinrich-Heine-Straße",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -81329,12 +81371,9 @@
             "238",
             "246",
             "254"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
@@ -81541,7 +81580,6 @@
         "city": "Pirna",
         "name_with_city": "Pirna Copitz Schulstraße",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -81559,12 +81597,9 @@
             "H/S (Pirna)",
             "M (Pirna)",
             "P (Pirna)"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 12
+        "total_lines": 11
       }
     },
     {
@@ -83838,14 +83873,18 @@
         "city": "Porschdorf",
         "name_with_city": "Porschdorf Abzw zum Bahnhof",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "254"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -83917,9 +83956,7 @@
         "name": "Haltepunkt",
         "city": "Porschdorf",
         "name_with_city": "Porschdorf Haltepunkt",
-        "operators": [
-          "DB Regio AG Südost"
-        ],
+        "operators": [],
         "lines": {
           "Zug": [
             "U28"
@@ -87900,14 +87937,13 @@
             "4"
           ],
           "Regionalbus": [
-            "850",
-            "Sv270"
+            "850"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -88530,6 +88566,7 @@
           ],
           "Regionalbus": [
             "400",
+            "475",
             "476",
             "850",
             "Sv270"
@@ -88538,7 +88575,7 @@
             "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -88769,18 +88806,14 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Radebl. West (Flemmingstraße)",
         "operators": [
-          "DVB",
-          "VGM"
+          "DVB"
         ],
         "lines": {
           "Straßenbahn": [
             "4"
-          ],
-          "Regionalbus": [
-            "Sv270"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -89118,14 +89151,13 @@
         ],
         "lines": {
           "Regionalbus": [
-            "475",
             "Sv280"
           ],
           "Anruflinientaxi": [
             "alita 72"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -99996,6 +100028,9 @@
           "PlusBus": [
             "261"
           ],
+          "Taktbus": [
+            "267"
+          ],
           "Zug": [
             "RB71",
             "U28"
@@ -100003,9 +100038,12 @@
           "Stadtbus": [
             "R (Sebnitz)",
             "T (Sebnitz)"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 9
+        "total_lines": 11
       }
     },
     {
@@ -100331,12 +100369,15 @@
           "PlusBus": [
             "261"
           ],
+          "Taktbus": [
+            "267"
+          ],
           "Stadtbus": [
             "R (Sebnitz)",
             "T (Sebnitz)"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -100414,9 +100455,18 @@
         "name": "Hertigswalder Straße",
         "city": "Sebnitz",
         "name_with_city": "Sebnitz Hertigswalder Straße",
-        "operators": [],
-        "lines": {},
-        "total_lines": 0
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "PlusBus": [
+            "261"
+          ],
+          "Taktbus": [
+            "267"
+          ]
+        },
+        "total_lines": 2
       }
     },
     {
@@ -100655,12 +100705,15 @@
           "PlusBus": [
             "261"
           ],
+          "Taktbus": [
+            "267"
+          ],
           "Stadtbus": [
             "R (Sebnitz)",
             "T (Sebnitz)"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -106620,6 +106673,7 @@
         "city": "Ulbersdorf",
         "name_with_city": "Ulbersdorf Almenhof",
         "operators": [
+          "DB Regio AG Südost",
           "Müller Busreisen",
           "RVSOE"
         ],
@@ -106629,9 +106683,12 @@
             "236",
             "237",
             "7"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -106649,9 +106706,7 @@
         "name": "Bahnhof",
         "city": "Ulbersdorf",
         "name_with_city": "Ulbersdorf Bahnhof",
-        "operators": [
-          "DB Regio AG Südost"
-        ],
+        "operators": [],
         "lines": {
           "Zug": [
             "U28"
@@ -108494,11 +108549,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411",
-            "Sv250"
+            "411"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -109026,9 +109080,12 @@
         "lines": {
           "Zug": [
             "RB33"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -109179,9 +109236,12 @@
           ],
           "Zug": [
             "RB33"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
