@@ -14115,11 +14115,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "70",
             "80"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -18753,11 +18752,10 @@
             "3"
           ],
           "Stadtbus": [
-            "70",
             "80"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -24149,11 +24147,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "70",
             "80"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -27788,11 +27785,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "70",
             "80"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -31096,11 +31092,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "70",
             "80"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -38263,10 +38258,11 @@
         ],
         "lines": {
           "Stadtbus": [
+            "161",
             "162"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -53636,10 +53632,11 @@
         "lines": {
           "Regionalbus": [
             "417",
+            "Sv125",
             "Sv170"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -62824,10 +62821,12 @@
         "lines": {
           "Regionalbus": [
             "417",
-            "500"
+            "500",
+            "Sv125",
+            "Sv170"
           ]
         },
-        "total_lines": 2
+        "total_lines": 4
       }
     },
     {
@@ -87937,13 +87936,14 @@
             "4"
           ],
           "Regionalbus": [
-            "850"
+            "850",
+            "Sv270"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -88806,14 +88806,18 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Radebl. West (Flemmingstraße)",
         "operators": [
-          "DVB"
+          "DVB",
+          "VGM"
         ],
         "lines": {
           "Straßenbahn": [
             "4"
+          ],
+          "Regionalbus": [
+            "Sv270"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -89069,9 +89073,12 @@
         "lines": {
           "Straßenbahn": [
             "4"
+          ],
+          "Stadtbus": [
+            "72"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -89397,11 +89404,14 @@
           "Straßenbahn": [
             "4"
           ],
+          "Stadtbus": [
+            "72"
+          ],
           "Regionalbus": [
             "Sv280"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -108549,10 +108559,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411"
+            "411",
+            "Sv250"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
