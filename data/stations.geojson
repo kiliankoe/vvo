@@ -38258,11 +38258,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "161",
             "162"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -53632,11 +53631,10 @@
         "lines": {
           "Regionalbus": [
             "417",
-            "Sv125",
             "Sv170"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -62820,13 +62818,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "417",
-            "500",
-            "Sv125",
-            "Sv170"
+            "500"
           ]
         },
-        "total_lines": 4
+        "total_lines": 1
       }
     },
     {
@@ -64129,6 +64124,7 @@
         "city": "Lohmen (bei Pirna)",
         "name_with_city": "Lohmen (bei Pirna) Bahnhofstraße",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -64138,9 +64134,12 @@
             "237",
             "238",
             "254"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -66416,12 +66415,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "417",
             "500",
             "Sv170"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -71382,10 +71380,11 @@
         "lines": {
           "Regionalbus": [
             "405",
-            "458"
+            "458",
+            "M"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -71549,13 +71548,14 @@
         "lines": {
           "Regionalbus": [
             "405",
-            "458"
+            "458",
+            "M"
           ],
           "PlusBus": [
             "477"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -81360,6 +81360,7 @@
         "city": "Pirna",
         "name_with_city": "Pirna Copitz Heinrich-Heine-Straße",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -81370,9 +81371,12 @@
             "238",
             "246",
             "254"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -81579,6 +81583,7 @@
         "city": "Pirna",
         "name_with_city": "Pirna Copitz Schulstraße",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -81596,9 +81601,12 @@
             "H/S (Pirna)",
             "M (Pirna)",
             "P (Pirna)"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 11
+        "total_lines": 12
       }
     },
     {
@@ -82427,14 +82435,13 @@
             "237",
             "241",
             "245",
-            "246",
             "207a"
           ],
           "Stadtbus": [
             "Z (Pirna)"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -87936,14 +87943,13 @@
             "4"
           ],
           "Regionalbus": [
-            "850",
-            "Sv270"
+            "850"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -88806,18 +88812,14 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Radebl. West (Flemmingstraße)",
         "operators": [
-          "DVB",
-          "VGM"
+          "DVB"
         ],
         "lines": {
           "Straßenbahn": [
             "4"
-          ],
-          "Regionalbus": [
-            "Sv270"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -94048,17 +94050,12 @@
             "431",
             "445"
           ],
-          "Regionalbus": [
-            "430",
-            "431",
-            "445"
-          ],
           "Stadtbus": [
             "A1 (Riesa)",
             "A2 (Riesa)"
           ]
         },
-        "total_lines": 8
+        "total_lines": 5
       }
     },
     {
@@ -100038,9 +100035,6 @@
           "PlusBus": [
             "261"
           ],
-          "Taktbus": [
-            "267"
-          ],
           "Zug": [
             "RB71",
             "U28"
@@ -100053,7 +100047,7 @@
             "SEV"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -100379,15 +100373,12 @@
           "PlusBus": [
             "261"
           ],
-          "Taktbus": [
-            "267"
-          ],
           "Stadtbus": [
             "R (Sebnitz)",
             "T (Sebnitz)"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -100465,18 +100456,9 @@
         "name": "Hertigswalder Straße",
         "city": "Sebnitz",
         "name_with_city": "Sebnitz Hertigswalder Straße",
-        "operators": [
-          "RVSOE"
-        ],
-        "lines": {
-          "PlusBus": [
-            "261"
-          ],
-          "Taktbus": [
-            "267"
-          ]
-        },
-        "total_lines": 2
+        "operators": [],
+        "lines": {},
+        "total_lines": 0
       }
     },
     {
@@ -100715,15 +100697,12 @@
           "PlusBus": [
             "261"
           ],
-          "Taktbus": [
-            "267"
-          ],
           "Stadtbus": [
             "R (Sebnitz)",
             "T (Sebnitz)"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
@@ -105842,15 +105821,9 @@
         "name": "Welxander Straße",
         "city": "Thiendorf",
         "name_with_city": "Thiendorf Welxander Straße",
-        "operators": [
-          "VGM"
-        ],
-        "lines": {
-          "Regionalbus": [
-            "456"
-          ]
-        },
-        "total_lines": 1
+        "operators": [],
+        "lines": {},
+        "total_lines": 0
       }
     },
     {
@@ -108559,11 +108532,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411",
-            "Sv250"
+            "411"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {

@@ -27783,11 +27783,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "161",
           "162"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:1178",
@@ -38869,11 +38868,10 @@
       "lines": {
         "Regionalbus": [
           "417",
-          "Sv125",
           "Sv170"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4505",
@@ -45505,13 +45503,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "417",
-          "500",
-          "Sv125",
-          "Sv170"
+          "500"
         ]
       },
-      "total_lines": 4
+      "total_lines": 1
     },
     {
       "id": "de:14625:6030",
@@ -46438,6 +46433,7 @@
       "longitude": 13.992599,
       "latitude": 50.988428,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -46447,9 +46443,12 @@
           "237",
           "238",
           "254"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14628:3739",
@@ -48085,12 +48084,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "417",
           "500",
           "Sv170"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4585",
@@ -51739,10 +51737,11 @@
       "lines": {
         "Regionalbus": [
           "405",
-          "458"
+          "458",
+          "M"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:4331",
@@ -51858,13 +51857,14 @@
       "lines": {
         "Regionalbus": [
           "405",
-          "458"
+          "458",
+          "M"
         ],
         "PlusBus": [
           "477"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14627:4336",
@@ -58957,6 +58957,7 @@
       "longitude": 13.940039,
       "latitude": 50.974159,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -58967,9 +58968,12 @@
           "238",
           "246",
           "254"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14628:3435",
@@ -59120,6 +59124,7 @@
       "longitude": 13.934685,
       "latitude": 50.968598,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -59137,9 +59142,12 @@
           "H/S (Pirna)",
           "M (Pirna)",
           "P (Pirna)"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 11
+      "total_lines": 12
     },
     {
       "id": "de:14628:3438",
@@ -59736,14 +59744,13 @@
           "237",
           "241",
           "245",
-          "246",
           "207a"
         ],
         "Stadtbus": [
           "Z (Pirna)"
         ]
       },
-      "total_lines": 11
+      "total_lines": 10
     },
     {
       "id": "de:14628:3382",
@@ -63717,14 +63724,13 @@
           "4"
         ],
         "Regionalbus": [
-          "850",
-          "Sv270"
+          "850"
         ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14627:4233",
@@ -64331,18 +64337,14 @@
       "longitude": 13.624972,
       "latitude": 51.110245,
       "operators": [
-        "DVB",
-        "VGM"
+        "DVB"
       ],
       "lines": {
         "Straßenbahn": [
           "4"
-        ],
-        "Regionalbus": [
-          "Sv270"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4255",
@@ -68117,17 +68119,12 @@
           "431",
           "445"
         ],
-        "Regionalbus": [
-          "430",
-          "431",
-          "445"
-        ],
         "Stadtbus": [
           "A1 (Riesa)",
           "A2 (Riesa)"
         ]
       },
-      "total_lines": 8
+      "total_lines": 5
     },
     {
       "id": "de:14627:5540",
@@ -72435,9 +72432,6 @@
         "PlusBus": [
           "261"
         ],
-        "Taktbus": [
-          "267"
-        ],
         "Zug": [
           "RB71",
           "U28"
@@ -72450,7 +72444,7 @@
           "SEV"
         ]
       },
-      "total_lines": 11
+      "total_lines": 10
     },
     {
       "id": "de:14628:3944",
@@ -72696,15 +72690,12 @@
         "PlusBus": [
           "261"
         ],
-        "Taktbus": [
-          "267"
-        ],
         "Stadtbus": [
           "R (Sebnitz)",
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 11
+      "total_lines": 10
     },
     {
       "id": "de:14628:3958",
@@ -72758,18 +72749,9 @@
       "name_with_city": "Sebnitz Hertigswalder Straße",
       "longitude": 14.271885,
       "latitude": 50.970669,
-      "operators": [
-        "RVSOE"
-      ],
-      "lines": {
-        "PlusBus": [
-          "261"
-        ],
-        "Taktbus": [
-          "267"
-        ]
-      },
-      "total_lines": 2
+      "operators": [],
+      "lines": {},
+      "total_lines": 0
     },
     {
       "id": "de:14628:3937",
@@ -72944,15 +72926,12 @@
         "PlusBus": [
           "261"
         ],
-        "Taktbus": [
-          "267"
-        ],
         "Stadtbus": [
           "R (Sebnitz)",
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 7
+      "total_lines": 6
     },
     {
       "id": "de:14628:3919",
@@ -76623,15 +76602,9 @@
       "name_with_city": "Thiendorf Welxander Straße",
       "longitude": 13.740729,
       "latitude": 51.293716,
-      "operators": [
-        "VGM"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "456"
-        ]
-      },
-      "total_lines": 1
+      "operators": [],
+      "lines": {},
+      "total_lines": 0
     },
     {
       "id": "de:14627:5482",
@@ -78564,11 +78537,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411",
-          "Sv250"
+          "411"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4151",
