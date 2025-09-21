@@ -71380,11 +71380,10 @@
         "lines": {
           "Regionalbus": [
             "405",
-            "458",
-            "M"
+            "458"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -71548,14 +71547,13 @@
         "lines": {
           "Regionalbus": [
             "405",
-            "458",
-            "M"
+            "458"
           ],
           "PlusBus": [
             "477"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {

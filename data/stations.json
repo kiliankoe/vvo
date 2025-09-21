@@ -51737,11 +51737,10 @@
       "lines": {
         "Regionalbus": [
           "405",
-          "458",
-          "M"
+          "458"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4331",
@@ -51857,14 +51856,13 @@
       "lines": {
         "Regionalbus": [
           "405",
-          "458",
-          "M"
+          "458"
         ],
         "PlusBus": [
           "477"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14627:4336",
