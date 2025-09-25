@@ -1,10 +1,10 @@
 # VVO Station Data Summary
 
-Total stations: 3929
+Total stations: 3928
 
 ## Stations by City
 
-- Dresden: 658
+- Dresden: 657
 - Meißen: 107
 - Freital: 89
 - Pirna: 84
@@ -29,11 +29,11 @@ Total stations: 3929
 
 ## Stations by Transit Type
 
-- Regionalbus: 2731 stations
-- Stadtbus: 1310 stations
+- Regionalbus: 2730 stations
+- Stadtbus: 1309 stations
 - PlusBus: 605 stations
 - Anruflinienbus: 474 stations
-- Straßenbahn: 257 stations
+- Straßenbahn: 255 stations
 - Anruflinientaxi: 200 stations
 - Ersatzverkehr: 127 stations
 - Zug: 105 stations
@@ -51,8 +51,8 @@ Total stations: 3929
 ## Transit Operators
 
 - RVSOE: 1309 stations
-- VGM: 1180 stations
-- DVB: 761 stations
+- VGM: 1179 stations
+- DVB: 760 stations
 - RBO: 719 stations
 - DB Regio AG Südost: 130 stations
 - Müller Busreisen: 106 stations
@@ -96,14 +96,14 @@ Total stations: 3929
 - Großenhain Mozartallee: 17 lines
 - Kamenz Macherstraße: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
-- Dresden Postplatz: 16 lines
-- Dresden S-Bahnhof Dobritz: 16 lines
 - Dresden Trachenberger Platz: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
 - Großenhain Lessingplatz: 16 lines
 - Kamenz Schwimmhalle: 16 lines
 - Meißen S-Bahnhof Altstadt: 16 lines
 - Riesa Sachsenhof: 16 lines
+- Dresden Postplatz: 15 lines
+- Dresden S-Bahnhof Dobritz: 15 lines
 - Freital S-Bf. / Busbf. Deuben: 15 lines
 - Heidenau (Sachsen) Bahnhof: 15 lines
 - Hoyerswerda Behördenpark: 15 lines
@@ -119,15 +119,14 @@ Total stations: 3929
 - Meißen Talbad: 14 lines
 - Radeberg Bahnhof: 14 lines
 - Dresden Bahnhof Klotzsche: 13 lines
-- Dresden Walpurgisstraße: 13 lines
 - Kamenz Flugplatz: 13 lines
 - Nossen Markt: 13 lines
 - Nossen Talstraße: 13 lines
 - Bad Schandau Nationalparkbahnhof: 12 lines
 - Coswig (bei Dresden) Bahnhof: 12 lines
-- Dresden Prager Straße: 12 lines
 - Dresden S-Bahnhof Niedersedlitz: 12 lines
 - Dresden Tharandter Straße: 12 lines
+- Dresden Walpurgisstraße: 12 lines
 - Glashütte (Sachsen) Bahnhof / Busbahnhof: 12 lines
 - Pirna Copitz Schulstraße: 12 lines
 - Riesa Goethestraße: 12 lines
@@ -135,6 +134,7 @@ Total stations: 3929
 - Dresden Bahnhof Neustadt (Hansastraße): 11 lines
 - Dresden Großenhainer Platz: 11 lines
 - Dresden Pirnaischer Platz: 11 lines
+- Dresden Prager Straße: 11 lines
 - Dresden S-Bf. Industriegelände: 11 lines
 - Großenhain Hohe Straße: 11 lines
 - Pirna Robert-Koch-Straße: 11 lines
