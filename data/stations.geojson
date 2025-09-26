@@ -19969,13 +19969,14 @@
             "2"
           ],
           "Stadtbus": [
+            "86",
             "88"
           ],
           "Anruflinientaxi": [
             "alita 88"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -24419,10 +24420,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "86"
+            "86",
+            "88"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -33451,10 +33453,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "86"
+            "86",
+            "88"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -38146,10 +38149,11 @@
         ],
         "lines": {
           "Stadtbus": [
+            "161",
             "162"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -53519,10 +53523,11 @@
         "lines": {
           "Regionalbus": [
             "417",
+            "Sv125",
             "Sv170"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -62707,10 +62712,12 @@
         "lines": {
           "Regionalbus": [
             "417",
-            "500"
+            "500",
+            "Sv125",
+            "Sv170"
           ]
         },
-        "total_lines": 2
+        "total_lines": 4
       }
     },
     {
@@ -87833,13 +87840,14 @@
             "4"
           ],
           "Regionalbus": [
-            "850"
+            "850",
+            "Sv270"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -88702,14 +88710,18 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Radebl. West (Flemmingstraße)",
         "operators": [
-          "DVB"
+          "DVB",
+          "VGM"
         ],
         "lines": {
           "Straßenbahn": [
             "4"
+          ],
+          "Regionalbus": [
+            "Sv270"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -89042,18 +89054,14 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Serkowitzer Str. (SV)",
         "operators": [
-          "DVB",
           "VGM"
         ],
         "lines": {
           "Regionalbus": [
             "Sv280"
-          ],
-          "Anruflinientaxi": [
-            "alita 72"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -89072,18 +89080,14 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Serkowitzer Straße",
         "operators": [
-          "DVB",
           "VGM"
         ],
         "lines": {
           "Regionalbus": [
             "475"
-          ],
-          "Anruflinientaxi": [
-            "alita 72"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -108427,10 +108431,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411"
+            "411",
+            "Sv250"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
