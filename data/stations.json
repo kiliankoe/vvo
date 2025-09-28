@@ -17657,11 +17657,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "86",
-          "88"
+          "86"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:798",
@@ -24298,11 +24297,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "86",
-          "88"
+          "86"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:552",

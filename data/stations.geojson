@@ -24420,11 +24420,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "86",
-            "88"
+            "86"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -33453,11 +33452,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "86",
-            "88"
+            "86"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
