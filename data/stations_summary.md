@@ -1,15 +1,15 @@
 # VVO Station Data Summary
 
-Total stations: 3928
+Total stations: 3920
 
 ## Stations by City
 
 - Dresden: 657
-- Meißen: 107
+- Meißen: 104
 - Freital: 89
 - Pirna: 84
-- Radebeul: 79
 - Riesa: 77
+- Radebeul: 75
 - Hoyerswerda: 73
 - Großenhain: 45
 - Coswig (bei Dresden): 36
@@ -29,12 +29,12 @@ Total stations: 3928
 
 ## Stations by Transit Type
 
-- Regionalbus: 2728 stations
-- Stadtbus: 1309 stations
+- Regionalbus: 2722 stations
+- Stadtbus: 1310 stations
 - PlusBus: 605 stations
 - Anruflinienbus: 474 stations
 - Straßenbahn: 255 stations
-- Anruflinientaxi: 198 stations
+- Anruflinientaxi: 196 stations
 - Ersatzverkehr: 127 stations
 - Zug: 105 stations
 - Taktbus: 78 stations
@@ -51,7 +51,7 @@ Total stations: 3928
 ## Transit Operators
 
 - RVSOE: 1309 stations
-- VGM: 1178 stations
+- VGM: 1171 stations
 - DVB: 758 stations
 - RBO: 719 stations
 - DB Regio AG Südost: 130 stations
@@ -70,7 +70,6 @@ Total stations: 3928
 - Verkehrsmanagement Elbe-Elster GmbH: 8 stations
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 4 stations
-- European Sleeper: 2 stations
 - FlixTrain: 2 stations
 - DB Fernverkehr AG: 2 stations
 - Nordsachsen Mobil: 2 stations
@@ -78,10 +77,10 @@ Total stations: 3928
 
 ## Major Transit Hubs (10+ lines)
 
-- Meißen Busbahnhof: 35 lines
+- Meißen Busbahnhof: 33 lines
 - Dresden Hauptbahnhof: 30 lines
-- Meißen Altstadtbrücke: 28 lines
 - Riesa Busbahnhof / Bahnhof: 28 lines
+- Meißen Altstadtbrücke: 27 lines
 - Dresden Bahnhof Neustadt: 24 lines
 - Kamenz Bahnhof: 24 lines
 - Hoyerswerda Bahnhof: 23 lines
@@ -93,12 +92,12 @@ Total stations: 3928
 - Bischofswerda Bahnhof: 18 lines
 - Lommatzsch Busbahnhof: 18 lines
 - Dresden Bahnhof Mitte: 17 lines
+- Großenhain Lessingplatz: 17 lines
 - Großenhain Mozartallee: 17 lines
 - Kamenz Macherstraße: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
 - Dresden Trachenberger Platz: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
-- Großenhain Lessingplatz: 16 lines
 - Kamenz Schwimmhalle: 16 lines
 - Meißen S-Bahnhof Altstadt: 16 lines
 - Riesa Sachsenhof: 16 lines
@@ -137,9 +136,9 @@ Total stations: 3928
 - Dresden Prager Straße: 11 lines
 - Dresden S-Bf. Industriegelände: 11 lines
 - Großenhain Hohe Straße: 11 lines
+- Pirna Robert-Koch-Straße: 11 lines
 - Pulsnitz Bahnhof: 11 lines
 - Sebnitz Gartenstraße: 11 lines
-- Weinböhla Haltepunkt: 11 lines
 - Bischofswerda Schulstraße: 10 lines
 - Cossebaude/Neu-Leuteritz Bahnhof: 10 lines
 - Dresden Albertplatz: 10 lines
@@ -148,9 +147,9 @@ Total stations: 3928
 - Dresden Wasaplatz: 10 lines
 - Freital S-Bahnhof Hainsberg: 10 lines
 - Königswartha Kirchplatz: 10 lines
-- Pirna Robert-Koch-Straße: 10 lines
 - Sebnitz Bahnhof: 10 lines
 - Sebnitz Brückenschänke: 10 lines
 - Sebnitz Busbahnhof: 10 lines
 - Sebnitz Hohnsteiner Straße: 10 lines
 - Tharandt Bahnhof: 10 lines
+- Weinböhla Haltepunkt: 10 lines
