@@ -80,7 +80,7 @@ Total stations: 3920
 - Meißen Busbahnhof: 33 lines
 - Dresden Hauptbahnhof: 30 lines
 - Riesa Busbahnhof / Bahnhof: 28 lines
-- Meißen Altstadtbrücke: 27 lines
+- Meißen Altstadtbrücke: 26 lines
 - Dresden Bahnhof Neustadt: 24 lines
 - Kamenz Bahnhof: 24 lines
 - Hoyerswerda Bahnhof: 23 lines

@@ -6085,8 +6085,8 @@
       "name": "Kirche",
       "city": "Bärwalde (Radeburg)",
       "name_with_city": "Bärwalde (Radeburg) Kirche",
-      "longitude": 13.673688,
-      "latitude": 51.201588,
+      "longitude": 13.673868,
+      "latitude": 51.201531,
       "operators": [
         "VGM"
       ],
@@ -17971,8 +17971,8 @@
       "name": "Lengefelder Straße",
       "city": "Dresden",
       "name_with_city": "Dresden Lengefelder Straße",
-      "longitude": 13.816466,
-      "latitude": 51.033807,
+      "longitude": 13.816044,
+      "latitude": 51.033982,
       "operators": [
         "DVB"
       ],
@@ -48485,7 +48485,6 @@
           "401",
           "404",
           "407",
-          "409",
           "412",
           "413",
           "414",
@@ -48517,7 +48516,7 @@
           "C (Meißen)"
         ]
       },
-      "total_lines": 27
+      "total_lines": 26
     },
     {
       "id": "de:14627:4046",
