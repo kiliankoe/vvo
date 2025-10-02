@@ -1,6 +1,6 @@
 # VVO Station Data Summary
 
-Total stations: 3920
+Total stations: 3921
 
 ## Stations by City
 
@@ -30,15 +30,15 @@ Total stations: 3920
 ## Stations by Transit Type
 
 - Regionalbus: 2722 stations
-- Stadtbus: 1310 stations
+- Stadtbus: 1305 stations
 - PlusBus: 605 stations
 - Anruflinienbus: 474 stations
 - Straßenbahn: 255 stations
-- Anruflinientaxi: 196 stations
-- Ersatzverkehr: 127 stations
+- Anruflinientaxi: 197 stations
+- Ersatzverkehr: 124 stations
 - Zug: 105 stations
 - Taktbus: 78 stations
-- Bus: 58 stations
+- Bus: 57 stations
 - S-Bahn: 54 stations
 - Fähre: 32 stations
 - Stadtverkehr: 29 stations
@@ -52,9 +52,9 @@ Total stations: 3920
 
 - RVSOE: 1309 stations
 - VGM: 1171 stations
-- DVB: 758 stations
+- DVB: 761 stations
 - RBO: 719 stations
-- DB Regio AG Südost: 130 stations
+- DB Regio AG Südost: 127 stations
 - Müller Busreisen: 106 stations
 - VGH: 83 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
@@ -65,11 +65,12 @@ Total stations: 3920
 - SDG: 24 stations
 - Mitteldeutsche Regiobahn: 19 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
-- Cottbusverkehr GmbH: 12 stations
+- Cottbusverkehr GmbH: 11 stations
 - trilex - Die Länderbahn GmbH DLB: 10 stations
 - Verkehrsmanagement Elbe-Elster GmbH: 8 stations
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 4 stations
+- European Sleeper: 2 stations
 - FlixTrain: 2 stations
 - DB Fernverkehr AG: 2 stations
 - Nordsachsen Mobil: 2 stations
@@ -81,8 +82,8 @@ Total stations: 3920
 - Dresden Hauptbahnhof: 30 lines
 - Riesa Busbahnhof / Bahnhof: 28 lines
 - Meißen Altstadtbrücke: 26 lines
-- Dresden Bahnhof Neustadt: 24 lines
 - Kamenz Bahnhof: 24 lines
+- Dresden Bahnhof Neustadt: 23 lines
 - Hoyerswerda Bahnhof: 23 lines
 - Pirna ZOB / Bahnhof: 22 lines
 - Großenhain Cottbuser Bahnhof: 21 lines
@@ -127,21 +128,20 @@ Total stations: 3920
 - Dresden Tharandter Straße: 12 lines
 - Dresden Walpurgisstraße: 12 lines
 - Glashütte (Sachsen) Bahnhof / Busbahnhof: 12 lines
-- Pirna Copitz Schulstraße: 12 lines
 - Riesa Goethestraße: 12 lines
 - Altenberg (Erzgebirge) Bahnhof: 11 lines
-- Dresden Bahnhof Neustadt (Hansastraße): 11 lines
 - Dresden Großenhainer Platz: 11 lines
 - Dresden Pirnaischer Platz: 11 lines
 - Dresden Prager Straße: 11 lines
 - Dresden S-Bf. Industriegelände: 11 lines
 - Großenhain Hohe Straße: 11 lines
+- Pirna Copitz Schulstraße: 11 lines
 - Pirna Robert-Koch-Straße: 11 lines
 - Pulsnitz Bahnhof: 11 lines
 - Sebnitz Gartenstraße: 11 lines
 - Bischofswerda Schulstraße: 10 lines
 - Cossebaude/Neu-Leuteritz Bahnhof: 10 lines
-- Dresden Albertplatz: 10 lines
+- Dresden Bahnhof Neustadt (Hansastraße): 10 lines
 - Dresden Betriebshof Gorbitz: 10 lines
 - Dresden Julius-Vahlteich-Straße: 10 lines
 - Dresden Wasaplatz: 10 lines
