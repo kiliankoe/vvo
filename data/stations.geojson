@@ -17953,14 +17953,16 @@
         "city": "Dresden",
         "name_with_city": "Dresden Clara-Viebig-Straße",
         "operators": [
-          "DVB"
+          "DVB",
+          "RVSOE"
         ],
         "lines": {
           "Stadtbus": [
+            "160",
             "63"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -33220,16 +33222,18 @@
         "city": "Dresden",
         "name_with_city": "Dresden Würzburger Straße",
         "operators": [
-          "DVB"
+          "DVB",
+          "RVSOE"
         ],
         "lines": {
           "Stadtbus": [
+            "160",
             "62",
             "63",
             "85"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -38102,11 +38106,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "161",
             "162"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -53451,11 +53454,10 @@
         "lines": {
           "Regionalbus": [
             "417",
-            "Sv125",
             "Sv170"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -62639,13 +62641,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "417",
-            "500",
-            "Sv125",
-            "Sv170"
+            "500"
           ]
         },
-        "total_lines": 4
+        "total_lines": 1
       }
     },
     {
@@ -66235,12 +66234,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "417",
             "500",
             "Sv170"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -82185,14 +82183,13 @@
             "237",
             "241",
             "245",
-            "246",
             "207a"
           ],
           "Stadtbus": [
             "Z (Pirna)"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -87687,21 +87684,17 @@
         "name_with_city": "Radebeul Gerhart-Hauptmann-Straße",
         "operators": [
           "DB Regio AG Südost",
-          "DVB",
-          "VGM"
+          "DVB"
         ],
         "lines": {
           "Straßenbahn": [
             "4"
           ],
-          "Regionalbus": [
-            "Sv270"
-          ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -88456,18 +88449,14 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Radebl. West (Flemmingstraße)",
         "operators": [
-          "DVB",
-          "VGM"
+          "DVB"
         ],
         "lines": {
           "Straßenbahn": [
             "4"
-          ],
-          "Regionalbus": [
-            "Sv270"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -93693,17 +93682,12 @@
             "431",
             "445"
           ],
-          "Regionalbus": [
-            "430",
-            "431",
-            "445"
-          ],
           "Stadtbus": [
             "A1 (Riesa)",
             "A2 (Riesa)"
           ]
         },
-        "total_lines": 8
+        "total_lines": 5
       }
     },
     {
@@ -93784,54 +93768,6 @@
           ]
         },
         "total_lines": 2
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.293674,
-          51.305792
-        ]
-      },
-      "properties": {
-        "id": "de:14627:5498",
-        "numeric_id": "33005498",
-        "name": "R.-Breitscheid-Str.",
-        "city": "Riesa",
-        "name_with_city": "Riesa R.-Breitscheid-Str.",
-        "operators": [
-          "VGM"
-        ],
-        "lines": {
-          "Anruflinienbus": [
-            "430",
-            "431",
-            "439",
-            "440",
-            "445"
-          ],
-          "Regionalbus": [
-            "430",
-            "431",
-            "432",
-            "433",
-            "437",
-            "439",
-            "440",
-            "441",
-            "445",
-            "446"
-          ],
-          "Stadtbus": [
-            "A1 (Riesa)",
-            "A2 (Riesa)",
-            "B (Riesa)",
-            "D (Riesa)"
-          ]
-        },
-        "total_lines": 19
       }
     },
     {
@@ -93947,6 +93883,54 @@
           ]
         },
         "total_lines": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.293674,
+          51.305792
+        ]
+      },
+      "properties": {
+        "id": "de:14627:5498",
+        "numeric_id": "33005498",
+        "name": "Rudolf-Breitscheid-Straße",
+        "city": "Riesa",
+        "name_with_city": "Riesa Rudolf-Breitscheid-Straße",
+        "operators": [
+          "VGM"
+        ],
+        "lines": {
+          "Anruflinienbus": [
+            "430",
+            "431",
+            "439",
+            "440",
+            "445"
+          ],
+          "Regionalbus": [
+            "430",
+            "431",
+            "432",
+            "433",
+            "437",
+            "439",
+            "440",
+            "441",
+            "445",
+            "446"
+          ],
+          "Stadtbus": [
+            "A1 (Riesa)",
+            "A2 (Riesa)",
+            "B (Riesa)",
+            "D (Riesa)"
+          ]
+        },
+        "total_lines": 19
       }
     },
     {
@@ -100022,15 +100006,12 @@
           "PlusBus": [
             "261"
           ],
-          "Taktbus": [
-            "267"
-          ],
           "Stadtbus": [
             "R (Sebnitz)",
             "T (Sebnitz)"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -105468,15 +105449,9 @@
         "name": "Welxander Straße",
         "city": "Thiendorf",
         "name_with_city": "Thiendorf Welxander Straße",
-        "operators": [
-          "VGM"
-        ],
-        "lines": {
-          "Regionalbus": [
-            "456"
-          ]
-        },
-        "total_lines": 1
+        "operators": [],
+        "lines": {},
+        "total_lines": 0
       }
     },
     {
@@ -108183,11 +108158,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411",
-            "Sv250"
+            "411"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {

@@ -29,7 +29,7 @@ Total stations: 3921
 
 ## Stations by Transit Type
 
-- Regionalbus: 2722 stations
+- Regionalbus: 2718 stations
 - Stadtbus: 1305 stations
 - PlusBus: 605 stations
 - Anruflinienbus: 474 stations
@@ -37,7 +37,7 @@ Total stations: 3921
 - Anruflinientaxi: 197 stations
 - Ersatzverkehr: 124 stations
 - Zug: 105 stations
-- Taktbus: 78 stations
+- Taktbus: 77 stations
 - Bus: 57 stations
 - S-Bahn: 54 stations
 - Fähre: 32 stations
@@ -50,8 +50,8 @@ Total stations: 3921
 
 ## Transit Operators
 
-- RVSOE: 1309 stations
-- VGM: 1171 stations
+- RVSOE: 1311 stations
+- VGM: 1168 stations
 - DVB: 761 stations
 - RBO: 719 stations
 - DB Regio AG Südost: 127 stations
@@ -89,7 +89,7 @@ Total stations: 3921
 - Großenhain Cottbuser Bahnhof: 21 lines
 - Meißen Bahnhofstraße: 21 lines
 - Riesa Alexander-Puschkin-Platz: 19 lines
-- Riesa R.-Breitscheid-Str.: 19 lines
+- Riesa Rudolf-Breitscheid-Straße: 19 lines
 - Bischofswerda Bahnhof: 18 lines
 - Lommatzsch Busbahnhof: 18 lines
 - Dresden Bahnhof Mitte: 17 lines
@@ -136,9 +136,7 @@ Total stations: 3921
 - Dresden S-Bf. Industriegelände: 11 lines
 - Großenhain Hohe Straße: 11 lines
 - Pirna Copitz Schulstraße: 11 lines
-- Pirna Robert-Koch-Straße: 11 lines
 - Pulsnitz Bahnhof: 11 lines
-- Sebnitz Gartenstraße: 11 lines
 - Bischofswerda Schulstraße: 10 lines
 - Cossebaude/Neu-Leuteritz Bahnhof: 10 lines
 - Dresden Bahnhof Neustadt (Hansastraße): 10 lines
@@ -147,9 +145,11 @@ Total stations: 3921
 - Dresden Wasaplatz: 10 lines
 - Freital S-Bahnhof Hainsberg: 10 lines
 - Königswartha Kirchplatz: 10 lines
+- Pirna Robert-Koch-Straße: 10 lines
 - Sebnitz Bahnhof: 10 lines
 - Sebnitz Brückenschänke: 10 lines
 - Sebnitz Busbahnhof: 10 lines
+- Sebnitz Gartenstraße: 10 lines
 - Sebnitz Hohnsteiner Straße: 10 lines
 - Tharandt Bahnhof: 10 lines
 - Weinböhla Haltepunkt: 10 lines
