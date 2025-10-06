@@ -45342,10 +45342,11 @@
       ],
       "lines": {
         "Regionalbus": [
+          "417",
           "500"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:6030",
@@ -47919,11 +47920,12 @@
       ],
       "lines": {
         "Regionalbus": [
+          "417",
           "500",
           "Sv170"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:4585",
@@ -67815,12 +67817,17 @@
           "431",
           "445"
         ],
+        "Regionalbus": [
+          "430",
+          "431",
+          "445"
+        ],
         "Stadtbus": [
           "A1 (Riesa)",
           "A2 (Riesa)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 8
     },
     {
       "id": "de:14627:5540",
@@ -76294,9 +76301,15 @@
       "name_with_city": "Thiendorf Welxander Straße",
       "longitude": 13.740729,
       "latitude": 51.293716,
-      "operators": [],
-      "lines": {},
-      "total_lines": 0
+      "operators": [
+        "VGM"
+      ],
+      "lines": {
+        "Regionalbus": [
+          "456"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14627:5482",
