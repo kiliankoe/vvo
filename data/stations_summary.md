@@ -29,13 +29,13 @@ Total stations: 3921
 
 ## Stations by Transit Type
 
-- Regionalbus: 2720 stations
-- Stadtbus: 1305 stations
+- Regionalbus: 2719 stations
+- Stadtbus: 1304 stations
 - PlusBus: 605 stations
 - Anruflinienbus: 474 stations
 - Straßenbahn: 255 stations
 - Anruflinientaxi: 197 stations
-- Ersatzverkehr: 124 stations
+- Ersatzverkehr: 126 stations
 - Zug: 105 stations
 - Taktbus: 77 stations
 - Bus: 57 stations
@@ -54,7 +54,7 @@ Total stations: 3921
 - VGM: 1169 stations
 - DVB: 761 stations
 - RBO: 719 stations
-- DB Regio AG Südost: 127 stations
+- DB Regio AG Südost: 129 stations
 - Müller Busreisen: 106 stations
 - VGH: 83 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
@@ -93,12 +93,12 @@ Total stations: 3921
 - Bischofswerda Bahnhof: 18 lines
 - Lommatzsch Busbahnhof: 18 lines
 - Dresden Bahnhof Mitte: 17 lines
-- Großenhain Lessingplatz: 17 lines
 - Großenhain Mozartallee: 17 lines
 - Kamenz Macherstraße: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
 - Dresden Trachenberger Platz: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
+- Großenhain Lessingplatz: 16 lines
 - Kamenz Schwimmhalle: 16 lines
 - Meißen S-Bahnhof Altstadt: 16 lines
 - Riesa Sachsenhof: 16 lines

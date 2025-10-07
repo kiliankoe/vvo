@@ -26899,7 +26899,8 @@
         "name_with_city": "Dresden Nürnberger Platz",
         "operators": [
           "DVB",
-          "RVSOE"
+          "RVSOE",
+          "VGM"
         ],
         "lines": {
           "Straßenbahn": [
@@ -26911,13 +26912,14 @@
             "63"
           ],
           "PlusBus": [
-            "333"
+            "333",
+            "424"
           ],
           "Bus": [
             "400"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -43264,12 +43266,9 @@
             "462",
             "463",
             "467"
-          ],
-          "Stadtbus": [
-            "A (Großenhain)"
           ]
         },
-        "total_lines": 17
+        "total_lines": 16
       }
     },
     {
@@ -87189,21 +87188,17 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Altserkowitz",
         "operators": [
-          "DVB",
-          "VGM"
+          "DVB"
         ],
         "lines": {
           "Stadtbus": [
             "72"
           ],
-          "Regionalbus": [
-            "475"
-          ],
           "Anruflinientaxi": [
             "alita 72"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -108725,14 +108720,18 @@
         "city": "Weixdorf (Dresden)",
         "name_with_city": "Weixdorf (Dresden) Bahnhof (Kirche)",
         "operators": [
+          "DB Regio AG Südost",
           "RBO"
         ],
         "lines": {
           "Regionalbus": [
             "769"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -108751,6 +108750,7 @@
         "city": "Weixdorf (Dresden)",
         "name_with_city": "Weixdorf (Dresden) Ewald-Kluge-Straße",
         "operators": [
+          "DB Regio AG Südost",
           "DVB",
           "RBO"
         ],
@@ -108763,9 +108763,12 @@
           ],
           "Regionalbus": [
             "769"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {

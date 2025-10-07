@@ -19448,7 +19448,8 @@
       "latitude": 51.031773,
       "operators": [
         "DVB",
-        "RVSOE"
+        "RVSOE",
+        "VGM"
       ],
       "lines": {
         "Straßenbahn": [
@@ -19460,13 +19461,14 @@
           "63"
         ],
         "PlusBus": [
-          "333"
+          "333",
+          "424"
         ],
         "Bus": [
           "400"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14612:597",
@@ -31349,12 +31351,9 @@
           "462",
           "463",
           "467"
-        ],
-        "Stadtbus": [
-          "A (Großenhain)"
         ]
       },
-      "total_lines": 17
+      "total_lines": 16
     },
     {
       "id": "de:14627:5049",
@@ -63146,21 +63145,17 @@
       "longitude": 13.660097,
       "latitude": 51.095997,
       "operators": [
-        "DVB",
-        "VGM"
+        "DVB"
       ],
       "lines": {
         "Stadtbus": [
           "72"
         ],
-        "Regionalbus": [
-          "475"
-        ],
         "Anruflinientaxi": [
           "alita 72"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4231",
@@ -78634,14 +78629,18 @@
       "longitude": 13.807609,
       "latitude": 51.151189,
       "operators": [
+        "DB Regio AG Südost",
         "RBO"
       ],
       "lines": {
         "Regionalbus": [
           "769"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:6587",
@@ -78652,6 +78651,7 @@
       "longitude": 13.798168,
       "latitude": 51.139862,
       "operators": [
+        "DB Regio AG Südost",
         "DVB",
         "RBO"
       ],
@@ -78664,9 +78664,12 @@
         ],
         "Regionalbus": [
           "769"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:6583",
