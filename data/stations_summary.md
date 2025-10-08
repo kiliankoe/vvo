@@ -51,7 +51,7 @@ Total stations: 3921
 ## Transit Operators
 
 - RVSOE: 1311 stations
-- VGM: 1169 stations
+- VGM: 1168 stations
 - DVB: 761 stations
 - RBO: 719 stations
 - DB Regio AG Südost: 129 stations
