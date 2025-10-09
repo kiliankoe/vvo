@@ -30,10 +30,10 @@ Total stations: 3921
 ## Stations by Transit Type
 
 - Regionalbus: 2719 stations
-- Stadtbus: 1304 stations
+- Stadtbus: 1309 stations
 - PlusBus: 605 stations
 - Anruflinienbus: 474 stations
-- Straßenbahn: 255 stations
+- Straßenbahn: 256 stations
 - Anruflinientaxi: 197 stations
 - Ersatzverkehr: 126 stations
 - Zug: 105 stations
@@ -51,10 +51,10 @@ Total stations: 3921
 ## Transit Operators
 
 - RVSOE: 1311 stations
-- VGM: 1168 stations
-- DVB: 761 stations
+- VGM: 1169 stations
+- DVB: 764 stations
 - RBO: 719 stations
-- DB Regio AG Südost: 129 stations
+- DB Regio AG Südost: 132 stations
 - Müller Busreisen: 106 stations
 - VGH: 83 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
@@ -70,10 +70,10 @@ Total stations: 3921
 - Verkehrsmanagement Elbe-Elster GmbH: 8 stations
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 4 stations
-- European Sleeper: 2 stations
 - FlixTrain: 2 stations
 - DB Fernverkehr AG: 2 stations
 - Nordsachsen Mobil: 2 stations
+- Verein Sächsischer Eisenbahnfreunde: 1 stations
 - Omnibusbetrieb Siegfried Wilhelm: 1 stations
 
 ## Major Transit Hubs (10+ lines)
@@ -104,6 +104,7 @@ Total stations: 3921
 - Riesa Sachsenhof: 16 lines
 - Dresden Postplatz: 15 lines
 - Dresden S-Bahnhof Dobritz: 15 lines
+- Dresden S-Bf. Strehlen: 15 lines
 - Freital S-Bf. / Busbf. Deuben: 15 lines
 - Heidenau (Sachsen) Bahnhof: 15 lines
 - Hoyerswerda Behördenpark: 15 lines
@@ -111,7 +112,6 @@ Total stations: 3921
 - Pirna Breite Straße: 15 lines
 - Dippoldiswalde Busbahnhof: 14 lines
 - Dresden Liststraße: 14 lines
-- Dresden S-Bf. Strehlen: 14 lines
 - Hoyerswerda Lausitzer Platz: 14 lines
 - Kamenz Landesämter: 14 lines
 - Lommatzsch Parkstraße: 14 lines
@@ -134,6 +134,7 @@ Total stations: 3921
 - Dresden Pirnaischer Platz: 11 lines
 - Dresden Prager Straße: 11 lines
 - Dresden S-Bf. Industriegelände: 11 lines
+- Dresden Wasaplatz: 11 lines
 - Großenhain Hohe Straße: 11 lines
 - Pirna Copitz Schulstraße: 11 lines
 - Pulsnitz Bahnhof: 11 lines
@@ -142,7 +143,7 @@ Total stations: 3921
 - Dresden Bahnhof Neustadt (Hansastraße): 10 lines
 - Dresden Betriebshof Gorbitz: 10 lines
 - Dresden Julius-Vahlteich-Straße: 10 lines
-- Dresden Wasaplatz: 10 lines
+- Dresden Schillerplatz: 10 lines
 - Freital S-Bahnhof Hainsberg: 10 lines
 - Königswartha Kirchplatz: 10 lines
 - Pirna Robert-Koch-Straße: 10 lines
