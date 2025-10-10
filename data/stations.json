@@ -19487,8 +19487,7 @@
       "latitude": 51.031773,
       "operators": [
         "DVB",
-        "RVSOE",
-        "VGM"
+        "RVSOE"
       ],
       "lines": {
         "Straßenbahn": [
@@ -19500,14 +19499,13 @@
           "63"
         ],
         "PlusBus": [
-          "333",
-          "424"
+          "333"
         ],
         "Bus": [
           "400"
         ]
       },
-      "total_lines": 7
+      "total_lines": 6
     },
     {
       "id": "de:14612:597",
