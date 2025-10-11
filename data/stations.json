@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3921,
+    "count": 3919,
     "format_version": "2.0"
   },
   "stations": [
@@ -16020,7 +16020,6 @@
       ],
       "lines": {
         "Stadtbus": [
-          "164",
           "166",
           "66"
         ],
@@ -16031,7 +16030,7 @@
           "alita 66"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:73",
@@ -20604,7 +20603,6 @@
       ],
       "lines": {
         "Stadtbus": [
-          "164",
           "166",
           "66"
         ],
@@ -20615,7 +20613,7 @@
           "alita 66"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:86",
@@ -26300,24 +26298,6 @@
       "total_lines": 2
     },
     {
-      "id": "de:14628:1185",
-      "numeric_id": "33001185",
-      "name": "Breite Straße",
-      "city": "Freital",
-      "name_with_city": "Freital Breite Straße",
-      "longitude": 13.675584,
-      "latitude": 51.013726,
-      "operators": [
-        "RVSOE"
-      ],
-      "lines": {
-        "Stadtbus": [
-          "164"
-        ]
-      },
-      "total_lines": 1
-    },
-    {
       "id": "de:14628:1149",
       "numeric_id": "33001149",
       "name": "Burgk Schule",
@@ -26451,24 +26431,6 @@
         ]
       },
       "total_lines": 7
-    },
-    {
-      "id": "de:14628:1186",
-      "numeric_id": "33001186",
-      "name": "Coschützer Straße",
-      "city": "Freital",
-      "name_with_city": "Freital Coschützer Straße",
-      "longitude": 13.679797,
-      "latitude": 51.014455,
-      "operators": [
-        "RVSOE"
-      ],
-      "lines": {
-        "Stadtbus": [
-          "164"
-        ]
-      },
-      "total_lines": 1
     },
     {
       "id": "de:14628:1177",
@@ -27251,13 +27213,14 @@
         ],
         "Regionalbus": [
           "345",
+          "363",
           "376"
         ],
         "PlusBus": [
           "348"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:1124",
@@ -27647,11 +27610,10 @@
         "Stadtbus": [
           "160",
           "161",
-          "162",
-          "164"
+          "162"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14628:1164",
@@ -45394,11 +45356,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "417",
           "500"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:6030",
@@ -46272,12 +46233,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "775",
           "776",
           "777"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:3735",
@@ -46325,6 +46285,7 @@
       "longitude": 13.992599,
       "latitude": 50.988428,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -46334,9 +46295,12 @@
           "237",
           "238",
           "254"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14628:3739",
@@ -46539,10 +46503,11 @@
       "lines": {
         "Regionalbus": [
           "775",
-          "776"
+          "776",
+          "777"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6990",
@@ -46553,20 +46518,14 @@
       "longitude": 14.406857,
       "latitude": 51.384874,
       "operators": [
-        "Ostdeutsche Eisenbahn GmbH",
-        "RBO"
+        "Ostdeutsche Eisenbahn GmbH"
       ],
       "lines": {
-        "Regionalbus": [
-          "775",
-          "776",
-          "777"
-        ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 1
     },
     {
       "id": "de:14628:3679",
@@ -47972,12 +47931,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "417",
           "500",
           "Sv170"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4585",
@@ -58799,6 +58757,7 @@
       "longitude": 13.940039,
       "latitude": 50.974159,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -58809,9 +58768,12 @@
           "238",
           "246",
           "254"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14628:3435",
@@ -58962,6 +58924,7 @@
       "longitude": 13.934685,
       "latitude": 50.968598,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -58979,9 +58942,12 @@
           "H/S (Pirna)",
           "M (Pirna)",
           "P (Pirna)"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 11
+      "total_lines": 12
     },
     {
       "id": "de:14628:3438",
@@ -67876,17 +67842,12 @@
           "431",
           "445"
         ],
-        "Regionalbus": [
-          "430",
-          "431",
-          "445"
-        ],
         "Stadtbus": [
           "A1 (Riesa)",
           "A2 (Riesa)"
         ]
       },
-      "total_lines": 8
+      "total_lines": 5
     },
     {
       "id": "de:14627:5540",
@@ -68253,9 +68214,13 @@
       "lines": {
         "Regionalbus": [
           "446"
+        ],
+        "Stadtbus": [
+          "A1 (Riesa)",
+          "A2 (Riesa)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 3
     },
     {
       "id": "de:14627:5531",
@@ -76360,15 +76325,9 @@
       "name_with_city": "Thiendorf Welxander Straße",
       "longitude": 13.740729,
       "latitude": 51.293716,
-      "operators": [
-        "VGM"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "456"
-        ]
-      },
-      "total_lines": 1
+      "operators": [],
+      "lines": {},
+      "total_lines": 0
     },
     {
       "id": "de:14627:5482",

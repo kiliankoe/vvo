@@ -22167,7 +22167,6 @@
         ],
         "lines": {
           "Stadtbus": [
-            "164",
             "166",
             "66"
           ],
@@ -22178,7 +22177,7 @@
             "alita 66"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -28447,7 +28446,6 @@
         ],
         "lines": {
           "Stadtbus": [
-            "164",
             "166",
             "66"
           ],
@@ -28458,7 +28456,7 @@
             "alita 66"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -36252,32 +36250,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.675584,
-          51.013726
-        ]
-      },
-      "properties": {
-        "id": "de:14628:1185",
-        "numeric_id": "33001185",
-        "name": "Breite Straße",
-        "city": "Freital",
-        "name_with_city": "Freital Breite Straße",
-        "operators": [
-          "RVSOE"
-        ],
-        "lines": {
-          "Stadtbus": [
-            "164"
-          ]
-        },
-        "total_lines": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.676868,
           51.000889
         ]
@@ -36454,32 +36426,6 @@
           ]
         },
         "total_lines": 7
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.679797,
-          51.014455
-        ]
-      },
-      "properties": {
-        "id": "de:14628:1186",
-        "numeric_id": "33001186",
-        "name": "Coschützer Straße",
-        "city": "Freital",
-        "name_with_city": "Freital Coschützer Straße",
-        "operators": [
-          "RVSOE"
-        ],
-        "lines": {
-          "Stadtbus": [
-            "164"
-          ]
-        },
-        "total_lines": 1
       }
     },
     {
@@ -37574,13 +37520,14 @@
           ],
           "Regionalbus": [
             "345",
+            "363",
             "376"
           ],
           "PlusBus": [
             "348"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -38098,11 +38045,10 @@
           "Stadtbus": [
             "160",
             "161",
-            "162",
-            "164"
+            "162"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -62693,11 +62639,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "417",
             "500"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -63923,12 +63868,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "775",
             "776",
             "777"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -64000,6 +63944,7 @@
         "city": "Lohmen (bei Pirna)",
         "name_with_city": "Lohmen (bei Pirna) Bahnhofstraße",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -64009,9 +63954,12 @@
             "237",
             "238",
             "254"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -64294,10 +64242,11 @@
         "lines": {
           "Regionalbus": [
             "775",
-            "776"
+            "776",
+            "777"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -64316,20 +64265,14 @@
         "city": "Lohsa",
         "name_with_city": "Lohsa Ziegelteich",
         "operators": [
-          "Ostdeutsche Eisenbahn GmbH",
-          "RBO"
+          "Ostdeutsche Eisenbahn GmbH"
         ],
         "lines": {
-          "Regionalbus": [
-            "775",
-            "776",
-            "777"
-          ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 1
       }
     },
     {
@@ -66287,12 +66230,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "417",
             "500",
             "Sv170"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -81170,6 +81112,7 @@
         "city": "Pirna",
         "name_with_city": "Pirna Copitz Heinrich-Heine-Straße",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -81180,9 +81123,12 @@
             "238",
             "246",
             "254"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -81389,6 +81335,7 @@
         "city": "Pirna",
         "name_with_city": "Pirna Copitz Schulstraße",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -81406,9 +81353,12 @@
             "H/S (Pirna)",
             "M (Pirna)",
             "P (Pirna)"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 11
+        "total_lines": 12
       }
     },
     {
@@ -93743,17 +93693,12 @@
             "431",
             "445"
           ],
-          "Regionalbus": [
-            "430",
-            "431",
-            "445"
-          ],
           "Stadtbus": [
             "A1 (Riesa)",
             "A2 (Riesa)"
           ]
         },
-        "total_lines": 8
+        "total_lines": 5
       }
     },
     {
@@ -94248,9 +94193,13 @@
         "lines": {
           "Regionalbus": [
             "446"
+          ],
+          "Stadtbus": [
+            "A1 (Riesa)",
+            "A2 (Riesa)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {
@@ -105515,15 +105464,9 @@
         "name": "Welxander Straße",
         "city": "Thiendorf",
         "name_with_city": "Thiendorf Welxander Straße",
-        "operators": [
-          "VGM"
-        ],
-        "lines": {
-          "Regionalbus": [
-            "456"
-          ]
-        },
-        "total_lines": 1
+        "operators": [],
+        "lines": {},
+        "total_lines": 0
       }
     },
     {

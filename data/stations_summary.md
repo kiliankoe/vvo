@@ -1,12 +1,12 @@
 # VVO Station Data Summary
 
-Total stations: 3921
+Total stations: 3919
 
 ## Stations by City
 
 - Dresden: 657
 - Meißen: 104
-- Freital: 89
+- Freital: 87
 - Pirna: 84
 - Riesa: 77
 - Radebeul: 75
@@ -29,13 +29,13 @@ Total stations: 3921
 
 ## Stations by Transit Type
 
-- Regionalbus: 2719 stations
-- Stadtbus: 1309 stations
+- Regionalbus: 2716 stations
+- Stadtbus: 1308 stations
 - PlusBus: 605 stations
 - Anruflinienbus: 474 stations
 - Straßenbahn: 256 stations
 - Anruflinientaxi: 197 stations
-- Ersatzverkehr: 126 stations
+- Ersatzverkehr: 129 stations
 - Zug: 105 stations
 - Taktbus: 77 stations
 - Bus: 57 stations
@@ -50,11 +50,11 @@ Total stations: 3921
 
 ## Transit Operators
 
-- RVSOE: 1311 stations
-- VGM: 1168 stations
+- RVSOE: 1309 stations
+- VGM: 1167 stations
 - DVB: 764 stations
-- RBO: 719 stations
-- DB Regio AG Südost: 132 stations
+- RBO: 718 stations
+- DB Regio AG Südost: 135 stations
 - Müller Busreisen: 106 stations
 - VGH: 83 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
@@ -128,6 +128,7 @@ Total stations: 3921
 - Dresden Tharandter Straße: 12 lines
 - Dresden Walpurgisstraße: 12 lines
 - Glashütte (Sachsen) Bahnhof / Busbahnhof: 12 lines
+- Pirna Copitz Schulstraße: 12 lines
 - Riesa Goethestraße: 12 lines
 - Altenberg (Erzgebirge) Bahnhof: 11 lines
 - Dresden Großenhainer Platz: 11 lines
@@ -136,7 +137,6 @@ Total stations: 3921
 - Dresden S-Bf. Industriegelände: 11 lines
 - Dresden Wasaplatz: 11 lines
 - Großenhain Hohe Straße: 11 lines
-- Pirna Copitz Schulstraße: 11 lines
 - Pulsnitz Bahnhof: 11 lines
 - Bischofswerda Schulstraße: 10 lines
 - Cossebaude/Neu-Leuteritz Bahnhof: 10 lines
