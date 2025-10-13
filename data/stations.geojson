@@ -62639,10 +62639,11 @@
         ],
         "lines": {
           "Regionalbus": [
+            "417",
             "500"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -66230,11 +66231,12 @@
         ],
         "lines": {
           "Regionalbus": [
+            "417",
             "500",
             "Sv170"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -87369,11 +87371,12 @@
             "4"
           ],
           "Regionalbus": [
+            "475",
             "Sv270",
             "Sv280"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -87400,11 +87403,12 @@
             "4"
           ],
           "Regionalbus": [
+            "475",
             "Sv270",
             "Sv280"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -87723,11 +87727,12 @@
             "4"
           ],
           "Regionalbus": [
+            "475",
             "Sv270",
             "Sv280"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -88916,10 +88921,11 @@
             "72"
           ],
           "Regionalbus": [
+            "475",
             "476"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -89149,17 +89155,21 @@
         "name_with_city": "Radebeul Zillerstraße",
         "operators": [
           "DB Regio AG Südost",
-          "DVB"
+          "DVB",
+          "VGM"
         ],
         "lines": {
           "Straßenbahn": [
             "4"
           ],
+          "Regionalbus": [
+            "475"
+          ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -93693,12 +93703,17 @@
             "431",
             "445"
           ],
+          "Regionalbus": [
+            "430",
+            "431",
+            "445"
+          ],
           "Stadtbus": [
             "A1 (Riesa)",
             "A2 (Riesa)"
           ]
         },
-        "total_lines": 5
+        "total_lines": 8
       }
     },
     {
@@ -105464,9 +105479,15 @@
         "name": "Welxander Straße",
         "city": "Thiendorf",
         "name_with_city": "Thiendorf Welxander Straße",
-        "operators": [],
-        "lines": {},
-        "total_lines": 0
+        "operators": [
+          "VGM"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "456"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
