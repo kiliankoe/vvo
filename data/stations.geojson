@@ -61414,11 +61414,10 @@
             "619"
           ],
           "Regionalbus": [
-            "778",
             "784"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -61441,11 +61440,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "778",
             "784"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -61475,11 +61473,10 @@
             "619"
           ],
           "Regionalbus": [
-            "778",
             "784"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -62592,6 +62589,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.380011,
+          51.153465
+        ]
+      },
+      "properties": {
+        "id": "de:14627:4539",
+        "numeric_id": "33004539",
+        "name": "Abzweig Leutewitz",
+        "city": "Leutewitz (bei Meißen)",
+        "name_with_city": "Leutewitz (bei Meißen) Abzweig Leutewitz",
+        "operators": [
+          "VGM"
+        ],
+        "lines": {
+          "Anruflinienbus": [
+            "417"
+          ],
+          "Regionalbus": [
+            "417"
+          ]
+        },
+        "total_lines": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.364874,
           51.150349
         ]
@@ -62638,12 +62664,15 @@
           "VGM"
         ],
         "lines": {
+          "Anruflinienbus": [
+            "417"
+          ],
           "Regionalbus": [
             "417",
             "500"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -64560,15 +64589,13 @@
           ],
           "Regionalbus": [
             "417",
-            "420",
-            "427",
             "430",
             "Sv120",
             "Sv121",
             "Sv125"
           ]
         },
-        "total_lines": 9
+        "total_lines": 7
       }
     },
     {
@@ -77926,8 +77953,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.0,
-          0.0
+          14.161267,
+          50.916716
         ]
       },
       "properties": {
@@ -86173,9 +86200,13 @@
         "lines": {
           "Stadtbus": [
             "28"
+          ],
+          "PlusBus": [
+            "520",
+            "521"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {
@@ -86199,9 +86230,13 @@
         "lines": {
           "Stadtbus": [
             "28"
+          ],
+          "PlusBus": [
+            "520",
+            "521"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {
@@ -86401,11 +86436,15 @@
           "Stadtbus": [
             "28"
           ],
+          "PlusBus": [
+            "520",
+            "521"
+          ],
           "Regionalbus": [
             "760"
           ]
         },
-        "total_lines": 2
+        "total_lines": 4
       }
     },
     {
@@ -86795,12 +86834,16 @@
             "28",
             "78"
           ],
+          "PlusBus": [
+            "520",
+            "521"
+          ],
           "Regionalbus": [
             "760",
             "761"
           ]
         },
-        "total_lines": 4
+        "total_lines": 6
       }
     },
     {
@@ -87119,12 +87162,16 @@
             "28",
             "78"
           ],
+          "PlusBus": [
+            "520",
+            "521"
+          ],
           "Regionalbus": [
             "760",
             "761"
           ]
         },
-        "total_lines": 4
+        "total_lines": 6
       }
     },
     {

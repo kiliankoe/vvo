@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3919,
+    "count": 3920,
     "format_version": "2.0"
   },
   "stations": [
@@ -44483,11 +44483,10 @@
           "619"
         ],
         "Regionalbus": [
-          "778",
           "784"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14625:6816",
@@ -44502,11 +44501,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "778",
           "784"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:6815",
@@ -44528,11 +44526,10 @@
           "619"
         ],
         "Regionalbus": [
-          "778",
           "784"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14625:6812",
@@ -45320,6 +45317,27 @@
       "total_lines": 2
     },
     {
+      "id": "de:14627:4539",
+      "numeric_id": "33004539",
+      "name": "Abzweig Leutewitz",
+      "city": "Leutewitz (bei Meißen)",
+      "name_with_city": "Leutewitz (bei Meißen) Abzweig Leutewitz",
+      "longitude": 13.380011,
+      "latitude": 51.153465,
+      "operators": [
+        "VGM"
+      ],
+      "lines": {
+        "Anruflinienbus": [
+          "417"
+        ],
+        "Regionalbus": [
+          "417"
+        ]
+      },
+      "total_lines": 2
+    },
+    {
       "id": "de:14627:4540",
       "numeric_id": "33004540",
       "name": "Gutshof",
@@ -45355,12 +45373,15 @@
         "VGM"
       ],
       "lines": {
+        "Anruflinienbus": [
+          "417"
+        ],
         "Regionalbus": [
           "417",
           "500"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6030",
@@ -46741,15 +46762,13 @@
         ],
         "Regionalbus": [
           "417",
-          "420",
-          "427",
           "430",
           "Sv120",
           "Sv121",
           "Sv125"
         ]
       },
-      "total_lines": 9
+      "total_lines": 7
     },
     {
       "id": "de:14627:4906",
@@ -56467,8 +56486,8 @@
       "name": "Personenaufzug",
       "city": "Ostrau (Bad Schandau)",
       "name_with_city": "Ostrau (Bad Schandau) Personenaufzug",
-      "longitude": 0.0,
-      "latitude": 0.0,
+      "longitude": 14.161267,
+      "latitude": 50.916716,
       "operators": [],
       "lines": {},
       "total_lines": 0
@@ -62426,9 +62445,13 @@
       "lines": {
         "Stadtbus": [
           "28"
+        ],
+        "PlusBus": [
+          "520",
+          "521"
         ]
       },
-      "total_lines": 1
+      "total_lines": 3
     },
     {
       "id": "de:14625:6733",
@@ -62444,9 +62467,13 @@
       "lines": {
         "Stadtbus": [
           "28"
+        ],
+        "PlusBus": [
+          "520",
+          "521"
         ]
       },
-      "total_lines": 1
+      "total_lines": 3
     },
     {
       "id": "de:14625:6731",
@@ -62598,11 +62625,15 @@
         "Stadtbus": [
           "28"
         ],
+        "PlusBus": [
+          "520",
+          "521"
+        ],
         "Regionalbus": [
           "760"
         ]
       },
-      "total_lines": 2
+      "total_lines": 4
     },
     {
       "id": "de:14625:6738",
@@ -62880,12 +62911,16 @@
           "28",
           "78"
         ],
+        "PlusBus": [
+          "520",
+          "521"
+        ],
         "Regionalbus": [
           "760",
           "761"
         ]
       },
-      "total_lines": 4
+      "total_lines": 6
     },
     {
       "id": "de:14625:6702",
@@ -63116,12 +63151,16 @@
           "28",
           "78"
         ],
+        "PlusBus": [
+          "520",
+          "521"
+        ],
         "Regionalbus": [
           "760",
           "761"
         ]
       },
-      "total_lines": 4
+      "total_lines": 6
     },
     {
       "id": "de:14627:4245",
