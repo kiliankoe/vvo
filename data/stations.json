@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3920,
+    "count": 3922,
     "format_version": "2.0"
   },
   "stations": [
@@ -2144,15 +2144,9 @@
       "name_with_city": "Bauda Ring",
       "longitude": 13.470175,
       "latitude": 51.327391,
-      "operators": [
-        "VGM"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "461"
-        ]
-      },
-      "total_lines": 1
+      "operators": [],
+      "lines": {},
+      "total_lines": 0
     },
     {
       "id": "de:14627:5183",
@@ -11801,6 +11795,8 @@
           "2",
           "3",
           "6",
+          "7",
+          "8",
           "9"
         ],
         "Stadtbus": [
@@ -11822,7 +11818,7 @@
           "SEV"
         ]
       },
-      "total_lines": 17
+      "total_lines": 19
     },
     {
       "id": "de:14612:16",
@@ -12650,10 +12646,16 @@
           "10",
           "11",
           "2",
+          "6",
+          "7",
+          "8",
           "9"
+        ],
+        "Stadtbus": [
+          "EV 12"
         ]
       },
-      "total_lines": 5
+      "total_lines": 9
     },
     {
       "id": "de:14612:894",
@@ -12789,9 +12791,13 @@
           "6",
           "7",
           "8"
+        ],
+        "Stadtbus": [
+          "EV 12",
+          "EV 7"
         ]
       },
-      "total_lines": 7
+      "total_lines": 9
     },
     {
       "id": "de:14612:244",
@@ -12920,13 +12926,16 @@
           "11",
           "12",
           "2",
+          "6",
+          "7",
+          "8",
           "9"
         ],
         "Stadtbus": [
           "EV 12"
         ]
       },
-      "total_lines": 7
+      "total_lines": 10
     },
     {
       "id": "de:14612:723",
@@ -13050,10 +13059,13 @@
       ],
       "lines": {
         "Straßenbahn": [
-          "12"
+          "11",
+          "12",
+          "6",
+          "7"
         ]
       },
-      "total_lines": 1
+      "total_lines": 4
     },
     {
       "id": "de:14612:785",
@@ -13171,10 +13183,12 @@
           "11",
           "2",
           "6",
+          "7",
+          "8",
           "9"
         ]
       },
-      "total_lines": 6
+      "total_lines": 8
     },
     {
       "id": "de:14612:333",
@@ -13194,13 +13208,16 @@
           "11",
           "12",
           "2",
+          "6",
+          "7",
+          "8",
           "9"
         ],
         "Stadtbus": [
           "70"
         ]
       },
-      "total_lines": 7
+      "total_lines": 10
     },
     {
       "id": "de:14612:861",
@@ -13315,16 +13332,21 @@
           "11",
           "12",
           "2",
+          "6",
+          "7",
+          "8",
           "9"
         ],
         "Stadtbus": [
-          "70"
+          "70",
+          "EV 12",
+          "EV 7"
         ],
         "Anruflinientaxi": [
           "alita 70"
         ]
       },
-      "total_lines": 8
+      "total_lines": 13
     },
     {
       "id": "de:14612:260",
@@ -14177,9 +14199,13 @@
           "12",
           "7",
           "8"
+        ],
+        "Stadtbus": [
+          "EV 12",
+          "EV 7"
         ]
       },
-      "total_lines": 5
+      "total_lines": 7
     },
     {
       "id": "de:14612:617",
@@ -15597,13 +15623,16 @@
           "11",
           "12",
           "2",
+          "6",
+          "7",
+          "8",
           "9"
         ],
         "Stadtbus": [
           "EV 12"
         ]
       },
-      "total_lines": 7
+      "total_lines": 10
     },
     {
       "id": "de:14612:99",
@@ -16728,7 +16757,9 @@
           "8"
         ],
         "Stadtbus": [
-          "70"
+          "70",
+          "EV 12",
+          "EV 7"
         ],
         "PlusBus": [
           "333"
@@ -16737,7 +16768,7 @@
           "alita 70"
         ]
       },
-      "total_lines": 10
+      "total_lines": 12
     },
     {
       "id": "de:14612:918",
@@ -17327,9 +17358,13 @@
           "6",
           "7",
           "8"
+        ],
+        "Stadtbus": [
+          "EV 12",
+          "EV 7"
         ]
       },
-      "total_lines": 6
+      "total_lines": 8
     },
     {
       "id": "de:14612:810",
@@ -17440,10 +17475,12 @@
           "11",
           "2",
           "6",
+          "7",
+          "8",
           "9"
         ]
       },
-      "total_lines": 6
+      "total_lines": 8
     },
     {
       "id": "de:14612:162",
@@ -18479,9 +18516,13 @@
           "6",
           "7",
           "8"
+        ],
+        "Stadtbus": [
+          "EV 12",
+          "EV 7"
         ]
       },
-      "total_lines": 6
+      "total_lines": 8
     },
     {
       "id": "de:14612:184",
@@ -19205,6 +19246,27 @@
       "total_lines": 0
     },
     {
+      "id": "de:14612:150",
+      "numeric_id": "33000150",
+      "name": "Neuer Annenfriedhof",
+      "city": "Dresden",
+      "name_with_city": "Dresden Neuer Annenfriedhof",
+      "longitude": 13.694134,
+      "latitude": 51.043348,
+      "operators": [
+        "DVB"
+      ],
+      "lines": {
+        "Straßenbahn": [
+          "11",
+          "12",
+          "6",
+          "7"
+        ]
+      },
+      "total_lines": 4
+    },
+    {
       "id": "de:14612:628",
       "numeric_id": "33000628",
       "name": "Neuländer Straße",
@@ -19645,9 +19707,13 @@
           "12",
           "7",
           "8"
+        ],
+        "Stadtbus": [
+          "EV 12",
+          "EV 7"
         ]
       },
-      "total_lines": 5
+      "total_lines": 7
     },
     {
       "id": "de:14612:901",
@@ -19806,10 +19872,16 @@
           "11",
           "12",
           "2",
+          "6",
+          "7",
+          "8",
           "9"
+        ],
+        "Stadtbus": [
+          "EV 12"
         ]
       },
-      "total_lines": 6
+      "total_lines": 10
     },
     {
       "id": "de:14612:41",
@@ -20194,6 +20266,8 @@
         "Stadtbus": [
           "62",
           "68",
+          "EV 12",
+          "EV 7",
           "H/S (Pirna)"
         ],
         "PlusBus": [
@@ -20202,7 +20276,7 @@
           "477"
         ]
       },
-      "total_lines": 15
+      "total_lines": 17
     },
     {
       "id": "de:14612:3",
@@ -21420,6 +21494,10 @@
           "7",
           "8"
         ],
+        "Stadtbus": [
+          "EV 12",
+          "EV 7"
+        ],
         "S-Bahn": [
           "S1",
           "S2"
@@ -21428,7 +21506,7 @@
           "SEV"
         ]
       },
-      "total_lines": 9
+      "total_lines": 11
     },
     {
       "id": "de:14612:267",
@@ -22050,13 +22128,14 @@
           "1",
           "10",
           "2",
+          "7",
           "9"
         ],
         "Stadtbus": [
           "68"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14612:300",
@@ -22095,9 +22174,13 @@
         "Straßenbahn": [
           "12",
           "7"
+        ],
+        "Stadtbus": [
+          "EV 12",
+          "EV 7"
         ]
       },
-      "total_lines": 2
+      "total_lines": 4
     },
     {
       "id": "de:14612:678",
@@ -22211,10 +22294,13 @@
           "10",
           "11",
           "2",
+          "6",
+          "7",
+          "8",
           "9"
         ]
       },
-      "total_lines": 5
+      "total_lines": 8
     },
     {
       "id": "de:14612:957",
@@ -22890,13 +22976,15 @@
           "160",
           "61",
           "63",
-          "90"
+          "90",
+          "EV 12",
+          "EV 7"
         ],
         "PlusBus": [
           "333"
         ]
       },
-      "total_lines": 12
+      "total_lines": 14
     },
     {
       "id": "de:14612:20",
@@ -23616,9 +23704,13 @@
           "4",
           "7",
           "9"
+        ],
+        "Stadtbus": [
+          "EV 12",
+          "EV 7"
         ]
       },
-      "total_lines": 5
+      "total_lines": 7
     },
     {
       "id": "de:14612:309",
@@ -23653,10 +23745,11 @@
       ],
       "lines": {
         "Stadtbus": [
-          "70"
+          "70",
+          "EV 12"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:942",
@@ -23740,9 +23833,13 @@
         "Straßenbahn": [
           "1",
           "6"
+        ],
+        "Stadtbus": [
+          "EV 12",
+          "EV 7"
         ]
       },
-      "total_lines": 2
+      "total_lines": 4
     },
     {
       "id": "de:14612:160",
@@ -36245,10 +36342,11 @@
           "794"
         ],
         "Stadtbus": [
-          "1 (Hoyerswerda)"
+          "1 (Hoyerswerda)",
+          "Sonderverkehr"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14625:8030",
@@ -36311,10 +36409,11 @@
           "1 (Hoyerswerda)",
           "3 (Hoyerswerda)",
           "P1 (Hoyerswerda)",
-          "P3 (Hoyerswerda)"
+          "P3 (Hoyerswerda)",
+          "Sonderverkehr"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14625:8040",
@@ -36443,10 +36542,11 @@
       "lines": {
         "Stadtbus": [
           "2 (Hoyerswerda)",
-          "P2 (Hoyerswerda)"
+          "P2 (Hoyerswerda)",
+          "Sonderverkehr"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:8000",
@@ -36492,7 +36592,8 @@
           "5 (Hoyerswerda)",
           "P1 (Hoyerswerda)",
           "P2 (Hoyerswerda)",
-          "P3 (Hoyerswerda)"
+          "P3 (Hoyerswerda)",
+          "Sonderverkehr"
         ],
         "Zug": [
           "RB64",
@@ -36503,7 +36604,7 @@
           "SEV"
         ]
       },
-      "total_lines": 23
+      "total_lines": 24
     },
     {
       "id": "de:14625:8051",
@@ -36569,10 +36670,11 @@
         ],
         "Stadtbus": [
           "3 (Hoyerswerda)",
-          "P3 (Hoyerswerda)"
+          "P3 (Hoyerswerda)",
+          "Sonderverkehr"
         ]
       },
-      "total_lines": 15
+      "total_lines": 16
     },
     {
       "id": "de:14625:8130",
@@ -36644,10 +36746,11 @@
         "Stadtbus": [
           "3 (Hoyerswerda)",
           "P2 (Hoyerswerda)",
-          "P3 (Hoyerswerda)"
+          "P3 (Hoyerswerda)",
+          "Sonderverkehr"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14625:8003",
@@ -36873,10 +36976,11 @@
           "1 (Hoyerswerda)",
           "3 (Hoyerswerda)",
           "P1 (Hoyerswerda)",
-          "P3 (Hoyerswerda)"
+          "P3 (Hoyerswerda)",
+          "Sonderverkehr"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14625:8034",
@@ -36911,7 +37015,8 @@
       "lines": {
         "Stadtbus": [
           "4 (Hoyerswerda)",
-          "P4 (Hoyerswerda)"
+          "P4 (Hoyerswerda)",
+          "Sonderverkehr"
         ],
         "Zug": [
           "RB64"
@@ -36920,7 +37025,7 @@
           "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14625:8052",
@@ -37212,6 +37317,24 @@
       "total_lines": 2
     },
     {
+      "id": "de:14625:8008",
+      "numeric_id": "33008008",
+      "name": "Lausitzbad",
+      "city": "Hoyerswerda",
+      "name_with_city": "Hoyerswerda Lausitzbad",
+      "longitude": 14.25294,
+      "latitude": 51.43248,
+      "operators": [
+        "VGH"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "Sonderverkehr"
+        ]
+      },
+      "total_lines": 1
+    },
+    {
       "id": "de:14625:8044",
       "numeric_id": "33008044",
       "name": "Lausitzer Platz",
@@ -37245,10 +37368,11 @@
           "1 (Hoyerswerda)",
           "2 (Hoyerswerda)",
           "3 (Hoyerswerda)",
-          "4 (Hoyerswerda)"
+          "4 (Hoyerswerda)",
+          "Sonderverkehr"
         ]
       },
-      "total_lines": 14
+      "total_lines": 15
     },
     {
       "id": "de:14625:8023",
@@ -37492,10 +37616,11 @@
           "779"
         ],
         "Stadtbus": [
-          "3 (Hoyerswerda)"
+          "3 (Hoyerswerda)",
+          "Sonderverkehr"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:8029",
@@ -37561,10 +37686,11 @@
         ],
         "Stadtbus": [
           "2 (Hoyerswerda)",
-          "P2 (Hoyerswerda)"
+          "P2 (Hoyerswerda)",
+          "Sonderverkehr"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14625:8064",
@@ -37600,10 +37726,11 @@
         "Stadtbus": [
           "3 (Hoyerswerda)",
           "P2 (Hoyerswerda)",
-          "P3 (Hoyerswerda)"
+          "P3 (Hoyerswerda)",
+          "Sonderverkehr"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14625:8055",
@@ -37777,10 +37904,11 @@
           "2 (Hoyerswerda)",
           "4 (Hoyerswerda)",
           "P2 (Hoyerswerda)",
-          "P4 (Hoyerswerda)"
+          "P4 (Hoyerswerda)",
+          "Sonderverkehr"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14625:8021",
@@ -39272,14 +39400,11 @@
         "RBO"
       ],
       "lines": {
-        "Anruflinienbus": [
-          "789"
-        ],
         "Regionalbus": [
           "789"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:6219",
@@ -41211,14 +41336,18 @@
       "longitude": 14.324428,
       "latitude": 51.403052,
       "operators": [
-        "RBO"
+        "RBO",
+        "VGH"
       ],
       "lines": {
         "Regionalbus": [
           "794"
+        ],
+        "Stadtbus": [
+          "Sonderverkehr"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:8102",
@@ -41247,14 +41376,18 @@
       "longitude": 14.325712,
       "latitude": 51.396338,
       "operators": [
-        "RBO"
+        "RBO",
+        "VGH"
       ],
       "lines": {
         "Regionalbus": [
           "794"
+        ],
+        "Stadtbus": [
+          "Sonderverkehr"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:8103",
@@ -47911,14 +48044,18 @@
       "longitude": 14.296571,
       "latitude": 51.399986,
       "operators": [
-        "RBO"
+        "RBO",
+        "VGH"
       ],
       "lines": {
         "Regionalbus": [
           "794"
+        ],
+        "Stadtbus": [
+          "Sonderverkehr"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4581",
@@ -48481,7 +48618,6 @@
         "Regionalbus": [
           "401",
           "404",
-          "407",
           "412",
           "413",
           "414",
@@ -48513,7 +48649,7 @@
           "C (Meißen)"
         ]
       },
-      "total_lines": 26
+      "total_lines": 25
     },
     {
       "id": "de:14627:4046",
@@ -66752,8 +66888,8 @@
       "name": "Alexander-Puschkin-Platz",
       "city": "Riesa",
       "name_with_city": "Riesa Alexander-Puschkin-Platz",
-      "longitude": 13.300249,
-      "latitude": 51.304438,
+      "longitude": 13.299675,
+      "latitude": 51.304388,
       "operators": [
         "VGM"
       ],
