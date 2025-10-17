@@ -12,26 +12,26 @@ Total stations: 3922
 - Radebeul: 75
 - Hoyerswerda: 74
 - Großenhain: 45
-- Coswig (bei Dresden): 36
+- Coswig (Sachsen): 36
 - Heidenau (Sachsen): 36
 - Kamenz: 34
 - Bischofswerda: 33
 - Radeberg: 33
 - Dippoldiswalde: 27
 - Sebnitz: 27
+- Weinböhla: 26
 - Neustadt in Sachsen: 25
-- Weinböhla: 25
 - Ottendorf-Okrilla: 24
 - Bannewitz: 21
 - Nossen: 18
 
-... and 821 more municipalities
+... and 820 more municipalities
 
 ## Stations by Transit Type
 
 - Regionalbus: 2719 stations
 - Stadtbus: 1323 stations
-- PlusBus: 610 stations
+- PlusBus: 605 stations
 - Anruflinienbus: 475 stations
 - Straßenbahn: 257 stations
 - Anruflinientaxi: 197 stations
@@ -125,7 +125,7 @@ Total stations: 3922
 - Nossen Markt: 13 lines
 - Nossen Talstraße: 13 lines
 - Bad Schandau Nationalparkbahnhof: 12 lines
-- Coswig (bei Dresden) Bahnhof: 12 lines
+- Coswig (Sachsen) Bahnhof: 12 lines
 - Dresden Julius-Vahlteich-Straße: 12 lines
 - Dresden S-Bahnhof Niedersedlitz: 12 lines
 - Dresden Walpurgisstraße: 12 lines
@@ -154,10 +154,8 @@ Total stations: 3922
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
 - Pirna Robert-Koch-Straße: 10 lines
-- Sebnitz Bahnhof: 10 lines
 - Sebnitz Brückenschänke: 10 lines
 - Sebnitz Busbahnhof: 10 lines
-- Sebnitz Gartenstraße: 10 lines
 - Sebnitz Hohnsteiner Straße: 10 lines
 - Tharandt Bahnhof: 10 lines
 - Weinböhla Haltepunkt: 10 lines
