@@ -66411,12 +66411,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "417",
             "500",
             "Sv170"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -93856,17 +93855,12 @@
             "431",
             "445"
           ],
-          "Regionalbus": [
-            "430",
-            "431",
-            "445"
-          ],
           "Stadtbus": [
             "A1 (Riesa)",
             "A2 (Riesa)"
           ]
         },
-        "total_lines": 8
+        "total_lines": 5
       }
     },
     {
@@ -105627,15 +105621,9 @@
         "name": "Welxander Straße",
         "city": "Thiendorf",
         "name_with_city": "Thiendorf Welxander Straße",
-        "operators": [
-          "VGM"
-        ],
-        "lines": {
-          "Regionalbus": [
-            "456"
-          ]
-        },
-        "total_lines": 1
+        "operators": [],
+        "lines": {},
+        "total_lines": 0
       }
     },
     {
@@ -108926,18 +108914,14 @@
         "city": "Weixdorf (Dresden)",
         "name_with_city": "Weixdorf (Dresden) Bahnhof (Kirche)",
         "operators": [
-          "DB Regio AG Südost",
           "RBO"
         ],
         "lines": {
           "Regionalbus": [
             "769"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -108956,7 +108940,6 @@
         "city": "Weixdorf (Dresden)",
         "name_with_city": "Weixdorf (Dresden) Ewald-Kluge-Straße",
         "operators": [
-          "DB Regio AG Südost",
           "DVB",
           "RBO"
         ],
@@ -108969,12 +108952,9 @@
           ],
           "Regionalbus": [
             "769"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {

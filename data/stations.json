@@ -48088,12 +48088,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "417",
           "500",
           "Sv170"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4585",
@@ -67989,17 +67988,12 @@
           "431",
           "445"
         ],
-        "Regionalbus": [
-          "430",
-          "431",
-          "445"
-        ],
         "Stadtbus": [
           "A1 (Riesa)",
           "A2 (Riesa)"
         ]
       },
-      "total_lines": 8
+      "total_lines": 5
     },
     {
       "id": "de:14627:5540",
@@ -76472,15 +76466,9 @@
       "name_with_city": "Thiendorf Welxander Straße",
       "longitude": 13.740729,
       "latitude": 51.293716,
-      "operators": [
-        "VGM"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "456"
-        ]
-      },
-      "total_lines": 1
+      "operators": [],
+      "lines": {},
+      "total_lines": 0
     },
     {
       "id": "de:14627:5482",
@@ -78827,18 +78815,14 @@
       "longitude": 13.807609,
       "latitude": 51.151189,
       "operators": [
-        "DB Regio AG Südost",
         "RBO"
       ],
       "lines": {
         "Regionalbus": [
           "769"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:6587",
@@ -78849,7 +78833,6 @@
       "longitude": 13.798168,
       "latitude": 51.139862,
       "operators": [
-        "DB Regio AG Südost",
         "DVB",
         "RBO"
       ],
@@ -78862,12 +78845,9 @@
         ],
         "Regionalbus": [
           "769"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14612:6583",
