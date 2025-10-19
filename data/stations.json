@@ -63432,12 +63432,11 @@
           "4"
         ],
         "Regionalbus": [
-          "475",
           "Sv270",
           "Sv280"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14627:4223",
@@ -63456,12 +63455,11 @@
           "4"
         ],
         "Regionalbus": [
-          "475",
           "Sv270",
           "Sv280"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14627:4262",
@@ -63684,12 +63682,11 @@
           "4"
         ],
         "Regionalbus": [
-          "475",
           "Sv270",
           "Sv280"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14627:4257",
@@ -64534,11 +64531,10 @@
           "72"
         ],
         "Regionalbus": [
-          "475",
           "476"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4246",
@@ -64696,21 +64692,17 @@
       "latitude": 51.105558,
       "operators": [
         "DB Regio AG Südost",
-        "DVB",
-        "VGM"
+        "DVB"
       ],
       "lines": {
         "Straßenbahn": [
           "4"
         ],
-        "Regionalbus": [
-          "475"
-        ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4216",

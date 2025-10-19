@@ -87523,12 +87523,11 @@
             "4"
           ],
           "Regionalbus": [
-            "475",
             "Sv270",
             "Sv280"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -87555,12 +87554,11 @@
             "4"
           ],
           "Regionalbus": [
-            "475",
             "Sv270",
             "Sv280"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -87879,12 +87877,11 @@
             "4"
           ],
           "Regionalbus": [
-            "475",
             "Sv270",
             "Sv280"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -89073,11 +89070,10 @@
             "72"
           ],
           "Regionalbus": [
-            "475",
             "476"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -89307,21 +89303,17 @@
         "name_with_city": "Radebeul Zillerstraße",
         "operators": [
           "DB Regio AG Südost",
-          "DVB",
-          "VGM"
+          "DVB"
         ],
         "lines": {
           "Straßenbahn": [
             "4"
           ],
-          "Regionalbus": [
-            "475"
-          ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
