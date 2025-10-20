@@ -29,7 +29,7 @@ Total stations: 3922
 
 ## Stations by Transit Type
 
-- Regionalbus: 2716 stations
+- Regionalbus: 2720 stations
 - Stadtbus: 1323 stations
 - PlusBus: 605 stations
 - Anruflinienbus: 475 stations
@@ -51,7 +51,7 @@ Total stations: 3922
 ## Transit Operators
 
 - RVSOE: 1309 stations
-- VGM: 1167 stations
+- VGM: 1170 stations
 - DVB: 765 stations
 - RBO: 718 stations
 - DB Regio AG Südost: 133 stations
@@ -140,6 +140,7 @@ Total stations: 3922
 - Dresden S-Bf. Industriegelände: 11 lines
 - Dresden Wasaplatz: 11 lines
 - Großenhain Hohe Straße: 11 lines
+- Pirna Robert-Koch-Straße: 11 lines
 - Pulsnitz Bahnhof: 11 lines
 - Bischofswerda Schulstraße: 10 lines
 - Cossebaude/Neu-Leuteritz Bahnhof: 10 lines
@@ -153,7 +154,6 @@ Total stations: 3922
 - Freital S-Bahnhof Hainsberg: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
-- Pirna Robert-Koch-Straße: 10 lines
 - Sebnitz Brückenschänke: 10 lines
 - Sebnitz Busbahnhof: 10 lines
 - Sebnitz Hohnsteiner Straße: 10 lines
