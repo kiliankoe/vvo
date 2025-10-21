@@ -1276,10 +1276,11 @@
       "lines": {
         "Regionalbus": [
           "252",
-          "253"
+          "253",
+          "260"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3624",
@@ -2700,7 +2701,6 @@
       "longitude": 14.052014,
       "latitude": 51.36227,
       "operators": [
-        "DB Regio AG Südost",
         "RBO"
       ],
       "lines": {
@@ -2712,12 +2712,9 @@
           "772",
           "773",
           "788"
-        ],
-        "Zug": [
-          "RB34"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14625:6914",
@@ -3415,9 +3412,12 @@
           "RB61",
           "RE1",
           "RE2"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 18
+      "total_lines": 19
     },
     {
       "id": "de:14625:7034",
@@ -32186,12 +32186,9 @@
         ],
         "S-Bahn": [
           "S8"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:6003",
@@ -39106,9 +39103,6 @@
           "22 (Kamenz)",
           "23 (Kamenz)"
         ],
-        "Zug": [
-          "RB34"
-        ],
         "S-Bahn": [
           "S8"
         ],
@@ -39116,7 +39110,7 @@
           "SEV"
         ]
       },
-      "total_lines": 24
+      "total_lines": 23
     },
     {
       "id": "de:14625:6225",
@@ -40867,12 +40861,9 @@
         ],
         "S-Bahn": [
           "S8"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:5589",
@@ -62054,7 +62045,6 @@
       "longitude": 14.010161,
       "latitude": 51.181596,
       "operators": [
-        "DB Regio AG Südost",
         "RBO"
       ],
       "lines": {
@@ -62063,12 +62053,9 @@
         ],
         "Regionalbus": [
           "756"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:6039",
@@ -72309,6 +72296,7 @@
       "lines": {
         "Regionalbus": [
           "237",
+          "260",
           "268",
           "269"
         ],
@@ -72327,7 +72315,7 @@
           "SEV"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14628:3944",
@@ -72563,6 +72551,7 @@
       "lines": {
         "Regionalbus": [
           "237",
+          "260",
           "268",
           "269",
           "5",
@@ -72577,7 +72566,7 @@
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14628:3958",
@@ -72802,6 +72791,7 @@
       "lines": {
         "Regionalbus": [
           "237",
+          "260",
           "269"
         ],
         "PlusBus": [
@@ -72812,7 +72802,7 @@
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14628:3919",
@@ -72829,6 +72819,7 @@
         "Regionalbus": [
           "236",
           "237",
+          "260",
           "268",
           "269"
         ],
@@ -72843,7 +72834,7 @@
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 8
+      "total_lines": 9
     },
     {
       "id": "de:14628:3934",
@@ -72860,6 +72851,7 @@
       "lines": {
         "Regionalbus": [
           "237",
+          "260",
           "5",
           "6",
           "7"
@@ -72874,7 +72866,7 @@
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 7
+      "total_lines": 8
     },
     {
       "id": "de:14628:3927",
@@ -79793,18 +79785,14 @@
       "longitude": 14.038979,
       "latitude": 51.392722,
       "operators": [
-        "DB Regio AG Südost",
         "RBO"
       ],
       "lines": {
         "Regionalbus": [
           "772"
-        ],
-        "Zug": [
-          "RB34"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:6907",
@@ -81132,19 +81120,15 @@
       "longitude": 13.501769,
       "latitude": 51.353912,
       "operators": [
-        "DB AG",
         "VGM"
       ],
       "lines": {
         "Regionalbus": [
           "461",
           "467"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:5391",
