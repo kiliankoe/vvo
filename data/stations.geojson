@@ -22387,7 +22387,7 @@
         "type": "Point",
         "coordinates": [
           13.72332,
-          51.089632
+          51.089666
         ]
       },
       "properties": {
@@ -26000,8 +26000,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.848931,
-          51.008034
+          13.848581,
+          51.007944
         ]
       },
       "properties": {
@@ -32733,8 +32733,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.707573,
-          51.046318
+          13.707168,
+          51.04603
         ]
       },
       "properties": {
@@ -50407,9 +50407,12 @@
             "RB64",
             "RE11",
             "RE15"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 23
+        "total_lines": 24
       }
     },
     {
@@ -60979,6 +60982,7 @@
         "city": "Laubusch",
         "name_with_city": "Laubusch Siedlung",
         "operators": [
+          "DB AG",
           "RBO"
         ],
         "lines": {
@@ -60986,9 +60990,12 @@
             "778",
             "783",
             "784"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -61250,9 +61257,12 @@
           "Zug": [
             "RE11",
             "RE15"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {

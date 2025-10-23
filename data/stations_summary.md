@@ -35,7 +35,7 @@ Total stations: 3914
 - Anruflinienbus: 475 stations
 - Straßenbahn: 258 stations
 - Anruflinientaxi: 197 stations
-- Ersatzverkehr: 114 stations
+- Ersatzverkehr: 117 stations
 - Zug: 102 stations
 - Taktbus: 77 stations
 - Bus: 57 stations
@@ -61,7 +61,7 @@ Total stations: 3914
 - Omnibusunternehmen Gottfried Beck: 68 stations
 - SATRA: 43 stations
 - RBM: 31 stations
-- DB AG: 26 stations
+- DB AG: 27 stations
 - SDG: 24 stations
 - Mitteldeutsche Regiobahn: 18 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
@@ -82,8 +82,8 @@ Total stations: 3914
 - Dresden Hauptbahnhof: 30 lines
 - Riesa Busbahnhof / Bahnhof: 28 lines
 - Meißen Altstadtbrücke: 25 lines
+- Hoyerswerda Bahnhof: 24 lines
 - Dresden Bahnhof Neustadt: 23 lines
-- Hoyerswerda Bahnhof: 23 lines
 - Kamenz Bahnhof: 22 lines
 - Pirna ZOB / Bahnhof: 22 lines
 - Großenhain Cottbuser Bahnhof: 21 lines

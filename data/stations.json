@@ -16192,7 +16192,7 @@
       "city": "Dresden",
       "name_with_city": "Dresden Hubertusplatz",
       "longitude": 13.72332,
-      "latitude": 51.089632,
+      "latitude": 51.089666,
       "operators": [
         "DVB"
       ],
@@ -18829,8 +18829,8 @@
       "name": "Meußlitzer Straße",
       "city": "Dresden",
       "name_with_city": "Dresden Meußlitzer Straße",
-      "longitude": 13.848931,
-      "latitude": 51.008034,
+      "longitude": 13.848581,
+      "latitude": 51.007944,
       "operators": [
         "DVB"
       ],
@@ -23810,8 +23810,8 @@
       "name": "Wernerstraße",
       "city": "Dresden",
       "name_with_city": "Dresden Wernerstraße",
-      "longitude": 13.707573,
-      "latitude": 51.046318,
+      "longitude": 13.707168,
+      "latitude": 51.04603,
       "operators": [
         "DVB"
       ],
@@ -36548,9 +36548,12 @@
           "RB64",
           "RE11",
           "RE15"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 23
+      "total_lines": 24
     },
     {
       "id": "de:14625:8051",
@@ -44192,6 +44195,7 @@
       "longitude": 14.133284,
       "latitude": 51.44471,
       "operators": [
+        "DB AG",
         "RBO"
       ],
       "lines": {
@@ -44199,9 +44203,12 @@
           "778",
           "783",
           "784"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14625:6835",
@@ -44391,9 +44398,12 @@
         "Zug": [
           "RE11",
           "RE15"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14625:6818",
