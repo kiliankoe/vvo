@@ -76314,10 +76314,11 @@
       ],
       "lines": {
         "Regionalbus": [
+          "455",
           "456"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:5482",

@@ -105405,10 +105405,11 @@
         ],
         "lines": {
           "Regionalbus": [
+            "455",
             "456"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
