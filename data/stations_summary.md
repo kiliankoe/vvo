@@ -29,13 +29,13 @@ Total stations: 3914
 
 ## Stations by Transit Type
 
-- Regionalbus: 2714 stations
+- Regionalbus: 2710 stations
 - Stadtbus: 1295 stations
 - PlusBus: 630 stations
 - Anruflinienbus: 475 stations
 - Straßenbahn: 258 stations
 - Anruflinientaxi: 197 stations
-- Ersatzverkehr: 117 stations
+- Ersatzverkehr: 118 stations
 - Zug: 102 stations
 - Taktbus: 77 stations
 - Bus: 57 stations
@@ -51,10 +51,10 @@ Total stations: 3914
 ## Transit Operators
 
 - RVSOE: 1307 stations
-- VGM: 1170 stations
+- VGM: 1167 stations
 - DVB: 763 stations
 - RBO: 713 stations
-- DB Regio AG Südost: 128 stations
+- DB Regio AG Südost: 125 stations
 - Müller Busreisen: 106 stations
 - VGH: 87 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
@@ -70,6 +70,7 @@ Total stations: 3914
 - Verkehrsmanagement Elbe-Elster GmbH: 8 stations
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 3 stations
+- European Sleeper: 2 stations
 - FlixTrain: 2 stations
 - DB Fernverkehr AG: 2 stations
 - Nordsachsen Mobil: 2 stations
@@ -139,7 +140,6 @@ Total stations: 3914
 - Dresden Wasaplatz: 11 lines
 - Glashütte (Sachsen) Bahnhof / Busbahnhof: 11 lines
 - Großenhain Hohe Straße: 11 lines
-- Pirna Robert-Koch-Straße: 11 lines
 - Pulsnitz Bahnhof: 11 lines
 - Altenberg (Erzgebirge) Bahnhof: 10 lines
 - Bischofswerda Schulstraße: 10 lines
@@ -152,6 +152,7 @@ Total stations: 3914
 - Freital S-Bahnhof Hainsberg: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
+- Pirna Robert-Koch-Straße: 10 lines
 - Sebnitz Bahnhof: 10 lines
 - Sebnitz Brückenschänke: 10 lines
 - Sebnitz Busbahnhof: 10 lines

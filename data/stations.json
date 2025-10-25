@@ -1232,6 +1232,7 @@
       "operators": [
         "DB AG",
         "DB Regio AG Südost",
+        "European Sleeper",
         "RVSOE",
         "Österreichische Bundesbahnen"
       ],
@@ -15470,6 +15471,7 @@
         "DB Fernverkehr AG",
         "DB Regio AG Südost",
         "DVB",
+        "European Sleeper",
         "FlixTrain",
         "Mitteldeutsche Regiobahn",
         "RVSOE",
@@ -27766,11 +27768,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "161",
           "162"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:1178",
@@ -41359,9 +41360,7 @@
       "name_with_city": "Kohlmühle (Hohnstein) Bahnhof Goßdorf-Kohlmühle",
       "longitude": 14.164842,
       "latitude": 50.941283,
-      "operators": [
-        "DB Regio AG Südost"
-      ],
+      "operators": [],
       "lines": {
         "Zug": [
           "U28"
@@ -51737,14 +51736,16 @@
         "VGM"
       ],
       "lines": {
+        "Regionalbus": [
+          "405",
+          "458",
+          "Sv270"
+        ],
         "PlusBus": [
           "477"
-        ],
-        "Regionalbus": [
-          "Sv270"
         ]
       },
-      "total_lines": 2
+      "total_lines": 4
     },
     {
       "id": "de:14625:6985",
@@ -59546,14 +59547,13 @@
           "237",
           "241",
           "245",
-          "246",
           "207a"
         ],
         "Stadtbus": [
           "Z (Pirna)"
         ]
       },
-      "total_lines": 11
+      "total_lines": 10
     },
     {
       "id": "de:14628:3382",
@@ -60664,9 +60664,7 @@
       "name_with_city": "Porschdorf Haltepunkt",
       "longitude": 14.138476,
       "latitude": 50.943281,
-      "operators": [
-        "DB Regio AG Südost"
-      ],
+      "operators": [],
       "lines": {
         "Zug": [
           "U28"
@@ -62574,11 +62572,10 @@
           "78"
         ],
         "Regionalbus": [
-          "760",
           "761"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14625:6736",
@@ -63492,21 +63489,17 @@
       "latitude": 51.119815,
       "operators": [
         "DB Regio AG Südost",
-        "DVB",
-        "VGM"
+        "DVB"
       ],
       "lines": {
         "Straßenbahn": [
           "4"
         ],
-        "Regionalbus": [
-          "Sv270"
-        ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4233",
@@ -64045,18 +64038,14 @@
       "longitude": 13.624972,
       "latitude": 51.110245,
       "operators": [
-        "DVB",
-        "VGM"
+        "DVB"
       ],
       "lines": {
         "Straßenbahn": [
           "4"
-        ],
-        "Regionalbus": [
-          "Sv270"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4255",
@@ -64818,11 +64807,10 @@
           "403",
           "405",
           "456",
-          "478",
           "Sv280"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14627:4368",
@@ -67828,17 +67816,12 @@
           "431",
           "445"
         ],
-        "Regionalbus": [
-          "430",
-          "431",
-          "445"
-        ],
         "Stadtbus": [
           "A1 (Riesa)",
           "A2 (Riesa)"
         ]
       },
-      "total_lines": 8
+      "total_lines": 5
     },
     {
       "id": "de:14627:5540",
@@ -71288,9 +71271,12 @@
         "Zug": [
           "RE11",
           "RE15"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14625:8141",
@@ -76309,16 +76295,9 @@
       "name_with_city": "Thiendorf Welxander Straße",
       "longitude": 13.740729,
       "latitude": 51.293716,
-      "operators": [
-        "VGM"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "455",
-          "456"
-        ]
-      },
-      "total_lines": 2
+      "operators": [],
+      "lines": {},
+      "total_lines": 0
     },
     {
       "id": "de:14627:5482",
@@ -76936,9 +76915,7 @@
       "name_with_city": "Ulbersdorf Bahnhof",
       "longitude": 14.220133,
       "latitude": 50.955523,
-      "operators": [
-        "DB Regio AG Südost"
-      ],
+      "operators": [],
       "lines": {
         "Zug": [
           "U28"
@@ -78250,11 +78227,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411",
-          "Sv250"
+          "411"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4151",
