@@ -51738,14 +51738,13 @@
       "lines": {
         "Regionalbus": [
           "405",
-          "458",
           "Sv270"
         ],
         "PlusBus": [
           "477"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14625:6985",
