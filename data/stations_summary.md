@@ -35,7 +35,7 @@ Total stations: 3914
 - Anruflinienbus: 475 stations
 - Straßenbahn: 258 stations
 - Anruflinientaxi: 197 stations
-- Ersatzverkehr: 119 stations
+- Ersatzverkehr: 118 stations
 - Zug: 102 stations
 - Taktbus: 77 stations
 - Bus: 57 stations
@@ -54,7 +54,7 @@ Total stations: 3914
 - VGM: 1170 stations
 - DVB: 763 stations
 - RBO: 713 stations
-- DB Regio AG Südost: 126 stations
+- DB Regio AG Südost: 125 stations
 - Müller Busreisen: 106 stations
 - VGH: 87 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
@@ -113,6 +113,7 @@ Total stations: 3914
 - Meißen Uferstraße: 15 lines
 - Pirna Breite Straße: 15 lines
 - Dippoldiswalde Busbahnhof: 14 lines
+- Dresden Dahlienweg: 14 lines
 - Dresden Tharandter Straße: 14 lines
 - Kamenz Landesämter: 14 lines
 - Lommatzsch Parkstraße: 14 lines
@@ -120,7 +121,6 @@ Total stations: 3914
 - Meißen Talbad: 14 lines
 - Radeberg Bahnhof: 14 lines
 - Dresden Bahnhof Klotzsche: 13 lines
-- Dresden Dahlienweg: 13 lines
 - Dresden Liststraße: 13 lines
 - Kamenz Flugplatz: 13 lines
 - Nossen Markt: 13 lines
@@ -133,7 +133,11 @@ Total stations: 3914
 - Dresden Walpurgisstraße: 12 lines
 - Pirna Copitz Schulstraße: 12 lines
 - Riesa Goethestraße: 12 lines
+- Dresden Chamissostraße: 11 lines
+- Dresden Coventrystraße: 11 lines
 - Dresden Großenhainer Platz: 11 lines
+- Dresden Hebbelplatz: 11 lines
+- Dresden Pennricher Straße: 11 lines
 - Dresden Pirnaischer Platz: 11 lines
 - Dresden Prager Straße: 11 lines
 - Dresden S-Bf. Freiberger Straße: 11 lines
@@ -145,11 +149,14 @@ Total stations: 3914
 - Altenberg (Erzgebirge) Bahnhof: 10 lines
 - Bischofswerda Schulstraße: 10 lines
 - Cossebaude/Neu-Leuteritz Bahnhof: 10 lines
-- Dresden Chamissostraße: 10 lines
-- Dresden Coventrystraße: 10 lines
-- Dresden Hebbelplatz: 10 lines
-- Dresden Pennricher Straße: 10 lines
+- Dresden Amalie-Dietrich-Platz: 10 lines
+- Dresden Betriebshof Gorbitz: 10 lines
+- Dresden Burgkstraße: 10 lines
+- Dresden Kirschenstraße: 10 lines
+- Dresden Koreanischer Platz: 10 lines
+- Dresden Merianplatz: 10 lines
 - Dresden S-Bf. Industriegelände: 10 lines
+- Dresden Schlehenstraße: 10 lines
 - Freital S-Bahnhof Hainsberg: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
