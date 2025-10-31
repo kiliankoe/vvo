@@ -1232,7 +1232,6 @@
       "operators": [
         "DB AG",
         "DB Regio AG Südost",
-        "European Sleeper",
         "RVSOE",
         "Österreichische Bundesbahnen"
       ],
@@ -15479,7 +15478,6 @@
         "DB Fernverkehr AG",
         "DB Regio AG Südost",
         "DVB",
-        "European Sleeper",
         "FlixTrain",
         "Mitteldeutsche Regiobahn",
         "RVSOE",
@@ -48505,8 +48503,15 @@
         "VGM"
       ],
       "lines": {
+        "Anruflinienbus": [
+          "404",
+          "412",
+          "414",
+          "417",
+          "422",
+          "428"
+        ],
         "Regionalbus": [
-          "401",
           "404",
           "412",
           "413",
@@ -48521,14 +48526,6 @@
           "446",
           "Sv191"
         ],
-        "Anruflinienbus": [
-          "404",
-          "412",
-          "414",
-          "417",
-          "422",
-          "428"
-        ],
         "PlusBus": [
           "416",
           "418"
@@ -48539,7 +48536,7 @@
           "C (Meißen)"
         ]
       },
-      "total_lines": 25
+      "total_lines": 24
     },
     {
       "id": "de:14627:4046",

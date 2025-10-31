@@ -58,7 +58,7 @@ de:14628:3629,33003629,Kiefricht,Bad Schandau,Bad Schandau Kiefricht,50.927804,1
 de:14628:3622,33003622,Kurpark,Bad Schandau,Bad Schandau Kurpark,50.920913,14.157772,RVSOE,5,Kirnitzschtalbahn,,,
 de:14628:3617,33003617,Lindenallee,Bad Schandau,Bad Schandau Lindenallee,50.919752,14.149903,RVSOE,1,,,,
 de:14628:3626,33003626,Marktplatz,Bad Schandau,Bad Schandau Marktplatz,50.917679,14.153092,RVSOE,2,,,,
-de:14628:3620,33003620,Nationalparkbahnhof,Bad Schandau,Bad Schandau Nationalparkbahnhof,50.91927,14.138099,DB AG|DB Regio AG Südost|European Sleeper|RVSOE|Österreichische Bundesbahnen,12,,,RE20|RE50|U28,S1
+de:14628:3620,33003620,Nationalparkbahnhof,Bad Schandau,Bad Schandau Nationalparkbahnhof,50.91927,14.138099,DB AG|DB Regio AG Südost|RVSOE|Österreichische Bundesbahnen,12,,,RE20|RE50|U28,S1
 de:14628:3627,33003627,Personenaufzug,Bad Schandau,Bad Schandau Personenaufzug,50.916541,14.160575,RVSOE,3,,,,
 de:14628:3624,33003624,Waldhäus´l,Bad Schandau,Bad Schandau Waldhäus´l,50.925114,14.180527,RVSOE,2,Kirnitzschtalbahn,,,
 de:14627:4969,33004969,Abzw Badersen/Dobschütz,Badersen,Badersen Abzw Badersen/Dobschütz,51.14645,13.275833,VGM,4,,,,
@@ -742,7 +742,7 @@ de:14612:186,33000186,Hamburger Straße,Dresden,Dresden Hamburger Straße,51.059
 de:14612:548,33000548,Hammeraue,Dresden,Dresden Hammeraue,51.067932,13.666277,SATRA,4,,91|93,,
 de:14612:764,33000764,Hans-Dankner-Straße,Dresden,Dresden Hans-Dankner-Straße,51.042591,13.742086,DVB,2,,62|68,,
 de:14612:287,33000287,Hans-Oster-Straße,Dresden,Dresden Hans-Oster-Straße,51.074909,13.760654,DVB,1,,64,,
-de:14612:28,33000028,Hauptbahnhof,Dresden,Dresden Hauptbahnhof,51.03993,13.732932,DB AG|DB Fernverkehr AG|DB Regio AG Südost|DVB|European Sleeper|FlixTrain|Mitteldeutsche Regiobahn|RVSOE|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,30,10|11|3|7|8,66|H/S (Pirna),RB30|RB60|RB61|RE1|RE17|RE19|RE2|RE20|RE3|RE50,S1|S2|S3|S8
+de:14612:28,33000028,Hauptbahnhof,Dresden,Dresden Hauptbahnhof,51.03993,13.732932,DB AG|DB Fernverkehr AG|DB Regio AG Südost|DVB|FlixTrain|Mitteldeutsche Regiobahn|RVSOE|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,30,10|11|3|7|8,66|H/S (Pirna),RB30|RB60|RB61|RE1|RE17|RE19|RE2|RE20|RE3|RE50,S1|S2|S3|S8
 de:14612:36,33000036,Hauptbahnhof (Strehlener Str.),Dresden,Dresden Hauptbahnhof (Strehlener Str.),51.038671,13.734279,DB AG|DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn|trilex - Die Länderbahn GmbH DLB,3,,66,,
 de:14612:32,33000032,Hauptbahnhof Nord,Dresden,Dresden Hauptbahnhof Nord,51.041365,13.735088,DVB,6,10|11|12|3|4|7,,,
 de:14612:179,33000179,Hebbelplatz,Dresden,Dresden Hebbelplatz,51.051333,13.682743,DVB,11,1|10|11|12|2|3|6|7|8|9,EV 12,,
@@ -2308,7 +2308,7 @@ de:14627:4495,33004495,Abzweig Niederauer Straße,Meißen,Meißen Abzweig Nieder
 de:14627:4480,33004480,Afra-Schule,Meißen,Meißen Afra-Schule,51.16969,13.467363,VGM,3,,,,
 de:14627:4072,33004072,Albert-Mücke-Ring,Meißen,Meißen Albert-Mücke-Ring,51.169014,13.511102,VGM,3,,C (Meißen),,
 de:14627:4049,33004049,Albrechtsburg / Dom,Meißen,Meißen Albrechtsburg / Dom,51.165961,13.47013,VGM,1,,E (Meißen),,
-de:14627:4042,33004042,Altstadtbrücke,Meißen,Meißen Altstadtbrücke,51.164046,13.474424,VGM,25,,A (Meißen)|B (Meißen)|C (Meißen),,
+de:14627:4042,33004042,Altstadtbrücke,Meißen,Meißen Altstadtbrücke,51.164046,13.474424,VGM,24,,A (Meißen)|B (Meißen)|C (Meißen),,
 de:14627:4046,33004046,Am Burgberg,Meißen,Meißen Am Burgberg,51.167865,13.47075,VGM,6,,B (Meißen),,
 de:14627:4052,33004052,Am Hohen Gericht,Meißen,Meißen Am Hohen Gericht,51.159776,13.449091,VGM,1,,B (Meißen),,
 de:14627:4497,33004497,An der alten Ziegelei,Meißen,Meißen An der alten Ziegelei,51.159409,13.457527,VGM,1,,A (Meißen),,
