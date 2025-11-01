@@ -30435,6 +30435,7 @@
           "Straßenbahn": [
             "1",
             "10",
+            "11",
             "2",
             "4",
             "7",
@@ -30444,7 +30445,7 @@
             "68"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -38225,11 +38226,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "161",
             "162"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -82162,14 +82162,13 @@
             "237",
             "241",
             "245",
-            "246",
             "207a"
           ],
           "Stadtbus": [
             "Z (Pirna)"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -86340,11 +86339,10 @@
             "78"
           ],
           "Regionalbus": [
-            "760",
             "761"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -87626,21 +87624,17 @@
         "name_with_city": "Radebeul Gerhart-Hauptmann-Straße",
         "operators": [
           "DB Regio AG Südost",
-          "DVB",
-          "VGM"
+          "DVB"
         ],
         "lines": {
           "Straßenbahn": [
             "4"
           ],
-          "Regionalbus": [
-            "Sv270"
-          ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -88403,18 +88397,14 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Radebl. West (Flemmingstraße)",
         "operators": [
-          "DVB",
-          "VGM"
+          "DVB"
         ],
         "lines": {
           "Straßenbahn": [
             "4"
-          ],
-          "Regionalbus": [
-            "Sv270"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -89480,11 +89470,10 @@
             "403",
             "405",
             "456",
-            "478",
             "Sv280"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -93642,17 +93631,12 @@
             "431",
             "445"
           ],
-          "Regionalbus": [
-            "430",
-            "431",
-            "445"
-          ],
           "Stadtbus": [
             "A1 (Riesa)",
             "A2 (Riesa)"
           ]
         },
-        "total_lines": 8
+        "total_lines": 5
       }
     },
     {
@@ -105414,16 +105398,9 @@
         "name": "Welxander Straße",
         "city": "Thiendorf",
         "name_with_city": "Thiendorf Welxander Straße",
-        "operators": [
-          "VGM"
-        ],
-        "lines": {
-          "Regionalbus": [
-            "455",
-            "456"
-          ]
-        },
-        "total_lines": 2
+        "operators": [],
+        "lines": {},
+        "total_lines": 0
       }
     },
     {
@@ -108129,11 +108106,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411",
-            "Sv250"
+            "411"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
