@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3914,
+    "count": 3913,
     "format_version": "2.0"
   },
   "stations": [
@@ -1074,14 +1074,13 @@
       ],
       "lines": {
         "Regionalbus": [
-          "241",
-          "252"
+          "241"
         ],
         "Straßenbahn": [
           "Kirnitzschtalbahn"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:3619",
@@ -1174,7 +1173,6 @@
       "lines": {
         "Regionalbus": [
           "241",
-          "252",
           "253",
           "260"
         ],
@@ -1182,7 +1180,7 @@
           "Kirnitzschtalbahn"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14628:3617",
@@ -1232,6 +1230,7 @@
       "operators": [
         "DB AG",
         "DB Regio AG Südost",
+        "European Sleeper",
         "RVSOE",
         "Österreichische Bundesbahnen"
       ],
@@ -11705,19 +11704,17 @@
       "longitude": 13.708192,
       "latitude": 51.056026,
       "operators": [
-        "DB AG",
-        "DB Regio AG Südost"
+        "DB AG"
       ],
       "lines": {
         "Zug": [
-          "RB31",
-          "RE50"
+          "RB31"
         ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:658",
@@ -11773,6 +11770,7 @@
       "operators": [
         "DB Regio AG Südost",
         "DVB",
+        "Mitteldeutsche Regiobahn",
         "trilex - Die Länderbahn GmbH DLB"
       ],
       "lines": {
@@ -11792,10 +11790,12 @@
           "68"
         ],
         "Zug": [
+          "RB30",
           "RB60",
           "RB61",
           "RE1",
           "RE2",
+          "RE3",
           "RE50"
         ],
         "S-Bahn": [
@@ -11807,7 +11807,7 @@
           "SEV"
         ]
       },
-      "total_lines": 20
+      "total_lines": 22
     },
     {
       "id": "de:14612:16",
@@ -11822,6 +11822,7 @@
         "DB Regio AG Südost",
         "DVB",
         "FlixTrain",
+        "Mitteldeutsche Regiobahn",
         "VGM",
         "trilex - Die Länderbahn GmbH DLB",
         "Österreichische Bundesbahnen"
@@ -11845,6 +11846,7 @@
           "478"
         ],
         "Zug": [
+          "RB30",
           "RB31",
           "RB33",
           "RB60",
@@ -11853,6 +11855,7 @@
           "RE15",
           "RE18",
           "RE2",
+          "RE3",
           "RE50"
         ],
         "S-Bahn": [
@@ -11867,7 +11870,7 @@
           "SEV"
         ]
       },
-      "total_lines": 23
+      "total_lines": 25
     },
     {
       "id": "de:14612:198",
@@ -12109,11 +12112,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "87",
-          "EV 9"
+          "87"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:64",
@@ -15480,6 +15482,7 @@
         "DB Fernverkehr AG",
         "DB Regio AG Südost",
         "DVB",
+        "European Sleeper",
         "FlixTrain",
         "Mitteldeutsche Regiobahn",
         "RVSOE",
@@ -15549,8 +15552,7 @@
         "DB AG",
         "DB Regio AG Südost",
         "DVB",
-        "Mitteldeutsche Regiobahn",
-        "trilex - Die Länderbahn GmbH DLB"
+        "Mitteldeutsche Regiobahn"
       ],
       "lines": {
         "Stadtbus": [
@@ -18751,11 +18753,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "68",
-          "EV 12"
+          "68"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:335",
@@ -21240,8 +21241,7 @@
         ],
         "Zug": [
           "RE19",
-          "RE20",
-          "U28"
+          "RE20"
         ],
         "S-Bahn": [
           "S1",
@@ -21251,7 +21251,7 @@
           "SEV"
         ]
       },
-      "total_lines": 15
+      "total_lines": 14
     },
     {
       "id": "de:14612:662",
@@ -21296,8 +21296,7 @@
         ],
         "Zug": [
           "RE19",
-          "RE20",
-          "U28"
+          "RE20"
         ],
         "S-Bahn": [
           "S1",
@@ -21312,7 +21311,7 @@
           "SEV"
         ]
       },
-      "total_lines": 12
+      "total_lines": 11
     },
     {
       "id": "de:14612:593",
@@ -21397,8 +21396,7 @@
         ],
         "Zug": [
           "RE19",
-          "RE20",
-          "U28"
+          "RE20"
         ],
         "S-Bahn": [
           "S1",
@@ -21408,7 +21406,7 @@
           "SEV"
         ]
       },
-      "total_lines": 9
+      "total_lines": 8
     },
     {
       "id": "de:14612:622",
@@ -21557,8 +21555,7 @@
         ],
         "Zug": [
           "RE19",
-          "RE20",
-          "U28"
+          "RE20"
         ],
         "S-Bahn": [
           "S1",
@@ -21568,7 +21565,7 @@
           "SEV"
         ]
       },
-      "total_lines": 15
+      "total_lines": 14
     },
     {
       "id": "de:14612:910",
@@ -21583,15 +21580,14 @@
       ],
       "lines": {
         "Zug": [
-          "RE19",
-          "U28"
+          "RE19"
         ],
         "S-Bahn": [
           "S1",
           "S2"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14612:711",
@@ -21805,11 +21801,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "87",
-          "EV 9"
+          "87"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:960",
@@ -22050,8 +22045,7 @@
           "68",
           "91",
           "92",
-          "93",
-          "EV 12"
+          "93"
         ],
         "Anruflinienbus": [
           "91",
@@ -22061,7 +22055,7 @@
           "alita 92"
         ]
       },
-      "total_lines": 8
+      "total_lines": 7
     },
     {
       "id": "de:14612:517",
@@ -25232,7 +25226,6 @@
       "longitude": 14.141189,
       "latitude": 50.998763,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
@@ -25240,11 +25233,10 @@
           "235",
           "236",
           "237",
-          "264",
-          "7"
+          "264"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14628:3691",
@@ -25255,7 +25247,6 @@
       "longitude": 14.148609,
       "latitude": 50.991244,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
@@ -25263,11 +25254,10 @@
           "235",
           "236",
           "237",
-          "264",
-          "7"
+          "264"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14628:3692",
@@ -25278,7 +25268,6 @@
       "longitude": 14.160557,
       "latitude": 50.988417,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
@@ -25286,14 +25275,13 @@
           "235",
           "236",
           "237",
-          "264",
-          "7"
+          "264"
         ],
         "Taktbus": [
           "267"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14628:3693",
@@ -25304,21 +25292,19 @@
       "longitude": 14.171373,
       "latitude": 50.987122,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "235",
           "236",
-          "237",
-          "7"
+          "237"
         ],
         "Taktbus": [
           "267"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14628:3746",
@@ -27413,7 +27399,8 @@
           "348"
         ],
         "Zug": [
-          "RB30"
+          "RB30",
+          "RE3"
         ],
         "S-Bahn": [
           "S3"
@@ -27422,7 +27409,7 @@
           "SEV"
         ]
       },
-      "total_lines": 10
+      "total_lines": 11
     },
     {
       "id": "de:14628:1102",
@@ -27444,7 +27431,8 @@
           "164"
         ],
         "Zug": [
-          "RB30"
+          "RB30",
+          "RE3"
         ],
         "S-Bahn": [
           "S3"
@@ -27453,7 +27441,7 @@
           "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14628:1162",
@@ -27488,7 +27476,8 @@
           "376"
         ],
         "Zug": [
-          "RB30"
+          "RB30",
+          "RE3"
         ],
         "S-Bahn": [
           "S3"
@@ -27497,7 +27486,7 @@
           "SEV"
         ]
       },
-      "total_lines": 15
+      "total_lines": 16
     },
     {
       "id": "de:14628:1176",
@@ -27519,7 +27508,8 @@
           "363"
         ],
         "Zug": [
-          "RB30"
+          "RB30",
+          "RE3"
         ],
         "S-Bahn": [
           "S3"
@@ -27528,7 +27518,7 @@
           "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14628:1143",
@@ -29529,12 +29519,9 @@
         ],
         "Zug": [
           "RE50"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:5752",
@@ -32878,8 +32865,7 @@
       "longitude": 13.442749,
       "latitude": 51.40958,
       "operators": [
-        "VGM",
-        "Verkehrsmanagement Elbe-Elster GmbH"
+        "VGM"
       ],
       "lines": {
         "Anruflinienbus": [
@@ -32889,12 +32875,9 @@
           "439",
           "461",
           "462"
-        ],
-        "Bus": [
-          "587"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14627:5799",
@@ -32905,8 +32888,7 @@
       "longitude": 13.45379,
       "latitude": 51.41232,
       "operators": [
-        "VGM",
-        "Verkehrsmanagement Elbe-Elster GmbH"
+        "VGM"
       ],
       "lines": {
         "Regionalbus": [
@@ -32914,12 +32896,9 @@
           "440",
           "461",
           "Sv313"
-        ],
-        "Bus": [
-          "587"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14627:5809",
@@ -32935,12 +32914,9 @@
       "lines": {
         "Zug": [
           "RB45"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:5800",
@@ -32951,8 +32927,7 @@
       "longitude": 13.44257,
       "latitude": 51.412208,
       "operators": [
-        "VGM",
-        "Verkehrsmanagement Elbe-Elster GmbH"
+        "VGM"
       ],
       "lines": {
         "Anruflinienbus": [
@@ -32964,12 +32939,9 @@
           "440",
           "461",
           "462"
-        ],
-        "Bus": [
-          "587"
         ]
       },
-      "total_lines": 7
+      "total_lines": 6
     },
     {
       "id": "de:14627:5781",
@@ -32980,19 +32952,15 @@
       "longitude": 13.457527,
       "latitude": 51.418595,
       "operators": [
-        "VGM",
-        "Verkehrsmanagement Elbe-Elster GmbH"
+        "VGM"
       ],
       "lines": {
         "Regionalbus": [
           "439",
           "461"
-        ],
-        "Bus": [
-          "587"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:5793",
@@ -33003,20 +32971,16 @@
       "longitude": 13.448822,
       "latitude": 51.409715,
       "operators": [
-        "VGM",
-        "Verkehrsmanagement Elbe-Elster GmbH"
+        "VGM"
       ],
       "lines": {
         "Regionalbus": [
           "439",
           "440",
           "461"
-        ],
-        "Bus": [
-          "587"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14627:5782",
@@ -33027,8 +32991,7 @@
       "longitude": 13.452514,
       "latitude": 51.414337,
       "operators": [
-        "VGM",
-        "Verkehrsmanagement Elbe-Elster GmbH"
+        "VGM"
       ],
       "lines": {
         "Regionalbus": [
@@ -33036,12 +32999,9 @@
           "440",
           "461",
           "Sv313"
-        ],
-        "Bus": [
-          "587"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14627:5801",
@@ -33094,20 +33054,16 @@
       "longitude": 13.451274,
       "latitude": 51.416427,
       "operators": [
-        "VGM",
-        "Verkehrsmanagement Elbe-Elster GmbH"
+        "VGM"
       ],
       "lines": {
         "Regionalbus": [
           "439",
           "440",
           "461"
-        ],
-        "Bus": [
-          "587"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14627:5810",
@@ -33136,20 +33092,16 @@
       "longitude": 13.44866,
       "latitude": 51.414774,
       "operators": [
-        "VGM",
-        "Verkehrsmanagement Elbe-Elster GmbH"
+        "VGM"
       ],
       "lines": {
         "Regionalbus": [
           "439",
           "440",
           "461"
-        ],
-        "Bus": [
-          "587"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14627:5803",
@@ -33598,14 +33550,12 @@
       "latitude": 50.966301,
       "operators": [
         "DB Regio AG Südost",
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "236",
-          "237",
-          "7"
+          "237"
         ],
         "Zug": [
           "U28"
@@ -33614,7 +33564,7 @@
           "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14628:3941",
@@ -33625,17 +33575,15 @@
       "longitude": 14.240848,
       "latitude": 50.967801,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "236",
-          "237",
-          "7"
+          "237"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:3943",
@@ -33646,17 +33594,15 @@
       "longitude": 14.239034,
       "latitude": 50.968338,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "236",
-          "237",
-          "7"
+          "237"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:3942",
@@ -34199,8 +34145,7 @@
         "Zug": [
           "RB72",
           "RE19",
-          "RE20",
-          "U28"
+          "RE20"
         ],
         "S-Bahn": [
           "S1",
@@ -34210,7 +34155,7 @@
           "SEV"
         ]
       },
-      "total_lines": 15
+      "total_lines": 14
     },
     {
       "id": "de:14628:3064",
@@ -34733,9 +34678,6 @@
           "S1",
           "S2"
         ],
-        "Zug": [
-          "U28"
-        ],
         "Stadtbus": [
           "A (Heidenau)"
         ],
@@ -34743,7 +34685,7 @@
           "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14628:3065",
@@ -34760,12 +34702,9 @@
         "S-Bahn": [
           "S1",
           "S2"
-        ],
-        "Zug": [
-          "U28"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:3054",
@@ -35079,12 +35018,9 @@
         ],
         "Zug": [
           "RB71"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14628:3849",
@@ -35537,17 +35473,15 @@
       "longitude": 14.284201,
       "latitude": 50.961402,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "268",
-          "269",
-          "5"
+          "269"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:3953",
@@ -35558,16 +35492,14 @@
       "longitude": 14.277841,
       "latitude": 50.960446,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
-          "269",
-          "5"
+          "269"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3955",
@@ -35578,17 +35510,14 @@
       "longitude": 14.290696,
       "latitude": 50.960151,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
-          "268",
-          "269",
-          "5"
+          "268"
         ]
       },
-      "total_lines": 3
+      "total_lines": 1
     },
     {
       "id": "de:14628:3956",
@@ -35599,16 +35528,14 @@
       "longitude": 14.300703,
       "latitude": 50.958929,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
-          "268",
-          "5"
+          "268"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3954",
@@ -35619,16 +35546,14 @@
       "longitude": 14.279853,
       "latitude": 50.955902,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
-          "269",
-          "5"
+          "269"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3957",
@@ -35639,16 +35564,14 @@
       "longitude": 14.305806,
       "latitude": 50.955081,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
-          "268",
-          "5"
+          "268"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:1349",
@@ -35848,18 +35771,16 @@
       "longitude": 14.359444,
       "latitude": 50.925579,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "241",
           "268",
-          "269",
-          "5"
+          "269"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14628:3995",
@@ -35870,18 +35791,16 @@
       "longitude": 14.343786,
       "latitude": 50.925375,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "241",
           "268",
-          "269",
-          "5"
+          "269"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14628:3960",
@@ -35892,18 +35811,16 @@
       "longitude": 14.355779,
       "latitude": 50.922804,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "241",
           "268",
-          "269",
-          "5"
+          "269"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14628:3964",
@@ -35914,18 +35831,16 @@
       "longitude": 14.350928,
       "latitude": 50.923116,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "241",
           "268",
-          "269",
-          "5"
+          "269"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14628:1990",
@@ -36046,7 +35961,6 @@
       "longitude": 14.128317,
       "latitude": 50.98383,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
@@ -36055,11 +35969,10 @@
           "236",
           "237",
           "254",
-          "264",
-          "7"
+          "264"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14628:3683",
@@ -36070,7 +35983,6 @@
       "longitude": 14.115704,
       "latitude": 50.979051,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
@@ -36079,11 +35991,10 @@
           "236",
           "237",
           "254",
-          "264",
-          "7"
+          "264"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14628:3706",
@@ -36191,7 +36102,6 @@
       "longitude": 14.139671,
       "latitude": 50.987031,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
@@ -36199,11 +36109,10 @@
           "235",
           "236",
           "237",
-          "264",
-          "7"
+          "264"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14625:6497",
@@ -36334,11 +36243,10 @@
           "784"
         ],
         "Stadtbus": [
-          "2 (Hoyerswerda)",
-          "P2 (Hoyerswerda)"
+          "2 (Hoyerswerda)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:8016",
@@ -36377,12 +36285,10 @@
         "Stadtbus": [
           "1 (Hoyerswerda)",
           "3 (Hoyerswerda)",
-          "HFL *",
-          "P1 (Hoyerswerda)",
-          "P3 (Hoyerswerda)"
+          "HFL *"
         ]
       },
-      "total_lines": 6
+      "total_lines": 4
     },
     {
       "id": "de:14625:8040",
@@ -36401,12 +36307,10 @@
           "784"
         ],
         "Stadtbus": [
-          "1 (Hoyerswerda)",
-          "P1 (Hoyerswerda)",
-          "P2 (Hoyerswerda)"
+          "1 (Hoyerswerda)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 2
     },
     {
       "id": "de:14625:8090",
@@ -36421,11 +36325,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "1 (Hoyerswerda)",
-          "P1 (Hoyerswerda)"
+          "1 (Hoyerswerda)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:8028",
@@ -36511,11 +36414,10 @@
       "lines": {
         "Stadtbus": [
           "2 (Hoyerswerda)",
-          "HFL *",
-          "P2 (Hoyerswerda)"
+          "HFL *"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:8000",
@@ -36559,10 +36461,7 @@
           "2 (Hoyerswerda)",
           "3 (Hoyerswerda)",
           "5 (Hoyerswerda)",
-          "HFL *",
-          "P1 (Hoyerswerda)",
-          "P2 (Hoyerswerda)",
-          "P3 (Hoyerswerda)"
+          "HFL *"
         ],
         "Zug": [
           "RB64",
@@ -36573,7 +36472,7 @@
           "SEV"
         ]
       },
-      "total_lines": 24
+      "total_lines": 21
     },
     {
       "id": "de:14625:8051",
@@ -36594,12 +36493,10 @@
         ],
         "Stadtbus": [
           "2 (Hoyerswerda)",
-          "4 (Hoyerswerda)",
-          "P3 (Hoyerswerda)",
-          "P4 (Hoyerswerda)"
+          "4 (Hoyerswerda)"
         ]
       },
-      "total_lines": 6
+      "total_lines": 4
     },
     {
       "id": "de:14625:8010",
@@ -36639,11 +36536,10 @@
         ],
         "Stadtbus": [
           "3 (Hoyerswerda)",
-          "HFL *",
-          "P3 (Hoyerswerda)"
+          "HFL *"
         ]
       },
-      "total_lines": 16
+      "total_lines": 15
     },
     {
       "id": "de:14625:8130",
@@ -36690,11 +36586,10 @@
           "800"
         ],
         "Stadtbus": [
-          "1 (Hoyerswerda)",
-          "P1 (Hoyerswerda)"
+          "1 (Hoyerswerda)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14625:8050",
@@ -36714,12 +36609,10 @@
         ],
         "Stadtbus": [
           "3 (Hoyerswerda)",
-          "HFL *",
-          "P2 (Hoyerswerda)",
-          "P3 (Hoyerswerda)"
+          "HFL *"
         ]
       },
-      "total_lines": 5
+      "total_lines": 3
     },
     {
       "id": "de:14625:8003",
@@ -36759,12 +36652,10 @@
           "792"
         ],
         "Stadtbus": [
-          "1 (Hoyerswerda)",
-          "P3 (Hoyerswerda)",
-          "P4 (Hoyerswerda)"
+          "1 (Hoyerswerda)"
         ]
       },
-      "total_lines": 7
+      "total_lines": 5
     },
     {
       "id": "de:14625:8053",
@@ -36779,11 +36670,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "2 (Hoyerswerda)",
-          "P2 (Hoyerswerda)"
+          "2 (Hoyerswerda)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:8027",
@@ -36860,11 +36750,10 @@
           "776"
         ],
         "Stadtbus": [
-          "3 (Hoyerswerda)",
-          "P3 (Hoyerswerda)"
+          "3 (Hoyerswerda)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:8007",
@@ -36879,11 +36768,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "3 (Hoyerswerda)",
-          "P3 (Hoyerswerda)"
+          "3 (Hoyerswerda)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:8017",
@@ -36904,11 +36792,10 @@
           "792"
         ],
         "Stadtbus": [
-          "2 (Hoyerswerda)",
-          "P2 (Hoyerswerda)"
+          "2 (Hoyerswerda)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14625:8069",
@@ -36923,11 +36810,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "4 (Hoyerswerda)",
-          "P4 (Hoyerswerda)"
+          "4 (Hoyerswerda)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:8022",
@@ -36944,12 +36830,10 @@
         "Stadtbus": [
           "1 (Hoyerswerda)",
           "3 (Hoyerswerda)",
-          "HFL *",
-          "P1 (Hoyerswerda)",
-          "P3 (Hoyerswerda)"
+          "HFL *"
         ]
       },
-      "total_lines": 5
+      "total_lines": 3
     },
     {
       "id": "de:14625:8034",
@@ -36984,14 +36868,13 @@
       "lines": {
         "Stadtbus": [
           "4 (Hoyerswerda)",
-          "HFL *",
-          "P4 (Hoyerswerda)"
+          "HFL *"
         ],
         "Zug": [
           "RB64"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14625:8052",
@@ -37001,16 +36884,9 @@
       "name_with_city": "Hoyerswerda Hufelandstraße",
       "longitude": 14.262812,
       "latitude": 51.43318,
-      "operators": [
-        "VGH"
-      ],
-      "lines": {
-        "Stadtbus": [
-          "P2 (Hoyerswerda)",
-          "P3 (Hoyerswerda)"
-        ]
-      },
-      "total_lines": 2
+      "operators": [],
+      "lines": {},
+      "total_lines": 0
     },
     {
       "id": "de:14625:8038",
@@ -37025,11 +36901,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "4 (Hoyerswerda)",
-          "P4 (Hoyerswerda)"
+          "4 (Hoyerswerda)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:8073",
@@ -37049,12 +36924,10 @@
         ],
         "Stadtbus": [
           "2 (Hoyerswerda)",
-          "4 (Hoyerswerda)",
-          "P1 (Hoyerswerda)",
-          "P4 (Hoyerswerda)"
+          "4 (Hoyerswerda)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 3
     },
     {
       "id": "de:14625:8131",
@@ -37097,11 +36970,10 @@
           "619"
         ],
         "Stadtbus": [
-          "2 (Hoyerswerda)",
-          "P2 (Hoyerswerda)"
+          "2 (Hoyerswerda)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:8015",
@@ -37145,11 +37017,10 @@
           "800"
         ],
         "Stadtbus": [
-          "3 (Hoyerswerda)",
-          "P3 (Hoyerswerda)"
+          "3 (Hoyerswerda)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14625:8031",
@@ -37172,11 +37043,10 @@
           "784"
         ],
         "Stadtbus": [
-          "2 (Hoyerswerda)",
-          "P2 (Hoyerswerda)"
+          "2 (Hoyerswerda)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14625:8074",
@@ -37195,11 +37065,10 @@
           "779"
         ],
         "Stadtbus": [
-          "4 (Hoyerswerda)",
-          "P4 (Hoyerswerda)"
+          "4 (Hoyerswerda)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:8088",
@@ -37218,11 +37087,10 @@
           "792"
         ],
         "Stadtbus": [
-          "1 (Hoyerswerda)",
-          "P1 (Hoyerswerda)"
+          "1 (Hoyerswerda)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:8066",
@@ -37237,12 +37105,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "3 (Hoyerswerda)",
-          "P1 (Hoyerswerda)",
-          "P4 (Hoyerswerda)"
+          "3 (Hoyerswerda)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 1
     },
     {
       "id": "de:14625:8082",
@@ -37257,11 +37123,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "3 (Hoyerswerda)",
-          "P3 (Hoyerswerda)"
+          "3 (Hoyerswerda)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:8077",
@@ -37276,11 +37141,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "1 (Hoyerswerda)",
-          "P1 (Hoyerswerda)"
+          "1 (Hoyerswerda)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:8008",
@@ -37353,11 +37217,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "1 (Hoyerswerda)",
-          "P1 (Hoyerswerda)"
+          "1 (Hoyerswerda)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:8054",
@@ -37372,11 +37235,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "2 (Hoyerswerda)",
-          "P2 (Hoyerswerda)"
+          "2 (Hoyerswerda)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:8014",
@@ -37409,11 +37271,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "1 (Hoyerswerda)",
-          "P1 (Hoyerswerda)"
+          "1 (Hoyerswerda)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:8024",
@@ -37446,11 +37307,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "1 (Hoyerswerda)",
-          "P1 (Hoyerswerda)"
+          "1 (Hoyerswerda)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:8045",
@@ -37465,12 +37325,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "3 (Hoyerswerda)",
-          "P1 (Hoyerswerda)",
-          "P4 (Hoyerswerda)"
+          "3 (Hoyerswerda)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 1
     },
     {
       "id": "de:14625:8035",
@@ -37507,13 +37365,10 @@
           "794"
         ],
         "Stadtbus": [
-          "4 (Hoyerswerda)",
-          "P2 (Hoyerswerda)",
-          "P3 (Hoyerswerda)",
-          "P4 (Hoyerswerda)"
+          "4 (Hoyerswerda)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 2
     },
     {
       "id": "de:14625:8018",
@@ -37541,11 +37396,10 @@
           "794"
         ],
         "Stadtbus": [
-          "2 (Hoyerswerda)",
-          "P2 (Hoyerswerda)"
+          "2 (Hoyerswerda)"
         ]
       },
-      "total_lines": 9
+      "total_lines": 8
     },
     {
       "id": "de:14625:8033",
@@ -37597,8 +37451,7 @@
       "longitude": 14.254072,
       "latitude": 51.437789,
       "operators": [
-        "RBO",
-        "VGH"
+        "RBO"
       ],
       "lines": {
         "Regionalbus": [
@@ -37606,13 +37459,9 @@
           "784",
           "792",
           "794"
-        ],
-        "Stadtbus": [
-          "P1 (Hoyerswerda)",
-          "P2 (Hoyerswerda)"
         ]
       },
-      "total_lines": 6
+      "total_lines": 4
     },
     {
       "id": "de:14625:8019",
@@ -37628,11 +37477,10 @@
       "lines": {
         "Stadtbus": [
           "2 (Hoyerswerda)",
-          "5 (Hoyerswerda)",
-          "P2 (Hoyerswerda)"
+          "5 (Hoyerswerda)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:8063",
@@ -37652,11 +37500,10 @@
         ],
         "Stadtbus": [
           "2 (Hoyerswerda)",
-          "HFL *",
-          "P2 (Hoyerswerda)"
+          "HFL *"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14625:8064",
@@ -37671,11 +37518,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "2 (Hoyerswerda)",
-          "P2 (Hoyerswerda)"
+          "2 (Hoyerswerda)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:8047",
@@ -37691,12 +37537,10 @@
       "lines": {
         "Stadtbus": [
           "3 (Hoyerswerda)",
-          "HFL *",
-          "P2 (Hoyerswerda)",
-          "P3 (Hoyerswerda)"
+          "HFL *"
         ]
       },
-      "total_lines": 4
+      "total_lines": 2
     },
     {
       "id": "de:14625:8055",
@@ -37711,11 +37555,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "2 (Hoyerswerda)",
-          "P2 (Hoyerswerda)"
+          "2 (Hoyerswerda)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:8037",
@@ -37752,11 +37595,10 @@
           "536"
         ],
         "Stadtbus": [
-          "1 (Hoyerswerda)",
-          "P1 (Hoyerswerda)"
+          "1 (Hoyerswerda)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:8025",
@@ -37789,11 +37631,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "2 (Hoyerswerda)",
-          "P2 (Hoyerswerda)"
+          "2 (Hoyerswerda)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:8083",
@@ -37808,11 +37649,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "3 (Hoyerswerda)",
-          "P3 (Hoyerswerda)"
+          "3 (Hoyerswerda)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:8004",
@@ -37869,12 +37709,10 @@
         "Stadtbus": [
           "2 (Hoyerswerda)",
           "4 (Hoyerswerda)",
-          "HFL *",
-          "P2 (Hoyerswerda)",
-          "P4 (Hoyerswerda)"
+          "HFL *"
         ]
       },
-      "total_lines": 6
+      "total_lines": 4
     },
     {
       "id": "de:14625:8021",
@@ -37890,11 +37728,10 @@
       "lines": {
         "Stadtbus": [
           "1 (Hoyerswerda)",
-          "2 (Hoyerswerda)",
-          "P1 (Hoyerswerda)"
+          "2 (Hoyerswerda)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:8075",
@@ -37913,11 +37750,10 @@
           "792"
         ],
         "Stadtbus": [
-          "1 (Hoyerswerda)",
-          "P1 (Hoyerswerda)"
+          "1 (Hoyerswerda)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:1059",
@@ -41379,13 +41215,18 @@
       "name_with_city": "Kohlmühle (Hohnstein) Bahnhof Goßdorf-Kohlmühle",
       "longitude": 14.164842,
       "latitude": 50.941283,
-      "operators": [],
+      "operators": [
+        "DB Regio AG Südost"
+      ],
       "lines": {
         "Zug": [
           "U28"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:6190",
@@ -42183,13 +42024,9 @@
       "latitude": 50.990633,
       "operators": [
         "DB Regio AG Südost",
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "6"
-        ],
         "Taktbus": [
           "267"
         ],
@@ -42197,7 +42034,7 @@
           "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:3914",
@@ -42806,10 +42643,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "242"
+          "242",
+          "246"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3509",
@@ -42843,8 +42681,8 @@
       ],
       "lines": {
         "Zug": [
-          "RE50",
-          "U28"
+          "RE20",
+          "RE50"
         ],
         "S-Bahn": [
           "S1"
@@ -42865,10 +42703,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "242"
+          "242",
+          "246"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3517",
@@ -43281,12 +43120,9 @@
         "Zug": [
           "RE15",
           "RE18"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14627:5442",
@@ -43916,18 +43752,14 @@
       "longitude": 14.089033,
       "latitude": 51.039524,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "265"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3824",
@@ -43951,12 +43783,9 @@
         ],
         "Zug": [
           "RB71"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14628:3813",
@@ -44043,7 +43872,6 @@
       "longitude": 14.132359,
       "latitude": 51.039326,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -44053,12 +43881,9 @@
         ],
         "PlusBus": [
           "261"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14628:3826",
@@ -44069,7 +43894,6 @@
       "longitude": 14.119046,
       "latitude": 51.041913,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -44080,12 +43904,9 @@
         ],
         "PlusBus": [
           "261"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14628:3821",
@@ -46605,18 +46426,16 @@
       "longitude": 14.180679,
       "latitude": 50.971591,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "235",
           "236",
-          "237",
-          "7"
+          "237"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14627:4900",
@@ -47132,9 +46951,9 @@
     {
       "id": "de:14628:1955",
       "numeric_id": "33001955",
-      "name": "Luchberg",
+      "name": "Luchau",
       "city": "Luchau",
-      "name_with_city": "Luchau Luchberg",
+      "name_with_city": "Luchau Luchau",
       "longitude": 13.737289,
       "latitude": 50.86565,
       "operators": [
@@ -48007,6 +47826,24 @@
       "total_lines": 1
     },
     {
+      "id": "de:14628:3141",
+      "numeric_id": "33003141",
+      "name": "Am Sportplatz",
+      "city": "Maxen",
+      "name_with_city": "Maxen Am Sportplatz",
+      "longitude": 13.803836,
+      "latitude": 50.924254,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Regionalbus": [
+          "202"
+        ]
+      },
+      "total_lines": 1
+    },
+    {
       "id": "de:14628:3139",
       "numeric_id": "33003139",
       "name": "An der Naturbühne",
@@ -48043,24 +47880,6 @@
         ]
       },
       "total_lines": 2
-    },
-    {
-      "id": "de:14628:3141",
-      "numeric_id": "33003141",
-      "name": "Maxener Straße",
-      "city": "Maxen",
-      "name_with_city": "Maxen Maxener Straße",
-      "longitude": 13.803836,
-      "latitude": 50.924254,
-      "operators": [
-        "RVSOE"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "202"
-        ]
-      },
-      "total_lines": 1
     },
     {
       "id": "de:14627:5115",
@@ -48521,10 +48340,7 @@
           "412",
           "413",
           "414",
-          "416",
           "417",
-          "418",
-          "421",
           "422",
           "426",
           "428",
@@ -48541,7 +48357,7 @@
           "C (Meißen)"
         ]
       },
-      "total_lines": 24
+      "total_lines": 21
     },
     {
       "id": "de:14627:4046",
@@ -53838,12 +53654,9 @@
         "Zug": [
           "RB31",
           "RE50"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14627:4122",
@@ -55054,12 +54867,9 @@
         ],
         "Zug": [
           "RE50"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 7
+      "total_lines": 6
     },
     {
       "id": "de:14627:5703",
@@ -55808,14 +55618,11 @@
         "S-Bahn": [
           "S1"
         ],
-        "Zug": [
-          "U28"
-        ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:477",
@@ -56665,17 +56472,15 @@
       "longitude": 14.288648,
       "latitude": 50.925335,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "241",
-          "269",
-          "5"
+          "269"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:3975",
@@ -56704,16 +56509,14 @@
       "longitude": 14.285297,
       "latitude": 50.945268,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
-          "269",
-          "5"
+          "269"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3974",
@@ -56742,16 +56545,14 @@
       "longitude": 14.288603,
       "latitude": 50.943944,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
-          "269",
-          "5"
+          "269"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3969",
@@ -56762,16 +56563,14 @@
       "longitude": 14.291603,
       "latitude": 50.944164,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
-          "269",
-          "5"
+          "269"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3972",
@@ -56782,16 +56581,14 @@
       "longitude": 14.29782,
       "latitude": 50.943423,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
-          "269",
-          "5"
+          "269"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3977",
@@ -56820,17 +56617,15 @@
       "longitude": 14.300775,
       "latitude": 50.9264,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "241",
-          "269",
-          "5"
+          "269"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:6604",
@@ -58475,8 +58270,7 @@
         "Zug": [
           "RB71",
           "RE20",
-          "RE50",
-          "U28"
+          "RE50"
         ],
         "S-Bahn": [
           "S1",
@@ -58486,7 +58280,7 @@
           "SEV"
         ]
       },
-      "total_lines": 7
+      "total_lines": 6
     },
     {
       "id": "de:14628:3383",
@@ -58880,11 +58674,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "G/L (Pirna)",
-          "H/S (Pirna)"
+          "G/L (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3436",
@@ -60682,7 +60475,9 @@
       "name_with_city": "Porschdorf Haltepunkt",
       "longitude": 14.138476,
       "latitude": 50.943281,
-      "operators": [],
+      "operators": [
+        "DB Regio AG Südost"
+      ],
       "lines": {
         "Zug": [
           "U28"
@@ -61443,12 +61238,9 @@
           "RE15",
           "RE18",
           "RE50"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 9
+      "total_lines": 8
     },
     {
       "id": "de:14627:5102",
@@ -63198,7 +62990,6 @@
       "latitude": 51.110476,
       "operators": [
         "DB AG",
-        "DB Regio AG Südost",
         "VGM"
       ],
       "lines": {
@@ -63206,14 +62997,13 @@
           "400"
         ],
         "Zug": [
-          "RB31",
-          "RE50"
+          "RB31"
         ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14627:4237",
@@ -65167,8 +64957,8 @@
       ],
       "lines": {
         "Zug": [
-          "RE50",
-          "U28"
+          "RE20",
+          "RE50"
         ],
         "S-Bahn": [
           "S1"
@@ -70023,16 +69813,14 @@
       "longitude": 14.331246,
       "latitude": 50.940559,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
-          "268",
-          "5"
+          "268"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3992",
@@ -70043,16 +69831,14 @@
       "longitude": 14.3275,
       "latitude": 50.938159,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
-          "268",
-          "5"
+          "268"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3990",
@@ -70063,16 +69849,14 @@
       "longitude": 14.317313,
       "latitude": 50.946564,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
-          "268",
-          "5"
+          "268"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3993",
@@ -70083,18 +69867,16 @@
       "longitude": 14.326152,
       "latitude": 50.928931,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "241",
           "268",
-          "269",
-          "5"
+          "269"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14628:3994",
@@ -70105,18 +69887,16 @@
       "longitude": 14.336798,
       "latitude": 50.926836,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "241",
           "268",
-          "269",
-          "5"
+          "269"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14628:3979",
@@ -70127,17 +69907,15 @@
       "longitude": 14.314133,
       "latitude": 50.928625,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "241",
-          "269",
-          "5"
+          "269"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4613",
@@ -71760,18 +71538,14 @@
       "longitude": 14.220591,
       "latitude": 50.983208,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "6"
-        ],
         "Taktbus": [
           "267"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3945",
@@ -71782,18 +71556,14 @@
       "longitude": 14.231892,
       "latitude": 50.982993,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "6"
-        ],
         "Taktbus": [
           "267"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:6696",
@@ -72185,26 +71955,14 @@
       "longitude": 14.246301,
       "latitude": 50.969933,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
-          "236",
-          "237",
-          "260",
-          "268",
-          "269",
-          "7"
-        ],
-        "PlusBus": [
-          "261"
-        ],
-        "Taktbus": [
-          "267"
+          "237"
         ]
       },
-      "total_lines": 8
+      "total_lines": 1
     },
     {
       "id": "de:14628:3935",
@@ -72215,17 +71973,13 @@
       "longitude": 14.257225,
       "latitude": 50.968768,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "236",
           "237",
-          "260",
-          "268",
-          "269",
-          "5"
+          "260"
         ],
         "PlusBus": [
           "261"
@@ -72238,7 +71992,7 @@
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 10
+      "total_lines": 7
     },
     {
       "id": "de:14628:3921",
@@ -72249,7 +72003,6 @@
       "longitude": 14.270529,
       "latitude": 50.967144,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
@@ -72258,8 +72011,7 @@
           "237",
           "260",
           "268",
-          "269",
-          "5"
+          "269"
         ],
         "PlusBus": [
           "261"
@@ -72272,7 +72024,7 @@
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 10
+      "total_lines": 9
     },
     {
       "id": "de:14628:3932",
@@ -72321,15 +72073,9 @@
       "longitude": 14.262148,
       "latitude": 50.982773,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "5",
-          "6",
-          "7"
-        ],
         "PlusBus": [
           "261"
         ],
@@ -72338,7 +72084,7 @@
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 6
+      "total_lines": 3
     },
     {
       "id": "de:14628:3948",
@@ -72404,7 +72150,6 @@
       "longitude": 14.265139,
       "latitude": 50.97667,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
@@ -72412,10 +72157,7 @@
           "237",
           "260",
           "268",
-          "269",
-          "5",
-          "6",
-          "7"
+          "269"
         ],
         "PlusBus": [
           "261"
@@ -72425,7 +72167,7 @@
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 10
+      "total_lines": 7
     },
     {
       "id": "de:14628:3958",
@@ -72440,11 +72182,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "237",
           "260"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3924",
@@ -72455,21 +72196,15 @@
       "longitude": 14.270646,
       "latitude": 50.982914,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "5",
-          "6",
-          "7"
-        ],
         "Stadtbus": [
           "R (Sebnitz)",
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 2
     },
     {
       "id": "de:14628:3950",
@@ -72492,30 +72227,19 @@
       "longitude": 14.254979,
       "latitude": 50.9687,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "236",
-          "237",
-          "260",
-          "268",
-          "269",
-          "7"
-        ],
-        "PlusBus": [
-          "261"
-        ],
-        "Taktbus": [
-          "267"
+          "237"
         ],
         "Stadtbus": [
           "R (Sebnitz)",
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 10
+      "total_lines": 4
     },
     {
       "id": "de:14628:3949",
@@ -72544,21 +72268,15 @@
       "longitude": 14.264312,
       "latitude": 50.983593,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "5",
-          "6",
-          "7"
-        ],
         "Stadtbus": [
           "R (Sebnitz)",
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 2
     },
     {
       "id": "de:14628:3931",
@@ -72704,16 +72422,12 @@
       "longitude": 14.26133,
       "latitude": 50.977366,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "237",
-          "260",
-          "5",
-          "6",
-          "7"
+          "260"
         ],
         "PlusBus": [
           "261"
@@ -72725,7 +72439,7 @@
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 8
+      "total_lines": 5
     },
     {
       "id": "de:14628:3927",
@@ -72736,21 +72450,15 @@
       "longitude": 14.276287,
       "latitude": 50.978865,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "5",
-          "6",
-          "7"
-        ],
         "Stadtbus": [
           "R (Sebnitz)",
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 2
     },
     {
       "id": "de:14628:3936",
@@ -72761,13 +72469,9 @@
       "longitude": 14.252158,
       "latitude": 50.978503,
       "operators": [
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "6"
-        ],
         "Taktbus": [
           "267"
         ],
@@ -72775,7 +72479,7 @@
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:3939",
@@ -73230,9 +72934,9 @@
     {
       "id": "de:14628:1738",
       "numeric_id": "33001738",
-      "name": "Gasthaus (Berghof)",
+      "name": "Feuerwehr",
       "city": "Seyde",
-      "name_with_city": "Seyde Gasthaus (Berghof)",
+      "name_with_city": "Seyde Feuerwehr",
       "longitude": 13.656575,
       "latitude": 50.762399,
       "operators": [
@@ -73662,9 +73366,9 @@
     {
       "id": "de:14627:5885",
       "numeric_id": "33005885",
-      "name": "Spansberg",
+      "name": "Ortsmitte",
       "city": "Spansberg",
-      "name_with_city": "Spansberg Spansberg",
+      "name_with_city": "Spansberg Ortsmitte",
       "longitude": 13.390377,
       "latitude": 51.420175,
       "operators": [
@@ -73923,24 +73627,6 @@
       "total_lines": 1
     },
     {
-      "id": "de:14625:6886",
-      "numeric_id": "33006886",
-      "name": "Südstraße",
-      "city": "Spreewitz",
-      "name_with_city": "Spreewitz Südstraße",
-      "longitude": 14.358384,
-      "latitude": 51.514609,
-      "operators": [
-        "RBO"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "793"
-        ]
-      },
-      "total_lines": 1
-    },
-    {
       "id": "de:14628:3725",
       "numeric_id": "33003725",
       "name": "Aussicht",
@@ -73972,8 +73658,8 @@
       ],
       "lines": {
         "Zug": [
-          "RE50",
-          "U28"
+          "RE20",
+          "RE50"
         ],
         "S-Bahn": [
           "S1"
@@ -74154,11 +73840,10 @@
       "lines": {
         "Regionalbus": [
           "420",
-          "Sv232",
           "Sv234"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4849",
@@ -74175,11 +73860,10 @@
         "Regionalbus": [
           "420",
           "Sv230",
-          "Sv232",
           "Sv234"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14627:4848",
@@ -76500,12 +76184,9 @@
         ],
         "Zug": [
           "RB45"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14627:5874",
@@ -76930,21 +76611,19 @@
       "latitude": 50.966516,
       "operators": [
         "DB Regio AG Südost",
-        "Müller Busreisen",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "235",
           "236",
-          "237",
-          "7"
+          "237"
         ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14628:3674",
@@ -76954,7 +76633,9 @@
       "name_with_city": "Ulbersdorf Bahnhof",
       "longitude": 14.220133,
       "latitude": 50.955523,
-      "operators": [],
+      "operators": [
+        "DB Regio AG Südost"
+      ],
       "lines": {
         "Zug": [
           "U28"
@@ -78146,12 +77827,9 @@
           "RE15",
           "RE18",
           "RE50"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 10
+      "total_lines": 9
     },
     {
       "id": "de:14627:4137",
@@ -79687,6 +79365,34 @@
       "total_lines": 1
     },
     {
+      "id": "de:14625:6240",
+      "numeric_id": "33006240",
+      "name": "Abzweig Bischofswerdaer Straße",
+      "city": "Wiesa (Kamenz)",
+      "name_with_city": "Wiesa (Kamenz) Abzweig Bischofswerdaer Straße",
+      "longitude": 14.114464,
+      "latitude": 51.263411,
+      "operators": [
+        "RBO"
+      ],
+      "lines": {
+        "PlusBus": [
+          "530",
+          "535"
+        ],
+        "Anruflinienbus": [
+          "789"
+        ],
+        "Regionalbus": [
+          "789"
+        ],
+        "Stadtbus": [
+          "22 (Kamenz)"
+        ]
+      },
+      "total_lines": 5
+    },
+    {
       "id": "de:14625:6242",
       "numeric_id": "33006242",
       "name": "Am Bahnhof",
@@ -79709,34 +79415,6 @@
         ]
       },
       "total_lines": 3
-    },
-    {
-      "id": "de:14625:6240",
-      "numeric_id": "33006240",
-      "name": "Bautzner Straße",
-      "city": "Wiesa (Kamenz)",
-      "name_with_city": "Wiesa (Kamenz) Bautzner Straße",
-      "longitude": 14.114464,
-      "latitude": 51.263411,
-      "operators": [
-        "RBO"
-      ],
-      "lines": {
-        "PlusBus": [
-          "530",
-          "535"
-        ],
-        "Anruflinienbus": [
-          "789"
-        ],
-        "Regionalbus": [
-          "789"
-        ],
-        "Stadtbus": [
-          "22 (Kamenz)"
-        ]
-      },
-      "total_lines": 5
     },
     {
       "id": "de:14625:6430",
@@ -81461,11 +81139,10 @@
           "794"
         ],
         "Stadtbus": [
-          "4 (Hoyerswerda)",
-          "P4 (Hoyerswerda)"
+          "4 (Hoyerswerda)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14625:8113",
@@ -81484,11 +81161,10 @@
           "794"
         ],
         "Stadtbus": [
-          "4 (Hoyerswerda)",
-          "P4 (Hoyerswerda)"
+          "4 (Hoyerswerda)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:8112",
