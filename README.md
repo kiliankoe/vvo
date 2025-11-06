@@ -43,7 +43,7 @@ For commercial applications or high-volume usage, contact VVO at opendata@vvo-on
 
 ### 🟢 Open Access APIs
 
-- **[TRIAS API](documentation/trias.md)** - `https://trias.vvo-online.de:9000/middleware/data/trias`
+- **[TRIAS API](documentation/trias.md)** - `http://efa.vvo-online.de:8080/std3/trias`
   - **Official** XML-based API following VDV 431-2 standard
   - Comprehensive features: journey planning, real-time departures, stop search
   - No authentication required (use RequestorRef: "OpenService")
