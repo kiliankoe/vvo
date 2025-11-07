@@ -1,6 +1,6 @@
 # VVO Station Data Summary
 
-Total stations: 3913
+Total stations: 3914
 
 ## Stations by City
 
@@ -29,13 +29,13 @@ Total stations: 3913
 
 ## Stations by Transit Type
 
-- Regionalbus: 2705 stations
-- Stadtbus: 1293 stations
-- PlusBus: 628 stations
+- Regionalbus: 2709 stations
+- Stadtbus: 1294 stations
+- PlusBus: 629 stations
 - Anruflinienbus: 475 stations
 - Straßenbahn: 258 stations
 - Anruflinientaxi: 197 stations
-- Ersatzverkehr: 107 stations
+- Ersatzverkehr: 106 stations
 - Zug: 99 stations
 - Taktbus: 75 stations
 - S-Bahn: 54 stations
@@ -53,25 +53,25 @@ Total stations: 3913
 - RVSOE: 1307 stations
 - VGM: 1170 stations
 - DVB: 763 stations
-- RBO: 712 stations
-- DB Regio AG Südost: 124 stations
+- RBO: 713 stations
+- DB Regio AG Südost: 123 stations
 - VGH: 85 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 68 stations
 - Müller Busreisen: 58 stations
 - SATRA: 43 stations
 - RBM: 31 stations
-- DB AG: 27 stations
 - SDG: 24 stations
+- DB AG: 24 stations
 - Mitteldeutsche Regiobahn: 20 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
 - Cottbusverkehr GmbH: 11 stations
 - trilex - Die Länderbahn GmbH DLB: 9 stations
+- DB Regio: 9 stations
+- DB Fernverkehr AG: 4 stations
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 3 stations
-- European Sleeper: 2 stations
 - FlixTrain: 2 stations
-- DB Fernverkehr AG: 2 stations
 - Nordsachsen Mobil: 2 stations
 - Verein Sächsischer Eisenbahnfreunde: 1 stations
 - Omnibusbetrieb Siegfried Wilhelm: 1 stations
@@ -94,13 +94,13 @@ Total stations: 3913
 - Riesa Rudolf-Breitscheid-Straße: 19 lines
 - Lommatzsch Busbahnhof: 18 lines
 - Dresden Postplatz: 17 lines
+- Freital S-Bf. / Busbf. Deuben: 17 lines
+- Großenhain Lessingplatz: 17 lines
 - Großenhain Mozartallee: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
 - Dresden S-Bf. Strehlen: 16 lines
 - Dresden Trachenberger Platz: 16 lines
-- Freital S-Bf. / Busbf. Deuben: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
-- Großenhain Lessingplatz: 16 lines
 - Kamenz Macherstraße: 16 lines
 - Meißen S-Bahnhof Altstadt: 16 lines
 - Riesa Sachsenhof: 16 lines
@@ -131,6 +131,7 @@ Total stations: 3913
 - Dresden S-Bf. Freiberger Straße: 12 lines
 - Dresden Schillerplatz: 12 lines
 - Dresden Walpurgisstraße: 12 lines
+- Freital S-Bahnhof Hainsberg: 12 lines
 - Pirna Copitz Schulstraße: 12 lines
 - Riesa Goethestraße: 12 lines
 - Dresden Chamissostraße: 11 lines
@@ -143,11 +144,11 @@ Total stations: 3913
 - Dresden Pirnaischer Platz: 11 lines
 - Dresden Prager Straße: 11 lines
 - Dresden S-Bahnhof Niedersedlitz: 11 lines
-- Freital S-Bahnhof Hainsberg: 11 lines
 - Glashütte (Sachsen) Bahnhof / Busbahnhof: 11 lines
 - Großenhain Hohe Straße: 11 lines
 - Pirna Robert-Koch-Straße: 11 lines
 - Pulsnitz Bahnhof: 11 lines
+- Tharandt Bahnhof: 11 lines
 - Altenberg (Erzgebirge) Bahnhof: 10 lines
 - Bischofswerda Schulstraße: 10 lines
 - Cossebaude/Neu-Leuteritz Bahnhof: 10 lines
@@ -166,4 +167,3 @@ Total stations: 3913
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
 - Sebnitz Bahnhof: 10 lines
-- Tharandt Bahnhof: 10 lines

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3913,
+    "count": 3914,
     "format_version": "2.0"
   },
   "stations": [
@@ -1228,9 +1228,8 @@
       "longitude": 14.138099,
       "latitude": 50.91927,
       "operators": [
-        "DB AG",
+        "DB Fernverkehr AG",
         "DB Regio AG Südost",
-        "European Sleeper",
         "RVSOE",
         "Österreichische Bundesbahnen"
       ],
@@ -11821,6 +11820,7 @@
       "latitude": 51.065426,
       "operators": [
         "DB AG",
+        "DB Fernverkehr AG",
         "DB Regio AG Südost",
         "DVB",
         "FlixTrain",
@@ -15490,11 +15490,9 @@
       "longitude": 13.732932,
       "latitude": 51.03993,
       "operators": [
-        "DB AG",
         "DB Fernverkehr AG",
         "DB Regio AG Südost",
         "DVB",
-        "European Sleeper",
         "FlixTrain",
         "Mitteldeutsche Regiobahn",
         "RVSOE",
@@ -15563,6 +15561,7 @@
       "latitude": 51.038671,
       "operators": [
         "DB AG",
+        "DB Regio",
         "DB Regio AG Südost",
         "DVB",
         "Mitteldeutsche Regiobahn"
@@ -15571,6 +15570,9 @@
         "Stadtbus": [
           "66"
         ],
+        "Regionalbus": [
+          "SEV S3"
+        ],
         "Fernbus": [
           "Fernbus"
         ],
@@ -15578,7 +15580,7 @@
           "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:32",
@@ -21385,6 +21387,7 @@
       "longitude": 13.703153,
       "latitude": 51.029796,
       "operators": [
+        "DB Regio",
         "DB Regio AG Südost",
         "DVB",
         "Mitteldeutsche Regiobahn"
@@ -21402,11 +21405,14 @@
         "S-Bahn": [
           "S3"
         ],
+        "Regionalbus": [
+          "SEV S3"
+        ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 7
+      "total_lines": 8
     },
     {
       "id": "de:14612:907",
@@ -25012,8 +25018,8 @@
       "name": "Eschdorfer Berg",
       "city": "Dürrröhrsdorf-Dittersbach",
       "name_with_city": "Dürrröhrsdorf-Dittersbach Eschdorfer Berg",
-      "longitude": 13.9804,
-      "latitude": 51.038394,
+      "longitude": 13.980409,
+      "latitude": 51.038417,
       "operators": [
         "RVSOE"
       ],
@@ -25572,8 +25578,8 @@
       "name": "Brücke",
       "city": "Eschdorf (Dresden)",
       "name_with_city": "Eschdorf (Dresden) Brücke",
-      "longitude": 13.950234,
-      "latitude": 51.036344,
+      "longitude": 13.949866,
+      "latitude": 51.036361,
       "operators": [
         "Müller Busreisen",
         "RVSOE"
@@ -25592,8 +25598,8 @@
       "name": "Gasthaus",
       "city": "Eschdorf (Dresden)",
       "name_with_city": "Eschdorf (Dresden) Gasthaus",
-      "longitude": 13.943812,
-      "latitude": 51.035389,
+      "longitude": 13.943452,
+      "latitude": 51.035423,
       "operators": [
         "Müller Busreisen",
         "RVSOE"
@@ -25612,8 +25618,8 @@
       "name": "Rosinendörfchen",
       "city": "Eschdorf (Dresden)",
       "name_with_city": "Eschdorf (Dresden) Rosinendörfchen",
-      "longitude": 13.958409,
-      "latitude": 51.036355,
+      "longitude": 13.9584,
+      "latitude": 51.036242,
       "operators": [
         "Müller Busreisen",
         "RVSOE"
@@ -27421,6 +27427,7 @@
       "longitude": 13.638357,
       "latitude": 50.988292,
       "operators": [
+        "DB Regio",
         "DB Regio AG Südost",
         "Mitteldeutsche Regiobahn",
         "RVSOE",
@@ -27435,7 +27442,8 @@
           "344",
           "345",
           "363",
-          "376"
+          "376",
+          "SEV S3"
         ],
         "PlusBus": [
           "348"
@@ -27451,7 +27459,7 @@
           "SEV"
         ]
       },
-      "total_lines": 11
+      "total_lines": 12
     },
     {
       "id": "de:14628:1102",
@@ -27462,6 +27470,7 @@
       "longitude": 13.662306,
       "latitude": 51.013019,
       "operators": [
+        "DB Regio",
         "DB Regio AG Südost",
         "Mitteldeutsche Regiobahn",
         "RVSOE"
@@ -27479,11 +27488,14 @@
         "S-Bahn": [
           "S3"
         ],
+        "Regionalbus": [
+          "SEV S3"
+        ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 7
+      "total_lines": 8
     },
     {
       "id": "de:14628:1162",
@@ -27494,6 +27506,7 @@
       "longitude": 13.647071,
       "latitude": 50.999057,
       "operators": [
+        "DB Regio",
         "DB Regio AG Südost",
         "Mitteldeutsche Regiobahn",
         "RVSOE"
@@ -27515,7 +27528,8 @@
           "344",
           "345",
           "363",
-          "376"
+          "376",
+          "SEV S3"
         ],
         "Zug": [
           "RB30",
@@ -27528,7 +27542,7 @@
           "SEV"
         ]
       },
-      "total_lines": 16
+      "total_lines": 17
     },
     {
       "id": "de:14628:1176",
@@ -27539,6 +27553,7 @@
       "longitude": 13.621757,
       "latitude": 50.981189,
       "operators": [
+        "DB Regio",
         "DB Regio AG Südost",
         "Mitteldeutsche Regiobahn",
         "RVSOE"
@@ -27547,7 +27562,8 @@
         "Regionalbus": [
           "344",
           "345",
-          "363"
+          "363",
+          "SEV S3"
         ],
         "Zug": [
           "RB30",
@@ -27560,7 +27576,7 @@
           "SEV"
         ]
       },
-      "total_lines": 7
+      "total_lines": 8
     },
     {
       "id": "de:14628:1143",
@@ -31523,9 +31539,12 @@
           "462",
           "463",
           "467"
+        ],
+        "Stadtbus": [
+          "A (Großenhain)"
         ]
       },
-      "total_lines": 16
+      "total_lines": 17
     },
     {
       "id": "de:14627:5049",
@@ -34044,8 +34063,8 @@
       "name": "Anbau",
       "city": "Heeselicht",
       "name_with_city": "Heeselicht Anbau",
-      "longitude": 14.092635,
-      "latitude": 51.013443,
+      "longitude": 14.092707,
+      "latitude": 51.013494,
       "operators": [
         "RVSOE"
       ],
@@ -34082,8 +34101,8 @@
       "name": "Markt",
       "city": "Heeselicht",
       "name_with_city": "Heeselicht Markt",
-      "longitude": 14.09083,
-      "latitude": 51.007944,
+      "longitude": 14.090506,
+      "latitude": 51.007887,
       "operators": [
         "RVSOE"
       ],
@@ -35962,8 +35981,8 @@
       "name": "An der Rennstrecke",
       "city": "Hohburkersdorf",
       "name_with_city": "Hohburkersdorf An der Rennstrecke",
-      "longitude": 14.07625,
-      "latitude": 50.998373,
+      "longitude": 14.076681,
+      "latitude": 50.998068,
       "operators": [
         "RVSOE"
       ],
@@ -38073,16 +38092,14 @@
       "longitude": 13.583821,
       "latitude": 50.948132,
       "operators": [
-        "DB Regio AG Südost",
+        "DB Regio",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "343",
-          "382"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
+          "382",
+          "SEV S3"
         ]
       },
       "total_lines": 3
@@ -40926,6 +40943,7 @@
       "longitude": 13.500547,
       "latitude": 50.925556,
       "operators": [
+        "DB Regio",
         "DB Regio AG Südost",
         "Mitteldeutsche Regiobahn",
         "RVSOE"
@@ -40934,7 +40952,8 @@
         "Regionalbus": [
           "343",
           "363",
-          "379"
+          "379",
+          "SEV S3"
         ],
         "Zug": [
           "RB30"
@@ -40946,7 +40965,7 @@
           "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14628:1246",
@@ -43892,8 +43911,8 @@
       "name": "Niederdorf",
       "city": "Langenwolmsdorf",
       "name_with_city": "Langenwolmsdorf Niederdorf",
-      "longitude": 14.100595,
-      "latitude": 51.045115,
+      "longitude": 14.101044,
+      "latitude": 51.044986,
       "operators": [
         "RVSOE"
       ],
@@ -43937,8 +43956,8 @@
       "name": "Ortszentrum",
       "city": "Langenwolmsdorf",
       "name_with_city": "Langenwolmsdorf Ortszentrum",
-      "longitude": 14.119046,
-      "latitude": 51.041913,
+      "longitude": 14.119073,
+      "latitude": 51.041958,
       "operators": [
         "RVSOE"
       ],
@@ -61650,6 +61669,27 @@
       "total_lines": 3
     },
     {
+      "id": "de:14625:6077",
+      "numeric_id": "33006077",
+      "name": "Bachstraße",
+      "city": "Pulsnitz",
+      "name_with_city": "Pulsnitz Bachstraße",
+      "longitude": 14.009946,
+      "latitude": 51.182925,
+      "operators": [
+        "RBO"
+      ],
+      "lines": {
+        "PlusBus": [
+          "521"
+        ],
+        "Regionalbus": [
+          "756"
+        ]
+      },
+      "total_lines": 2
+    },
+    {
       "id": "de:14625:6038",
       "numeric_id": "33006038",
       "name": "Bahnhof",
@@ -61715,11 +61755,12 @@
       ],
       "lines": {
         "Regionalbus": [
+          "759",
           "764",
           "765"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6035",
@@ -66365,8 +66406,8 @@
       "name": "Kleinbauernmuseum",
       "city": "Reitzendorf (Dresden)",
       "name_with_city": "Reitzendorf (Dresden) Kleinbauernmuseum",
-      "longitude": 13.903549,
-      "latitude": 51.026502,
+      "longitude": 13.903917,
+      "latitude": 51.026638,
       "operators": [
         "Müller Busreisen",
         "RVSOE"
@@ -66629,7 +66670,6 @@
       "longitude": 13.288383,
       "latitude": 51.309397,
       "operators": [
-        "DB AG",
         "DB Fernverkehr AG",
         "DB Regio AG Südost",
         "Mitteldeutsche Regiobahn",
@@ -71768,8 +71808,8 @@
       "name": "Friedhof",
       "city": "Schönfeld (Dresden)",
       "name_with_city": "Schönfeld (Dresden) Friedhof",
-      "longitude": 13.900647,
-      "latitude": 51.030022,
+      "longitude": 13.901294,
+      "latitude": 51.030276,
       "operators": [
         "Müller Busreisen",
         "RVSOE"
@@ -71788,8 +71828,8 @@
       "name": "Malschendorfer Straße",
       "city": "Schönfeld (Dresden)",
       "name_with_city": "Schönfeld (Dresden) Malschendorfer Straße",
-      "longitude": 13.900414,
-      "latitude": 51.029915,
+      "longitude": 13.900073,
+      "latitude": 51.02979,
       "operators": [
         "Müller Busreisen"
       ],
@@ -71833,8 +71873,8 @@
       "name": "Meixstraße",
       "city": "Schönfeld (Dresden)",
       "name_with_city": "Schönfeld (Dresden) Meixstraße",
-      "longitude": 13.900791,
-      "latitude": 51.029813,
+      "longitude": 13.901079,
+      "latitude": 51.0297,
       "operators": [
         "Müller Busreisen",
         "RVSOE"
@@ -71879,8 +71919,8 @@
       "name": "Schule",
       "city": "Schönfeld (Dresden)",
       "name_with_city": "Schönfeld (Dresden) Schule",
-      "longitude": 13.897926,
-      "latitude": 51.031542,
+      "longitude": 13.898015,
+      "latitude": 51.03148,
       "operators": [
         "Müller Busreisen",
         "RVSOE"
@@ -71904,7 +71944,7 @@
       "city": "Schönfeld (Dresden)",
       "name_with_city": "Schönfeld (Dresden) Sportplatz",
       "longitude": 13.896794,
-      "latitude": 51.028559,
+      "latitude": 51.028587,
       "operators": [
         "Müller Busreisen"
       ],
@@ -75272,8 +75312,8 @@
       "name": "Erbgericht",
       "city": "Stürza",
       "name_with_city": "Stürza Erbgericht",
-      "longitude": 14.066153,
-      "latitude": 51.010527,
+      "longitude": 14.064967,
+      "latitude": 51.011222,
       "operators": [
         "RVSOE"
       ],
@@ -75840,6 +75880,7 @@
       "longitude": 13.591447,
       "latitude": 50.983061,
       "operators": [
+        "DB Regio",
         "DB Regio AG Südost",
         "Mitteldeutsche Regiobahn",
         "RVSOE"
@@ -75851,7 +75892,8 @@
           "345",
           "346",
           "363",
-          "382"
+          "382",
+          "SEV S3"
         ],
         "Zug": [
           "RB30",
@@ -75864,7 +75906,7 @@
           "SEV"
         ]
       },
-      "total_lines": 10
+      "total_lines": 11
     },
     {
       "id": "de:14628:1210",

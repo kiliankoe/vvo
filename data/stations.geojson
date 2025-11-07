@@ -1703,9 +1703,8 @@
         "city": "Bad Schandau",
         "name_with_city": "Bad Schandau Nationalparkbahnhof",
         "operators": [
-          "DB AG",
+          "DB Fernverkehr AG",
           "DB Regio AG Südost",
-          "European Sleeper",
           "RVSOE",
           "Österreichische Bundesbahnen"
         ],
@@ -16424,6 +16423,7 @@
         "name_with_city": "Dresden Bahnhof Neustadt",
         "operators": [
           "DB AG",
+          "DB Fernverkehr AG",
           "DB Regio AG Südost",
           "DVB",
           "FlixTrain",
@@ -21437,11 +21437,9 @@
         "city": "Dresden",
         "name_with_city": "Dresden Hauptbahnhof",
         "operators": [
-          "DB AG",
           "DB Fernverkehr AG",
           "DB Regio AG Südost",
           "DVB",
-          "European Sleeper",
           "FlixTrain",
           "Mitteldeutsche Regiobahn",
           "RVSOE",
@@ -21518,6 +21516,7 @@
         "name_with_city": "Dresden Hauptbahnhof (Strehlener Str.)",
         "operators": [
           "DB AG",
+          "DB Regio",
           "DB Regio AG Südost",
           "DVB",
           "Mitteldeutsche Regiobahn"
@@ -21526,6 +21525,9 @@
           "Stadtbus": [
             "66"
           ],
+          "Regionalbus": [
+            "SEV S3"
+          ],
           "Fernbus": [
             "Fernbus"
           ],
@@ -21533,7 +21535,7 @@
             "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -29460,6 +29462,7 @@
         "city": "Dresden",
         "name_with_city": "Dresden S-Bahnhof Plauen",
         "operators": [
+          "DB Regio",
           "DB Regio AG Südost",
           "DVB",
           "Mitteldeutsche Regiobahn"
@@ -29477,11 +29480,14 @@
           "S-Bahn": [
             "S3"
           ],
+          "Regionalbus": [
+            "SEV S3"
+          ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -34375,8 +34381,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.9804,
-          51.038394
+          13.980409,
+          51.038417
         ]
       },
       "properties": {
@@ -35159,8 +35165,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.950234,
-          51.036344
+          13.949866,
+          51.036361
         ]
       },
       "properties": {
@@ -35187,8 +35193,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.943812,
-          51.035389
+          13.943452,
+          51.035423
         ]
       },
       "properties": {
@@ -35215,8 +35221,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.958409,
-          51.036355
+          13.9584,
+          51.036242
         ]
       },
       "properties": {
@@ -37744,6 +37750,7 @@
         "city": "Freital",
         "name_with_city": "Freital S-Bahnhof Hainsberg",
         "operators": [
+          "DB Regio",
           "DB Regio AG Südost",
           "Mitteldeutsche Regiobahn",
           "RVSOE",
@@ -37758,7 +37765,8 @@
             "344",
             "345",
             "363",
-            "376"
+            "376",
+            "SEV S3"
           ],
           "PlusBus": [
             "348"
@@ -37774,7 +37782,7 @@
             "SEV"
           ]
         },
-        "total_lines": 11
+        "total_lines": 12
       }
     },
     {
@@ -37793,6 +37801,7 @@
         "city": "Freital",
         "name_with_city": "Freital S-Bahnhof Potschappel",
         "operators": [
+          "DB Regio",
           "DB Regio AG Südost",
           "Mitteldeutsche Regiobahn",
           "RVSOE"
@@ -37810,11 +37819,14 @@
           "S-Bahn": [
             "S3"
           ],
+          "Regionalbus": [
+            "SEV S3"
+          ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -37833,6 +37845,7 @@
         "city": "Freital",
         "name_with_city": "Freital S-Bf. / Busbf. Deuben",
         "operators": [
+          "DB Regio",
           "DB Regio AG Südost",
           "Mitteldeutsche Regiobahn",
           "RVSOE"
@@ -37854,7 +37867,8 @@
             "344",
             "345",
             "363",
-            "376"
+            "376",
+            "SEV S3"
           ],
           "Zug": [
             "RB30",
@@ -37867,7 +37881,7 @@
             "SEV"
           ]
         },
-        "total_lines": 16
+        "total_lines": 17
       }
     },
     {
@@ -37886,6 +37900,7 @@
         "city": "Freital",
         "name_with_city": "Freital S-Bf. Hainsberg West",
         "operators": [
+          "DB Regio",
           "DB Regio AG Südost",
           "Mitteldeutsche Regiobahn",
           "RVSOE"
@@ -37894,7 +37909,8 @@
           "Regionalbus": [
             "344",
             "345",
-            "363"
+            "363",
+            "SEV S3"
           ],
           "Zug": [
             "RB30",
@@ -37907,7 +37923,7 @@
             "SEV"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -43414,9 +43430,12 @@
             "462",
             "463",
             "467"
+          ],
+          "Stadtbus": [
+            "A (Großenhain)"
           ]
         },
-        "total_lines": 16
+        "total_lines": 17
       }
     },
     {
@@ -46927,8 +46946,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.092635,
-          51.013443
+          14.092707,
+          51.013494
         ]
       },
       "properties": {
@@ -46981,8 +47000,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.09083,
-          51.007944
+          14.090506,
+          51.007887
         ]
       },
       "properties": {
@@ -49621,8 +49640,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.07625,
-          50.998373
+          14.076681,
+          50.998068
         ]
       },
       "properties": {
@@ -52532,16 +52551,14 @@
         "city": "Höckendorf b Dippol.",
         "name_with_city": "Höckendorf b Dippol. Edle Krone Tharandter Straße",
         "operators": [
-          "DB Regio AG Südost",
+          "DB Regio",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "343",
-            "382"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
+            "382",
+            "SEV S3"
           ]
         },
         "total_lines": 3
@@ -56473,6 +56490,7 @@
         "city": "Klingenberg (Sachsen)",
         "name_with_city": "Klingenberg (Sachsen) Bahnhof",
         "operators": [
+          "DB Regio",
           "DB Regio AG Südost",
           "Mitteldeutsche Regiobahn",
           "RVSOE"
@@ -56481,7 +56499,8 @@
           "Regionalbus": [
             "343",
             "363",
-            "379"
+            "379",
+            "SEV S3"
           ],
           "Zug": [
             "RB30"
@@ -56493,7 +56512,7 @@
             "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -60599,8 +60618,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.100595,
-          51.045115
+          14.101044,
+          51.044986
         ]
       },
       "properties": {
@@ -60660,8 +60679,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.119046,
-          51.041913
+          14.119073,
+          51.041958
         ]
       },
       "properties": {
@@ -85106,6 +85125,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.009946,
+          51.182925
+        ]
+      },
+      "properties": {
+        "id": "de:14625:6077",
+        "numeric_id": "33006077",
+        "name": "Bachstraße",
+        "city": "Pulsnitz",
+        "name_with_city": "Pulsnitz Bachstraße",
+        "operators": [
+          "RBO"
+        ],
+        "lines": {
+          "PlusBus": [
+            "521"
+          ],
+          "Regionalbus": [
+            "756"
+          ]
+        },
+        "total_lines": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.013763,
           51.18784
         ]
@@ -85190,11 +85238,12 @@
         ],
         "lines": {
           "Regionalbus": [
+            "759",
             "764",
             "765"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -91696,8 +91745,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.903549,
-          51.026502
+          13.903917,
+          51.026638
         ]
       },
       "properties": {
@@ -92056,7 +92105,6 @@
         "city": "Riesa",
         "name_with_city": "Riesa Busbahnhof / Bahnhof",
         "operators": [
-          "DB AG",
           "DB Fernverkehr AG",
           "DB Regio AG Südost",
           "Mitteldeutsche Regiobahn",
@@ -99163,8 +99211,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.900647,
-          51.030022
+          13.901294,
+          51.030276
         ]
       },
       "properties": {
@@ -99191,8 +99239,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.900414,
-          51.029915
+          13.900073,
+          51.02979
         ]
       },
       "properties": {
@@ -99252,8 +99300,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.900791,
-          51.029813
+          13.901079,
+          51.0297
         ]
       },
       "properties": {
@@ -99314,8 +99362,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.897926,
-          51.031542
+          13.898015,
+          51.03148
         ]
       },
       "properties": {
@@ -99347,7 +99395,7 @@
         "type": "Point",
         "coordinates": [
           13.896794,
-          51.028559
+          51.028587
         ]
       },
       "properties": {
@@ -104043,8 +104091,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.066153,
-          51.010527
+          14.064967,
+          51.011222
         ]
       },
       "properties": {
@@ -104843,6 +104891,7 @@
         "city": "Tharandt",
         "name_with_city": "Tharandt Bahnhof",
         "operators": [
+          "DB Regio",
           "DB Regio AG Südost",
           "Mitteldeutsche Regiobahn",
           "RVSOE"
@@ -104854,7 +104903,8 @@
             "345",
             "346",
             "363",
-            "382"
+            "382",
+            "SEV S3"
           ],
           "Zug": [
             "RB30",
@@ -104867,7 +104917,7 @@
             "SEV"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
