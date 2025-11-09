@@ -1231,6 +1231,7 @@
       "operators": [
         "DB Fernverkehr AG",
         "DB Regio AG Südost",
+        "European Sleeper",
         "RVSOE",
         "Österreichische Bundesbahnen"
       ],
@@ -2104,8 +2105,8 @@
       "name": "Dorfplatz",
       "city": "Bauda",
       "name_with_city": "Bauda Dorfplatz",
-      "longitude": 13.469268,
-      "latitude": 51.326425,
+      "longitude": 13.46933,
+      "latitude": 51.326577,
       "operators": [
         "VGM"
       ],
@@ -5812,11 +5813,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "368",
-          "369"
+          "368"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:1920",
@@ -5833,7 +5833,6 @@
       "lines": {
         "Regionalbus": [
           "368",
-          "369",
           "SEV RB 72"
         ],
         "Zug": [
@@ -5843,7 +5842,7 @@
           "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14628:1865",
@@ -15518,6 +15517,7 @@
         "DB Fernverkehr AG",
         "DB Regio AG Südost",
         "DVB",
+        "European Sleeper",
         "FlixTrain",
         "Mitteldeutsche Regiobahn",
         "RVSOE",
@@ -27891,11 +27891,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "161",
           "162"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:1178",
@@ -29443,11 +29442,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "368",
-          "369"
+          "368"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:1940",
@@ -29498,11 +29496,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "368",
-          "369"
+          "368"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:1942",
@@ -31601,12 +31598,9 @@
           "462",
           "463",
           "467"
-        ],
-        "Stadtbus": [
-          "A (Großenhain)"
         ]
       },
-      "total_lines": 17
+      "total_lines": 16
     },
     {
       "id": "de:14627:5049",
@@ -42770,11 +42764,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "242",
-          "246"
+          "242"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3509",
@@ -42830,11 +42823,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "242",
-          "246"
+          "242"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3517",
@@ -44126,11 +44118,10 @@
       "lines": {
         "Regionalbus": [
           "778",
-          "783",
           "784"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:6834",
@@ -44167,14 +44158,13 @@
       "lines": {
         "Regionalbus": [
           "778",
-          "783",
           "784"
         ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14625:6835",
@@ -44210,11 +44200,10 @@
       "lines": {
         "Regionalbus": [
           "778",
-          "783",
           "784"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:1870",
@@ -46250,12 +46239,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "775",
           "776",
           "777"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:3735",
@@ -58822,6 +58810,7 @@
           "234",
           "237",
           "238",
+          "241",
           "246"
         ],
         "Stadtbus": [
@@ -58829,7 +58818,7 @@
           "M (Pirna)"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14628:3434",
@@ -58845,13 +58834,14 @@
       "lines": {
         "Regionalbus": [
           "237",
-          "238"
+          "238",
+          "241"
         ],
         "Stadtbus": [
           "G/L (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3454",
@@ -59480,14 +59470,13 @@
           "237",
           "241",
           "245",
-          "246",
           "207a"
         ],
         "Stadtbus": [
           "Z (Pirna)"
         ]
       },
-      "total_lines": 11
+      "total_lines": 10
     },
     {
       "id": "de:14628:3382",
@@ -63439,21 +63428,17 @@
       "latitude": 51.119815,
       "operators": [
         "DB Regio AG Südost",
-        "DVB",
-        "VGM"
+        "DVB"
       ],
       "lines": {
         "Straßenbahn": [
           "4"
         ],
-        "Regionalbus": [
-          "Sv270"
-        ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4233",
@@ -63992,18 +63977,14 @@
       "longitude": 13.624972,
       "latitude": 51.110245,
       "operators": [
-        "DVB",
-        "VGM"
+        "DVB"
       ],
       "lines": {
         "Straßenbahn": [
           "4"
-        ],
-        "Regionalbus": [
-          "Sv270"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4255",
@@ -64765,11 +64746,10 @@
           "403",
           "405",
           "456",
-          "478",
           "Sv280"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14627:4368",
@@ -65397,8 +65377,8 @@
       "id": "de:14628:3557",
       "numeric_id": "33003557",
       "name": "Am Harthenberg",
-      "city": "Raum (Roasenthal-Bielatal)",
-      "name_with_city": "Raum (Roasenthal-Bielatal) Am Harthenberg",
+      "city": "Raum (Rosenthal-Bielatal)",
+      "name_with_city": "Raum (Rosenthal-Bielatal) Am Harthenberg",
       "longitude": 14.037102,
       "latitude": 50.865513,
       "operators": [
@@ -65416,8 +65396,8 @@
       "id": "de:14628:3555",
       "numeric_id": "33003555",
       "name": "Kreuzung",
-      "city": "Raum (Roasenthal-Bielatal)",
-      "name_with_city": "Raum (Roasenthal-Bielatal) Kreuzung",
+      "city": "Raum (Rosenthal-Bielatal)",
+      "name_with_city": "Raum (Rosenthal-Bielatal) Kreuzung",
       "longitude": 14.028074,
       "latitude": 50.855897,
       "operators": [
@@ -67774,17 +67754,12 @@
           "431",
           "445"
         ],
-        "Regionalbus": [
-          "430",
-          "431",
-          "445"
-        ],
         "Stadtbus": [
           "A1 (Riesa)",
           "A2 (Riesa)"
         ]
       },
-      "total_lines": 8
+      "total_lines": 5
     },
     {
       "id": "de:14627:5540",
@@ -76154,16 +76129,9 @@
       "name_with_city": "Thiendorf Welxander Straße",
       "longitude": 13.740729,
       "latitude": 51.293716,
-      "operators": [
-        "VGM"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "455",
-          "456"
-        ]
-      },
-      "total_lines": 2
+      "operators": [],
+      "lines": {},
+      "total_lines": 0
     },
     {
       "id": "de:14627:5482",
@@ -78087,11 +78055,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411",
-          "Sv250"
+          "411"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4151",
