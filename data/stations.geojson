@@ -830,8 +830,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.988143,
-          51.093475
+          13.987461,
+          51.093317
         ]
       },
       "properties": {
@@ -1706,7 +1706,6 @@
         "operators": [
           "DB Fernverkehr AG",
           "DB Regio AG Südost",
-          "European Sleeper",
           "RVSOE",
           "Österreichische Bundesbahnen"
         ],
@@ -21466,7 +21465,6 @@
           "DB Fernverkehr AG",
           "DB Regio AG Südost",
           "DVB",
-          "European Sleeper",
           "FlixTrain",
           "Mitteldeutsche Regiobahn",
           "RVSOE",
@@ -56290,7 +56288,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.952498,
+          13.952292,
           51.098101
         ]
       },
@@ -83022,13 +83020,14 @@
         "lines": {
           "Regionalbus": [
             "710",
+            "774",
             "791"
           ],
           "Anruflinienbus": [
             "791"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -86647,8 +86646,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.923249,
-          51.118146
+          13.923267,
+          51.118067
         ]
       },
       "properties": {
@@ -87582,17 +87581,21 @@
         "name_with_city": "Radebeul Gerhart-Hauptmann-Straße",
         "operators": [
           "DB Regio AG Südost",
-          "DVB"
+          "DVB",
+          "VGM"
         ],
         "lines": {
           "Straßenbahn": [
             "4"
           ],
+          "Regionalbus": [
+            "Sv270"
+          ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -88355,14 +88358,18 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Radebl. West (Flemmingstraße)",
         "operators": [
-          "DVB"
+          "DVB",
+          "VGM"
         ],
         "lines": {
           "Straßenbahn": [
             "4"
+          ],
+          "Regionalbus": [
+            "Sv270"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {

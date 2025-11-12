@@ -603,8 +603,8 @@
       "name": "Bahnhofstraße",
       "city": "Arnsdorf (bei Dresden)",
       "name_with_city": "Arnsdorf (bei Dresden) Bahnhofstraße",
-      "longitude": 13.988143,
-      "latitude": 51.093475,
+      "longitude": 13.987461,
+      "latitude": 51.093317,
       "operators": [
         "RBO"
       ],
@@ -1231,7 +1231,6 @@
       "operators": [
         "DB Fernverkehr AG",
         "DB Regio AG Südost",
-        "European Sleeper",
         "RVSOE",
         "Österreichische Bundesbahnen"
       ],
@@ -15519,7 +15518,6 @@
         "DB Fernverkehr AG",
         "DB Regio AG Südost",
         "DVB",
-        "European Sleeper",
         "FlixTrain",
         "Mitteldeutsche Regiobahn",
         "RVSOE",
@@ -40815,7 +40813,7 @@
       "name": "Seitenweg",
       "city": "Kleinwolmsdorf",
       "name_with_city": "Kleinwolmsdorf Seitenweg",
-      "longitude": 13.952498,
+      "longitude": 13.952292,
       "latitude": 51.098101,
       "operators": [
         "RBO"
@@ -60171,13 +60169,14 @@
       "lines": {
         "Regionalbus": [
           "710",
+          "774",
           "791"
         ],
         "Anruflinienbus": [
           "791"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14627:5153",
@@ -62780,8 +62779,8 @@
       "name": "Markt",
       "city": "Radeberg",
       "name_with_city": "Radeberg Markt",
-      "longitude": 13.923249,
-      "latitude": 51.118146,
+      "longitude": 13.923267,
+      "latitude": 51.118067,
       "operators": [
         "RBO"
       ],
@@ -63443,17 +63442,21 @@
       "latitude": 51.119815,
       "operators": [
         "DB Regio AG Südost",
-        "DVB"
+        "DVB",
+        "VGM"
       ],
       "lines": {
         "Straßenbahn": [
           "4"
         ],
+        "Regionalbus": [
+          "Sv270"
+        ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:4233",
@@ -63992,14 +63995,18 @@
       "longitude": 13.624972,
       "latitude": 51.110245,
       "operators": [
-        "DVB"
+        "DVB",
+        "VGM"
       ],
       "lines": {
         "Straßenbahn": [
           "4"
+        ],
+        "Regionalbus": [
+          "Sv270"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4255",
