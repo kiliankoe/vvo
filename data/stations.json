@@ -1231,6 +1231,7 @@
       "operators": [
         "DB Fernverkehr AG",
         "DB Regio AG Südost",
+        "European Sleeper",
         "RVSOE",
         "Österreichische Bundesbahnen"
       ],
@@ -2538,8 +2539,8 @@
       "name": "Am Wiesengrund",
       "city": "Bernbruch (Kamenz)",
       "name_with_city": "Bernbruch (Kamenz) Am Wiesengrund",
-      "longitude": 14.098888,
-      "latitude": 51.297951,
+      "longitude": 14.098753,
+      "latitude": 51.298327,
       "operators": [
         "RBO"
       ],
@@ -8296,8 +8297,8 @@
       "name": "Kindergarten",
       "city": "Cunnersdorf (Kamenz)",
       "name_with_city": "Cunnersdorf (Kamenz) Kindergarten",
-      "longitude": 14.052517,
-      "latitude": 51.311688,
+      "longitude": 14.052355,
+      "latitude": 51.311581,
       "operators": [
         "RBO"
       ],
@@ -13986,6 +13987,9 @@
         "Stadtbus": [
           "81"
         ],
+        "PlusBus": [
+          "477"
+        ],
         "Regionalbus": [
           "478"
         ],
@@ -13993,7 +13997,7 @@
           "alita 81"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:119",
@@ -14229,9 +14233,12 @@
         ],
         "Anruflinientaxi": [
           "alita 77"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:613",
@@ -15518,6 +15525,7 @@
         "DB Fernverkehr AG",
         "DB Regio AG Südost",
         "DVB",
+        "European Sleeper",
         "FlixTrain",
         "Mitteldeutsche Regiobahn",
         "RVSOE",
@@ -16072,8 +16080,8 @@
       "name": "Hermann-Seidel-Straße",
       "city": "Dresden",
       "name_with_city": "Dresden Hermann-Seidel-Straße",
-      "longitude": 13.834648,
-      "latitude": 51.027824,
+      "longitude": 13.835439,
+      "latitude": 51.027158,
       "operators": [
         "DVB"
       ],
@@ -21351,9 +21359,12 @@
         ],
         "S-Bahn": [
           "S2"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:98",
@@ -21775,6 +21786,9 @@
           "70",
           "81"
         ],
+        "PlusBus": [
+          "477"
+        ],
         "Regionalbus": [
           "478"
         ],
@@ -21783,7 +21797,7 @@
           "alita 81"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14612:640",
@@ -29639,9 +29653,12 @@
         ],
         "Zug": [
           "RE50"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:5752",
@@ -38526,8 +38543,8 @@
       "name": "Neschwitzer Straße",
       "city": "Jesau",
       "name_with_city": "Jesau Neschwitzer Straße",
-      "longitude": 14.12104,
-      "latitude": 51.284699,
+      "longitude": 14.122657,
+      "latitude": 51.284159,
       "operators": [
         "RBO"
       ],
@@ -42054,13 +42071,14 @@
         ],
         "Zug": [
           "RE20",
+          "RE50",
           "U28"
         ],
         "S-Bahn": [
           "S1"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14628:3614",
@@ -42808,14 +42826,13 @@
       ],
       "lines": {
         "Zug": [
-          "RE20",
           "RE50"
         ],
         "S-Bahn": [
           "S1"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:3503",
@@ -51714,8 +51731,8 @@
       "name": "Mortka",
       "city": "Mortka",
       "name_with_city": "Mortka Mortka",
-      "longitude": 14.369281,
-      "latitude": 51.369034,
+      "longitude": 14.369146,
+      "latitude": 51.369079,
       "operators": [
         "RBO"
       ],
@@ -54995,9 +55012,12 @@
         ],
         "Zug": [
           "RE50"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14627:5703",
@@ -61361,9 +61381,12 @@
           "RE15",
           "RE18",
           "RE50"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 8
+      "total_lines": 9
     },
     {
       "id": "de:14627:5102",
@@ -65102,14 +65125,13 @@
       ],
       "lines": {
         "Zug": [
-          "RE20",
           "RE50"
         ],
         "S-Bahn": [
           "S1"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:3713",
@@ -71657,8 +71679,8 @@
       "name": "Schönbach",
       "city": "Schönbach (Kamenz)",
       "name_with_city": "Schönbach (Kamenz) Schönbach",
-      "longitude": 14.02863,
-      "latitude": 51.314771,
+      "longitude": 14.028065,
+      "latitude": 51.315338,
       "operators": [
         "RBO"
       ],
@@ -73802,7 +73824,6 @@
       ],
       "lines": {
         "Zug": [
-          "RE20",
           "RE50"
         ],
         "S-Bahn": [
@@ -73812,7 +73833,7 @@
           "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14628:3721",

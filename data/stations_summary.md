@@ -31,11 +31,11 @@ Total stations: 3915
 
 - Regionalbus: 2709 stations
 - Stadtbus: 1291 stations
-- PlusBus: 629 stations
+- PlusBus: 631 stations
 - Anruflinienbus: 475 stations
 - Straßenbahn: 270 stations
 - Anruflinientaxi: 197 stations
-- Ersatzverkehr: 106 stations
+- Ersatzverkehr: 111 stations
 - Zug: 99 stations
 - Taktbus: 75 stations
 - S-Bahn: 54 stations
@@ -71,6 +71,7 @@ Total stations: 3915
 - DB Fernverkehr AG: 4 stations
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 3 stations
+- European Sleeper: 2 stations
 - FlixTrain: 2 stations
 - Nordsachsen Mobil: 2 stations
 - Verein Sächsischer Eisenbahnfreunde: 1 stations

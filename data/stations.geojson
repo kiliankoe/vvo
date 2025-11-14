@@ -1706,6 +1706,7 @@
         "operators": [
           "DB Fernverkehr AG",
           "DB Regio AG Südost",
+          "European Sleeper",
           "RVSOE",
           "Österreichische Bundesbahnen"
         ],
@@ -3525,8 +3526,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.098888,
-          51.297951
+          14.098753,
+          51.298327
         ]
       },
       "properties": {
@@ -11555,8 +11556,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.052517,
-          51.311688
+          14.052355,
+          51.311581
         ]
       },
       "properties": {
@@ -19341,6 +19342,9 @@
           "Stadtbus": [
             "81"
           ],
+          "PlusBus": [
+            "477"
+          ],
           "Regionalbus": [
             "478"
           ],
@@ -19348,7 +19352,7 @@
             "alita 81"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -19672,9 +19676,12 @@
           ],
           "Anruflinientaxi": [
             "alita 77"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -21465,6 +21472,7 @@
           "DB Fernverkehr AG",
           "DB Regio AG Südost",
           "DVB",
+          "European Sleeper",
           "FlixTrain",
           "Mitteldeutsche Regiobahn",
           "RVSOE",
@@ -22203,8 +22211,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.834648,
-          51.027824
+          13.835439,
+          51.027158
         ]
       },
       "properties": {
@@ -29402,9 +29410,12 @@
           ],
           "S-Bahn": [
             "S2"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -29946,6 +29957,9 @@
             "70",
             "81"
           ],
+          "PlusBus": [
+            "477"
+          ],
           "Regionalbus": [
             "478"
           ],
@@ -29954,7 +29968,7 @@
             "alita 81"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -40786,9 +40800,12 @@
           ],
           "Zug": [
             "RE50"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -53137,8 +53154,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.12104,
-          51.284699
+          14.122657,
+          51.284159
         ]
       },
       "properties": {
@@ -58017,13 +58034,14 @@
           ],
           "Zug": [
             "RE20",
+            "RE50",
             "U28"
           ],
           "S-Bahn": [
             "S1"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -59067,14 +59085,13 @@
         ],
         "lines": {
           "Zug": [
-            "RE20",
             "RE50"
           ],
           "S-Bahn": [
             "S1"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -71349,8 +71366,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.369281,
-          51.369034
+          14.369146,
+          51.369079
         ]
       },
       "properties": {
@@ -75854,9 +75871,12 @@
           ],
           "Zug": [
             "RE50"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -84684,9 +84704,12 @@
             "RE15",
             "RE18",
             "RE50"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 8
+        "total_lines": 9
       }
     },
     {
@@ -89897,14 +89920,13 @@
         ],
         "lines": {
           "Zug": [
-            "RE20",
             "RE50"
           ],
           "S-Bahn": [
             "S1"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -98980,8 +99002,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.02863,
-          51.314771
+          14.028065,
+          51.315338
         ]
       },
       "properties": {
@@ -101973,7 +101995,6 @@
         ],
         "lines": {
           "Zug": [
-            "RE20",
             "RE50"
           ],
           "S-Bahn": [
@@ -101983,7 +102004,7 @@
             "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
