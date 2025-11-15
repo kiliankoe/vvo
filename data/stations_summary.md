@@ -30,7 +30,7 @@ Total stations: 3915
 ## Stations by Transit Type
 
 - Regionalbus: 2709 stations
-- Stadtbus: 1291 stations
+- Stadtbus: 1302 stations
 - PlusBus: 631 stations
 - Anruflinienbus: 475 stations
 - Straßenbahn: 270 stations
