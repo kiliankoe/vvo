@@ -105,6 +105,7 @@ Total stations: 3915
 - Kamenz Macherstraße: 16 lines
 - Meißen S-Bahnhof Altstadt: 16 lines
 - Riesa Sachsenhof: 16 lines
+- Bad Schandau Nationalparkbahnhof: 15 lines
 - Dresden S-Bahnhof Dobritz: 15 lines
 - Hoyerswerda Behördenpark: 15 lines
 - Hoyerswerda Lausitzer Platz: 15 lines
@@ -126,7 +127,6 @@ Total stations: 3915
 - Kamenz Flugplatz: 13 lines
 - Nossen Markt: 13 lines
 - Nossen Talstraße: 13 lines
-- Bad Schandau Nationalparkbahnhof: 12 lines
 - Coswig (Sachsen) Bahnhof: 12 lines
 - Dresden Julius-Vahlteich-Straße: 12 lines
 - Dresden S-Bahnhof Niedersedlitz: 12 lines
@@ -149,6 +149,8 @@ Total stations: 3915
 - Pirna Robert-Koch-Straße: 11 lines
 - Pulsnitz Bahnhof: 11 lines
 - Tharandt Bahnhof: 11 lines
+- Bad Schandau Elbbrücke: 10 lines
+- Bad Schandau Elbkai: 10 lines
 - Bischofswerda Schulstraße: 10 lines
 - Cossebaude/Neu-Leuteritz Bahnhof: 10 lines
 - Dresden Amalie-Dietrich-Platz: 10 lines
