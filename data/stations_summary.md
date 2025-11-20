@@ -29,8 +29,8 @@ Total stations: 3915
 
 ## Stations by Transit Type
 
-- Regionalbus: 2709 stations
-- Stadtbus: 1302 stations
+- Regionalbus: 2705 stations
+- Stadtbus: 1310 stations
 - PlusBus: 631 stations
 - Anruflinienbus: 475 stations
 - Straßenbahn: 270 stations
@@ -51,8 +51,8 @@ Total stations: 3915
 ## Transit Operators
 
 - RVSOE: 1298 stations
-- VGM: 1170 stations
-- DVB: 765 stations
+- VGM: 1167 stations
+- DVB: 766 stations
 - RBO: 713 stations
 - DB Regio AG Südost: 123 stations
 - VGH: 85 stations
@@ -66,7 +66,7 @@ Total stations: 3915
 - Mitteldeutsche Regiobahn: 20 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
 - Cottbusverkehr GmbH: 11 stations
-- trilex - Die Länderbahn GmbH DLB: 9 stations
+- trilex - Die Länderbahn GmbH DLB: 10 stations
 - DB Regio: 9 stations
 - DB Fernverkehr AG: 4 stations
 - Österreichische Bundesbahnen: 4 stations
@@ -105,13 +105,13 @@ Total stations: 3915
 - Kamenz Macherstraße: 16 lines
 - Meißen S-Bahnhof Altstadt: 16 lines
 - Riesa Sachsenhof: 16 lines
-- Bad Schandau Nationalparkbahnhof: 15 lines
 - Dresden S-Bahnhof Dobritz: 15 lines
 - Hoyerswerda Behördenpark: 15 lines
 - Hoyerswerda Lausitzer Platz: 15 lines
 - Kamenz Schwimmhalle: 15 lines
 - Meißen Uferstraße: 15 lines
 - Pirna Breite Straße: 15 lines
+- Bad Schandau Nationalparkbahnhof: 14 lines
 - Dippoldiswalde Busbahnhof: 14 lines
 - Dresden Dahlienweg: 14 lines
 - Dresden Tharandter Straße: 14 lines
@@ -143,16 +143,17 @@ Total stations: 3915
 - Dresden Lennéplatz: 11 lines
 - Dresden Mockritzer Straße: 11 lines
 - Dresden Pennricher Straße: 11 lines
+- Dresden S-Bf. Industriegelände: 11 lines
 - Dresden Walpurgisstraße: 11 lines
 - Großenhain Hohe Straße: 11 lines
 - Pirna Copitz Schulstraße: 11 lines
-- Pirna Robert-Koch-Straße: 11 lines
 - Pulsnitz Bahnhof: 11 lines
 - Tharandt Bahnhof: 11 lines
 - Bad Schandau Elbbrücke: 10 lines
 - Bad Schandau Elbkai: 10 lines
 - Bischofswerda Schulstraße: 10 lines
 - Cossebaude/Neu-Leuteritz Bahnhof: 10 lines
+- Dresden Albertplatz: 10 lines
 - Dresden Amalie-Dietrich-Platz: 10 lines
 - Dresden Betriebshof Gorbitz: 10 lines
 - Dresden Burgkstraße: 10 lines
@@ -165,9 +166,9 @@ Total stations: 3915
 - Dresden Pirnaischer Platz: 10 lines
 - Dresden Prager Straße: 10 lines
 - Dresden Prohlis Gleisschleife: 10 lines
-- Dresden S-Bf. Industriegelände: 10 lines
 - Dresden Schlehenstraße: 10 lines
 - Dresden Zwinglistraße: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
+- Pirna Robert-Koch-Straße: 10 lines
 - Sebnitz Bahnhof: 10 lines
