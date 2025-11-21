@@ -5820,10 +5820,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "368"
+          "368",
+          "369"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:1920",
@@ -5840,6 +5841,7 @@
       "lines": {
         "Regionalbus": [
           "368",
+          "369",
           "SEV RB 72"
         ],
         "Zug": [
@@ -5849,7 +5851,7 @@
           "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:1865",
@@ -27963,10 +27965,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "161",
           "162"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:1178",
@@ -29514,10 +29517,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "368"
+          "368",
+          "369"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:1940",
@@ -29568,10 +29572,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "368"
+          "368",
+          "369"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:1942",
@@ -42843,10 +42848,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "242"
+          "242",
+          "246"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3509",
@@ -42901,10 +42907,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "242"
+          "242",
+          "246"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3517",
@@ -44196,10 +44203,11 @@
       "lines": {
         "Regionalbus": [
           "778",
+          "783",
           "784"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6834",
@@ -44236,13 +44244,14 @@
       "lines": {
         "Regionalbus": [
           "778",
+          "783",
           "784"
         ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14625:6835",
@@ -44278,10 +44287,11 @@
       "lines": {
         "Regionalbus": [
           "778",
+          "783",
           "784"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:1870",
@@ -46317,11 +46327,12 @@
       ],
       "lines": {
         "Regionalbus": [
+          "775",
           "776",
           "777"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3735",
@@ -59553,13 +59564,14 @@
           "237",
           "241",
           "245",
+          "246",
           "207a"
         ],
         "Stadtbus": [
           "Z (Pirna)"
         ]
       },
-      "total_lines": 10
+      "total_lines": 11
     },
     {
       "id": "de:14628:3382",
@@ -63521,17 +63533,21 @@
       "latitude": 51.119815,
       "operators": [
         "DB Regio AG Südost",
-        "DVB"
+        "DVB",
+        "VGM"
       ],
       "lines": {
         "Straßenbahn": [
           "4"
         ],
+        "Regionalbus": [
+          "Sv270"
+        ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:4233",
@@ -64083,7 +64099,8 @@
       "longitude": 13.624972,
       "latitude": 51.110245,
       "operators": [
-        "DVB"
+        "DVB",
+        "VGM"
       ],
       "lines": {
         "Straßenbahn": [
@@ -64091,9 +64108,12 @@
         ],
         "Stadtbus": [
           "EV 4"
+        ],
+        "Regionalbus": [
+          "Sv270"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:4255",
@@ -64870,10 +64890,11 @@
           "403",
           "405",
           "456",
+          "478",
           "Sv280"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14627:4368",
@@ -67877,12 +67898,17 @@
           "431",
           "445"
         ],
+        "Regionalbus": [
+          "430",
+          "431",
+          "445"
+        ],
         "Stadtbus": [
           "A1 (Riesa)",
           "A2 (Riesa)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 8
     },
     {
       "id": "de:14627:5540",
@@ -76251,9 +76277,16 @@
       "name_with_city": "Thiendorf Welxander Straße",
       "longitude": 13.740729,
       "latitude": 51.293716,
-      "operators": [],
-      "lines": {},
-      "total_lines": 0
+      "operators": [
+        "VGM"
+      ],
+      "lines": {
+        "Regionalbus": [
+          "455",
+          "456"
+        ]
+      },
+      "total_lines": 2
     },
     {
       "id": "de:14627:5482",
@@ -78177,10 +78210,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411"
+          "411",
+          "Sv250"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4151",
