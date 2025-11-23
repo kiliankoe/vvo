@@ -29,13 +29,13 @@ Total stations: 3915
 
 ## Stations by Transit Type
 
-- Regionalbus: 2709 stations
+- Regionalbus: 2706 stations
 - Stadtbus: 1310 stations
 - PlusBus: 631 stations
 - Anruflinienbus: 475 stations
 - Straßenbahn: 270 stations
 - Anruflinientaxi: 197 stations
-- Ersatzverkehr: 111 stations
+- Ersatzverkehr: 112 stations
 - Zug: 99 stations
 - Taktbus: 75 stations
 - S-Bahn: 54 stations
@@ -50,8 +50,8 @@ Total stations: 3915
 
 ## Transit Operators
 
-- RVSOE: 1298 stations
-- VGM: 1170 stations
+- RVSOE: 1299 stations
+- VGM: 1167 stations
 - DVB: 766 stations
 - RBO: 713 stations
 - DB Regio AG Südost: 123 stations
@@ -60,8 +60,8 @@ Total stations: 3915
 - Omnibusunternehmen Gottfried Beck: 68 stations
 - Müller Busreisen: 58 stations
 - SATRA: 43 stations
+- SDG: 33 stations
 - RBM: 31 stations
-- SDG: 24 stations
 - DB AG: 24 stations
 - Mitteldeutsche Regiobahn: 20 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
@@ -83,7 +83,7 @@ Total stations: 3915
 - Dresden Hauptbahnhof: 30 lines
 - Riesa Busbahnhof / Bahnhof: 28 lines
 - Dresden Bahnhof Neustadt: 25 lines
-- Dresden Bahnhof Mitte: 22 lines
+- Dresden Bahnhof Mitte: 23 lines
 - Kamenz Bahnhof: 22 lines
 - Pirna ZOB / Bahnhof: 22 lines
 - Großenhain Cottbuser Bahnhof: 21 lines
@@ -94,26 +94,26 @@ Total stations: 3915
 - Riesa Alexander-Puschkin-Platz: 19 lines
 - Riesa Rudolf-Breitscheid-Straße: 19 lines
 - Lommatzsch Busbahnhof: 18 lines
+- Dresden Postplatz: 17 lines
 - Freital S-Bf. / Busbf. Deuben: 17 lines
 - Großenhain Lessingplatz: 17 lines
 - Großenhain Mozartallee: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
-- Dresden Postplatz: 16 lines
 - Dresden S-Bf. Strehlen: 16 lines
 - Dresden Trachenberger Platz: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
 - Kamenz Macherstraße: 16 lines
 - Meißen S-Bahnhof Altstadt: 16 lines
 - Riesa Sachsenhof: 16 lines
+- Bad Schandau Nationalparkbahnhof: 15 lines
+- Dresden Dahlienweg: 15 lines
 - Dresden S-Bahnhof Dobritz: 15 lines
 - Hoyerswerda Behördenpark: 15 lines
 - Hoyerswerda Lausitzer Platz: 15 lines
 - Kamenz Schwimmhalle: 15 lines
 - Meißen Uferstraße: 15 lines
 - Pirna Breite Straße: 15 lines
-- Bad Schandau Nationalparkbahnhof: 14 lines
 - Dippoldiswalde Busbahnhof: 14 lines
-- Dresden Dahlienweg: 14 lines
 - Dresden Tharandter Straße: 14 lines
 - Heidenau (Sachsen) Bahnhof: 14 lines
 - Kamenz Landesämter: 14 lines
@@ -128,7 +128,11 @@ Total stations: 3915
 - Nossen Markt: 13 lines
 - Nossen Talstraße: 13 lines
 - Coswig (Sachsen) Bahnhof: 12 lines
+- Dresden Chamissostraße: 12 lines
+- Dresden Coventrystraße: 12 lines
+- Dresden Hebbelplatz: 12 lines
 - Dresden Julius-Vahlteich-Straße: 12 lines
+- Dresden Pennricher Straße: 12 lines
 - Dresden S-Bahnhof Niedersedlitz: 12 lines
 - Dresden S-Bf. Freiberger Straße: 12 lines
 - Dresden Schillerplatz: 12 lines
@@ -136,18 +140,21 @@ Total stations: 3915
 - Glashütte (Sachsen) Bahnhof / Busbahnhof: 12 lines
 - Riesa Goethestraße: 12 lines
 - Altenberg (Erzgebirge) Bahnhof: 11 lines
-- Dresden Chamissostraße: 11 lines
-- Dresden Coventrystraße: 11 lines
+- Dresden Amalie-Dietrich-Platz: 11 lines
+- Dresden Betriebshof Gorbitz: 11 lines
+- Dresden Burgkstraße: 11 lines
 - Dresden Großenhainer Platz: 11 lines
-- Dresden Hebbelplatz: 11 lines
+- Dresden Kirschenstraße: 11 lines
+- Dresden Koreanischer Platz: 11 lines
 - Dresden Lennéplatz: 11 lines
+- Dresden Merianplatz: 11 lines
 - Dresden Mockritzer Straße: 11 lines
-- Dresden Pennricher Straße: 11 lines
+- Dresden Pirnaischer Platz: 11 lines
 - Dresden S-Bf. Industriegelände: 11 lines
+- Dresden Schlehenstraße: 11 lines
 - Dresden Walpurgisstraße: 11 lines
 - Großenhain Hohe Straße: 11 lines
 - Pirna Copitz Schulstraße: 11 lines
-- Pirna Robert-Koch-Straße: 11 lines
 - Pulsnitz Bahnhof: 11 lines
 - Tharandt Bahnhof: 11 lines
 - Bad Schandau Elbbrücke: 10 lines
@@ -155,20 +162,15 @@ Total stations: 3915
 - Bischofswerda Schulstraße: 10 lines
 - Cossebaude/Neu-Leuteritz Bahnhof: 10 lines
 - Dresden Albertplatz: 10 lines
-- Dresden Amalie-Dietrich-Platz: 10 lines
-- Dresden Betriebshof Gorbitz: 10 lines
-- Dresden Burgkstraße: 10 lines
+- Dresden Cottaer Straße: 10 lines
 - Dresden Hülßestraße: 10 lines
-- Dresden Kirschenstraße: 10 lines
-- Dresden Koreanischer Platz: 10 lines
 - Dresden Lipsiusstraße: 10 lines
 - Dresden Lohrmannstraße: 10 lines
-- Dresden Merianplatz: 10 lines
-- Dresden Pirnaischer Platz: 10 lines
 - Dresden Prager Straße: 10 lines
 - Dresden Prohlis Gleisschleife: 10 lines
-- Dresden Schlehenstraße: 10 lines
+- Dresden Semmelweisstraße: 10 lines
 - Dresden Zwinglistraße: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
+- Pirna Robert-Koch-Straße: 10 lines
 - Sebnitz Bahnhof: 10 lines
