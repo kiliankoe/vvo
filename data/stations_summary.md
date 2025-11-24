@@ -29,7 +29,7 @@ Total stations: 3915
 
 ## Stations by Transit Type
 
-- Regionalbus: 2706 stations
+- Regionalbus: 2710 stations
 - Stadtbus: 1310 stations
 - PlusBus: 631 stations
 - Anruflinienbus: 475 stations
@@ -51,7 +51,7 @@ Total stations: 3915
 ## Transit Operators
 
 - RVSOE: 1299 stations
-- VGM: 1167 stations
+- VGM: 1170 stations
 - DVB: 766 stations
 - RBO: 713 stations
 - DB Regio AG Südost: 123 stations
@@ -147,14 +147,17 @@ Total stations: 3915
 - Dresden Kirschenstraße: 11 lines
 - Dresden Koreanischer Platz: 11 lines
 - Dresden Lennéplatz: 11 lines
+- Dresden Lipsiusstraße: 11 lines
 - Dresden Merianplatz: 11 lines
 - Dresden Mockritzer Straße: 11 lines
 - Dresden Pirnaischer Platz: 11 lines
 - Dresden S-Bf. Industriegelände: 11 lines
 - Dresden Schlehenstraße: 11 lines
 - Dresden Walpurgisstraße: 11 lines
+- Dresden Zwinglistraße: 11 lines
 - Großenhain Hohe Straße: 11 lines
 - Pirna Copitz Schulstraße: 11 lines
+- Pirna Robert-Koch-Straße: 11 lines
 - Pulsnitz Bahnhof: 11 lines
 - Tharandt Bahnhof: 11 lines
 - Bad Schandau Elbbrücke: 10 lines
@@ -163,14 +166,12 @@ Total stations: 3915
 - Cossebaude/Neu-Leuteritz Bahnhof: 10 lines
 - Dresden Albertplatz: 10 lines
 - Dresden Cottaer Straße: 10 lines
+- Dresden Fetscherplatz: 10 lines
 - Dresden Hülßestraße: 10 lines
-- Dresden Lipsiusstraße: 10 lines
 - Dresden Lohrmannstraße: 10 lines
 - Dresden Prager Straße: 10 lines
 - Dresden Prohlis Gleisschleife: 10 lines
 - Dresden Semmelweisstraße: 10 lines
-- Dresden Zwinglistraße: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
-- Pirna Robert-Koch-Straße: 10 lines
 - Sebnitz Bahnhof: 10 lines
