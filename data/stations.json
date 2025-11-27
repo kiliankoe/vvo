@@ -151,8 +151,8 @@
       "name": "Bahnhof",
       "city": "Altenberg (Erzgebirge)",
       "name_with_city": "Altenberg (Erzgebirge) Bahnhof",
-      "longitude": 13.753593,
-      "latitude": 50.765962,
+      "longitude": 13.75362,
+      "latitude": 50.766075,
       "operators": [
         "DB Regio AG Südost",
         "RVSOE"
@@ -1819,8 +1819,8 @@
       "name": "Nöthnitz Am Schloß",
       "city": "Bannewitz",
       "name_with_city": "Bannewitz Nöthnitz Am Schloß",
-      "longitude": 13.727596,
-      "latitude": 51.003523,
+      "longitude": 13.727623,
+      "latitude": 51.003557,
       "operators": [
         "RVSOE"
       ],
@@ -40055,8 +40055,8 @@
       "name": "Zur Windmühle",
       "city": "Kaufbach (Wilsdruff)",
       "name_with_city": "Kaufbach (Wilsdruff) Zur Windmühle",
-      "longitude": 13.574981,
-      "latitude": 51.05157,
+      "longitude": 13.575215,
+      "latitude": 51.051587,
       "operators": [
         "RVSOE"
       ],
@@ -63333,15 +63333,16 @@
         "Straßenbahn": [
           "4"
         ],
-        "Stadtbus": [
-          "EV 4"
-        ],
         "Regionalbus": [
+          "475",
           "Sv270",
           "Sv280"
+        ],
+        "Stadtbus": [
+          "EV 4"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14627:4223",
@@ -63359,15 +63360,16 @@
         "Straßenbahn": [
           "4"
         ],
-        "Stadtbus": [
-          "EV 4"
-        ],
         "Regionalbus": [
+          "475",
           "Sv270",
           "Sv280"
+        ],
+        "Stadtbus": [
+          "EV 4"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14627:4262",
@@ -63594,15 +63596,16 @@
         "Straßenbahn": [
           "4"
         ],
-        "Stadtbus": [
-          "EV 4"
-        ],
         "Regionalbus": [
+          "475",
           "Sv270",
           "Sv280"
+        ],
+        "Stadtbus": [
+          "EV 4"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14627:4257",
@@ -64471,10 +64474,11 @@
           "72"
         ],
         "Regionalbus": [
+          "475",
           "476"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:4246",
@@ -64635,11 +64639,15 @@
       "latitude": 51.105485,
       "operators": [
         "DB Regio AG Südost",
-        "DVB"
+        "DVB",
+        "VGM"
       ],
       "lines": {
         "Straßenbahn": [
           "4"
+        ],
+        "Regionalbus": [
+          "475"
         ],
         "Stadtbus": [
           "EV 4"
@@ -64648,7 +64656,7 @@
           "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14627:4216",
@@ -80037,8 +80045,8 @@
       "name": "Dresdner Straße",
       "city": "Wilsdruff",
       "name_with_city": "Wilsdruff Dresdner Straße",
-      "longitude": 13.544627,
-      "latitude": 51.05266,
+      "longitude": 13.544933,
+      "latitude": 51.052463,
       "operators": [
         "RVSOE",
         "VGM"
@@ -81735,8 +81743,8 @@
       "name": "Wendeplatz",
       "city": "Zinnwald-Georgenfeld",
       "name_with_city": "Zinnwald-Georgenfeld Wendeplatz",
-      "longitude": 13.761876,
-      "latitude": 50.736311,
+      "longitude": 13.761723,
+      "latitude": 50.736367,
       "operators": [
         "RVSOE"
       ],

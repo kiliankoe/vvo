@@ -202,8 +202,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.753593,
-          50.765962
+          13.75362,
+          50.766075
         ]
       },
       "properties": {
@@ -2510,8 +2510,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.727596,
-          51.003523
+          13.727623,
+          51.003557
         ]
       },
       "properties": {
@@ -55186,8 +55186,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.574981,
-          51.05157
+          13.575215,
+          51.051587
         ]
       },
       "properties": {
@@ -87376,15 +87376,16 @@
           "Straßenbahn": [
             "4"
           ],
-          "Stadtbus": [
-            "EV 4"
-          ],
           "Regionalbus": [
+            "475",
             "Sv270",
             "Sv280"
+          ],
+          "Stadtbus": [
+            "EV 4"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -87410,15 +87411,16 @@
           "Straßenbahn": [
             "4"
           ],
-          "Stadtbus": [
-            "EV 4"
-          ],
           "Regionalbus": [
+            "475",
             "Sv270",
             "Sv280"
+          ],
+          "Stadtbus": [
+            "EV 4"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -87741,15 +87743,16 @@
           "Straßenbahn": [
             "4"
           ],
-          "Stadtbus": [
-            "EV 4"
-          ],
           "Regionalbus": [
+            "475",
             "Sv270",
             "Sv280"
+          ],
+          "Stadtbus": [
+            "EV 4"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -88962,10 +88965,11 @@
             "72"
           ],
           "Regionalbus": [
+            "475",
             "476"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -89198,11 +89202,15 @@
         "name_with_city": "Radebeul Zillerstraße",
         "operators": [
           "DB Regio AG Südost",
-          "DVB"
+          "DVB",
+          "VGM"
         ],
         "lines": {
           "Straßenbahn": [
             "4"
+          ],
+          "Regionalbus": [
+            "475"
           ],
           "Stadtbus": [
             "EV 4"
@@ -89211,7 +89219,7 @@
             "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -110608,8 +110616,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.544627,
-          51.05266
+          13.544933,
+          51.052463
         ]
       },
       "properties": {
@@ -112930,8 +112938,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.761876,
-          50.736311
+          13.761723,
+          50.736367
         ]
       },
       "properties": {
