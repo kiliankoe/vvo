@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3915,
+    "count": 3916,
     "format_version": "2.0"
   },
   "stations": [
@@ -1236,7 +1236,6 @@
       "operators": [
         "DB Fernverkehr AG",
         "DB Regio AG Südost",
-        "European Sleeper",
         "RVSOE",
         "Österreichische Bundesbahnen"
       ],
@@ -15553,7 +15552,6 @@
         "DB Fernverkehr AG",
         "DB Regio AG Südost",
         "DVB",
-        "European Sleeper",
         "FlixTrain",
         "Mitteldeutsche Regiobahn",
         "RVSOE",
@@ -29438,11 +29436,10 @@
       "lines": {
         "Regionalbus": [
           "757",
-          "759",
-          "764"
+          "759"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:6364",
@@ -48181,12 +48178,15 @@
         "RBO"
       ],
       "lines": {
+        "PlusBus": [
+          "522"
+        ],
         "Regionalbus": [
           "760",
           "769"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6637",
@@ -67308,6 +67308,25 @@
         ],
         "Stadtbus": [
           "B (Riesa)"
+        ]
+      },
+      "total_lines": 2
+    },
+    {
+      "id": "de:14627:5532",
+      "numeric_id": "33005532",
+      "name": "Gänsewiesenweg",
+      "city": "Riesa",
+      "name_with_city": "Riesa Gänsewiesenweg",
+      "longitude": 13.320201,
+      "latitude": 51.294817,
+      "operators": [
+        "VGM"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "A1 (Riesa)",
+          "A2 (Riesa)"
         ]
       },
       "total_lines": 2

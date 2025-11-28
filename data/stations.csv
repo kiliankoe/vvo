@@ -58,7 +58,7 @@ de:14628:3629,33003629,Kiefricht,Bad Schandau,Bad Schandau Kiefricht,50.927804,1
 de:14628:3622,33003622,Kurpark,Bad Schandau,Bad Schandau Kurpark,50.920913,14.157772,RVSOE,4,Kirnitzschtalbahn,,,
 de:14628:3617,33003617,Lindenallee,Bad Schandau,Bad Schandau Lindenallee,50.919752,14.149903,RVSOE,1,,,,
 de:14628:3626,33003626,Marktplatz,Bad Schandau,Bad Schandau Marktplatz,50.917679,14.153092,RVSOE,2,,,,
-de:14628:3620,33003620,Nationalparkbahnhof,Bad Schandau,Bad Schandau Nationalparkbahnhof,50.91927,14.138099,DB Fernverkehr AG|DB Regio AG Südost|European Sleeper|RVSOE|Österreichische Bundesbahnen,15,,,RE20|RE50|U28,S1
+de:14628:3620,33003620,Nationalparkbahnhof,Bad Schandau,Bad Schandau Nationalparkbahnhof,50.91927,14.138099,DB Fernverkehr AG|DB Regio AG Südost|RVSOE|Österreichische Bundesbahnen,15,,,RE20|RE50|U28,S1
 de:14628:3627,33003627,Personenaufzug,Bad Schandau,Bad Schandau Personenaufzug,50.916541,14.160575,RVSOE,3,,,,
 de:14628:3624,33003624,Waldhäus´l,Bad Schandau,Bad Schandau Waldhäus´l,50.925114,14.180527,RVSOE,2,Kirnitzschtalbahn,,,
 de:14627:4969,33004969,Abzw Badersen/Dobschütz,Badersen,Badersen Abzw Badersen/Dobschütz,51.14645,13.275833,VGM,4,,,,
@@ -742,7 +742,7 @@ de:14612:186,33000186,Hamburger Straße,Dresden,Dresden Hamburger Straße,51.059
 de:14612:548,33000548,Hammeraue,Dresden,Dresden Hammeraue,51.067932,13.666277,SATRA,4,,91|93,,
 de:14612:764,33000764,Hans-Dankner-Straße,Dresden,Dresden Hans-Dankner-Straße,51.042591,13.742086,DVB,2,,62|68,,
 de:14612:287,33000287,Hans-Oster-Straße,Dresden,Dresden Hans-Oster-Straße,51.074909,13.760654,DVB,1,,64,,
-de:14612:28,33000028,Hauptbahnhof,Dresden,Dresden Hauptbahnhof,51.03993,13.732932,DB Fernverkehr AG|DB Regio AG Südost|DVB|European Sleeper|FlixTrain|Mitteldeutsche Regiobahn|RVSOE|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,30,1|10|11|3|7|8,66,RB30|RB60|RB61|RE1|RE17|RE19|RE2|RE20|RE3|RE50,S1|S2|S3|S8
+de:14612:28,33000028,Hauptbahnhof,Dresden,Dresden Hauptbahnhof,51.03993,13.732932,DB Fernverkehr AG|DB Regio AG Südost|DVB|FlixTrain|Mitteldeutsche Regiobahn|RVSOE|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,30,1|10|11|3|7|8,66,RB30|RB60|RB61|RE1|RE17|RE19|RE2|RE20|RE3|RE50,S1|S2|S3|S8
 de:14612:36,33000036,Hauptbahnhof (Strehlener Str.),Dresden,Dresden Hauptbahnhof (Strehlener Str.),51.038671,13.734279,DB AG|DB Regio|DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn|trilex - Die Länderbahn GmbH DLB,4,,66,,
 de:14612:32,33000032,Hauptbahnhof Nord,Dresden,Dresden Hauptbahnhof Nord,51.041365,13.735088,DVB,6,10|11|12|3|4|7,,,
 de:14612:179,33000179,Hebbelplatz,Dresden,Dresden Hebbelplatz,51.051333,13.682743,DVB,12,1|10|11|12|2|20|3|6|7|8|9,EV 12,,
@@ -1378,7 +1378,7 @@ de:14628:3353,33003353,Gasthaus,Gersdorf (Bahretal),Gersdorf (Bahretal) Gasthaus
 de:14628:3351,33003351,Wendeplatz,Gersdorf (Bahretal),Gersdorf (Bahretal) Wendeplatz,50.879544,13.907268,RVSOE,2,,,,
 de:14625:6361,33006361,Bahnhof,Gersdorf (bei Kamenz),Gersdorf (bei Kamenz) Bahnhof,51.228237,14.045627,DB Regio AG Südost|RBO,4,,,,S8
 de:14625:6363,33006363,Hufenbergweg,Gersdorf (bei Kamenz),Gersdorf (bei Kamenz) Hufenbergweg,51.22188,14.062964,RBO,2,,,,
-de:14625:6360,33006360,Niedergersdorfer Straße,Gersdorf (bei Kamenz),Gersdorf (bei Kamenz) Niedergersdorfer Straße,51.231056,14.051951,RBO,3,,,,
+de:14625:6360,33006360,Niedergersdorfer Straße,Gersdorf (bei Kamenz),Gersdorf (bei Kamenz) Niedergersdorfer Straße,51.231056,14.051951,RBO,2,,,,
 de:14625:6364,33006364,Schule,Gersdorf (bei Kamenz),Gersdorf (bei Kamenz) Schule,51.227163,14.057215,RBO,2,,,,
 de:14625:6367,33006367,Viadukt,Gersdorf (bei Kamenz),Gersdorf (bei Kamenz) Viadukt,51.230966,14.04834,RBO,2,,,,
 de:14628:1943,33001943,Abzweig Dittersdorf,Glashütte (Sachsen),Glashütte (Sachsen) Abzweig Dittersdorf,50.85284,13.791421,RVSOE,4,,,,
@@ -2291,7 +2291,7 @@ de:14628:3140,33003140,Dorfplatz,Maxen,Maxen Dorfplatz,50.924995,13.800117,RVSOE
 de:14627:5115,33005115,Medessen,Medessen,Medessen Medessen,51.268801,13.46483,VGM,1,,,,
 de:14625:6630,33006630,Am Eichelberg,Medingen (Ottendorf-Okrilla),Medingen (Ottendorf-Okrilla) Am Eichelberg,51.181641,13.784873,RBO,3,,,,
 de:14625:6638,33006638,H-Zille-Weg,Medingen (Ottendorf-Okrilla),Medingen (Ottendorf-Okrilla) H-Zille-Weg,51.189563,13.777785,RBO,1,,,,
-de:14625:6634,33006634,Hauptstraße,Medingen (Ottendorf-Okrilla),Medingen (Ottendorf-Okrilla) Hauptstraße,51.182902,13.790541,RBO,2,,,,
+de:14625:6634,33006634,Hauptstraße,Medingen (Ottendorf-Okrilla),Medingen (Ottendorf-Okrilla) Hauptstraße,51.182902,13.790541,RBO,3,,,,
 de:14625:6637,33006637,Hufen Medinger Straße,Medingen (Ottendorf-Okrilla),Medingen (Ottendorf-Okrilla) Hufen Medinger Straße,51.17031,13.797566,RBO,2,,,,
 de:14625:6635,33006635,Hufen Weixdorfer Straße,Medingen (Ottendorf-Okrilla),Medingen (Ottendorf-Okrilla) Hufen Weixdorfer Straße,51.168395,13.791817,RBO,2,,,,
 de:14625:6632,33006632,Kronenberg,Medingen (Ottendorf-Okrilla),Medingen (Ottendorf-Okrilla) Kronenberg,51.18587,13.78233,RBO,1,,,,
@@ -3197,6 +3197,7 @@ de:14627:5582,33005582,Glogauer Straße,Riesa,Riesa Glogauer Straße,51.29858,13
 de:14627:5502,33005502,Goethestraße,Riesa,Riesa Goethestraße,51.301557,13.310131,VGM,12,,A1 (Riesa)|A2 (Riesa)|B (Riesa)|D (Riesa),,
 de:14627:5568,33005568,Gostewitz,Riesa,Riesa Gostewitz,51.266109,13.301884,VGM,4,,,,
 de:14627:5535,33005535,Grenzstraße,Riesa,Riesa Grenzstraße,51.305808,13.279992,VGM,2,,B (Riesa),,
+de:14627:5532,33005532,Gänsewiesenweg,Riesa,Riesa Gänsewiesenweg,51.294817,13.320201,VGM,2,,A1 (Riesa)|A2 (Riesa),,
 de:14627:5510,33005510,Göhlis,Riesa,Riesa Göhlis,51.300787,13.335293,VGM,1,,,,
 de:14627:5522,33005522,Hamburger Straße,Riesa,Riesa Hamburger Straße,51.314917,13.264281,VGM,2,,C (Riesa),,
 de:14627:5534,33005534,Heidebergstraße,Riesa,Riesa Heidebergstraße,51.295845,13.248731,VGM,1,,B (Riesa),,

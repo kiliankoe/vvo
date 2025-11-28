@@ -1,6 +1,6 @@
 # VVO Station Data Summary
 
-Total stations: 3915
+Total stations: 3916
 
 ## Stations by City
 
@@ -8,7 +8,7 @@ Total stations: 3915
 - Meißen: 104
 - Freital: 87
 - Pirna: 84
-- Riesa: 77
+- Riesa: 78
 - Radebeul: 75
 - Hoyerswerda: 74
 - Großenhain: 45
@@ -30,8 +30,8 @@ Total stations: 3915
 ## Stations by Transit Type
 
 - Regionalbus: 2711 stations
-- Stadtbus: 1310 stations
-- PlusBus: 631 stations
+- Stadtbus: 1311 stations
+- PlusBus: 632 stations
 - Anruflinienbus: 475 stations
 - Straßenbahn: 270 stations
 - Anruflinientaxi: 197 stations
@@ -51,7 +51,7 @@ Total stations: 3915
 ## Transit Operators
 
 - RVSOE: 1299 stations
-- VGM: 1171 stations
+- VGM: 1172 stations
 - DVB: 766 stations
 - RBO: 713 stations
 - DB Regio AG Südost: 123 stations
@@ -71,7 +71,6 @@ Total stations: 3915
 - DB Fernverkehr AG: 4 stations
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 3 stations
-- European Sleeper: 2 stations
 - FlixTrain: 2 stations
 - Nordsachsen Mobil: 2 stations
 - Verein Sächsischer Eisenbahnfreunde: 1 stations
