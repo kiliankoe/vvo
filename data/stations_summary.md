@@ -30,7 +30,7 @@ Total stations: 3916
 ## Stations by Transit Type
 
 - Regionalbus: 2711 stations
-- Stadtbus: 1311 stations
+- Stadtbus: 1313 stations
 - PlusBus: 632 stations
 - Anruflinienbus: 475 stations
 - Straßenbahn: 270 stations
@@ -50,7 +50,7 @@ Total stations: 3916
 
 ## Transit Operators
 
-- RVSOE: 1299 stations
+- RVSOE: 1308 stations
 - VGM: 1172 stations
 - DVB: 766 stations
 - RBO: 713 stations
@@ -79,7 +79,7 @@ Total stations: 3916
 ## Major Transit Hubs (10+ lines)
 
 - Meißen Busbahnhof: 33 lines
-- Dresden Hauptbahnhof: 30 lines
+- Dresden Hauptbahnhof: 31 lines
 - Riesa Busbahnhof / Bahnhof: 28 lines
 - Dresden Bahnhof Neustadt: 25 lines
 - Dresden Bahnhof Mitte: 23 lines
@@ -93,11 +93,11 @@ Total stations: 3916
 - Riesa Alexander-Puschkin-Platz: 19 lines
 - Riesa Rudolf-Breitscheid-Straße: 19 lines
 - Lommatzsch Busbahnhof: 18 lines
+- Dresden Postplatz: 17 lines
 - Freital S-Bf. / Busbf. Deuben: 17 lines
 - Großenhain Lessingplatz: 17 lines
 - Großenhain Mozartallee: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
-- Dresden Postplatz: 16 lines
 - Dresden S-Bf. Strehlen: 16 lines
 - Dresden Trachenberger Platz: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
@@ -133,8 +133,10 @@ Total stations: 3916
 - Dresden Pennricher Straße: 12 lines
 - Dresden S-Bahnhof Niedersedlitz: 12 lines
 - Dresden Schillerplatz: 12 lines
+- Dresden Walpurgisstraße: 12 lines
 - Freital S-Bahnhof Hainsberg: 12 lines
 - Glashütte (Sachsen) Bahnhof / Busbahnhof: 12 lines
+- Pirna Copitz Schulstraße: 12 lines
 - Riesa Goethestraße: 12 lines
 - Altenberg (Erzgebirge) Bahnhof: 11 lines
 - Dresden Amalie-Dietrich-Platz: 11 lines
@@ -148,12 +150,11 @@ Total stations: 3916
 - Dresden Merianplatz: 11 lines
 - Dresden Mockritzer Straße: 11 lines
 - Dresden Pirnaischer Platz: 11 lines
+- Dresden Prager Straße: 11 lines
 - Dresden S-Bf. Freiberger Straße: 11 lines
 - Dresden S-Bf. Industriegelände: 11 lines
 - Dresden Schlehenstraße: 11 lines
-- Dresden Walpurgisstraße: 11 lines
 - Großenhain Hohe Straße: 11 lines
-- Pirna Copitz Schulstraße: 11 lines
 - Pirna Robert-Koch-Straße: 11 lines
 - Pulsnitz Bahnhof: 11 lines
 - Tharandt Bahnhof: 11 lines
@@ -166,7 +167,6 @@ Total stations: 3916
 - Dresden Hülßestraße: 10 lines
 - Dresden Lipsiusstraße: 10 lines
 - Dresden Lohrmannstraße: 10 lines
-- Dresden Prager Straße: 10 lines
 - Dresden Prohlis Gleisschleife: 10 lines
 - Dresden Semmelweisstraße: 10 lines
 - Dresden Zwinglistraße: 10 lines

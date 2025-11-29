@@ -14413,7 +14413,7 @@
             "477"
           ],
           "Stadtbus": [
-            "EV7/8"
+            "EV 8"
           ]
         },
         "total_lines": 10
@@ -14821,11 +14821,10 @@
             "9"
           ],
           "PlusBus": [
-            "333",
             "360"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -17126,7 +17125,7 @@
             "477"
           ],
           "Stadtbus": [
-            "EV7/8"
+            "EV 8"
           ]
         },
         "total_lines": 5
@@ -17888,20 +17887,22 @@
         "city": "Dresden",
         "name_with_city": "Dresden Caspar-David-Friedrich-Straße",
         "operators": [
-          "DVB"
+          "DVB",
+          "RVSOE"
         ],
         "lines": {
           "Stadtbus": [
             "61",
             "63",
             "66",
-            "85"
+            "85",
+            "H/S (Pirna)"
           ],
           "Anruflinientaxi": [
             "alita 63"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -18137,19 +18138,21 @@
         "city": "Dresden",
         "name_with_city": "Dresden Corinthstraße",
         "operators": [
-          "DVB"
+          "DVB",
+          "RVSOE"
         ],
         "lines": {
           "Stadtbus": [
             "66",
-            "68"
+            "68",
+            "H/S (Pirna)"
           ],
           "Anruflinientaxi": [
             "alita 63",
             "alita 68"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -20104,13 +20107,14 @@
         "lines": {
           "Stadtbus": [
             "66",
-            "88"
+            "88",
+            "H/S (Pirna)"
           ],
           "Regionalbus": [
             "353"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -20443,14 +20447,16 @@
         "city": "Dresden",
         "name_with_city": "Dresden Gamigstraße",
         "operators": [
-          "DVB"
+          "DVB",
+          "RVSOE"
         ],
         "lines": {
           "Stadtbus": [
-            "66"
+            "66",
+            "H/S (Pirna)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -21516,7 +21522,8 @@
             "8"
           ],
           "Stadtbus": [
-            "66"
+            "66",
+            "H/S (Pirna)"
           ],
           "PlusBus": [
             "261",
@@ -21554,7 +21561,7 @@
             "SEV"
           ]
         },
-        "total_lines": 30
+        "total_lines": 31
       }
     },
     {
@@ -21717,7 +21724,7 @@
             "8"
           ],
           "Stadtbus": [
-            "EV7/8"
+            "EV 8"
           ]
         },
         "total_lines": 3
@@ -22098,7 +22105,7 @@
             "8"
           ],
           "Stadtbus": [
-            "EV7/8"
+            "EV 8"
           ]
         },
         "total_lines": 3
@@ -22901,7 +22908,7 @@
           "Stadtbus": [
             "72",
             "77",
-            "EV7/8"
+            "EV 8"
           ],
           "Anruflinientaxi": [
             "alita 77",
@@ -22936,7 +22943,7 @@
             "8"
           ],
           "Stadtbus": [
-            "EV7/8"
+            "EV 8"
           ]
         },
         "total_lines": 4
@@ -23994,7 +24001,7 @@
           "Stadtbus": [
             "72",
             "77",
-            "EV7/8"
+            "EV 8"
           ]
         },
         "total_lines": 3
@@ -25430,7 +25437,7 @@
             "477"
           ],
           "Stadtbus": [
-            "EV7/8"
+            "EV 8"
           ]
         },
         "total_lines": 4
@@ -25746,15 +25753,17 @@
         "city": "Dresden",
         "name_with_city": "Dresden Marie-Wittich-Straße",
         "operators": [
-          "DVB"
+          "DVB",
+          "RVSOE"
         ],
         "lines": {
           "Stadtbus": [
             "66",
-            "87"
+            "87",
+            "H/S (Pirna)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -26509,7 +26518,7 @@
             "8"
           ],
           "Stadtbus": [
-            "EV7/8"
+            "EV 8"
           ]
         },
         "total_lines": 3
@@ -28105,7 +28114,8 @@
           "Stadtbus": [
             "62",
             "68",
-            "EV 12"
+            "EV 12",
+            "H/S (Pirna)"
           ],
           "PlusBus": [
             "333",
@@ -28113,7 +28123,7 @@
             "477"
           ]
         },
-        "total_lines": 16
+        "total_lines": 17
       }
     },
     {
@@ -28146,14 +28156,15 @@
           ],
           "Stadtbus": [
             "62",
-            "68"
+            "68",
+            "H/S (Pirna)"
           ],
           "PlusBus": [
             "333",
             "360"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -29790,7 +29801,7 @@
             "8"
           ],
           "Stadtbus": [
-            "EV7/8"
+            "EV 8"
           ],
           "Zug": [
             "RB33",
@@ -30987,15 +30998,17 @@
         "city": "Dresden",
         "name_with_city": "Dresden Spitzwegstraße",
         "operators": [
-          "DVB"
+          "DVB",
+          "RVSOE"
         ],
         "lines": {
           "Stadtbus": [
             "66",
-            "87"
+            "87",
+            "H/S (Pirna)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -31164,7 +31177,7 @@
           ],
           "Stadtbus": [
             "64",
-            "EV7/8"
+            "EV 8"
           ]
         },
         "total_lines": 4
@@ -31335,17 +31348,19 @@
         "city": "Dresden",
         "name_with_city": "Dresden Strehlener Platz",
         "operators": [
-          "DVB"
+          "DVB",
+          "RVSOE"
         ],
         "lines": {
           "Straßenbahn": [
             "11"
           ],
           "Stadtbus": [
-            "66"
+            "66",
+            "H/S (Pirna)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -31637,7 +31652,7 @@
           ],
           "Stadtbus": [
             "64",
-            "EV7/8"
+            "EV 8"
           ]
         },
         "total_lines": 4
@@ -32038,15 +32053,17 @@
         "city": "Dresden",
         "name_with_city": "Dresden Tornaer Straße",
         "operators": [
-          "DVB"
+          "DVB",
+          "RVSOE"
         ],
         "lines": {
           "Stadtbus": [
             "66",
-            "87"
+            "87",
+            "H/S (Pirna)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -32329,14 +32346,16 @@
         "city": "Dresden",
         "name_with_city": "Dresden Uhlandstraße",
         "operators": [
-          "DVB"
+          "DVB",
+          "RVSOE"
         ],
         "lines": {
           "Stadtbus": [
-            "66"
+            "66",
+            "H/S (Pirna)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -32621,9 +32640,12 @@
           "Regionalbus": [
             "365",
             "366"
+          ],
+          "Stadtbus": [
+            "H/S (Pirna)"
           ]
         },
-        "total_lines": 11
+        "total_lines": 12
       }
     },
     {
@@ -32810,14 +32832,16 @@
         "city": "Dresden",
         "name_with_city": "Dresden Weberplatz",
         "operators": [
-          "DVB"
+          "DVB",
+          "RVSOE"
         ],
         "lines": {
           "Stadtbus": [
-            "66"
+            "66",
+            "H/S (Pirna)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -80988,10 +81012,11 @@
           ],
           "Stadtbus": [
             "G/L (Pirna)",
+            "H/S (Pirna)",
             "P (Pirna)"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -81364,6 +81389,7 @@
           ],
           "Stadtbus": [
             "G/L (Pirna)",
+            "H/S (Pirna)",
             "M (Pirna)",
             "P (Pirna)"
           ],
@@ -81371,7 +81397,7 @@
             "SEV"
           ]
         },
-        "total_lines": 11
+        "total_lines": 12
       }
     },
     {
@@ -81511,10 +81537,11 @@
           ],
           "Stadtbus": [
             "G/L (Pirna)",
+            "H/S (Pirna)",
             "P (Pirna)"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -82465,9 +82492,12 @@
           "Regionalbus": [
             "245",
             "246"
+          ],
+          "Stadtbus": [
+            "H/S (Pirna)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {

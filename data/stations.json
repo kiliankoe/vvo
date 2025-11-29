@@ -10346,7 +10346,7 @@
           "477"
         ],
         "Stadtbus": [
-          "EV7/8"
+          "EV 8"
         ]
       },
       "total_lines": 10
@@ -10642,11 +10642,10 @@
           "9"
         ],
         "PlusBus": [
-          "333",
           "360"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14612:738",
@@ -12355,7 +12354,7 @@
           "477"
         ],
         "Stadtbus": [
-          "EV7/8"
+          "EV 8"
         ]
       },
       "total_lines": 5
@@ -12917,20 +12916,22 @@
       "longitude": 13.755677,
       "latitude": 51.026412,
       "operators": [
-        "DVB"
+        "DVB",
+        "RVSOE"
       ],
       "lines": {
         "Stadtbus": [
           "61",
           "63",
           "66",
-          "85"
+          "85",
+          "H/S (Pirna)"
         ],
         "Anruflinientaxi": [
           "alita 63"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14612:178",
@@ -13102,19 +13103,21 @@
       "longitude": 13.764553,
       "latitude": 51.021242,
       "operators": [
-        "DVB"
+        "DVB",
+        "RVSOE"
       ],
       "lines": {
         "Stadtbus": [
           "66",
-          "68"
+          "68",
+          "H/S (Pirna)"
         ],
         "Anruflinientaxi": [
           "alita 63",
           "alita 68"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:165",
@@ -14549,13 +14552,14 @@
       "lines": {
         "Stadtbus": [
           "66",
-          "88"
+          "88",
+          "H/S (Pirna)"
         ],
         "Regionalbus": [
           "353"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:945",
@@ -14792,14 +14796,16 @@
       "longitude": 13.788017,
       "latitude": 51.005705,
       "operators": [
-        "DVB"
+        "DVB",
+        "RVSOE"
       ],
       "lines": {
         "Stadtbus": [
-          "66"
+          "66",
+          "H/S (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:558",
@@ -15569,7 +15575,8 @@
           "8"
         ],
         "Stadtbus": [
-          "66"
+          "66",
+          "H/S (Pirna)"
         ],
         "PlusBus": [
           "261",
@@ -15607,7 +15614,7 @@
           "SEV"
         ]
       },
-      "total_lines": 30
+      "total_lines": 31
     },
     {
       "id": "de:14612:36",
@@ -15730,7 +15737,7 @@
           "8"
         ],
         "Stadtbus": [
-          "EV7/8"
+          "EV 8"
         ]
       },
       "total_lines": 3
@@ -16007,7 +16014,7 @@
           "8"
         ],
         "Stadtbus": [
-          "EV7/8"
+          "EV 8"
         ]
       },
       "total_lines": 3
@@ -16594,7 +16601,7 @@
         "Stadtbus": [
           "72",
           "77",
-          "EV7/8"
+          "EV 8"
         ],
         "Anruflinientaxi": [
           "alita 77",
@@ -16621,7 +16628,7 @@
           "8"
         ],
         "Stadtbus": [
-          "EV7/8"
+          "EV 8"
         ]
       },
       "total_lines": 4
@@ -17391,7 +17398,7 @@
         "Stadtbus": [
           "72",
           "77",
-          "EV7/8"
+          "EV 8"
         ]
       },
       "total_lines": 3
@@ -18459,7 +18466,7 @@
           "477"
         ],
         "Stadtbus": [
-          "EV7/8"
+          "EV 8"
         ]
       },
       "total_lines": 4
@@ -18687,15 +18694,17 @@
       "longitude": 13.77721,
       "latitude": 51.013031,
       "operators": [
-        "DVB"
+        "DVB",
+        "RVSOE"
       ],
       "lines": {
         "Stadtbus": [
           "66",
-          "87"
+          "87",
+          "H/S (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:604",
@@ -19242,7 +19251,7 @@
           "8"
         ],
         "Stadtbus": [
-          "EV7/8"
+          "EV 8"
         ]
       },
       "total_lines": 3
@@ -20406,7 +20415,8 @@
         "Stadtbus": [
           "62",
           "68",
-          "EV 12"
+          "EV 12",
+          "H/S (Pirna)"
         ],
         "PlusBus": [
           "333",
@@ -20414,7 +20424,7 @@
           "477"
         ]
       },
-      "total_lines": 16
+      "total_lines": 17
     },
     {
       "id": "de:14612:3",
@@ -20439,14 +20449,15 @@
         ],
         "Stadtbus": [
           "62",
-          "68"
+          "68",
+          "H/S (Pirna)"
         ],
         "PlusBus": [
           "333",
           "360"
         ]
       },
-      "total_lines": 10
+      "total_lines": 11
     },
     {
       "id": "de:14612:51",
@@ -21675,7 +21686,7 @@
           "8"
         ],
         "Stadtbus": [
-          "EV7/8"
+          "EV 8"
         ],
         "Zug": [
           "RB33",
@@ -22560,15 +22571,17 @@
       "longitude": 13.771757,
       "latitude": 51.015489,
       "operators": [
-        "DVB"
+        "DVB",
+        "RVSOE"
       ],
       "lines": {
         "Stadtbus": [
           "66",
-          "87"
+          "87",
+          "H/S (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:80",
@@ -22689,7 +22702,7 @@
         ],
         "Stadtbus": [
           "64",
-          "EV7/8"
+          "EV 8"
         ]
       },
       "total_lines": 4
@@ -22812,17 +22825,19 @@
       "longitude": 13.748895,
       "latitude": 51.03379,
       "operators": [
-        "DVB"
+        "DVB",
+        "RVSOE"
       ],
       "lines": {
         "Straßenbahn": [
           "11"
         ],
         "Stadtbus": [
-          "66"
+          "66",
+          "H/S (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:68",
@@ -23034,7 +23049,7 @@
         ],
         "Stadtbus": [
           "64",
-          "EV7/8"
+          "EV 8"
         ]
       },
       "total_lines": 4
@@ -23331,15 +23346,17 @@
       "longitude": 13.783804,
       "latitude": 51.0096,
       "operators": [
-        "DVB"
+        "DVB",
+        "RVSOE"
       ],
       "lines": {
         "Stadtbus": [
           "66",
-          "87"
+          "87",
+          "H/S (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:206",
@@ -23550,14 +23567,16 @@
       "longitude": 13.739624,
       "latitude": 51.036863,
       "operators": [
-        "DVB"
+        "DVB",
+        "RVSOE"
       ],
       "lines": {
         "Stadtbus": [
-          "66"
+          "66",
+          "H/S (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:45",
@@ -23770,9 +23789,12 @@
         "Regionalbus": [
           "365",
           "366"
+        ],
+        "Stadtbus": [
+          "H/S (Pirna)"
         ]
       },
-      "total_lines": 11
+      "total_lines": 12
     },
     {
       "id": "de:14612:185",
@@ -23911,14 +23933,16 @@
       "longitude": 13.750871,
       "latitude": 51.031265,
       "operators": [
-        "DVB"
+        "DVB",
+        "RVSOE"
       ],
       "lines": {
         "Stadtbus": [
-          "66"
+          "66",
+          "H/S (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:691",
@@ -58705,10 +58729,11 @@
         ],
         "Stadtbus": [
           "G/L (Pirna)",
+          "H/S (Pirna)",
           "P (Pirna)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3461",
@@ -58985,6 +59010,7 @@
         ],
         "Stadtbus": [
           "G/L (Pirna)",
+          "H/S (Pirna)",
           "M (Pirna)",
           "P (Pirna)"
         ],
@@ -58992,7 +59018,7 @@
           "SEV"
         ]
       },
-      "total_lines": 11
+      "total_lines": 12
     },
     {
       "id": "de:14628:3438",
@@ -59092,10 +59118,11 @@
         ],
         "Stadtbus": [
           "G/L (Pirna)",
+          "H/S (Pirna)",
           "P (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3375",
@@ -59782,9 +59809,12 @@
         "Regionalbus": [
           "245",
           "246"
+        ],
+        "Stadtbus": [
+          "H/S (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3417",
