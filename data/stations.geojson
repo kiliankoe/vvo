@@ -218,7 +218,8 @@
         ],
         "lines": {
           "PlusBus": [
-            "360"
+            "360",
+            "398"
           ],
           "Regionalbus": [
             "367",
@@ -237,7 +238,7 @@
             "SEV"
           ]
         },
-        "total_lines": 11
+        "total_lines": 12
       }
     },
     {
@@ -312,7 +313,8 @@
         ],
         "lines": {
           "PlusBus": [
-            "360"
+            "360",
+            "398"
           ],
           "Regionalbus": [
             "367",
@@ -320,7 +322,7 @@
             "398"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -421,14 +423,15 @@
         ],
         "lines": {
           "PlusBus": [
-            "360"
+            "360",
+            "398"
           ],
           "Regionalbus": [
             "367",
             "398"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -451,14 +454,15 @@
         ],
         "lines": {
           "PlusBus": [
-            "360"
+            "360",
+            "398"
           ],
           "Regionalbus": [
             "367",
             "398"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -1711,6 +1715,7 @@
         "operators": [
           "DB Fernverkehr AG",
           "DB Regio AG Südost",
+          "European Sleeper",
           "RVSOE",
           "Österreichische Bundesbahnen"
         ],
@@ -6018,14 +6023,11 @@
           "RBO"
         ],
         "lines": {
-          "Anruflinienbus": [
-            "789"
-          ],
           "Regionalbus": [
             "789"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -8095,11 +8097,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "368",
-            "369"
+            "368"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -8124,7 +8125,6 @@
         "lines": {
           "Regionalbus": [
             "368",
-            "369",
             "SEV RB 72"
           ],
           "Zug": [
@@ -8134,7 +8134,7 @@
             "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -10774,6 +10774,7 @@
         "city": "Coswig (Sachsen)",
         "name_with_city": "Coswig (Sachsen) Zentrum/ Börse",
         "operators": [
+          "DB AG",
           "DVB",
           "VGM"
         ],
@@ -14821,10 +14822,14 @@
             "9"
           ],
           "PlusBus": [
+            "333",
             "360"
+          ],
+          "Stadtbus": [
+            "H/S (Pirna)"
           ]
         },
-        "total_lines": 5
+        "total_lines": 7
       }
     },
     {
@@ -21505,6 +21510,7 @@
           "DB Fernverkehr AG",
           "DB Regio AG Südost",
           "DVB",
+          "European Sleeper",
           "FlixTrain",
           "Mitteldeutsche Regiobahn",
           "RVSOE",
@@ -27865,7 +27871,8 @@
             "9"
           ],
           "Stadtbus": [
-            "62"
+            "62",
+            "H/S (Pirna)"
           ],
           "PlusBus": [
             "261",
@@ -27877,7 +27884,7 @@
             "366"
           ]
         },
-        "total_lines": 11
+        "total_lines": 12
       }
     },
     {
@@ -35190,12 +35197,9 @@
             "757",
             "789",
             "795"
-          ],
-          "Anruflinienbus": [
-            "789"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -35221,12 +35225,9 @@
             "757",
             "789",
             "795"
-          ],
-          "Anruflinienbus": [
-            "789"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -38454,11 +38455,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "161",
             "162"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -40632,11 +40632,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "368",
-            "369"
+            "368"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -40703,11 +40702,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "368",
-            "369"
+            "368"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -41044,11 +41042,14 @@
           "RBO"
         ],
         "lines": {
+          "Anruflinienbus": [
+            "746"
+          ],
           "Regionalbus": [
             "746"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -46024,6 +46025,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.964994,
+          51.34714
+        ]
+      },
+      "properties": {
+        "id": "de:14625:6140",
+        "numeric_id": "33006140",
+        "name": "Gärtnerei",
+        "city": "Grüngräbchen",
+        "name_with_city": "Grüngräbchen Gärtnerei",
+        "operators": [
+          "RBO"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "787"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.285818,
           51.243497
         ]
@@ -46344,6 +46371,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.892949,
+          50.860677
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3354",
+        "numeric_id": "33003354",
+        "name": "Alte Schule",
+        "city": "Göppersdorf (Bahretal)",
+        "name_with_city": "Göppersdorf (Bahretal) Alte Schule",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "207a",
+            "207b"
+          ]
+        },
+        "total_lines": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.897387,
           50.861091
         ]
@@ -46354,6 +46408,60 @@
         "name": "Brücke",
         "city": "Göppersdorf (Bahretal)",
         "name_with_city": "Göppersdorf (Bahretal) Brücke",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "207a",
+            "207b"
+          ]
+        },
+        "total_lines": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.887056,
+          50.860654
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3355",
+        "numeric_id": "33003355",
+        "name": "Mini-Markt",
+        "city": "Göppersdorf (Bahretal)",
+        "name_with_city": "Göppersdorf (Bahretal) Mini-Markt",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "207a",
+            "207b"
+          ]
+        },
+        "total_lines": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.880004,
+          50.861539
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3356",
+        "numeric_id": "33003356",
+        "name": "Oberdorf",
+        "city": "Göppersdorf (Bahretal)",
+        "name_with_city": "Göppersdorf (Bahretal) Oberdorf",
         "operators": [
           "RVSOE"
         ],
@@ -49734,6 +49842,32 @@
         "name": "Hermsdorfer Straße",
         "city": "Hirschbach (Glashütte in Sachsen)",
         "name_with_city": "Hirschbach (Glashütte in Sachsen) Hermsdorfer Straße",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "389"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.74452,
+          50.907093
+        ]
+      },
+      "properties": {
+        "id": "de:14628:1991",
+        "numeric_id": "33001991",
+        "name": "Mitte",
+        "city": "Hirschbach (Glashütte in Sachsen)",
+        "name_with_city": "Hirschbach (Glashütte in Sachsen) Mitte",
         "operators": [
           "RVSOE"
         ],
@@ -53883,9 +54017,6 @@
           "RBO"
         ],
         "lines": {
-          "Anruflinienbus": [
-            "789"
-          ],
           "Regionalbus": [
             "789"
           ],
@@ -53893,7 +54024,7 @@
             "21 (Kamenz)"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -53938,7 +54069,6 @@
           ],
           "Anruflinienbus": [
             "788",
-            "789",
             "791"
           ],
           "Stadtbus": [
@@ -53953,7 +54083,7 @@
             "SEV"
           ]
         },
-        "total_lines": 22
+        "total_lines": 21
       }
     },
     {
@@ -54186,9 +54316,6 @@
           "RBO"
         ],
         "lines": {
-          "Anruflinienbus": [
-            "789"
-          ],
           "Regionalbus": [
             "789"
           ],
@@ -54196,7 +54323,7 @@
             "21 (Kamenz)"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -54365,9 +54492,6 @@
           "RBO"
         ],
         "lines": {
-          "Anruflinienbus": [
-            "789"
-          ],
           "Regionalbus": [
             "789"
           ],
@@ -54375,7 +54499,7 @@
             "21 (Kamenz)"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -54441,14 +54565,13 @@
             "791"
           ],
           "Anruflinienbus": [
-            "789",
             "791"
           ],
           "Stadtbus": [
             "23 (Kamenz)"
           ]
         },
-        "total_lines": 14
+        "total_lines": 13
       }
     },
     {
@@ -54521,7 +54644,6 @@
             "791"
           ],
           "Anruflinienbus": [
-            "789",
             "791"
           ],
           "Stadtbus": [
@@ -54530,7 +54652,7 @@
             "23 (Kamenz)"
           ]
         },
-        "total_lines": 16
+        "total_lines": 15
       }
     },
     {
@@ -54747,14 +54869,11 @@
             "790",
             "791"
           ],
-          "Anruflinienbus": [
-            "789"
-          ],
           "Stadtbus": [
             "22 (Kamenz)"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -54794,7 +54913,6 @@
             "791"
           ],
           "Anruflinienbus": [
-            "789",
             "791"
           ],
           "Stadtbus": [
@@ -54802,7 +54920,7 @@
             "23 (Kamenz)"
           ]
         },
-        "total_lines": 15
+        "total_lines": 14
       }
     },
     {
@@ -58857,6 +58975,9 @@
           "Taktbus": [
             "533"
           ],
+          "Anruflinienbus": [
+            "746"
+          ],
           "Regionalbus": [
             "746",
             "756",
@@ -58870,7 +58991,7 @@
             "SEV"
           ]
         },
-        "total_lines": 8
+        "total_lines": 9
       }
     },
     {
@@ -58950,12 +59071,15 @@
           "Taktbus": [
             "533"
           ],
+          "Anruflinienbus": [
+            "746"
+          ],
           "Regionalbus": [
             "746",
             "762"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -59102,6 +59226,9 @@
           "Taktbus": [
             "533"
           ],
+          "Anruflinienbus": [
+            "746"
+          ],
           "Regionalbus": [
             "746",
             "756",
@@ -59109,7 +59236,7 @@
             "766"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -59329,6 +59456,32 @@
           ]
         },
         "total_lines": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.034182,
+          50.904907
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3499",
+        "numeric_id": "33003499",
+        "name": "Nikolsdorf (Sächs. Schweiz)",
+        "city": "Königstein (Sächsische Schweiz)",
+        "name_with_city": "Königstein (Sächsische Schweiz) Nikolsdorf (Sächs. Schweiz)",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "246"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
@@ -61878,11 +62031,14 @@
           "RBO"
         ],
         "lines": {
+          "Anruflinienbus": [
+            "746"
+          ],
           "Regionalbus": [
             "746"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -63154,12 +63310,9 @@
             "711",
             "774",
             "789"
-          ],
-          "Anruflinienbus": [
-            "789"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -63575,10 +63728,37 @@
             "204",
             "205",
             "206",
-            "207a"
+            "207a",
+            "207b"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.876618,
+          50.848581
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3155",
+        "numeric_id": "33003155",
+        "name": "Waldhäusel",
+        "city": "Liebstadt",
+        "name_with_city": "Liebstadt Waldhäusel",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "205"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
@@ -63826,14 +64006,11 @@
           "RBO"
         ],
         "lines": {
-          "Anruflinienbus": [
-            "789"
-          ],
           "Regionalbus": [
             "789"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -64360,6 +64537,34 @@
         "name": "Sparkasse",
         "city": "Lohsa",
         "name_with_city": "Lohsa Sparkasse",
+        "operators": [
+          "RBO"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "775",
+            "776",
+            "777"
+          ]
+        },
+        "total_lines": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.406857,
+          51.384874
+        ]
+      },
+      "properties": {
+        "id": "de:14625:6990",
+        "numeric_id": "33006990",
+        "name": "Ziegelteich",
+        "city": "Lohsa",
+        "name_with_city": "Lohsa Ziegelteich",
         "operators": [
           "RBO"
         ],
@@ -67585,6 +67790,7 @@
         "city": "Meißen",
         "name_with_city": "Meißen Busbahnhof",
         "operators": [
+          "DB Regio AG Südost",
           "VGM"
         ],
         "lines": {
@@ -67628,9 +67834,12 @@
             "A (Meißen)",
             "B (Meißen)",
             "C (Meißen)"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 33
+        "total_lines": 34
       }
     },
     {
@@ -69071,6 +69280,7 @@
         "city": "Meißen",
         "name_with_city": "Meißen Niesnerstraße",
         "operators": [
+          "DB Regio AG Südost",
           "VGM"
         ],
         "lines": {
@@ -69082,9 +69292,12 @@
           ],
           "Stadtbus": [
             "C (Meißen)"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -69423,9 +69636,12 @@
             "A (Meißen)",
             "C (Meißen)",
             "E (Meißen)"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 16
+        "total_lines": 17
       }
     },
     {
@@ -70428,14 +70644,11 @@
           "Taktbus": [
             "534"
           ],
-          "Anruflinienbus": [
-            "789"
-          ],
           "Regionalbus": [
             "789"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -74143,9 +74356,12 @@
           ],
           "S-Bahn": [
             "S1"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -74367,9 +74583,12 @@
           "Zug": [
             "RB31",
             "RE50"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -77894,14 +78113,11 @@
           "RBO"
         ],
         "lines": {
-          "Anruflinienbus": [
-            "789"
-          ],
           "Regionalbus": [
             "789"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -79185,12 +79401,9 @@
           "Regionalbus": [
             "773",
             "789"
-          ],
-          "Anruflinienbus": [
-            "789"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -82228,14 +82441,13 @@
             "237",
             "241",
             "245",
-            "246",
             "207a"
           ],
           "Stadtbus": [
             "Z (Pirna)"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -84937,14 +85149,11 @@
           "RBO"
         ],
         "lines": {
-          "Anruflinienbus": [
-            "789"
-          ],
           "Regionalbus": [
             "789"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -84966,14 +85175,11 @@
           "RBO"
         ],
         "lines": {
-          "Anruflinienbus": [
-            "789"
-          ],
           "Regionalbus": [
             "789"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -86551,9 +86757,12 @@
         "lines": {
           "Stadtbus": [
             "28"
+          ],
+          "Regionalbus": [
+            "753"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -86619,6 +86828,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.917769,
+          51.110014
+        ]
+      },
+      "properties": {
+        "id": "de:14625:6729",
+        "numeric_id": "33006729",
+        "name": "Güterbahnhofstraße",
+        "city": "Radeberg",
+        "name_with_city": "Radeberg Güterbahnhofstraße",
+        "operators": [
+          "RBO"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "28"
+          ],
+          "PlusBus": [
+            "521"
+          ],
+          "Regionalbus": [
+            "753"
+          ]
+        },
+        "total_lines": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.890919,
           51.113217
         ]
@@ -86661,9 +86902,12 @@
         "lines": {
           "Stadtbus": [
             "28"
+          ],
+          "Regionalbus": [
+            "753"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -86687,9 +86931,12 @@
         "lines": {
           "Stadtbus": [
             "28"
+          ],
+          "Regionalbus": [
+            "753"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -87015,9 +87262,12 @@
         "lines": {
           "Stadtbus": [
             "28"
+          ],
+          "Regionalbus": [
+            "753"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -87233,17 +87483,21 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Altserkowitz",
         "operators": [
-          "DVB"
+          "DVB",
+          "VGM"
         ],
         "lines": {
           "Stadtbus": [
             "72"
           ],
+          "Regionalbus": [
+            "475"
+          ],
           "Anruflinientaxi": [
             "alita 72"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -88628,6 +88882,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.62941,
+          51.107577
+        ]
+      },
+      "properties": {
+        "id": "de:14627:4212",
+        "numeric_id": "33004212",
+        "name": "S-Bahnhof Kötzschenbroda",
+        "city": "Radebeul",
+        "name_with_city": "Radebeul S-Bahnhof Kötzschenbroda",
+        "operators": [
+          "DB Regio AG Südost",
+          "VGM"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "400",
+            "475",
+            "476"
+          ],
+          "S-Bahn": [
+            "S1"
+          ]
+        },
+        "total_lines": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.680039,
           51.098417
         ]
@@ -88744,38 +89030,6 @@
           ]
         },
         "total_lines": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.62941,
-          51.107577
-        ]
-      },
-      "properties": {
-        "id": "de:14627:4212",
-        "numeric_id": "33004212",
-        "name": "S-Bf. Kötzschenbroda",
-        "city": "Radebeul",
-        "name_with_city": "Radebeul S-Bf. Kötzschenbroda",
-        "operators": [
-          "DB Regio AG Südost",
-          "VGM"
-        ],
-        "lines": {
-          "Regionalbus": [
-            "400",
-            "475",
-            "476"
-          ],
-          "S-Bahn": [
-            "S1"
-          ]
-        },
-        "total_lines": 4
       }
     },
     {
@@ -89007,32 +89261,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.621864,
-          51.107741
-        ]
-      },
-      "properties": {
-        "id": "de:14627:4246",
-        "numeric_id": "33004246",
-        "name": "W-Eichler-Straße",
-        "city": "Radebeul",
-        "name_with_city": "Radebeul W-Eichler-Straße",
-        "operators": [
-          "VGM"
-        ],
-        "lines": {
-          "Regionalbus": [
-            "400"
-          ]
-        },
-        "total_lines": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.677021,
           51.117452
         ]
@@ -89161,6 +89389,32 @@
         ],
         "lines": {},
         "total_lines": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.621864,
+          51.107741
+        ]
+      },
+      "properties": {
+        "id": "de:14627:4246",
+        "numeric_id": "33004246",
+        "name": "Wilhelm-Eichler-Straße",
+        "city": "Radebeul",
+        "name_with_city": "Radebeul Wilhelm-Eichler-Straße",
+        "operators": [
+          "VGM"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "400"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
@@ -90360,10 +90614,11 @@
         "lines": {
           "Regionalbus": [
             "253",
-            "254"
+            "254",
+            "260"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -96213,11 +96468,14 @@
           "RBO"
         ],
         "lines": {
+          "Anruflinienbus": [
+            "746"
+          ],
           "Regionalbus": [
             "746"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -97409,14 +97667,11 @@
           "Taktbus": [
             "534"
           ],
-          "Anruflinienbus": [
-            "789"
-          ],
           "Regionalbus": [
             "789"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -101567,12 +101822,9 @@
             "711",
             "774",
             "789"
-          ],
-          "Anruflinienbus": [
-            "789"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -101771,6 +102023,32 @@
           ]
         },
         "total_lines": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.392884,
+          51.418388
+        ]
+      },
+      "properties": {
+        "id": "de:14627:5886",
+        "numeric_id": "33005886",
+        "name": "Kirche",
+        "city": "Spansberg",
+        "name_with_city": "Spansberg Kirche",
+        "operators": [
+          "VGM"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "439"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
@@ -105482,11 +105760,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "455",
             "456"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -105509,11 +105786,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "455",
-            "456"
+            "455"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -105538,14 +105814,11 @@
           "PlusBus": [
             "530"
           ],
-          "Anruflinienbus": [
-            "789"
-          ],
           "Regionalbus": [
             "789"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -105567,14 +105840,11 @@
           "RBO"
         ],
         "lines": {
-          "Anruflinienbus": [
-            "789"
-          ],
           "Regionalbus": [
             "789"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -105929,14 +106199,11 @@
           "RBO"
         ],
         "lines": {
-          "Anruflinienbus": [
-            "789"
-          ],
           "Regionalbus": [
             "789"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -105958,14 +106225,11 @@
           "RBO"
         ],
         "lines": {
-          "Anruflinienbus": [
-            "789"
-          ],
           "Regionalbus": [
             "789"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -108021,9 +108285,12 @@
             "RE15",
             "RE18",
             "RE50"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 9
+        "total_lines": 10
       }
     },
     {
@@ -108186,11 +108453,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411",
-            "Sv250"
+            "411"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -109597,14 +109863,11 @@
           "RBO"
         ],
         "lines": {
-          "Anruflinienbus": [
-            "789"
-          ],
           "Regionalbus": [
             "789"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -109626,14 +109889,11 @@
           "RBO"
         ],
         "lines": {
-          "Anruflinienbus": [
-            "789"
-          ],
           "Regionalbus": [
             "789"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -110193,9 +110453,6 @@
             "530",
             "535"
           ],
-          "Anruflinienbus": [
-            "789"
-          ],
           "Regionalbus": [
             "789"
           ],
@@ -110203,7 +110460,7 @@
             "22 (Kamenz)"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -110228,14 +110485,11 @@
           "PlusBus": [
             "530"
           ],
-          "Anruflinienbus": [
-            "789"
-          ],
           "Regionalbus": [
             "789"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -110309,14 +110563,11 @@
           "RBO"
         ],
         "lines": {
-          "Anruflinienbus": [
-            "789"
-          ],
           "Regionalbus": [
             "789"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -111305,14 +111556,11 @@
           "RBO"
         ],
         "lines": {
-          "Anruflinienbus": [
-            "789"
-          ],
           "Regionalbus": [
             "789"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -111334,14 +111582,11 @@
           "RBO"
         ],
         "lines": {
-          "Anruflinienbus": [
-            "789"
-          ],
           "Regionalbus": [
             "789"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -113010,14 +113255,15 @@
         ],
         "lines": {
           "PlusBus": [
-            "360"
+            "360",
+            "398"
           ],
           "Regionalbus": [
             "367",
             "398"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -113040,14 +113286,15 @@
         ],
         "lines": {
           "PlusBus": [
-            "360"
+            "360",
+            "398"
           ],
           "Regionalbus": [
             "367",
             "398"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -113338,14 +113585,11 @@
           "Taktbus": [
             "534"
           ],
-          "Anruflinienbus": [
-            "789"
-          ],
           "Regionalbus": [
             "789"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
