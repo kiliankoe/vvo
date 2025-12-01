@@ -8097,10 +8097,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "368"
+            "368",
+            "369"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -8125,6 +8126,7 @@
         "lines": {
           "Regionalbus": [
             "368",
+            "369",
             "SEV RB 72"
           ],
           "Zug": [
@@ -8134,7 +8136,7 @@
             "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -38455,10 +38457,11 @@
         ],
         "lines": {
           "Stadtbus": [
+            "161",
             "162"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -40632,10 +40635,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "368"
+            "368",
+            "369"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -40702,10 +40706,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "368"
+            "368",
+            "369"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -82441,13 +82446,14 @@
             "237",
             "241",
             "245",
+            "246",
             "207a"
           ],
           "Stadtbus": [
             "Z (Pirna)"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -105760,10 +105766,11 @@
         ],
         "lines": {
           "Regionalbus": [
+            "455",
             "456"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -105786,10 +105793,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "455"
+            "455",
+            "456"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -108453,10 +108461,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411"
+            "411",
+            "Sv250"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
