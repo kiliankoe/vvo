@@ -1710,10 +1710,8 @@
         "city": "Bad Schandau",
         "name_with_city": "Bad Schandau Nationalparkbahnhof",
         "operators": [
-          "DB AG",
           "DB Fernverkehr AG",
           "DB Regio AG Südost",
-          "European Sleeper",
           "RVSOE",
           "Österreichische Bundesbahnen"
         ],
@@ -2823,10 +2821,11 @@
           "Regionalbus": [
             "422",
             "500",
+            "Sv125",
             "Sv230"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -9526,11 +9525,12 @@
           "VGM"
         ],
         "lines": {
-          "Anruflinienbus": [
-            "404",
+          "Stadtbus": [
+            "68",
             "93"
           ],
-          "Stadtbus": [
+          "Anruflinienbus": [
+            "404",
             "93"
           ],
           "Regionalbus": [
@@ -9541,7 +9541,7 @@
             "alita 68"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -9704,8 +9704,7 @@
         "name_with_city": "Cossebaude/Neu-Leuteritz Schulstraße",
         "operators": [
           "DVB",
-          "SATRA",
-          "VGM"
+          "SATRA"
         ],
         "lines": {
           "Stadtbus": [
@@ -9715,15 +9714,11 @@
           "Anruflinienbus": [
             "93"
           ],
-          "Regionalbus": [
-            "404",
-            "423"
-          ],
           "Anruflinientaxi": [
             "alita 68"
           ]
         },
-        "total_lines": 6
+        "total_lines": 4
       }
     },
     {
@@ -10775,6 +10770,7 @@
         "name_with_city": "Coswig (Sachsen) Zentrum/ Börse",
         "operators": [
           "DB AG",
+          "DB Regio AG Südost",
           "DVB",
           "VGM"
         ],
@@ -10788,9 +10784,12 @@
             "405",
             "460",
             "Sv280"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -15614,14 +15613,18 @@
         "city": "Dresden",
         "name_with_city": "Dresden Am Urnenfeld",
         "operators": [
+          "DB AG",
           "DVB"
         ],
         "lines": {
           "Stadtbus": [
             "68"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -19567,14 +19570,18 @@
         "city": "Dresden",
         "name_with_city": "Dresden Flensburger Straße",
         "operators": [
+          "DB AG",
           "DVB"
         ],
         "lines": {
           "Stadtbus": [
             "68"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -21416,7 +21423,6 @@
           "DB Fernverkehr AG",
           "DB Regio AG Südost",
           "DVB",
-          "European Sleeper",
           "FlixTrain",
           "Mitteldeutsche Regiobahn",
           "RVSOE",
@@ -22333,9 +22339,12 @@
         "lines": {
           "Zug": [
             "RB31"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -29218,7 +29227,6 @@
         "city": "Dresden",
         "name_with_city": "Dresden S-Bahnhof Dobritz",
         "operators": [
-          "DB AG",
           "DB Regio AG Südost",
           "DVB",
           "RVSOE"
@@ -29305,7 +29313,6 @@
         "city": "Dresden",
         "name_with_city": "Dresden S-Bahnhof Niedersedlitz",
         "operators": [
-          "DB AG",
           "DB Regio AG Südost",
           "DVB"
         ],
@@ -29437,7 +29444,6 @@
         "city": "Dresden",
         "name_with_city": "Dresden S-Bahnhof Reick",
         "operators": [
-          "DB AG",
           "DB Regio AG Südost",
           "DVB"
         ],
@@ -29628,7 +29634,6 @@
         "city": "Dresden",
         "name_with_city": "Dresden S-Bf. Strehlen",
         "operators": [
-          "DB AG",
           "DB Regio AG Südost",
           "DVB"
         ],
@@ -33521,14 +33526,18 @@
         "city": "Dresden",
         "name_with_city": "Dresden Zschonergrundstraße",
         "operators": [
+          "DB AG",
           "DVB"
         ],
         "lines": {
           "Stadtbus": [
             "68"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -37668,9 +37677,12 @@
           ],
           "S-Bahn": [
             "S3"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 11
+        "total_lines": 12
       }
     },
     {
@@ -37764,9 +37776,12 @@
           ],
           "S-Bahn": [
             "S3"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 16
+        "total_lines": 17
       }
     },
     {
@@ -37803,9 +37818,12 @@
           ],
           "S-Bahn": [
             "S3"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -47116,7 +47134,6 @@
         "city": "Heidenau (Sachsen)",
         "name_with_city": "Heidenau (Sachsen) Bahnhof",
         "operators": [
-          "DB AG",
           "DB Regio AG Südost",
           "DVB",
           "RVSOE"
@@ -53460,10 +53477,11 @@
             "417"
           ],
           "Regionalbus": [
-            "417"
+            "417",
+            "Sv125"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -57937,7 +57955,6 @@
         "city": "Krippen",
         "name_with_city": "Krippen Bahnhof",
         "operators": [
-          "DB AG",
           "DB Regio AG Südost",
           "RVSOE"
         ],
@@ -80594,7 +80611,6 @@
         "city": "Pirna",
         "name_with_city": "Pirna Bahnhof",
         "operators": [
-          "DB AG",
           "DB Regio AG Südost"
         ],
         "lines": {
@@ -83778,10 +83794,11 @@
           ],
           "Regionalbus": [
             "422",
+            "Sv125",
             "Sv230"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -98152,7 +98169,6 @@
         "city": "Schmilka",
         "name_with_city": "Schmilka Hp Hirschmühle",
         "operators": [
-          "DB AG",
           "DB Regio AG Südost"
         ],
         "lines": {
@@ -98860,7 +98876,6 @@
         "city": "Schöna (bei Pirna)",
         "name_with_city": "Schöna (bei Pirna) Bahnhof",
         "operators": [
-          "DB AG",
           "DB Regio AG Südost"
         ],
         "lines": {
@@ -106928,10 +106943,11 @@
           ],
           "Regionalbus": [
             "501",
-            "Sv120"
+            "Sv120",
+            "Sv125"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -108122,16 +108138,18 @@
           "VGM"
         ],
         "lines": {
-          "PlusBus": [
-            "421"
-          ],
           "Regionalbus": [
+            "403",
+            "411",
             "459",
             "Sv152",
             "Sv250"
+          ],
+          "PlusBus": [
+            "421"
           ]
         },
-        "total_lines": 4
+        "total_lines": 6
       }
     },
     {

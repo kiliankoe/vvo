@@ -1235,10 +1235,8 @@
       "longitude": 14.138099,
       "latitude": 50.91927,
       "operators": [
-        "DB AG",
         "DB Fernverkehr AG",
         "DB Regio AG Südost",
-        "European Sleeper",
         "RVSOE",
         "Österreichische Bundesbahnen"
       ],
@@ -2044,10 +2042,11 @@
         "Regionalbus": [
           "422",
           "500",
+          "Sv125",
           "Sv230"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14627:5143",
@@ -6843,11 +6842,12 @@
         "VGM"
       ],
       "lines": {
-        "Anruflinienbus": [
-          "404",
+        "Stadtbus": [
+          "68",
           "93"
         ],
-        "Stadtbus": [
+        "Anruflinienbus": [
+          "404",
           "93"
         ],
         "Regionalbus": [
@@ -6858,7 +6858,7 @@
           "alita 68"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14612:464",
@@ -6973,8 +6973,7 @@
       "latitude": 51.087895,
       "operators": [
         "DVB",
-        "SATRA",
-        "VGM"
+        "SATRA"
       ],
       "lines": {
         "Stadtbus": [
@@ -6984,15 +6983,11 @@
         "Anruflinienbus": [
           "93"
         ],
-        "Regionalbus": [
-          "404",
-          "423"
-        ],
         "Anruflinientaxi": [
           "alita 68"
         ]
       },
-      "total_lines": 6
+      "total_lines": 4
     },
     {
       "id": "de:14612:456",
@@ -7740,6 +7735,7 @@
       "latitude": 51.127331,
       "operators": [
         "DB AG",
+        "DB Regio AG Südost",
         "DVB",
         "VGM"
       ],
@@ -7753,9 +7749,12 @@
           "405",
           "460",
           "Sv280"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14627:4183",
@@ -11219,14 +11218,18 @@
       "longitude": 13.651895,
       "latitude": 51.082703,
       "operators": [
+        "DB AG",
         "DVB"
       ],
       "lines": {
         "Stadtbus": [
           "68"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:886",
@@ -14140,14 +14143,18 @@
       "longitude": 13.666196,
       "latitude": 51.075654,
       "operators": [
+        "DB AG",
         "DVB"
       ],
       "lines": {
         "Stadtbus": [
           "68"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:141",
@@ -15469,7 +15476,6 @@
         "DB Fernverkehr AG",
         "DB Regio AG Südost",
         "DVB",
-        "European Sleeper",
         "FlixTrain",
         "Mitteldeutsche Regiobahn",
         "RVSOE",
@@ -16154,9 +16160,12 @@
       "lines": {
         "Zug": [
           "RB31"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:550",
@@ -21183,7 +21192,6 @@
       "longitude": 13.808516,
       "latitude": 51.011635,
       "operators": [
-        "DB AG",
         "DB Regio AG Südost",
         "DVB",
         "RVSOE"
@@ -21254,7 +21262,6 @@
       "longitude": 13.828818,
       "latitude": 50.999459,
       "operators": [
-        "DB AG",
         "DB Regio AG Südost",
         "DVB"
       ],
@@ -21362,7 +21369,6 @@
       "longitude": 13.79064,
       "latitude": 51.02127,
       "operators": [
-        "DB AG",
         "DB Regio AG Südost",
         "DVB"
       ],
@@ -21513,7 +21519,6 @@
       "longitude": 13.761139,
       "latitude": 51.031022,
       "operators": [
-        "DB AG",
         "DB Regio AG Südost",
         "DVB"
       ],
@@ -24366,14 +24371,18 @@
       "longitude": 13.670427,
       "latitude": 51.071737,
       "operators": [
+        "DB AG",
         "DVB"
       ],
       "lines": {
         "Stadtbus": [
           "68"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:681",
@@ -27345,9 +27354,12 @@
         ],
         "S-Bahn": [
           "S3"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 11
+      "total_lines": 12
     },
     {
       "id": "de:14628:1102",
@@ -27425,9 +27437,12 @@
         ],
         "S-Bahn": [
           "S3"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 16
+      "total_lines": 17
     },
     {
       "id": "de:14628:1176",
@@ -27456,9 +27471,12 @@
         ],
         "S-Bahn": [
           "S3"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 7
+      "total_lines": 8
     },
     {
       "id": "de:14628:1143",
@@ -34145,7 +34163,6 @@
       "longitude": 13.859945,
       "latitude": 50.98081,
       "operators": [
-        "DB AG",
         "DB Regio AG Südost",
         "DVB",
         "RVSOE"
@@ -38705,10 +38722,11 @@
           "417"
         ],
         "Regionalbus": [
-          "417"
+          "417",
+          "Sv125"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:5955",
@@ -41942,7 +41960,6 @@
       "longitude": 14.16027,
       "latitude": 50.913109,
       "operators": [
-        "DB AG",
         "DB Regio AG Südost",
         "RVSOE"
       ],
@@ -58327,7 +58344,6 @@
       "longitude": 13.928855,
       "latitude": 50.962352,
       "operators": [
-        "DB AG",
         "DB Regio AG Südost"
       ],
       "lines": {
@@ -60663,10 +60679,11 @@
         ],
         "Regionalbus": [
           "422",
+          "Sv125",
           "Sv230"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14627:4537",
@@ -71021,7 +71038,6 @@
       "longitude": 14.228631,
       "latitude": 50.88987,
       "operators": [
-        "DB AG",
         "DB Regio AG Südost"
       ],
       "lines": {
@@ -71529,7 +71545,6 @@
       "longitude": 14.234641,
       "latitude": 50.875684,
       "operators": [
-        "DB AG",
         "DB Regio AG Südost"
       ],
       "lines": {
@@ -77309,10 +77324,11 @@
         ],
         "Regionalbus": [
           "501",
-          "Sv120"
+          "Sv120",
+          "Sv125"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14627:4975",
@@ -78159,16 +78175,18 @@
         "VGM"
       ],
       "lines": {
-        "PlusBus": [
-          "421"
-        ],
         "Regionalbus": [
+          "403",
+          "411",
           "459",
           "Sv152",
           "Sv250"
+        ],
+        "PlusBus": [
+          "421"
         ]
       },
-      "total_lines": 4
+      "total_lines": 6
     },
     {
       "id": "de:14627:4406",
