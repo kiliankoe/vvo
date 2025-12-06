@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3923,
+    "count": 3924,
     "format_version": "2.0"
   },
   "stations": [
@@ -2951,6 +2951,24 @@
         ]
       },
       "total_lines": 2
+    },
+    {
+      "id": "de:14628:3873",
+      "numeric_id": "33003873",
+      "name": "Valter",
+      "city": "Berthelsdorf (Neustadt in Sachsen)",
+      "name_with_city": "Berthelsdorf (Neustadt in Sachsen) Valter",
+      "longitude": 14.226538,
+      "latitude": 51.052717,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Regionalbus": [
+          "264"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14627:5235",
