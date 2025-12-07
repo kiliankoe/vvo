@@ -1,6 +1,6 @@
 # VVO Station Data Summary
 
-Total stations: 3924
+Total stations: 3921
 
 ## Stations by City
 
@@ -29,7 +29,7 @@ Total stations: 3924
 
 ## Stations by Transit Type
 
-- Regionalbus: 2725 stations
+- Regionalbus: 2721 stations
 - Stadtbus: 1291 stations
 - PlusBus: 632 stations
 - Anruflinienbus: 452 stations
@@ -50,7 +50,7 @@ Total stations: 3924
 
 ## Transit Operators
 
-- RVSOE: 1313 stations
+- RVSOE: 1309 stations
 - VGM: 1174 stations
 - DVB: 761 stations
 - RBO: 715 stations
@@ -142,7 +142,6 @@ Total stations: 3924
 - Dresden Walpurgisstraße: 11 lines
 - Glashütte (Sachsen) Bahnhof / Busbahnhof: 11 lines
 - Großenhain Hohe Straße: 11 lines
-- Pirna Robert-Koch-Straße: 11 lines
 - Pulsnitz Bahnhof: 11 lines
 - Tharandt Bahnhof: 11 lines
 - Bad Schandau Elbbrücke: 10 lines
@@ -159,5 +158,6 @@ Total stations: 3924
 - Dresden Zwinglistraße: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
+- Pirna Robert-Koch-Straße: 10 lines
 - Sebnitz Bahnhof: 10 lines
 - Weinböhla Haltepunkt: 10 lines

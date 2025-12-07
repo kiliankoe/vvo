@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3924,
+    "count": 3921,
     "format_version": "2.0"
   },
   "stations": [
@@ -27750,11 +27750,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "161",
           "162"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:1178",
@@ -29411,50 +29410,13 @@
       ],
       "lines": {
         "Regionalbus": [
-          "369",
           "386"
         ],
         "PlusBus": [
           "388"
         ]
       },
-      "total_lines": 3
-    },
-    {
-      "id": "de:14628:1941",
-      "numeric_id": "33001941",
-      "name": "Prießnitztalhalle",
-      "city": "Glashütte (Sachsen)",
-      "name_with_city": "Glashütte (Sachsen) Prießnitztalhalle",
-      "longitude": 13.76378,
-      "latitude": 50.849953,
-      "operators": [
-        "RVSOE"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "369"
-        ]
-      },
-      "total_lines": 1
-    },
-    {
-      "id": "de:14628:1939",
-      "numeric_id": "33001939",
-      "name": "Rückhaltebecken",
-      "city": "Glashütte (Sachsen)",
-      "name_with_city": "Glashütte (Sachsen) Rückhaltebecken",
-      "longitude": 13.756773,
-      "latitude": 50.84549,
-      "operators": [
-        "RVSOE"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "369"
-        ]
-      },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:5751",
@@ -38592,24 +38554,6 @@
       "total_lines": 3
     },
     {
-      "id": "de:14628:1957",
-      "numeric_id": "33001957",
-      "name": "Bretthäusl",
-      "city": "Johnsbach (Glashütte in Sachsen)",
-      "name_with_city": "Johnsbach (Glashütte in Sachsen) Bretthäusl",
-      "longitude": 13.737316,
-      "latitude": 50.844106,
-      "operators": [
-        "RVSOE"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "369"
-        ]
-      },
-      "total_lines": 1
-    },
-    {
       "id": "de:14628:1932",
       "numeric_id": "33001932",
       "name": "Niederdorf",
@@ -38617,15 +38561,9 @@
       "name_with_city": "Johnsbach (Glashütte in Sachsen) Niederdorf",
       "longitude": 13.74002,
       "latitude": 50.835551,
-      "operators": [
-        "RVSOE"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "369"
-        ]
-      },
-      "total_lines": 1
+      "operators": [],
+      "lines": {},
+      "total_lines": 0
     },
     {
       "id": "de:14628:1931",
@@ -59457,14 +59395,13 @@
           "237",
           "241",
           "245",
-          "246",
           "207a"
         ],
         "Stadtbus": [
           "Z (Pirna)"
         ]
       },
-      "total_lines": 11
+      "total_lines": 10
     },
     {
       "id": "de:14628:3382",
@@ -76218,11 +76155,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "455",
           "456"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:5482",
@@ -76237,11 +76173,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "455",
-          "456"
+          "455"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:6246",
@@ -78137,11 +78072,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411",
-          "Sv250"
+          "411"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4151",
@@ -78194,7 +78128,6 @@
       ],
       "lines": {
         "Regionalbus": [
-          "403",
           "411",
           "459",
           "Sv152",
@@ -78204,7 +78137,7 @@
           "421"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14627:4406",

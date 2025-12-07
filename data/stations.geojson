@@ -38201,11 +38201,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "161",
             "162"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -40526,66 +40525,13 @@
         ],
         "lines": {
           "Regionalbus": [
-            "369",
             "386"
           ],
           "PlusBus": [
             "388"
           ]
         },
-        "total_lines": 3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.76378,
-          50.849953
-        ]
-      },
-      "properties": {
-        "id": "de:14628:1941",
-        "numeric_id": "33001941",
-        "name": "Prießnitztalhalle",
-        "city": "Glashütte (Sachsen)",
-        "name_with_city": "Glashütte (Sachsen) Prießnitztalhalle",
-        "operators": [
-          "RVSOE"
-        ],
-        "lines": {
-          "Regionalbus": [
-            "369"
-          ]
-        },
-        "total_lines": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.756773,
-          50.84549
-        ]
-      },
-      "properties": {
-        "id": "de:14628:1939",
-        "numeric_id": "33001939",
-        "name": "Rückhaltebecken",
-        "city": "Glashütte (Sachsen)",
-        "name_with_city": "Glashütte (Sachsen) Rückhaltebecken",
-        "operators": [
-          "RVSOE"
-        ],
-        "lines": {
-          "Regionalbus": [
-            "369"
-          ]
-        },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -53296,32 +53242,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.737316,
-          50.844106
-        ]
-      },
-      "properties": {
-        "id": "de:14628:1957",
-        "numeric_id": "33001957",
-        "name": "Bretthäusl",
-        "city": "Johnsbach (Glashütte in Sachsen)",
-        "name_with_city": "Johnsbach (Glashütte in Sachsen) Bretthäusl",
-        "operators": [
-          "RVSOE"
-        ],
-        "lines": {
-          "Regionalbus": [
-            "369"
-          ]
-        },
-        "total_lines": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.74002,
           50.835551
         ]
@@ -53332,15 +53252,9 @@
         "name": "Niederdorf",
         "city": "Johnsbach (Glashütte in Sachsen)",
         "name_with_city": "Johnsbach (Glashütte in Sachsen) Niederdorf",
-        "operators": [
-          "RVSOE"
-        ],
-        "lines": {
-          "Regionalbus": [
-            "369"
-          ]
-        },
-        "total_lines": 1
+        "operators": [],
+        "lines": {},
+        "total_lines": 0
       }
     },
     {
@@ -82124,14 +82038,13 @@
             "237",
             "241",
             "245",
-            "246",
             "207a"
           ],
           "Stadtbus": [
             "Z (Pirna)"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -105389,11 +105302,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "455",
             "456"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -105416,11 +105328,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "455",
-            "456"
+            "455"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -108084,11 +107995,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411",
-            "Sv250"
+            "411"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -108165,7 +108075,6 @@
         ],
         "lines": {
           "Regionalbus": [
-            "403",
             "411",
             "459",
             "Sv152",
@@ -108175,7 +108084,7 @@
             "421"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
