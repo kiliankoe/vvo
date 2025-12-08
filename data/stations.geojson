@@ -38201,10 +38201,11 @@
         ],
         "lines": {
           "Stadtbus": [
+            "161",
             "162"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -82038,13 +82039,14 @@
             "237",
             "241",
             "245",
+            "246",
             "207a"
           ],
           "Stadtbus": [
             "Z (Pirna)"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -105302,10 +105304,11 @@
         ],
         "lines": {
           "Regionalbus": [
+            "455",
             "456"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -105328,10 +105331,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "455"
+            "455",
+            "456"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -107995,10 +107999,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411"
+            "411",
+            "Sv250"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -108075,6 +108080,7 @@
         ],
         "lines": {
           "Regionalbus": [
+            "403",
             "411",
             "459",
             "Sv152",
@@ -108084,7 +108090,7 @@
             "421"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
