@@ -32,10 +32,10 @@ Total stations: 3921
 - Regionalbus: 2721 stations
 - Stadtbus: 1291 stations
 - PlusBus: 632 stations
-- Anruflinienbus: 452 stations
+- Anruflinienbus: 480 stations
 - Straßenbahn: 269 stations
 - Anruflinientaxi: 196 stations
-- Zug: 102 stations
+- R-Bahn: 102 stations
 - Ersatzverkehr: 99 stations
 - Taktbus: 75 stations
 - S-Bahn: 54 stations
@@ -54,7 +54,7 @@ Total stations: 3921
 - VGM: 1174 stations
 - DVB: 761 stations
 - RBO: 715 stations
-- DB Regio AG Südost: 125 stations
+- DB Regio AG Südost: 124 stations
 - VGH: 85 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 68 stations
@@ -82,8 +82,8 @@ Total stations: 3921
 - Dresden Hauptbahnhof: 31 lines
 - Riesa Busbahnhof / Bahnhof: 28 lines
 - Dresden Bahnhof Neustadt: 25 lines
+- Kamenz Bahnhof: 23 lines
 - Dresden Bahnhof Mitte: 22 lines
-- Kamenz Bahnhof: 22 lines
 - Pirna ZOB / Bahnhof: 22 lines
 - Großenhain Cottbuser Bahnhof: 21 lines
 - Hoyerswerda Bahnhof: 21 lines
@@ -100,6 +100,7 @@ Total stations: 3921
 - Riesa Friedrich-Engels-Straße: 17 lines
 - Dresden Trachenberger Platz: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
+- Kamenz Macherstraße: 16 lines
 - Riesa Sachsenhof: 16 lines
 - Bad Schandau Nationalparkbahnhof: 15 lines
 - Dresden Postplatz: 15 lines
@@ -107,12 +108,12 @@ Total stations: 3921
 - Dresden S-Bf. Strehlen: 15 lines
 - Hoyerswerda Behördenpark: 15 lines
 - Hoyerswerda Lausitzer Platz: 15 lines
-- Kamenz Macherstraße: 15 lines
+- Kamenz Schwimmhalle: 15 lines
 - Meißen Uferstraße: 15 lines
 - Pirna Breite Straße: 15 lines
 - Dippoldiswalde Busbahnhof: 14 lines
 - Heidenau (Sachsen) Bahnhof: 14 lines
-- Kamenz Schwimmhalle: 14 lines
+- Kamenz Landesämter: 14 lines
 - Lommatzsch Parkstraße: 14 lines
 - Meißen Neugasse: 14 lines
 - Meißen Talbad: 14 lines
@@ -120,7 +121,6 @@ Total stations: 3921
 - Dresden Bahnhof Klotzsche: 13 lines
 - Dresden Liststraße: 13 lines
 - Kamenz Flugplatz: 13 lines
-- Kamenz Landesämter: 13 lines
 - Nossen Markt: 13 lines
 - Nossen Talstraße: 13 lines
 - Coswig (Sachsen) Bahnhof: 12 lines

@@ -171,7 +171,7 @@
           "398",
           "SEV RB 72"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB72",
           "RE19"
         ]
@@ -583,7 +583,7 @@
         "Regionalbus": [
           "755"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB60",
           "RB61",
           "RE1",
@@ -1255,7 +1255,7 @@
           "F 5",
           "F 5.1"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RE20",
           "RE50",
           "U28"
@@ -2720,7 +2720,7 @@
           "773",
           "788"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB34"
         ]
       },
@@ -3435,7 +3435,7 @@
           "520",
           "535"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB60",
           "RB61",
           "RE1",
@@ -4357,11 +4357,14 @@
         "RBO"
       ],
       "lines": {
+        "Anruflinienbus": [
+          "789"
+        ],
         "Regionalbus": [
           "789"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3017",
@@ -5684,7 +5687,7 @@
         "Regionalbus": [
           "201"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB72"
         ],
         "Ersatzverkehr": [
@@ -5863,7 +5866,7 @@
           "369",
           "SEV RB 72"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB72"
         ]
       },
@@ -5886,7 +5889,7 @@
           "368",
           "SEV RB 72"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB72"
         ]
       },
@@ -6833,7 +6836,7 @@
           "404",
           "423"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB31"
         ],
         "Anruflinientaxi": [
@@ -7110,7 +7113,7 @@
           "460",
           "Sv210"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB31",
           "RE15",
           "RE18",
@@ -9789,7 +9792,7 @@
           "202",
           "372"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB72"
         ],
         "Stadtbus": [
@@ -11748,7 +11751,7 @@
         "DB AG"
       ],
       "lines": {
-        "Zug": [
+        "R-Bahn": [
           "RB31"
         ],
         "Ersatzverkehr": [
@@ -11783,7 +11786,7 @@
         "Regionalbus": [
           "769"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB33",
           "RB60",
           "RB61",
@@ -11830,7 +11833,7 @@
         "Stadtbus": [
           "68"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB30",
           "RB60",
           "RB61",
@@ -11887,7 +11890,7 @@
         "Regionalbus": [
           "478"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB30",
           "RB31",
           "RB33",
@@ -15528,7 +15531,7 @@
         "Bus": [
           "400"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB30",
           "RB60",
           "RB61",
@@ -16176,7 +16179,7 @@
         "DB AG"
       ],
       "lines": {
-        "Zug": [
+        "R-Bahn": [
           "RB31"
         ],
         "Ersatzverkehr": [
@@ -16197,7 +16200,7 @@
         "DB AG"
       ],
       "lines": {
-        "Zug": [
+        "R-Bahn": [
           "RB31"
         ]
       },
@@ -16215,7 +16218,7 @@
         "DB AG"
       ],
       "lines": {
-        "Zug": [
+        "R-Bahn": [
           "RB31"
         ]
       },
@@ -21231,7 +21234,7 @@
         "Regionalbus": [
           "386"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RE19",
           "RE20"
         ],
@@ -21292,7 +21295,7 @@
           "88",
           "EV 6"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RE19",
           "RE20"
         ],
@@ -21362,7 +21365,7 @@
           "63",
           "85"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB30",
           "RE3"
         ],
@@ -21396,7 +21399,7 @@
           "65",
           "87"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RE19",
           "RE20"
         ],
@@ -21511,7 +21514,7 @@
         "Stadtbus": [
           "EV 8"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB33",
           "RB60",
           "RB61",
@@ -21555,7 +21558,7 @@
           "68",
           "85"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RE19",
           "RE20"
         ],
@@ -21581,7 +21584,7 @@
         "DB Regio AG Südost"
       ],
       "lines": {
-        "Zug": [
+        "R-Bahn": [
           "RE19"
         ],
         "S-Bahn": [
@@ -24905,7 +24908,7 @@
           "226",
           "234"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB71"
         ],
         "Ersatzverkehr": [
@@ -25388,9 +25391,12 @@
           "757",
           "789",
           "795"
+        ],
+        "Anruflinienbus": [
+          "789"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14625:6441",
@@ -25408,9 +25414,12 @@
           "757",
           "789",
           "795"
+        ],
+        "Anruflinienbus": [
+          "789"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14625:6442",
@@ -26037,7 +26046,7 @@
         "Regionalbus": [
           "462"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB31"
         ],
         "Ersatzverkehr": [
@@ -27366,7 +27375,7 @@
         "PlusBus": [
           "348"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB30",
           "RE3"
         ],
@@ -27399,7 +27408,7 @@
           "161",
           "164"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB30",
           "RE3"
         ],
@@ -27449,7 +27458,7 @@
           "376",
           "SEV S3"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB30",
           "RE3"
         ],
@@ -27483,7 +27492,7 @@
           "363",
           "SEV S3"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB30",
           "RE3"
         ],
@@ -28849,7 +28858,7 @@
           "385",
           "SEV RB 72"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB72",
           "RE19"
         ]
@@ -28873,7 +28882,7 @@
           "385",
           "SEV RB 72"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB72",
           "RE19"
         ]
@@ -29330,7 +29339,7 @@
         "PlusBus": [
           "388"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB72",
           "RE19"
         ]
@@ -29453,7 +29462,7 @@
         "Regionalbus": [
           "450"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RE50"
         ],
         "Ersatzverkehr": [
@@ -30942,7 +30951,7 @@
           "463",
           "467"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB31",
           "RE15",
           "RE18"
@@ -32856,7 +32865,7 @@
         "Mitteldeutsche Regiobahn"
       ],
       "lines": {
-        "Zug": [
+        "R-Bahn": [
           "RB45"
         ]
       },
@@ -33576,7 +33585,7 @@
           "236",
           "237"
         ],
-        "Zug": [
+        "R-Bahn": [
           "U28"
         ],
         "Ersatzverkehr": [
@@ -34161,7 +34170,7 @@
           "202",
           "372"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB72",
           "RE19",
           "RE20"
@@ -35035,7 +35044,7 @@
           "234",
           "265"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB71"
         ]
       },
@@ -35419,7 +35428,7 @@
           "760",
           "769"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB33"
         ]
       },
@@ -36497,7 +36506,7 @@
           "5 (Hoyerswerda)",
           "HFL *"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB64",
           "RE11",
           "RE15"
@@ -36904,7 +36913,7 @@
           "4 (Hoyerswerda)",
           "HFL *"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB64"
         ]
       },
@@ -38006,7 +38015,7 @@
           "375",
           "382"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB30"
         ],
         "S-Bahn": [
@@ -38857,6 +38866,9 @@
         "RBO"
       ],
       "lines": {
+        "Anruflinienbus": [
+          "789"
+        ],
         "Regionalbus": [
           "789"
         ],
@@ -38864,7 +38876,7 @@
           "21 (Kamenz)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6201",
@@ -38901,6 +38913,7 @@
         ],
         "Anruflinienbus": [
           "788",
+          "789",
           "791"
         ],
         "Stadtbus": [
@@ -38908,7 +38921,7 @@
           "22 (Kamenz)",
           "23 (Kamenz)"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB34"
         ],
         "S-Bahn": [
@@ -38918,7 +38931,7 @@
           "SEV"
         ]
       },
-      "total_lines": 22
+      "total_lines": 23
     },
     {
       "id": "de:14625:6225",
@@ -39087,6 +39100,9 @@
         "RBO"
       ],
       "lines": {
+        "Anruflinienbus": [
+          "789"
+        ],
         "Regionalbus": [
           "789"
         ],
@@ -39094,7 +39110,7 @@
           "21 (Kamenz)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6249",
@@ -39215,6 +39231,9 @@
         "RBO"
       ],
       "lines": {
+        "Anruflinienbus": [
+          "789"
+        ],
         "Regionalbus": [
           "789"
         ],
@@ -39222,7 +39241,7 @@
           "21 (Kamenz)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6248",
@@ -39272,13 +39291,14 @@
           "791"
         ],
         "Anruflinienbus": [
+          "789",
           "791"
         ],
         "Stadtbus": [
           "23 (Kamenz)"
         ]
       },
-      "total_lines": 13
+      "total_lines": 14
     },
     {
       "id": "de:14625:6203",
@@ -39335,6 +39355,7 @@
           "791"
         ],
         "Anruflinienbus": [
+          "789",
           "791"
         ],
         "Stadtbus": [
@@ -39343,7 +39364,7 @@
           "23 (Kamenz)"
         ]
       },
-      "total_lines": 15
+      "total_lines": 16
     },
     {
       "id": "de:14625:6228",
@@ -39496,11 +39517,14 @@
           "790",
           "791"
         ],
+        "Anruflinienbus": [
+          "789"
+        ],
         "Stadtbus": [
           "22 (Kamenz)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14625:6211",
@@ -39532,6 +39556,7 @@
           "791"
         ],
         "Anruflinienbus": [
+          "789",
           "791"
         ],
         "Stadtbus": [
@@ -39539,7 +39564,7 @@
           "23 (Kamenz)"
         ]
       },
-      "total_lines": 14
+      "total_lines": 15
     },
     {
       "id": "de:14625:6238",
@@ -40891,7 +40916,7 @@
           "379",
           "SEV S3"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB30"
         ],
         "S-Bahn": [
@@ -41220,7 +41245,7 @@
         "DB Regio AG Südost"
       ],
       "lines": {
-        "Zug": [
+        "R-Bahn": [
           "U28"
         ],
         "Ersatzverkehr": [
@@ -41926,7 +41951,7 @@
           "251",
           "252"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RE20",
           "RE50",
           "U28"
@@ -42086,7 +42111,7 @@
         "DB Regio AG Südost"
       ],
       "lines": {
-        "Zug": [
+        "R-Bahn": [
           "RB71"
         ]
       },
@@ -42451,7 +42476,7 @@
           "762",
           "766"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB33"
         ]
       },
@@ -42692,7 +42717,7 @@
         "Regionalbus": [
           "244"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RE50"
         ],
         "S-Bahn": [
@@ -43062,7 +43087,7 @@
           "201",
           "202"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB72"
         ],
         "Ersatzverkehr": [
@@ -43146,7 +43171,7 @@
           "455",
           "456"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RE15",
           "RE18"
         ]
@@ -43423,7 +43448,7 @@
         "Stadtbus": [
           "78"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB60",
           "RB61",
           "RE1",
@@ -43810,7 +43835,7 @@
         "PlusBus": [
           "261"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB71"
         ]
       },
@@ -43863,7 +43888,7 @@
         "DB Regio AG Südost"
       ],
       "lines": {
-        "Zug": [
+        "R-Bahn": [
           "RB71"
         ]
       },
@@ -44136,7 +44161,7 @@
           "385",
           "SEV RB 72"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB72",
           "RE19"
         ]
@@ -44261,7 +44286,7 @@
           "778",
           "784"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RE11",
           "RE15"
         ],
@@ -44623,7 +44648,7 @@
         "Regionalbus": [
           "756"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB33"
         ]
       },
@@ -45548,9 +45573,12 @@
           "711",
           "774",
           "789"
+        ],
+        "Anruflinienbus": [
+          "789"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:1815",
@@ -46044,11 +46072,14 @@
         "RBO"
       ],
       "lines": {
+        "Anruflinienbus": [
+          "789"
+        ],
         "Regionalbus": [
           "789"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:4712",
@@ -46196,7 +46227,7 @@
         "DB Regio AG Südost"
       ],
       "lines": {
-        "Zug": [
+        "R-Bahn": [
           "RB71"
         ]
       },
@@ -46367,7 +46398,7 @@
           "776",
           "785"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB64"
         ]
       },
@@ -49883,7 +49914,6 @@
       "longitude": 13.461731,
       "latitude": 51.154373,
       "operators": [
-        "DB Regio AG Südost",
         "VGM"
       ],
       "lines": {
@@ -49895,12 +49925,9 @@
         ],
         "Stadtbus": [
           "C (Meißen)"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14627:4022",
@@ -50176,9 +50203,12 @@
         ],
         "Regionalbus": [
           "Sv190"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:4076",
@@ -50895,11 +50925,14 @@
         "Taktbus": [
           "534"
         ],
+        "Anruflinienbus": [
+          "789"
+        ],
         "Regionalbus": [
           "789"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6388",
@@ -51922,7 +51955,7 @@
           "202",
           "372"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB72"
         ],
         "Ersatzverkehr": [
@@ -53024,7 +53057,7 @@
         "Taktbus": [
           "267"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB71"
         ],
         "Ersatzverkehr": [
@@ -53718,7 +53751,7 @@
           "459",
           "Sv250"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB31",
           "RE50"
         ],
@@ -54100,7 +54133,7 @@
           "423",
           "Sv180"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB31"
         ],
         "Anruflinientaxi": [
@@ -54935,7 +54968,7 @@
           "450",
           "451"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RE50"
         ],
         "Ersatzverkehr": [
@@ -56307,11 +56340,14 @@
         "RBO"
       ],
       "lines": {
+        "Anruflinienbus": [
+          "789"
+        ],
         "Regionalbus": [
           "789"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3638",
@@ -56794,7 +56830,7 @@
           "761",
           "769"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB33"
         ]
       },
@@ -56870,7 +56906,7 @@
         "DB Regio AG Südost"
       ],
       "lines": {
-        "Zug": [
+        "R-Bahn": [
           "RB33"
         ]
       },
@@ -56960,7 +56996,7 @@
         "DB Regio AG Südost"
       ],
       "lines": {
-        "Zug": [
+        "R-Bahn": [
           "RB33"
         ]
       },
@@ -57207,9 +57243,12 @@
         "Regionalbus": [
           "773",
           "789"
+        ],
+        "Anruflinienbus": [
+          "789"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14627:5939",
@@ -58304,7 +58343,7 @@
         "DB Regio AG Südost"
       ],
       "lines": {
-        "Zug": [
+        "R-Bahn": [
           "RB71",
           "RE20",
           "RE50"
@@ -59000,7 +59039,7 @@
         "DB Regio AG Südost"
       ],
       "lines": {
-        "Zug": [
+        "R-Bahn": [
           "RB71"
         ]
       },
@@ -59018,7 +59057,7 @@
         "DB Regio AG Südost"
       ],
       "lines": {
-        "Zug": [
+        "R-Bahn": [
           "RB71"
         ]
       },
@@ -60519,7 +60558,7 @@
         "DB Regio AG Südost"
       ],
       "lines": {
-        "Zug": [
+        "R-Bahn": [
           "U28"
         ]
       },
@@ -61273,7 +61312,7 @@
           "410",
           "463"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB31",
           "RE15",
           "RE18",
@@ -61361,11 +61400,14 @@
         "RBO"
       ],
       "lines": {
+        "Anruflinienbus": [
+          "789"
+        ],
         "Regionalbus": [
           "789"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:6433",
@@ -61379,11 +61421,14 @@
         "RBO"
       ],
       "lines": {
+        "Anruflinienbus": [
+          "789"
+        ],
         "Regionalbus": [
           "789"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4931",
@@ -62389,7 +62434,7 @@
           "760",
           "761"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB60",
           "RB61",
           "RE1",
@@ -63073,7 +63118,7 @@
         "Regionalbus": [
           "400"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB31"
         ],
         "Ersatzverkehr": [
@@ -64060,7 +64105,7 @@
           "475",
           "Sv280"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RE50"
         ],
         "S-Bahn": [
@@ -65029,7 +65074,7 @@
         "DB Regio AG Südost"
       ],
       "lines": {
-        "Zug": [
+        "R-Bahn": [
           "RE50"
         ],
         "S-Bahn": [
@@ -65237,7 +65282,7 @@
           "253",
           "254"
         ],
-        "Zug": [
+        "R-Bahn": [
           "U28"
         ],
         "Ersatzverkehr": [
@@ -66730,7 +66775,7 @@
           "D (Riesa)",
           "E (Riesa)"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB45",
           "RE17",
           "RE50"
@@ -70353,11 +70398,14 @@
         "Taktbus": [
           "534"
         ],
+        "Anruflinienbus": [
+          "789"
+        ],
         "Regionalbus": [
           "789"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:4915",
@@ -70552,7 +70600,7 @@
         "DB Regio AG Südost"
       ],
       "lines": {
-        "Zug": [
+        "R-Bahn": [
           "RB72"
         ]
       },
@@ -70611,7 +70659,7 @@
           "201",
           "372"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB72"
         ]
       },
@@ -70998,7 +71046,7 @@
         "DB Regio AG Südost"
       ],
       "lines": {
-        "Zug": [
+        "R-Bahn": [
           "RE20",
           "U28"
         ],
@@ -71199,10 +71247,9 @@
           "619"
         ],
         "Regionalbus": [
-          "783",
           "784"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RE11",
           "RE15"
         ],
@@ -71210,7 +71257,7 @@
           "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14625:8141",
@@ -71505,7 +71552,7 @@
         "DB Regio AG Südost"
       ],
       "lines": {
-        "Zug": [
+        "R-Bahn": [
           "RE20",
           "U28"
         ],
@@ -72055,7 +72102,7 @@
         "PlusBus": [
           "261"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB71",
           "U28"
         ],
@@ -72784,7 +72831,7 @@
         "Mitteldeutsche Regiobahn"
       ],
       "lines": {
-        "Zug": [
+        "R-Bahn": [
           "RB45"
         ]
       },
@@ -73339,9 +73386,12 @@
           "711",
           "774",
           "789"
+        ],
+        "Anruflinienbus": [
+          "789"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:1183",
@@ -73797,7 +73847,7 @@
         "DB Regio AG Südost"
       ],
       "lines": {
-        "Zug": [
+        "R-Bahn": [
           "RE50"
         ],
         "S-Bahn": [
@@ -74131,7 +74181,7 @@
         "Regionalbus": [
           "431"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB45"
         ],
         "Ersatzverkehr": [
@@ -74575,7 +74625,7 @@
         "DB Regio AG Südost"
       ],
       "lines": {
-        "Zug": [
+        "R-Bahn": [
           "RB71"
         ]
       },
@@ -75948,7 +75998,7 @@
           "382",
           "SEV S3"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB30",
           "RE3"
         ],
@@ -76197,11 +76247,14 @@
         "PlusBus": [
           "530"
         ],
+        "Anruflinienbus": [
+          "789"
+        ],
         "Regionalbus": [
           "789"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6247",
@@ -76215,11 +76268,14 @@
         "RBO"
       ],
       "lines": {
+        "Anruflinienbus": [
+          "789"
+        ],
         "Regionalbus": [
           "789"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3486",
@@ -76317,7 +76373,7 @@
           "439",
           "Sv313"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB45"
         ]
       },
@@ -76470,11 +76526,14 @@
         "RBO"
       ],
       "lines": {
+        "Anruflinienbus": [
+          "789"
+        ],
         "Regionalbus": [
           "789"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:6385",
@@ -76488,11 +76547,14 @@
         "RBO"
       ],
       "lines": {
+        "Anruflinienbus": [
+          "789"
+        ],
         "Regionalbus": [
           "789"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:5395",
@@ -76766,7 +76828,7 @@
         "DB Regio AG Südost"
       ],
       "lines": {
-        "Zug": [
+        "R-Bahn": [
           "U28"
         ]
       },
@@ -77766,7 +77828,7 @@
         "DB Regio AG Südost"
       ],
       "lines": {
-        "Zug": [
+        "R-Bahn": [
           "RB72",
           "RE19"
         ]
@@ -77951,7 +78013,7 @@
         "PlusBus": [
           "421"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB31",
           "RE15",
           "RE18",
@@ -78132,18 +78194,16 @@
         "VGM"
       ],
       "lines": {
+        "PlusBus": [
+          "421"
+        ],
         "Regionalbus": [
-          "403",
-          "411",
           "459",
           "Sv152",
           "Sv250"
-        ],
-        "PlusBus": [
-          "421"
         ]
       },
-      "total_lines": 6
+      "total_lines": 4
     },
     {
       "id": "de:14627:4406",
@@ -78474,7 +78534,7 @@
         "DB Regio AG Südost"
       ],
       "lines": {
-        "Zug": [
+        "R-Bahn": [
           "RB33"
         ]
       },
@@ -78587,7 +78647,7 @@
           "47",
           "7"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB33"
         ]
       },
@@ -79091,11 +79151,14 @@
         "RBO"
       ],
       "lines": {
+        "Anruflinienbus": [
+          "789"
+        ],
         "Regionalbus": [
           "789"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:6392",
@@ -79109,11 +79172,14 @@
         "RBO"
       ],
       "lines": {
+        "Anruflinienbus": [
+          "789"
+        ],
         "Regionalbus": [
           "789"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3482",
@@ -79451,7 +79517,7 @@
         "Regionalbus": [
           "772"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB34"
         ]
       },
@@ -79509,6 +79575,9 @@
           "530",
           "535"
         ],
+        "Anruflinienbus": [
+          "789"
+        ],
         "Regionalbus": [
           "789"
         ],
@@ -79516,7 +79585,7 @@
           "22 (Kamenz)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14625:6242",
@@ -79533,11 +79602,14 @@
         "PlusBus": [
           "530"
         ],
+        "Anruflinienbus": [
+          "789"
+        ],
         "Regionalbus": [
           "789"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6430",
@@ -79587,11 +79659,14 @@
         "RBO"
       ],
       "lines": {
+        "Anruflinienbus": [
+          "789"
+        ],
         "Regionalbus": [
           "789"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4607",
@@ -80316,11 +80391,14 @@
         "RBO"
       ],
       "lines": {
+        "Anruflinienbus": [
+          "789"
+        ],
         "Regionalbus": [
           "789"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:6446",
@@ -80334,11 +80412,14 @@
         "RBO"
       ],
       "lines": {
+        "Anruflinienbus": [
+          "789"
+        ],
         "Regionalbus": [
           "789"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4873",
@@ -80535,7 +80616,7 @@
         "Mitteldeutsche Regiobahn"
       ],
       "lines": {
-        "Zug": [
+        "R-Bahn": [
           "RB45"
         ]
       },
@@ -80719,7 +80800,7 @@
         "Regionalbus": [
           "467"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB31"
         ],
         "Ersatzverkehr": [
@@ -81033,7 +81114,7 @@
           "442",
           "451"
         ],
-        "Zug": [
+        "R-Bahn": [
           "RB45"
         ]
       },
@@ -81779,11 +81860,14 @@
         "Taktbus": [
           "534"
         ],
+        "Anruflinienbus": [
+          "789"
+        ],
         "Regionalbus": [
           "789"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3320",
