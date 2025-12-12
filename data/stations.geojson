@@ -38240,10 +38240,11 @@
         ],
         "lines": {
           "Stadtbus": [
+            "161",
             "162"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -43348,9 +43349,12 @@
             "462",
             "463",
             "467"
+          ],
+          "Stadtbus": [
+            "A (Großenhain)"
           ]
         },
-        "total_lines": 16
+        "total_lines": 17
       }
     },
     {
@@ -68995,6 +68999,7 @@
         "city": "Meißen",
         "name_with_city": "Meißen Niesnerstraße",
         "operators": [
+          "DB Regio AG Südost",
           "VGM"
         ],
         "lines": {
@@ -69006,9 +69011,12 @@
           ],
           "Stadtbus": [
             "C (Meißen)"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -69380,12 +69388,9 @@
           ],
           "Regionalbus": [
             "Sv190"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -75234,11 +75239,13 @@
           ],
           "Regionalbus": [
             "412",
+            "420",
             "425",
             "Sv290"
           ],
           "PlusBus": [
             "418",
+            "424",
             "750"
           ],
           "Bus": [
@@ -75247,7 +75254,7 @@
             "761"
           ]
         },
-        "total_lines": 9
+        "total_lines": 11
       }
     },
     {
@@ -82128,13 +82135,14 @@
             "237",
             "241",
             "245",
+            "246",
             "207a"
           ],
           "Stadtbus": [
             "Z (Pirna)"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -87336,15 +87344,16 @@
           "Straßenbahn": [
             "4"
           ],
-          "Stadtbus": [
-            "EV 4"
-          ],
           "Regionalbus": [
+            "475",
             "Sv270",
             "Sv280"
+          ],
+          "Stadtbus": [
+            "EV 4"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -87370,15 +87379,16 @@
           "Straßenbahn": [
             "4"
           ],
-          "Stadtbus": [
-            "EV 4"
-          ],
           "Regionalbus": [
+            "475",
             "Sv270",
             "Sv280"
+          ],
+          "Stadtbus": [
+            "EV 4"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -87700,15 +87710,16 @@
           "Straßenbahn": [
             "4"
           ],
-          "Stadtbus": [
-            "EV 4"
-          ],
           "Regionalbus": [
+            "475",
             "Sv270",
             "Sv280"
+          ],
+          "Stadtbus": [
+            "EV 4"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -88914,10 +88925,11 @@
             "72"
           ],
           "Regionalbus": [
+            "475",
             "476"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -89149,17 +89161,21 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Zillerstraße",
         "operators": [
-          "DVB"
+          "DVB",
+          "VGM"
         ],
         "lines": {
           "Straßenbahn": [
             "4"
           ],
+          "Regionalbus": [
+            "475"
+          ],
           "Stadtbus": [
             "EV 4"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -105415,10 +105431,11 @@
         ],
         "lines": {
           "Regionalbus": [
+            "455",
             "456"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -105441,10 +105458,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "455"
+            "455",
+            "456"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -108122,10 +108140,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411"
+            "411",
+            "Sv250"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {

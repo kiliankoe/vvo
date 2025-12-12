@@ -29,8 +29,8 @@ Total stations: 3921
 
 ## Stations by Transit Type
 
-- Regionalbus: 2722 stations
-- Stadtbus: 1290 stations
+- Regionalbus: 2723 stations
+- Stadtbus: 1291 stations
 - PlusBus: 632 stations
 - Anruflinienbus: 480 stations
 - Straßenbahn: 269 stations
@@ -51,10 +51,10 @@ Total stations: 3921
 ## Transit Operators
 
 - RVSOE: 1309 stations
-- VGM: 1173 stations
+- VGM: 1174 stations
 - DVB: 761 stations
 - RBO: 716 stations
-- DB Regio AG Südost: 124 stations
+- DB Regio AG Südost: 125 stations
 - VGH: 85 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 68 stations
@@ -95,12 +95,12 @@ Total stations: 3921
 - Riesa Rudolf-Breitscheid-Straße: 19 lines
 - Freital S-Bf. / Busbf. Deuben: 18 lines
 - Lommatzsch Busbahnhof: 18 lines
+- Großenhain Lessingplatz: 17 lines
 - Großenhain Mozartallee: 17 lines
 - Meißen S-Bahnhof Altstadt: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
 - Dresden Trachenberger Platz: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
-- Großenhain Lessingplatz: 16 lines
 - Kamenz Macherstraße: 16 lines
 - Radeberg Bahnhof: 16 lines
 - Riesa Sachsenhof: 16 lines
@@ -145,6 +145,8 @@ Total stations: 3921
 - Dresden Walpurgisstraße: 11 lines
 - Glashütte (Sachsen) Bahnhof / Busbahnhof: 11 lines
 - Großenhain Hohe Straße: 11 lines
+- Nossen Bahnhof: 11 lines
+- Pirna Robert-Koch-Straße: 11 lines
 - Weinböhla Haltepunkt: 11 lines
 - Bad Schandau Elbbrücke: 10 lines
 - Bad Schandau Elbkai: 10 lines
@@ -160,6 +162,5 @@ Total stations: 3921
 - Dresden Zwinglistraße: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
-- Pirna Robert-Koch-Straße: 10 lines
 - Priestewitz Bahnhof: 10 lines
 - Sebnitz Bahnhof: 10 lines
