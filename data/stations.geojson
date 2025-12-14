@@ -802,7 +802,6 @@
         "city": "Arnsdorf (bei Dresden)",
         "name_with_city": "Arnsdorf (bei Dresden) Bahnhof",
         "operators": [
-          "DB Regio",
           "DB Regio AG Südost",
           "RBO",
           "trilex - Die Länderbahn GmbH DLB"
@@ -818,14 +817,13 @@
             "RE2"
           ],
           "S-Bahn": [
-            "S 8",
             "S8"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 8
+        "total_lines": 7
       }
     },
     {
@@ -9883,7 +9881,6 @@
         "name_with_city": "Coswig (Sachsen) Bahnhof",
         "operators": [
           "DB AG",
-          "DB Regio",
           "DB Regio AG Südost",
           "VGM"
         ],
@@ -9898,7 +9895,6 @@
           ],
           "Zug": [
             "RB31",
-            "RE 50",
             "RE15",
             "RE18",
             "RE50"
@@ -9910,7 +9906,7 @@
             "SEV"
           ]
         },
-        "total_lines": 13
+        "total_lines": 12
       }
     },
     {
@@ -16369,7 +16365,6 @@
         "city": "Dresden",
         "name_with_city": "Dresden Bahnhof Klotzsche",
         "operators": [
-          "DB Regio",
           "DB Regio AG Südost",
           "DVB",
           "RBO",
@@ -16395,7 +16390,6 @@
             "RE2"
           ],
           "S-Bahn": [
-            "S 8",
             "S2",
             "S8"
           ],
@@ -16403,7 +16397,7 @@
             "SEV"
           ]
         },
-        "total_lines": 14
+        "total_lines": 13
       }
     },
     {
@@ -16422,7 +16416,6 @@
         "city": "Dresden",
         "name_with_city": "Dresden Bahnhof Mitte",
         "operators": [
-          "DB Regio",
           "DB Regio AG Südost",
           "DVB",
           "Mitteldeutsche Regiobahn",
@@ -16448,14 +16441,12 @@
             "RB30",
             "RB60",
             "RB61",
-            "RE 50",
             "RE1",
             "RE2",
             "RE3",
             "RE50"
           ],
           "S-Bahn": [
-            "S 8",
             "S1",
             "S2",
             "S8"
@@ -16464,7 +16455,7 @@
             "SEV"
           ]
         },
-        "total_lines": 24
+        "total_lines": 22
       }
     },
     {
@@ -16485,7 +16476,6 @@
         "operators": [
           "DB AG",
           "DB Fernverkehr AG",
-          "DB Regio",
           "DB Regio AG Südost",
           "DVB",
           "FlixTrain",
@@ -16518,7 +16508,6 @@
             "RB33",
             "RB60",
             "RB61",
-            "RE 50",
             "RE1",
             "RE15",
             "RE18",
@@ -16527,7 +16516,6 @@
             "RE50"
           ],
           "S-Bahn": [
-            "S 8",
             "S1",
             "S2",
             "S8"
@@ -16539,7 +16527,7 @@
             "SEV"
           ]
         },
-        "total_lines": 27
+        "total_lines": 25
       }
     },
     {
@@ -21463,7 +21451,6 @@
         "operators": [
           "DB AG",
           "DB Fernverkehr AG",
-          "DB Regio",
           "DB Regio AG Südost",
           "DVB",
           "European Sleeper",
@@ -21505,7 +21492,6 @@
             "RB30",
             "RB60",
             "RB61",
-            "RE 50",
             "RE1",
             "RE17",
             "RE19",
@@ -21515,8 +21501,6 @@
             "RE50"
           ],
           "S-Bahn": [
-            "S 3",
-            "S 8",
             "S1",
             "S2",
             "S3",
@@ -21526,7 +21510,7 @@
             "SEV"
           ]
         },
-        "total_lines": 34
+        "total_lines": 31
       }
     },
     {
@@ -21657,11 +21641,14 @@
           "Straßenbahn": [
             "2"
           ],
+          "Stadtbus": [
+            "88"
+          ],
           "Anruflinientaxi": [
             "alita 88"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -23612,14 +23599,15 @@
         ],
         "lines": {
           "Stadtbus": [
-            "65"
+            "65",
+            "88"
           ],
           "Anruflinientaxi": [
             "alita 65",
             "alita 88"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -27008,6 +26996,7 @@
         "city": "Dresden",
         "name_with_city": "Dresden Nürnberger Platz",
         "operators": [
+          "DB Regio AG Südost",
           "DVB",
           "RVSOE"
         ],
@@ -27025,9 +27014,12 @@
           ],
           "Bus": [
             "400"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -29467,7 +29459,6 @@
             "RE3"
           ],
           "S-Bahn": [
-            "S 3",
             "S3"
           ],
           "Regionalbus": [
@@ -29477,7 +29468,7 @@
             "SEV"
           ]
         },
-        "total_lines": 9
+        "total_lines": 8
       }
     },
     {
@@ -29640,7 +29631,6 @@
         "city": "Dresden",
         "name_with_city": "Dresden S-Bf. Industriegelände",
         "operators": [
-          "DB Regio",
           "DB Regio AG Südost",
           "DVB",
           "trilex - Die Länderbahn GmbH DLB"
@@ -29661,7 +29651,6 @@
             "RE2"
           ],
           "S-Bahn": [
-            "S 8",
             "S2",
             "S8"
           ],
@@ -29669,7 +29658,7 @@
             "SEV"
           ]
         },
-        "total_lines": 12
+        "total_lines": 11
       }
     },
     {
@@ -32685,14 +32674,15 @@
         ],
         "lines": {
           "Stadtbus": [
-            "65"
+            "65",
+            "88"
           ],
           "Anruflinientaxi": [
             "alita 65",
             "alita 88"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -37737,14 +37727,13 @@
             "RE3"
           ],
           "S-Bahn": [
-            "S 3",
             "S3"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 13
+        "total_lines": 12
       }
     },
     {
@@ -37779,7 +37768,6 @@
             "RE3"
           ],
           "S-Bahn": [
-            "S 3",
             "S3"
           ],
           "Regionalbus": [
@@ -37789,7 +37777,7 @@
             "SEV"
           ]
         },
-        "total_lines": 9
+        "total_lines": 8
       }
     },
     {
@@ -37838,14 +37826,13 @@
             "RE3"
           ],
           "S-Bahn": [
-            "S 3",
             "S3"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 18
+        "total_lines": 17
       }
     },
     {
@@ -37881,14 +37868,13 @@
             "RE3"
           ],
           "S-Bahn": [
-            "S 3",
             "S3"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 9
+        "total_lines": 8
       }
     },
     {
@@ -38240,11 +38226,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "161",
             "162"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -40209,7 +40194,6 @@
         "city": "Gersdorf (bei Kamenz)",
         "name_with_city": "Gersdorf (bei Kamenz) Bahnhof",
         "operators": [
-          "DB Regio",
           "DB Regio AG Südost",
           "RBO"
         ],
@@ -40220,14 +40204,13 @@
             "SEV S 8"
           ],
           "S-Bahn": [
-            "S 8",
             "S8"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -40619,7 +40602,6 @@
         "city": "Glaubitz",
         "name_with_city": "Glaubitz Bahnhof",
         "operators": [
-          "DB Regio",
           "DB Regio AG Südost",
           "VGM"
         ],
@@ -40628,14 +40610,13 @@
             "450"
           ],
           "Zug": [
-            "RE 50",
             "RE50"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -44347,7 +44328,6 @@
         "city": "Großröhrsdorf (bei Bautzen)",
         "name_with_city": "Großröhrsdorf (bei Bautzen) Bahnhof",
         "operators": [
-          "DB Regio",
           "DB Regio AG Südost",
           "RBO"
         ],
@@ -44357,11 +44337,10 @@
             "SEV S 8"
           ],
           "S-Bahn": [
-            "S 8",
             "S8"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -52510,7 +52489,6 @@
         "city": "Höckendorf b Dippol.",
         "name_with_city": "Höckendorf b Dippol. Edle Krone Bahnhof",
         "operators": [
-          "DB Regio",
           "DB Regio AG Südost",
           "Mitteldeutsche Regiobahn",
           "RVSOE"
@@ -52525,14 +52503,13 @@
             "RB30"
           ],
           "S-Bahn": [
-            "S 3",
             "S3"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
@@ -53746,7 +53723,6 @@
         "city": "Kamenz",
         "name_with_city": "Kamenz Bahnhof",
         "operators": [
-          "DB Regio",
           "DB Regio AG Südost",
           "RBO"
         ],
@@ -53786,14 +53762,13 @@
             "RB34"
           ],
           "S-Bahn": [
-            "S 8",
             "S8"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 25
+        "total_lines": 24
       }
     },
     {
@@ -56149,7 +56124,6 @@
         "city": "Kleinröhrsdorf",
         "name_with_city": "Kleinröhrsdorf Haltepunkt",
         "operators": [
-          "DB Regio",
           "DB Regio AG Südost",
           "RBO"
         ],
@@ -56158,14 +56132,13 @@
             "520"
           ],
           "S-Bahn": [
-            "S 8",
             "S8"
           ],
           "Regionalbus": [
             "SEV S 8"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -56539,14 +56512,13 @@
             "RB30"
           ],
           "S-Bahn": [
-            "S 3",
             "S3"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 8
+        "total_lines": 7
       }
     },
     {
@@ -57981,13 +57953,14 @@
           ],
           "Zug": [
             "RE20",
+            "RE50",
             "U28"
           ],
           "S-Bahn": [
             "S1"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -60043,7 +60016,6 @@
         "city": "Langebrück (Dresden)",
         "name_with_city": "Langebrück (Dresden) Bahnhof",
         "operators": [
-          "DB Regio",
           "DB Regio AG Südost",
           "DVB",
           "trilex - Die Länderbahn GmbH DLB"
@@ -60059,14 +60031,13 @@
             "RE2"
           ],
           "S-Bahn": [
-            "S 8",
             "S8"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 8
+        "total_lines": 7
       }
     },
     {
@@ -72889,9 +72860,12 @@
           ],
           "Bus": [
             "733"
+          ],
+          "Schülerlinie": [
+            "792"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -74290,7 +74264,6 @@
         "name_with_city": "Niederau (bei Meißen) Bahnhof",
         "operators": [
           "DB AG",
-          "DB Regio",
           "DB Regio AG Südost",
           "VGM"
         ],
@@ -74304,14 +74277,13 @@
           ],
           "Zug": [
             "RB31",
-            "RE 50",
             "RE50"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
@@ -75239,7 +75211,6 @@
           ],
           "Regionalbus": [
             "412",
-            "420",
             "425",
             "Sv290"
           ],
@@ -75254,7 +75225,7 @@
             "761"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -75911,7 +75882,6 @@
         "city": "Nünchritz",
         "name_with_city": "Nünchritz Bahnhof",
         "operators": [
-          "DB Regio",
           "DB Regio AG Südost",
           "VGM"
         ],
@@ -75924,14 +75894,13 @@
             "451"
           ],
           "Zug": [
-            "RE 50",
             "RE50"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 8
+        "total_lines": 7
       }
     },
     {
@@ -82135,14 +82104,13 @@
             "237",
             "241",
             "245",
-            "246",
             "207a"
           ],
           "Stadtbus": [
             "Z (Pirna)"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -84710,7 +84678,6 @@
         "name_with_city": "Priestewitz Bahnhof",
         "operators": [
           "DB AG",
-          "DB Regio",
           "DB Regio AG Südost",
           "VGM"
         ],
@@ -84727,7 +84694,6 @@
           ],
           "Zug": [
             "RB31",
-            "RE 50",
             "RE15",
             "RE18",
             "RE50"
@@ -84736,7 +84702,7 @@
             "SEV"
           ]
         },
-        "total_lines": 10
+        "total_lines": 9
       }
     },
     {
@@ -85281,7 +85247,6 @@
         "city": "Pulsnitz",
         "name_with_city": "Pulsnitz Bahnhof",
         "operators": [
-          "DB Regio",
           "DB Regio AG Südost",
           "RBO"
         ],
@@ -85301,14 +85266,13 @@
             "SEV S 8"
           ],
           "S-Bahn": [
-            "S 8",
             "S8"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 13
+        "total_lines": 12
       }
     },
     {
@@ -85327,20 +85291,18 @@
         "city": "Pulsnitz",
         "name_with_city": "Pulsnitz Haltepunkt Süd",
         "operators": [
-          "DB Regio",
           "DB Regio AG Südost",
           "RBO"
         ],
         "lines": {
           "S-Bahn": [
-            "S 8",
             "S8"
           ],
           "Regionalbus": [
             "SEV S 8"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -86270,7 +86232,6 @@
         "city": "Radeberg",
         "name_with_city": "Radeberg Bahnhof",
         "operators": [
-          "DB Regio",
           "DB Regio AG Südost",
           "DVB",
           "RBO",
@@ -86299,14 +86260,13 @@
             "RE2"
           ],
           "S-Bahn": [
-            "S 8",
             "S8"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 16
+        "total_lines": 15
       }
     },
     {
@@ -88603,7 +88563,6 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul S-Bahnhof Ost",
         "operators": [
-          "DB Regio",
           "DB Regio AG Südost",
           "SDG",
           "VGM"
@@ -88614,7 +88573,6 @@
             "Sv280"
           ],
           "Zug": [
-            "RE 50",
             "RE50"
           ],
           "S-Bahn": [
@@ -88624,7 +88582,7 @@
             "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -92287,7 +92245,6 @@
         "name_with_city": "Riesa Busbahnhof / Bahnhof",
         "operators": [
           "DB Fernverkehr AG",
-          "DB Regio",
           "DB Regio AG Südost",
           "Mitteldeutsche Regiobahn",
           "VGM",
@@ -92327,7 +92284,6 @@
           ],
           "Zug": [
             "RB45",
-            "RE 50",
             "RE17",
             "RE50"
           ],
@@ -92335,7 +92291,7 @@
             "SEV"
           ]
         },
-        "total_lines": 29
+        "total_lines": 28
       }
     },
     {
@@ -105146,14 +105102,13 @@
             "RE3"
           ],
           "S-Bahn": [
-            "S 3",
             "S3"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 12
+        "total_lines": 11
       }
     },
     {
@@ -105431,11 +105386,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "455",
             "456"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -105458,11 +105412,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "455",
-            "456"
+            "455"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -107952,7 +107905,6 @@
         "name_with_city": "Weinböhla Haltepunkt",
         "operators": [
           "DB AG",
-          "DB Regio",
           "DB Regio AG Südost",
           "VGM"
         ],
@@ -107968,7 +107920,6 @@
           ],
           "Zug": [
             "RB31",
-            "RE 50",
             "RE15",
             "RE18",
             "RE50"
@@ -107977,7 +107928,7 @@
             "SEV"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -108140,11 +108091,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411",
-            "Sv250"
+            "411"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
