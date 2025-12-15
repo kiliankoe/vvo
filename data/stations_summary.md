@@ -144,6 +144,7 @@ Total stations: 3921
 - Dresden Walpurgisstraße: 11 lines
 - Glashütte (Sachsen) Bahnhof / Busbahnhof: 11 lines
 - Großenhain Hohe Straße: 11 lines
+- Pirna Robert-Koch-Straße: 11 lines
 - Tharandt Bahnhof: 11 lines
 - Bad Schandau Elbbrücke: 10 lines
 - Bad Schandau Elbkai: 10 lines
@@ -159,7 +160,5 @@ Total stations: 3921
 - Dresden Zwinglistraße: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
-- Nossen Bahnhof: 10 lines
-- Pirna Robert-Koch-Straße: 10 lines
 - Sebnitz Bahnhof: 10 lines
 - Weinböhla Haltepunkt: 10 lines
