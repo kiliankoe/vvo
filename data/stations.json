@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3921,
+    "count": 3923,
     "format_version": "2.0"
   },
   "stations": [
@@ -11710,13 +11710,14 @@
           "6"
         ],
         "Stadtbus": [
-          "62"
+          "62",
+          "64"
         ],
         "PlusBus": [
           "520"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:737",
@@ -12838,10 +12839,11 @@
       "lines": {
         "Straßenbahn": [
           "13",
-          "4"
+          "4",
+          "9"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:871",
@@ -16669,11 +16671,12 @@
           "9"
         ],
         "Stadtbus": [
+          "87",
           "EV 6",
           "EV 9"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14612:47",
@@ -18441,8 +18444,8 @@
       "name": "Löbtau Gröbelstraße",
       "city": "Dresden",
       "name_with_city": "Dresden Löbtau Gröbelstraße",
-      "longitude": 13.702335,
-      "latitude": 51.043319,
+      "longitude": 13.702282,
+      "latitude": 51.043325,
       "operators": [
         "RVSOE"
       ],
@@ -19270,6 +19273,24 @@
       "operators": [],
       "lines": {},
       "total_lines": 0
+    },
+    {
+      "id": "de:14612:150",
+      "numeric_id": "33000150",
+      "name": "Neuer Annenfriedhof",
+      "city": "Dresden",
+      "name_with_city": "Dresden Neuer Annenfriedhof",
+      "longitude": 13.694134,
+      "latitude": 51.043348,
+      "operators": [
+        "DVB"
+      ],
+      "lines": {
+        "Straßenbahn": [
+          "12"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14612:628",
@@ -20630,10 +20651,11 @@
       "lines": {
         "Straßenbahn": [
           "13",
-          "4"
+          "4",
+          "9"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:881",
@@ -22946,8 +22968,8 @@
       "name": "Tharandter Straße",
       "city": "Dresden",
       "name_with_city": "Dresden Tharandter Straße",
-      "longitude": 13.703476,
-      "latitude": 51.043737,
+      "longitude": 13.702785,
+      "latitude": 51.043726,
       "operators": [
         "DVB",
         "RVSOE"
@@ -23387,9 +23409,15 @@
       "name_with_city": "Dresden Universitätsklinikum",
       "longitude": 13.780956,
       "latitude": 51.056523,
-      "operators": [],
-      "lines": {},
-      "total_lines": 0
+      "operators": [
+        "DVB"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "64"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14612:793",
@@ -23829,10 +23857,11 @@
       "lines": {
         "Straßenbahn": [
           "1",
+          "10",
           "6"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:160",
@@ -24212,12 +24241,13 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "10",
           "12",
           "6",
           "7"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:684",
@@ -35264,8 +35294,8 @@
       "name": "Hennersdorf",
       "city": "Hennersdorf (Kamenz)",
       "name_with_city": "Hennersdorf (Kamenz) Hennersdorf",
-      "longitude": 14.083203,
-      "latitude": 51.240224,
+      "longitude": 14.083104,
+      "latitude": 51.239346,
       "operators": [
         "RBO"
       ],
@@ -62649,6 +62679,27 @@
       "total_lines": 1
     },
     {
+      "id": "de:14625:6729",
+      "numeric_id": "33006729",
+      "name": "Güterbahnhofstraße",
+      "city": "Radeberg",
+      "name_with_city": "Radeberg Güterbahnhofstraße",
+      "longitude": 13.917769,
+      "latitude": 51.110014,
+      "operators": [
+        "RBO"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "28"
+        ],
+        "PlusBus": [
+          "521"
+        ]
+      },
+      "total_lines": 2
+    },
+    {
       "id": "de:14625:6706",
       "numeric_id": "33006706",
       "name": "Heidehäuser",
@@ -78936,8 +78987,8 @@
       "name": "Fußweg zum Napoleonstein",
       "city": "Weißig (Dresden)",
       "name_with_city": "Weißig (Dresden) Fußweg zum Napoleonstein",
-      "longitude": 13.919018,
-      "latitude": 51.060701,
+      "longitude": 13.918784,
+      "latitude": 51.060746,
       "operators": [
         "Müller Busreisen",
         "RBO",

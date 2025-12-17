@@ -1,10 +1,10 @@
 # VVO Station Data Summary
 
-Total stations: 3921
+Total stations: 3923
 
 ## Stations by City
 
-- Dresden: 656
+- Dresden: 657
 - Meißen: 104
 - Freital: 87
 - Pirna: 84
@@ -16,7 +16,7 @@ Total stations: 3921
 - Heidenau (Sachsen): 36
 - Bischofswerda: 33
 - Kamenz: 33
-- Radeberg: 32
+- Radeberg: 33
 - Dippoldiswalde: 27
 - Sebnitz: 27
 - Weinböhla: 26
@@ -30,10 +30,10 @@ Total stations: 3921
 ## Stations by Transit Type
 
 - Regionalbus: 2723 stations
-- Stadtbus: 1292 stations
-- PlusBus: 632 stations
+- Stadtbus: 1294 stations
+- PlusBus: 633 stations
 - Anruflinienbus: 480 stations
-- Straßenbahn: 269 stations
+- Straßenbahn: 270 stations
 - Anruflinientaxi: 197 stations
 - Zug: 102 stations
 - Ersatzverkehr: 100 stations
@@ -52,8 +52,8 @@ Total stations: 3921
 
 - RVSOE: 1309 stations
 - VGM: 1174 stations
-- DVB: 761 stations
-- RBO: 716 stations
+- DVB: 763 stations
+- RBO: 717 stations
 - DB Regio AG Südost: 126 stations
 - VGH: 85 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations

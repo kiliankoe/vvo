@@ -16281,13 +16281,14 @@
             "6"
           ],
           "Stadtbus": [
-            "62"
+            "62",
+            "64"
           ],
           "PlusBus": [
             "520"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -17785,10 +17786,11 @@
         "lines": {
           "Straßenbahn": [
             "13",
-            "4"
+            "4",
+            "9"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -23032,11 +23034,12 @@
             "9"
           ],
           "Stadtbus": [
+            "87",
             "EV 6",
             "EV 9"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -25444,8 +25447,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.702335,
-          51.043319
+          13.702282,
+          51.043325
         ]
       },
       "properties": {
@@ -26593,6 +26596,32 @@
         "operators": [],
         "lines": {},
         "total_lines": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.694134,
+          51.043348
+        ]
+      },
+      "properties": {
+        "id": "de:14612:150",
+        "numeric_id": "33000150",
+        "name": "Neuer Annenfriedhof",
+        "city": "Dresden",
+        "name_with_city": "Dresden Neuer Annenfriedhof",
+        "operators": [
+          "DVB"
+        ],
+        "lines": {
+          "Straßenbahn": [
+            "12"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
@@ -28449,10 +28478,11 @@
         "lines": {
           "Straßenbahn": [
             "13",
-            "4"
+            "4",
+            "9"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -31573,8 +31603,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.703476,
-          51.043737
+          13.702785,
+          51.043726
         ]
       },
       "properties": {
@@ -32174,9 +32204,15 @@
         "name": "Universitätsklinikum",
         "city": "Dresden",
         "name_with_city": "Dresden Universitätsklinikum",
-        "operators": [],
-        "lines": {},
-        "total_lines": 0
+        "operators": [
+          "DVB"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "64"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
@@ -32768,10 +32804,11 @@
         "lines": {
           "Straßenbahn": [
             "1",
+            "10",
             "6"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -33303,12 +33340,13 @@
         ],
         "lines": {
           "Straßenbahn": [
+            "10",
             "12",
             "6",
             "7"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -48667,8 +48705,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.083203,
-          51.240224
+          14.083104,
+          51.239346
         ]
       },
       "properties": {
@@ -86505,6 +86543,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.917769,
+          51.110014
+        ]
+      },
+      "properties": {
+        "id": "de:14625:6729",
+        "numeric_id": "33006729",
+        "name": "Güterbahnhofstraße",
+        "city": "Radeberg",
+        "name_with_city": "Radeberg Güterbahnhofstraße",
+        "operators": [
+          "RBO"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "28"
+          ],
+          "PlusBus": [
+            "521"
+          ]
+        },
+        "total_lines": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.890919,
           51.113217
         ]
@@ -109147,8 +109214,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.919018,
-          51.060701
+          13.918784,
+          51.060746
         ]
       },
       "properties": {
