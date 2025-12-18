@@ -80,11 +80,11 @@ Total stations: 3923
 ## Major Transit Hubs (10+ lines)
 
 - Meißen Busbahnhof: 34 lines
-- Dresden Hauptbahnhof: 31 lines
+- Dresden Hauptbahnhof: 32 lines
 - Riesa Busbahnhof / Bahnhof: 28 lines
 - Dresden Bahnhof Neustadt: 25 lines
 - Kamenz Bahnhof: 24 lines
-- Dresden Bahnhof Mitte: 22 lines
+- Dresden Bahnhof Mitte: 23 lines
 - Pirna ZOB / Bahnhof: 22 lines
 - Großenhain Cottbuser Bahnhof: 21 lines
 - Hoyerswerda Bahnhof: 21 lines
@@ -121,12 +121,13 @@ Total stations: 3923
 - Meißen Talbad: 14 lines
 - Dresden Bahnhof Klotzsche: 13 lines
 - Dresden Liststraße: 13 lines
+- Dresden Pirnaischer Platz: 13 lines
+- Dresden S-Bahnhof Niedersedlitz: 13 lines
 - Kamenz Flugplatz: 13 lines
 - Nossen Markt: 13 lines
 - Nossen Talstraße: 13 lines
 - Coswig (Sachsen) Bahnhof: 12 lines
-- Dresden Pirnaischer Platz: 12 lines
-- Dresden S-Bahnhof Niedersedlitz: 12 lines
+- Dresden Prohlis Gleisschleife: 12 lines
 - Dresden Tharandter Straße: 12 lines
 - Dresden Wasaplatz: 12 lines
 - Freital S-Bahnhof Hainsberg: 12 lines
@@ -155,7 +156,6 @@ Total stations: 3923
 - Dresden Lennéplatz: 10 lines
 - Dresden Mockritzer Straße: 10 lines
 - Dresden Prager Straße: 10 lines
-- Dresden Prohlis Gleisschleife: 10 lines
 - Dresden S-Bf. Freiberger Straße: 10 lines
 - Dresden Zwinglistraße: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
