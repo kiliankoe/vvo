@@ -158,3 +158,4 @@ Mobile apps known and used in Dresden.
 - [`MMM-DVB`](https://github.com/skastenholz/MMM-DVB) - MagicMirror² module
 - [`vvo-departures-cli`](https://aur.archlinux.org/packages/vvo-departures-cli) - CLI for querying departures information, also see [#32](https://github.com/kiliankoe/vvo/issues/32)
 - [`wartefrei`](https://github.com/Nichtmetall/wartefrei) - web-based realtime dashboard for departures and routes
+- [`dvb-mcp`](https://github.com/hoodie/dvb-mcp) - mcp-server 
