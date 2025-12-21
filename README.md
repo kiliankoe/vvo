@@ -104,7 +104,7 @@ Client libraries for various languages, sorted in no particular order. Although 
 - **Java**: [`jVVO`](https://github.com/PhilippMatthes/jVVO) - WebAPI client for JVM
 - **Ruby**: [`dvbrb`](https://github.com/kiliankoe/dvbrb) - Supports both APIs
 - **Go**: [`dvbgo`](https://github.com/kiliankoe/dvbgo) - WebAPI client
-- **Rust**: [`dvb-rs`](https://github.com/hoodie/dvb-rs) - Widget API client
+- **Rust**: [`dvb-rs`](https://github.com/hoodie/dvb-rs) - WebAPI client
 
 ### Other
 
