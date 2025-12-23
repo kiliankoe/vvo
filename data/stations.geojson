@@ -102075,15 +102075,19 @@
         "city": "Spreetal (Kamenz)",
         "name_with_city": "Spreetal (Kamenz) Wohnlager II",
         "operators": [
+          "Cottbusverkehr GmbH",
           "RBO"
         ],
         "lines": {
           "Regionalbus": [
             "779",
             "781"
+          ],
+          "Bus": [
+            "800"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {

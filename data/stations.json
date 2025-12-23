@@ -73880,15 +73880,19 @@
       "longitude": 14.327213,
       "latitude": 51.511188,
       "operators": [
+        "Cottbusverkehr GmbH",
         "RBO"
       ],
       "lines": {
         "Regionalbus": [
           "779",
           "781"
+        ],
+        "Bus": [
+          "800"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6883",
