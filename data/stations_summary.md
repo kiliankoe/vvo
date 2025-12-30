@@ -40,7 +40,7 @@ Total stations: 3923
 - R-Bahn: 99 stations
 - Taktbus: 75 stations
 - S-Bahn: 54 stations
-- Bus: 49 stations
+- Bus: 50 stations
 - Fähre: 32 stations
 - Stadtverkehr: 29 stations
 - Schülerlinie: 13 stations
@@ -66,7 +66,7 @@ Total stations: 3923
 - DB AG: 26 stations
 - Mitteldeutsche Regiobahn: 21 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
-- Cottbusverkehr GmbH: 11 stations
+- Cottbusverkehr GmbH: 12 stations
 - trilex - Die Länderbahn GmbH DLB: 10 stations
 - DB Regio: 9 stations
 - DB Fernverkehr AG: 4 stations
