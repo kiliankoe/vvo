@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3923,
+    "count": 3924,
     "format_version": "2.0"
   },
   "stations": [
@@ -59391,6 +59391,24 @@
         ]
       },
       "total_lines": 2
+    },
+    {
+      "id": "de:14628:3369",
+      "numeric_id": "33003369",
+      "name": "Einsteinstraße",
+      "city": "Pirna",
+      "name_with_city": "Pirna Einsteinstraße",
+      "longitude": 13.935646,
+      "latitude": 50.954267,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "Z (Pirna)"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14628:3405",

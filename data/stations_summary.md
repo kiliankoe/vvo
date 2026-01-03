@@ -1,13 +1,13 @@
 # VVO Station Data Summary
 
-Total stations: 3923
+Total stations: 3924
 
 ## Stations by City
 
 - Dresden: 657
 - Meißen: 104
 - Freital: 87
-- Pirna: 84
+- Pirna: 85
 - Riesa: 78
 - Radebeul: 75
 - Hoyerswerda: 74
@@ -30,7 +30,7 @@ Total stations: 3923
 ## Stations by Transit Type
 
 - Regionalbus: 2724 stations
-- Stadtbus: 1296 stations
+- Stadtbus: 1297 stations
 - PlusBus: 633 stations
 - Anruflinienbus: 480 stations
 - Straßenbahn: 270 stations
@@ -51,7 +51,7 @@ Total stations: 3923
 
 ## Transit Operators
 
-- RVSOE: 1309 stations
+- RVSOE: 1310 stations
 - VGM: 1174 stations
 - DVB: 762 stations
 - RBO: 717 stations

@@ -81865,6 +81865,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.935646,
+          50.954267
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3369",
+        "numeric_id": "33003369",
+        "name": "Einsteinstraße",
+        "city": "Pirna",
+        "name_with_city": "Pirna Einsteinstraße",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "Z (Pirna)"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.947863,
           50.933794
         ]
