@@ -369,11 +369,14 @@
         "RVSOE"
       ],
       "lines": {
+        "PlusBus": [
+          "260"
+        ],
         "Regionalbus": [
           "260"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3999",
@@ -387,11 +390,14 @@
         "RVSOE"
       ],
       "lines": {
+        "PlusBus": [
+          "260"
+        ],
         "Regionalbus": [
           "260"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:688",
@@ -1109,6 +1115,9 @@
           "254",
           "260"
         ],
+        "PlusBus": [
+          "260"
+        ],
         "Fähre": [
           "F 5.1"
         ],
@@ -1116,7 +1125,7 @@
           "SEV"
         ]
       },
-      "total_lines": 10
+      "total_lines": 11
     },
     {
       "id": "de:14628:3621",
@@ -1140,6 +1149,9 @@
           "254",
           "260"
         ],
+        "PlusBus": [
+          "260"
+        ],
         "Fähre": [
           "F 4",
           "F 5"
@@ -1148,7 +1160,7 @@
           "SEV"
         ]
       },
-      "total_lines": 10
+      "total_lines": 11
     },
     {
       "id": "de:14628:3629",
@@ -1162,11 +1174,14 @@
         "RVSOE"
       ],
       "lines": {
+        "PlusBus": [
+          "260"
+        ],
         "Regionalbus": [
           "260"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3622",
@@ -1185,11 +1200,14 @@
           "253",
           "260"
         ],
+        "PlusBus": [
+          "260"
+        ],
         "Straßenbahn": [
           "Kirnitzschtalbahn"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3617",
@@ -1254,6 +1272,9 @@
           "254",
           "260"
         ],
+        "PlusBus": [
+          "260"
+        ],
         "Fähre": [
           "F 5",
           "F 5.1"
@@ -1270,7 +1291,7 @@
           "SEV"
         ]
       },
-      "total_lines": 15
+      "total_lines": 16
     },
     {
       "id": "de:14628:3627",
@@ -33820,11 +33841,14 @@
         "RVSOE"
       ],
       "lines": {
+        "PlusBus": [
+          "260"
+        ],
         "Regionalbus": [
           "260"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:1706",
@@ -45689,11 +45713,14 @@
         "RVSOE"
       ],
       "lines": {
+        "PlusBus": [
+          "260"
+        ],
         "Regionalbus": [
           "260"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:5871",
@@ -50097,6 +50124,7 @@
       "longitude": 13.461731,
       "latitude": 51.154373,
       "operators": [
+        "DB Regio AG Südost",
         "VGM"
       ],
       "lines": {
@@ -50108,9 +50136,12 @@
         ],
         "Stadtbus": [
           "C (Meißen)"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14627:4022",
@@ -51333,11 +51364,14 @@
         "RVSOE"
       ],
       "lines": {
+        "PlusBus": [
+          "260"
+        ],
         "Regionalbus": [
           "260"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3988",
@@ -65492,11 +65526,14 @@
         "RVSOE"
       ],
       "lines": {
+        "PlusBus": [
+          "260"
+        ],
         "Regionalbus": [
           "260"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3653",
@@ -65538,7 +65575,9 @@
       "lines": {
         "Regionalbus": [
           "253",
-          "254",
+          "254"
+        ],
+        "PlusBus": [
           "260"
         ]
       },
@@ -65594,11 +65633,14 @@
         "RVSOE"
       ],
       "lines": {
+        "PlusBus": [
+          "260"
+        ],
         "Regionalbus": [
           "260"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3655",
@@ -72333,6 +72375,7 @@
           "269"
         ],
         "PlusBus": [
+          "260",
           "261"
         ],
         "Zug": [
@@ -72347,7 +72390,7 @@
           "SEV"
         ]
       },
-      "total_lines": 10
+      "total_lines": 11
     },
     {
       "id": "de:14628:3944",
@@ -72385,6 +72428,7 @@
           "260"
         ],
         "PlusBus": [
+          "260",
           "261"
         ],
         "Taktbus": [
@@ -72395,7 +72439,7 @@
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 7
+      "total_lines": 8
     },
     {
       "id": "de:14628:3921",
@@ -72417,6 +72461,7 @@
           "269"
         ],
         "PlusBus": [
+          "260",
           "261"
         ],
         "Taktbus": [
@@ -72427,7 +72472,7 @@
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14628:3932",
@@ -72563,6 +72608,7 @@
           "269"
         ],
         "PlusBus": [
+          "260",
           "261"
         ],
         "Stadtbus": [
@@ -72570,7 +72616,7 @@
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 7
+      "total_lines": 8
     },
     {
       "id": "de:14628:3958",
@@ -72584,11 +72630,14 @@
         "RVSOE"
       ],
       "lines": {
+        "PlusBus": [
+          "260"
+        ],
         "Regionalbus": [
           "260"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3924",
@@ -72775,6 +72824,7 @@
           "269"
         ],
         "PlusBus": [
+          "260",
           "261"
         ],
         "Stadtbus": [
@@ -72782,7 +72832,7 @@
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14628:3919",
@@ -72804,6 +72854,7 @@
           "269"
         ],
         "PlusBus": [
+          "260",
           "261"
         ],
         "Taktbus": [
@@ -72814,7 +72865,7 @@
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14628:3934",
@@ -72833,6 +72884,7 @@
           "260"
         ],
         "PlusBus": [
+          "260",
           "261"
         ],
         "Taktbus": [
@@ -72842,7 +72894,7 @@
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14628:3927",

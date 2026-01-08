@@ -508,11 +508,14 @@
           "RVSOE"
         ],
         "lines": {
+          "PlusBus": [
+            "260"
+          ],
           "Regionalbus": [
             "260"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -534,11 +537,14 @@
           "RVSOE"
         ],
         "lines": {
+          "PlusBus": [
+            "260"
+          ],
           "Regionalbus": [
             "260"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -1536,6 +1542,9 @@
             "254",
             "260"
           ],
+          "PlusBus": [
+            "260"
+          ],
           "Fähre": [
             "F 5.1"
           ],
@@ -1543,7 +1552,7 @@
             "SEV"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -1575,6 +1584,9 @@
             "254",
             "260"
           ],
+          "PlusBus": [
+            "260"
+          ],
           "Fähre": [
             "F 4",
             "F 5"
@@ -1583,7 +1595,7 @@
             "SEV"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -1605,11 +1617,14 @@
           "RVSOE"
         ],
         "lines": {
+          "PlusBus": [
+            "260"
+          ],
           "Regionalbus": [
             "260"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -1636,11 +1651,14 @@
             "253",
             "260"
           ],
+          "PlusBus": [
+            "260"
+          ],
           "Straßenbahn": [
             "Kirnitzschtalbahn"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -1729,6 +1747,9 @@
             "254",
             "260"
           ],
+          "PlusBus": [
+            "260"
+          ],
           "Fähre": [
             "F 5",
             "F 5.1"
@@ -1745,7 +1766,7 @@
             "SEV"
           ]
         },
-        "total_lines": 15
+        "total_lines": 16
       }
     },
     {
@@ -46575,11 +46596,14 @@
           "RVSOE"
         ],
         "lines": {
+          "PlusBus": [
+            "260"
+          ],
           "Regionalbus": [
             "260"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -63076,11 +63100,14 @@
           "RVSOE"
         ],
         "lines": {
+          "PlusBus": [
+            "260"
+          ],
           "Regionalbus": [
             "260"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -69140,6 +69167,7 @@
         "city": "Meißen",
         "name_with_city": "Meißen Niesnerstraße",
         "operators": [
+          "DB Regio AG Südost",
           "VGM"
         ],
         "lines": {
@@ -69151,9 +69179,12 @@
           ],
           "Stadtbus": [
             "C (Meißen)"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -70816,11 +70847,14 @@
           "RVSOE"
         ],
         "lines": {
+          "PlusBus": [
+            "260"
+          ],
           "Regionalbus": [
             "260"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -90407,11 +90441,14 @@
           "RVSOE"
         ],
         "lines": {
+          "PlusBus": [
+            "260"
+          ],
           "Regionalbus": [
             "260"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -90469,7 +90506,9 @@
         "lines": {
           "Regionalbus": [
             "253",
-            "254",
+            "254"
+          ],
+          "PlusBus": [
             "260"
           ]
         },
@@ -90549,11 +90588,14 @@
           "RVSOE"
         ],
         "lines": {
+          "PlusBus": [
+            "260"
+          ],
           "Regionalbus": [
             "260"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -99888,6 +99930,7 @@
             "269"
           ],
           "PlusBus": [
+            "260",
             "261"
           ],
           "Zug": [
@@ -99902,7 +99945,7 @@
             "SEV"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -99956,6 +99999,7 @@
             "260"
           ],
           "PlusBus": [
+            "260",
             "261"
           ],
           "Taktbus": [
@@ -99966,7 +100010,7 @@
             "T (Sebnitz)"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -99996,6 +100040,7 @@
             "269"
           ],
           "PlusBus": [
+            "260",
             "261"
           ],
           "Taktbus": [
@@ -100006,7 +100051,7 @@
             "T (Sebnitz)"
           ]
         },
-        "total_lines": 9
+        "total_lines": 10
       }
     },
     {
@@ -100198,6 +100243,7 @@
             "269"
           ],
           "PlusBus": [
+            "260",
             "261"
           ],
           "Stadtbus": [
@@ -100205,7 +100251,7 @@
             "T (Sebnitz)"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -100227,11 +100273,14 @@
           "RVSOE"
         ],
         "lines": {
+          "PlusBus": [
+            "260"
+          ],
           "Regionalbus": [
             "260"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -100498,6 +100547,7 @@
             "269"
           ],
           "PlusBus": [
+            "260",
             "261"
           ],
           "Stadtbus": [
@@ -100505,7 +100555,7 @@
             "T (Sebnitz)"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -100535,6 +100585,7 @@
             "269"
           ],
           "PlusBus": [
+            "260",
             "261"
           ],
           "Taktbus": [
@@ -100545,7 +100596,7 @@
             "T (Sebnitz)"
           ]
         },
-        "total_lines": 9
+        "total_lines": 10
       }
     },
     {
@@ -100572,6 +100623,7 @@
             "260"
           ],
           "PlusBus": [
+            "260",
             "261"
           ],
           "Taktbus": [
@@ -100581,7 +100633,7 @@
             "T (Sebnitz)"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {

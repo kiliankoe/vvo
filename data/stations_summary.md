@@ -31,11 +31,11 @@ Total stations: 3924
 
 - Regionalbus: 2729 stations
 - Stadtbus: 1297 stations
-- PlusBus: 633 stations
+- PlusBus: 647 stations
 - Anruflinienbus: 480 stations
 - Straßenbahn: 270 stations
 - Anruflinientaxi: 197 stations
-- Ersatzverkehr: 104 stations
+- Ersatzverkehr: 105 stations
 - Zug: 102 stations
 - Taktbus: 75 stations
 - S-Bahn: 54 stations
@@ -54,7 +54,7 @@ Total stations: 3924
 - VGM: 1174 stations
 - DVB: 762 stations
 - RBO: 717 stations
-- DB Regio AG Südost: 122 stations
+- DB Regio AG Südost: 123 stations
 - VGH: 85 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 68 stations
@@ -101,10 +101,10 @@ Total stations: 3924
 - Großenhain Mozartallee: 17 lines
 - Meißen S-Bahnhof Altstadt: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
+- Bad Schandau Nationalparkbahnhof: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
 - Kamenz Macherstraße: 16 lines
 - Riesa Sachsenhof: 16 lines
-- Bad Schandau Nationalparkbahnhof: 15 lines
 - Dresden Postplatz: 15 lines
 - Dresden S-Bahnhof Dobritz: 15 lines
 - Hoyerswerda Behördenpark: 15 lines
@@ -142,6 +142,8 @@ Total stations: 3924
 - Pulsnitz Bahnhof: 12 lines
 - Riesa Goethestraße: 12 lines
 - Altenberg (Erzgebirge) Bahnhof: 11 lines
+- Bad Schandau Elbbrücke: 11 lines
+- Bad Schandau Elbkai: 11 lines
 - Dresden Dahlienweg: 11 lines
 - Dresden Julius-Vahlteich-Straße: 11 lines
 - Dresden Lennéplatz: 11 lines
@@ -151,9 +153,8 @@ Total stations: 3924
 - Glashütte (Sachsen) Bahnhof / Busbahnhof: 11 lines
 - Großenhain Hohe Straße: 11 lines
 - Pirna Robert-Koch-Straße: 11 lines
+- Sebnitz Bahnhof: 11 lines
 - Tharandt Bahnhof: 11 lines
-- Bad Schandau Elbbrücke: 10 lines
-- Bad Schandau Elbkai: 10 lines
 - Bischofswerda Schulstraße: 10 lines
 - Cossebaude/Neu-Leuteritz Bahnhof: 10 lines
 - Dresden Bahnhof Neustadt (Hansastraße): 10 lines
@@ -171,5 +172,6 @@ Total stations: 3924
 - Dresden Zwinglistraße: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
-- Sebnitz Bahnhof: 10 lines
+- Sebnitz Busbahnhof: 10 lines
+- Sebnitz Schandauer Straße: 10 lines
 - Weinböhla Haltepunkt: 10 lines
