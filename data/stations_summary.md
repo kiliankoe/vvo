@@ -30,7 +30,7 @@ Total stations: 3924
 ## Stations by Transit Type
 
 - Regionalbus: 2729 stations
-- Stadtbus: 1297 stations
+- Stadtbus: 1301 stations
 - PlusBus: 647 stations
 - Anruflinienbus: 480 stations
 - Straßenbahn: 270 stations
@@ -114,13 +114,19 @@ Total stations: 3924
 - Pirna Breite Straße: 15 lines
 - Radeberg Bahnhof: 15 lines
 - Dippoldiswalde Busbahnhof: 14 lines
+- Dresden Kirschenstraße: 14 lines
 - Dresden Liststraße: 14 lines
+- Dresden Merianplatz: 14 lines
+- Dresden Schlehenstraße: 14 lines
 - Heidenau (Sachsen) Bahnhof: 14 lines
 - Kamenz Landesämter: 14 lines
 - Lommatzsch Parkstraße: 14 lines
 - Meißen Neugasse: 14 lines
 - Meißen Talbad: 14 lines
 - Dresden Bahnhof Klotzsche: 13 lines
+- Dresden Betriebshof Gorbitz: 13 lines
+- Dresden Dahlienweg: 13 lines
+- Dresden Julius-Vahlteich-Straße: 13 lines
 - Dresden Pirnaischer Platz: 13 lines
 - Dresden S-Bf. Freiberger Straße: 13 lines
 - Dresden Tharandter Straße: 13 lines
@@ -130,13 +136,10 @@ Total stations: 3924
 - Nossen Talstraße: 13 lines
 - Coswig (Sachsen) Bahnhof: 12 lines
 - Dresden Amalie-Dietrich-Platz: 12 lines
-- Dresden Betriebshof Gorbitz: 12 lines
+- Dresden Coventrystraße: 12 lines
 - Dresden Großenhainer Platz: 12 lines
-- Dresden Kirschenstraße: 12 lines
-- Dresden Merianplatz: 12 lines
 - Dresden Prohlis Gleisschleife: 12 lines
 - Dresden S-Bahnhof Niedersedlitz: 12 lines
-- Dresden Schlehenstraße: 12 lines
 - Freital S-Bahnhof Hainsberg: 12 lines
 - Pirna Copitz Schulstraße: 12 lines
 - Pulsnitz Bahnhof: 12 lines
@@ -144,8 +147,6 @@ Total stations: 3924
 - Altenberg (Erzgebirge) Bahnhof: 11 lines
 - Bad Schandau Elbbrücke: 11 lines
 - Bad Schandau Elbkai: 11 lines
-- Dresden Dahlienweg: 11 lines
-- Dresden Julius-Vahlteich-Straße: 11 lines
 - Dresden Lennéplatz: 11 lines
 - Dresden Mockritzer Straße: 11 lines
 - Dresden S-Bf. Industriegelände: 11 lines
@@ -160,7 +161,6 @@ Total stations: 3924
 - Dresden Bahnhof Neustadt (Hansastraße): 10 lines
 - Dresden Chamissostraße: 10 lines
 - Dresden Cottaer Straße: 10 lines
-- Dresden Coventrystraße: 10 lines
 - Dresden Hebbelplatz: 10 lines
 - Dresden Hülßestraße: 10 lines
 - Dresden Koreanischer Platz: 10 lines
@@ -170,6 +170,7 @@ Total stations: 3924
 - Dresden Reichenbachstraße: 10 lines
 - Dresden Zeithainer Straße: 10 lines
 - Dresden Zwinglistraße: 10 lines
+- Gompitz Gompitzer Höhe: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
 - Sebnitz Busbahnhof: 10 lines

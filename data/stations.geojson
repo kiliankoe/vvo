@@ -14996,13 +14996,14 @@
           ],
           "Stadtbus": [
             "70",
-            "91"
+            "91",
+            "EV 7"
           ],
           "PlusBus": [
             "333"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -17035,9 +17036,12 @@
             "7",
             "8",
             "9"
+          ],
+          "Stadtbus": [
+            "EV 2"
           ]
         },
-        "total_lines": 12
+        "total_lines": 13
       }
     },
     {
@@ -18356,10 +18360,12 @@
             "9"
           ],
           "Stadtbus": [
-            "70"
+            "70",
+            "EV 2",
+            "EV 7"
           ]
         },
-        "total_lines": 10
+        "total_lines": 12
       }
     },
     {
@@ -18522,13 +18528,15 @@
             "9"
           ],
           "Stadtbus": [
-            "70"
+            "70",
+            "EV 2",
+            "EV 7"
           ],
           "Anruflinientaxi": [
             "alita 70"
           ]
         },
-        "total_lines": 11
+        "total_lines": 13
       }
     },
     {
@@ -23243,7 +23251,9 @@
             "8"
           ],
           "Stadtbus": [
-            "70"
+            "70",
+            "EV 2",
+            "EV 7"
           ],
           "PlusBus": [
             "333"
@@ -23252,7 +23262,7 @@
             "alita 70"
           ]
         },
-        "total_lines": 11
+        "total_lines": 13
       }
     },
     {
@@ -23898,9 +23908,13 @@
             "7",
             "8",
             "9"
+          ],
+          "Stadtbus": [
+            "EV 2",
+            "EV 7"
           ]
         },
-        "total_lines": 12
+        "total_lines": 14
       }
     },
     {
@@ -26066,9 +26080,13 @@
             "7",
             "8",
             "9"
+          ],
+          "Stadtbus": [
+            "EV 2",
+            "EV 7"
           ]
         },
-        "total_lines": 12
+        "total_lines": 14
       }
     },
     {
@@ -30357,9 +30375,13 @@
             "7",
             "8",
             "9"
+          ],
+          "Stadtbus": [
+            "EV 2",
+            "EV 7"
           ]
         },
-        "total_lines": 12
+        "total_lines": 14
       }
     },
     {
@@ -41380,7 +41402,8 @@
             "62",
             "70",
             "90",
-            "91"
+            "91",
+            "EV 7"
           ],
           "Anruflinienbus": [
             "91"
@@ -41392,7 +41415,7 @@
             "337"
           ]
         },
-        "total_lines": 9
+        "total_lines": 10
       }
     },
     {
@@ -41474,13 +41497,14 @@
           ],
           "Stadtbus": [
             "70",
-            "91"
+            "91",
+            "EV 7"
           ],
           "PlusBus": [
             "333"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -79961,10 +79985,11 @@
             "91"
           ],
           "Stadtbus": [
-            "91"
+            "91",
+            "EV 7"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
