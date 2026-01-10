@@ -54,7 +54,7 @@ Total stations: 3924
 - VGM: 1174 stations
 - DVB: 762 stations
 - RBO: 717 stations
-- DB Regio AG Südost: 123 stations
+- DB Regio AG Südost: 124 stations
 - VGH: 85 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 68 stations
@@ -79,11 +79,11 @@ Total stations: 3924
 
 ## Major Transit Hubs (10+ lines)
 
-- Dresden Hauptbahnhof: 35 lines
+- Dresden Hauptbahnhof: 34 lines
 - Meißen Busbahnhof: 34 lines
 - Riesa Busbahnhof / Bahnhof: 28 lines
 - Dresden Bahnhof Neustadt: 26 lines
-- Dresden Bahnhof Mitte: 25 lines
+- Dresden Bahnhof Mitte: 24 lines
 - Kamenz Bahnhof: 24 lines
 - Pirna ZOB / Bahnhof: 22 lines
 - Großenhain Cottbuser Bahnhof: 21 lines
@@ -127,7 +127,6 @@ Total stations: 3924
 - Dresden Betriebshof Gorbitz: 13 lines
 - Dresden Dahlienweg: 13 lines
 - Dresden Julius-Vahlteich-Straße: 13 lines
-- Dresden Pirnaischer Platz: 13 lines
 - Dresden S-Bf. Freiberger Straße: 13 lines
 - Dresden Tharandter Straße: 13 lines
 - Dresden Wasaplatz: 13 lines
@@ -138,7 +137,7 @@ Total stations: 3924
 - Dresden Amalie-Dietrich-Platz: 12 lines
 - Dresden Coventrystraße: 12 lines
 - Dresden Großenhainer Platz: 12 lines
-- Dresden Prohlis Gleisschleife: 12 lines
+- Dresden Pirnaischer Platz: 12 lines
 - Dresden S-Bahnhof Niedersedlitz: 12 lines
 - Freital S-Bahnhof Hainsberg: 12 lines
 - Pirna Copitz Schulstraße: 12 lines
@@ -153,26 +152,23 @@ Total stations: 3924
 - Dresden Walpurgisstraße: 11 lines
 - Glashütte (Sachsen) Bahnhof / Busbahnhof: 11 lines
 - Großenhain Hohe Straße: 11 lines
-- Pirna Robert-Koch-Straße: 11 lines
 - Sebnitz Bahnhof: 11 lines
 - Tharandt Bahnhof: 11 lines
 - Bischofswerda Schulstraße: 10 lines
 - Cossebaude/Neu-Leuteritz Bahnhof: 10 lines
 - Dresden Bahnhof Neustadt (Hansastraße): 10 lines
 - Dresden Chamissostraße: 10 lines
-- Dresden Cottaer Straße: 10 lines
 - Dresden Hebbelplatz: 10 lines
 - Dresden Hülßestraße: 10 lines
-- Dresden Koreanischer Platz: 10 lines
 - Dresden Lohrmannstraße: 10 lines
-- Dresden Nürnberger Platz: 10 lines
 - Dresden Prager Straße: 10 lines
-- Dresden Reichenbachstraße: 10 lines
+- Dresden Prohlis Gleisschleife: 10 lines
 - Dresden Zeithainer Straße: 10 lines
 - Dresden Zwinglistraße: 10 lines
 - Gompitz Gompitzer Höhe: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
+- Pirna Robert-Koch-Straße: 10 lines
 - Sebnitz Busbahnhof: 10 lines
 - Sebnitz Schandauer Straße: 10 lines
 - Weinböhla Haltepunkt: 10 lines
