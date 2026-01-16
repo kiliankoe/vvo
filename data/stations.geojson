@@ -474,12 +474,16 @@
           "RVSOE"
         ],
         "lines": {
+          "PlusBus": [
+            "360"
+          ],
           "Regionalbus": [
+            "367",
             "370",
             "374"
           ]
         },
-        "total_lines": 2
+        "total_lines": 4
       }
     },
     {
@@ -16186,13 +16190,14 @@
             "6"
           ],
           "Stadtbus": [
-            "62"
+            "62",
+            "64"
           ],
           "PlusBus": [
             "520"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -31970,9 +31975,15 @@
         "name": "Universitätsklinikum",
         "city": "Dresden",
         "name_with_city": "Dresden Universitätsklinikum",
-        "operators": [],
-        "lines": {},
-        "total_lines": 0
+        "operators": [
+          "DVB"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "64"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
@@ -40343,8 +40354,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.365503,
-          51.317617
+          13.366671,
+          51.316943
         ]
       },
       "properties": {
@@ -97305,9 +97316,15 @@
         "name": "Fährstelle am Haltepunkt",
         "city": "Schmilka",
         "name_with_city": "Schmilka Fährstelle am Haltepunkt",
-        "operators": [],
-        "lines": {},
-        "total_lines": 0
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Fähre": [
+            "F 2"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
@@ -97325,9 +97342,15 @@
         "name": "Fährstelle im Ort",
         "city": "Schmilka",
         "name_with_city": "Schmilka Fährstelle im Ort",
-        "operators": [],
-        "lines": {},
-        "total_lines": 0
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Fähre": [
+            "F 2"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
@@ -98135,9 +98158,15 @@
         "name": "Fährstelle",
         "city": "Schöna (bei Pirna)",
         "name_with_city": "Schöna (bei Pirna) Fährstelle",
-        "operators": [],
-        "lines": {},
-        "total_lines": 0
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Fähre": [
+            "F 1"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
@@ -101135,15 +101164,19 @@
         "city": "Spreetal (Kamenz)",
         "name_with_city": "Spreetal (Kamenz) Wohnlager II",
         "operators": [
+          "Cottbusverkehr GmbH",
           "RBO"
         ],
         "lines": {
           "Regionalbus": [
             "779",
             "781"
+          ],
+          "Bus": [
+            "800"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {

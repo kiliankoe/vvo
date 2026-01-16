@@ -343,12 +343,16 @@
         "RVSOE"
       ],
       "lines": {
+        "PlusBus": [
+          "360"
+        ],
         "Regionalbus": [
+          "367",
           "370",
           "374"
         ]
       },
-      "total_lines": 2
+      "total_lines": 4
     },
     {
       "id": "de:14628:3998",
@@ -11631,13 +11635,14 @@
           "6"
         ],
         "Stadtbus": [
-          "62"
+          "62",
+          "64"
         ],
         "PlusBus": [
           "520"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:737",
@@ -23207,9 +23212,15 @@
       "name_with_city": "Dresden Universitätsklinikum",
       "longitude": 13.780956,
       "latitude": 51.056523,
-      "operators": [],
-      "lines": {},
-      "total_lines": 0
+      "operators": [
+        "DVB"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "64"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14612:793",
@@ -29252,8 +29263,8 @@
       "name": "Bahnhof",
       "city": "Glaubitz",
       "name_with_city": "Glaubitz Bahnhof",
-      "longitude": 13.365503,
-      "latitude": 51.317617,
+      "longitude": 13.366671,
+      "latitude": 51.316943,
       "operators": [
         "DB Regio AG Südost",
         "VGM"
@@ -70358,9 +70369,15 @@
       "name_with_city": "Schmilka Fährstelle am Haltepunkt",
       "longitude": 14.228784,
       "latitude": 50.890414,
-      "operators": [],
-      "lines": {},
-      "total_lines": 0
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Fähre": [
+          "F 2"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14628:3649",
@@ -70370,9 +70387,15 @@
       "name_with_city": "Schmilka Fährstelle im Ort",
       "longitude": 14.229763,
       "latitude": 50.891422,
-      "operators": [],
-      "lines": {},
-      "total_lines": 0
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Fähre": [
+          "F 2"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14628:3648",
@@ -70948,9 +70971,15 @@
       "name_with_city": "Schöna (bei Pirna) Fährstelle",
       "longitude": 14.234866,
       "latitude": 50.87527,
-      "operators": [],
-      "lines": {},
-      "total_lines": 0
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Fähre": [
+          "F 1"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14628:3595",
@@ -73100,15 +73129,19 @@
       "longitude": 14.327213,
       "latitude": 51.511188,
       "operators": [
+        "Cottbusverkehr GmbH",
         "RBO"
       ],
       "lines": {
         "Regionalbus": [
           "779",
           "781"
+        ],
+        "Bus": [
+          "800"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6883",

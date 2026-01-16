@@ -30,8 +30,8 @@ Total stations: 3903
 ## Stations by Transit Type
 
 - Regionalbus: 2710 stations
-- Stadtbus: 1241 stations
-- PlusBus: 644 stations
+- Stadtbus: 1242 stations
+- PlusBus: 645 stations
 - Anruflinienbus: 480 stations
 - Straßenbahn: 268 stations
 - Anruflinientaxi: 196 stations
@@ -39,9 +39,9 @@ Total stations: 3903
 - Taktbus: 75 stations
 - Ersatzverkehr: 70 stations
 - S-Bahn: 54 stations
-- Bus: 49 stations
+- Bus: 50 stations
+- Fähre: 31 stations
 - Stadtverkehr: 29 stations
-- Fähre: 28 stations
 - Schülerlinie: 13 stations
 - TaktBus: 5 stations
 - Fernbus: 2 stations
@@ -50,9 +50,9 @@ Total stations: 3903
 
 ## Transit Operators
 
-- RVSOE: 1285 stations
+- RVSOE: 1288 stations
 - VGM: 1173 stations
-- DVB: 754 stations
+- DVB: 755 stations
 - RBO: 715 stations
 - DB Regio AG Südost: 123 stations
 - VGH: 81 stations
@@ -65,7 +65,7 @@ Total stations: 3903
 - DB AG: 24 stations
 - Mitteldeutsche Regiobahn: 23 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
-- Cottbusverkehr GmbH: 11 stations
+- Cottbusverkehr GmbH: 12 stations
 - trilex - Die Länderbahn GmbH DLB: 10 stations
 - Österreichische Bundesbahnen: 4 stations
 - DB Fernverkehr AG: 3 stations
