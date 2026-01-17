@@ -1,6 +1,6 @@
 # VVO Station Data Summary
 
-Total stations: 3903
+Total stations: 3917
 
 ## Stations by City
 
@@ -13,6 +13,7 @@ Total stations: 3903
 - Hoyerswerda: 73
 - Großenhain: 45
 - Coswig (Sachsen): 36
+- Heidenau (Sachsen): 35
 - Bischofswerda: 33
 - Kamenz: 33
 - Radeberg: 33
@@ -21,7 +22,6 @@ Total stations: 3903
 - Weinböhla: 26
 - Neustadt in Sachsen: 25
 - Ottendorf-Okrilla: 24
-- Heidenau (Sachsen): 22
 - Bannewitz: 21
 - Nossen: 18
 
@@ -30,16 +30,16 @@ Total stations: 3903
 ## Stations by Transit Type
 
 - Regionalbus: 2710 stations
-- Stadtbus: 1242 stations
+- Stadtbus: 1263 stations
 - PlusBus: 645 stations
 - Anruflinienbus: 480 stations
 - Straßenbahn: 268 stations
 - Anruflinientaxi: 196 stations
 - Zug: 105 stations
+- Ersatzverkehr: 77 stations
 - Taktbus: 75 stations
-- Ersatzverkehr: 70 stations
 - S-Bahn: 54 stations
-- Bus: 50 stations
+- Bus: 49 stations
 - Fähre: 31 stations
 - Stadtverkehr: 29 stations
 - Schülerlinie: 13 stations
@@ -50,11 +50,11 @@ Total stations: 3903
 
 ## Transit Operators
 
-- RVSOE: 1288 stations
+- RVSOE: 1307 stations
 - VGM: 1173 stations
 - DVB: 755 stations
 - RBO: 715 stations
-- DB Regio AG Südost: 123 stations
+- DB Regio AG Südost: 122 stations
 - VGH: 81 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 68 stations
@@ -65,7 +65,7 @@ Total stations: 3903
 - DB AG: 24 stations
 - Mitteldeutsche Regiobahn: 23 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
-- Cottbusverkehr GmbH: 12 stations
+- Cottbusverkehr GmbH: 11 stations
 - trilex - Die Länderbahn GmbH DLB: 10 stations
 - Österreichische Bundesbahnen: 4 stations
 - DB Fernverkehr AG: 3 stations
@@ -101,16 +101,17 @@ Total stations: 3903
 - Großenhain Franz-Schubert-Allee: 16 lines
 - Kamenz Macherstraße: 16 lines
 - Riesa Sachsenhof: 16 lines
-- Bad Schandau Nationalparkbahnhof: 15 lines
 - Dresden S-Bahnhof Dobritz: 15 lines
 - Freital S-Bf. / Busbf. Deuben: 15 lines
 - Kamenz Schwimmhalle: 15 lines
 - Meißen Uferstraße: 15 lines
 - Pirna Breite Straße: 15 lines
+- Bad Schandau Nationalparkbahnhof: 14 lines
 - Dippoldiswalde Busbahnhof: 14 lines
 - Dresden Julius-Vahlteich-Straße: 14 lines
 - Dresden Postplatz: 14 lines
 - Dresden Tharandter Straße: 14 lines
+- Heidenau (Sachsen) Bahnhof: 14 lines
 - Hoyerswerda Behördenpark: 14 lines
 - Hoyerswerda Lausitzer Platz: 14 lines
 - Kamenz Landesämter: 14 lines
@@ -121,7 +122,6 @@ Total stations: 3903
 - Dresden Großenhainer Platz: 13 lines
 - Dresden S-Bf. Freiberger Straße: 13 lines
 - Dresden Wasaplatz: 13 lines
-- Heidenau (Sachsen) Bahnhof: 13 lines
 - Kamenz Flugplatz: 13 lines
 - Nossen Markt: 13 lines
 - Nossen Talstraße: 13 lines
@@ -144,7 +144,6 @@ Total stations: 3903
 - Glashütte (Sachsen) Bahnhof / Busbahnhof: 11 lines
 - Gompitz Gompitzer Höhe: 11 lines
 - Großenhain Hohe Straße: 11 lines
-- Pirna Robert-Koch-Straße: 11 lines
 - Pulsnitz Bahnhof: 11 lines
 - Altenberg (Erzgebirge) Bahnhof: 10 lines
 - Bischofswerda Schulstraße: 10 lines
@@ -158,4 +157,5 @@ Total stations: 3903
 - Dresden Prager Straße: 10 lines
 - Dresden Prohlis Gleisschleife: 10 lines
 - Königswartha Kirchplatz: 10 lines
+- Pirna Robert-Koch-Straße: 10 lines
 - Sebnitz Bahnhof: 10 lines

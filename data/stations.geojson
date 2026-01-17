@@ -226,12 +226,14 @@
             "368",
             "370",
             "373",
-            "374",
-            "SEV"
+            "374"
           ],
           "Zug": [
             "RB72",
             "RE19"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
         "total_lines": 10
@@ -1690,8 +1692,7 @@
             "251",
             "252",
             "253",
-            "254",
-            "SEV"
+            "254"
           ],
           "PlusBus": [
             "260"
@@ -1711,7 +1712,7 @@
             "SEV"
           ]
         },
-        "total_lines": 15
+        "total_lines": 14
       }
     },
     {
@@ -8107,11 +8108,13 @@
         "lines": {
           "Regionalbus": [
             "368",
-            "369",
-            "SEV"
+            "369"
           ],
           "Zug": [
             "RB72"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
         "total_lines": 4
@@ -8138,11 +8141,13 @@
         ],
         "lines": {
           "Regionalbus": [
-            "368",
-            "SEV"
+            "368"
           ],
           "Zug": [
             "RB72"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
         "total_lines": 3
@@ -13553,6 +13558,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.865802,
+          50.962811
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3109",
+        "numeric_id": "33003109",
+        "name": "Am Kronenhügel",
+        "city": "Dohna",
+        "name_with_city": "Dohna Am Kronenhügel",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "A (Heidenau)"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.855723,
           50.961153
         ]
@@ -13666,10 +13697,11 @@
             "204"
           ],
           "Stadtbus": [
+            "A (Heidenau)",
             "B (Heidenau)"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -38017,11 +38049,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "161",
             "162"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -39535,12 +39566,14 @@
           "Regionalbus": [
             "367",
             "368",
-            "385",
-            "SEV"
+            "385"
           ],
           "Zug": [
             "RB72",
             "RE19"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
         "total_lines": 6
@@ -39567,12 +39600,14 @@
         ],
         "lines": {
           "Regionalbus": [
-            "385",
-            "SEV"
+            "385"
           ],
           "Zug": [
             "RB72",
             "RE19"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
         "total_lines": 4
@@ -40196,8 +40231,7 @@
             "372",
             "385",
             "386",
-            "389",
-            "SEV"
+            "389"
           ],
           "PlusBus": [
             "388"
@@ -40205,6 +40239,9 @@
           "Zug": [
             "RB72",
             "RE19"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
         "total_lines": 11
@@ -46850,11 +46887,12 @@
             "202"
           ],
           "Stadtbus": [
+            "A (Heidenau)",
             "B (Heidenau)",
             "H/S (Pirna)"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -46907,6 +46945,7 @@
           "Stadtbus": [
             "65",
             "86",
+            "A (Heidenau)",
             "B (Heidenau)",
             "H/S (Pirna)"
           ],
@@ -46928,7 +46967,7 @@
             "SEV"
           ]
         },
-        "total_lines": 13
+        "total_lines": 14
       }
     },
     {
@@ -46952,6 +46991,35 @@
         "lines": {
           "Regionalbus": [
             "204"
+          ],
+          "Stadtbus": [
+            "A (Heidenau)"
+          ]
+        },
+        "total_lines": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.870554,
+          50.967003
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3059",
+        "numeric_id": "33003059",
+        "name": "Beethovenstraße",
+        "city": "Heidenau (Sachsen)",
+        "name_with_city": "Heidenau (Sachsen) Beethovenstraße",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "A (Heidenau)"
           ]
         },
         "total_lines": 1
@@ -46998,9 +47066,15 @@
         "name": "Böhmischer Weg",
         "city": "Heidenau (Sachsen)",
         "name_with_city": "Heidenau (Sachsen) Böhmischer Weg",
-        "operators": [],
-        "lines": {},
-        "total_lines": 0
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "A (Heidenau)"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
@@ -47091,6 +47165,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.865811,
+          50.982937
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3050",
+        "numeric_id": "33003050",
+        "name": "Friedensstraße",
+        "city": "Heidenau (Sachsen)",
+        "name_with_city": "Heidenau (Sachsen) Friedensstraße",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "A (Heidenau)"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.882106,
           50.964972
         ]
@@ -47106,10 +47206,11 @@
         ],
         "lines": {
           "Stadtbus": [
+            "A (Heidenau)",
             "H/S (Pirna)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -47158,7 +47259,34 @@
         ],
         "lines": {
           "Stadtbus": [
+            "A (Heidenau)",
             "H/S (Pirna)"
+          ]
+        },
+        "total_lines": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.875665,
+          50.968044
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3068",
+        "numeric_id": "33003068",
+        "name": "Geschwister-Scholl-Straße",
+        "city": "Heidenau (Sachsen)",
+        "name_with_city": "Heidenau (Sachsen) Geschwister-Scholl-Straße",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "A (Heidenau)"
           ]
         },
         "total_lines": 1
@@ -47185,6 +47313,35 @@
         "lines": {
           "Regionalbus": [
             "204"
+          ],
+          "Stadtbus": [
+            "A (Heidenau)"
+          ]
+        },
+        "total_lines": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.885107,
+          50.954131
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3063",
+        "numeric_id": "33003063",
+        "name": "Großsedlitz Parkstraße",
+        "city": "Heidenau (Sachsen)",
+        "name_with_city": "Heidenau (Sachsen) Großsedlitz Parkstraße",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "A (Heidenau)"
           ]
         },
         "total_lines": 1
@@ -47211,6 +47368,61 @@
         "lines": {
           "Regionalbus": [
             "204"
+          ],
+          "Stadtbus": [
+            "A (Heidenau)"
+          ]
+        },
+        "total_lines": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.872117,
+          50.976518
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3052",
+        "numeric_id": "33003052",
+        "name": "Heinrich-Zille-Straße",
+        "city": "Heidenau (Sachsen)",
+        "name_with_city": "Heidenau (Sachsen) Heinrich-Zille-Straße",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "A (Heidenau)"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.869575,
+          50.967218
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3061",
+        "numeric_id": "33003061",
+        "name": "Johanniter-Stift",
+        "city": "Heidenau (Sachsen)",
+        "name_with_city": "Heidenau (Sachsen) Johanniter-Stift",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "A (Heidenau)"
           ]
         },
         "total_lines": 1
@@ -47231,9 +47443,41 @@
         "name": "Karl-Marx-Straße",
         "city": "Heidenau (Sachsen)",
         "name_with_city": "Heidenau (Sachsen) Karl-Marx-Straße",
-        "operators": [],
-        "lines": {},
-        "total_lines": 0
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "A (Heidenau)"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.877857,
+          50.962822
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3079",
+        "numeric_id": "33003079",
+        "name": "Kuhtreppen",
+        "city": "Heidenau (Sachsen)",
+        "name_with_city": "Heidenau (Sachsen) Kuhtreppen",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "A (Heidenau)"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
@@ -47252,15 +47496,17 @@
         "city": "Heidenau (Sachsen)",
         "name_with_city": "Heidenau (Sachsen) Käthe-Kollwitz-Straße",
         "operators": [
-          "DVB"
+          "DVB",
+          "RVSOE"
         ],
         "lines": {
           "Stadtbus": [
             "65",
-            "86"
+            "86",
+            "A (Heidenau)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -47298,6 +47544,58 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.882762,
+          50.958805
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3062",
+        "numeric_id": "33003062",
+        "name": "Pechhüttenstraße",
+        "city": "Heidenau (Sachsen)",
+        "name_with_city": "Heidenau (Sachsen) Pechhüttenstraße",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "A (Heidenau)"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.871048,
+          50.970103
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3058",
+        "numeric_id": "33003058",
+        "name": "Pestalozzi-Gymnasium",
+        "city": "Heidenau (Sachsen)",
+        "name_with_city": "Heidenau (Sachsen) Pestalozzi-Gymnasium",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "A (Heidenau)"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.893659,
           50.962228
         ]
@@ -47311,6 +47609,32 @@
         "operators": [],
         "lines": {},
         "total_lines": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.869674,
+          50.980573
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3051",
+        "numeric_id": "33003051",
+        "name": "Rathaus",
+        "city": "Heidenau (Sachsen)",
+        "name_with_city": "Heidenau (Sachsen) Rathaus",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "A (Heidenau)"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
@@ -47333,10 +47657,11 @@
         ],
         "lines": {
           "Stadtbus": [
+            "A (Heidenau)",
             "H/S (Pirna)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -47355,18 +47680,22 @@
         "city": "Heidenau (Sachsen)",
         "name_with_city": "Heidenau (Sachsen) S-Bahnhof Süd",
         "operators": [
-          "DB Regio AG Südost"
+          "DB Regio AG Südost",
+          "RVSOE"
         ],
         "lines": {
           "S-Bahn": [
             "S1",
             "S2"
           ],
+          "Stadtbus": [
+            "A (Heidenau)"
+          ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -47411,9 +47740,93 @@
         "name": "Sachseneck",
         "city": "Heidenau (Sachsen)",
         "name_with_city": "Heidenau (Sachsen) Sachseneck",
-        "operators": [],
-        "lines": {},
-        "total_lines": 0
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "A (Heidenau)"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.870042,
+          50.965221
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3043",
+        "numeric_id": "33003043",
+        "name": "Sedlitzer Straße",
+        "city": "Heidenau (Sachsen)",
+        "name_with_city": "Heidenau (Sachsen) Sedlitzer Straße",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "A (Heidenau)"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.86476,
+          50.98025
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3044",
+        "numeric_id": "33003044",
+        "name": "Stadtzentrum",
+        "city": "Heidenau (Sachsen)",
+        "name_with_city": "Heidenau (Sachsen) Stadtzentrum",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "A (Heidenau)"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.873887,
+          50.967597
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3076",
+        "numeric_id": "33003076",
+        "name": "Ärztehaus",
+        "city": "Heidenau (Sachsen)",
+        "name_with_city": "Heidenau (Sachsen) Ärztehaus",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "A (Heidenau)"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
@@ -60304,12 +60717,14 @@
         "lines": {
           "Regionalbus": [
             "368",
-            "385",
-            "SEV"
+            "385"
           ],
           "Zug": [
             "RB72",
             "RE19"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
         "total_lines": 5
@@ -68233,7 +68648,6 @@
         "city": "Meißen",
         "name_with_city": "Meißen Niesnerstraße",
         "operators": [
-          "DB Regio AG Südost",
           "VGM"
         ],
         "lines": {
@@ -68245,12 +68659,9 @@
           ],
           "Stadtbus": [
             "C (Meißen)"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -68619,9 +69030,12 @@
           ],
           "Regionalbus": [
             "Sv190"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -81368,14 +81782,13 @@
             "237",
             "241",
             "245",
-            "246",
             "207a"
           ],
           "Stadtbus": [
             "Z (Pirna)"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -83446,11 +83859,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "252",
-            "SEV"
+            "252"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -88701,11 +89113,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "403",
-            "405"
+            "403"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -97374,14 +97785,13 @@
         ],
         "lines": {
           "Regionalbus": [
-            "252",
-            "SEV"
+            "252"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -101164,19 +101574,15 @@
         "city": "Spreetal (Kamenz)",
         "name_with_city": "Spreetal (Kamenz) Wohnlager II",
         "operators": [
-          "Cottbusverkehr GmbH",
           "RBO"
         ],
         "lines": {
           "Regionalbus": [
             "779",
             "781"
-          ],
-          "Bus": [
-            "800"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -107271,11 +107677,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411",
-            "Sv250"
+            "411"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
