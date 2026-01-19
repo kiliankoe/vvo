@@ -144,6 +144,7 @@ Total stations: 3917
 - Glashütte (Sachsen) Bahnhof / Busbahnhof: 11 lines
 - Gompitz Gompitzer Höhe: 11 lines
 - Großenhain Hohe Straße: 11 lines
+- Pirna Robert-Koch-Straße: 11 lines
 - Pulsnitz Bahnhof: 11 lines
 - Altenberg (Erzgebirge) Bahnhof: 10 lines
 - Bischofswerda Schulstraße: 10 lines
@@ -157,5 +158,4 @@ Total stations: 3917
 - Dresden Prager Straße: 10 lines
 - Dresden Prohlis Gleisschleife: 10 lines
 - Königswartha Kirchplatz: 10 lines
-- Pirna Robert-Koch-Straße: 10 lines
 - Sebnitz Bahnhof: 10 lines
