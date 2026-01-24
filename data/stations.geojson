@@ -10756,6 +10756,7 @@
         "city": "Coswig (Sachsen)",
         "name_with_city": "Coswig (Sachsen) Zentrum/ Börse",
         "operators": [
+          "DB Regio AG Südost",
           "DVB",
           "VGM"
         ],
@@ -10769,9 +10770,12 @@
             "405",
             "460",
             "Sv280"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -16344,9 +16348,12 @@
           "S-Bahn": [
             "S2",
             "S8"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 12
+        "total_lines": 13
       }
     },
     {
@@ -20041,9 +20048,7 @@
         "name": "Fritz-Schreiter-Straße",
         "city": "Dresden",
         "name_with_city": "Dresden Fritz-Schreiter-Straße",
-        "operators": [
-          "DB Regio AG Südost"
-        ],
+        "operators": [],
         "lines": {
           "Ersatzverkehr": [
             "SEV"
@@ -29536,7 +29541,8 @@
         "operators": [
           "DB Regio AG Südost",
           "DVB",
-          "Mitteldeutsche Regiobahn"
+          "Mitteldeutsche Regiobahn",
+          "trilex - Die Länderbahn GmbH DLB"
         ],
         "lines": {
           "Straßenbahn": [
@@ -29559,11 +29565,14 @@
             "S1",
             "S2"
           ],
+          "Ersatzverkehr": [
+            "SEV"
+          ],
           "Regionalbus": [
             "SEV"
           ]
         },
-        "total_lines": 15
+        "total_lines": 16
       }
     },
     {
@@ -29600,9 +29609,12 @@
           "S-Bahn": [
             "S2",
             "S8"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 8
+        "total_lines": 9
       }
     },
     {
@@ -34443,7 +34455,6 @@
         "city": "Ebenheit (Struppen)",
         "name_with_city": "Ebenheit (Struppen) Ebenheit bei Pirna",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -38145,11 +38156,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "161",
             "162"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -47622,7 +47632,6 @@
         "city": "Heidenau (Sachsen)",
         "name_with_city": "Heidenau (Sachsen) Pechhütte",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -52464,6 +52473,7 @@
         "city": "Höckendorf b Dippol.",
         "name_with_city": "Höckendorf b Dippol. Tharandter Straße",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -59029,7 +59039,6 @@
         "city": "Königstein (Sächsische Schweiz)",
         "name_with_city": "Königstein (Sächsische Schweiz) Reißigerplatz/Bahnhof",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -67268,7 +67277,6 @@
         "city": "Meißen",
         "name_with_city": "Meißen Busbahnhof",
         "operators": [
-          "DB Regio AG Südost",
           "VGM"
         ],
         "lines": {
@@ -74050,9 +74058,12 @@
           "Zug": [
             "RB31",
             "RE50"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -75662,9 +75673,12 @@
           ],
           "Zug": [
             "RE50"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -81885,14 +81899,13 @@
             "237",
             "241",
             "245",
-            "246",
             "207a"
           ],
           "Stadtbus": [
             "Z (Pirna)"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -87396,7 +87409,6 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Gerhart-Hauptmann-Straße",
         "operators": [
-          "DB Regio AG Südost",
           "DVB",
           "VGM"
         ],
@@ -87720,7 +87732,6 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Johannisbergstraße",
         "operators": [
-          "DB Regio AG Südost",
           "DVB"
         ],
         "lines": {
@@ -87941,7 +87952,6 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Moritzburger Straße",
         "operators": [
-          "DB Regio AG Südost",
           "DVB",
           "VGM"
         ],
@@ -88859,7 +88869,6 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Zillerstraße",
         "operators": [
-          "DB Regio AG Südost",
           "DVB",
           "VGM"
         ],
@@ -89217,11 +89226,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "403",
-            "405"
+            "403"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -89732,9 +89740,7 @@
         "name": "Parkplatz",
         "city": "Rathen Kurort",
         "name_with_city": "Rathen Kurort Parkplatz",
-        "operators": [
-          "DB Regio AG Südost"
-        ],
+        "operators": [],
         "lines": {
           "Ersatzverkehr": [
             "SEV"
@@ -103678,11 +103684,18 @@
           "VGM"
         ],
         "lines": {
+          "Anruflinienbus": [
+            "409"
+          ],
+          "PlusBus": [
+            "409"
+          ],
           "Regionalbus": [
-            "410"
+            "410",
+            "463"
           ]
         },
-        "total_lines": 1
+        "total_lines": 4
       }
     },
     {
@@ -103918,7 +103931,6 @@
         "city": "Struppen",
         "name_with_city": "Struppen Südstraße",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -107785,11 +107797,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411",
-            "Sv250"
+            "411"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {

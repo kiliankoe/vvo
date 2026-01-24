@@ -7721,6 +7721,7 @@
       "longitude": 13.580389,
       "latitude": 51.127331,
       "operators": [
+        "DB Regio AG Südost",
         "DVB",
         "VGM"
       ],
@@ -7734,9 +7735,12 @@
           "405",
           "460",
           "Sv280"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14627:4183",
@@ -11757,9 +11761,12 @@
         "S-Bahn": [
           "S2",
           "S8"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 12
+      "total_lines": 13
     },
     {
       "id": "de:14612:1",
@@ -14486,9 +14493,7 @@
       "name_with_city": "Dresden Fritz-Schreiter-Straße",
       "longitude": 13.85124,
       "latitude": 50.992748,
-      "operators": [
-        "DB Regio AG Südost"
-      ],
+      "operators": [],
       "lines": {
         "Ersatzverkehr": [
           "SEV"
@@ -21437,7 +21442,8 @@
       "operators": [
         "DB Regio AG Südost",
         "DVB",
-        "Mitteldeutsche Regiobahn"
+        "Mitteldeutsche Regiobahn",
+        "trilex - Die Länderbahn GmbH DLB"
       ],
       "lines": {
         "Straßenbahn": [
@@ -21460,11 +21466,14 @@
           "S1",
           "S2"
         ],
+        "Ersatzverkehr": [
+          "SEV"
+        ],
         "Regionalbus": [
           "SEV"
         ]
       },
-      "total_lines": 15
+      "total_lines": 16
     },
     {
       "id": "de:14612:267",
@@ -21493,9 +21502,12 @@
         "S-Bahn": [
           "S2",
           "S8"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 8
+      "total_lines": 9
     },
     {
       "id": "de:14612:757",
@@ -25032,7 +25044,6 @@
       "longitude": 13.981649,
       "latitude": 50.947736,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -27710,11 +27721,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "161",
           "162"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:1178",
@@ -34515,7 +34525,6 @@
       "longitude": 13.892581,
       "latitude": 50.960168,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -37997,6 +38006,7 @@
       "longitude": 13.585689,
       "latitude": 50.93012,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -42730,7 +42740,6 @@
       "longitude": 14.073394,
       "latitude": 50.91914,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -48657,7 +48666,6 @@
       "longitude": 13.483685,
       "latitude": 51.163747,
       "operators": [
-        "DB Regio AG Südost",
         "VGM"
       ],
       "lines": {
@@ -53591,9 +53599,12 @@
         "Zug": [
           "RB31",
           "RE50"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14627:4122",
@@ -54803,9 +54814,12 @@
         ],
         "Zug": [
           "RE50"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14627:5703",
@@ -59274,14 +59288,13 @@
           "237",
           "241",
           "245",
-          "246",
           "207a"
         ],
         "Stadtbus": [
           "Z (Pirna)"
         ]
       },
-      "total_lines": 11
+      "total_lines": 10
     },
     {
       "id": "de:14628:3382",
@@ -63257,7 +63270,6 @@
       "longitude": 13.603485,
       "latitude": 51.119815,
       "operators": [
-        "DB Regio AG Südost",
         "DVB",
         "VGM"
       ],
@@ -63485,7 +63497,6 @@
       "longitude": 13.611471,
       "latitude": 51.114582,
       "operators": [
-        "DB Regio AG Südost",
         "DVB"
       ],
       "lines": {
@@ -63642,7 +63653,6 @@
       "longitude": 13.630515,
       "latitude": 51.108164,
       "operators": [
-        "DB Regio AG Südost",
         "DVB",
         "VGM"
       ],
@@ -64296,7 +64306,6 @@
       "longitude": 13.654006,
       "latitude": 51.105485,
       "operators": [
-        "DB Regio AG Südost",
         "DVB",
         "VGM"
       ],
@@ -64558,11 +64567,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "403",
-          "405"
+          "403"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4367",
@@ -64929,9 +64937,7 @@
       "name_with_city": "Rathen Kurort Parkplatz",
       "longitude": 14.078765,
       "latitude": 50.956196,
-      "operators": [
-        "DB Regio AG Südost"
-      ],
+      "operators": [],
       "lines": {
         "Ersatzverkehr": [
           "SEV"
@@ -74963,11 +74969,18 @@
         "VGM"
       ],
       "lines": {
+        "Anruflinienbus": [
+          "409"
+        ],
+        "PlusBus": [
+          "409"
+        ],
         "Regionalbus": [
-          "410"
+          "410",
+          "463"
         ]
       },
-      "total_lines": 1
+      "total_lines": 4
     },
     {
       "id": "de:14627:5397",
@@ -75131,7 +75144,6 @@
       "longitude": 14.003181,
       "latitude": 50.936834,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -77894,11 +77906,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411",
-          "Sv250"
+          "411"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4151",

@@ -31,12 +31,12 @@ Total stations: 3917
 
 - Regionalbus: 2710 stations
 - Stadtbus: 1263 stations
-- PlusBus: 645 stations
-- Anruflinienbus: 480 stations
+- PlusBus: 646 stations
+- Anruflinienbus: 481 stations
 - Straßenbahn: 269 stations
 - Anruflinientaxi: 196 stations
 - Zug: 105 stations
-- Ersatzverkehr: 77 stations
+- Ersatzverkehr: 83 stations
 - Taktbus: 75 stations
 - S-Bahn: 54 stations
 - Bus: 49 stations
@@ -54,7 +54,7 @@ Total stations: 3917
 - VGM: 1173 stations
 - DVB: 756 stations
 - RBO: 715 stations
-- DB Regio AG Südost: 122 stations
+- DB Regio AG Südost: 113 stations
 - VGH: 81 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 68 stations
@@ -65,8 +65,8 @@ Total stations: 3917
 - DB AG: 24 stations
 - Mitteldeutsche Regiobahn: 23 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
+- trilex - Die Länderbahn GmbH DLB: 11 stations
 - Cottbusverkehr GmbH: 11 stations
-- trilex - Die Länderbahn GmbH DLB: 10 stations
 - Österreichische Bundesbahnen: 4 stations
 - DB Fernverkehr AG: 3 stations
 - Ostdeutsche Eisenbahn GmbH: 3 stations
@@ -99,13 +99,13 @@ Total stations: 3917
 - Meißen S-Bahnhof Altstadt: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
 - Dresden Julius-Vahlteich-Straße: 16 lines
+- Dresden S-Bf. Freiberger Straße: 16 lines
 - Dresden Tharandter Straße: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
 - Kamenz Macherstraße: 16 lines
 - Riesa Sachsenhof: 16 lines
 - Dresden Postplatz: 15 lines
 - Dresden S-Bahnhof Dobritz: 15 lines
-- Dresden S-Bf. Freiberger Straße: 15 lines
 - Freital S-Bf. / Busbf. Deuben: 15 lines
 - Kamenz Schwimmhalle: 15 lines
 - Meißen Uferstraße: 15 lines
@@ -126,6 +126,7 @@ Total stations: 3917
 - Meißen Neugasse: 14 lines
 - Meißen Talbad: 14 lines
 - Radeberg Bahnhof: 14 lines
+- Dresden Bahnhof Klotzsche: 13 lines
 - Dresden Dahlienweg: 13 lines
 - Dresden Zeithainer Straße: 13 lines
 - Kamenz Flugplatz: 13 lines
@@ -134,7 +135,6 @@ Total stations: 3917
 - Coswig (Sachsen) Bahnhof: 12 lines
 - Dresden Amalie-Dietrich-Platz: 12 lines
 - Dresden Anton-/Leipziger Straße: 12 lines
-- Dresden Bahnhof Klotzsche: 12 lines
 - Dresden Bahnhof Neustadt (Hansastraße): 12 lines
 - Dresden Coventrystraße: 12 lines
 - Dresden Mockritzer Straße: 12 lines
@@ -155,7 +155,6 @@ Total stations: 3917
 - Glashütte (Sachsen) Bahnhof / Busbahnhof: 11 lines
 - Gompitz Gompitzer Höhe: 11 lines
 - Großenhain Hohe Straße: 11 lines
-- Pirna Robert-Koch-Straße: 11 lines
 - Pulsnitz Bahnhof: 11 lines
 - Altenberg (Erzgebirge) Bahnhof: 10 lines
 - Bischofswerda Schulstraße: 10 lines
@@ -171,4 +170,5 @@ Total stations: 3917
 - Dresden Querallee: 10 lines
 - Dresden Zoo: 10 lines
 - Königswartha Kirchplatz: 10 lines
+- Pirna Robert-Koch-Straße: 10 lines
 - Sebnitz Bahnhof: 10 lines
