@@ -9596,8 +9596,8 @@
       "name": "Dohmaer Weg",
       "city": "Dohma",
       "name_with_city": "Dohma Dohmaer Weg",
-      "longitude": 13.934253,
-      "latitude": 50.923376,
+      "longitude": 13.933777,
+      "latitude": 50.923852,
       "operators": [
         "RVSOE"
       ],
@@ -9660,8 +9660,8 @@
       "name": "Weinleite",
       "city": "Dohma",
       "name_with_city": "Dohma Weinleite",
-      "longitude": 13.92598,
-      "latitude": 50.926445,
+      "longitude": 13.926205,
+      "latitude": 50.92585,
       "operators": [
         "RVSOE"
       ],
@@ -10149,13 +10149,14 @@
         ],
         "Stadtbus": [
           "63",
-          "66"
+          "66",
+          "EV 3"
         ],
         "Regionalbus": [
           "366"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:502",
@@ -10343,11 +10344,12 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "3",
           "4",
           "9"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:708",
@@ -10477,11 +10479,12 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "3",
           "4",
           "9"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:580",
@@ -10753,11 +10756,12 @@
         "Straßenbahn": [
           "13",
           "26",
+          "3",
           "4",
           "9"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:157",
@@ -11428,6 +11432,7 @@
       "lines": {
         "Straßenbahn": [
           "13",
+          "3",
           "9"
         ],
         "Stadtbus": [
@@ -11437,7 +11442,7 @@
           "alita 79"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:908",
@@ -12341,6 +12346,7 @@
       "lines": {
         "Straßenbahn": [
           "12",
+          "13",
           "6"
         ],
         "Stadtbus": [
@@ -12351,7 +12357,7 @@
           "520"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14612:888",
@@ -12495,6 +12501,7 @@
       "lines": {
         "Straßenbahn": [
           "13",
+          "3",
           "9"
         ],
         "Stadtbus": [
@@ -12504,7 +12511,7 @@
           "alita 79"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:274",
@@ -12859,10 +12866,11 @@
         "Straßenbahn": [
           "3",
           "7",
+          "8",
           "9"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:784",
@@ -13083,7 +13091,8 @@
         "Stadtbus": [
           "166",
           "63",
-          "66"
+          "66",
+          "EV 3"
         ],
         "Regionalbus": [
           "366"
@@ -13092,7 +13101,7 @@
           "alita 66"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14612:159",
@@ -13284,10 +13293,11 @@
           "3"
         ],
         "Stadtbus": [
-          "63"
+          "63",
+          "EV 3"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:332",
@@ -13754,6 +13764,7 @@
       "lines": {
         "Straßenbahn": [
           "13",
+          "3",
           "9"
         ],
         "Stadtbus": [
@@ -13766,7 +13777,7 @@
           "alita 72"
         ]
       },
-      "total_lines": 7
+      "total_lines": 8
     },
     {
       "id": "de:14612:296",
@@ -14091,13 +14102,16 @@
         "Straßenbahn": [
           "10",
           "12",
+          "13",
+          "2",
+          "3",
           "9"
         ],
         "Stadtbus": [
           "64"
         ]
       },
-      "total_lines": 4
+      "total_lines": 7
     },
     {
       "id": "de:14612:973",
@@ -14696,13 +14710,14 @@
       ],
       "lines": {
         "Straßenbahn": [
-          "12"
+          "12",
+          "13"
         ],
         "Stadtbus": [
           "64"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:789",
@@ -15065,6 +15080,7 @@
           "11",
           "12",
           "26",
+          "3",
           "4",
           "42",
           "8"
@@ -15073,7 +15089,7 @@
           "66"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14612:507",
@@ -15565,10 +15581,11 @@
           "20",
           "3",
           "4",
-          "7"
+          "7",
+          "8"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14612:179",
@@ -17454,10 +17471,11 @@
           "3"
         ],
         "Stadtbus": [
-          "63"
+          "63",
+          "EV 3"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:846",
@@ -17541,10 +17559,13 @@
         "Straßenbahn": [
           "10",
           "12",
+          "13",
+          "2",
+          "3",
           "9"
         ]
       },
-      "total_lines": 3
+      "total_lines": 6
     },
     {
       "id": "de:14612:795",
@@ -18001,6 +18022,7 @@
           "12",
           "13",
           "26",
+          "3",
           "4",
           "42",
           "8"
@@ -18010,7 +18032,7 @@
           "68"
         ]
       },
-      "total_lines": 11
+      "total_lines": 12
     },
     {
       "id": "de:14612:74",
@@ -18862,6 +18884,7 @@
         "Straßenbahn": [
           "13",
           "26",
+          "3",
           "4",
           "9"
         ],
@@ -18874,7 +18897,7 @@
           "alita 79"
         ]
       },
-      "total_lines": 8
+      "total_lines": 9
     },
     {
       "id": "de:14612:535",
@@ -19147,9 +19170,12 @@
         "Straßenbahn": [
           "26",
           "3"
+        ],
+        "Stadtbus": [
+          "EV 3"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:314",
@@ -19307,10 +19333,11 @@
           "3",
           "4",
           "7",
+          "8",
           "9"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:815",
@@ -19453,8 +19480,8 @@
       "name": "Niederwaldstraße",
       "city": "Dresden",
       "name_with_city": "Dresden Niederwaldstraße",
-      "longitude": 13.803037,
-      "latitude": 51.047465,
+      "longitude": 13.803072,
+      "latitude": 51.047442,
       "operators": [
         "DVB"
       ],
@@ -19739,11 +19766,12 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "3",
           "4",
           "9"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:120",
@@ -19869,10 +19897,11 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "13",
           "6"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:211",
@@ -20124,10 +20153,11 @@
           "3"
         ],
         "Stadtbus": [
-          "85"
+          "85",
+          "EV 3"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:719",
@@ -20230,6 +20260,7 @@
           "3",
           "4",
           "7",
+          "8",
           "9"
         ],
         "Stadtbus": [
@@ -20243,7 +20274,7 @@
           "477"
         ]
       },
-      "total_lines": 15
+      "total_lines": 16
     },
     {
       "id": "de:14612:3",
@@ -20264,7 +20295,8 @@
           "20",
           "3",
           "4",
-          "7"
+          "7",
+          "8"
         ],
         "Stadtbus": [
           "62",
@@ -20276,7 +20308,7 @@
           "360"
         ]
       },
-      "total_lines": 11
+      "total_lines": 12
     },
     {
       "id": "de:14612:51",
@@ -20859,6 +20891,7 @@
       "lines": {
         "Straßenbahn": [
           "13",
+          "3",
           "9"
         ],
         "Stadtbus": [
@@ -20869,7 +20902,7 @@
           "alita 72"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14612:833",
@@ -21613,10 +21646,11 @@
           "3"
         ],
         "Stadtbus": [
-          "63"
+          "63",
+          "EV 3"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:10",
@@ -22578,11 +22612,12 @@
           "12",
           "13",
           "2",
+          "3",
           "8",
           "9"
         ]
       },
-      "total_lines": 7
+      "total_lines": 8
     },
     {
       "id": "de:14612:97",
@@ -22753,13 +22788,14 @@
       "lines": {
         "Straßenbahn": [
           "13",
+          "3",
           "9"
         ],
         "Stadtbus": [
           "72"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:733",
@@ -22955,10 +22991,11 @@
           "3",
           "4",
           "7",
+          "8",
           "9"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:934",
@@ -23126,6 +23163,7 @@
       "lines": {
         "Straßenbahn": [
           "13",
+          "3",
           "9"
         ],
         "Stadtbus": [
@@ -23135,7 +23173,7 @@
           "alita 79"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:249",
@@ -23218,10 +23256,11 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "13",
           "6"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:947",
@@ -23527,7 +23566,8 @@
           "20",
           "3",
           "4",
-          "7"
+          "7",
+          "8"
         ],
         "PlusBus": [
           "261",
@@ -23542,7 +23582,7 @@
           "H/S (Pirna)"
         ]
       },
-      "total_lines": 12
+      "total_lines": 13
     },
     {
       "id": "de:14612:185",
@@ -23615,6 +23655,7 @@
       "lines": {
         "Straßenbahn": [
           "13",
+          "3",
           "9"
         ],
         "Stadtbus": [
@@ -23622,7 +23663,7 @@
           "72"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:71",
@@ -23802,10 +23843,11 @@
       ],
       "lines": {
         "Stadtbus": [
-          "63"
+          "63",
+          "EV 3"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:121",
@@ -34296,8 +34338,8 @@
       "name": "Fritz-Gumpert-Platz",
       "city": "Heidenau (Sachsen)",
       "name_with_city": "Heidenau (Sachsen) Fritz-Gumpert-Platz",
-      "longitude": 13.882106,
-      "latitude": 50.964972,
+      "longitude": 13.882088,
+      "latitude": 50.964955,
       "operators": [
         "RVSOE"
       ],
@@ -58336,8 +58378,8 @@
       "name": "Copitz Berufsschulzentrum",
       "city": "Pirna",
       "name_with_city": "Pirna Copitz Berufsschulzentrum",
-      "longitude": 13.933346,
-      "latitude": 50.975533,
+      "longitude": 13.933427,
+      "latitude": 50.975494,
       "operators": [
         "RVSOE"
       ],
@@ -58373,8 +58415,8 @@
       "name": "Copitz Eichendorffstraße",
       "city": "Pirna",
       "name_with_city": "Pirna Copitz Eichendorffstraße",
-      "longitude": 13.92881,
-      "latitude": 50.969147,
+      "longitude": 13.928441,
+      "latitude": 50.969119,
       "operators": [
         "RVSOE"
       ],
@@ -58581,8 +58623,8 @@
       "name": "Copitz Pratzschwitzer Straße",
       "city": "Pirna",
       "name_with_city": "Pirna Copitz Pratzschwitzer Straße",
-      "longitude": 13.929672,
-      "latitude": 50.966437,
+      "longitude": 13.928962,
+      "latitude": 50.966341,
       "operators": [
         "RVSOE"
       ],
@@ -58599,8 +58641,8 @@
       "name": "Copitz Rudolf-Renner-Straße",
       "city": "Pirna",
       "name_with_city": "Pirna Copitz Rudolf-Renner-Straße",
-      "longitude": 13.931002,
-      "latitude": 50.974498,
+      "longitude": 13.931029,
+      "latitude": 50.974521,
       "operators": [
         "RVSOE"
       ],
@@ -58648,8 +58690,8 @@
       "name": "Copitz Schulstraße",
       "city": "Pirna",
       "name_with_city": "Pirna Copitz Schulstraße",
-      "longitude": 13.934685,
-      "latitude": 50.968598,
+      "longitude": 13.934649,
+      "latitude": 50.968332,
       "operators": [
         "DB Regio AG Südost",
         "RVSOE"
@@ -58721,8 +58763,8 @@
       "name": "Copitz Wesenitztalschänke",
       "city": "Pirna",
       "name_with_city": "Pirna Copitz Wesenitztalschänke",
-      "longitude": 13.930319,
-      "latitude": 50.979442,
+      "longitude": 13.930337,
+      "latitude": 50.979385,
       "operators": [
         "RVSOE"
       ],

@@ -30,7 +30,7 @@ Total stations: 3917
 ## Stations by Transit Type
 
 - Regionalbus: 2710 stations
-- Stadtbus: 1263 stations
+- Stadtbus: 1264 stations
 - PlusBus: 646 stations
 - Anruflinienbus: 481 stations
 - Straßenbahn: 269 stations
@@ -99,12 +99,12 @@ Total stations: 3917
 - Meißen S-Bahnhof Altstadt: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
 - Dresden Julius-Vahlteich-Straße: 16 lines
+- Dresden Postplatz: 16 lines
 - Dresden S-Bf. Freiberger Straße: 16 lines
 - Dresden Tharandter Straße: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
 - Kamenz Macherstraße: 16 lines
 - Riesa Sachsenhof: 16 lines
-- Dresden Postplatz: 15 lines
 - Dresden S-Bahnhof Dobritz: 15 lines
 - Freital S-Bf. / Busbf. Deuben: 15 lines
 - Kamenz Schwimmhalle: 15 lines
@@ -128,6 +128,7 @@ Total stations: 3917
 - Radeberg Bahnhof: 14 lines
 - Dresden Bahnhof Klotzsche: 13 lines
 - Dresden Dahlienweg: 13 lines
+- Dresden Walpurgisstraße: 13 lines
 - Dresden Zeithainer Straße: 13 lines
 - Kamenz Flugplatz: 13 lines
 - Nossen Markt: 13 lines
@@ -137,19 +138,18 @@ Total stations: 3917
 - Dresden Anton-/Leipziger Straße: 12 lines
 - Dresden Bahnhof Neustadt (Hansastraße): 12 lines
 - Dresden Coventrystraße: 12 lines
+- Dresden Lennéplatz: 12 lines
 - Dresden Mockritzer Straße: 12 lines
-- Dresden Walpurgisstraße: 12 lines
+- Dresden Prager Straße: 12 lines
 - Pirna Copitz Schulstraße: 12 lines
 - Riesa Goethestraße: 12 lines
 - Dresden Budapester Straße: 11 lines
 - Dresden Bünaustraße: 11 lines
 - Dresden Hülßestraße: 11 lines
 - Dresden Kongresszentrum / Haus der Presse: 11 lines
-- Dresden Lennéplatz: 11 lines
 - Dresden Lohrmannstraße: 11 lines
 - Dresden Lößnitzstraße: 11 lines
 - Dresden Pirnaischer Platz: 11 lines
-- Dresden Prager Straße: 11 lines
 - Dresden S-Bahnhof Niedersedlitz: 11 lines
 - Freital S-Bahnhof Hainsberg: 11 lines
 - Glashütte (Sachsen) Bahnhof / Busbahnhof: 11 lines
@@ -162,6 +162,7 @@ Total stations: 3917
 - Cossebaude/Neu-Leuteritz Bahnhof: 10 lines
 - Dresden Chamissostraße: 10 lines
 - Dresden Florastraße: 10 lines
+- Dresden Gret-Palucca-Straße: 10 lines
 - Dresden Hebbelplatz: 10 lines
 - Dresden Hugo-Bürkner-Straße: 10 lines
 - Dresden Koblenzer Straße: 10 lines
