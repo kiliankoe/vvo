@@ -678,7 +678,7 @@ de:14612:62,33000062,Fetscherplatz,Dresden,Dresden Fetscherplatz,51.046347,13.77
 de:14612:973,33000973,Fischhausstraße,Dresden,Dresden Fischhausstraße,51.073628,13.793874,RBO,1,,,,
 de:14612:553,33000553,Flensburger Straße,Dresden,Dresden Flensburger Straße,51.075654,13.666196,DB AG|DVB,2,,68,,
 de:14612:141,33000141,Florastraße,Dresden,Dresden Florastraße,51.048464,13.716825,DVB,10,10|11|12|2|20|26|42|7|8,62,,
-de:14612:617,33000617,Flughafen,Dresden,Dresden Flughafen,51.12454,13.765972,DB Regio AG Südost|DVB,4,,77|80,,S2
+de:14612:617,33000617,Flughafen,Dresden,Dresden Flughafen,51.12454,13.765972,DB Regio AG Südost|DVB,5,,77|80,,S2
 de:14612:613,33000613,Flughafen Terminal 1,Dresden,Dresden Flughafen Terminal 1,51.123096,13.761705,,0,,,,
 de:14612:618,33000618,Flughafen West,Dresden,Dresden Flughafen West,51.122313,13.764014,DVB,3,,77|80,,
 de:14612:616,33000616,Flughafenstraße,Dresden,Dresden Flughafenstraße,51.120666,13.763466,DVB,4,,77|78|80,,
@@ -1002,14 +1002,14 @@ de:14612:313,33000313,Räcknitzhöhe,Dresden,Dresden Räcknitzhöhe,51.023536,13
 de:14612:636,33000636,Rähnitzer Allee,Dresden,Dresden Rähnitzer Allee,51.124805,13.743101,DVB,2,,78|80,,
 de:14612:254,33000254,Rückertstraße,Dresden,Dresden Rückertstraße,51.088357,13.725485,,0,,,,
 de:14612:707,33000707,Rüdesheimer Straße,Dresden,Dresden Rüdesheimer Straße,51.031706,13.685744,DVB,1,,62,,
-de:14612:247,33000247,S-Bahnhof Bischofsplatz,Dresden,Dresden S-Bahnhof Bischofsplatz,51.072053,13.746739,DB Regio AG Südost|DVB|VGM,5,13|7|8,,,S1
+de:14612:247,33000247,S-Bahnhof Bischofsplatz,Dresden,Dresden S-Bahnhof Bischofsplatz,51.072053,13.746739,DB Regio AG Südost|DVB|VGM,6,13|7|8,,,S1
 de:14612:919,33000919,S-Bahnhof Dobritz,Dresden,Dresden S-Bahnhof Dobritz,51.011635,13.808516,DB Regio AG Südost|DVB|RVSOE,15,1|10|12|2|6|9,162|65|86,RE19|RE20,S1|S2
-de:14612:662,33000662,S-Bahnhof Grenzstraße,Dresden,Dresden S-Bahnhof Grenzstraße,51.128244,13.777974,DB Regio AG Südost|DVB,3,,77|80,,S2
+de:14612:662,33000662,S-Bahnhof Grenzstraße,Dresden,Dresden S-Bahnhof Grenzstraße,51.128244,13.777974,DB Regio AG Südost|DVB,4,,77|80,,S2
 de:14612:98,33000098,S-Bahnhof Niedersedlitz,Dresden,Dresden S-Bahnhof Niedersedlitz,50.999459,13.828818,DB Regio AG Südost|DVB,11,6,65|88,RE19|RE20,S1|S2
-de:14612:593,33000593,S-Bahnhof Pieschen,Dresden,Dresden S-Bahnhof Pieschen,51.081512,13.726051,DB Regio AG Südost|DVB,6,,64|70|73,,S1
+de:14612:593,33000593,S-Bahnhof Pieschen,Dresden,Dresden S-Bahnhof Pieschen,51.081512,13.726051,DB Regio AG Südost|DVB,7,,64|70|73,,S1
 de:14612:166,33000166,S-Bahnhof Plauen,Dresden,Dresden S-Bahnhof Plauen,51.029796,13.703153,DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn,8,,62|63|85,RB30|RE3,S3
 de:14612:907,33000907,S-Bahnhof Reick,Dresden,Dresden S-Bahnhof Reick,51.02127,13.79064,DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn,9,,64|65|87,RE19|RE20,S1|S2
-de:14612:622,33000622,S-Bahnhof Trachau,Dresden,Dresden S-Bahnhof Trachau,51.089937,13.703854,DB Regio AG Südost|DVB|VGM,4,,70|80,,S1
+de:14612:622,33000622,S-Bahnhof Trachau,Dresden,Dresden S-Bahnhof Trachau,51.089937,13.703854,DB Regio AG Südost|DVB|VGM,5,,70|80,,S1
 de:14612:212,33000212,S-Bahnhof Trachau West,Dresden,Dresden S-Bahnhof Trachau West,51.090214,13.702569,DVB,1,4,,,
 de:14612:25,33000025,S-Bf. Freiberger Straße,Dresden,Dresden S-Bf. Freiberger Straße,51.048617,13.720122,DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn|trilex - Die Länderbahn GmbH DLB,16,1|10|11|12|2|20|26|3|42|7|8,62,,S1|S2
 de:14612:267,33000267,S-Bf. Industriegelände,Dresden,Dresden S-Bf. Industriegelände,51.086992,13.763026,DB Regio AG Südost|DVB|trilex - Die Länderbahn GmbH DLB,9,7|8,,RB33|RB60|RB61|RE1,S2|S8
@@ -1175,7 +1175,7 @@ de:14628:3755,33003755,Markt,Dürrröhrsdorf-Dittersbach,Dürrröhrsdorf-Ditters
 de:14628:3752,33003752,Rathaus,Dürrröhrsdorf-Dittersbach,Dürrröhrsdorf-Dittersbach Rathaus,51.031999,13.997486,RVSOE,5,,,,
 de:14628:3753,33003753,Wendeplatz,Dürrröhrsdorf-Dittersbach,Dürrröhrsdorf-Dittersbach Wendeplatz,51.035282,13.991404,RVSOE,4,,,,
 de:14625:6422,33006422,Dürrwicknitz,Dürrwicknitz,Dürrwicknitz Dürrwicknitz,51.254197,14.183581,RBO|SchmidtSchwarz GmbH & CO. KG,4,,,,
-de:14628:3470,33003470,Ebenheit bei Pirna,Ebenheit (Struppen),Ebenheit (Struppen) Ebenheit bei Pirna,50.947736,13.981649,RVSOE,3,,,,
+de:14628:3470,33003470,Ebenheit bei Pirna,Ebenheit (Struppen),Ebenheit (Struppen) Ebenheit bei Pirna,50.947736,13.981649,DB Regio AG Südost|RVSOE,3,,,,
 de:14628:3471,33003471,Himmelreich,Ebenheit (Struppen),Ebenheit (Struppen) Himmelreich,50.938176,13.966476,RVSOE,2,,,,
 de:14627:5242,33005242,Mittelebersbach Erlenweg,Ebersbach (bei Großenhain),Ebersbach (bei Großenhain) Mittelebersbach Erlenweg,51.242496,13.660079,VGM,1,,,,
 de:14627:5246,33005246,Mittelebersbach Naunhofer Straße,Ebersbach (bei Großenhain),Ebersbach (bei Großenhain) Mittelebersbach Naunhofer Straße,51.233249,13.657833,VGM,1,,,,
@@ -1807,7 +1807,7 @@ de:14628:1637,33001637,Edle Krone Bahnhofstraße,Höckendorf b Dippol.,Höckendo
 de:14628:1631,33001631,Edle Krone Brücke,Höckendorf b Dippol.,Höckendorf b Dippol. Edle Krone Brücke,50.947153,13.58241,RVSOE,2,,,,
 de:14628:1629,33001629,Edle Krone Tharandter Straße,Höckendorf b Dippol.,Höckendorf b Dippol. Edle Krone Tharandter Straße,50.948132,13.583821,RVSOE,2,,,,
 de:14628:1639,33001639,Mitte,Höckendorf b Dippol.,Höckendorf b Dippol. Mitte,50.924916,13.588752,RVSOE,2,,,,
-de:14628:1635,33001635,Tharandter Straße,Höckendorf b Dippol.,Höckendorf b Dippol. Tharandter Straße,50.93012,13.585689,DB Regio AG Südost|RVSOE,2,,,,
+de:14628:1635,33001635,Tharandter Straße,Höckendorf b Dippol.,Höckendorf b Dippol. Tharandter Straße,50.93012,13.585689,DB Regio AG Südost|RVSOE,3,,,,
 de:14628:1632,33001632,Wendeplatz,Höckendorf b Dippol.,Höckendorf b Dippol. Wendeplatz,50.916048,13.588537,RVSOE,2,,,,
 de:14627:4884,33004884,Abzw Höfgen,Höfgen (Nossen),Höfgen (Nossen) Abzw Höfgen,51.125972,13.289586,VGM,5,,,,
 de:14627:4887,33004887,Höfgen,Höfgen (Nossen),Höfgen (Nossen) Höfgen,51.122409,13.291015,VGM,5,,,,
@@ -1940,7 +1940,7 @@ de:14627:4103,33004103,Wendeplatz,Kleinzadel,Kleinzadel Wendeplatz,51.195992,13.
 de:14627:4099,33004099,Wiesengrund,Kleinzadel,Kleinzadel Wiesengrund,51.212241,13.409134,VGM,4,,,,
 de:14627:4853,33004853,Klessig,Klessig,Klessig Klessig,51.108874,13.273623,VGM,7,,,,
 de:14628:1247,33001247,Abzweig Dorfhain,Klingenberg (Sachsen),Klingenberg (Sachsen) Abzweig Dorfhain,50.922023,13.520624,RVSOE,2,,,,
-de:14628:1243,33001243,Bahnhof,Klingenberg (Sachsen),Klingenberg (Sachsen) Bahnhof,50.925556,13.500547,DB Regio AG Südost|Mitteldeutsche Regiobahn|RVSOE,5,,,RB30,S3
+de:14628:1243,33001243,Bahnhof,Klingenberg (Sachsen),Klingenberg (Sachsen) Bahnhof,50.925556,13.500547,DB Regio AG Südost|Mitteldeutsche Regiobahn|RVSOE,6,,,RB30,S3
 de:14628:1246,33001246,Schule,Klingenberg (Sachsen),Klingenberg (Sachsen) Schule,50.923829,13.504895,RVSOE,3,,,,
 de:14628:1245,33001245,Zum Weißeritztal/Wendeplatz,Klingenberg (Sachsen),Klingenberg (Sachsen) Zum Weißeritztal/Wendeplatz,50.91871,13.533147,RVSOE,2,,,,
 de:14627:4732,33004732,Am Flachsgrund,Klipphausen,Klipphausen Am Flachsgrund,51.071545,13.519843,VGM,3,,,,
@@ -2036,7 +2036,7 @@ de:14628:3512,33003512,Fährstelle Halbestadt,Königstein (Sächsische Schweiz),
 de:14628:3502,33003502,Mittelweg,Königstein (Sächsische Schweiz),Königstein (Sächsische Schweiz) Mittelweg,50.923603,14.092635,RVSOE,2,,,,
 de:14628:3499,33003499,Nikolsdorf (Sächs. Schweiz),Königstein (Sächsische Schweiz),Königstein (Sächsische Schweiz) Nikolsdorf (Sächs. Schweiz),50.904907,14.034182,RVSOE,1,,,,
 de:14628:3505,33003505,Papierfabrik,Königstein (Sächsische Schweiz),Königstein (Sächsische Schweiz) Papierfabrik,50.908991,14.052948,RVSOE,1,,,,
-de:14628:3501,33003501,Reißigerplatz/Bahnhof,Königstein (Sächsische Schweiz),Königstein (Sächsische Schweiz) Reißigerplatz/Bahnhof,50.91914,14.073394,RVSOE,5,,,,
+de:14628:3501,33003501,Reißigerplatz/Bahnhof,Königstein (Sächsische Schweiz),Königstein (Sächsische Schweiz) Reißigerplatz/Bahnhof,50.91914,14.073394,DB Regio AG Südost|RVSOE,5,,,,
 de:14628:3506,33003506,Straße nach Cunnersdorf,Königstein (Sächsische Schweiz),Königstein (Sächsische Schweiz) Straße nach Cunnersdorf,50.902624,14.06114,RVSOE,1,,,,
 de:14625:7732,33007732,Bahnhof,Königswartha,Königswartha Bahnhof,51.310099,14.321131,RBO|SchmidtSchwarz GmbH & CO. KG,6,,,,
 de:14625:7730,33007730,Entenschenke,Königswartha,Königswartha Entenschenke,51.317336,14.308042,RBO,1,,,,
@@ -2373,7 +2373,7 @@ de:14627:4479,33004479,Mittelberg,Meißen,Meißen Mittelberg,51.153989,13.497699
 de:14627:4069,33004069,Nassauweg,Meißen,Meißen Nassauweg,51.177727,13.501113,VGM,2,,C (Meißen),,
 de:14627:4012,33004012,Neugasse,Meißen,Meißen Neugasse,51.161162,13.471352,VGM,14,,A (Meißen)|C (Meißen),,
 de:14627:4024,33004024,Neumarkt,Meißen,Meißen Neumarkt,51.158373,13.471037,VGM,7,,A (Meißen)|C (Meißen),,
-de:14627:4075,33004075,Niesnerstraße,Meißen,Meißen Niesnerstraße,51.154373,13.461731,VGM,3,,C (Meißen),,
+de:14627:4075,33004075,Niesnerstraße,Meißen,Meißen Niesnerstraße,51.154373,13.461731,VGM,4,,C (Meißen),,
 de:14627:4022,33004022,Nossener Straße,Meißen,Meißen Nossener Straße,51.159314,13.454778,VGM,1,,A (Meißen),,
 de:14627:4003,33004003,Oberspaarer Straße,Meißen,Meißen Oberspaarer Straße,51.149555,13.49354,VGM,2,,A (Meißen),,
 de:14627:4056,33004056,Porzellan-Manufaktur,Meißen,Meißen Porzellan-Manufaktur,51.157038,13.465486,VGM,5,,C (Meißen)|E (Meißen),,
@@ -2385,7 +2385,7 @@ de:14627:4023,33004023,Rothes Haus,Meißen,Meißen Rothes Haus,51.160919,13.4608
 de:14627:4089,33004089,Roßmarkt,Meißen,Meißen Roßmarkt,51.162136,13.47234,VGM,1,,E (Meißen),,
 de:14627:4000,33004000,S-Bahnhof,Meißen,Meißen S-Bahnhof,51.16315,13.481997,DB Regio AG Südost,1,,,,S1
 de:14627:4055,33004055,S-Bahnhof Altstadt,Meißen,Meißen S-Bahnhof Altstadt,51.159111,13.47313,DB Regio AG Südost|VGM,17,,A (Meißen)|C (Meißen)|E (Meißen),,S1
-de:14627:4079,33004079,S-Bahnhof Triebischtal,Meißen,Meißen S-Bahnhof Triebischtal,51.152288,13.462126,DB Regio AG Südost|VGM,3,,,,S1
+de:14627:4079,33004079,S-Bahnhof Triebischtal,Meißen,Meißen S-Bahnhof Triebischtal,51.152288,13.462126,DB Regio AG Südost|VGM,2,,,,S1
 de:14627:4076,33004076,Schützestraße,Meißen,Meißen Schützestraße,51.150265,13.458838,VGM,3,,C (Meißen),,
 de:14627:4051,33004051,Siedlerstraße,Meißen,Meißen Siedlerstraße,51.164232,13.453825,VGM,3,,B (Meißen),,
 de:14627:4006,33004006,Spaar Rote Gasse,Meißen,Meißen Spaar Rote Gasse,51.153764,13.493396,VGM,2,,A (Meißen)|B (Meißen),,
@@ -3099,7 +3099,7 @@ de:14625:7132,33007132,Schaudorf,Rammenau,Rammenau Schaudorf,51.153172,14.122837
 de:14628:3710,33003710,Bahnhof,Rathen Kurort,Rathen Kurort Bahnhof,50.956541,14.076026,DB Regio AG Südost,2,,,RE50,S1
 de:14628:3711,33003711,Fährstelle Niederrathen,Rathen Kurort,Rathen Kurort Fährstelle Niederrathen,50.957775,14.08058,RVSOE,1,,,,
 de:14628:3712,33003712,Fährstelle Oberrathen,Rathen Kurort,Rathen Kurort Fährstelle Oberrathen,50.956932,14.079376,RVSOE,1,,,,
-de:14628:3713,33003713,Parkplatz,Rathen Kurort,Rathen Kurort Parkplatz,50.956196,14.078765,,1,,,,
+de:14628:3713,33003713,Parkplatz,Rathen Kurort,Rathen Kurort Parkplatz,50.956196,14.078765,DB Regio AG Südost,1,,,,
 de:14628:3705,33003705,Bruno-Barthel-Weg,Rathewalde,Rathewalde Bruno-Barthel-Weg,50.979894,14.057511,RVSOE,4,,,,
 de:14628:3699,33003699,Hocksteinschänke,Rathewalde,Rathewalde Hocksteinschänke,50.984713,14.089375,RVSOE,2,,,,
 de:14628:3702,33003702,Ortsmitte,Rathewalde,Rathewalde Ortsmitte,50.983333,14.075567,RVSOE,1,,,,
@@ -3526,7 +3526,7 @@ de:14628:3720,33003720,Bahnhof,Stadt Wehlen,Stadt Wehlen Bahnhof,50.953944,14.03
 de:14628:3721,33003721,Fährstelle am Bahnhof,Stadt Wehlen,Stadt Wehlen Fährstelle am Bahnhof,50.955783,14.035125,RVSOE,1,,,,
 de:14628:3722,33003722,Fährstelle am Markt,Stadt Wehlen,Stadt Wehlen Fährstelle am Markt,50.956615,14.034236,RVSOE,1,,,,
 de:14628:3724,33003724,Heimatmuseum,Stadt Wehlen,Stadt Wehlen Heimatmuseum,50.959591,14.028954,RVSOE,2,,,,
-de:14628:3723,33003723,Karl-Marx-Platz,Stadt Wehlen,Stadt Wehlen Karl-Marx-Platz,50.956689,14.032628,RVSOE,2,,,,
+de:14628:3723,33003723,Karl-Marx-Platz,Stadt Wehlen,Stadt Wehlen Karl-Marx-Platz,50.956689,14.032628,RVSOE,3,,,,
 de:14628:3729,33003729,Schule,Stadt Wehlen,Stadt Wehlen Schule,50.957673,14.032376,RVSOE,2,,,,
 de:14628:3726,33003726,Sportlerheim,Stadt Wehlen,Stadt Wehlen Sportlerheim,50.959569,14.015749,RVSOE,2,,,,
 de:14627:4847,33004847,Stahna (SV),Stahna,Stahna Stahna (SV),51.120379,13.261343,VGM,3,,,,
@@ -3597,7 +3597,7 @@ de:14628:3475,33003475,Mitte,Struppen,Struppen Mitte,50.93509,14.010916,RVSOE,2,
 de:14628:3476,33003476,Post,Struppen,Struppen Post,50.933732,14.015255,RVSOE,2,,,,
 de:14628:3478,33003478,Siedlung,Struppen,Struppen Siedlung,50.919706,14.016925,RVSOE,2,,,,
 de:14628:3473,33003473,Sportplatz,Struppen,Struppen Sportplatz,50.93843,13.998097,RVSOE,2,,,,
-de:14628:3474,33003474,Südstraße,Struppen,Struppen Südstraße,50.936834,14.003181,RVSOE,3,,,,
+de:14628:3474,33003474,Südstraße,Struppen,Struppen Südstraße,50.936834,14.003181,DB Regio AG Südost|RVSOE,3,,,,
 de:14627:5497,33005497,Stölpchen,Stölpchen,Stölpchen Stölpchen,51.309144,13.784226,VGM,2,,,,
 de:14627:5962,33005962,Gasthaus,Stösitz,Stösitz Gasthaus,51.255917,13.236047,VGM,3,,,,
 de:14628:3769,33003769,Erbgericht,Stürza,Stürza Erbgericht,51.011222,14.064967,RVSOE,3,,,,
@@ -3729,7 +3729,7 @@ de:14627:4136,33004136,Brockwitzer Straße,Weinböhla,Weinböhla Brockwitzer Str
 de:14627:4149,33004149,Friedensstraße,Weinböhla,Weinböhla Friedensstraße,51.153696,13.579931,VGM,1,,,,
 de:14627:4139,33004139,Gellertstraße,Weinböhla,Weinböhla Gellertstraße,51.157122,13.56916,DVB,1,4,,,
 de:14627:4138,33004138,Grundschule,Weinböhla,Weinböhla Grundschule,51.151127,13.569403,VGM,1,,,,
-de:14627:4401,33004401,Haltepunkt,Weinböhla,Weinböhla Haltepunkt,51.158869,13.561713,DB AG|DB Regio AG Südost|VGM,8,,,RB31|RE15|RE18|RE50,
+de:14627:4401,33004401,Haltepunkt,Weinböhla,Weinböhla Haltepunkt,51.158869,13.561713,DB AG|DB Regio AG Südost|VGM,9,,,RB31|RE15|RE18|RE50,
 de:14627:4137,33004137,Kirchplatz,Weinböhla,Weinböhla Kirchplatz,51.161494,13.564507,VGM,4,,,,
 de:14627:4147,33004147,Köhlerstraße,Weinböhla,Weinböhla Köhlerstraße,51.152034,13.57446,DVB|VGM,2,4,,,
 de:14627:4148,33004148,Laubengasse,Weinböhla,Weinböhla Laubengasse,51.163854,13.588573,VGM,2,,,,

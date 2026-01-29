@@ -19639,9 +19639,12 @@
           ],
           "Anruflinientaxi": [
             "alita 77"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -29237,9 +29240,12 @@
           ],
           "S-Bahn": [
             "S1"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -29320,9 +29326,12 @@
           ],
           "S-Bahn": [
             "S2"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -29403,9 +29412,12 @@
           "Anruflinientaxi": [
             "alita 73",
             "alita 76"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -29525,9 +29537,12 @@
           ],
           "S-Bahn": [
             "S1"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -34497,6 +34512,7 @@
         "city": "Ebenheit (Struppen)",
         "name_with_city": "Ebenheit (Struppen) Ebenheit bei Pirna",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -52523,9 +52539,12 @@
           "Regionalbus": [
             "375",
             "382"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -56387,9 +56406,12 @@
           ],
           "S-Bahn": [
             "S3"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -59082,6 +59104,7 @@
         "city": "Königstein (Sächsische Schweiz)",
         "name_with_city": "Königstein (Sächsische Schweiz) Reißigerplatz/Bahnhof",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -68813,9 +68836,12 @@
           ],
           "Stadtbus": [
             "C (Meißen)"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -69184,12 +69210,9 @@
           ],
           "Regionalbus": [
             "Sv190"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -89785,7 +89808,9 @@
         "name": "Parkplatz",
         "city": "Rathen Kurort",
         "name_with_city": "Rathen Kurort Parkplatz",
-        "operators": [],
+        "operators": [
+          "DB Regio AG Südost"
+        ],
         "lines": {
           "Ersatzverkehr": [
             "SEV"
@@ -101979,9 +102004,12 @@
           "Regionalbus": [
             "238",
             "239"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -103976,6 +104004,7 @@
         "city": "Struppen",
         "name_with_city": "Struppen Südstraße",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -107678,9 +107707,12 @@
             "RE15",
             "RE18",
             "RE50"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 8
+        "total_lines": 9
       }
     },
     {

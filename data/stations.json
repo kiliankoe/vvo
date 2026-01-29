@@ -14204,9 +14204,12 @@
         ],
         "Anruflinientaxi": [
           "alita 77"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:613",
@@ -21210,9 +21213,12 @@
         ],
         "S-Bahn": [
           "S1"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14612:919",
@@ -21277,9 +21283,12 @@
         ],
         "S-Bahn": [
           "S2"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:98",
@@ -21344,9 +21353,12 @@
         "Anruflinientaxi": [
           "alita 73",
           "alita 76"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14612:166",
@@ -21442,9 +21454,12 @@
         ],
         "S-Bahn": [
           "S1"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:212",
@@ -25086,6 +25101,7 @@
       "longitude": 13.981649,
       "latitude": 50.947736,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -38056,9 +38072,12 @@
         "Regionalbus": [
           "375",
           "382"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:1632",
@@ -40856,9 +40875,12 @@
         ],
         "S-Bahn": [
           "S3"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14628:1246",
@@ -42783,6 +42805,7 @@
       "longitude": 14.073394,
       "latitude": 50.91914,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -49818,9 +49841,12 @@
         ],
         "Stadtbus": [
           "C (Meißen)"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14627:4022",
@@ -50093,12 +50119,9 @@
         ],
         "Regionalbus": [
           "Sv190"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4076",
@@ -64982,7 +65005,9 @@
       "name_with_city": "Rathen Kurort Parkplatz",
       "longitude": 14.078765,
       "latitude": 50.956196,
-      "operators": [],
+      "operators": [
+        "DB Regio AG Südost"
+      ],
       "lines": {
         "Ersatzverkehr": [
           "SEV"
@@ -73760,9 +73785,12 @@
         "Regionalbus": [
           "238",
           "239"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3729",
@@ -75189,6 +75217,7 @@
       "longitude": 14.003181,
       "latitude": 50.936834,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -77835,9 +77864,12 @@
           "RE15",
           "RE18",
           "RE50"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 8
+      "total_lines": 9
     },
     {
       "id": "de:14627:4137",
