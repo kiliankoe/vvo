@@ -1617,8 +1617,8 @@
       "name": "Carl-Behrens-Straße",
       "city": "Bannewitz",
       "name_with_city": "Bannewitz Carl-Behrens-Straße",
-      "longitude": 13.715999,
-      "latitude": 50.993014,
+      "longitude": 13.716035,
+      "latitude": 50.993064,
       "operators": [
         "RVSOE"
       ],
@@ -1739,8 +1739,8 @@
       "name": "Neues Leben",
       "city": "Bannewitz",
       "name_with_city": "Bannewitz Neues Leben",
-      "longitude": 13.710699,
-      "latitude": 50.99065,
+      "longitude": 13.711372,
+      "latitude": 50.990808,
       "operators": [
         "RVSOE"
       ],
@@ -1888,8 +1888,8 @@
       "name": "Wendeplatz",
       "city": "Bannewitz",
       "name_with_city": "Bannewitz Wendeplatz",
-      "longitude": 13.712468,
-      "latitude": 50.991849,
+      "longitude": 13.712477,
+      "latitude": 50.991753,
       "operators": [
         "RVSOE"
       ],
@@ -5688,14 +5688,18 @@
       "longitude": 13.838781,
       "latitude": 50.925652,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "201"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:1546",
@@ -6803,7 +6807,9 @@
           "423"
         ],
         "Zug": [
-          "RB31"
+          "RB31",
+          "RE15",
+          "RE18"
         ],
         "Anruflinientaxi": [
           "alita 68",
@@ -6813,7 +6819,7 @@
           "SEV"
         ]
       },
-      "total_lines": 10
+      "total_lines": 12
     },
     {
       "id": "de:14612:454",
@@ -9762,9 +9768,12 @@
         ],
         "Stadtbus": [
           "B (Heidenau)"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14628:3108",
@@ -15061,9 +15070,12 @@
       "lines": {
         "Stadtbus": [
           "80"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:30",
@@ -21283,12 +21295,9 @@
         ],
         "S-Bahn": [
           "S2"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14612:98",
@@ -25101,7 +25110,6 @@
       "longitude": 13.981649,
       "latitude": 50.947736,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -26289,8 +26297,8 @@
       "name": "Auenstraße",
       "city": "Freital",
       "name_with_city": "Freital Auenstraße",
-      "longitude": 13.667463,
-      "latitude": 51.012177,
+      "longitude": 13.667481,
+      "latitude": 51.012132,
       "operators": [
         "RVSOE"
       ],
@@ -26346,8 +26354,8 @@
       "name": "Birkigt Schule",
       "city": "Freital",
       "name_with_city": "Freital Birkigt Schule",
-      "longitude": 13.678431,
-      "latitude": 51.010685,
+      "longitude": 13.67844,
+      "latitude": 51.010725,
       "operators": [
         "RVSOE"
       ],
@@ -26364,8 +26372,8 @@
       "name": "Birkigt Zur Schicht",
       "city": "Freital",
       "name_with_city": "Freital Birkigt Zur Schicht",
-      "longitude": 13.67482,
-      "latitude": 51.007271,
+      "longitude": 13.674883,
+      "latitude": 51.007401,
       "operators": [
         "RVSOE"
       ],
@@ -26581,8 +26589,8 @@
       "name": "Döhlen Am Langen Rain",
       "city": "Freital",
       "name_with_city": "Freital Döhlen Am Langen Rain",
-      "longitude": 13.645256,
-      "latitude": 51.005745,
+      "longitude": 13.644906,
+      "latitude": 51.005756,
       "operators": [
         "RVSOE"
       ],
@@ -26662,8 +26670,8 @@
       "name": "Finkenmühlenstraße",
       "city": "Freital",
       "name_with_city": "Freital Finkenmühlenstraße",
-      "longitude": 13.676581,
-      "latitude": 51.0122,
+      "longitude": 13.676706,
+      "latitude": 51.012138,
       "operators": [
         "RVSOE"
       ],
@@ -26680,8 +26688,8 @@
       "name": "Gitterseer Straße",
       "city": "Freital",
       "name_with_city": "Freital Gitterseer Straße",
-      "longitude": 13.674029,
-      "latitude": 51.012929,
+      "longitude": 13.673805,
+      "latitude": 51.012997,
       "operators": [
         "RVSOE"
       ],
@@ -26766,8 +26774,8 @@
       "name": "Hüttenstraße",
       "city": "Freital",
       "name_with_city": "Freital Hüttenstraße",
-      "longitude": 13.648517,
-      "latitude": 51.003591,
+      "longitude": 13.648194,
+      "latitude": 51.003682,
       "operators": [
         "RVSOE"
       ],
@@ -27010,8 +27018,8 @@
       "name": "Lutherstraße",
       "city": "Freital",
       "name_with_city": "Freital Lutherstraße",
-      "longitude": 13.65061,
-      "latitude": 51.006802,
+      "longitude": 13.650619,
+      "latitude": 51.00683,
       "operators": [
         "RVSOE"
       ],
@@ -27273,8 +27281,8 @@
       "name": "Porzellanmanufaktur",
       "city": "Freital",
       "name_with_city": "Freital Porzellanmanufaktur",
-      "longitude": 13.656728,
-      "latitude": 51.011307,
+      "longitude": 13.656899,
+      "latitude": 51.011505,
       "operators": [
         "RVSOE"
       ],
@@ -27641,8 +27649,8 @@
       "name": "Schreberstraße",
       "city": "Freital",
       "name_with_city": "Freital Schreberstraße",
-      "longitude": 13.669556,
-      "latitude": 51.013127,
+      "longitude": 13.669547,
+      "latitude": 51.013098,
       "operators": [
         "RVSOE"
       ],
@@ -27779,11 +27787,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "161",
           "162"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:1178",
@@ -41904,9 +41911,12 @@
         ],
         "S-Bahn": [
           "S1"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 7
+      "total_lines": 8
     },
     {
       "id": "de:14628:3614",
@@ -42805,7 +42815,6 @@
       "longitude": 14.073394,
       "latitude": 50.91914,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -43031,9 +43040,12 @@
         ],
         "Zug": [
           "RB72"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3115",
@@ -49841,12 +49853,9 @@
         ],
         "Stadtbus": [
           "C (Meißen)"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14627:4022",
@@ -50119,9 +50128,12 @@
         ],
         "Regionalbus": [
           "Sv190"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:4076",
@@ -51868,9 +51880,12 @@
         ],
         "Zug": [
           "RB72"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3142",
@@ -59354,14 +59369,13 @@
           "237",
           "241",
           "245",
-          "246",
           "207a"
         ],
         "Stadtbus": [
           "Z (Pirna)"
         ]
       },
-      "total_lines": 11
+      "total_lines": 10
     },
     {
       "id": "de:14628:3382",
@@ -64634,11 +64648,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "403",
-          "405"
+          "403"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4367",
@@ -65005,9 +65018,7 @@
       "name_with_city": "Rathen Kurort Parkplatz",
       "longitude": 14.078765,
       "latitude": 50.956196,
-      "operators": [
-        "DB Regio AG Südost"
-      ],
+      "operators": [],
       "lines": {
         "Ersatzverkehr": [
           "SEV"
@@ -70531,9 +70542,12 @@
         ],
         "Zug": [
           "RB72"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:1951",
@@ -70544,15 +70558,19 @@
       "longitude": 13.8152,
       "latitude": 50.873983,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "201",
           "389"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:1952",
@@ -71477,9 +71495,12 @@
       "lines": {
         "Regionalbus": [
           "252"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3596",
@@ -75217,7 +75238,6 @@
       "longitude": 14.003181,
       "latitude": 50.936834,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -77695,15 +77715,19 @@
       "longitude": 13.862667,
       "latitude": 50.934394,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "201",
           "202"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3133",
@@ -77983,11 +78007,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411",
-          "Sv250"
+          "411"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4151",

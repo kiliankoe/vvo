@@ -36,7 +36,7 @@ Total stations: 3917
 - Straßenbahn: 269 stations
 - Anruflinientaxi: 196 stations
 - Zug: 105 stations
-- Ersatzverkehr: 92 stations
+- Ersatzverkehr: 101 stations
 - Taktbus: 75 stations
 - S-Bahn: 54 stations
 - Bus: 49 stations
@@ -54,7 +54,7 @@ Total stations: 3917
 - VGM: 1173 stations
 - DVB: 756 stations
 - RBO: 715 stations
-- DB Regio AG Südost: 117 stations
+- DB Regio AG Südost: 116 stations
 - VGH: 81 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 68 stations
@@ -133,6 +133,7 @@ Total stations: 3917
 - Kamenz Flugplatz: 13 lines
 - Nossen Markt: 13 lines
 - Nossen Talstraße: 13 lines
+- Cossebaude/Neu-Leuteritz Bahnhof: 12 lines
 - Coswig (Sachsen) Bahnhof: 12 lines
 - Dresden Amalie-Dietrich-Platz: 12 lines
 - Dresden Anton-/Leipziger Straße: 12 lines
@@ -155,11 +156,9 @@ Total stations: 3917
 - Glashütte (Sachsen) Bahnhof / Busbahnhof: 11 lines
 - Gompitz Gompitzer Höhe: 11 lines
 - Großenhain Hohe Straße: 11 lines
-- Pirna Robert-Koch-Straße: 11 lines
 - Pulsnitz Bahnhof: 11 lines
 - Altenberg (Erzgebirge) Bahnhof: 10 lines
 - Bischofswerda Schulstraße: 10 lines
-- Cossebaude/Neu-Leuteritz Bahnhof: 10 lines
 - Dresden Chamissostraße: 10 lines
 - Dresden Florastraße: 10 lines
 - Dresden Gret-Palucca-Straße: 10 lines
@@ -172,4 +171,5 @@ Total stations: 3917
 - Dresden Querallee: 10 lines
 - Dresden Zoo: 10 lines
 - Königswartha Kirchplatz: 10 lines
+- Pirna Robert-Koch-Straße: 10 lines
 - Sebnitz Bahnhof: 10 lines

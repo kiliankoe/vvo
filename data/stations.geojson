@@ -2236,8 +2236,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.715999,
-          50.993014
+          13.716035,
+          50.993064
         ]
       },
       "properties": {
@@ -2406,8 +2406,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.710699,
-          50.99065
+          13.711372,
+          50.990808
         ]
       },
       "properties": {
@@ -2611,8 +2611,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.712468,
-          50.991849
+          13.712477,
+          50.991753
         ]
       },
       "properties": {
@@ -7915,14 +7915,18 @@
         "city": "Burkhardswalde (Müglitztal)",
         "name_with_city": "Burkhardswalde (Müglitztal) Talstraße (Bf)",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "201"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -9478,7 +9482,9 @@
             "423"
           ],
           "Zug": [
-            "RB31"
+            "RB31",
+            "RE15",
+            "RE18"
           ],
           "Anruflinientaxi": [
             "alita 68",
@@ -9488,7 +9494,7 @@
             "SEV"
           ]
         },
-        "total_lines": 10
+        "total_lines": 12
       }
     },
     {
@@ -13613,9 +13619,12 @@
           ],
           "Stadtbus": [
             "B (Heidenau)"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -20840,9 +20849,12 @@
         "lines": {
           "Stadtbus": [
             "80"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -29326,12 +29338,9 @@
           ],
           "S-Bahn": [
             "S2"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -34512,7 +34521,6 @@
         "city": "Ebenheit (Struppen)",
         "name_with_city": "Ebenheit (Struppen) Ebenheit bei Pirna",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -36172,8 +36180,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.667463,
-          51.012177
+          13.667481,
+          51.012132
         ]
       },
       "properties": {
@@ -36253,8 +36261,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.678431,
-          51.010685
+          13.67844,
+          51.010725
         ]
       },
       "properties": {
@@ -36279,8 +36287,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.67482,
-          51.007271
+          13.674883,
+          51.007401
         ]
       },
       "properties": {
@@ -36576,8 +36584,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.645256,
-          51.005745
+          13.644906,
+          51.005756
         ]
       },
       "properties": {
@@ -36689,8 +36697,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.676581,
-          51.0122
+          13.676706,
+          51.012138
         ]
       },
       "properties": {
@@ -36715,8 +36723,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.674029,
-          51.012929
+          13.673805,
+          51.012997
         ]
       },
       "properties": {
@@ -36833,8 +36841,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.648517,
-          51.003591
+          13.648194,
+          51.003682
         ]
       },
       "properties": {
@@ -37173,8 +37181,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.65061,
-          51.006802
+          13.650619,
+          51.00683
         ]
       },
       "properties": {
@@ -37540,8 +37548,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.656728,
-          51.011307
+          13.656899,
+          51.011505
         ]
       },
       "properties": {
@@ -38020,8 +38028,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.669556,
-          51.013127
+          13.669547,
+          51.013098
         ]
       },
       "properties": {
@@ -38214,11 +38222,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "161",
             "162"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -57843,9 +57850,12 @@
           ],
           "S-Bahn": [
             "S1"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -59104,7 +59114,6 @@
         "city": "Königstein (Sächsische Schweiz)",
         "name_with_city": "Königstein (Sächsische Schweiz) Reißigerplatz/Bahnhof",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -59402,9 +59411,12 @@
           ],
           "Zug": [
             "RB72"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -68836,12 +68848,9 @@
           ],
           "Stadtbus": [
             "C (Meißen)"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -69210,9 +69219,12 @@
           ],
           "Regionalbus": [
             "Sv190"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -71615,9 +71627,12 @@
           ],
           "Zug": [
             "RB72"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -81965,14 +81980,13 @@
             "237",
             "241",
             "245",
-            "246",
             "207a"
           ],
           "Stadtbus": [
             "Z (Pirna)"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -89293,11 +89307,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "403",
-            "405"
+            "403"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -89808,9 +89821,7 @@
         "name": "Parkplatz",
         "city": "Rathen Kurort",
         "name_with_city": "Rathen Kurort Parkplatz",
-        "operators": [
-          "DB Regio AG Südost"
-        ],
+        "operators": [],
         "lines": {
           "Ersatzverkehr": [
             "SEV"
@@ -97462,9 +97473,12 @@
           ],
           "Zug": [
             "RB72"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -97483,15 +97497,19 @@
         "city": "Schlottwitz",
         "name_with_city": "Schlottwitz Neue Mittelstraße",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "201",
             "389"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -98784,9 +98802,12 @@
         "lines": {
           "Regionalbus": [
             "252"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -104004,7 +104025,6 @@
         "city": "Struppen",
         "name_with_city": "Struppen Südstraße",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -107474,15 +107494,19 @@
         "city": "Weesenstein",
         "name_with_city": "Weesenstein Gemeindeamt",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "201",
             "202"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -107874,11 +107898,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411",
-            "Sv250"
+            "411"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
