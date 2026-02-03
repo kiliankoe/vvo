@@ -15750,8 +15750,8 @@
       "name": "Heilbronner Straße",
       "city": "Dresden",
       "name_with_city": "Dresden Heilbronner Straße",
-      "longitude": 13.700898,
-      "latitude": 51.009673,
+      "longitude": 13.701257,
+      "latitude": 51.010012,
       "operators": [
         "RVSOE"
       ],
@@ -22750,8 +22750,8 @@
       "name": "Stuttgarter Straße",
       "city": "Dresden",
       "name_with_city": "Dresden Stuttgarter Straße",
-      "longitude": 13.698077,
-      "latitude": 51.00683,
+      "longitude": 13.698257,
+      "latitude": 51.006955,
       "operators": [
         "RVSOE"
       ],
@@ -57004,8 +57004,8 @@
       "name": "Radeburger Straße",
       "city": "Ottendorf-Okrilla",
       "name_with_city": "Ottendorf-Okrilla Radeburger Straße",
-      "longitude": 13.82977,
-      "latitude": 51.186388,
+      "longitude": 13.829932,
+      "latitude": 51.186466,
       "operators": [
         "RBO"
       ],
@@ -57047,8 +57047,8 @@
       "name": "Sandweg",
       "city": "Ottendorf-Okrilla",
       "name_with_city": "Ottendorf-Okrilla Sandweg",
-      "longitude": 13.818137,
-      "latitude": 51.1807,
+      "longitude": 13.81838,
+      "latitude": 51.180633,
       "operators": [
         "DVB",
         "RBO"
@@ -79818,8 +79818,8 @@
       "name": "Freiberger Straße",
       "city": "Wilsdruff",
       "name_with_city": "Wilsdruff Freiberger Straße",
-      "longitude": 13.543702,
-      "latitude": 51.039868,
+      "longitude": 13.543756,
+      "latitude": 51.039801,
       "operators": [
         "RVSOE"
       ],
