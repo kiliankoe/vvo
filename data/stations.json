@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3917,
+    "count": 3916,
     "format_version": "2.0"
   },
   "stations": [
@@ -27253,8 +27253,8 @@
       "name": "Niederhäslich Raschelberg",
       "city": "Freital",
       "name_with_city": "Freital Niederhäslich Raschelberg",
-      "longitude": 13.659827,
-      "latitude": 50.988467,
+      "longitude": 13.659953,
+      "latitude": 50.988021,
       "operators": [
         "RVSOE"
       ],
@@ -28106,8 +28106,8 @@
       "name": "Zur Hoffnung",
       "city": "Freital",
       "name_with_city": "Freital Zur Hoffnung",
-      "longitude": 13.660501,
-      "latitude": 50.991227,
+      "longitude": 13.660043,
+      "latitude": 50.991447,
       "operators": [
         "RVSOE"
       ],
@@ -30649,11 +30649,10 @@
           "500"
         ],
         "Regionalbus": [
-          "785",
-          "794"
+          "785"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:6965",
@@ -41253,24 +41252,6 @@
       "name_with_city": "Knappenrode Energiefabrik",
       "longitude": 14.325712,
       "latitude": 51.396338,
-      "operators": [
-        "RBO"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "794"
-        ]
-      },
-      "total_lines": 1
-    },
-    {
-      "id": "de:14625:8103",
-      "numeric_id": "33008103",
-      "name": "Zum Knappensee",
-      "city": "Knappenrode",
-      "name_with_city": "Knappenrode Zum Knappensee",
-      "longitude": 14.320996,
-      "latitude": 51.392532,
       "operators": [
         "RBO"
       ],
@@ -64682,6 +64663,7 @@
       "longitude": 13.730758,
       "latitude": 51.212039,
       "operators": [
+        "RBO",
         "VGM"
       ],
       "lines": {
@@ -64691,10 +64673,11 @@
           "478"
         ],
         "PlusBus": [
-          "477"
+          "477",
+          "522"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14627:4376",

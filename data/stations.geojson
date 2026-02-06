@@ -37456,8 +37456,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.659827,
-          50.988467
+          13.659953,
+          50.988021
         ]
       },
       "properties": {
@@ -38605,8 +38605,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.660501,
-          50.991227
+          13.660043,
+          50.991447
         ]
       },
       "properties": {
@@ -42164,11 +42164,10 @@
             "500"
           ],
           "Regionalbus": [
-            "785",
-            "794"
+            "785"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -56880,32 +56879,6 @@
         "name": "Energiefabrik",
         "city": "Knappenrode",
         "name_with_city": "Knappenrode Energiefabrik",
-        "operators": [
-          "RBO"
-        ],
-        "lines": {
-          "Regionalbus": [
-            "794"
-          ]
-        },
-        "total_lines": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.320996,
-          51.392532
-        ]
-      },
-      "properties": {
-        "id": "de:14625:8103",
-        "numeric_id": "33008103",
-        "name": "Zum Knappensee",
-        "city": "Knappenrode",
-        "name_with_city": "Knappenrode Zum Knappensee",
         "operators": [
           "RBO"
         ],
@@ -89301,6 +89274,7 @@
         "city": "Radeburg",
         "name_with_city": "Radeburg Friedhof",
         "operators": [
+          "RBO",
           "VGM"
         ],
         "lines": {
@@ -89310,10 +89284,11 @@
             "478"
           ],
           "PlusBus": [
-            "477"
+            "477",
+            "522"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
