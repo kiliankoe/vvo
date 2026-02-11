@@ -30,7 +30,7 @@ Total stations: 3916
 ## Stations by Transit Type
 
 - Regionalbus: 2709 stations
-- Stadtbus: 1272 stations
+- Stadtbus: 1274 stations
 - PlusBus: 646 stations
 - Anruflinienbus: 481 stations
 - Straßenbahn: 269 stations
@@ -80,8 +80,8 @@ Total stations: 3916
 - Meißen Busbahnhof: 33 lines
 - Riesa Busbahnhof / Bahnhof: 28 lines
 - Dresden Bahnhof Neustadt: 26 lines
+- Dresden Bahnhof Mitte: 24 lines
 - Kamenz Bahnhof: 24 lines
-- Dresden Bahnhof Mitte: 23 lines
 - Pirna ZOB / Bahnhof: 22 lines
 - Großenhain Cottbuser Bahnhof: 21 lines
 - Meißen Altstadtbrücke: 21 lines
@@ -118,6 +118,7 @@ Total stations: 3916
 - Dresden Großenhainer Platz: 14 lines
 - Dresden Kirschenstraße: 14 lines
 - Dresden Merianplatz: 14 lines
+- Dresden Prager Straße: 14 lines
 - Dresden Schlehenstraße: 14 lines
 - Heidenau (Sachsen) Bahnhof: 14 lines
 - Hoyerswerda Behördenpark: 14 lines
@@ -139,7 +140,6 @@ Total stations: 3916
 - Dresden Dahlienweg: 12 lines
 - Dresden Lennéplatz: 12 lines
 - Dresden Pirnaischer Platz: 12 lines
-- Dresden Prager Straße: 12 lines
 - Dresden Zeithainer Straße: 12 lines
 - Pirna Copitz Schulstraße: 12 lines
 - Pulsnitz Bahnhof: 12 lines
