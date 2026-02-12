@@ -56173,10 +56173,11 @@
         ],
         "lines": {
           "Regionalbus": [
+            "432",
             "433"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -87263,12 +87264,11 @@
             "4"
           ],
           "Regionalbus": [
-            "475",
             "Sv270",
             "Sv280"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -87295,12 +87295,11 @@
             "4"
           ],
           "Regionalbus": [
-            "475",
             "Sv270",
             "Sv280"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -87622,12 +87621,11 @@
             "4"
           ],
           "Regionalbus": [
-            "475",
             "Sv270",
             "Sv280"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -89040,21 +89038,17 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Zillerstraße",
         "operators": [
-          "DVB",
-          "VGM"
+          "DVB"
         ],
         "lines": {
           "Straßenbahn": [
             "4"
           ],
-          "Regionalbus": [
-            "475"
-          ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -105365,8 +105359,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.142222,
-          51.248687
+          14.142142,
+          51.246938
         ]
       },
       "properties": {

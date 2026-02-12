@@ -40738,10 +40738,11 @@
       ],
       "lines": {
         "Regionalbus": [
+          "432",
           "433"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:6782",
@@ -63228,12 +63229,11 @@
           "4"
         ],
         "Regionalbus": [
-          "475",
           "Sv270",
           "Sv280"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14627:4223",
@@ -63252,12 +63252,11 @@
           "4"
         ],
         "Regionalbus": [
-          "475",
           "Sv270",
           "Sv280"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14627:4262",
@@ -63483,12 +63482,11 @@
           "4"
         ],
         "Regionalbus": [
-          "475",
           "Sv270",
           "Sv280"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14627:4257",
@@ -64485,21 +64483,17 @@
       "longitude": 13.654006,
       "latitude": 51.105485,
       "operators": [
-        "DVB",
-        "VGM"
+        "DVB"
       ],
       "lines": {
         "Straßenbahn": [
           "4"
         ],
-        "Regionalbus": [
-          "475"
-        ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4216",
@@ -76242,8 +76236,8 @@
       "name": "Prietitzer Straße",
       "city": "Thonberg (Kamenz)",
       "name_with_city": "Thonberg (Kamenz) Prietitzer Straße",
-      "longitude": 14.142222,
-      "latitude": 51.248687,
+      "longitude": 14.142142,
+      "latitude": 51.246938,
       "operators": [
         "RBO"
       ],
