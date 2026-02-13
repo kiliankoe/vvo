@@ -52,7 +52,7 @@ de:14628:3250,33003250,Ortsteil Augustusberg,Bad Gottleuba,Bad Gottleuba Ortstei
 de:14628:3245,33003245,Schule,Bad Gottleuba,Bad Gottleuba Schule,50.84798,13.942841,RVSOE,4,,,,
 de:14628:3260,33003260,Grenzübergang Bahratal,Bad Gottleuba-Berggießhübel,Bad Gottleuba-Berggießhübel Grenzübergang Bahratal,50.815418,13.981729,RVSOE,4,,,,
 de:14628:3623,33003623,Botanischer Garten,Bad Schandau,Bad Schandau Botanischer Garten,50.925913,14.165686,RVSOE,2,Kirnitzschtalbahn,,,
-de:14628:3619,33003619,Elbbrücke,Bad Schandau,Bad Schandau Elbbrücke,50.922,14.1403,DB Regio AG Südost|RVSOE,9,,,,
+de:14628:3619,33003619,Elbbrücke,Bad Schandau,Bad Schandau Elbbrücke,50.922,14.1403,RVSOE,8,,,,
 de:14628:3621,33003621,Elbkai,Bad Schandau,Bad Schandau Elbkai,50.917758,14.149445,RVSOE,9,,,,
 de:14628:3629,33003629,Kiefricht,Bad Schandau,Bad Schandau Kiefricht,50.927804,14.16247,RVSOE,1,,,,
 de:14628:3622,33003622,Kurpark,Bad Schandau,Bad Schandau Kurpark,50.920913,14.157772,RVSOE,4,Kirnitzschtalbahn,,,
@@ -1002,14 +1002,14 @@ de:14612:313,33000313,Räcknitzhöhe,Dresden,Dresden Räcknitzhöhe,51.023536,13
 de:14612:636,33000636,Rähnitzer Allee,Dresden,Dresden Rähnitzer Allee,51.124805,13.743101,DVB,2,,78|80,,
 de:14612:254,33000254,Rückertstraße,Dresden,Dresden Rückertstraße,51.088357,13.725485,,0,,,,
 de:14612:707,33000707,Rüdesheimer Straße,Dresden,Dresden Rüdesheimer Straße,51.031706,13.685744,DVB,1,,62,,
-de:14612:247,33000247,S-Bahnhof Bischofsplatz,Dresden,Dresden S-Bahnhof Bischofsplatz,51.072053,13.746739,DB Regio AG Südost|DVB|VGM,6,13|7|8,,,S1
+de:14612:247,33000247,S-Bahnhof Bischofsplatz,Dresden,Dresden S-Bahnhof Bischofsplatz,51.072053,13.746739,DB Regio AG Südost|DVB|VGM,5,13|7|8,,,S1
 de:14612:919,33000919,S-Bahnhof Dobritz,Dresden,Dresden S-Bahnhof Dobritz,51.011635,13.808516,DB Regio AG Südost|DVB|RVSOE,15,1|10|12|2|6|9,162|65|86,RE19|RE20,S1|S2
 de:14612:662,33000662,S-Bahnhof Grenzstraße,Dresden,Dresden S-Bahnhof Grenzstraße,51.128244,13.777974,DB Regio AG Südost|DVB,3,,77|80,,S2
 de:14612:98,33000098,S-Bahnhof Niedersedlitz,Dresden,Dresden S-Bahnhof Niedersedlitz,50.999459,13.828818,DB Regio AG Südost|DVB,13,10|6,65|88|EV 4/6,RE19|RE20,S1|S2
-de:14612:593,33000593,S-Bahnhof Pieschen,Dresden,Dresden S-Bahnhof Pieschen,51.081512,13.726051,DB Regio AG Südost|DVB,7,,64|70|73,,S1
+de:14612:593,33000593,S-Bahnhof Pieschen,Dresden,Dresden S-Bahnhof Pieschen,51.081512,13.726051,DB Regio AG Südost|DVB,6,,64|70|73,,S1
 de:14612:166,33000166,S-Bahnhof Plauen,Dresden,Dresden S-Bahnhof Plauen,51.029796,13.703153,DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn,8,,62|63|85,RB30|RE3,S3
 de:14612:907,33000907,S-Bahnhof Reick,Dresden,Dresden S-Bahnhof Reick,51.02127,13.79064,DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn,9,,64|65|87,RE19|RE20,S1|S2
-de:14612:622,33000622,S-Bahnhof Trachau,Dresden,Dresden S-Bahnhof Trachau,51.089937,13.703854,DB Regio AG Südost|DVB|VGM,5,,70|80,,S1
+de:14612:622,33000622,S-Bahnhof Trachau,Dresden,Dresden S-Bahnhof Trachau,51.089937,13.703854,DB Regio AG Südost|DVB|VGM,4,,70|80,,S1
 de:14612:212,33000212,S-Bahnhof Trachau West,Dresden,Dresden S-Bahnhof Trachau West,51.090214,13.702569,DVB,1,4,,,
 de:14612:25,33000025,S-Bf. Freiberger Straße,Dresden,Dresden S-Bf. Freiberger Straße,51.048617,13.720122,DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn|trilex - Die Länderbahn GmbH DLB,16,1|10|11|12|2|20|3|4|42|7|8,62,,S1|S2
 de:14612:267,33000267,S-Bf. Industriegelände,Dresden,Dresden S-Bf. Industriegelände,51.086992,13.763026,DB Regio AG Südost|DVB|trilex - Die Länderbahn GmbH DLB,9,7|8,,RB33|RB60|RB61|RE1,S2|S8
@@ -1551,7 +1551,7 @@ de:14627:4129,33004129,Roitzschberg,Gröbern (Niederau bei Meißen),Gröbern (Ni
 de:14627:5708,33005708,Elbstraße,Grödel,Grödel Elbstraße,51.303702,13.371558,VGM,1,,,,
 de:14627:5786,33005786,Am Castello,Gröditz (bei Riesa),Gröditz (bei Riesa) Am Castello,51.40958,13.442749,VGM,4,,,,
 de:14627:5799,33005799,Am Kanal,Gröditz (bei Riesa),Gröditz (bei Riesa) Am Kanal,51.41232,13.45379,VGM,4,,,,
-de:14627:5809,33005809,Bahnhof,Gröditz (bei Riesa),Gröditz (bei Riesa) Bahnhof,51.411502,13.439875,Mitteldeutsche Regiobahn,1,,,RB45,
+de:14627:5809,33005809,Bahnhof,Gröditz (bei Riesa),Gröditz (bei Riesa) Bahnhof,51.411502,13.439875,Mitteldeutsche Regiobahn,2,,,RB45,
 de:14627:5800,33005800,Busbahnhof,Gröditz (bei Riesa),Gröditz (bei Riesa) Busbahnhof,51.412208,13.44257,VGM,6,,,,
 de:14627:5781,33005781,E.-Maurer-Straße,Gröditz (bei Riesa),Gröditz (bei Riesa) E.-Maurer-Straße,51.418595,13.457527,VGM,2,,,,
 de:14627:5793,33005793,Feldstraße,Gröditz (bei Riesa),Gröditz (bei Riesa) Feldstraße,51.409715,13.448822,VGM,3,,,,
@@ -3645,7 +3645,7 @@ de:14628:3486,33003486,Abzw Weißig,Thürmsdorf,Thürmsdorf Abzw Weißig,50.9352
 de:14628:3488,33003488,Gasthaus,Thürmsdorf,Thürmsdorf Gasthaus,50.932571,14.045725,RVSOE,2,,,,
 de:14628:3487,33003487,Mitte,Thürmsdorf,Thürmsdorf Mitte,50.935028,14.039527,RVSOE,2,,,,
 de:14628:3489,33003489,Vogelstein/Festung,Thürmsdorf,Thürmsdorf Vogelstein/Festung,50.926315,14.04754,RVSOE,2,,,,
-de:14627:5877,33005877,Bahnhof,Tiefenau (Wülknitz in Sachsen),Tiefenau (Wülknitz in Sachsen) Bahnhof,51.39136,13.414776,Mitteldeutsche Regiobahn|VGM,4,,,RB45,
+de:14627:5877,33005877,Bahnhof,Tiefenau (Wülknitz in Sachsen),Tiefenau (Wülknitz in Sachsen) Bahnhof,51.39136,13.414776,Mitteldeutsche Regiobahn|VGM,5,,,RB45,
 de:14627:5874,33005874,Fischergasse,Tiefenau (Wülknitz in Sachsen),Tiefenau (Wülknitz in Sachsen) Fischergasse,51.389841,13.406161,VGM,3,,,,
 de:14627:5875,33005875,Spansberger Weg,Tiefenau (Wülknitz in Sachsen),Tiefenau (Wülknitz in Sachsen) Spansberger Weg,51.39011,13.397483,VGM,3,,,,
 de:14625:6976,33006976,Wendeschleife,Tiegling,Tiegling Wendeschleife,51.431321,14.371374,RBO,2,,,,

@@ -1517,7 +1517,6 @@
         "city": "Bad Schandau",
         "name_with_city": "Bad Schandau Elbbrücke",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -1532,12 +1531,9 @@
           ],
           "PlusBus": [
             "260"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 9
+        "total_lines": 8
       }
     },
     {
@@ -29330,12 +29326,9 @@
           ],
           "S-Bahn": [
             "S1"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -29501,12 +29494,9 @@
           "Anruflinientaxi": [
             "alita 73",
             "alita 76"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
@@ -29626,12 +29616,9 @@
           ],
           "S-Bahn": [
             "S1"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -45408,9 +45395,12 @@
         "lines": {
           "Zug": [
             "RB45"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -105520,9 +105510,12 @@
           ],
           "Zug": [
             "RB45"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
