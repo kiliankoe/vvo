@@ -378,7 +378,7 @@ de:14627:4158,33004158,Steinbacher Weg,Coswig (Sachsen),Coswig (Sachsen) Steinba
 de:14627:4292,33004292,Steinstraße,Coswig (Sachsen),Coswig (Sachsen) Steinstraße,51.130516,13.597322,VGM,2,,,,
 de:14627:4179,33004179,Turbowerk,Coswig (Sachsen),Coswig (Sachsen) Turbowerk,51.113967,13.583659,VGM,2,,,,
 de:14627:4174,33004174,Wettinstraße,Coswig (Sachsen),Coswig (Sachsen) Wettinstraße,51.115112,13.575835,VGM,2,,,,
-de:14627:4160,33004160,Zentrum/ Börse,Coswig (Sachsen),Coswig (Sachsen) Zentrum/ Börse,51.127331,13.580389,DB Regio AG Südost|DVB|VGM,7,4,,,
+de:14627:4160,33004160,Zentrum/ Börse,Coswig (Sachsen),Coswig (Sachsen) Zentrum/ Börse,51.127331,13.580389,DB AG|DB Regio AG Südost|DVB|VGM,7,4,,,
 de:14627:4183,33004183,Ziegelweg,Coswig (Sachsen),Coswig (Sachsen) Ziegelweg,51.127511,13.557123,VGM,2,,,,
 de:14628:3302,33003302,Gasthaus,Cotta (Dohma),Cotta (Dohma) Gasthaus,50.902182,13.962056,RVSOE,1,,,,
 de:14628:3300,33003300,Heidekrug,Cotta (Dohma),Cotta (Dohma) Heidekrug,50.898193,13.945842,RVSOE,2,,,,
@@ -1290,7 +1290,7 @@ de:14628:1124,33001124,Reiboldschachtring,Freital,Freital Reiboldschachtring,51.
 de:14628:1192,33001192,Rudeltstraße,Freital,Freital Rudeltstraße,50.989525,13.665127,RVSOE,2,,162,,
 de:14628:1167,33001167,S-Bahnhof Hainsberg,Freital,Freital S-Bahnhof Hainsberg,50.988445,13.637944,DB Regio AG Südost|Mitteldeutsche Regiobahn|RVSOE|SDG,11,,160|161,RB30|RE3,S3
 de:14628:1102,33001102,S-Bahnhof Potschappel,Freital,Freital S-Bahnhof Potschappel,51.013019,13.662306,DB Regio AG Südost|Mitteldeutsche Regiobahn|RVSOE,7,,160|161|164,RB30|RE3,S3
-de:14628:1162,33001162,S-Bf. / Busbf. Deuben,Freital,Freital S-Bf. / Busbf. Deuben,50.999057,13.647071,DB Regio AG Südost|Mitteldeutsche Regiobahn|RVSOE,15,,160|161|162|164|166,RB30|RE3,S3
+de:14628:1162,33001162,S-Bf. / Busbf. Deuben,Freital,Freital S-Bf. / Busbf. Deuben,50.999057,13.647071,DB Regio AG Südost|Mitteldeutsche Regiobahn|RVSOE,16,,160|161|162|164|166,RB30|RE3,S3
 de:14628:1176,33001176,S-Bf. Hainsberg West,Freital,Freital S-Bf. Hainsberg West,50.981189,13.621757,DB Regio AG Südost|Mitteldeutsche Regiobahn|RVSOE,7,,,RB30|RE3,S3
 de:14628:1143,33001143,Saalhausen Wendeplatz,Freital,Freital Saalhausen Wendeplatz,51.011798,13.617651,RVSOE,1,,161,,
 de:14628:1114,33001114,Saalhausener Straße,Freital,Freital Saalhausener Straße,51.018213,13.639588,RVSOE,4,,161|162,,
@@ -1802,7 +1802,7 @@ de:14625:6081,33006081,Kirche,Höckendorf (Laußnitz in Sachsen),Höckendorf (La
 de:14625:6080,33006080,Wendeplatz,Höckendorf (Laußnitz in Sachsen),Höckendorf (Laußnitz in Sachsen) Wendeplatz,51.224187,13.907151,RBO,1,,,,
 de:14628:1636,33001636,Abzw Borlas,Höckendorf b Dippol.,Höckendorf b Dippol. Abzw Borlas,50.936664,13.586363,RVSOE,2,,,,
 de:14628:1633,33001633,Dippoldiswalder Straße,Höckendorf b Dippol.,Höckendorf b Dippol. Dippoldiswalder Straße,50.920499,13.589696,RVSOE,2,,,,
-de:14628:1630,33001630,Edle Krone Bahnhof,Höckendorf b Dippol.,Höckendorf b Dippol. Edle Krone Bahnhof,50.949869,13.583722,DB Regio AG Südost|Mitteldeutsche Regiobahn|RVSOE,5,,,RB30,S3
+de:14628:1630,33001630,Edle Krone Bahnhof,Höckendorf b Dippol.,Höckendorf b Dippol. Edle Krone Bahnhof,50.949869,13.583722,DB Regio AG Südost|Mitteldeutsche Regiobahn|RVSOE,6,,,RB30,S3
 de:14628:1637,33001637,Edle Krone Bahnhofstraße,Höckendorf b Dippol.,Höckendorf b Dippol. Edle Krone Bahnhofstraße,50.947294,13.583893,RVSOE,2,,,,
 de:14628:1631,33001631,Edle Krone Brücke,Höckendorf b Dippol.,Höckendorf b Dippol. Edle Krone Brücke,50.947153,13.58241,RVSOE,2,,,,
 de:14628:1629,33001629,Edle Krone Tharandter Straße,Höckendorf b Dippol.,Höckendorf b Dippol. Edle Krone Tharandter Straße,50.948132,13.583821,RVSOE,2,,,,
@@ -2048,7 +2048,7 @@ de:14628:3113,33003113,Haltepunkt,Köttewitz,Köttewitz Haltepunkt,50.945025,13.
 de:14628:3115,33003115,Steinbank,Köttewitz,Köttewitz Steinbank,50.939659,13.873222,RVSOE,1,,,,
 de:14627:4744,33004744,Lampersdorf,Lampersdorf (Klipphausen),Lampersdorf (Klipphausen) Lampersdorf,51.077878,13.486057,VGM,2,,,,
 de:14627:5443,33005443,Abzw Mühlbach,Lampertswalde (bei Großenhain),Lampertswalde (bei Großenhain) Abzw Mühlbach,51.303719,13.670418,VGM,2,,,,
-de:14627:5440,33005440,Bahnhof,Lampertswalde (bei Großenhain),Lampertswalde (bei Großenhain) Bahnhof,51.30856,13.680066,DB AG|VGM,4,,,RE15|RE18,
+de:14627:5440,33005440,Bahnhof,Lampertswalde (bei Großenhain),Lampertswalde (bei Großenhain) Bahnhof,51.30856,13.680066,DB AG|VGM,5,,,RE15|RE18,
 de:14627:5442,33005442,Friedensstraße,Lampertswalde (bei Großenhain),Lampertswalde (bei Großenhain) Friedensstraße,51.304691,13.680515,VGM,2,,,,
 de:14627:5445,33005445,Gewerbegebiet,Lampertswalde (bei Großenhain),Lampertswalde (bei Großenhain) Gewerbegebiet,51.305477,13.670858,VGM,2,,,,
 de:14627:5441,33005441,Großenhainer Straße,Lampertswalde (bei Großenhain),Lampertswalde (bei Großenhain) Großenhainer Straße,51.31522,13.673266,VGM,3,,,,
@@ -2212,7 +2212,7 @@ de:14628:3703,33003703,Zum Steinernen Tisch,Lohmen (Sachsen),Lohmen (Sachsen) Zu
 de:14625:6987,33006987,Bahnhof,Lohsa,Lohsa Bahnhof,51.373896,14.404557,Ostdeutsche Eisenbahn GmbH|RBO,4,,,RB64,
 de:14625:6988,33006988,Schule,Lohsa,Lohsa Schule,51.386169,14.404135,RBO,4,,,,
 de:14625:6991,33006991,Siedlung,Lohsa,Lohsa Siedlung,51.39525,14.397613,RBO,3,,,,
-de:14625:6989,33006989,Sparkasse,Lohsa,Lohsa Sparkasse,51.386108,14.405842,RBO,2,,,,
+de:14625:6989,33006989,Sparkasse,Lohsa,Lohsa Sparkasse,51.386108,14.405842,RBO,3,,,,
 de:14625:6990,33006990,Ziegelteich,Lohsa,Lohsa Ziegelteich,51.384874,14.406857,RBO,3,,,,
 de:14628:3679,33003679,Am Mühlweg,Lohsdorf (Hohnstein),Lohsdorf (Hohnstein) Am Mühlweg,50.97219,14.175397,RVSOE,1,,,,
 de:14628:3678,33003678,Ehemaliger Bahnhof,Lohsdorf (Hohnstein),Lohsdorf (Hohnstein) Ehemaliger Bahnhof,50.971591,14.180679,RVSOE,3,,,,
@@ -2372,7 +2372,7 @@ de:14627:4479,33004479,Mittelberg,Meißen,Meißen Mittelberg,51.153989,13.497699
 de:14627:4069,33004069,Nassauweg,Meißen,Meißen Nassauweg,51.177727,13.501113,VGM,2,,C (Meißen),,
 de:14627:4012,33004012,Neugasse,Meißen,Meißen Neugasse,51.161162,13.471352,VGM,14,,A (Meißen)|C (Meißen),,
 de:14627:4024,33004024,Neumarkt,Meißen,Meißen Neumarkt,51.158373,13.471037,VGM,7,,A (Meißen)|C (Meißen),,
-de:14627:4075,33004075,Niesnerstraße,Meißen,Meißen Niesnerstraße,51.154373,13.461731,VGM,4,,C (Meißen),,
+de:14627:4075,33004075,Niesnerstraße,Meißen,Meißen Niesnerstraße,51.154373,13.461731,VGM,3,,C (Meißen),,
 de:14627:4022,33004022,Nossener Straße,Meißen,Meißen Nossener Straße,51.159314,13.454778,VGM,1,,A (Meißen),,
 de:14627:4003,33004003,Oberspaarer Straße,Meißen,Meißen Oberspaarer Straße,51.149555,13.49354,VGM,2,,A (Meißen),,
 de:14627:4056,33004056,Porzellan-Manufaktur,Meißen,Meißen Porzellan-Manufaktur,51.157038,13.465486,VGM,5,,C (Meißen)|E (Meißen),,
@@ -2384,7 +2384,7 @@ de:14627:4023,33004023,Rothes Haus,Meißen,Meißen Rothes Haus,51.160919,13.4608
 de:14627:4089,33004089,Roßmarkt,Meißen,Meißen Roßmarkt,51.162136,13.47234,VGM,1,,E (Meißen),,
 de:14627:4000,33004000,S-Bahnhof,Meißen,Meißen S-Bahnhof,51.16315,13.481997,DB Regio AG Südost,1,,,,S1
 de:14627:4055,33004055,S-Bahnhof Altstadt,Meißen,Meißen S-Bahnhof Altstadt,51.159111,13.47313,DB Regio AG Südost|VGM,17,,A (Meißen)|C (Meißen)|E (Meißen),,S1
-de:14627:4079,33004079,S-Bahnhof Triebischtal,Meißen,Meißen S-Bahnhof Triebischtal,51.152288,13.462126,DB Regio AG Südost|VGM,2,,,,S1
+de:14627:4079,33004079,S-Bahnhof Triebischtal,Meißen,Meißen S-Bahnhof Triebischtal,51.152288,13.462126,DB Regio AG Südost|VGM,3,,,,S1
 de:14627:4076,33004076,Schützestraße,Meißen,Meißen Schützestraße,51.150265,13.458838,VGM,3,,C (Meißen),,
 de:14627:4051,33004051,Siedlerstraße,Meißen,Meißen Siedlerstraße,51.164232,13.453825,VGM,3,,B (Meißen),,
 de:14627:4006,33004006,Spaar Rote Gasse,Meißen,Meißen Spaar Rote Gasse,51.153764,13.493396,VGM,2,,A (Meißen)|B (Meißen),,
@@ -3080,7 +3080,7 @@ de:14627:4376,33004376,Gartenstraße,Radeburg,Radeburg Gartenstraße,51.20658,13
 de:14627:4379,33004379,Gewerbestraße,Radeburg,Radeburg Gewerbestraße,51.205668,13.735142,VGM,1,,,,
 de:14627:4377,33004377,Großenhainer Platz,Radeburg,Radeburg Großenhainer Platz,51.216653,13.721577,RBO|VGM,5,,,,
 de:14627:4378,33004378,Grundschule,Radeburg,Radeburg Grundschule,51.214588,13.716313,RBO|VGM,4,,,,
-de:14627:4375,33004375,Kiebitzweg,Radeburg,Radeburg Kiebitzweg,51.216085,13.713124,VGM,2,,,,
+de:14627:4375,33004375,Kiebitzweg,Radeburg,Radeburg Kiebitzweg,51.216085,13.713124,VGM,1,,,,
 de:14627:4367,33004367,Meißner Berg,Radeburg,Radeburg Meißner Berg,51.21357,13.715388,VGM,4,,,,
 de:14627:4368,33004368,Rathaus,Radeburg,Radeburg Rathaus,51.21492,13.725557,RBO|VGM,5,,,,
 de:14627:4389,33004389,Riesstraße,Radeburg,Radeburg Riesstraße,51.201008,13.731108,VGM,1,,,,
@@ -3638,7 +3638,7 @@ de:14628:1203,33001203,Talmühlenstraße,Tharandt,Tharandt Talmühlenstraße,50.
 de:14628:1201,33001201,Ärztehaus,Tharandt,Tharandt Ärztehaus,50.985255,13.580272,RVSOE,5,,,,
 de:14627:5481,33005481,Autobahn,Thiendorf,Thiendorf Autobahn,51.294811,13.729833,VGM,2,,,,
 de:14627:5480,33005480,Welxander Straße,Thiendorf,Thiendorf Welxander Straße,51.293716,13.740729,VGM,1,,,,
-de:14627:5482,33005482,Zur Brüdergemeinde,Thiendorf,Thiendorf Zur Brüdergemeinde,51.294867,13.739939,VGM,1,,,,
+de:14627:5482,33005482,Zur Brüdergemeinde,Thiendorf,Thiendorf Zur Brüdergemeinde,51.294867,13.739939,VGM,2,,,,
 de:14625:6246,33006246,Gasthof,Thonberg (Kamenz),Thonberg (Kamenz) Gasthof,51.253022,14.140013,RBO,3,,,,
 de:14625:6247,33006247,Prietitzer Straße,Thonberg (Kamenz),Thonberg (Kamenz) Prietitzer Straße,51.246938,14.142142,RBO,2,,,,
 de:14628:3486,33003486,Abzw Weißig,Thürmsdorf,Thürmsdorf Abzw Weißig,50.935209,14.028091,RVSOE,2,,,,

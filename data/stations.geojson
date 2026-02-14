@@ -10758,6 +10758,7 @@
         "city": "Coswig (Sachsen)",
         "name_with_city": "Coswig (Sachsen) Zentrum/ Börse",
         "operators": [
+          "DB AG",
           "DB Regio AG Südost",
           "DVB",
           "VGM"
@@ -37920,9 +37921,12 @@
           ],
           "S-Bahn": [
             "S3"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 15
+        "total_lines": 16
       }
     },
     {
@@ -52504,9 +52508,12 @@
           ],
           "S-Bahn": [
             "S3"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -59603,9 +59610,12 @@
           "Zug": [
             "RE15",
             "RE18"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -64194,10 +64204,11 @@
         "lines": {
           "Regionalbus": [
             "775",
-            "776"
+            "776",
+            "777"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -68923,12 +68934,9 @@
           ],
           "Stadtbus": [
             "C (Meißen)"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -69297,9 +69305,12 @@
           ],
           "Regionalbus": [
             "Sv190"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -89383,11 +89394,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "403",
-            "405"
+            "403"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -105306,10 +105316,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "455"
+            "455",
+            "456"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
