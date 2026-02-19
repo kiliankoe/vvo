@@ -226,7 +226,8 @@
             "368",
             "370",
             "373",
-            "374"
+            "374",
+            "SEV RB 72"
           ],
           "Zug": [
             "RB72",
@@ -236,7 +237,7 @@
             "SEV"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -7911,15 +7912,12 @@
         "city": "Burkhardswalde (Müglitztal)",
         "name_with_city": "Burkhardswalde (Müglitztal) Talstraße (Bf)",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
-            "201"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
+            "201",
+            "SEV RB 72"
           ]
         },
         "total_lines": 2
@@ -8108,13 +8106,11 @@
         "lines": {
           "Regionalbus": [
             "368",
-            "369"
+            "369",
+            "SEV RB 72"
           ],
           "Zug": [
             "RB72"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
         "total_lines": 4
@@ -8141,13 +8137,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "368"
+            "368",
+            "SEV RB 72"
           ],
           "Zug": [
             "RB72"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
         "total_lines": 3
@@ -13609,16 +13603,14 @@
           "Regionalbus": [
             "201",
             "202",
-            "372"
+            "372",
+            "SEV RB 72"
           ],
           "Zug": [
             "RB72"
           ],
           "Stadtbus": [
             "B (Heidenau)"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
         "total_lines": 6
@@ -14712,7 +14704,7 @@
           ],
           "Stadtbus": [
             "65",
-            "EV 4/6"
+            "EV 6"
           ],
           "Anruflinientaxi": [
             "alita 65"
@@ -15092,7 +15084,7 @@
             "9"
           ],
           "Stadtbus": [
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 5
@@ -16258,7 +16250,7 @@
             "62",
             "64",
             "EV 12",
-            "EV 4/6"
+            "EV 6"
           ],
           "PlusBus": [
             "520"
@@ -16831,7 +16823,7 @@
             "63",
             "65",
             "EV 12",
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 5
@@ -16925,7 +16917,7 @@
           ],
           "Stadtbus": [
             "65",
-            "EV 4/6"
+            "EV 6"
           ],
           "Anruflinientaxi": [
             "alita 65"
@@ -17153,7 +17145,7 @@
             "62",
             "64",
             "EV 12",
-            "EV 4/6"
+            "EV 6"
           ],
           "PlusBus": [
             "520"
@@ -18977,7 +18969,7 @@
             "8"
           ],
           "Stadtbus": [
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 5
@@ -19212,7 +19204,7 @@
             "65",
             "85",
             "EV 12",
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 6
@@ -20052,7 +20044,7 @@
           ],
           "Stadtbus": [
             "86",
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 6
@@ -20333,7 +20325,7 @@
           "Stadtbus": [
             "65",
             "88",
-            "EV 4/6"
+            "EV 6"
           ],
           "Anruflinientaxi": [
             "alita 65",
@@ -20398,7 +20390,7 @@
             "62",
             "64",
             "EV 12",
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 7
@@ -20612,7 +20604,7 @@
         "lines": {
           "Stadtbus": [
             "62",
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 2
@@ -21056,7 +21048,7 @@
           ],
           "Stadtbus": [
             "86",
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 6
@@ -21178,7 +21170,7 @@
             "6"
           ],
           "Stadtbus": [
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 3
@@ -21333,7 +21325,7 @@
         "operators": [],
         "lines": {
           "Stadtbus": [
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 1
@@ -22174,14 +22166,11 @@
           "RBO"
         ],
         "lines": {
-          "Stadtbus": [
-            "84"
-          ],
           "PlusBus": [
             "521"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -22245,7 +22234,7 @@
           ],
           "Stadtbus": [
             "86",
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 6
@@ -22991,7 +22980,7 @@
             "63",
             "65",
             "EV 12",
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 5
@@ -23054,7 +23043,7 @@
           "Stadtbus": [
             "87",
             "EV 12",
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 7
@@ -23317,7 +23306,7 @@
           ],
           "Stadtbus": [
             "EV 12",
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 4
@@ -24681,7 +24670,7 @@
           "Stadtbus": [
             "62",
             "EV 12",
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 5
@@ -24781,7 +24770,7 @@
           ],
           "Stadtbus": [
             "86",
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 6
@@ -24935,7 +24924,7 @@
           "Stadtbus": [
             "62",
             "EV 12",
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 5
@@ -25035,7 +25024,7 @@
           ],
           "Stadtbus": [
             "86",
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 6
@@ -26990,7 +26979,7 @@
             "65",
             "85",
             "EV 12",
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 4
@@ -27020,7 +27009,7 @@
             "63",
             "65",
             "EV 12",
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 5
@@ -27157,8 +27146,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.820814,
-          51.0541
+          13.819979,
+          51.054411
         ]
       },
       "properties": {
@@ -27193,8 +27182,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.818613,
-          51.05838
+          13.81882,
+          51.05851
         ]
       },
       "properties": {
@@ -27356,7 +27345,7 @@
           "Stadtbus": [
             "65",
             "EV 12",
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 3
@@ -27589,7 +27578,7 @@
             "6"
           ],
           "Stadtbus": [
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 3
@@ -28169,7 +28158,7 @@
             "62",
             "63",
             "EV 12",
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 7
@@ -29492,7 +29481,7 @@
           "Stadtbus": [
             "65",
             "88",
-            "EV 4/6"
+            "EV 6"
           ],
           "Zug": [
             "RE19",
@@ -30229,7 +30218,7 @@
             "65",
             "84",
             "EV 12",
-            "EV 4/6"
+            "EV 6"
           ],
           "PlusBus": [
             "521"
@@ -31293,7 +31282,7 @@
             "6"
           ],
           "Stadtbus": [
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 3
@@ -31359,7 +31348,7 @@
           ],
           "Stadtbus": [
             "EV 12",
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 6
@@ -31942,7 +31931,7 @@
           "Stadtbus": [
             "87",
             "EV 12",
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 7
@@ -32147,7 +32136,7 @@
           ],
           "Stadtbus": [
             "EV 12",
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 4
@@ -32722,7 +32711,7 @@
             "9"
           ],
           "Stadtbus": [
-            "EV 4/6"
+            "EV 6"
           ]
         },
         "total_lines": 5
@@ -37984,12 +37973,9 @@
           ],
           "S-Bahn": [
             "S3"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 16
+        "total_lines": 15
       }
     },
     {
@@ -39898,7 +39884,8 @@
           "Regionalbus": [
             "367",
             "368",
-            "385"
+            "385",
+            "SEV RB 72"
           ],
           "Zug": [
             "RB72",
@@ -39908,7 +39895,7 @@
             "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -39932,7 +39919,8 @@
         ],
         "lines": {
           "Regionalbus": [
-            "385"
+            "385",
+            "SEV RB 72"
           ],
           "Zug": [
             "RB72",
@@ -39942,7 +39930,7 @@
             "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -40563,7 +40551,8 @@
             "372",
             "385",
             "386",
-            "389"
+            "389",
+            "SEV RB 72"
           ],
           "PlusBus": [
             "388"
@@ -40576,7 +40565,7 @@
             "SEV"
           ]
         },
-        "total_lines": 11
+        "total_lines": 12
       }
     },
     {
@@ -47286,7 +47275,8 @@
           "Regionalbus": [
             "201",
             "202",
-            "372"
+            "372",
+            "SEV RB 72"
           ],
           "Zug": [
             "RB72",
@@ -47301,7 +47291,7 @@
             "SEV"
           ]
         },
-        "total_lines": 14
+        "total_lines": 15
       }
     },
     {
@@ -59552,13 +59542,11 @@
         "lines": {
           "Regionalbus": [
             "201",
-            "202"
+            "202",
+            "SEV RB 72"
           ],
           "Zug": [
             "RB72"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
         "total_lines": 4
@@ -61052,7 +61040,8 @@
         "lines": {
           "Regionalbus": [
             "368",
-            "385"
+            "385",
+            "SEV RB 72"
           ],
           "Zug": [
             "RB72",
@@ -61062,7 +61051,7 @@
             "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -68997,9 +68986,12 @@
           ],
           "Stadtbus": [
             "C (Meißen)"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -69368,12 +69360,9 @@
           ],
           "Regionalbus": [
             "Sv190"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -71772,13 +71761,11 @@
           "Regionalbus": [
             "201",
             "202",
-            "372"
+            "372",
+            "SEV RB 72"
           ],
           "Zug": [
             "RB72"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
         "total_lines": 5
@@ -74061,12 +74048,9 @@
           ],
           "S-Bahn": [
             "S1"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -97620,13 +97604,11 @@
         "lines": {
           "Regionalbus": [
             "201",
-            "372"
+            "372",
+            "SEV RB 72"
           ],
           "Zug": [
             "RB72"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
         "total_lines": 4
@@ -97648,16 +97630,13 @@
         "city": "Schlottwitz",
         "name_with_city": "Schlottwitz Neue Mittelstraße",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "201",
-            "389"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
+            "389",
+            "SEV RB 72"
           ]
         },
         "total_lines": 3
@@ -107652,16 +107631,13 @@
         "city": "Weesenstein",
         "name_with_city": "Weesenstein Gemeindeamt",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "201",
-            "202"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
+            "202",
+            "SEV RB 72"
           ]
         },
         "total_lines": 3

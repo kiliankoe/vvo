@@ -30,13 +30,13 @@ Total stations: 3916
 ## Stations by Transit Type
 
 - Regionalbus: 2708 stations
-- Stadtbus: 1278 stations
+- Stadtbus: 1277 stations
 - PlusBus: 646 stations
 - Anruflinienbus: 481 stations
 - Straßenbahn: 269 stations
 - Anruflinientaxi: 196 stations
-- Ersatzverkehr: 107 stations
 - Zug: 105 stations
+- Ersatzverkehr: 96 stations
 - Taktbus: 75 stations
 - S-Bahn: 54 stations
 - Bus: 49 stations
@@ -54,7 +54,7 @@ Total stations: 3916
 - VGM: 1172 stations
 - DVB: 756 stations
 - RBO: 715 stations
-- DB Regio AG Südost: 115 stations
+- DB Regio AG Südost: 112 stations
 - VGH: 81 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 68 stations
@@ -102,7 +102,6 @@ Total stations: 3916
 - Riesa Friedrich-Engels-Straße: 17 lines
 - Dresden Postplatz: 16 lines
 - Dresden S-Bf. Freiberger Straße: 16 lines
-- Freital S-Bf. / Busbf. Deuben: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
 - Kamenz Macherstraße: 16 lines
 - Riesa Sachsenhof: 16 lines
@@ -113,6 +112,8 @@ Total stations: 3916
 - Dresden S-Bahnhof Dobritz: 15 lines
 - Dresden Schlehenstraße: 15 lines
 - Dresden Walpurgisstraße: 15 lines
+- Freital S-Bf. / Busbf. Deuben: 15 lines
+- Heidenau (Sachsen) Bahnhof: 15 lines
 - Kamenz Schwimmhalle: 15 lines
 - Meißen Uferstraße: 15 lines
 - Pirna Breite Straße: 15 lines
@@ -121,7 +122,6 @@ Total stations: 3916
 - Dippoldiswalde Busbahnhof: 14 lines
 - Dresden Lennéplatz: 14 lines
 - Dresden Prager Straße: 14 lines
-- Heidenau (Sachsen) Bahnhof: 14 lines
 - Hoyerswerda Behördenpark: 14 lines
 - Hoyerswerda Lausitzer Platz: 14 lines
 - Kamenz Landesämter: 14 lines
@@ -145,9 +145,11 @@ Total stations: 3916
 - Dresden Kongresszentrum / Haus der Presse: 12 lines
 - Dresden Lößnitzstraße: 12 lines
 - Dresden Pirnaischer Platz: 12 lines
+- Glashütte (Sachsen) Bahnhof / Busbahnhof: 12 lines
 - Pirna Copitz Schulstraße: 12 lines
 - Pulsnitz Bahnhof: 12 lines
 - Riesa Goethestraße: 12 lines
+- Altenberg (Erzgebirge) Bahnhof: 11 lines
 - Dresden Budapester Straße: 11 lines
 - Dresden Coventrystraße: 11 lines
 - Dresden Koblenzer Straße: 11 lines
@@ -156,10 +158,8 @@ Total stations: 3916
 - Dresden Schillerplatz: 11 lines
 - Dresden Straßburger Platz: 11 lines
 - Freital S-Bahnhof Hainsberg: 11 lines
-- Glashütte (Sachsen) Bahnhof / Busbahnhof: 11 lines
 - Gompitz Gompitzer Höhe: 11 lines
 - Großenhain Hohe Straße: 11 lines
-- Altenberg (Erzgebirge) Bahnhof: 10 lines
 - Bischofswerda Schulstraße: 10 lines
 - Dresden Florastraße: 10 lines
 - Dresden Hülßestraße: 10 lines
