@@ -6,11 +6,11 @@ This repository serves as the primary community resource for Dresden transit API
 
 This document is inspired by [derhuerst/vbb-modules](https://github.com/derhuerst/vbb-modules).
 
-Got any more info, details, links? Please don't hesitate to open an issue and/or PR 🙃
+Got any more info, details, links? Please don't hesitate to open an issue and/or PR!
 
 ![DVB transit map](./data/liniennetzplan.jpg)
 
-## 📚 Documentation Overview
+## Documentation Overview
 
 - **[API Comparison Guide](documentation/api-comparison.md)** - Feature matrix and selection guide for choosing the right API
 - **[Widget API](documentation/widgets.md)** - Simple GET-based API for departure monitors
@@ -19,7 +19,7 @@ Got any more info, details, links? Please don't hesitate to open an issue and/or
 - **[GTFS Data](documentation/gtfs.md)** - Standard transit data format with static and real-time feeds
 - **[Dresden OpenData](documentation/opendata.md)** - Geographic transit datasets via OGC API Features (lines, stops, accessibility)
 
-## ⚖️ Legal Information
+## Legal Information
 
 **EU Open Data Requirements**: Under EU Regulation 2017/1926, transit data must be made available in machine-readable formats. VVO complies through various APIs and data formats.
 
@@ -46,7 +46,7 @@ For commercial applications or high-volume usage, contact VVO at opendata@vvo-on
 
 ## APIs
 
-### 🟢 Open Access APIs
+### Open Access APIs
 
 - **[TRIAS API](documentation/trias.md)** - `http://efa.vvo-online.de:8080/std3/trias`
   - **Official** XML-based API following VDV 431-2 standard
@@ -72,7 +72,7 @@ For commercial applications or high-volume usage, contact VVO at opendata@vvo-on
   - Being superseded by TRIAS
   - No public documentation
 
-### 🔒 Restricted Access APIs
+### Restricted Access APIs
 
 - **[DVB WebDFI](http://dfi.dvb.de/)** - `http://dfi.dvb.de/`
   - Digital departure display interface
@@ -85,7 +85,7 @@ For commercial applications or high-volume usage, contact VVO at opendata@vvo-on
   - Internal API, not publicly accessible
   - No documentation available
 
-### 📊 Data Downloads
+### Data Downloads
 
 - **[GTFS Feeds](documentation/gtfs.md)**
   - Static: Daily updated schedule data
