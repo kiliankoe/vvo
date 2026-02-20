@@ -7,6 +7,7 @@ Base URL: `http://widgets.vvo-online.de`
 The Widget API is a simple GET-based interface designed for website integration. Originally created to power embeddable departure monitor widgets, it provides basic transit information in a lightweight JSON format.
 
 **Key Characteristics:**
+
 - Simple GET requests with query parameters
 - Lightweight JSON responses (arrays only)
 - No authentication required
@@ -16,6 +17,7 @@ The Widget API is a simple GET-based interface designed for website integration.
 ## Important Usage Restrictions
 
 According to VVO's terms of use:
+
 - **Non-commercial use only** - Commercial usage is explicitly prohibited
 - **No excessive automated querying** - The API is intended for interactive use
 - **Fair use policy applies** - Be respectful of server resources
@@ -33,37 +35,33 @@ GET `http://widgets.vvo-online.de/abfahrtsmonitor/Abfahrten.do`
 
 Params:
 
-| Name        | Type    | Description                              | Required | Default |
-| :---------- | ------- | ---------------------------------------- | :------- | :------ |
-| `hst`       | String  | Name or ID of the stop                   | **Yes**  | -       |
-| `vz`        | Int     | Time offset in minutes from now (e.g. `5` = 5 minutes in future) | No | 0 |
-| `ort`       | String  | City/municipality name to disambiguate stop (e.g. "Dresden") | No | - |
-| `vm`        | String  | Comma-separated list of transport modes to filter | No | All modes |
-| `lim`       | Int     | Maximum number of departures to return   | No       | All     |
-| `timestamp` | Int     | Unix timestamp for departure time search | No       | Current time |
-| `iso`       | Boolean | Return times in ISO format (unconfirmed) | No       | false   |
+| Name        | Type    | Description                                                      | Required | Default      |
+| :---------- | ------- | ---------------------------------------------------------------- | :------- | :----------- |
+| `hst`       | String  | Name or ID of the stop                                           | **Yes**  | -            |
+| `vz`        | Int     | Time offset in minutes from now (e.g. `5` = 5 minutes in future) | No       | 0            |
+| `ort`       | String  | City/municipality name to disambiguate stop (e.g. "Dresden")     | No       | -            |
+| `vm`        | String  | Comma-separated list of transport modes to filter                | No       | All modes    |
+| `lim`       | Int     | Maximum number of departures to return                           | No       | All          |
+| `timestamp` | Int     | Unix timestamp for departure time search                         | No       | Current time |
+| `iso`       | Boolean | Return times in ISO format (unconfirmed)                         | No       | false        |
 
-
-Possible transport modes are listed [here](http://widgets.vvo-online.de/abfahrtsmonitor/Verkehrsmittel.do). Currently included are `Rufbus`, `Fähre`, `Regionalbus`, `S-Bahn`, `Seil-/Schwebebahn`, `Stadtbus`, `Straßenbahn`, `Zug`.
+Possible transport modes are listed [here](http://widgets.vvo-online.de/abfahrtsmonitor/Verkehrsmittel.do). Currently included are `AST/Rufbus`, `Rufbus`, `Fähre`, `Regionalbus`, `S-Bahn`, `Seil-/Schwebebahn`, `Stadtbus`, `Straßenbahn`, `Zug`.
 
 ### Response
 
 ```js
 [
   [
-    "4",              // Line number/identifier
-    "Radebeul West",  // Direction/destination
-    "1"               // Minutes until departure
+    "4", // Line number/identifier
+    "Radebeul West", // Direction/destination
+    "1", // Minutes until departure
   ],
-  [
-    "1",
-    "Prohlis",
-    "2"
-  ]
-]
+  ["1", "Prohlis", "2"],
+];
 ```
 
 **Response Format:**
+
 - Outer array contains all departures
 - Each departure is an array with exactly 3 elements:
   - Index 0: Line number (String)
@@ -104,20 +102,21 @@ Params:
 [
   [
     [
-      "Dresden"           // City/municipality name
-    ]
+      "Dresden", // City/municipality name
+    ],
   ],
   [
     [
-      "Helmholtzstraße",  // Stop name
-      "Dresden",          // City where stop is located
-      "33000742"          // Stop ID (can be used in Abfahrten.do)
-    ]
-  ]
-]
+      "Helmholtzstraße", // Stop name
+      "Dresden", // City where stop is located
+      "33000742", // Stop ID (can be used in Abfahrten.do)
+    ],
+  ],
+];
 ```
 
 **Response Format:**
+
 - Nested array structure with two main sections:
   1. First section: List of matching cities/municipalities
   2. Second section: List of matching stops
@@ -139,22 +138,23 @@ GET `http://widgets.vvo-online.de/abfahrtsmonitor/Verkehrsmittel.do`
 
 ### Response
 
-Returns an array of available transport mode names in German:
+Returns an array of 2-element arrays. The first element is the internal identifier, the second is the display name used for the `vm` parameter:
 
 ```js
 [
-  "Rufbus",            // On-demand bus
-  "Fähre",             // Ferry
-  "Regionalbus",       // Regional bus
-  "S-Bahn",            // Suburban railway
-  "Seil-/Schwebebahn", // Cable car/Funicular
-  "Stadtbus",          // City bus
-  "Straßenbahn",       // Tram
-  "Zug"                // Train
-]
+  ["AST/Rufbus", "Rufbus"], // On-demand bus (AST)
+  ["Fähre", "Fähre"], // Ferry
+  ["Regionalbus", "Regionalbus"], // Regional bus
+  ["Rufbus", "Rufbus"], // On-demand bus
+  ["S-Bahn", "S-Bahn"], // Suburban railway
+  ["Seil-/Schwebebahn", "Seil-/Schwebebahn"], // Cable car/Funicular
+  ["Stadtbus", "Stadtbus"], // City bus
+  ["Straßenbahn", "Straßenbahn"], // Tram
+  ["Zug", "Zug"], // Train
+];
 ```
 
-These values can be used in the `vm` parameter of Abfahrten.do to filter departures by transport type.
+Use the second element (display name) in the `vm` parameter of Abfahrten.do to filter departures by transport type.
 
 ---
 
@@ -166,20 +166,26 @@ These values can be used in the `vm` parameter of Abfahrten.do to filter departu
 <!-- Basic departure monitor for a website -->
 <div id="departures"></div>
 <script>
-fetch('http://widgets.vvo-online.de/abfahrtsmonitor/Abfahrten.do?hst=postplatz&ort=Dresden&lim=5')
-  .then(response => response.json())
-  .then(data => {
-    const html = data.map(([line, direction, minutes]) =>
-      `<div>${line} → ${direction} in ${minutes} min</div>`
-    ).join('');
-    document.getElementById('departures').innerHTML = html;
-  });
+  fetch(
+    "http://widgets.vvo-online.de/abfahrtsmonitor/Abfahrten.do?hst=postplatz&ort=Dresden&lim=5",
+  )
+    .then((response) => response.json())
+    .then((data) => {
+      const html = data
+        .map(
+          ([line, direction, minutes]) =>
+            `<div>${line} → ${direction} in ${minutes} min</div>`,
+        )
+        .join("");
+      document.getElementById("departures").innerHTML = html;
+    });
 </script>
 ```
 
 ## Home Automation Integration
 
 Many users integrate this API with home automation systems:
+
 - OpenHAB
 - Home Assistant
 - FHEM
@@ -191,12 +197,9 @@ The simple format makes it ideal for IoT devices and embedded systems.
 
 # Common Issues and Solutions
 
-1. **CORS Errors**: The API doesn't set CORS headers. Solutions:
-   - Use a server-side proxy
-   - Make requests from backend code
-   - Use JSONP if supported by your framework
+1. **Character Encoding**: Stop names may contain German umlauts. Ensure proper UTF-8 handling.
 
-2. **Character Encoding**: Stop names may contain German umlauts. Ensure proper UTF-8 handling.
+2. **Content-Type**: The API returns `text/html` as Content-Type despite serving JSON. Most JSON parsers handle this fine, but you may need to parse the body explicitly instead of relying on response type detection.
 
 3. **Stop Name Matching**: The API requires exact stop names. Use Haltestelle.do first to find the correct spelling.
 
