@@ -28,7 +28,6 @@ Got any more info, details, links? Please don't hesitate to open an issue and/or
 - **Widget API**: Non-commercial use only, fair use policy applies
 - **WebAPI**: No official terms, use respectfully
 - **TRIAS**: Official API, commercial use allowed with agreement
-- **GTFS**: Licensed under CC BY-SA 4.0 or DL-DE-BY 2.0
 
 For commercial applications or high-volume usage, contact VVO at opendata@vvo-online.de.
 
@@ -91,7 +90,6 @@ For commercial applications or high-volume usage, contact VVO at opendata@vvo-on
   - Static: Daily updated schedule data
   - Real-time: Trip updates and service alerts (via GTFS-RT)
   - Standard format compatible with many tools
-  - Licensed under CC BY-SA 4.0
 
 - **[Dresden OpenData Portal](documentation/opendata.md)** - `https://kommisdd.dresden.de/net4/public/ogcapi/`
   - Geographic data: Line routes, stop locations, infrastructure

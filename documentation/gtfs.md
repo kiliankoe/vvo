@@ -71,13 +71,6 @@ dresden_stops = feed.stops[feed.stops['stop_name'].str.contains('Dresden')]
 stop_times = feed.stop_times[feed.stop_times['stop_id'] == 'de:14612:28']
 ```
 
-### Using Transit.land
-
-VVO data is available through [Transit.land](https://www.transit.land/):
-
-- Operator ID: `o-u33-verkehrsverbundoberelbe`
-- Coverage: Dresden and surrounding areas
-
 ### Stop ID Mapping
 
 GTFS stop IDs (e.g. `de:14612:28`) differ from WebAPI stop IDs (e.g. `33000028`). The [VVO_STOPS.JSON](https://www.vvo-online.de/open_data/VVO_STOPS.JSON) file contains both formats (`gid` and `id` fields) and can be used for mapping between them.
@@ -86,10 +79,7 @@ GTFS stop IDs (e.g. `de:14612:28`) differ from WebAPI stop IDs (e.g. `33000028`)
 
 ### License Terms
 
-- **GTFS Data**: CC BY-SA 4.0 or DL-DE-BY 2.0
-- **Attribution required**: "Verkehrsverbund Oberelbe (VVO)"
-- **Commercial use**: May require separate agreement
-- **Share-Alike**: Modifications must use same license
+The data originates from [DELFI e.V.](https://www.delfi.de/) via [opendata-oepnv.de](https://www.opendata-oepnv.de/) and is redistributed by [gtfs.de](https://gtfs.de/). Please see there for licensing details.
 
 ### EU Regulation 2017/1926
 
@@ -116,7 +106,7 @@ GTFS stop IDs (e.g. `de:14612:28`) differ from WebAPI stop IDs (e.g. `33000028`)
 ### Data Portals
 
 - [GTFS.de](https://gtfs.de/) — German GTFS aggregator (DELFI)
-- [Transit.land](https://www.transit.land/) — Global transit data registry
+- [opendata-oepnv.de](https://www.opendata-oepnv.de/) — DELFI source data portal
 
 ### Documentation
 
