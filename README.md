@@ -8,6 +8,8 @@ This document is inspired by [derhuerst/vbb-modules](https://github.com/derhuers
 
 Got any more info, details, links? Please don't hesitate to open an issue and/or PR 🙃
 
+![DVB transit map](./data/liniennetzplan.jpg)
+
 ## 📚 Documentation Overview
 
 - **[API Comparison Guide](documentation/api-comparison.md)** - Feature matrix and selection guide for choosing the right API
@@ -38,6 +40,8 @@ For commercial applications or high-volume usage, contact VVO at opendata@vvo-on
 - [`stations_summary.md`](https://raw.githubusercontent.com/kiliankoe/vvo/master/data/stations_summary.md) - Statistics and summary of the VVO network
 - [`abbreviations_dresden.csv`](https://raw.githubusercontent.com/kiliankoe/vvo/master/data/abbreviations_dresden.csv) - Station abbreviations in Dresden
 - [`abbreviations_regional.csv`](https://raw.githubusercontent.com/kiliankoe/vvo/master/data/abbreviations_regional.csv) - Station abbreviations in surrounding areas
+- [`liniennetzplan.jpg`](https://raw.githubusercontent.com/kiliankoe/vvo/master/data/liniennetzplan.jpg) - Current DVB standard network map (JPEG)
+- [`liniennetzplan.pdf`](https://raw.githubusercontent.com/kiliankoe/vvo/master/data/liniennetzplan.pdf) - Current DVB standard network map (PDF)
 - [`VVO_STOPS.JSON`](https://www.vvo-online.de/open_data/VVO_STOPS.JSON) - Official daily updated station data (external)
 
 ## APIs

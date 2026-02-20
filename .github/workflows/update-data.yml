@@ -35,6 +35,14 @@ jobs:
         retry_wait_seconds: 30
         command: uv run scripts/fetch_stations.py
 
+    - name: Fetch network maps
+      uses: nick-fields/retry@v3
+      with:
+        timeout_minutes: 5
+        max_attempts: 3
+        retry_wait_seconds: 30
+        command: uv run scripts/fetch_network_maps.py
+
     - name: Check for changes
       id: check_changes
       run: |
@@ -50,5 +58,6 @@ jobs:
 
         - Updated station abbreviations from DVB PDF
         - Fetched current station data from VVO open data API
-        - Generated station summary statistics"
+        - Generated station summary statistics
+        - Fetched latest Liniennetzplan from DVB website"
         git push
