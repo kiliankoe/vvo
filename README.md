@@ -89,7 +89,7 @@ For commercial applications or high-volume usage, contact VVO at opendata@vvo-on
 
 - **[GTFS Feeds](documentation/gtfs.md)**
   - Static: Daily updated schedule data
-  - Real-time: Vehicle positions and delays
+  - Real-time: Trip updates and service alerts (via GTFS-RT)
   - Standard format compatible with many tools
   - Licensed under CC BY-SA 4.0
 
