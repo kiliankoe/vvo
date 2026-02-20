@@ -68,6 +68,8 @@ GET `https://webapi.vvo-online.de/tr/pointfinder`
 
 The DVB mobil app uses GET with query parameters for this endpoint. The API also accepts POST with a JSON body.
 
+**Important:** The `format=json` parameter is required for GET requests — without it, the endpoint returns an HTML debug page instead of JSON.
+
 ### Query parameters (GET) / JSON body (POST):
 
 | Name            | Type   | Description                                                             | Required |
@@ -209,7 +211,8 @@ POST `https://webapi.vvo-online.de/dm`
   "ExpirationTime": "\/Date(1487778279147+0100)\/",
   "Departures": [
     {
-      "Id": "65597047",
+      "Id": "voe:11003: :H:j26",
+      "DlId": "de:vvo:11-3",
       "LineName": "3",
       "Direction": "Wilder Mann",
       "Platform": {
@@ -231,7 +234,8 @@ POST `https://webapi.vvo-online.de/dm`
       "Occupancy": "Unknown"
     },
     {
-      "Id": "65598309",
+      "Id": "voe:11008: :H:j26",
+      "DlId": "de:vvo:11-8",
       "LineName": "8",
       "Direction": "Südvorstadt",
       "Platform": {
@@ -257,6 +261,7 @@ POST `https://webapi.vvo-online.de/dm`
 | Field           | Type          | Description                                                |
 | --------------- | ------------- | ---------------------------------------------------------- |
 | `Id`            | String        | Departure ID (use with dm/trip)                            |
+| `DlId`          | String        | DHID-style line identifier (e.g. `"de:vvo:11-11"`)         |
 | `LineName`      | String        | Line number/name                                           |
 | `Direction`     | String        | Destination name                                           |
 | `Platform`      | Object        | `Name` (string) and `Type` (`"Platform"` or `"Railtrack"`) |
