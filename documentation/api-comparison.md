@@ -4,35 +4,35 @@ This guide helps you choose the right API or data source for your Dresden public
 
 ## Quick Decision Matrix
 
-| Use Case                 | Recommended API   | Why                               |
-| ------------------------ | ----------------- | --------------------------------- |
-| Simple departure display | Widget API        | Lightweight, easy to parse        |
-| Mobile app               | WebAPI            | Rich features, JSON format        |
-| Professional integration | TRIAS             | Standards-based, official support |
-| Data analysis            | GTFS              | Complete dataset, standard format |
-| Real-time tracking       | GTFS-RT or WebAPI | Live vehicle positions            |
-| Route planning           | TRIAS or WebAPI   | Full journey planning features    |
-| Stop/station search      | WebAPI or TRIAS   | Comprehensive search options      |
+| Use Case                 | Recommended API | Why                               |
+| ------------------------ | --------------- | --------------------------------- |
+| Simple departure display | Widget API      | Lightweight, easy to parse        |
+| Mobile app               | WebAPI          | Rich features, JSON format        |
+| Professional integration | TRIAS           | Standards-based, official support |
+| Data analysis            | GTFS            | Complete dataset, standard format |
+| Real-time tracking       | WebAPI or TRIAS | Live delays and service alerts    |
+| Route planning           | WebAPI or TRIAS | Full journey planning features    |
+| Stop/station search      | WebAPI or TRIAS | Comprehensive search options      |
 
 ## Feature Comparison
 
-| Feature                    | Widget API   | WebAPI        | TRIAS        | GTFS                |
-| -------------------------- | ------------ | ------------- | ------------ | ------------------- |
-| **Format**                 | JSON (array) | JSON          | XML          | CSV/Protobuf        |
-| **Protocol**               | GET          | POST          | POST         | File download       |
-| **Authentication**         | None         | None          | None/API key | None                |
-| **Real-time data**         | Minutes only | Yes, detailed | Yes          | Via GTFS-RT         |
-| **Stop search**            | Basic        | Advanced      | Advanced     | N/A (bulk data)     |
-| **Route planning**         | ❌           | ✔︎             | ✔︎            | ✔︎ (with tools)      |
-| **Departure board**        | ✔︎            | ✔︎             | ✔︎            | ❌ (scheduled only) |
-| **Line information**       | ❌           | ✔︎             | ✔︎            | ✔︎                   |
-| **Service alerts**         | ❌           | ✔︎             | ✔︎            | ✔︎ (GTFS-RT)         |
-| **Vehicle positions**      | ❌           | ❌            | Limited      | ✔︎ (GTFS-RT)         |
-| **Occupancy data**         | ❌           | ✔︎             | ❌           | ❌                  |
-| **Fare information**       | ❌           | Limited       | ✔︎            | ✔︎                   |
-| **Accessibility info**     | ❌           | ✔︎             | ✔︎            | ✔︎                   |
-| **Map data (pins, zones)** | ❌           | ✔︎             | ❌           | ❌                  |
-| **Historical data**        | ❌           | ❌            | ❌           | ✔︎                   |
+| Feature                    | Widget API   | WebAPI        | TRIAS        | GTFS                  |
+| -------------------------- | ------------ | ------------- | ------------ | --------------------- |
+| **Format**                 | JSON (array) | JSON          | XML          | CSV/Protobuf          |
+| **Protocol**               | HTTP         | HTTP          | HTTP         | File download         |
+| **Authentication**         | None         | None          | None/API key | None                  |
+| **Real-time data**         | Minutes only | Yes, detailed | Yes          | Via GTFS-RT           |
+| **Stop search**            | Basic        | Advanced      | Advanced     | N/A (bulk data)       |
+| **Route planning**         | ❌           | ✔︎             | ✔︎            | ✔︎ (with tools)        |
+| **Departure board**        | ✔︎            | ✔︎             | ✔︎            | ❌ (scheduled only)   |
+| **Line information**       | ❌           | ✔︎             | ✔︎            | ✔︎                     |
+| **Service alerts**         | ❌           | ✔︎             | ✔︎            | ✔︎ (GTFS-RT)           |
+| **Vehicle positions**      | ❌           | ❌            | Limited      | ❌ (not in free feed) |
+| **Occupancy data**         | ❌           | ✔︎             | ❌           | ❌                    |
+| **Fare information**       | ❌           | Limited       | ✔︎            | ✔︎                     |
+| **Accessibility info**     | ❌           | ✔︎             | ✔︎            | ✔︎                     |
+| **Map data (pins, zones)** | ❌           | ✔︎             | ❌           | ❌                    |
+| **Historical data**        | ❌           | ❌            | ❌           | ✔︎                     |
 
 ## Detailed API Characteristics
 
@@ -68,10 +68,9 @@ This guide helps you choose the right API or data source for your Dresden public
 
 **Cons**
 
-- Undocumented
+- Undocumented (community reverse-engineered)
 - May change without notice
-- POST requests only
-- Occasional instability
+- No CORS support
 - No official support
 
 **Best for**: Mobile apps, web applications, home automation
@@ -118,14 +117,14 @@ This guide helps you choose the right API or data source for your Dresden public
 
 ## Technical Requirements
 
-| Aspect                    | Widget API | WebAPI   | TRIAS    | GTFS      |
-| ------------------------- | ---------- | -------- | -------- | --------- |
-| **Min. HTTP version**     | HTTP/1.0   | HTTP/1.1 | HTTP/1.1 | N/A       |
-| **SSL/TLS**               | Optional   | Required | Required | Required  |
-| **CORS support**          | No         | No       | No       | N/A       |
-| **Compression**           | No         | gzip     | gzip     | ZIP files |
-| **Typical response time** | <500ms     | <1s      | <2s      | N/A       |
-| **Max response size**     | ~10KB      | ~100KB   | ~500KB   | ~50MB     |
+| Aspect                    | Widget API | WebAPI   | TRIAS          | GTFS      |
+| ------------------------- | ---------- | -------- | -------------- | --------- |
+| **Min. HTTP version**     | HTTP/1.0   | HTTP/1.1 | HTTP/1.1       | N/A       |
+| **SSL/TLS**               | Optional   | Required | No (HTTP only) | Required  |
+| **CORS support**          | Yes        | No       | No             | N/A       |
+| **Compression**           | No         | gzip     | gzip           | ZIP files |
+| **Typical response time** | <500ms     | <1s      | <2s            | N/A       |
+| **Max response size**     | ~10KB      | ~100KB   | ~500KB         | ~50MB     |
 
 ## Rate Limiting and Stability
 
