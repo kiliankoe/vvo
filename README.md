@@ -22,6 +22,7 @@ Got any more info, details, links? Please don't hesitate to open an issue and/or
 **EU Open Data Requirements**: Under EU Regulation 2017/1926, transit data must be made available in machine-readable formats. VVO complies through various APIs and data formats.
 
 **Usage Terms**:
+
 - **Widget API**: Non-commercial use only, fair use policy applies
 - **WebAPI**: No official terms, use respectfully
 - **TRIAS**: Official API, commercial use allowed with agreement
@@ -57,7 +58,8 @@ For commercial applications or high-volume usage, contact VVO at opendata@vvo-on
 
 - **[WebAPI](documentation/webapi.md)** - `https://webapi.vvo-online.de`
   - JSON REST API used by mobile apps
-  - Real-time data with delays and platform info
+  - Real-time data with delays, platform info, and occupancy levels
+  - Map pins, tariff zone polygons, trip PDF export
   - Comprehensive but unofficial
   - [Documentation](documentation/webapi.md) (reverse-engineered)
 
@@ -124,6 +126,7 @@ Mobile apps known and used in Dresden.
 - [`DVBerry`](https://github.com/Julius-Babies/JH_DVBerry) - a Kotlin app that reads out departures for nearby VVO stops for blind and visually impaired users
 
 ### Deprecated
+
 - [`Manni`](https://github.com/manni-app/manni-ios) - iOS (no longer on App Store, repository archived)
 - [`DVB-Verspaetungen`](https://github.com/alexander-fischer/DVB-Verspaetungen) - Android app informing you about the current delay situation (repository archived)
 - `FahrInfo Dresden` - cross-platform (removed from public stores)
@@ -158,4 +161,4 @@ Mobile apps known and used in Dresden.
 - [`MMM-DVB`](https://github.com/skastenholz/MMM-DVB) - MagicMirror² module
 - [`vvo-departures-cli`](https://aur.archlinux.org/packages/vvo-departures-cli) - CLI for querying departures information, also see [#32](https://github.com/kiliankoe/vvo/issues/32)
 - [`wartefrei`](https://github.com/Nichtmetall/wartefrei) - web-based realtime dashboard for departures and routes
-- [`dvb-mcp`](https://github.com/hoodie/dvb-mcp) - mcp-server 
+- [`dvb-mcp`](https://github.com/hoodie/dvb-mcp) - mcp-server
