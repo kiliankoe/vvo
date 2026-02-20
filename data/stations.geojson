@@ -4497,7 +4497,7 @@
         "type": "Point",
         "coordinates": [
           13.885304,
-          50.980149
+          50.980183
         ]
       },
       "properties": {
@@ -12057,8 +12057,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.427065,
-          51.23249
+          13.426957,
+          51.233086
         ]
       },
       "properties": {
@@ -12086,8 +12086,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.425349,
-          51.227354
+          13.425259,
+          51.227326
         ]
       },
       "properties": {
@@ -12106,8 +12106,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.411263,
-          51.240786
+          13.411102,
+          51.240713
         ]
       },
       "properties": {
@@ -12219,8 +12219,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.42596,
-          51.226927
+          13.426041,
+          51.227056
         ]
       },
       "properties": {
@@ -19047,10 +19047,11 @@
         ],
         "lines": {
           "Straßenbahn": [
+            "41",
             "6"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -20252,8 +20253,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.839445,
-          51.032231
+          13.839463,
+          51.032203
         ]
       },
       "properties": {
@@ -21322,7 +21323,9 @@
         "name": "Güntzplatz",
         "city": "Dresden",
         "name_with_city": "Dresden Güntzplatz",
-        "operators": [],
+        "operators": [
+          "DVB"
+        ],
         "lines": {
           "Stadtbus": [
             "EV 6"
@@ -47542,8 +47545,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.883148,
-          50.980646
+          13.883481,
+          50.980629
         ]
       },
       "properties": {
@@ -56344,8 +56347,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.406691,
-          51.209456
+          13.406044,
+          51.209445
         ]
       },
       "properties": {
@@ -92562,8 +92565,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.310113,
-          51.307903
+          13.310104,
+          51.307757
         ]
       },
       "properties": {
@@ -96853,8 +96856,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.531251,
-          51.12799
+          13.531278,
+          51.12812
         ]
       },
       "properties": {
@@ -98072,8 +98075,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.229763,
-          50.891422
+          14.229853,
+          50.891451
         ]
       },
       "properties": {
@@ -98890,8 +98893,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.234866,
-          50.87527
+          14.23483,
+          50.875287
         ]
       },
       "properties": {

@@ -3230,7 +3230,7 @@
       "city": "Birkwitz",
       "name_with_city": "Birkwitz Fährstelle",
       "longitude": 13.885304,
-      "latitude": 50.980149,
+      "latitude": 50.980183,
       "operators": [
         "RVSOE"
       ],
@@ -8654,8 +8654,8 @@
       "name": "Am Brummochsenloch (Weingut)",
       "city": "Diesbar-Seußlitz",
       "name_with_city": "Diesbar-Seußlitz Am Brummochsenloch (Weingut)",
-      "longitude": 13.427065,
-      "latitude": 51.23249,
+      "longitude": 13.426957,
+      "latitude": 51.233086,
       "operators": [
         "VGM"
       ],
@@ -8675,8 +8675,8 @@
       "name": "Dampfschifffahrt",
       "city": "Diesbar-Seußlitz",
       "name_with_city": "Diesbar-Seußlitz Dampfschifffahrt",
-      "longitude": 13.425349,
-      "latitude": 51.227354,
+      "longitude": 13.425259,
+      "latitude": 51.227326,
       "operators": [],
       "lines": {},
       "total_lines": 0
@@ -8687,8 +8687,8 @@
       "name": "Fährstelle Seußlitz",
       "city": "Diesbar-Seußlitz",
       "name_with_city": "Diesbar-Seußlitz Fährstelle Seußlitz",
-      "longitude": 13.411263,
-      "latitude": 51.240786,
+      "longitude": 13.411102,
+      "latitude": 51.240713,
       "operators": [
         "VGM"
       ],
@@ -8768,8 +8768,8 @@
       "name": "Zum Roß",
       "city": "Diesbar-Seußlitz",
       "name_with_city": "Diesbar-Seußlitz Zum Roß",
-      "longitude": 13.42596,
-      "latitude": 51.226927,
+      "longitude": 13.426041,
+      "latitude": 51.227056,
       "operators": [
         "VGM"
       ],
@@ -13772,10 +13772,11 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "41",
           "6"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:588",
@@ -14657,8 +14658,8 @@
       "name": "Fährstelle Niederpoyritz",
       "city": "Dresden",
       "name_with_city": "Dresden Fährstelle Niederpoyritz",
-      "longitude": 13.839445,
-      "latitude": 51.032231,
+      "longitude": 13.839463,
+      "latitude": 51.032203,
       "operators": [
         "DVB"
       ],
@@ -15423,7 +15424,9 @@
       "name_with_city": "Dresden Güntzplatz",
       "longitude": 13.759378,
       "latitude": 51.053637,
-      "operators": [],
+      "operators": [
+        "DVB"
+      ],
       "lines": {
         "Stadtbus": [
           "EV 6"
@@ -34531,8 +34534,8 @@
       "name": "Fährstelle",
       "city": "Heidenau (Sachsen)",
       "name_with_city": "Heidenau (Sachsen) Fährstelle",
-      "longitude": 13.883148,
-      "latitude": 50.980646,
+      "longitude": 13.883481,
+      "latitude": 50.980629,
       "operators": [
         "RVSOE"
       ],
@@ -40877,8 +40880,8 @@
       "name": "Fährstelle",
       "city": "Kleinzadel",
       "name_with_city": "Kleinzadel Fährstelle",
-      "longitude": 13.406691,
-      "latitude": 51.209456,
+      "longitude": 13.406044,
+      "latitude": 51.209445,
       "operators": [],
       "lines": {},
       "total_lines": 0
@@ -67047,8 +67050,8 @@
       "name": "Fährstelle Promnitz",
       "city": "Riesa",
       "name_with_city": "Riesa Fährstelle Promnitz",
-      "longitude": 13.310113,
-      "latitude": 51.307903,
+      "longitude": 13.310104,
+      "latitude": 51.307757,
       "operators": [
         "VGM"
       ],
@@ -70146,8 +70149,8 @@
       "name": "Fährstelle",
       "city": "Scharfenberg (Klipphausen)",
       "name_with_city": "Scharfenberg (Klipphausen) Fährstelle",
-      "longitude": 13.531251,
-      "latitude": 51.12799,
+      "longitude": 13.531278,
+      "latitude": 51.12812,
       "operators": [],
       "lines": {},
       "total_lines": 0
@@ -71021,8 +71024,8 @@
       "name": "Fährstelle im Ort",
       "city": "Schmilka",
       "name_with_city": "Schmilka Fährstelle im Ort",
-      "longitude": 14.229763,
-      "latitude": 50.891422,
+      "longitude": 14.229853,
+      "latitude": 50.891451,
       "operators": [
         "RVSOE"
       ],
@@ -71607,8 +71610,8 @@
       "name": "Fährstelle",
       "city": "Schöna (bei Pirna)",
       "name_with_city": "Schöna (bei Pirna) Fährstelle",
-      "longitude": 14.234866,
-      "latitude": 50.87527,
+      "longitude": 14.23483,
+      "latitude": 50.875287,
       "operators": [
         "RVSOE"
       ],

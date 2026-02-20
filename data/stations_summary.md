@@ -52,7 +52,7 @@ Total stations: 3916
 
 - RVSOE: 1307 stations
 - VGM: 1172 stations
-- DVB: 756 stations
+- DVB: 757 stations
 - RBO: 715 stations
 - DB Regio AG Südost: 112 stations
 - VGH: 81 stations
