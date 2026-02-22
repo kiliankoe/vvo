@@ -54,6 +54,8 @@ VVO data is included in the Germany-wide GTFS feeds. Available feed variants:
 
 > **Note**: The domain `gtfs-rt.vvo.de` is not operational. As of February 2026, it resolves to a Plesk hosting panel with a mismatched SSL certificate and returns 404 on all feed paths. Use the `realtime.gtfs.de` feed above for TripUpdates, or the [WebAPI departure monitor](webapi.md#departure-monitor) for real-time stop-level data.
 
+> **Alternative**: A GTFS-RT conversion of the DELFI [SIRI ET feed](siri.md) is available at `https://stc.traines.eu/mirror/german-delfi-siri/gtfsrt/`. This covers all VVO operators and is updated every ~2 minutes. See the [SIRI ET documentation](siri.md) for details on the source data.
+
 ## Working with GTFS Data
 
 ### Using Python

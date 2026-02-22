@@ -17,6 +17,7 @@ Got any more info, details, links? Please don't hesitate to open an issue and/or
 - **[WebAPI](documentation/webapi.md)** - JSON REST API used by mobile apps
 - **[TRIAS API](documentation/trias.md)** - Official XML-based API following European standards
 - **[GTFS Data](documentation/gtfs.md)** - Standard transit data format with static and real-time feeds
+- **[SIRI ET Real-Time Data](documentation/siri.md)** - DELFI real-time feed with delays, cancellations, and occupancy
 - **[Dresden OpenData](documentation/opendata.md)** - Geographic transit datasets via OGC API Features (lines, stops, accessibility)
 
 ## Legal Information
@@ -85,6 +86,12 @@ For commercial applications or high-volume usage, contact VVO at opendata@vvo-on
   - No documentation available
 
 ### Data Downloads
+
+- **[SIRI ET Real-Time Feed](documentation/siri.md)** — via [Mobilithek](https://mobilithek.info/offers/832220950725300224) / [mirror](https://stc.traines.eu/mirror/german-delfi-siri/oberelbe/)
+  - Real-time delay predictions, cancellations, occupancy, platform info
+  - SIRI 2.0 XML format, updated every ~5 minutes
+  - Covers DVB and 15+ regional operators
+  - Licensed under CC BY-SA
 
 - **[GTFS Feeds](documentation/gtfs.md)**
   - Static: Daily updated schedule data
