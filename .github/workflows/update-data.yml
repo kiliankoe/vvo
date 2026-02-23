@@ -19,6 +19,11 @@ jobs:
       with:
         version: "latest"
 
+    - name: Save current data for comparison
+      run: |
+        cp data/stations_summary.md /tmp/old_summary.md 2>/dev/null || touch /tmp/old_summary.md
+        cp data/stations.csv /tmp/old_stations.csv 2>/dev/null || touch /tmp/old_stations.csv
+
     - name: Fetch station abbreviations
       uses: nick-fields/retry@v3
       with:
@@ -49,15 +54,19 @@ jobs:
         git add data/*
         git diff --staged --quiet || echo "changes=true" >> $GITHUB_OUTPUT
 
+    - name: Generate commit message
+      if: steps.check_changes.outputs.changes == 'true'
+      id: commit_message
+      run: |
+        MSG=$(python3 scripts/generate_commit_message.py /tmp/old_summary.md data/stations_summary.md /tmp/old_stations.csv data/stations.csv)
+        echo "msg=$MSG" >> $GITHUB_OUTPUT
+
     - name: Commit and push changes
       if: steps.check_changes.outputs.changes == 'true'
+      env:
+        COMMIT_MSG: ${{ steps.commit_message.outputs.msg }}
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git commit -m "Update station data [automated]
-
-        - Updated station abbreviations from DVB PDF
-        - Fetched current station data from VVO open data API
-        - Generated station summary statistics
-        - Fetched latest Liniennetzplan from DVB website"
+        git commit -m "$COMMIT_MSG"
         git push
