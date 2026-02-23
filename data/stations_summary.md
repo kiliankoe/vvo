@@ -36,7 +36,7 @@ Total stations: 3916
 - Straßenbahn: 268 stations
 - Anruflinientaxi: 196 stations
 - Zug: 105 stations
-- Ersatzverkehr: 96 stations
+- Ersatzverkehr: 97 stations
 - Taktbus: 75 stations
 - S-Bahn: 54 stations
 - Bus: 49 stations
@@ -100,12 +100,12 @@ Total stations: 3916
 - Dresden Julius-Vahlteich-Straße: 16 lines
 - Dresden Liststraße: 16 lines
 - Dresden Tharandter Straße: 16 lines
+- Freital S-Bf. / Busbf. Deuben: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
 - Kamenz Macherstraße: 16 lines
 - Riesa Sachsenhof: 16 lines
 - Dresden Postplatz: 15 lines
 - Dresden S-Bahnhof Dobritz: 15 lines
-- Freital S-Bf. / Busbf. Deuben: 15 lines
 - Heidenau (Sachsen) Bahnhof: 15 lines
 - Kamenz Schwimmhalle: 15 lines
 - Meißen Uferstraße: 15 lines
@@ -155,6 +155,7 @@ Total stations: 3916
 - Dresden Straßburger Platz: 11 lines
 - Freital S-Bahnhof Hainsberg: 11 lines
 - Großenhain Hohe Straße: 11 lines
+- Pirna Robert-Koch-Straße: 11 lines
 - Bischofswerda Schulstraße: 10 lines
 - Dresden Budapester Straße: 10 lines
 - Dresden Coventrystraße: 10 lines
@@ -167,6 +168,5 @@ Total stations: 3916
 - Dresden Reichenbachstraße: 10 lines
 - Gompitz Gompitzer Höhe: 10 lines
 - Königswartha Kirchplatz: 10 lines
-- Pirna Robert-Koch-Straße: 10 lines
 - Sebnitz Bahnhof: 10 lines
 - Tharandt Bahnhof: 10 lines
