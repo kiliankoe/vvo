@@ -37903,12 +37903,9 @@
           ],
           "S-Bahn": [
             "S3"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 16
+        "total_lines": 15
       }
     },
     {
@@ -87833,14 +87830,18 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Hospiz",
         "operators": [
-          "DVB"
+          "DVB",
+          "VGM"
         ],
         "lines": {
           "Stadtbus": [
             "72"
+          ],
+          "Regionalbus": [
+            "475"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -109139,7 +109140,8 @@
         "name_with_city": "Weißig (Dresden) Hutbergschule",
         "operators": [
           "DVB",
-          "Müller Busreisen"
+          "Müller Busreisen",
+          "RVSOE"
         ],
         "lines": {
           "Stadtbus": [
@@ -109149,9 +109151,12 @@
           ],
           "Regionalbus": [
             "229"
+          ],
+          "PlusBus": [
+            "261"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {

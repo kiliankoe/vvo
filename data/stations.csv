@@ -1290,7 +1290,7 @@ de:14628:1124,33001124,Reiboldschachtring,Freital,Freital Reiboldschachtring,51.
 de:14628:1192,33001192,Rudeltstraße,Freital,Freital Rudeltstraße,50.989525,13.665127,RVSOE,2,,162,,
 de:14628:1167,33001167,S-Bahnhof Hainsberg,Freital,Freital S-Bahnhof Hainsberg,50.988445,13.637944,DB Regio AG Südost|Mitteldeutsche Regiobahn|RVSOE|SDG,11,,160|161,RB30|RE3,S3
 de:14628:1102,33001102,S-Bahnhof Potschappel,Freital,Freital S-Bahnhof Potschappel,51.013019,13.662306,DB Regio AG Südost|Mitteldeutsche Regiobahn|RVSOE,7,,160|161|164,RB30|RE3,S3
-de:14628:1162,33001162,S-Bf. / Busbf. Deuben,Freital,Freital S-Bf. / Busbf. Deuben,50.999057,13.647071,DB Regio AG Südost|Mitteldeutsche Regiobahn|RVSOE,16,,160|161|162|164|166,RB30|RE3,S3
+de:14628:1162,33001162,S-Bf. / Busbf. Deuben,Freital,Freital S-Bf. / Busbf. Deuben,50.999057,13.647071,DB Regio AG Südost|Mitteldeutsche Regiobahn|RVSOE,15,,160|161|162|164|166,RB30|RE3,S3
 de:14628:1176,33001176,S-Bf. Hainsberg West,Freital,Freital S-Bf. Hainsberg West,50.981189,13.621757,DB Regio AG Südost|Mitteldeutsche Regiobahn|RVSOE,7,,,RB30|RE3,S3
 de:14628:1143,33001143,Saalhausen Wendeplatz,Freital,Freital Saalhausen Wendeplatz,51.011798,13.617651,RVSOE,1,,161,,
 de:14628:1114,33001114,Saalhausener Straße,Freital,Freital Saalhausener Straße,51.018213,13.639588,RVSOE,4,,161|162,,
@@ -3025,7 +3025,7 @@ de:14627:4284,33004284,Hauptfriedhof,Radebeul,Radebeul Hauptfriedhof,51.102382,1
 de:14627:4217,33004217,Hauptstraße,Radebeul,Radebeul Hauptstraße,51.102247,13.681153,DVB,1,4,,,
 de:14627:4269,33004269,Heiterer Blick,Radebeul,Radebeul Heiterer Blick,51.113691,13.632393,VGM,1,,,,
 de:14627:4239,33004239,Horst-Viedt-Straße,Radebeul,Radebeul Horst-Viedt-Straße,51.111469,13.633632,VGM,1,,,,
-de:14627:4258,33004258,Hospiz,Radebeul,Radebeul Hospiz,51.110702,13.690073,DVB,1,,72,,
+de:14627:4258,33004258,Hospiz,Radebeul,Radebeul Hospiz,51.110702,13.690073,DVB|VGM,2,,72,,
 de:14627:4279,33004279,Hp Lößnitzgrund,Radebeul,Radebeul Hp Lößnitzgrund,51.121461,13.653844,SDG,0,,,,
 de:14627:4228,33004228,Johannisbergstraße,Radebeul,Radebeul Johannisbergstraße,51.114582,13.611471,DVB,2,4,,,
 de:14627:4235,33004235,Karlstraße,Radebeul,Radebeul Karlstraße,51.112371,13.633003,VGM,1,,,,
@@ -3775,7 +3775,7 @@ de:14612:3771,33003771,Fußweg zum Napoleonstein,Weißig (Dresden),Weißig (Dres
 de:14612:3770,33003770,Gasthof,Weißig (Dresden),Weißig (Dresden) Gasthof,51.060605,13.884864,DVB|Müller Busreisen,2,,61|98B,,
 de:14612:3767,33003767,Gönnsdorfer Weg,Weißig (Dresden),Weißig (Dresden) Gönnsdorfer Weg,51.05803,13.883175,Müller Busreisen,1,,98A,,
 de:14612:3773,33003773,Heidestraße,Weißig (Dresden),Weißig (Dresden) Heidestraße,51.060661,13.882726,DVB|Müller Busreisen,2,,61|98A,,
-de:14612:3788,33003788,Hutbergschule,Weißig (Dresden),Weißig (Dresden) Hutbergschule,51.05886,13.885161,DVB|Müller Busreisen,4,,61|98A|98B,,
+de:14612:3788,33003788,Hutbergschule,Weißig (Dresden),Weißig (Dresden) Hutbergschule,51.05886,13.885161,DVB|Müller Busreisen|RVSOE,5,,61|98A|98B,,
 de:14612:3778,33003778,Radeberger Straße,Weißig (Dresden),Weißig (Dresden) Radeberger Straße,51.06813,13.885646,DVB|Müller Busreisen,2,,61|98B,,
 de:14612:3799,33003799,Radeberger Straße Süd,Weißig (Dresden),Weißig (Dresden) Radeberger Straße Süd,51.065065,13.88676,DVB|Müller Busreisen,2,,61|98B,,
 de:14612:3772,33003772,Südstraße,Weißig (Dresden),Weißig (Dresden) Südstraße,51.056551,13.888323,DVB|Müller Busreisen,2,,61|98B,,

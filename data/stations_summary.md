@@ -29,14 +29,14 @@ Total stations: 3916
 
 ## Stations by Transit Type
 
-- Regionalbus: 2708 stations
+- Regionalbus: 2709 stations
 - Stadtbus: 1274 stations
-- PlusBus: 646 stations
+- PlusBus: 647 stations
 - Anruflinienbus: 481 stations
 - Straßenbahn: 268 stations
 - Anruflinientaxi: 196 stations
 - Zug: 105 stations
-- Ersatzverkehr: 97 stations
+- Ersatzverkehr: 96 stations
 - Taktbus: 75 stations
 - S-Bahn: 54 stations
 - Bus: 49 stations
@@ -50,8 +50,8 @@ Total stations: 3916
 
 ## Transit Operators
 
-- RVSOE: 1307 stations
-- VGM: 1172 stations
+- RVSOE: 1308 stations
+- VGM: 1173 stations
 - DVB: 756 stations
 - RBO: 715 stations
 - DB Regio AG Südost: 112 stations
@@ -100,12 +100,12 @@ Total stations: 3916
 - Dresden Julius-Vahlteich-Straße: 16 lines
 - Dresden Liststraße: 16 lines
 - Dresden Tharandter Straße: 16 lines
-- Freital S-Bf. / Busbf. Deuben: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
 - Kamenz Macherstraße: 16 lines
 - Riesa Sachsenhof: 16 lines
 - Dresden Postplatz: 15 lines
 - Dresden S-Bahnhof Dobritz: 15 lines
+- Freital S-Bf. / Busbf. Deuben: 15 lines
 - Heidenau (Sachsen) Bahnhof: 15 lines
 - Kamenz Schwimmhalle: 15 lines
 - Meißen Uferstraße: 15 lines

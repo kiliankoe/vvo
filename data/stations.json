@@ -27572,12 +27572,9 @@
         ],
         "S-Bahn": [
           "S3"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 16
+      "total_lines": 15
     },
     {
       "id": "de:14628:1176",
@@ -63622,14 +63619,18 @@
       "longitude": 13.690073,
       "latitude": 51.110702,
       "operators": [
-        "DVB"
+        "DVB",
+        "VGM"
       ],
       "lines": {
         "Stadtbus": [
           "72"
+        ],
+        "Regionalbus": [
+          "475"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4279",
@@ -78928,7 +78929,8 @@
       "latitude": 51.05886,
       "operators": [
         "DVB",
-        "Müller Busreisen"
+        "Müller Busreisen",
+        "RVSOE"
       ],
       "lines": {
         "Stadtbus": [
@@ -78938,9 +78940,12 @@
         ],
         "Regionalbus": [
           "229"
+        ],
+        "PlusBus": [
+          "261"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:3778",
