@@ -109140,8 +109140,7 @@
         "name_with_city": "Weißig (Dresden) Hutbergschule",
         "operators": [
           "DVB",
-          "Müller Busreisen",
-          "RVSOE"
+          "Müller Busreisen"
         ],
         "lines": {
           "Stadtbus": [
@@ -109151,12 +109150,9 @@
           ],
           "Regionalbus": [
             "229"
-          ],
-          "PlusBus": [
-            "261"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {

@@ -78929,8 +78929,7 @@
       "latitude": 51.05886,
       "operators": [
         "DVB",
-        "Müller Busreisen",
-        "RVSOE"
+        "Müller Busreisen"
       ],
       "lines": {
         "Stadtbus": [
@@ -78940,12 +78939,9 @@
         ],
         "Regionalbus": [
           "229"
-        ],
-        "PlusBus": [
-          "261"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:3778",
