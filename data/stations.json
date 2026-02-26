@@ -35617,10 +35617,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "268"
+          "268",
+          "269"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3956",
@@ -35635,10 +35636,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "268"
+          "268",
+          "269"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3954",
@@ -35671,10 +35673,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "268"
+          "268",
+          "269"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:1349",
@@ -56552,11 +56555,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "241",
           "269"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3973",
@@ -69949,10 +69951,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "268"
+          "268",
+          "269"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3992",
@@ -69967,10 +69970,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "268"
+          "268",
+          "269"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3990",
@@ -69985,10 +69989,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "268"
+          "268",
+          "269"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3993",
@@ -73368,8 +73373,8 @@
       "name": "Gasthof",
       "city": "Somsdorf",
       "name_with_city": "Somsdorf Gasthof",
-      "longitude": 13.604751,
-      "latitude": 50.975641,
+      "longitude": 13.605452,
+      "latitude": 50.975714,
       "operators": [
         "RVSOE"
       ],
@@ -73703,15 +73708,19 @@
       "longitude": 14.327213,
       "latitude": 51.511188,
       "operators": [
+        "Cottbusverkehr GmbH",
         "RBO"
       ],
       "lines": {
         "Regionalbus": [
           "779",
           "781"
+        ],
+        "Bus": [
+          "800"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6883",

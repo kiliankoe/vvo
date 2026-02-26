@@ -39,7 +39,7 @@ Total stations: 3916
 - Ersatzverkehr: 96 stations
 - Taktbus: 75 stations
 - S-Bahn: 54 stations
-- Bus: 49 stations
+- Bus: 50 stations
 - Fähre: 31 stations
 - Stadtverkehr: 29 stations
 - Schülerlinie: 13 stations
@@ -65,8 +65,8 @@ Total stations: 3916
 - SDG: 24 stations
 - Mitteldeutsche Regiobahn: 23 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
+- Cottbusverkehr GmbH: 12 stations
 - trilex - Die Länderbahn GmbH DLB: 11 stations
-- Cottbusverkehr GmbH: 11 stations
 - Österreichische Bundesbahnen: 4 stations
 - DB Fernverkehr AG: 3 stations
 - Ostdeutsche Eisenbahn GmbH: 3 stations

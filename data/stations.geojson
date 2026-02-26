@@ -49108,10 +49108,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "268"
+            "268",
+            "269"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -49134,10 +49135,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "268"
+            "268",
+            "269"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -49186,10 +49188,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "268"
+            "268",
+            "269"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -78043,11 +78046,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "241",
             "269"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -96608,10 +96610,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "268"
+            "268",
+            "269"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -96634,10 +96637,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "268"
+            "268",
+            "269"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -96660,10 +96664,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "268"
+            "268",
+            "269"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -101363,8 +101368,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.604751,
-          50.975641
+          13.605452,
+          50.975714
         ]
       },
       "properties": {
@@ -101842,15 +101847,19 @@
         "city": "Spreetal (Kamenz)",
         "name_with_city": "Spreetal (Kamenz) Wohnlager II",
         "operators": [
+          "Cottbusverkehr GmbH",
           "RBO"
         ],
         "lines": {
           "Regionalbus": [
             "779",
             "781"
+          ],
+          "Bus": [
+            "800"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
