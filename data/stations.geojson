@@ -226,8 +226,7 @@
             "368",
             "370",
             "373",
-            "374",
-            "SEV RB 72"
+            "374"
           ],
           "Zug": [
             "RB72",
@@ -237,7 +236,7 @@
             "SEV"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -1675,6 +1674,7 @@
         "city": "Bad Schandau",
         "name_with_city": "Bad Schandau Nationalparkbahnhof",
         "operators": [
+          "DB Fernverkehr AG",
           "DB Regio AG Südost",
           "RVSOE",
           "Österreichische Bundesbahnen"
@@ -7910,12 +7910,15 @@
         "city": "Burkhardswalde (Müglitztal)",
         "name_with_city": "Burkhardswalde (Müglitztal) Talstraße (Bf)",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
-            "201",
-            "SEV RB 72"
+            "201"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
         "total_lines": 2
@@ -8104,11 +8107,13 @@
         "lines": {
           "Regionalbus": [
             "368",
-            "369",
-            "SEV RB 72"
+            "369"
           ],
           "Zug": [
             "RB72"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
         "total_lines": 4
@@ -8135,11 +8140,13 @@
         ],
         "lines": {
           "Regionalbus": [
-            "368",
-            "SEV RB 72"
+            "368"
           ],
           "Zug": [
             "RB72"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
         "total_lines": 3
@@ -13601,14 +13608,16 @@
           "Regionalbus": [
             "201",
             "202",
-            "372",
-            "SEV RB 72"
+            "372"
           ],
           "Zug": [
             "RB72"
           ],
           "Stadtbus": [
             "B (Heidenau)"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
         "total_lines": 6
@@ -15403,11 +15412,14 @@
           "Straßenbahn": [
             "8"
           ],
+          "Stadtbus": [
+            "EV 8"
+          ],
           "Anruflinientaxi": [
             "alita 8"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -15752,10 +15764,11 @@
         "lines": {
           "Straßenbahn": [
             "11",
+            "2",
             "4"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -17379,13 +17392,14 @@
           ],
           "Stadtbus": [
             "70",
-            "72"
+            "72",
+            "EV 8"
           ],
           "Anruflinientaxi": [
             "alita 8"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -19487,11 +19501,14 @@
           "Straßenbahn": [
             "8"
           ],
+          "Stadtbus": [
+            "EV 8"
+          ],
           "Anruflinientaxi": [
             "alita 8"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -21853,11 +21870,14 @@
           "Straßenbahn": [
             "8"
           ],
+          "Stadtbus": [
+            "EV 8"
+          ],
           "Anruflinientaxi": [
             "alita 8"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -21936,14 +21956,15 @@
           ],
           "Stadtbus": [
             "70",
-            "72"
+            "72",
+            "EV 8"
           ],
           "Anruflinientaxi": [
             "alita 72",
             "alita 8"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -22136,14 +22157,18 @@
         "city": "Dresden",
         "name_with_city": "Dresden Hermann-Löns-Straße",
         "operators": [
+          "DVB",
           "RBO"
         ],
         "lines": {
+          "Stadtbus": [
+            "84"
+          ],
           "PlusBus": [
             "521"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -22834,14 +22859,15 @@
           ],
           "Stadtbus": [
             "72",
-            "77"
+            "77",
+            "EV 8"
           ],
           "Anruflinientaxi": [
             "alita 77",
             "alita 8"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -23924,10 +23950,11 @@
         "lines": {
           "Stadtbus": [
             "72",
-            "77"
+            "77",
+            "EV 8"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -28453,13 +28480,14 @@
         "lines": {
           "Stadtbus": [
             "72",
-            "77"
+            "77",
+            "EV 8"
           ],
           "Anruflinientaxi": [
             "alita 77"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -37903,9 +37931,12 @@
           ],
           "S-Bahn": [
             "S3"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 15
+        "total_lines": 16
       }
     },
     {
@@ -39815,8 +39846,7 @@
           "Regionalbus": [
             "367",
             "368",
-            "385",
-            "SEV RB 72"
+            "385"
           ],
           "Zug": [
             "RB72",
@@ -39826,7 +39856,7 @@
             "SEV"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
@@ -39850,8 +39880,7 @@
         ],
         "lines": {
           "Regionalbus": [
-            "385",
-            "SEV RB 72"
+            "385"
           ],
           "Zug": [
             "RB72",
@@ -39861,7 +39890,7 @@
             "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -40482,8 +40511,7 @@
             "372",
             "385",
             "386",
-            "389",
-            "SEV RB 72"
+            "389"
           ],
           "PlusBus": [
             "388"
@@ -40496,7 +40524,7 @@
             "SEV"
           ]
         },
-        "total_lines": 12
+        "total_lines": 11
       }
     },
     {
@@ -45404,6 +45432,7 @@
         "city": "Gröditz (bei Riesa)",
         "name_with_city": "Gröditz (bei Riesa) Busbahnhof",
         "operators": [
+          "Mitteldeutsche Regiobahn",
           "VGM"
         ],
         "lines": {
@@ -45416,9 +45445,12 @@
             "440",
             "461",
             "462"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -47204,8 +47236,7 @@
           "Regionalbus": [
             "201",
             "202",
-            "372",
-            "SEV RB 72"
+            "372"
           ],
           "Zug": [
             "RB72",
@@ -47220,7 +47251,7 @@
             "SEV"
           ]
         },
-        "total_lines": 15
+        "total_lines": 14
       }
     },
     {
@@ -59474,11 +59505,13 @@
         "lines": {
           "Regionalbus": [
             "201",
-            "202",
-            "SEV RB 72"
+            "202"
           ],
           "Zug": [
             "RB72"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
         "total_lines": 4
@@ -60972,8 +61005,7 @@
         "lines": {
           "Regionalbus": [
             "368",
-            "385",
-            "SEV RB 72"
+            "385"
           ],
           "Zug": [
             "RB72",
@@ -60983,7 +61015,7 @@
             "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -71693,11 +71725,13 @@
           "Regionalbus": [
             "201",
             "202",
-            "372",
-            "SEV RB 72"
+            "372"
           ],
           "Zug": [
             "RB72"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
         "total_lines": 5
@@ -97542,11 +97576,13 @@
         "lines": {
           "Regionalbus": [
             "201",
-            "372",
-            "SEV RB 72"
+            "372"
           ],
           "Zug": [
             "RB72"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
         "total_lines": 4
@@ -97568,13 +97604,16 @@
         "city": "Schlottwitz",
         "name_with_city": "Schlottwitz Neue Mittelstraße",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "201",
-            "389",
-            "SEV RB 72"
+            "389"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
         "total_lines": 3
@@ -101847,19 +101886,15 @@
         "city": "Spreetal (Kamenz)",
         "name_with_city": "Spreetal (Kamenz) Wohnlager II",
         "operators": [
-          "Cottbusverkehr GmbH",
           "RBO"
         ],
         "lines": {
           "Regionalbus": [
             "779",
             "781"
-          ],
-          "Bus": [
-            "800"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -107573,13 +107608,16 @@
         "city": "Weesenstein",
         "name_with_city": "Weesenstein Gemeindeamt",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "201",
-            "202",
-            "SEV RB 72"
+            "202"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
         "total_lines": 3
@@ -109149,7 +109187,8 @@
         "name_with_city": "Weißig (Dresden) Hutbergschule",
         "operators": [
           "DVB",
-          "Müller Busreisen"
+          "Müller Busreisen",
+          "RVSOE"
         ],
         "lines": {
           "Stadtbus": [
@@ -109159,9 +109198,12 @@
           ],
           "Regionalbus": [
             "229"
+          ],
+          "PlusBus": [
+            "261"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
