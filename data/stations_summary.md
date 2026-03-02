@@ -29,7 +29,7 @@ Total stations: 3916
 
 ## Stations by Transit Type
 
-- Regionalbus: 2709 stations
+- Regionalbus: 2710 stations
 - Stadtbus: 1278 stations
 - PlusBus: 646 stations
 - Anruflinienbus: 481 stations
@@ -39,7 +39,7 @@ Total stations: 3916
 - Zug: 105 stations
 - Taktbus: 75 stations
 - S-Bahn: 54 stations
-- Bus: 49 stations
+- Bus: 50 stations
 - Fähre: 31 stations
 - Stadtverkehr: 29 stations
 - Schülerlinie: 13 stations
@@ -65,8 +65,8 @@ Total stations: 3916
 - SDG: 24 stations
 - Mitteldeutsche Regiobahn: 24 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
+- Cottbusverkehr GmbH: 12 stations
 - trilex - Die Länderbahn GmbH DLB: 11 stations
-- Cottbusverkehr GmbH: 11 stations
 - DB Fernverkehr AG: 4 stations
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 3 stations
@@ -110,6 +110,7 @@ Total stations: 3916
 - Meißen Uferstraße: 15 lines
 - Pirna Breite Straße: 15 lines
 - Radeberg Bahnhof: 15 lines
+- Riesa Kasernenstraße: 15 lines
 - Bad Schandau Nationalparkbahnhof: 14 lines
 - Dippoldiswalde Busbahnhof: 14 lines
 - Dresden Betriebshof Gorbitz: 14 lines
@@ -154,6 +155,7 @@ Total stations: 3916
 - Freital S-Bahnhof Hainsberg: 11 lines
 - Glashütte (Sachsen) Bahnhof / Busbahnhof: 11 lines
 - Großenhain Hohe Straße: 11 lines
+- Pirna Robert-Koch-Straße: 11 lines
 - Altenberg (Erzgebirge) Bahnhof: 10 lines
 - Bischofswerda Schulstraße: 10 lines
 - Dresden Budapester Straße: 10 lines
@@ -167,6 +169,5 @@ Total stations: 3916
 - Dresden Reichenbachstraße: 10 lines
 - Gompitz Gompitzer Höhe: 10 lines
 - Königswartha Kirchplatz: 10 lines
-- Pirna Robert-Koch-Straße: 10 lines
 - Sebnitz Bahnhof: 10 lines
 - Tharandt Bahnhof: 10 lines

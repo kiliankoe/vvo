@@ -38328,10 +38328,11 @@
         ],
         "lines": {
           "Stadtbus": [
+            "161",
             "162"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -82076,13 +82077,14 @@
             "237",
             "241",
             "245",
+            "246",
             "207a"
           ],
           "Stadtbus": [
             "Z (Pirna)"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -89408,10 +89410,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "403"
+            "403",
+            "405"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -92970,11 +92973,27 @@
           "VGM"
         ],
         "lines": {
+          "Regionalbus": [
+            "430",
+            "431",
+            "432",
+            "433",
+            "437",
+            "439",
+            "440",
+            "441",
+            "445",
+            "446"
+          ],
           "Stadtbus": [
+            "A1 (Riesa)",
+            "A2 (Riesa)",
+            "B (Riesa)",
+            "D (Riesa)",
             "E (Riesa)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 15
       }
     },
     {
@@ -101883,15 +101902,19 @@
         "city": "Spreetal (Kamenz)",
         "name_with_city": "Spreetal (Kamenz) Wohnlager II",
         "operators": [
+          "Cottbusverkehr GmbH",
           "RBO"
         ],
         "lines": {
           "Regionalbus": [
             "779",
             "781"
+          ],
+          "Bus": [
+            "800"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -108009,10 +108032,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411"
+            "411",
+            "Sv250"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {

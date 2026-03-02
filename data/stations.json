@@ -27893,10 +27893,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "161",
           "162"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:1178",
@@ -59473,13 +59474,14 @@
           "237",
           "241",
           "245",
+          "246",
           "207a"
         ],
         "Stadtbus": [
           "Z (Pirna)"
         ]
       },
-      "total_lines": 10
+      "total_lines": 11
     },
     {
       "id": "de:14628:3382",
@@ -64757,10 +64759,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "403"
+          "403",
+          "405"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4367",
@@ -67327,11 +67330,27 @@
         "VGM"
       ],
       "lines": {
+        "Regionalbus": [
+          "430",
+          "431",
+          "432",
+          "433",
+          "437",
+          "439",
+          "440",
+          "441",
+          "445",
+          "446"
+        ],
         "Stadtbus": [
+          "A1 (Riesa)",
+          "A2 (Riesa)",
+          "B (Riesa)",
+          "D (Riesa)",
           "E (Riesa)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 15
     },
     {
       "id": "de:14627:5506",
@@ -73744,15 +73763,19 @@
       "longitude": 14.327213,
       "latitude": 51.511188,
       "operators": [
+        "Cottbusverkehr GmbH",
         "RBO"
       ],
       "lines": {
         "Regionalbus": [
           "779",
           "781"
+        ],
+        "Bus": [
+          "800"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6883",
@@ -78126,10 +78149,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411"
+          "411",
+          "Sv250"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4151",
