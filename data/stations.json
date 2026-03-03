@@ -67631,11 +67631,14 @@
         "VGM"
       ],
       "lines": {
+        "Regionalbus": [
+          "432"
+        ],
         "Stadtbus": [
           "D (Riesa)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:5560",
