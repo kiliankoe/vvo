@@ -29,7 +29,7 @@ Total stations: 3916
 
 ## Stations by Transit Type
 
-- Regionalbus: 2711 stations
+- Regionalbus: 2710 stations
 - Stadtbus: 1278 stations
 - PlusBus: 646 stations
 - Anruflinienbus: 481 stations
@@ -39,7 +39,7 @@ Total stations: 3916
 - Zug: 105 stations
 - Taktbus: 75 stations
 - S-Bahn: 54 stations
-- Bus: 50 stations
+- Bus: 49 stations
 - Fähre: 31 stations
 - Stadtverkehr: 29 stations
 - Schülerlinie: 13 stations
@@ -50,7 +50,7 @@ Total stations: 3916
 
 ## Transit Operators
 
-- RVSOE: 1307 stations
+- RVSOE: 1308 stations
 - VGM: 1173 stations
 - DVB: 757 stations
 - RBO: 715 stations
@@ -65,8 +65,8 @@ Total stations: 3916
 - SDG: 24 stations
 - Mitteldeutsche Regiobahn: 24 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
-- Cottbusverkehr GmbH: 12 stations
 - trilex - Die Länderbahn GmbH DLB: 11 stations
+- Cottbusverkehr GmbH: 11 stations
 - DB Fernverkehr AG: 4 stations
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 3 stations
@@ -144,6 +144,7 @@ Total stations: 3916
 - Pirna Copitz Schulstraße: 12 lines
 - Pulsnitz Bahnhof: 12 lines
 - Riesa Goethestraße: 12 lines
+- Bischofswerda Schulstraße: 11 lines
 - Dresden Anton-/Leipziger Straße: 11 lines
 - Dresden Bünaustraße: 11 lines
 - Dresden Dahlienweg: 11 lines
@@ -157,7 +158,6 @@ Total stations: 3916
 - Großenhain Hohe Straße: 11 lines
 - Pirna Robert-Koch-Straße: 11 lines
 - Altenberg (Erzgebirge) Bahnhof: 10 lines
-- Bischofswerda Schulstraße: 10 lines
 - Dresden Budapester Straße: 10 lines
 - Dresden Coventrystraße: 10 lines
 - Dresden Hülßestraße: 10 lines

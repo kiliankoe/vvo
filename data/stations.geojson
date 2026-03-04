@@ -5393,16 +5393,15 @@
         "name_with_city": "Bischofswerda Schulstraße",
         "operators": [
           "Omnibusunternehmen Gottfried Beck",
-          "RBO"
+          "RBO",
+          "RVSOE"
         ],
         "lines": {
           "Stadtverkehr": [
             "24"
           ],
-          "PlusBus": [
-            "520"
-          ],
           "Regionalbus": [
+            "264",
             "733",
             "734",
             "735",
@@ -5411,9 +5410,12 @@
             "739",
             "747",
             "750"
+          ],
+          "PlusBus": [
+            "520"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -15362,8 +15364,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.734702,
-          51.094095
+          13.735717,
+          51.093565
         ]
       },
       "properties": {
@@ -93386,14 +93388,11 @@
           "VGM"
         ],
         "lines": {
-          "Regionalbus": [
-            "432"
-          ],
           "Stadtbus": [
             "D (Riesa)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -101905,19 +101904,15 @@
         "city": "Spreetal (Kamenz)",
         "name_with_city": "Spreetal (Kamenz) Wohnlager II",
         "operators": [
-          "Cottbusverkehr GmbH",
           "RBO"
         ],
         "lines": {
           "Regionalbus": [
             "779",
             "781"
-          ],
-          "Bus": [
-            "800"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {

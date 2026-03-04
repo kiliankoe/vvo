@@ -3878,16 +3878,15 @@
       "latitude": 51.131226,
       "operators": [
         "Omnibusunternehmen Gottfried Beck",
-        "RBO"
+        "RBO",
+        "RVSOE"
       ],
       "lines": {
         "Stadtverkehr": [
           "24"
         ],
-        "PlusBus": [
-          "520"
-        ],
         "Regionalbus": [
+          "264",
           "733",
           "734",
           "735",
@@ -3896,9 +3895,12 @@
           "739",
           "747",
           "750"
+        ],
+        "PlusBus": [
+          "520"
         ]
       },
-      "total_lines": 10
+      "total_lines": 11
     },
     {
       "id": "de:14625:7025",
@@ -11039,8 +11041,8 @@
       "name": "Am Hellerhof",
       "city": "Dresden",
       "name_with_city": "Dresden Am Hellerhof",
-      "longitude": 13.734702,
-      "latitude": 51.094095,
+      "longitude": 13.735717,
+      "latitude": 51.093565,
       "operators": [
         "DVB",
         "VGM"
@@ -67631,14 +67633,11 @@
         "VGM"
       ],
       "lines": {
-        "Regionalbus": [
-          "432"
-        ],
         "Stadtbus": [
           "D (Riesa)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:5560",
@@ -73766,19 +73765,15 @@
       "longitude": 14.327213,
       "latitude": 51.511188,
       "operators": [
-        "Cottbusverkehr GmbH",
         "RBO"
       ],
       "lines": {
         "Regionalbus": [
           "779",
           "781"
-        ],
-        "Bus": [
-          "800"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:6883",
