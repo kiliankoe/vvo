@@ -1207,7 +1207,6 @@
       "longitude": 14.138099,
       "latitude": 50.91927,
       "operators": [
-        "DB Fernverkehr AG",
         "DB Regio AG Südost",
         "RVSOE",
         "Österreichische Bundesbahnen"
@@ -56788,14 +56787,18 @@
       "longitude": 13.829743,
       "latitude": 51.17419,
       "operators": [
+        "DVB",
         "RBO"
       ],
       "lines": {
+        "Stadtbus": [
+          "78"
+        ],
         "Regionalbus": [
           "761"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:6605",
@@ -57001,14 +57004,18 @@
       "longitude": 13.830678,
       "latitude": 51.178887,
       "operators": [
+        "DVB",
         "RBO"
       ],
       "lines": {
+        "Stadtbus": [
+          "78"
+        ],
         "Regionalbus": [
           "761"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:6601",
@@ -61430,9 +61437,9 @@
     {
       "id": "de:14625:6432",
       "numeric_id": "33006432",
-      "name": "Ort",
+      "name": "Feuerwehr",
       "city": "Prietitz",
-      "name_with_city": "Prietitz Ort",
+      "name_with_city": "Prietitz Feuerwehr",
       "longitude": 14.133392,
       "latitude": 51.235612,
       "operators": [
@@ -70253,9 +70260,9 @@
     {
       "id": "de:14625:6382",
       "numeric_id": "33006382",
-      "name": "Abzw Dubring",
+      "name": "",
       "city": "Scheckthal",
-      "name_with_city": "Scheckthal Abzw Dubring",
+      "name_with_city": "Scheckthal",
       "longitude": 14.164725,
       "latitude": 51.37818,
       "operators": [
@@ -73765,15 +73772,19 @@
       "longitude": 14.327213,
       "latitude": 51.511188,
       "operators": [
+        "Cottbusverkehr GmbH",
         "RBO"
       ],
       "lines": {
         "Regionalbus": [
           "779",
           "781"
+        ],
+        "Bus": [
+          "800"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6883",
@@ -75659,9 +75670,9 @@
     {
       "id": "de:14625:6438",
       "numeric_id": "33006438",
-      "name": "Talpenberg",
+      "name": "Am Schwarzenberg",
       "city": "Talpenberg",
-      "name_with_city": "Talpenberg Talpenberg",
+      "name_with_city": "Talpenberg Am Schwarzenberg",
       "longitude": 14.117501,
       "latitude": 51.216799,
       "operators": [
@@ -76531,13 +76542,13 @@
       "total_lines": 1
     },
     {
-      "id": "de:14625:6378",
-      "numeric_id": "33006378",
-      "name": "Siedlung",
+      "id": "de:14625:6385",
+      "numeric_id": "33006385",
+      "name": "Dorfteich",
       "city": "Trado",
-      "name_with_city": "Trado Siedlung",
-      "longitude": 14.203326,
-      "latitude": 51.333958,
+      "name_with_city": "Trado Dorfteich",
+      "longitude": 14.201341,
+      "latitude": 51.340165,
       "operators": [
         "RBO"
       ],
@@ -76552,13 +76563,13 @@
       "total_lines": 2
     },
     {
-      "id": "de:14625:6385",
-      "numeric_id": "33006385",
-      "name": "Wendeplatz",
+      "id": "de:14625:6378",
+      "numeric_id": "33006378",
+      "name": "Siedlung",
       "city": "Trado",
-      "name_with_city": "Trado Wendeplatz",
-      "longitude": 14.201341,
-      "latitude": 51.340165,
+      "name_with_city": "Trado Siedlung",
+      "longitude": 14.203326,
+      "latitude": 51.333958,
       "operators": [
         "RBO"
       ],
@@ -79147,9 +79158,9 @@
     {
       "id": "de:14625:6390",
       "numeric_id": "33006390",
-      "name": "Ort",
+      "name": "Ortsmitte",
       "city": "Weißig (Oßling)",
-      "name_with_city": "Weißig (Oßling) Ort",
+      "name_with_city": "Weißig (Oßling) Ortsmitte",
       "longitude": 14.120771,
       "latitude": 51.350551,
       "operators": [

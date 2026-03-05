@@ -1674,7 +1674,6 @@
         "city": "Bad Schandau",
         "name_with_city": "Bad Schandau Nationalparkbahnhof",
         "operators": [
-          "DB Fernverkehr AG",
           "DB Regio AG Südost",
           "RVSOE",
           "Österreichische Bundesbahnen"
@@ -78367,14 +78366,18 @@
         "city": "Ottendorf-Okrilla",
         "name_with_city": "Ottendorf-Okrilla An den Erlwiesen",
         "operators": [
+          "DVB",
           "RBO"
         ],
         "lines": {
+          "Stadtbus": [
+            "78"
+          ],
           "Regionalbus": [
             "761"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -78668,14 +78671,18 @@
         "city": "Ottendorf-Okrilla",
         "name_with_city": "Ottendorf-Okrilla Geldroper Straße",
         "operators": [
+          "DVB",
           "RBO"
         ],
         "lines": {
+          "Stadtbus": [
+            "78"
+          ],
           "Regionalbus": [
             "761"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -84779,9 +84786,9 @@
       "properties": {
         "id": "de:14625:6432",
         "numeric_id": "33006432",
-        "name": "Ort",
+        "name": "Feuerwehr",
         "city": "Prietitz",
-        "name_with_city": "Prietitz Ort",
+        "name_with_city": "Prietitz Feuerwehr",
         "operators": [
           "RBO"
         ],
@@ -97018,9 +97025,9 @@
       "properties": {
         "id": "de:14625:6382",
         "numeric_id": "33006382",
-        "name": "Abzw Dubring",
+        "name": "",
         "city": "Scheckthal",
-        "name_with_city": "Scheckthal Abzw Dubring",
+        "name_with_city": "Scheckthal",
         "operators": [
           "RBO"
         ],
@@ -101904,15 +101911,19 @@
         "city": "Spreetal (Kamenz)",
         "name_with_city": "Spreetal (Kamenz) Wohnlager II",
         "operators": [
+          "Cottbusverkehr GmbH",
           "RBO"
         ],
         "lines": {
           "Regionalbus": [
             "779",
             "781"
+          ],
+          "Bus": [
+            "800"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -104560,9 +104571,9 @@
       "properties": {
         "id": "de:14625:6438",
         "numeric_id": "33006438",
-        "name": "Talpenberg",
+        "name": "Am Schwarzenberg",
         "city": "Talpenberg",
-        "name_with_city": "Talpenberg Talpenberg",
+        "name_with_city": "Talpenberg Am Schwarzenberg",
         "operators": [
           "RBO"
         ],
@@ -105763,16 +105774,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.203326,
-          51.333958
+          14.201341,
+          51.340165
         ]
       },
       "properties": {
-        "id": "de:14625:6378",
-        "numeric_id": "33006378",
-        "name": "Siedlung",
+        "id": "de:14625:6385",
+        "numeric_id": "33006385",
+        "name": "Dorfteich",
         "city": "Trado",
-        "name_with_city": "Trado Siedlung",
+        "name_with_city": "Trado Dorfteich",
         "operators": [
           "RBO"
         ],
@@ -105792,16 +105803,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.201341,
-          51.340165
+          14.203326,
+          51.333958
         ]
       },
       "properties": {
-        "id": "de:14625:6385",
-        "numeric_id": "33006385",
-        "name": "Wendeplatz",
+        "id": "de:14625:6378",
+        "numeric_id": "33006378",
+        "name": "Siedlung",
         "city": "Trado",
-        "name_with_city": "Trado Wendeplatz",
+        "name_with_city": "Trado Siedlung",
         "operators": [
           "RBO"
         ],
@@ -109424,9 +109435,9 @@
       "properties": {
         "id": "de:14625:6390",
         "numeric_id": "33006390",
-        "name": "Ort",
+        "name": "Ortsmitte",
         "city": "Weißig (Oßling)",
-        "name_with_city": "Weißig (Oßling) Ort",
+        "name_with_city": "Weißig (Oßling) Ortsmitte",
         "operators": [
           "RBO"
         ],
