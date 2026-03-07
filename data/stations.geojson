@@ -38329,11 +38329,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "161",
             "162"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -74015,9 +74014,12 @@
           ],
           "S-Bahn": [
             "S1"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -82086,14 +82088,13 @@
             "237",
             "241",
             "245",
-            "246",
             "207a"
           ],
           "Stadtbus": [
             "Z (Pirna)"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -89419,11 +89420,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "403",
-            "405"
+            "403"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -92983,15 +92983,6 @@
         ],
         "lines": {
           "Regionalbus": [
-            "430",
-            "431",
-            "432",
-            "433",
-            "437",
-            "439",
-            "440",
-            "441",
-            "445",
             "446"
           ],
           "Stadtbus": [
@@ -93002,7 +92993,7 @@
             "E (Riesa)"
           ]
         },
-        "total_lines": 15
+        "total_lines": 6
       }
     },
     {
@@ -108037,11 +108028,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411",
-            "Sv250"
+            "411"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -109212,8 +109202,7 @@
         "name_with_city": "Weißig (Dresden) Hutbergschule",
         "operators": [
           "DVB",
-          "Müller Busreisen",
-          "RVSOE"
+          "Müller Busreisen"
         ],
         "lines": {
           "Stadtbus": [
@@ -109223,12 +109212,9 @@
           ],
           "Regionalbus": [
             "229"
-          ],
-          "PlusBus": [
-            "261"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
