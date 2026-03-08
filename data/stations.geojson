@@ -74014,12 +74014,9 @@
           ],
           "S-Bahn": [
             "S1"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {

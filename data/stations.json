@@ -53627,12 +53627,9 @@
         ],
         "S-Bahn": [
           "S1"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:6848",
