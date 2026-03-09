@@ -31,7 +31,7 @@ Total stations: 3916
 
 - Regionalbus: 2710 stations
 - Stadtbus: 1280 stations
-- PlusBus: 646 stations
+- PlusBus: 647 stations
 - Anruflinienbus: 481 stations
 - Straßenbahn: 268 stations
 - Anruflinientaxi: 196 stations
@@ -50,7 +50,7 @@ Total stations: 3916
 
 ## Transit Operators
 
-- RVSOE: 1308 stations
+- RVSOE: 1309 stations
 - VGM: 1173 stations
 - DVB: 759 stations
 - RBO: 715 stations
@@ -110,6 +110,7 @@ Total stations: 3916
 - Meißen Uferstraße: 15 lines
 - Pirna Breite Straße: 15 lines
 - Radeberg Bahnhof: 15 lines
+- Riesa Kasernenstraße: 15 lines
 - Bad Schandau Nationalparkbahnhof: 14 lines
 - Dippoldiswalde Busbahnhof: 14 lines
 - Dresden Betriebshof Gorbitz: 14 lines
@@ -155,6 +156,7 @@ Total stations: 3916
 - Freital S-Bahnhof Hainsberg: 11 lines
 - Glashütte (Sachsen) Bahnhof / Busbahnhof: 11 lines
 - Großenhain Hohe Straße: 11 lines
+- Pirna Robert-Koch-Straße: 11 lines
 - Altenberg (Erzgebirge) Bahnhof: 10 lines
 - Dresden Budapester Straße: 10 lines
 - Dresden Coventrystraße: 10 lines
@@ -167,6 +169,5 @@ Total stations: 3916
 - Dresden Reichenbachstraße: 10 lines
 - Gompitz Gompitzer Höhe: 10 lines
 - Königswartha Kirchplatz: 10 lines
-- Pirna Robert-Koch-Straße: 10 lines
 - Sebnitz Bahnhof: 10 lines
 - Tharandt Bahnhof: 10 lines
