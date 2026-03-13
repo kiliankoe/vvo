@@ -1,6 +1,6 @@
 # VVO Station Data Summary
 
-Total stations: 3916
+Total stations: 3911
 
 ## Stations by City
 
@@ -29,15 +29,15 @@ Total stations: 3916
 
 ## Stations by Transit Type
 
-- Regionalbus: 2710 stations
+- Regionalbus: 2688 stations
 - Stadtbus: 1281 stations
-- PlusBus: 646 stations
+- PlusBus: 647 stations
 - Anruflinienbus: 481 stations
 - Straßenbahn: 268 stations
 - Anruflinientaxi: 196 stations
 - Ersatzverkehr: 107 stations
 - Zug: 105 stations
-- Taktbus: 75 stations
+- Taktbus: 102 stations
 - S-Bahn: 54 stations
 - Bus: 49 stations
 - Fähre: 31 stations
@@ -50,7 +50,7 @@ Total stations: 3916
 
 ## Transit Operators
 
-- RVSOE: 1308 stations
+- RVSOE: 1303 stations
 - VGM: 1173 stations
 - DVB: 759 stations
 - RBO: 715 stations
@@ -112,7 +112,6 @@ Total stations: 3916
 - Meißen Uferstraße: 15 lines
 - Pirna Breite Straße: 15 lines
 - Radeberg Bahnhof: 15 lines
-- Riesa Kasernenstraße: 15 lines
 - Bad Schandau Nationalparkbahnhof: 14 lines
 - Dippoldiswalde Busbahnhof: 14 lines
 - Dresden Betriebshof Gorbitz: 14 lines
@@ -159,6 +158,7 @@ Total stations: 3916
 - Großenhain Hohe Straße: 11 lines
 - Pirna Robert-Koch-Straße: 11 lines
 - Altenberg (Erzgebirge) Bahnhof: 10 lines
+- Bad Schandau Elbkai: 10 lines
 - Dresden Budapester Straße: 10 lines
 - Dresden Coventrystraße: 10 lines
 - Dresden Hugo-Bürkner-Straße: 10 lines

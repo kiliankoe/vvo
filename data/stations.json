@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3916,
+    "count": 3911,
     "format_version": "2.0"
   },
   "stations": [
@@ -1122,6 +1122,7 @@
           "241",
           "243",
           "244",
+          "251",
           "252",
           "253",
           "254"
@@ -1134,7 +1135,7 @@
           "F 5"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14628:3629",
@@ -2870,12 +2871,11 @@
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "263",
+        "Taktbus": [
           "264"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3870",
@@ -2889,12 +2889,11 @@
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "263",
+        "Taktbus": [
           "264"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3872",
@@ -2908,12 +2907,11 @@
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "263",
+        "Taktbus": [
           "264"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3873",
@@ -2927,7 +2925,7 @@
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
+        "Taktbus": [
           "264"
         ]
       },
@@ -3352,8 +3350,10 @@
         "Stadtverkehr": [
           "24"
         ],
+        "Taktbus": [
+          "264"
+        ],
         "Regionalbus": [
-          "264",
           "734",
           "736",
           "738",
@@ -3381,8 +3381,14 @@
         "Stadtverkehr": [
           "24"
         ],
+        "Taktbus": [
+          "264"
+        ],
+        "PlusBus": [
+          "520",
+          "535"
+        ],
         "Regionalbus": [
-          "264",
           "723",
           "733",
           "734",
@@ -3393,10 +3399,6 @@
           "747",
           "748",
           "750"
-        ],
-        "PlusBus": [
-          "520",
-          "535"
         ],
         "Zug": [
           "RB60",
@@ -3823,8 +3825,10 @@
         "Stadtverkehr": [
           "24"
         ],
+        "Taktbus": [
+          "264"
+        ],
         "Regionalbus": [
-          "264",
           "733",
           "736"
         ]
@@ -3884,8 +3888,13 @@
         "Stadtverkehr": [
           "24"
         ],
+        "Taktbus": [
+          "264"
+        ],
+        "PlusBus": [
+          "520"
+        ],
         "Regionalbus": [
-          "264",
           "733",
           "734",
           "735",
@@ -3894,9 +3903,6 @@
           "739",
           "747",
           "750"
-        ],
-        "PlusBus": [
-          "520"
         ]
       },
       "total_lines": 11
@@ -3976,8 +3982,10 @@
         "Stadtverkehr": [
           "24"
         ],
+        "Taktbus": [
+          "264"
+        ],
         "Regionalbus": [
-          "264",
           "733",
           "736"
         ]
@@ -8202,7 +8210,9 @@
         "Regionalbus": [
           "235",
           "236",
-          "237",
+          "237"
+        ],
+        "Taktbus": [
           "264"
         ]
       },
@@ -8223,7 +8233,9 @@
         "Regionalbus": [
           "235",
           "236",
-          "237",
+          "237"
+        ],
+        "Taktbus": [
           "264"
         ]
       },
@@ -25395,7 +25407,9 @@
         "Regionalbus": [
           "235",
           "236",
-          "237",
+          "237"
+        ],
+        "Taktbus": [
           "264"
         ]
       },
@@ -25416,7 +25430,9 @@
         "Regionalbus": [
           "235",
           "236",
-          "237",
+          "237"
+        ],
+        "Taktbus": [
           "264"
         ]
       },
@@ -25437,10 +25453,10 @@
         "Regionalbus": [
           "235",
           "236",
-          "237",
-          "264"
+          "237"
         ],
         "Taktbus": [
+          "264",
           "267"
         ]
       },
@@ -36165,7 +36181,9 @@
           "235",
           "236",
           "237",
-          "254",
+          "254"
+        ],
+        "Taktbus": [
           "264"
         ]
       },
@@ -36187,7 +36205,9 @@
           "235",
           "236",
           "237",
-          "254",
+          "254"
+        ],
+        "Taktbus": [
           "264"
         ]
       },
@@ -36305,7 +36325,9 @@
         "Regionalbus": [
           "235",
           "236",
-          "237",
+          "237"
+        ],
+        "Taktbus": [
           "264"
         ]
       },
@@ -43371,101 +43393,8 @@
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "263"
-        ],
         "Taktbus": [
           "267"
-        ]
-      },
-      "total_lines": 2
-    },
-    {
-      "id": "de:14628:3855",
-      "numeric_id": "33003855",
-      "name": "Alte Schule",
-      "city": "Langburkersdorf",
-      "name_with_city": "Langburkersdorf Alte Schule",
-      "longitude": 14.251943,
-      "latitude": 51.026841,
-      "operators": [
-        "RVSOE"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "263"
-        ]
-      },
-      "total_lines": 1
-    },
-    {
-      "id": "de:14628:3853",
-      "numeric_id": "33003853",
-      "name": "Bergstraße",
-      "city": "Langburkersdorf",
-      "name_with_city": "Langburkersdorf Bergstraße",
-      "longitude": 14.23907,
-      "latitude": 51.023779,
-      "operators": [
-        "RVSOE"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "263"
-        ]
-      },
-      "total_lines": 1
-    },
-    {
-      "id": "de:14628:3856",
-      "numeric_id": "33003856",
-      "name": "Birnstein",
-      "city": "Langburkersdorf",
-      "name_with_city": "Langburkersdorf Birnstein",
-      "longitude": 14.259003,
-      "latitude": 51.023242,
-      "operators": [
-        "RVSOE"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "263"
-        ]
-      },
-      "total_lines": 1
-    },
-    {
-      "id": "de:14628:3854",
-      "numeric_id": "33003854",
-      "name": "Quelle",
-      "city": "Langburkersdorf",
-      "name_with_city": "Langburkersdorf Quelle",
-      "longitude": 14.245089,
-      "latitude": 51.025903,
-      "operators": [
-        "RVSOE"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "263"
-        ]
-      },
-      "total_lines": 1
-    },
-    {
-      "id": "de:14628:3857",
-      "numeric_id": "33003857",
-      "name": "Raupenberg",
-      "city": "Langburkersdorf",
-      "name_with_city": "Langburkersdorf Raupenberg",
-      "longitude": 14.262731,
-      "latitude": 51.019682,
-      "operators": [
-        "RVSOE"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "263"
         ]
       },
       "total_lines": 1
@@ -43485,14 +43414,11 @@
         "PlusBus": [
           "261"
         ],
-        "Regionalbus": [
-          "263"
-        ],
         "Taktbus": [
           "267"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:3851",
@@ -43508,12 +43434,9 @@
       "lines": {
         "PlusBus": [
           "261"
-        ],
-        "Regionalbus": [
-          "263"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:6681",
@@ -43965,14 +43888,13 @@
       "lines": {
         "Regionalbus": [
           "234",
-          "263",
           "263 b"
         ],
         "PlusBus": [
           "261"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14628:3828",
@@ -53083,14 +53005,13 @@
       "lines": {
         "Regionalbus": [
           "234",
-          "263",
           "263 b"
         ],
         "PlusBus": [
           "261"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14628:3901",
@@ -53125,14 +53046,13 @@
       "lines": {
         "Regionalbus": [
           "234",
-          "263",
-          "264",
           "263 b"
         ],
         "PlusBus": [
           "261"
         ],
         "Taktbus": [
+          "264",
           "267"
         ],
         "Zug": [
@@ -53142,7 +53062,7 @@
           "SEV"
         ]
       },
-      "total_lines": 8
+      "total_lines": 7
     },
     {
       "id": "de:14628:3893",
@@ -53156,12 +53076,12 @@
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "264",
-          "263 b"
-        ],
         "Taktbus": [
+          "264",
           "267"
+        ],
+        "Regionalbus": [
+          "263 b"
         ]
       },
       "total_lines": 3
@@ -53196,16 +53116,15 @@
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "263",
-          "264",
-          "263 b"
-        ],
         "Taktbus": [
+          "264",
           "267"
+        ],
+        "Regionalbus": [
+          "263 b"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14628:3895",
@@ -53275,15 +53194,16 @@
       "lines": {
         "Regionalbus": [
           "234",
-          "263",
-          "264",
           "263 b"
         ],
         "PlusBus": [
           "261"
+        ],
+        "Taktbus": [
+          "264"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14628:3887",
@@ -53297,13 +53217,14 @@
         "RVSOE"
       ],
       "lines": {
+        "Taktbus": [
+          "264"
+        ],
         "Regionalbus": [
-          "263",
-          "264",
           "263 b"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:3898",
@@ -53319,14 +53240,13 @@
       "lines": {
         "Regionalbus": [
           "234",
-          "263",
           "263 b"
         ],
         "Taktbus": [
           "267"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14628:3892",
@@ -53340,10 +53260,8 @@
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "264"
-        ],
         "Taktbus": [
+          "264",
           "267"
         ]
       },
@@ -53363,14 +53281,13 @@
       "lines": {
         "Regionalbus": [
           "234",
-          "263",
           "263 b"
         ],
         "Taktbus": [
           "267"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14628:3863",
@@ -53440,14 +53357,13 @@
       "lines": {
         "Regionalbus": [
           "234",
-          "263",
           "263 b"
         ],
         "Taktbus": [
           "267"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14628:3889",
@@ -53463,18 +53379,17 @@
       "lines": {
         "Regionalbus": [
           "234",
-          "263",
-          "264",
           "263 b"
         ],
         "PlusBus": [
           "261"
         ],
         "Taktbus": [
+          "264",
           "267"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14628:3884",
@@ -53488,8 +53403,10 @@
         "RVSOE"
       ],
       "lines": {
+        "Taktbus": [
+          "264"
+        ],
         "Regionalbus": [
-          "264",
           "263 b"
         ]
       },
@@ -53563,18 +53480,17 @@
       "lines": {
         "Regionalbus": [
           "234",
-          "263",
-          "264",
           "263 b"
         ],
         "PlusBus": [
           "261"
         ],
         "Taktbus": [
+          "264",
           "267"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14627:4198",
@@ -54089,12 +54005,11 @@
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "263",
+        "Taktbus": [
           "264"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3874",
@@ -54108,12 +54023,11 @@
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "263",
+        "Taktbus": [
           "264"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3330",
@@ -55699,12 +55613,11 @@
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "263",
+        "Taktbus": [
           "264"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3878",
@@ -55718,12 +55631,11 @@
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "263",
+        "Taktbus": [
           "264"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4866",
@@ -60486,14 +60398,13 @@
       "lines": {
         "Regionalbus": [
           "234",
-          "263",
           "263 b"
         ],
         "PlusBus": [
           "261"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14628:3917",
@@ -60509,14 +60420,13 @@
       "lines": {
         "Regionalbus": [
           "234",
-          "263",
           "263 b"
         ],
         "PlusBus": [
           "261"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14628:3916",
@@ -60532,14 +60442,13 @@
       "lines": {
         "Regionalbus": [
           "234",
-          "263",
           "263 b"
         ],
         "PlusBus": [
           "261"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14627:5310",
@@ -62064,7 +61973,7 @@
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
+        "Taktbus": [
           "264"
         ]
       },
@@ -62102,8 +62011,10 @@
         "RVSOE"
       ],
       "lines": {
+        "Taktbus": [
+          "264"
+        ],
         "Regionalbus": [
-          "264",
           "733",
           "736"
         ]
@@ -62122,7 +62033,7 @@
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
+        "Taktbus": [
           "264"
         ]
       },
@@ -64809,11 +64720,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "403",
-          "405"
+          "403"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4367",
@@ -67383,24 +67293,17 @@
         "Regionalbus": [
           "430",
           "431",
-          "432",
-          "433",
-          "437",
           "439",
           "440",
           "441",
-          "445",
           "446"
         ],
         "Stadtbus": [
-          "A1 (Riesa)",
-          "A2 (Riesa)",
           "B (Riesa)",
-          "D (Riesa)",
           "E (Riesa)"
         ]
       },
-      "total_lines": 15
+      "total_lines": 8
     },
     {
       "id": "de:14627:5506",
@@ -69076,12 +68979,9 @@
       "lines": {
         "PlusBus": [
           "261"
-        ],
-        "Regionalbus": [
-          "263"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:1640",
@@ -69679,11 +69579,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "263",
           "263 b"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3867",
@@ -69697,12 +69596,11 @@
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "263",
+        "Taktbus": [
           "264"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3868",
@@ -69712,15 +69610,9 @@
       "name_with_city": "Rückersdorf (Neustadt in Sachsen) Kirchstraße",
       "longitude": 14.171525,
       "latitude": 51.052045,
-      "operators": [
-        "RVSOE"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "263"
-        ]
-      },
-      "total_lines": 1
+      "operators": [],
+      "lines": {},
+      "total_lines": 0
     },
     {
       "id": "de:14627:4790",
@@ -78196,11 +78088,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411",
-          "Sv250"
+          "411"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4151",
@@ -79043,7 +78934,8 @@
       "latitude": 51.05886,
       "operators": [
         "DVB",
-        "Müller Busreisen"
+        "Müller Busreisen",
+        "RVSOE"
       ],
       "lines": {
         "Stadtbus": [
@@ -79053,9 +78945,12 @@
         ],
         "Regionalbus": [
           "229"
+        ],
+        "PlusBus": [
+          "261"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:3778",
@@ -80634,11 +80529,10 @@
           "445"
         ],
         "Regionalbus": [
-          "445",
-          "Sv120"
+          "445"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:5856",
