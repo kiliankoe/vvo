@@ -38386,11 +38386,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "161",
             "162"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -74155,13 +74154,14 @@
           ],
           "Zug": [
             "RB31",
+            "RE15",
             "RE50"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -81999,14 +81999,13 @@
             "237",
             "241",
             "245",
-            "246",
             "207a"
           ],
           "Stadtbus": [
             "Z (Pirna)"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -84040,18 +84039,14 @@
         "city": "Postelwitz",
         "name_with_city": "Postelwitz Fährstelle",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Fähre": [
             "F 3"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -84070,14 +84065,18 @@
         "city": "Postelwitz",
         "name_with_city": "Postelwitz Postelwitz",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "252"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -92894,19 +92893,17 @@
         ],
         "lines": {
           "Regionalbus": [
-            "430",
-            "431",
-            "439",
-            "440",
-            "441",
             "446"
           ],
           "Stadtbus": [
+            "A1 (Riesa)",
+            "A2 (Riesa)",
             "B (Riesa)",
+            "D (Riesa)",
             "E (Riesa)"
           ]
         },
-        "total_lines": 8
+        "total_lines": 6
       }
     },
     {
@@ -100515,9 +100512,12 @@
         "lines": {
           "Zug": [
             "RB45"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -100546,9 +100546,12 @@
           "Regionalbus": [
             "431",
             "443"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -102404,9 +102407,12 @@
           ],
           "Zug": [
             "RB45"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -109105,8 +109111,7 @@
         "name_with_city": "Weißig (Dresden) Hutbergschule",
         "operators": [
           "DVB",
-          "Müller Busreisen",
-          "RVSOE"
+          "Müller Busreisen"
         ],
         "lines": {
           "Stadtbus": [
@@ -109116,12 +109121,9 @@
           ],
           "Regionalbus": [
             "229"
-          ],
-          "PlusBus": [
-            "261"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {

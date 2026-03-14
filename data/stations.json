@@ -27951,11 +27951,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "161",
           "162"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:1178",
@@ -53744,13 +53743,14 @@
         ],
         "Zug": [
           "RB31",
+          "RE15",
           "RE50"
         ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14627:4122",
@@ -59436,14 +59436,13 @@
           "237",
           "241",
           "245",
-          "246",
           "207a"
         ],
         "Stadtbus": [
           "Z (Pirna)"
         ]
       },
-      "total_lines": 11
+      "total_lines": 10
     },
     {
       "id": "de:14628:3382",
@@ -60917,18 +60916,14 @@
       "longitude": 14.16778,
       "latitude": 50.914094,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
         "Fähre": [
           "F 3"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3628",
@@ -60939,14 +60934,18 @@
       "longitude": 14.172702,
       "latitude": 50.913273,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "252"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3641",
@@ -67291,19 +67290,17 @@
       ],
       "lines": {
         "Regionalbus": [
-          "430",
-          "431",
-          "439",
-          "440",
-          "441",
           "446"
         ],
         "Stadtbus": [
+          "A1 (Riesa)",
+          "A2 (Riesa)",
           "B (Riesa)",
+          "D (Riesa)",
           "E (Riesa)"
         ]
       },
-      "total_lines": 8
+      "total_lines": 6
     },
     {
       "id": "de:14627:5506",
@@ -72792,9 +72789,12 @@
       "lines": {
         "Zug": [
           "RB45"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:5951",
@@ -72815,9 +72815,12 @@
         "Regionalbus": [
           "431",
           "443"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14627:5952",
@@ -74137,9 +74140,12 @@
         ],
         "Zug": [
           "RB45"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14627:5981",
@@ -78934,8 +78940,7 @@
       "latitude": 51.05886,
       "operators": [
         "DVB",
-        "Müller Busreisen",
-        "RVSOE"
+        "Müller Busreisen"
       ],
       "lines": {
         "Stadtbus": [
@@ -78945,12 +78950,9 @@
         ],
         "Regionalbus": [
           "229"
-        ],
-        "PlusBus": [
-          "261"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:3778",
