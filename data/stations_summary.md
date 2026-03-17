@@ -31,7 +31,7 @@ Total stations: 3911
 
 - Regionalbus: 2688 stations
 - Stadtbus: 1281 stations
-- PlusBus: 649 stations
+- PlusBus: 648 stations
 - Anruflinienbus: 481 stations
 - Straßenbahn: 268 stations
 - Anruflinientaxi: 196 stations
@@ -50,7 +50,7 @@ Total stations: 3911
 
 ## Transit Operators
 
-- RVSOE: 1303 stations
+- RVSOE: 1302 stations
 - VGM: 1173 stations
 - DVB: 759 stations
 - RBO: 715 stations
