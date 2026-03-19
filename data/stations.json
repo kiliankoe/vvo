@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3908,
+    "count": 3909,
     "format_version": "2.0"
   },
   "stations": [
@@ -999,14 +999,15 @@
         "RVSOE"
       ],
       "lines": {
+        "Regionalbus": [
+          "216",
+          "247"
+        ],
         "PlusBus": [
           "219"
-        ],
-        "Regionalbus": [
-          "247"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3245",
@@ -10248,9 +10249,12 @@
       "lines": {
         "Straßenbahn": [
           "13"
+        ],
+        "Stadtbus": [
+          "EV 13"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:532",
@@ -10333,6 +10337,7 @@
       "lines": {
         "Straßenbahn": [
           "11",
+          "13",
           "3",
           "41",
           "6",
@@ -10345,7 +10350,7 @@
           "477"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14612:202",
@@ -11336,10 +11341,12 @@
         "Straßenbahn": [
           "11",
           "2",
-          "4"
+          "4",
+          "7",
+          "9"
         ]
       },
-      "total_lines": 3
+      "total_lines": 5
     },
     {
       "id": "de:14612:334",
@@ -11584,10 +11591,12 @@
           "4",
           "41",
           "6",
+          "7",
+          "8",
           "9"
         ]
       },
-      "total_lines": 8
+      "total_lines": 10
     },
     {
       "id": "de:14612:280",
@@ -11811,8 +11820,10 @@
           "11",
           "2",
           "3",
+          "4",
           "41",
           "6",
+          "7",
           "9"
         ],
         "Stadtbus": [
@@ -11837,7 +11848,7 @@
           "SEV"
         ]
       },
-      "total_lines": 21
+      "total_lines": 23
     },
     {
       "id": "de:14612:16",
@@ -11861,6 +11872,7 @@
       "lines": {
         "Straßenbahn": [
           "11",
+          "13",
           "3",
           "41",
           "6",
@@ -11899,7 +11911,7 @@
           "SEV"
         ]
       },
-      "total_lines": 25
+      "total_lines": 26
     },
     {
       "id": "de:14612:198",
@@ -11917,6 +11929,7 @@
         "Straßenbahn": [
           "10",
           "11",
+          "13",
           "2",
           "3",
           "4",
@@ -11930,7 +11943,7 @@
           "477"
         ]
       },
-      "total_lines": 11
+      "total_lines": 12
     },
     {
       "id": "de:14612:943",
@@ -12275,13 +12288,14 @@
           "70",
           "73",
           "80",
-          "81"
+          "81",
+          "EV 13"
         ],
         "Anruflinientaxi": [
           "alita 73"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14612:183",
@@ -12337,9 +12351,12 @@
         ],
         "PlusBus": [
           "477"
+        ],
+        "Stadtbus": [
+          "EV 13"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:43",
@@ -13741,11 +13758,12 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "3",
           "41",
           "6"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:588",
@@ -14443,9 +14461,12 @@
         ],
         "PlusBus": [
           "477"
+        ],
+        "Stadtbus": [
+          "EV 13"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:78",
@@ -15130,6 +15151,7 @@
         "Straßenbahn": [
           "10",
           "11",
+          "13",
           "2",
           "3",
           "4",
@@ -15149,7 +15171,7 @@
           "478"
         ]
       },
-      "total_lines": 13
+      "total_lines": 14
     },
     {
       "id": "de:14612:237",
@@ -16911,6 +16933,24 @@
       "total_lines": 1
     },
     {
+      "id": "de:14612:289",
+      "numeric_id": "33000289",
+      "name": "Kamenzer Straße",
+      "city": "Dresden",
+      "name_with_city": "Dresden Kamenzer Straße",
+      "longitude": 13.759962,
+      "latitude": 51.070134,
+      "operators": [
+        "DVB"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "EV 13"
+        ]
+      },
+      "total_lines": 1
+    },
+    {
       "id": "de:14612:685",
       "numeric_id": "33000685",
       "name": "Kapellenweg",
@@ -17417,10 +17457,11 @@
           "4",
           "41",
           "6",
+          "7",
           "9"
         ]
       },
-      "total_lines": 8
+      "total_lines": 9
     },
     {
       "id": "de:14612:623",
@@ -18238,7 +18279,8 @@
           "9"
         ],
         "Stadtbus": [
-          "81"
+          "81",
+          "EV 13"
         ],
         "PlusBus": [
           "477"
@@ -18250,7 +18292,7 @@
           "alita 81"
         ]
       },
-      "total_lines": 15
+      "total_lines": 16
     },
     {
       "id": "de:14612:935",
@@ -18444,6 +18486,7 @@
         "Straßenbahn": [
           "10",
           "11",
+          "13",
           "2",
           "3",
           "4",
@@ -18454,7 +18497,7 @@
           "9"
         ]
       },
-      "total_lines": 10
+      "total_lines": 11
     },
     {
       "id": "de:14612:634",
@@ -19844,11 +19887,14 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "3",
           "4",
+          "7",
+          "8",
           "9"
         ]
       },
-      "total_lines": 2
+      "total_lines": 5
     },
     {
       "id": "de:14612:173",
@@ -21212,11 +21258,14 @@
         "PlusBus": [
           "477"
         ],
+        "Stadtbus": [
+          "EV 13"
+        ],
         "S-Bahn": [
           "S1"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14612:919",
@@ -22112,14 +22161,17 @@
       "lines": {
         "Straßenbahn": [
           "1",
+          "11",
           "2",
+          "4",
+          "7",
           "9"
         ],
         "Stadtbus": [
           "68"
         ]
       },
-      "total_lines": 4
+      "total_lines": 7
     },
     {
       "id": "de:14612:300",
@@ -22855,9 +22907,12 @@
         "Straßenbahn": [
           "7",
           "8"
+        ],
+        "Stadtbus": [
+          "EV 13"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:772",
@@ -23199,7 +23254,8 @@
           "64",
           "70",
           "73",
-          "80"
+          "80",
+          "EV 13"
         ],
         "PlusBus": [
           "477"
@@ -23209,7 +23265,7 @@
           "alita 76"
         ]
       },
-      "total_lines": 18
+      "total_lines": 19
     },
     {
       "id": "de:14612:127",
@@ -23688,11 +23744,12 @@
         "Straßenbahn": [
           "1",
           "10",
+          "3",
           "4",
           "7"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:309",
@@ -23942,10 +23999,14 @@
       ],
       "lines": {
         "Stadtbus": [
+          "63",
           "66"
+        ],
+        "Anruflinientaxi": [
+          "alita 63"
         ]
       },
-      "total_lines": 1
+      "total_lines": 3
     },
     {
       "id": "de:14612:295",
@@ -24270,9 +24331,12 @@
           "7",
           "8",
           "9"
+        ],
+        "Stadtbus": [
+          "EV 13"
         ]
       },
-      "total_lines": 11
+      "total_lines": 12
     },
     {
       "id": "de:14612:312",
@@ -32837,7 +32901,6 @@
       "longitude": 13.44257,
       "latitude": 51.412208,
       "operators": [
-        "Mitteldeutsche Regiobahn",
         "VGM"
       ],
       "lines": {
@@ -32850,12 +32913,9 @@
           "440",
           "461",
           "462"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 7
+      "total_lines": 6
     },
     {
       "id": "de:14627:5781",

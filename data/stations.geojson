@@ -1394,14 +1394,15 @@
           "RVSOE"
         ],
         "lines": {
+          "Regionalbus": [
+            "216",
+            "247"
+          ],
           "PlusBus": [
             "219"
-          ],
-          "Regionalbus": [
-            "247"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -14283,9 +14284,12 @@
         "lines": {
           "Straßenbahn": [
             "13"
+          ],
+          "Stadtbus": [
+            "EV 13"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -14400,6 +14404,7 @@
         "lines": {
           "Straßenbahn": [
             "11",
+            "13",
             "3",
             "41",
             "6",
@@ -14412,7 +14417,7 @@
             "477"
           ]
         },
-        "total_lines": 9
+        "total_lines": 10
       }
     },
     {
@@ -15771,10 +15776,12 @@
           "Straßenbahn": [
             "11",
             "2",
-            "4"
+            "4",
+            "7",
+            "9"
           ]
         },
-        "total_lines": 3
+        "total_lines": 5
       }
     },
     {
@@ -16107,10 +16114,12 @@
             "4",
             "41",
             "6",
+            "7",
+            "8",
             "9"
           ]
         },
-        "total_lines": 8
+        "total_lines": 10
       }
     },
     {
@@ -16406,8 +16415,10 @@
             "11",
             "2",
             "3",
+            "4",
             "41",
             "6",
+            "7",
             "9"
           ],
           "Stadtbus": [
@@ -16432,7 +16443,7 @@
             "SEV"
           ]
         },
-        "total_lines": 21
+        "total_lines": 23
       }
     },
     {
@@ -16464,6 +16475,7 @@
         "lines": {
           "Straßenbahn": [
             "11",
+            "13",
             "3",
             "41",
             "6",
@@ -16502,7 +16514,7 @@
             "SEV"
           ]
         },
-        "total_lines": 25
+        "total_lines": 26
       }
     },
     {
@@ -16528,6 +16540,7 @@
           "Straßenbahn": [
             "10",
             "11",
+            "13",
             "2",
             "3",
             "4",
@@ -16541,7 +16554,7 @@
             "477"
           ]
         },
-        "total_lines": 11
+        "total_lines": 12
       }
     },
     {
@@ -17014,13 +17027,14 @@
             "70",
             "73",
             "80",
-            "81"
+            "81",
+            "EV 13"
           ],
           "Anruflinientaxi": [
             "alita 73"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -17100,9 +17114,12 @@
           ],
           "PlusBus": [
             "477"
+          ],
+          "Stadtbus": [
+            "EV 13"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -19016,11 +19033,12 @@
         ],
         "lines": {
           "Straßenbahn": [
+            "3",
             "41",
             "6"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -19974,9 +19992,12 @@
           ],
           "PlusBus": [
             "477"
+          ],
+          "Stadtbus": [
+            "EV 13"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -20933,6 +20954,7 @@
           "Straßenbahn": [
             "10",
             "11",
+            "13",
             "2",
             "3",
             "4",
@@ -20952,7 +20974,7 @@
             "478"
           ]
         },
-        "total_lines": 13
+        "total_lines": 14
       }
     },
     {
@@ -23367,6 +23389,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.759962,
+          51.070134
+        ]
+      },
+      "properties": {
+        "id": "de:14612:289",
+        "numeric_id": "33000289",
+        "name": "Kamenzer Straße",
+        "city": "Dresden",
+        "name_with_city": "Dresden Kamenzer Straße",
+        "operators": [
+          "DVB"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "EV 13"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.666448,
           51.04001
         ]
@@ -24060,10 +24108,11 @@
             "4",
             "41",
             "6",
+            "7",
             "9"
           ]
         },
-        "total_lines": 8
+        "total_lines": 9
       }
     },
     {
@@ -25169,7 +25218,8 @@
             "9"
           ],
           "Stadtbus": [
-            "81"
+            "81",
+            "EV 13"
           ],
           "PlusBus": [
             "477"
@@ -25181,7 +25231,7 @@
             "alita 81"
           ]
         },
-        "total_lines": 15
+        "total_lines": 16
       }
     },
     {
@@ -25447,6 +25497,7 @@
           "Straßenbahn": [
             "10",
             "11",
+            "13",
             "2",
             "3",
             "4",
@@ -25457,7 +25508,7 @@
             "9"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -27383,11 +27434,14 @@
         ],
         "lines": {
           "Straßenbahn": [
+            "3",
             "4",
+            "7",
+            "8",
             "9"
           ]
         },
-        "total_lines": 2
+        "total_lines": 5
       }
     },
     {
@@ -29231,11 +29285,14 @@
           "PlusBus": [
             "477"
           ],
+          "Stadtbus": [
+            "EV 13"
+          ],
           "S-Bahn": [
             "S1"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -30419,14 +30476,17 @@
         "lines": {
           "Straßenbahn": [
             "1",
+            "11",
             "2",
+            "4",
+            "7",
             "9"
           ],
           "Stadtbus": [
             "68"
           ]
         },
-        "total_lines": 4
+        "total_lines": 7
       }
     },
     {
@@ -31442,9 +31502,12 @@
           "Straßenbahn": [
             "7",
             "8"
+          ],
+          "Stadtbus": [
+            "EV 13"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -31898,7 +31961,8 @@
             "64",
             "70",
             "73",
-            "80"
+            "80",
+            "EV 13"
           ],
           "PlusBus": [
             "477"
@@ -31908,7 +31972,7 @@
             "alita 76"
           ]
         },
-        "total_lines": 18
+        "total_lines": 19
       }
     },
     {
@@ -32555,11 +32619,12 @@
           "Straßenbahn": [
             "1",
             "10",
+            "3",
             "4",
             "7"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -32905,10 +32970,14 @@
         ],
         "lines": {
           "Stadtbus": [
+            "63",
             "66"
+          ],
+          "Anruflinientaxi": [
+            "alita 63"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {
@@ -33361,9 +33430,12 @@
             "7",
             "8",
             "9"
+          ],
+          "Stadtbus": [
+            "EV 13"
           ]
         },
-        "total_lines": 11
+        "total_lines": 12
       }
     },
     {
@@ -45248,7 +45320,6 @@
         "city": "Gröditz (bei Riesa)",
         "name_with_city": "Gröditz (bei Riesa) Busbahnhof",
         "operators": [
-          "Mitteldeutsche Regiobahn",
           "VGM"
         ],
         "lines": {
@@ -45261,12 +45332,9 @@
             "440",
             "461",
             "462"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
