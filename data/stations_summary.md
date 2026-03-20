@@ -30,11 +30,11 @@ Total stations: 3909
 ## Stations by Transit Type
 
 - Regionalbus: 2680 stations
-- Stadtbus: 1280 stations
+- Stadtbus: 1279 stations
 - PlusBus: 645 stations
 - Anruflinienbus: 481 stations
 - Straßenbahn: 267 stations
-- Anruflinientaxi: 194 stations
+- Anruflinientaxi: 196 stations
 - Ersatzverkehr: 109 stations
 - Zug: 102 stations
 - Taktbus: 102 stations
@@ -52,7 +52,7 @@ Total stations: 3909
 
 - RVSOE: 1301 stations
 - VGM: 1172 stations
-- DVB: 758 stations
+- DVB: 757 stations
 - RBO: 714 stations
 - DB Regio AG Südost: 115 stations
 - VGH: 81 stations
@@ -72,7 +72,6 @@ Total stations: 3909
 - Ostdeutsche Eisenbahn GmbH: 3 stations
 - FlixTrain: 2 stations
 - Nordsachsen Mobil: 2 stations
-- DB Regio AG NRW: 1 stations
 - Omnibusbetrieb Siegfried Wilhelm: 1 stations
 
 ## Major Transit Hubs (10+ lines)
@@ -124,7 +123,6 @@ Total stations: 3909
 - Meißen Talbad: 14 lines
 - Dresden Bahnhof Klotzsche: 13 lines
 - Dresden Pirnaischer Platz: 13 lines
-- Dresden Prager Straße: 13 lines
 - Dresden S-Bahnhof Niedersedlitz: 13 lines
 - Kamenz Flugplatz: 13 lines
 - Nossen Markt: 13 lines
@@ -134,6 +132,7 @@ Total stations: 3909
 - Dresden Bahnhof Neustadt (Hansastraße): 12 lines
 - Dresden Julius-Vahlteich-Straße: 12 lines
 - Dresden Lennéplatz: 12 lines
+- Dresden Prager Straße: 12 lines
 - Dresden Zeithainer Straße: 12 lines
 - Pirna Copitz Schulstraße: 12 lines
 - Pulsnitz Bahnhof: 12 lines
@@ -158,6 +157,5 @@ Total stations: 3909
 - Dresden Reichenbachstraße: 10 lines
 - Dresden S-Bf. Freiberger Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
-- Pirna Robert-Koch-Straße: 10 lines
 - Sebnitz Bahnhof: 10 lines
 - Tharandt Bahnhof: 10 lines
