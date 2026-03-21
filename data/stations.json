@@ -1206,6 +1206,7 @@
       "latitude": 50.91927,
       "operators": [
         "DB Regio AG Südost",
+        "European Sleeper",
         "RVSOE",
         "Österreichische Bundesbahnen"
       ],
@@ -15507,6 +15508,7 @@
         "DB Fernverkehr AG",
         "DB Regio AG Südost",
         "DVB",
+        "European Sleeper",
         "FlixTrain",
         "Mitteldeutsche Regiobahn",
         "RVSOE",
@@ -32895,6 +32897,7 @@
       "longitude": 13.44257,
       "latitude": 51.412208,
       "operators": [
+        "Mitteldeutsche Regiobahn",
         "VGM"
       ],
       "lines": {
@@ -32907,9 +32910,12 @@
           "440",
           "461",
           "462"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14627:5781",
@@ -67084,15 +67090,6 @@
       ],
       "lines": {
         "Regionalbus": [
-          "430",
-          "431",
-          "432",
-          "433",
-          "437",
-          "439",
-          "440",
-          "441",
-          "445",
           "446"
         ],
         "Stadtbus": [
@@ -67103,7 +67100,7 @@
           "E (Riesa)"
         ]
       },
-      "total_lines": 15
+      "total_lines": 6
     },
     {
       "id": "de:14627:5506",
@@ -77897,11 +77894,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411",
-          "Sv250"
+          "411"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4151",

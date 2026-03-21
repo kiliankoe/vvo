@@ -35,7 +35,7 @@ Total stations: 3909
 - Anruflinienbus: 481 stations
 - Straßenbahn: 267 stations
 - Anruflinientaxi: 196 stations
-- Ersatzverkehr: 109 stations
+- Ersatzverkehr: 110 stations
 - Zug: 102 stations
 - Taktbus: 102 stations
 - S-Bahn: 54 stations
@@ -63,13 +63,14 @@ Total stations: 3909
 - RBM: 31 stations
 - DB AG: 25 stations
 - SDG: 24 stations
-- Mitteldeutsche Regiobahn: 21 stations
+- Mitteldeutsche Regiobahn: 22 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
 - trilex - Die Länderbahn GmbH DLB: 11 stations
 - Cottbusverkehr GmbH: 11 stations
 - Österreichische Bundesbahnen: 4 stations
 - DB Fernverkehr AG: 3 stations
 - Ostdeutsche Eisenbahn GmbH: 3 stations
+- European Sleeper: 2 stations
 - FlixTrain: 2 stations
 - Nordsachsen Mobil: 2 stations
 - Omnibusbetrieb Siegfried Wilhelm: 1 stations
@@ -107,7 +108,6 @@ Total stations: 3909
 - Meißen Uferstraße: 15 lines
 - Pirna Breite Straße: 15 lines
 - Radeberg Bahnhof: 15 lines
-- Riesa Kasernenstraße: 15 lines
 - Bad Schandau Nationalparkbahnhof: 14 lines
 - Dippoldiswalde Busbahnhof: 14 lines
 - Dresden Großenhainer Platz: 14 lines

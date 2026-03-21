@@ -57,7 +57,7 @@ de:14628:3621,33003621,Elbkai,Bad Schandau,Bad Schandau Elbkai,50.917758,14.1494
 de:14628:3629,33003629,Kiefricht,Bad Schandau,Bad Schandau Kiefricht,50.927804,14.16247,RVSOE,1,,,,
 de:14628:3622,33003622,Kurpark,Bad Schandau,Bad Schandau Kurpark,50.920913,14.157772,RVSOE,4,Kirnitzschtalbahn,,,
 de:14628:3626,33003626,Marktplatz,Bad Schandau,Bad Schandau Marktplatz,50.917679,14.153092,RVSOE,2,,,,
-de:14628:3620,33003620,Nationalparkbahnhof,Bad Schandau,Bad Schandau Nationalparkbahnhof,50.91927,14.138099,DB Regio AG Südost|RVSOE|Österreichische Bundesbahnen,14,,,RE20|RE50|U28,S1
+de:14628:3620,33003620,Nationalparkbahnhof,Bad Schandau,Bad Schandau Nationalparkbahnhof,50.91927,14.138099,DB Regio AG Südost|European Sleeper|RVSOE|Österreichische Bundesbahnen,14,,,RE20|RE50|U28,S1
 de:14628:3627,33003627,Personenaufzug,Bad Schandau,Bad Schandau Personenaufzug,50.916541,14.160575,RVSOE,1,,,,
 de:14628:3624,33003624,Waldhäus´l,Bad Schandau,Bad Schandau Waldhäus´l,50.925114,14.180527,RVSOE,2,Kirnitzschtalbahn,,,
 de:14627:4969,33004969,Abzw Badersen/Dobschütz,Badersen,Badersen Abzw Badersen/Dobschütz,51.14645,13.275833,VGM,4,,,,
@@ -741,7 +741,7 @@ de:14612:186,33000186,Hamburger Straße,Dresden,Dresden Hamburger Straße,51.059
 de:14612:548,33000548,Hammeraue,Dresden,Dresden Hammeraue,51.067932,13.666277,SATRA,4,,91|93,,
 de:14612:764,33000764,Hans-Dankner-Straße,Dresden,Dresden Hans-Dankner-Straße,51.042591,13.742086,DVB,3,,62|68|EV 11,,
 de:14612:287,33000287,Hans-Oster-Straße,Dresden,Dresden Hans-Oster-Straße,51.074909,13.760654,DVB,1,,64,,
-de:14612:28,33000028,Hauptbahnhof,Dresden,Dresden Hauptbahnhof,51.03993,13.732932,DB AG|DB Fernverkehr AG|DB Regio AG Südost|DVB|FlixTrain|Mitteldeutsche Regiobahn|RVSOE|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,32,10|11|3|4|7|8,66|EV 11|H/S (Pirna),RB30|RB60|RB61|RE1|RE17|RE19|RE2|RE20|RE3|RE50,S1|S2|S3|S8
+de:14612:28,33000028,Hauptbahnhof,Dresden,Dresden Hauptbahnhof,51.03993,13.732932,DB AG|DB Fernverkehr AG|DB Regio AG Südost|DVB|European Sleeper|FlixTrain|Mitteldeutsche Regiobahn|RVSOE|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,32,10|11|3|4|7|8,66|EV 11|H/S (Pirna),RB30|RB60|RB61|RE1|RE17|RE19|RE2|RE20|RE3|RE50,S1|S2|S3|S8
 de:14612:36,33000036,Hauptbahnhof (Strehlener Str.),Dresden,Dresden Hauptbahnhof (Strehlener Str.),51.038671,13.734279,DB AG|DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn|trilex - Die Länderbahn GmbH DLB,4,,66|EV 11,,
 de:14612:32,33000032,Hauptbahnhof Nord,Dresden,Dresden Hauptbahnhof Nord,51.041365,13.735088,DVB,8,10|11|12|3|4|7|8,EV 11,,
 de:14612:179,33000179,Hebbelplatz,Dresden,Dresden Hebbelplatz,51.051333,13.682743,DVB,7,1|10|11|12|2|9,EV 12,,
@@ -1551,7 +1551,7 @@ de:14627:5708,33005708,Elbstraße,Grödel,Grödel Elbstraße,51.303702,13.371558
 de:14627:5786,33005786,Am Castello,Gröditz (bei Riesa),Gröditz (bei Riesa) Am Castello,51.40958,13.442749,VGM,4,,,,
 de:14627:5799,33005799,Am Kanal,Gröditz (bei Riesa),Gröditz (bei Riesa) Am Kanal,51.41232,13.45379,VGM,4,,,,
 de:14627:5809,33005809,Bahnhof,Gröditz (bei Riesa),Gröditz (bei Riesa) Bahnhof,51.411502,13.439875,Mitteldeutsche Regiobahn,2,,,RB45,
-de:14627:5800,33005800,Busbahnhof,Gröditz (bei Riesa),Gröditz (bei Riesa) Busbahnhof,51.412208,13.44257,VGM,6,,,,
+de:14627:5800,33005800,Busbahnhof,Gröditz (bei Riesa),Gröditz (bei Riesa) Busbahnhof,51.412208,13.44257,Mitteldeutsche Regiobahn|VGM,7,,,,
 de:14627:5781,33005781,E.-Maurer-Straße,Gröditz (bei Riesa),Gröditz (bei Riesa) E.-Maurer-Straße,51.418595,13.457527,VGM,2,,,,
 de:14627:5793,33005793,Feldstraße,Gröditz (bei Riesa),Gröditz (bei Riesa) Feldstraße,51.409715,13.448822,VGM,3,,,,
 de:14627:5782,33005782,Fröbelstraße,Gröditz (bei Riesa),Gröditz (bei Riesa) Fröbelstraße,51.414337,13.452514,VGM,4,,,,
@@ -3197,7 +3197,7 @@ de:14627:5515,33005515,Heinrich-Heine-Straße,Riesa,Riesa Heinrich-Heine-Straße
 de:14627:5523,33005523,Heinz-Steyer-Straße,Riesa,Riesa Heinz-Steyer-Straße,51.320144,13.260292,VGM,3,,A1 (Riesa)|D (Riesa),,
 de:14627:5509,33005509,Humboldtring,Riesa,Riesa Humboldtring,51.294834,13.302828,VGM,2,,B (Riesa)|D (Riesa),,
 de:14627:5564,33005564,Jahnishausen,Riesa,Riesa Jahnishausen,51.272291,13.289425,VGM,2,,,,
-de:14627:5499,33005499,Kasernenstraße,Riesa,Riesa Kasernenstraße,51.304028,13.289955,VGM,15,,A1 (Riesa)|A2 (Riesa)|B (Riesa)|D (Riesa)|E (Riesa),,
+de:14627:5499,33005499,Kasernenstraße,Riesa,Riesa Kasernenstraße,51.304028,13.289955,VGM,6,,A1 (Riesa)|A2 (Riesa)|B (Riesa)|D (Riesa)|E (Riesa),,
 de:14627:5506,33005506,Kirchstraße,Riesa,Riesa Kirchstraße,51.321042,13.279669,VGM,4,,A1 (Riesa)|A2 (Riesa)|D (Riesa),,
 de:14627:5549,33005549,Krankenhaus,Riesa,Riesa Krankenhaus,51.297839,13.309924,VGM,2,,B (Riesa)|D (Riesa),,
 de:14627:5900,33005900,Leutewitz (b Riesa),Riesa,Riesa Leutewitz (b Riesa),51.290974,13.373597,VGM,1,,,,
@@ -3727,7 +3727,7 @@ de:14627:4147,33004147,Köhlerstraße,Weinböhla,Weinböhla Köhlerstraße,51.15
 de:14627:4148,33004148,Laubengasse,Weinböhla,Weinböhla Laubengasse,51.163854,13.588573,VGM,2,,,,
 de:14627:4141,33004141,Laubenhöhe,Weinböhla,Weinböhla Laubenhöhe,51.157742,13.594924,VGM,1,,,,
 de:14627:4153,33004153,Laubenschlößchen,Weinböhla,Weinböhla Laubenschlößchen,51.162987,13.594061,VGM,2,,,,
-de:14627:4146,33004146,Lessingstraße,Weinböhla,Weinböhla Lessingstraße,51.152355,13.566726,VGM,2,,,,
+de:14627:4146,33004146,Lessingstraße,Weinböhla,Weinböhla Lessingstraße,51.152355,13.566726,VGM,1,,,,
 de:14627:4151,33004151,Maxstraße,Weinböhla,Weinböhla Maxstraße,51.163702,13.577685,VGM,2,,,,
 de:14627:4152,33004152,Moritzburger Straße,Weinböhla,Weinböhla Moritzburger Straße,51.164716,13.582464,VGM,2,,,,
 de:14627:4402,33004402,Nassauhalle,Weinböhla,Weinböhla Nassauhalle,51.162547,13.562162,VGM,4,,,,
