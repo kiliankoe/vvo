@@ -3992,11 +3992,14 @@
           "RVSOE"
         ],
         "lines": {
+          "Regionalbus": [
+            "263"
+          ],
           "Taktbus": [
             "264"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -4018,11 +4021,14 @@
           "RVSOE"
         ],
         "lines": {
+          "Regionalbus": [
+            "263"
+          ],
           "Taktbus": [
             "264"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -4044,11 +4050,14 @@
           "RVSOE"
         ],
         "lines": {
+          "Regionalbus": [
+            "263"
+          ],
           "Taktbus": [
             "264"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -59657,8 +59666,141 @@
           "RVSOE"
         ],
         "lines": {
+          "Regionalbus": [
+            "263"
+          ],
           "Taktbus": [
             "267"
+          ]
+        },
+        "total_lines": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.251943,
+          51.026841
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3855",
+        "numeric_id": "33003855",
+        "name": "Alte Schule",
+        "city": "Langburkersdorf",
+        "name_with_city": "Langburkersdorf Alte Schule",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "263"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.23907,
+          51.023779
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3853",
+        "numeric_id": "33003853",
+        "name": "Bergstraße",
+        "city": "Langburkersdorf",
+        "name_with_city": "Langburkersdorf Bergstraße",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "263"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.259003,
+          51.023242
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3856",
+        "numeric_id": "33003856",
+        "name": "Birnstein",
+        "city": "Langburkersdorf",
+        "name_with_city": "Langburkersdorf Birnstein",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "263"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.245089,
+          51.025903
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3854",
+        "numeric_id": "33003854",
+        "name": "Quelle",
+        "city": "Langburkersdorf",
+        "name_with_city": "Langburkersdorf Quelle",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "263"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.262731,
+          51.019682
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3857",
+        "numeric_id": "33003857",
+        "name": "Raupenberg",
+        "city": "Langburkersdorf",
+        "name_with_city": "Langburkersdorf Raupenberg",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "263"
           ]
         },
         "total_lines": 1
@@ -59686,11 +59828,14 @@
           "PlusBus": [
             "261"
           ],
+          "Regionalbus": [
+            "263"
+          ],
           "Taktbus": [
             "267"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -59714,9 +59859,12 @@
         "lines": {
           "PlusBus": [
             "261"
+          ],
+          "Regionalbus": [
+            "263"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -60360,13 +60508,14 @@
         "lines": {
           "Regionalbus": [
             "234",
+            "263",
             "263 b"
           ],
           "PlusBus": [
             "261"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -72957,13 +73106,14 @@
         "lines": {
           "Regionalbus": [
             "234",
+            "263",
             "263 b"
           ],
           "PlusBus": [
             "261"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -73014,6 +73164,7 @@
         "lines": {
           "Regionalbus": [
             "234",
+            "263",
             "263 b"
           ],
           "PlusBus": [
@@ -73030,7 +73181,7 @@
             "SEV"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -73108,15 +73259,16 @@
           "RVSOE"
         ],
         "lines": {
+          "Regionalbus": [
+            "263",
+            "263 b"
+          ],
           "Taktbus": [
             "264",
             "267"
-          ],
-          "Regionalbus": [
-            "263 b"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -73218,6 +73370,7 @@
         "lines": {
           "Regionalbus": [
             "234",
+            "263",
             "263 b"
           ],
           "PlusBus": [
@@ -73227,7 +73380,7 @@
             "264"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -73249,14 +73402,15 @@
           "RVSOE"
         ],
         "lines": {
+          "Regionalbus": [
+            "263",
+            "263 b"
+          ],
           "Taktbus": [
             "264"
-          ],
-          "Regionalbus": [
-            "263 b"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -73280,13 +73434,14 @@
         "lines": {
           "Regionalbus": [
             "234",
+            "263",
             "263 b"
           ],
           "Taktbus": [
             "267"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -73337,13 +73492,14 @@
         "lines": {
           "Regionalbus": [
             "234",
+            "263",
             "263 b"
           ],
           "Taktbus": [
             "267"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -73445,13 +73601,14 @@
         "lines": {
           "Regionalbus": [
             "234",
+            "263",
             "263 b"
           ],
           "Taktbus": [
             "267"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -73475,6 +73632,7 @@
         "lines": {
           "Regionalbus": [
             "234",
+            "263",
             "263 b"
           ],
           "PlusBus": [
@@ -73485,7 +73643,7 @@
             "267"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -73616,6 +73774,7 @@
         "lines": {
           "Regionalbus": [
             "234",
+            "263",
             "263 b"
           ],
           "PlusBus": [
@@ -73626,7 +73785,7 @@
             "267"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -74350,11 +74509,14 @@
           "RVSOE"
         ],
         "lines": {
+          "Regionalbus": [
+            "263"
+          ],
           "Taktbus": [
             "264"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -74376,11 +74538,14 @@
           "RVSOE"
         ],
         "lines": {
+          "Regionalbus": [
+            "263"
+          ],
           "Taktbus": [
             "264"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -76521,11 +76686,14 @@
           "RVSOE"
         ],
         "lines": {
+          "Regionalbus": [
+            "263"
+          ],
           "Taktbus": [
             "264"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -76547,11 +76715,14 @@
           "RVSOE"
         ],
         "lines": {
+          "Regionalbus": [
+            "263"
+          ],
           "Taktbus": [
             "264"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -83132,13 +83303,14 @@
         "lines": {
           "Regionalbus": [
             "234",
+            "263",
             "263 b"
           ],
           "PlusBus": [
             "261"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -83162,13 +83334,14 @@
         "lines": {
           "Regionalbus": [
             "234",
+            "263",
             "263 b"
           ],
           "PlusBus": [
             "261"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -83192,13 +83365,14 @@
         "lines": {
           "Regionalbus": [
             "234",
+            "263",
             "263 b"
           ],
           "PlusBus": [
             "261"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -94980,9 +95154,12 @@
         "lines": {
           "PlusBus": [
             "261"
+          ],
+          "Regionalbus": [
+            "263"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -95006,9 +95183,12 @@
         "lines": {
           "PlusBus": [
             "261"
+          ],
+          "Regionalbus": [
+            "263"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -95846,10 +96026,11 @@
         ],
         "lines": {
           "Regionalbus": [
+            "263",
             "263 b"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -95871,11 +96052,14 @@
           "RVSOE"
         ],
         "lines": {
+          "Regionalbus": [
+            "263"
+          ],
           "Taktbus": [
             "264"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -95893,9 +96077,15 @@
         "name": "Kirchstraße",
         "city": "Rückersdorf (Neustadt in Sachsen)",
         "name_with_city": "Rückersdorf (Neustadt in Sachsen) Kirchstraße",
-        "operators": [],
-        "lines": {},
-        "total_lines": 0
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "263"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
