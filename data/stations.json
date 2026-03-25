@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3914,
+    "count": 3917,
     "format_version": "2.0"
   },
   "stations": [
@@ -10125,10 +10125,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "70",
           "80"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:91",
@@ -10452,6 +10453,9 @@
         "DVB"
       ],
       "lines": {
+        "Straßenbahn": [
+          "12"
+        ],
         "Stadtbus": [
           "68",
           "70",
@@ -10459,7 +10463,7 @@
           "EV 12"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:903",
@@ -11623,6 +11627,9 @@
         "Straßenbahn": [
           "7"
         ],
+        "Stadtbus": [
+          "80"
+        ],
         "PlusBus": [
           "522"
         ],
@@ -11630,7 +11637,7 @@
           "769"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:817",
@@ -11833,6 +11840,7 @@
           "41",
           "6",
           "7",
+          "8",
           "9"
         ],
         "Stadtbus": [
@@ -11857,7 +11865,7 @@
           "SEV"
         ]
       },
-      "total_lines": 23
+      "total_lines": 24
     },
     {
       "id": "de:14612:16",
@@ -12077,6 +12085,27 @@
         ]
       },
       "total_lines": 3
+    },
+    {
+      "id": "de:14612:954",
+      "numeric_id": "33000954",
+      "name": "Bedrich-Smetana-Straße",
+      "city": "Dresden",
+      "name_with_city": "Dresden Bedrich-Smetana-Straße",
+      "longitude": 13.818964,
+      "latitude": 50.994942,
+      "operators": [
+        "DVB"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "89"
+        ],
+        "Anruflinientaxi": [
+          "alita 89"
+        ]
+      },
+      "total_lines": 2
     },
     {
       "id": "de:14612:713",
@@ -12335,9 +12364,15 @@
       "name_with_city": "Dresden Birkenhainer Straße",
       "longitude": 13.690936,
       "latitude": 51.053061,
-      "operators": [],
-      "lines": {},
-      "total_lines": 0
+      "operators": [
+        "DVB"
+      ],
+      "lines": {
+        "Straßenbahn": [
+          "12"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14612:262",
@@ -13164,7 +13199,8 @@
       ],
       "lines": {
         "Straßenbahn": [
-          "1"
+          "1",
+          "12"
         ],
         "Stadtbus": [
           "68",
@@ -13172,7 +13208,7 @@
           "EV 12"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:153",
@@ -13512,9 +13548,18 @@
       "name_with_city": "Dresden Dorfstraße",
       "longitude": 13.821713,
       "latitude": 50.99674,
-      "operators": [],
-      "lines": {},
-      "total_lines": 0
+      "operators": [
+        "DVB"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "89"
+        ],
+        "Anruflinientaxi": [
+          "alita 89"
+        ]
+      },
+      "total_lines": 2
     },
     {
       "id": "de:14612:828",
@@ -13550,10 +13595,11 @@
           "3"
         ],
         "Stadtbus": [
+          "70",
           "80"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:544",
@@ -14701,6 +14747,7 @@
         "Stadtbus": [
           "65",
           "88",
+          "89",
           "EV 6"
         ],
         "Anruflinientaxi": [
@@ -14709,7 +14756,7 @@
           "alita 89"
         ]
       },
-      "total_lines": 8
+      "total_lines": 9
     },
     {
       "id": "de:14612:567",
@@ -15043,7 +15090,8 @@
       ],
       "lines": {
         "Straßenbahn": [
-          "1"
+          "1",
+          "12"
         ],
         "Stadtbus": [
           "68",
@@ -15060,7 +15108,7 @@
           "alita 92"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14612:66",
@@ -17352,6 +17400,24 @@
       "total_lines": 3
     },
     {
+      "id": "de:14612:663",
+      "numeric_id": "33000663",
+      "name": "Klotzsche Maria-Reiche-Straße",
+      "city": "Dresden",
+      "name_with_city": "Dresden Klotzsche Maria-Reiche-Straße",
+      "longitude": 13.788484,
+      "latitude": 51.126237,
+      "operators": [
+        "DVB"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "80"
+        ]
+      },
+      "total_lines": 1
+    },
+    {
       "id": "de:14612:966",
       "numeric_id": "33000966",
       "name": "Knappestraße",
@@ -17385,6 +17451,7 @@
           "1",
           "10",
           "11",
+          "12",
           "4",
           "41",
           "6",
@@ -17392,7 +17459,7 @@
           "8"
         ]
       },
-      "total_lines": 8
+      "total_lines": 9
     },
     {
       "id": "de:14612:810",
@@ -17466,10 +17533,11 @@
           "41",
           "6",
           "7",
+          "8",
           "9"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14612:623",
@@ -17484,10 +17552,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "70",
           "80"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:197",
@@ -18165,7 +18234,8 @@
       ],
       "lines": {
         "Straßenbahn": [
-          "1"
+          "1",
+          "12"
         ],
         "Stadtbus": [
           "92",
@@ -18175,7 +18245,7 @@
           "alita 97"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:965",
@@ -18569,6 +18639,7 @@
           "1",
           "10",
           "11",
+          "12",
           "4",
           "41",
           "6",
@@ -18576,7 +18647,7 @@
           "8"
         ]
       },
-      "total_lines": 8
+      "total_lines": 9
     },
     {
       "id": "de:14612:184",
@@ -19300,6 +19371,24 @@
       "total_lines": 0
     },
     {
+      "id": "de:14612:150",
+      "numeric_id": "33000150",
+      "name": "Neuer Annenfriedhof",
+      "city": "Dresden",
+      "name_with_city": "Dresden Neuer Annenfriedhof",
+      "longitude": 13.694134,
+      "latitude": 51.043348,
+      "operators": [
+        "DVB"
+      ],
+      "lines": {
+        "Straßenbahn": [
+          "12"
+        ]
+      },
+      "total_lines": 1
+    },
+    {
       "id": "de:14612:628",
       "numeric_id": "33000628",
       "name": "Neuländer Straße",
@@ -19730,12 +19819,15 @@
         "DVB"
       ],
       "lines": {
+        "Straßenbahn": [
+          "12"
+        ],
         "Stadtbus": [
           "68",
           "EV 12"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:142",
@@ -21363,6 +21455,7 @@
         "Stadtbus": [
           "65",
           "88",
+          "89",
           "EV 6"
         ],
         "Zug": [
@@ -21382,7 +21475,7 @@
           "SEV"
         ]
       },
-      "total_lines": 13
+      "total_lines": 14
     },
     {
       "id": "de:14612:593",
@@ -22374,13 +22467,15 @@
       ],
       "lines": {
         "Stadtbus": [
-          "65"
+          "65",
+          "89"
         ],
         "Anruflinientaxi": [
-          "alita 65"
+          "alita 65",
+          "alita 89"
         ]
       },
-      "total_lines": 2
+      "total_lines": 4
     },
     {
       "id": "de:14612:824",
@@ -22609,10 +22704,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "70",
           "80"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:656",
@@ -33431,14 +33527,16 @@
       "longitude": 13.871147,
       "latitude": 51.048967,
       "operators": [
+        "DVB",
         "Müller Busreisen"
       ],
       "lines": {
         "Stadtbus": [
+          "61",
           "98A"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3354",
@@ -62283,14 +62381,16 @@
       "longitude": 13.920581,
       "latitude": 51.130955,
       "operators": [
+        "DVB",
         "RBO"
       ],
       "lines": {
         "Stadtbus": [
-          "28"
+          "28",
+          "78"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:6733",
@@ -62301,14 +62401,16 @@
       "longitude": 13.92554,
       "latitude": 51.127432,
       "operators": [
+        "DVB",
         "RBO"
       ],
       "lines": {
         "Stadtbus": [
-          "28"
+          "28",
+          "78"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:6731",
@@ -62455,17 +62557,19 @@
       "longitude": 13.916629,
       "latitude": 51.127686,
       "operators": [
+        "DVB",
         "RBO"
       ],
       "lines": {
         "Stadtbus": [
-          "28"
+          "28",
+          "78"
         ],
         "Regionalbus": [
           "760"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6738",
@@ -62637,18 +62741,20 @@
       "longitude": 13.929456,
       "latitude": 51.123671,
       "operators": [
+        "DVB",
         "RBO"
       ],
       "lines": {
         "Stadtbus": [
-          "28"
+          "28",
+          "78"
         ],
         "PlusBus": [
           "520",
           "521"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14625:6705",
@@ -62774,18 +62880,20 @@
       "longitude": 13.921848,
       "latitude": 51.119601,
       "operators": [
+        "DVB",
         "RBO"
       ],
       "lines": {
         "Stadtbus": [
-          "28"
+          "28",
+          "78"
         ],
         "PlusBus": [
           "520",
           "521"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14625:6724",
@@ -78863,14 +78971,16 @@
       "longitude": 13.883175,
       "latitude": 51.05803,
       "operators": [
+        "DVB",
         "Müller Busreisen"
       ],
       "lines": {
         "Stadtbus": [
+          "61",
           "98A"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:3773",

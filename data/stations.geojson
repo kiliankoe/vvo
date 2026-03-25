@@ -14112,10 +14112,11 @@
         ],
         "lines": {
           "Stadtbus": [
+            "70",
             "80"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -14559,6 +14560,9 @@
           "DVB"
         ],
         "lines": {
+          "Straßenbahn": [
+            "12"
+          ],
           "Stadtbus": [
             "68",
             "70",
@@ -14566,7 +14570,7 @@
             "EV 12"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -16154,6 +16158,9 @@
           "Straßenbahn": [
             "7"
           ],
+          "Stadtbus": [
+            "80"
+          ],
           "PlusBus": [
             "522"
           ],
@@ -16161,7 +16168,7 @@
             "769"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -16428,6 +16435,7 @@
             "41",
             "6",
             "7",
+            "8",
             "9"
           ],
           "Stadtbus": [
@@ -16452,7 +16460,7 @@
             "SEV"
           ]
         },
-        "total_lines": 23
+        "total_lines": 24
       }
     },
     {
@@ -16736,6 +16744,35 @@
           ]
         },
         "total_lines": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.818964,
+          50.994942
+        ]
+      },
+      "properties": {
+        "id": "de:14612:954",
+        "numeric_id": "33000954",
+        "name": "Bedrich-Smetana-Straße",
+        "city": "Dresden",
+        "name_with_city": "Dresden Bedrich-Smetana-Straße",
+        "operators": [
+          "DVB"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "89"
+          ],
+          "Anruflinientaxi": [
+            "alita 89"
+          ]
+        },
+        "total_lines": 2
       }
     },
     {
@@ -17090,9 +17127,15 @@
         "name": "Birkenhainer Straße",
         "city": "Dresden",
         "name_with_city": "Dresden Birkenhainer Straße",
-        "operators": [],
-        "lines": {},
-        "total_lines": 0
+        "operators": [
+          "DVB"
+        ],
+        "lines": {
+          "Straßenbahn": [
+            "12"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
@@ -18215,7 +18258,8 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1"
+            "1",
+            "12"
           ],
           "Stadtbus": [
             "68",
@@ -18223,7 +18267,7 @@
             "EV 12"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -18683,9 +18727,18 @@
         "name": "Dorfstraße",
         "city": "Dresden",
         "name_with_city": "Dresden Dorfstraße",
-        "operators": [],
-        "lines": {},
-        "total_lines": 0
+        "operators": [
+          "DVB"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "89"
+          ],
+          "Anruflinientaxi": [
+            "alita 89"
+          ]
+        },
+        "total_lines": 2
       }
     },
     {
@@ -18737,10 +18790,11 @@
             "3"
           ],
           "Stadtbus": [
+            "70",
             "80"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -20320,6 +20374,7 @@
           "Stadtbus": [
             "65",
             "88",
+            "89",
             "EV 6"
           ],
           "Anruflinientaxi": [
@@ -20328,7 +20383,7 @@
             "alita 89"
           ]
         },
-        "total_lines": 8
+        "total_lines": 9
       }
     },
     {
@@ -20806,7 +20861,8 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1"
+            "1",
+            "12"
           ],
           "Stadtbus": [
             "68",
@@ -20823,7 +20879,7 @@
             "alita 92"
           ]
         },
-        "total_lines": 9
+        "total_lines": 10
       }
     },
     {
@@ -23960,6 +24016,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.788484,
+          51.126237
+        ]
+      },
+      "properties": {
+        "id": "de:14612:663",
+        "numeric_id": "33000663",
+        "name": "Klotzsche Maria-Reiche-Straße",
+        "city": "Dresden",
+        "name_with_city": "Dresden Klotzsche Maria-Reiche-Straße",
+        "operators": [
+          "DVB"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "80"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.812837,
           51.028559
         ]
@@ -24004,6 +24086,7 @@
             "1",
             "10",
             "11",
+            "12",
             "4",
             "41",
             "6",
@@ -24011,7 +24094,7 @@
             "8"
           ]
         },
-        "total_lines": 8
+        "total_lines": 9
       }
     },
     {
@@ -24117,10 +24200,11 @@
             "41",
             "6",
             "7",
+            "8",
             "9"
           ]
         },
-        "total_lines": 9
+        "total_lines": 10
       }
     },
     {
@@ -24143,10 +24227,11 @@
         ],
         "lines": {
           "Stadtbus": [
+            "70",
             "80"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -25064,7 +25149,8 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1"
+            "1",
+            "12"
           ],
           "Stadtbus": [
             "92",
@@ -25074,7 +25160,7 @@
             "alita 97"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -25604,6 +25690,7 @@
             "1",
             "10",
             "11",
+            "12",
             "4",
             "41",
             "6",
@@ -25611,7 +25698,7 @@
             "8"
           ]
         },
-        "total_lines": 8
+        "total_lines": 9
       }
     },
     {
@@ -26620,6 +26707,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.694134,
+          51.043348
+        ]
+      },
+      "properties": {
+        "id": "de:14612:150",
+        "numeric_id": "33000150",
+        "name": "Neuer Annenfriedhof",
+        "city": "Dresden",
+        "name_with_city": "Dresden Neuer Annenfriedhof",
+        "operators": [
+          "DVB"
+        ],
+        "lines": {
+          "Straßenbahn": [
+            "12"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.715702,
           51.099071
         ]
@@ -27213,12 +27326,15 @@
           "DVB"
         ],
         "lines": {
+          "Straßenbahn": [
+            "12"
+          ],
           "Stadtbus": [
             "68",
             "EV 12"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -29414,6 +29530,7 @@
           "Stadtbus": [
             "65",
             "88",
+            "89",
             "EV 6"
           ],
           "Zug": [
@@ -29433,7 +29550,7 @@
             "SEV"
           ]
         },
-        "total_lines": 13
+        "total_lines": 14
       }
     },
     {
@@ -30769,13 +30886,15 @@
         ],
         "lines": {
           "Stadtbus": [
-            "65"
+            "65",
+            "89"
           ],
           "Anruflinientaxi": [
-            "alita 65"
+            "alita 65",
+            "alita 89"
           ]
         },
-        "total_lines": 2
+        "total_lines": 4
       }
     },
     {
@@ -31092,10 +31211,11 @@
         ],
         "lines": {
           "Stadtbus": [
+            "70",
             "80"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -46050,14 +46170,16 @@
         "city": "Gönnsdorf",
         "name_with_city": "Gönnsdorf Zur Sternwarte",
         "operators": [
+          "DVB",
           "Müller Busreisen"
         ],
         "lines": {
           "Stadtbus": [
+            "61",
             "98A"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -85982,14 +86104,16 @@
         "city": "Radeberg",
         "name_with_city": "Radeberg Am Sandberg",
         "operators": [
+          "DVB",
           "RBO"
         ],
         "lines": {
           "Stadtbus": [
-            "28"
+            "28",
+            "78"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -86008,14 +86132,16 @@
         "city": "Radeberg",
         "name_with_city": "Radeberg Am Wall",
         "operators": [
+          "DVB",
           "RBO"
         ],
         "lines": {
           "Stadtbus": [
-            "28"
+            "28",
+            "78"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -86210,17 +86336,19 @@
         "city": "Radeberg",
         "name_with_city": "Radeberg Einkaufszentrum",
         "operators": [
+          "DVB",
           "RBO"
         ],
         "lines": {
           "Stadtbus": [
-            "28"
+            "28",
+            "78"
           ],
           "Regionalbus": [
             "760"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -86464,18 +86592,20 @@
         "city": "Radeberg",
         "name_with_city": "Radeberg Krankenhaus",
         "operators": [
+          "DVB",
           "RBO"
         ],
         "lines": {
           "Stadtbus": [
-            "28"
+            "28",
+            "78"
           ],
           "PlusBus": [
             "520",
             "521"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -86649,18 +86779,20 @@
         "city": "Radeberg",
         "name_with_city": "Radeberg Pulsnitzer Straße",
         "operators": [
+          "DVB",
           "RBO"
         ],
         "lines": {
           "Stadtbus": [
-            "28"
+            "28",
+            "78"
           ],
           "PlusBus": [
             "520",
             "521"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -109042,14 +109174,16 @@
         "city": "Weißig (Dresden)",
         "name_with_city": "Weißig (Dresden) Gönnsdorfer Weg",
         "operators": [
+          "DVB",
           "Müller Busreisen"
         ],
         "lines": {
           "Stadtbus": [
+            "61",
             "98A"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {

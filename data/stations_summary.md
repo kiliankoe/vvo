@@ -1,10 +1,10 @@
 # VVO Station Data Summary
 
-Total stations: 3914
+Total stations: 3917
 
 ## Stations by City
 
-- Dresden: 655
+- Dresden: 658
 - Meißen: 104
 - Freital: 86
 - Pirna: 85
@@ -30,11 +30,11 @@ Total stations: 3914
 ## Stations by Transit Type
 
 - Regionalbus: 2699 stations
-- Stadtbus: 1279 stations
+- Stadtbus: 1283 stations
 - PlusBus: 646 stations
 - Anruflinienbus: 481 stations
-- Straßenbahn: 267 stations
-- Anruflinientaxi: 196 stations
+- Straßenbahn: 271 stations
+- Anruflinientaxi: 198 stations
 - Ersatzverkehr: 110 stations
 - Zug: 102 stations
 - Taktbus: 102 stations
@@ -52,7 +52,7 @@ Total stations: 3914
 
 - RVSOE: 1308 stations
 - VGM: 1172 stations
-- DVB: 757 stations
+- DVB: 769 stations
 - RBO: 714 stations
 - DB Regio AG Südost: 115 stations
 - VGH: 81 stations
@@ -81,8 +81,8 @@ Total stations: 3914
 - Dresden Hauptbahnhof: 32 lines
 - Riesa Busbahnhof / Bahnhof: 27 lines
 - Dresden Bahnhof Neustadt: 26 lines
+- Dresden Bahnhof Mitte: 24 lines
 - Kamenz Bahnhof: 24 lines
-- Dresden Bahnhof Mitte: 23 lines
 - Pirna ZOB / Bahnhof: 22 lines
 - Großenhain Cottbuser Bahnhof: 21 lines
 - Meißen Altstadtbrücke: 21 lines
@@ -112,6 +112,7 @@ Total stations: 3914
 - Bad Schandau Nationalparkbahnhof: 14 lines
 - Dippoldiswalde Busbahnhof: 14 lines
 - Dresden Großenhainer Platz: 14 lines
+- Dresden S-Bahnhof Niedersedlitz: 14 lines
 - Dresden S-Bf. Strehlen: 14 lines
 - Dresden Tharandter Straße: 14 lines
 - Dresden Walpurgisstraße: 14 lines
@@ -124,7 +125,6 @@ Total stations: 3914
 - Meißen Talbad: 14 lines
 - Dresden Bahnhof Klotzsche: 13 lines
 - Dresden Pirnaischer Platz: 13 lines
-- Dresden S-Bahnhof Niedersedlitz: 13 lines
 - Kamenz Flugplatz: 13 lines
 - Nossen Markt: 13 lines
 - Nossen Talstraße: 13 lines
@@ -155,6 +155,8 @@ Total stations: 3914
 - Bad Schandau Elbkai: 10 lines
 - Dresden Albertplatz: 10 lines
 - Dresden Anton-/Leipziger Straße: 10 lines
+- Dresden Gottfried-Keller-Straße: 10 lines
+- Dresden Kongresszentrum / Haus der Presse: 10 lines
 - Dresden Reichenbachstraße: 10 lines
 - Dresden S-Bf. Freiberger Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
