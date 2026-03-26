@@ -29,13 +29,13 @@ Total stations: 3917
 
 ## Stations by Transit Type
 
-- Regionalbus: 2699 stations
+- Regionalbus: 2704 stations
 - Stadtbus: 1283 stations
-- PlusBus: 646 stations
+- PlusBus: 645 stations
 - Anruflinienbus: 481 stations
 - Straßenbahn: 271 stations
 - Anruflinientaxi: 198 stations
-- Ersatzverkehr: 110 stations
+- Ersatzverkehr: 120 stations
 - Zug: 102 stations
 - Taktbus: 102 stations
 - S-Bahn: 54 stations
@@ -44,17 +44,17 @@ Total stations: 3917
 - Stadtverkehr: 29 stations
 - Schülerlinie: 13 stations
 - TaktBus: 5 stations
+- Fernbus: 2 stations
 - Schwebebahn: 2 stations
 - Seilbahn: 2 stations
-- Fernbus: 1 stations
 
 ## Transit Operators
 
-- RVSOE: 1308 stations
+- RVSOE: 1312 stations
 - VGM: 1172 stations
 - DVB: 769 stations
 - RBO: 714 stations
-- DB Regio AG Südost: 115 stations
+- DB Regio AG Südost: 118 stations
 - VGH: 81 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 68 stations
@@ -67,10 +67,10 @@ Total stations: 3917
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
 - trilex - Die Länderbahn GmbH DLB: 11 stations
 - Cottbusverkehr GmbH: 11 stations
+- DB Regio: 8 stations
+- DB Fernverkehr AG: 4 stations
 - Österreichische Bundesbahnen: 4 stations
-- DB Fernverkehr AG: 3 stations
-- Ostdeutsche Eisenbahn GmbH: 3 stations
-- European Sleeper: 2 stations
+- Ostdeutsche Eisenbahn GmbH: 4 stations
 - FlixTrain: 2 stations
 - Nordsachsen Mobil: 2 stations
 - Omnibusbetrieb Siegfried Wilhelm: 1 stations
@@ -79,8 +79,8 @@ Total stations: 3917
 
 - Meißen Busbahnhof: 33 lines
 - Dresden Hauptbahnhof: 32 lines
+- Dresden Bahnhof Neustadt: 27 lines
 - Riesa Busbahnhof / Bahnhof: 27 lines
-- Dresden Bahnhof Neustadt: 26 lines
 - Dresden Bahnhof Mitte: 24 lines
 - Kamenz Bahnhof: 24 lines
 - Pirna ZOB / Bahnhof: 22 lines
@@ -151,6 +151,7 @@ Total stations: 3917
 - Freital S-Bahnhof Hainsberg: 11 lines
 - Glashütte (Sachsen) Bahnhof / Busbahnhof: 11 lines
 - Großenhain Hohe Straße: 11 lines
+- Sebnitz Bahnhof: 11 lines
 - Altenberg (Erzgebirge) Bahnhof: 10 lines
 - Bad Schandau Elbkai: 10 lines
 - Dresden Albertplatz: 10 lines
@@ -160,6 +161,6 @@ Total stations: 3917
 - Dresden Reichenbachstraße: 10 lines
 - Dresden S-Bf. Freiberger Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
+- Neustadt in Sachsen Bahnhof: 10 lines
 - Pirna Robert-Koch-Straße: 10 lines
-- Sebnitz Bahnhof: 10 lines
 - Tharandt Bahnhof: 10 lines

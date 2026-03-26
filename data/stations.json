@@ -586,9 +586,12 @@
         ],
         "S-Bahn": [
           "S8"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14625:6771",
@@ -1205,8 +1208,8 @@
       "longitude": 14.138099,
       "latitude": 50.91927,
       "operators": [
+        "DB Fernverkehr AG",
         "DB Regio AG Südost",
-        "European Sleeper",
         "RVSOE",
         "Österreichische Bundesbahnen"
       ],
@@ -11924,11 +11927,14 @@
           "S2",
           "S8"
         ],
+        "Fernbus": [
+          "Fernbus"
+        ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 26
+      "total_lines": 27
     },
     {
       "id": "de:14612:198",
@@ -15565,7 +15571,6 @@
         "DB Fernverkehr AG",
         "DB Regio AG Südost",
         "DVB",
-        "European Sleeper",
         "FlixTrain",
         "Mitteldeutsche Regiobahn",
         "RVSOE",
@@ -25062,22 +25067,25 @@
       "longitude": 14.007242,
       "latitude": 51.027785,
       "operators": [
+        "DB Regio",
         "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "226",
-          "234"
+          "234",
+          "EV RB 71"
         ],
         "Zug": [
+          "RB 71",
           "RB71"
         ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 6
     },
     {
       "id": "de:14628:3751",
@@ -35146,6 +35154,7 @@
       "longitude": 14.046219,
       "latitude": 51.034474,
       "operators": [
+        "DB Regio",
         "DB Regio AG Südost",
         "RVSOE"
       ],
@@ -35155,10 +35164,14 @@
           "265"
         ],
         "Zug": [
+          "RB 71",
           "RB71"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 5
     },
     {
       "id": "de:14628:3849",
@@ -37021,9 +37034,12 @@
         ],
         "Zug": [
           "RB64"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:8052",
@@ -42178,14 +42194,20 @@
       "longitude": 14.207135,
       "latitude": 50.992787,
       "operators": [
-        "DB Regio AG Südost"
+        "DB Regio",
+        "DB Regio AG Südost",
+        "RVSOE"
       ],
       "lines": {
+        "Regionalbus": [
+          "EV RB 71"
+        ],
         "Zug": [
+          "RB 71",
           "RB71"
         ]
       },
-      "total_lines": 1
+      "total_lines": 3
     },
     {
       "id": "de:14628:3911",
@@ -43523,9 +43545,12 @@
         ],
         "S-Bahn": [
           "S8"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14612:6683",
@@ -43870,14 +43895,18 @@
       "longitude": 14.089033,
       "latitude": 51.039524,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "265"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3824",
@@ -43888,6 +43917,7 @@
       "longitude": 14.153963,
       "latitude": 51.036445,
       "operators": [
+        "DB Regio",
         "DB Regio AG Südost",
         "RVSOE"
       ],
@@ -43900,10 +43930,14 @@
           "261"
         ],
         "Zug": [
+          "RB 71",
           "RB71"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 6
     },
     {
       "id": "de:14628:3813",
@@ -43949,14 +43983,16 @@
       "longitude": 14.126924,
       "latitude": 51.038733,
       "operators": [
+        "DB Regio",
         "DB Regio AG Südost"
       ],
       "lines": {
         "Zug": [
+          "RB 71",
           "RB71"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3827",
@@ -43990,6 +44026,7 @@
       "longitude": 14.132359,
       "latitude": 51.039326,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -43999,9 +44036,12 @@
         ],
         "PlusBus": [
           "261"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3826",
@@ -44012,6 +44052,7 @@
       "longitude": 14.119073,
       "latitude": 51.041958,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -44022,9 +44063,12 @@
         ],
         "PlusBus": [
           "261"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3821",
@@ -46286,14 +46330,18 @@
       "longitude": 13.987964,
       "latitude": 50.989197,
       "operators": [
-        "DB Regio AG Südost"
+        "DB Regio AG Südost",
+        "RVSOE"
       ],
       "lines": {
+        "Regionalbus": [
+          "EV RB 71"
+        ],
         "Zug": [
           "RB71"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3733",
@@ -46536,6 +46584,7 @@
       "longitude": 14.406857,
       "latitude": 51.384874,
       "operators": [
+        "Ostdeutsche Eisenbahn GmbH",
         "RBO"
       ],
       "lines": {
@@ -46543,9 +46592,12 @@
           "775",
           "776",
           "777"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3679",
@@ -53085,6 +53137,7 @@
       "longitude": 14.213387,
       "latitude": 51.021592,
       "operators": [
+        "DB Regio",
         "DB Regio AG Südost",
         "RVSOE"
       ],
@@ -53092,7 +53145,8 @@
         "Regionalbus": [
           "234",
           "263",
-          "263 b"
+          "263 b",
+          "EV RB 71"
         ],
         "PlusBus": [
           "261"
@@ -53102,13 +53156,14 @@
           "267"
         ],
         "Zug": [
+          "RB 71",
           "RB71"
         ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 8
+      "total_lines": 10
     },
     {
       "id": "de:14628:3893",
@@ -53639,9 +53694,12 @@
         ],
         "S-Bahn": [
           "S1"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6848",
@@ -58396,9 +58454,13 @@
       "longitude": 13.928855,
       "latitude": 50.962352,
       "operators": [
-        "DB Regio AG Südost"
+        "DB Regio AG Südost",
+        "RVSOE"
       ],
       "lines": {
+        "Regionalbus": [
+          "EV RB 71"
+        ],
         "Zug": [
           "RB71",
           "RE20",
@@ -58409,7 +58471,7 @@
           "S2"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14628:3383",
@@ -59104,14 +59166,18 @@
       "longitude": 13.934011,
       "latitude": 50.967874,
       "operators": [
-        "DB Regio AG Südost"
+        "DB Regio AG Südost",
+        "RVSOE"
       ],
       "lines": {
+        "Regionalbus": [
+          "EV RB 71"
+        ],
         "Zug": [
           "RB71"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3465",
@@ -59122,14 +59188,18 @@
       "longitude": 13.93517,
       "latitude": 50.977468,
       "operators": [
-        "DB Regio AG Südost"
+        "DB Regio AG Südost",
+        "RVSOE"
       ],
       "lines": {
+        "Regionalbus": [
+          "EV RB 71"
+        ],
         "Zug": [
           "RB71"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3441",
@@ -72114,6 +72184,7 @@
       "longitude": 14.272119,
       "latitude": 50.976031,
       "operators": [
+        "DB Regio",
         "DB Regio AG Südost",
         "RVSOE"
       ],
@@ -72128,6 +72199,7 @@
           "261"
         ],
         "Zug": [
+          "RB 71",
           "RB71",
           "U28"
         ],
@@ -72139,7 +72211,7 @@
           "SEV"
         ]
       },
-      "total_lines": 10
+      "total_lines": 11
     },
     {
       "id": "de:14628:3944",
@@ -74648,14 +74720,16 @@
       "longitude": 14.087407,
       "latitude": 51.037084,
       "operators": [
+        "DB Regio",
         "DB Regio AG Südost"
       ],
       "lines": {
         "Zug": [
+          "RB 71",
           "RB71"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3839",
@@ -79012,8 +79086,7 @@
       "latitude": 51.05886,
       "operators": [
         "DVB",
-        "Müller Busreisen",
-        "RVSOE"
+        "Müller Busreisen"
       ],
       "lines": {
         "Stadtbus": [
@@ -79023,12 +79096,9 @@
         ],
         "Regionalbus": [
           "229"
-        ],
-        "PlusBus": [
-          "261"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:3778",

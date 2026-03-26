@@ -813,9 +813,12 @@
           ],
           "S-Bahn": [
             "S8"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -1672,8 +1675,8 @@
         "city": "Bad Schandau",
         "name_with_city": "Bad Schandau Nationalparkbahnhof",
         "operators": [
+          "DB Fernverkehr AG",
           "DB Regio AG Südost",
-          "European Sleeper",
           "RVSOE",
           "Österreichische Bundesbahnen"
         ],
@@ -16527,11 +16530,14 @@
             "S2",
             "S8"
           ],
+          "Fernbus": [
+            "Fernbus"
+          ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 26
+        "total_lines": 27
       }
     },
     {
@@ -21512,7 +21518,6 @@
           "DB Fernverkehr AG",
           "DB Regio AG Südost",
           "DVB",
-          "European Sleeper",
           "FlixTrain",
           "Mitteldeutsche Regiobahn",
           "RVSOE",
@@ -34433,22 +34438,25 @@
         "city": "Dürrröhrsdorf-Dittersbach",
         "name_with_city": "Dürrröhrsdorf-Dittersbach Bahnhof",
         "operators": [
+          "DB Regio",
           "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "226",
-            "234"
+            "234",
+            "EV RB 71"
           ],
           "Zug": [
+            "RB 71",
             "RB71"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 6
       }
     },
     {
@@ -48453,6 +48461,7 @@
         "city": "Helmsdorf (Stolpen)",
         "name_with_city": "Helmsdorf (Stolpen) Bahnhof",
         "operators": [
+          "DB Regio",
           "DB Regio AG Südost",
           "RVSOE"
         ],
@@ -48462,10 +48471,14 @@
             "265"
           ],
           "Zug": [
+            "RB 71",
             "RB71"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 5
       }
     },
     {
@@ -51040,9 +51053,12 @@
           ],
           "Zug": [
             "RB64"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -58189,14 +58205,20 @@
         "city": "Krumhermsdorf",
         "name_with_city": "Krumhermsdorf Bahnhof",
         "operators": [
-          "DB Regio AG Südost"
+          "DB Regio",
+          "DB Regio AG Südost",
+          "RVSOE"
         ],
         "lines": {
+          "Regionalbus": [
+            "EV RB 71"
+          ],
           "Zug": [
+            "RB 71",
             "RB71"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {
@@ -60046,9 +60068,12 @@
           ],
           "S-Bahn": [
             "S8"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -60545,14 +60570,18 @@
         "city": "Langenwolmsdorf",
         "name_with_city": "Langenwolmsdorf Aue",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "265"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -60571,6 +60600,7 @@
         "city": "Langenwolmsdorf",
         "name_with_city": "Langenwolmsdorf Bahnhof",
         "operators": [
+          "DB Regio",
           "DB Regio AG Südost",
           "RVSOE"
         ],
@@ -60583,10 +60613,14 @@
             "261"
           ],
           "Zug": [
+            "RB 71",
             "RB71"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 6
       }
     },
     {
@@ -60656,14 +60690,16 @@
         "city": "Langenwolmsdorf",
         "name_with_city": "Langenwolmsdorf Hp Mitte",
         "operators": [
+          "DB Regio",
           "DB Regio AG Südost"
         ],
         "lines": {
           "Zug": [
+            "RB 71",
             "RB71"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -60713,6 +60749,7 @@
         "city": "Langenwolmsdorf",
         "name_with_city": "Langenwolmsdorf Oberdorf",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -60722,9 +60759,12 @@
           ],
           "PlusBus": [
             "261"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -60743,6 +60783,7 @@
         "city": "Langenwolmsdorf",
         "name_with_city": "Langenwolmsdorf Ortszentrum",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -60753,9 +60794,12 @@
           ],
           "PlusBus": [
             "261"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -63921,14 +63965,18 @@
         "city": "Lohmen (Sachsen)",
         "name_with_city": "Lohmen (Sachsen) Bahnhof",
         "operators": [
-          "DB Regio AG Südost"
+          "DB Regio AG Südost",
+          "RVSOE"
         ],
         "lines": {
+          "Regionalbus": [
+            "EV RB 71"
+          ],
           "Zug": [
             "RB71"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -64267,6 +64315,7 @@
         "city": "Lohsa",
         "name_with_city": "Lohsa Ziegelteich",
         "operators": [
+          "Ostdeutsche Eisenbahn GmbH",
           "RBO"
         ],
         "lines": {
@@ -64274,9 +64323,12 @@
             "775",
             "776",
             "777"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -73280,6 +73332,7 @@
         "city": "Neustadt in Sachsen",
         "name_with_city": "Neustadt in Sachsen Bahnhof",
         "operators": [
+          "DB Regio",
           "DB Regio AG Südost",
           "RVSOE"
         ],
@@ -73287,7 +73340,8 @@
           "Regionalbus": [
             "234",
             "263",
-            "263 b"
+            "263 b",
+            "EV RB 71"
           ],
           "PlusBus": [
             "261"
@@ -73297,13 +73351,14 @@
             "267"
           ],
           "Zug": [
+            "RB 71",
             "RB71"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 8
+        "total_lines": 10
       }
     },
     {
@@ -74042,9 +74097,12 @@
           ],
           "S-Bahn": [
             "S1"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -80615,9 +80673,13 @@
         "city": "Pirna",
         "name_with_city": "Pirna Bahnhof",
         "operators": [
-          "DB Regio AG Südost"
+          "DB Regio AG Südost",
+          "RVSOE"
         ],
         "lines": {
+          "Regionalbus": [
+            "EV RB 71"
+          ],
           "Zug": [
             "RB71",
             "RE20",
@@ -80628,7 +80690,7 @@
             "S2"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -81571,14 +81633,18 @@
         "city": "Pirna",
         "name_with_city": "Pirna Hp Copitz",
         "operators": [
-          "DB Regio AG Südost"
+          "DB Regio AG Südost",
+          "RVSOE"
         ],
         "lines": {
+          "Regionalbus": [
+            "EV RB 71"
+          ],
           "Zug": [
             "RB71"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -81597,14 +81663,18 @@
         "city": "Pirna",
         "name_with_city": "Pirna Hp Copitz Nord",
         "operators": [
-          "DB Regio AG Südost"
+          "DB Regio AG Südost",
+          "RVSOE"
         ],
         "lines": {
+          "Regionalbus": [
+            "EV RB 71"
+          ],
           "Zug": [
             "RB71"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -99613,6 +99683,7 @@
         "city": "Sebnitz",
         "name_with_city": "Sebnitz Bahnhof",
         "operators": [
+          "DB Regio",
           "DB Regio AG Südost",
           "RVSOE"
         ],
@@ -99627,6 +99698,7 @@
             "261"
           ],
           "Zug": [
+            "RB 71",
             "RB71",
             "U28"
           ],
@@ -99638,7 +99710,7 @@
             "SEV"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -103139,14 +103211,16 @@
         "city": "Stolpen",
         "name_with_city": "Stolpen Bahnhof",
         "operators": [
+          "DB Regio",
           "DB Regio AG Südost"
         ],
         "lines": {
           "Zug": [
+            "RB 71",
             "RB71"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -109231,8 +109305,7 @@
         "name_with_city": "Weißig (Dresden) Hutbergschule",
         "operators": [
           "DVB",
-          "Müller Busreisen",
-          "RVSOE"
+          "Müller Busreisen"
         ],
         "lines": {
           "Stadtbus": [
@@ -109242,12 +109315,9 @@
           ],
           "Regionalbus": [
             "229"
-          ],
-          "PlusBus": [
-            "261"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
