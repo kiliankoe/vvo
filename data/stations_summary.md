@@ -29,7 +29,7 @@ Total stations: 3917
 
 ## Stations by Transit Type
 
-- Regionalbus: 2704 stations
+- Regionalbus: 2700 stations
 - Stadtbus: 1283 stations
 - PlusBus: 645 stations
 - Anruflinienbus: 481 stations
@@ -50,7 +50,7 @@ Total stations: 3917
 
 ## Transit Operators
 
-- RVSOE: 1312 stations
+- RVSOE: 1308 stations
 - VGM: 1172 stations
 - DVB: 769 stations
 - RBO: 714 stations
@@ -83,7 +83,7 @@ Total stations: 3917
 - Riesa Busbahnhof / Bahnhof: 27 lines
 - Dresden Bahnhof Mitte: 24 lines
 - Kamenz Bahnhof: 24 lines
-- Pirna ZOB / Bahnhof: 22 lines
+- Pirna ZOB / Bahnhof: 23 lines
 - Großenhain Cottbuser Bahnhof: 21 lines
 - Meißen Altstadtbrücke: 21 lines
 - Meißen Bahnhofstraße: 21 lines
@@ -128,6 +128,7 @@ Total stations: 3917
 - Kamenz Flugplatz: 13 lines
 - Nossen Markt: 13 lines
 - Nossen Talstraße: 13 lines
+- Pirna Copitz Schulstraße: 13 lines
 - Cossebaude/Neu-Leuteritz Bahnhof: 12 lines
 - Coswig (Sachsen) Bahnhof: 12 lines
 - Dresden Bahnhof Neustadt (Hansastraße): 12 lines
@@ -135,7 +136,6 @@ Total stations: 3917
 - Dresden Lennéplatz: 12 lines
 - Dresden Prager Straße: 12 lines
 - Dresden Zeithainer Straße: 12 lines
-- Pirna Copitz Schulstraße: 12 lines
 - Pulsnitz Bahnhof: 12 lines
 - Riesa Goethestraße: 12 lines
 - Bischofswerda Schulstraße: 11 lines

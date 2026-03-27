@@ -46330,18 +46330,14 @@
       "longitude": 13.987964,
       "latitude": 50.989197,
       "operators": [
-        "DB Regio AG Südost",
-        "RVSOE"
+        "DB Regio AG Südost"
       ],
       "lines": {
-        "Regionalbus": [
-          "EV RB 71"
-        ],
         "Zug": [
           "RB71"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3733",
@@ -46361,13 +46357,14 @@
           "236",
           "237",
           "238",
-          "254"
+          "254",
+          "EV RB 71"
         ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14628:3739",
@@ -58454,13 +58451,9 @@
       "longitude": 13.928855,
       "latitude": 50.962352,
       "operators": [
-        "DB Regio AG Südost",
-        "RVSOE"
+        "DB Regio AG Südost"
       ],
       "lines": {
-        "Regionalbus": [
-          "EV RB 71"
-        ],
         "Zug": [
           "RB71",
           "RE20",
@@ -58471,7 +58464,7 @@
           "S2"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14628:3383",
@@ -58771,13 +58764,14 @@
           "237",
           "238",
           "246",
-          "254"
+          "254",
+          "EV RB 71"
         ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 7
+      "total_lines": 8
     },
     {
       "id": "de:14628:3435",
@@ -58938,7 +58932,8 @@
           "237",
           "238",
           "246",
-          "254"
+          "254",
+          "EV RB 71"
         ],
         "Stadtbus": [
           "G/L (Pirna)",
@@ -58950,7 +58945,7 @@
           "SEV"
         ]
       },
-      "total_lines": 12
+      "total_lines": 13
     },
     {
       "id": "de:14628:3438",
@@ -59166,18 +59161,14 @@
       "longitude": 13.934011,
       "latitude": 50.967874,
       "operators": [
-        "DB Regio AG Südost",
-        "RVSOE"
+        "DB Regio AG Südost"
       ],
       "lines": {
-        "Regionalbus": [
-          "EV RB 71"
-        ],
         "Zug": [
           "RB71"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3465",
@@ -59188,18 +59179,14 @@
       "longitude": 13.93517,
       "latitude": 50.977468,
       "operators": [
-        "DB Regio AG Südost",
-        "RVSOE"
+        "DB Regio AG Südost"
       ],
       "lines": {
-        "Regionalbus": [
-          "EV RB 71"
-        ],
         "Zug": [
           "RB71"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3441",
@@ -59905,7 +59892,8 @@
           "245",
           "246",
           "254",
-          "207a"
+          "207a",
+          "EV RB 71"
         ],
         "PlusBus": [
           "219"
@@ -59922,7 +59910,7 @@
           "SEV"
         ]
       },
-      "total_lines": 22
+      "total_lines": 23
     },
     {
       "id": "de:14628:3448",

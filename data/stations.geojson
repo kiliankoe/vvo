@@ -63965,18 +63965,14 @@
         "city": "Lohmen (Sachsen)",
         "name_with_city": "Lohmen (Sachsen) Bahnhof",
         "operators": [
-          "DB Regio AG Südost",
-          "RVSOE"
+          "DB Regio AG Südost"
         ],
         "lines": {
-          "Regionalbus": [
-            "EV RB 71"
-          ],
           "Zug": [
             "RB71"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -64004,13 +64000,14 @@
             "236",
             "237",
             "238",
-            "254"
+            "254",
+            "EV RB 71"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -80673,13 +80670,9 @@
         "city": "Pirna",
         "name_with_city": "Pirna Bahnhof",
         "operators": [
-          "DB Regio AG Südost",
-          "RVSOE"
+          "DB Regio AG Südost"
         ],
         "lines": {
-          "Regionalbus": [
-            "EV RB 71"
-          ],
           "Zug": [
             "RB71",
             "RE20",
@@ -80690,7 +80683,7 @@
             "S2"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -81094,13 +81087,14 @@
             "237",
             "238",
             "246",
-            "254"
+            "254",
+            "EV RB 71"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -81317,7 +81311,8 @@
             "237",
             "238",
             "246",
-            "254"
+            "254",
+            "EV RB 71"
           ],
           "Stadtbus": [
             "G/L (Pirna)",
@@ -81329,7 +81324,7 @@
             "SEV"
           ]
         },
-        "total_lines": 12
+        "total_lines": 13
       }
     },
     {
@@ -81633,18 +81628,14 @@
         "city": "Pirna",
         "name_with_city": "Pirna Hp Copitz",
         "operators": [
-          "DB Regio AG Südost",
-          "RVSOE"
+          "DB Regio AG Südost"
         ],
         "lines": {
-          "Regionalbus": [
-            "EV RB 71"
-          ],
           "Zug": [
             "RB71"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -81663,18 +81654,14 @@
         "city": "Pirna",
         "name_with_city": "Pirna Hp Copitz Nord",
         "operators": [
-          "DB Regio AG Südost",
-          "RVSOE"
+          "DB Regio AG Südost"
         ],
         "lines": {
-          "Regionalbus": [
-            "EV RB 71"
-          ],
           "Zug": [
             "RB71"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -82644,7 +82631,8 @@
             "245",
             "246",
             "254",
-            "207a"
+            "207a",
+            "EV RB 71"
           ],
           "PlusBus": [
             "219"
@@ -82661,7 +82649,7 @@
             "SEV"
           ]
         },
-        "total_lines": 22
+        "total_lines": 23
       }
     },
     {
