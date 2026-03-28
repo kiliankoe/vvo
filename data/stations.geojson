@@ -38354,11 +38354,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "161",
             "162"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -48468,7 +48467,8 @@
         "lines": {
           "Regionalbus": [
             "234",
-            "265"
+            "265",
+            "EV RB 71"
           ],
           "Zug": [
             "RB 71",
@@ -48478,7 +48478,7 @@
             "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -58206,19 +58206,15 @@
         "name_with_city": "Krumhermsdorf Bahnhof",
         "operators": [
           "DB Regio",
-          "DB Regio AG Südost",
-          "RVSOE"
+          "DB Regio AG Südost"
         ],
         "lines": {
-          "Regionalbus": [
-            "EV RB 71"
-          ],
           "Zug": [
             "RB 71",
             "RB71"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -60575,13 +60571,14 @@
         ],
         "lines": {
           "Regionalbus": [
-            "265"
+            "265",
+            "EV RB 71"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -60607,7 +60604,8 @@
         "lines": {
           "Regionalbus": [
             "232",
-            "234"
+            "234",
+            "EV RB 71"
           ],
           "PlusBus": [
             "261"
@@ -60620,7 +60618,7 @@
             "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -60755,7 +60753,8 @@
         "lines": {
           "Regionalbus": [
             "232",
-            "234"
+            "234",
+            "EV RB 71"
           ],
           "PlusBus": [
             "261"
@@ -60764,7 +60763,7 @@
             "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -60790,7 +60789,8 @@
           "Regionalbus": [
             "232",
             "234",
-            "265"
+            "265",
+            "EV RB 71"
           ],
           "PlusBus": [
             "261"
@@ -60799,7 +60799,7 @@
             "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -71326,8 +71326,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.67933,
-          51.159967
+          13.680084,
+          51.159421
         ]
       },
       "properties": {
@@ -82179,11 +82179,10 @@
             "237",
             "241",
             "245",
-            "246",
             "207a"
           ]
         },
-        "total_lines": 10
+        "total_lines": 9
       }
     },
     {
@@ -89480,11 +89479,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "403",
-            "405"
+            "403"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -93043,15 +93041,6 @@
         ],
         "lines": {
           "Regionalbus": [
-            "430",
-            "431",
-            "432",
-            "433",
-            "437",
-            "439",
-            "440",
-            "441",
-            "445",
             "446"
           ],
           "Stadtbus": [
@@ -93062,7 +93051,7 @@
             "E (Riesa)"
           ]
         },
-        "total_lines": 15
+        "total_lines": 6
       }
     },
     {
@@ -108116,11 +108105,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411",
-            "Sv250"
+            "411"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {

@@ -27903,11 +27903,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "161",
           "162"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:1178",
@@ -35161,7 +35160,8 @@
       "lines": {
         "Regionalbus": [
           "234",
-          "265"
+          "265",
+          "EV RB 71"
         ],
         "Zug": [
           "RB 71",
@@ -35171,7 +35171,7 @@
           "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14628:3849",
@@ -42195,19 +42195,15 @@
       "latitude": 50.992787,
       "operators": [
         "DB Regio",
-        "DB Regio AG Südost",
-        "RVSOE"
+        "DB Regio AG Südost"
       ],
       "lines": {
-        "Regionalbus": [
-          "EV RB 71"
-        ],
         "Zug": [
           "RB 71",
           "RB71"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:3911",
@@ -43900,13 +43896,14 @@
       ],
       "lines": {
         "Regionalbus": [
-          "265"
+          "265",
+          "EV RB 71"
         ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3824",
@@ -43924,7 +43921,8 @@
       "lines": {
         "Regionalbus": [
           "232",
-          "234"
+          "234",
+          "EV RB 71"
         ],
         "PlusBus": [
           "261"
@@ -43937,7 +43935,7 @@
           "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14628:3813",
@@ -44032,7 +44030,8 @@
       "lines": {
         "Regionalbus": [
           "232",
-          "234"
+          "234",
+          "EV RB 71"
         ],
         "PlusBus": [
           "261"
@@ -44041,7 +44040,7 @@
           "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3826",
@@ -44059,7 +44058,8 @@
         "Regionalbus": [
           "232",
           "234",
-          "265"
+          "265",
+          "EV RB 71"
         ],
         "PlusBus": [
           "261"
@@ -44068,7 +44068,7 @@
           "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14628:3821",
@@ -51707,8 +51707,8 @@
       "name": "Roßmarkt",
       "city": "Moritzburg",
       "name_with_city": "Moritzburg Roßmarkt",
-      "longitude": 13.67933,
-      "latitude": 51.159967,
+      "longitude": 13.680084,
+      "latitude": 51.159421,
       "operators": [
         "VGM"
       ],
@@ -59560,11 +59560,10 @@
           "237",
           "241",
           "245",
-          "246",
           "207a"
         ]
       },
-      "total_lines": 10
+      "total_lines": 9
     },
     {
       "id": "de:14628:3382",
@@ -64821,11 +64820,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "403",
-          "405"
+          "403"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4367",
@@ -67392,15 +67390,6 @@
       ],
       "lines": {
         "Regionalbus": [
-          "430",
-          "431",
-          "432",
-          "433",
-          "437",
-          "439",
-          "440",
-          "441",
-          "445",
           "446"
         ],
         "Stadtbus": [
@@ -67411,7 +67400,7 @@
           "E (Riesa)"
         ]
       },
-      "total_lines": 15
+      "total_lines": 6
     },
     {
       "id": "de:14627:5506",
@@ -78225,11 +78214,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411",
-          "Sv250"
+          "411"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4151",
