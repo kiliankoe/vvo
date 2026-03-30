@@ -23530,9 +23530,15 @@
       "name_with_city": "Dresden Universitätsklinikum",
       "longitude": 13.780956,
       "latitude": 51.056523,
-      "operators": [],
-      "lines": {},
-      "total_lines": 0
+      "operators": [
+        "DVB"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "64"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14612:793",
@@ -27903,10 +27909,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "161",
           "162"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:1178",
@@ -59560,10 +59567,11 @@
           "237",
           "241",
           "245",
+          "246",
           "207a"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14628:3382",
@@ -64820,10 +64828,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "403"
+          "403",
+          "405"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4367",
@@ -67390,6 +67399,15 @@
       ],
       "lines": {
         "Regionalbus": [
+          "430",
+          "431",
+          "432",
+          "433",
+          "437",
+          "439",
+          "440",
+          "441",
+          "445",
           "446"
         ],
         "Stadtbus": [
@@ -67400,7 +67418,7 @@
           "E (Riesa)"
         ]
       },
-      "total_lines": 6
+      "total_lines": 15
     },
     {
       "id": "de:14627:5506",
@@ -78214,10 +78232,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411"
+          "411",
+          "Sv250"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4151",

@@ -30,7 +30,7 @@ Total stations: 3917
 ## Stations by Transit Type
 
 - Regionalbus: 2699 stations
-- Stadtbus: 1283 stations
+- Stadtbus: 1284 stations
 - PlusBus: 645 stations
 - Anruflinienbus: 481 stations
 - Straßenbahn: 271 stations
@@ -52,7 +52,7 @@ Total stations: 3917
 
 - RVSOE: 1307 stations
 - VGM: 1172 stations
-- DVB: 769 stations
+- DVB: 770 stations
 - RBO: 714 stations
 - DB Regio AG Südost: 118 stations
 - VGH: 81 stations
@@ -108,6 +108,7 @@ Total stations: 3917
 - Meißen Uferstraße: 15 lines
 - Pirna Breite Straße: 15 lines
 - Radeberg Bahnhof: 15 lines
+- Riesa Kasernenstraße: 15 lines
 - Bad Schandau Nationalparkbahnhof: 14 lines
 - Dippoldiswalde Busbahnhof: 14 lines
 - Dresden Großenhainer Platz: 14 lines
@@ -161,4 +162,5 @@ Total stations: 3917
 - Dresden S-Bf. Freiberger Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
 - Neustadt in Sachsen Bahnhof: 10 lines
+- Pirna Robert-Koch-Straße: 10 lines
 - Tharandt Bahnhof: 10 lines
