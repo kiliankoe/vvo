@@ -9478,6 +9478,7 @@
         "name_with_city": "Cossebaude/Neu-Leuteritz Bahnhof",
         "operators": [
           "DB AG",
+          "DB Regio",
           "DVB",
           "SATRA",
           "VGM"
@@ -9493,7 +9494,8 @@
           ],
           "Regionalbus": [
             "404",
-            "423"
+            "423",
+            "SEV"
           ],
           "Zug": [
             "RB31",
@@ -9508,7 +9510,7 @@
             "SEV"
           ]
         },
-        "total_lines": 12
+        "total_lines": 13
       }
     },
     {
@@ -9858,6 +9860,7 @@
         "name_with_city": "Coswig (Sachsen) Bahnhof",
         "operators": [
           "DB AG",
+          "DB Regio",
           "DB Regio AG Südost",
           "VGM"
         ],
@@ -9868,6 +9871,7 @@
             "402",
             "405",
             "460",
+            "SEV",
             "Sv210"
           ],
           "Zug": [
@@ -9883,7 +9887,7 @@
             "SEV"
           ]
         },
-        "total_lines": 12
+        "total_lines": 13
       }
     },
     {
@@ -15642,6 +15646,7 @@
         "name_with_city": "Dresden Am Urnenfeld",
         "operators": [
           "DB AG",
+          "DB Regio",
           "DVB"
         ],
         "lines": {
@@ -15650,9 +15655,12 @@
           ],
           "Ersatzverkehr": [
             "SEV"
+          ],
+          "Regionalbus": [
+            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -16341,7 +16349,8 @@
         "city": "Dresden",
         "name_with_city": "Dresden Bahnhof Friedrichstadt",
         "operators": [
-          "DB AG"
+          "DB AG",
+          "DB Regio"
         ],
         "lines": {
           "Zug": [
@@ -16350,9 +16359,12 @@
           ],
           "Ersatzverkehr": [
             "SEV"
+          ],
+          "Regionalbus": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -18260,6 +18272,7 @@
         "city": "Dresden",
         "name_with_city": "Dresden Cossebauder Straße (Haltepunkt Cotta)",
         "operators": [
+          "DB Regio",
           "DVB"
         ],
         "lines": {
@@ -18271,9 +18284,12 @@
             "68",
             "92",
             "EV 12"
+          ],
+          "Regionalbus": [
+            "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -19648,6 +19664,7 @@
         "name_with_city": "Dresden Flensburger Straße",
         "operators": [
           "DB AG",
+          "DB Regio",
           "DVB"
         ],
         "lines": {
@@ -19656,9 +19673,12 @@
           ],
           "Ersatzverkehr": [
             "SEV"
+          ],
+          "Regionalbus": [
+            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -22426,7 +22446,8 @@
         "city": "Dresden",
         "name_with_city": "Dresden Hp Cotta",
         "operators": [
-          "DB AG"
+          "DB AG",
+          "DB Regio"
         ],
         "lines": {
           "Zug": [
@@ -22434,9 +22455,12 @@
           ],
           "Ersatzverkehr": [
             "SEV"
+          ],
+          "Regionalbus": [
+            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -22455,14 +22479,18 @@
         "city": "Dresden",
         "name_with_city": "Dresden Hp Kemnitz",
         "operators": [
-          "DB AG"
+          "DB AG",
+          "DB Regio"
         ],
         "lines": {
           "Zug": [
             "RB31"
+          ],
+          "Regionalbus": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -22481,14 +22509,18 @@
         "city": "Dresden",
         "name_with_city": "Dresden Hp Stetzsch",
         "operators": [
-          "DB AG"
+          "DB AG",
+          "DB Regio"
         ],
         "lines": {
           "Zug": [
             "RB31"
+          ],
+          "Regionalbus": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -32617,6 +32649,7 @@
         "city": "Dresden",
         "name_with_city": "Dresden Waltherstraße",
         "operators": [
+          "DB Regio",
           "DVB"
         ],
         "lines": {
@@ -32626,9 +32659,12 @@
           "Stadtbus": [
             "68",
             "92"
+          ],
+          "Regionalbus": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -33742,6 +33778,7 @@
         "name_with_city": "Dresden Zschonergrundstraße",
         "operators": [
           "DB AG",
+          "DB Regio",
           "DVB"
         ],
         "lines": {
@@ -33750,9 +33787,12 @@
           ],
           "Ersatzverkehr": [
             "SEV"
+          ],
+          "Regionalbus": [
+            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -60035,9 +60075,12 @@
         "lines": {
           "Stadtbus": [
             "78"
+          ],
+          "Regionalbus": [
+            "761"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -60100,9 +60143,12 @@
         "lines": {
           "Stadtbus": [
             "78"
+          ],
+          "Regionalbus": [
+            "761"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -60230,9 +60276,12 @@
         "lines": {
           "Stadtbus": [
             "78"
+          ],
+          "Regionalbus": [
+            "761"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -63584,13 +63633,14 @@
         ],
         "lines": {
           "Stadtbus": [
+            "28",
             "78"
           ],
           "Regionalbus": [
             "761"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -63645,9 +63695,12 @@
         "lines": {
           "Stadtbus": [
             "78"
+          ],
+          "Regionalbus": [
+            "761"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -63697,13 +63750,14 @@
         ],
         "lines": {
           "Stadtbus": [
+            "28",
             "78"
           ],
           "Regionalbus": [
             "761"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -74840,6 +74894,7 @@
         "name_with_city": "Niederwartha Haltepunkt",
         "operators": [
           "DB AG",
+          "DB Regio",
           "DVB",
           "VGM"
         ],
@@ -74853,6 +74908,7 @@
           "Regionalbus": [
             "404",
             "423",
+            "SEV",
             "Sv180"
           ],
           "Zug": [
@@ -74865,7 +74921,7 @@
             "SEV"
           ]
         },
-        "total_lines": 8
+        "total_lines": 9
       }
     },
     {
@@ -86176,9 +86232,13 @@
           "Stadtbus": [
             "28",
             "78"
+          ],
+          "Regionalbus": [
+            "760",
+            "761"
           ]
         },
-        "total_lines": 2
+        "total_lines": 4
       }
     },
     {
@@ -86204,9 +86264,13 @@
           "Stadtbus": [
             "28",
             "78"
+          ],
+          "Regionalbus": [
+            "760",
+            "761"
           ]
         },
-        "total_lines": 2
+        "total_lines": 4
       }
     },
     {
@@ -86410,10 +86474,11 @@
             "78"
           ],
           "Regionalbus": [
-            "760"
+            "760",
+            "761"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -86668,9 +86733,13 @@
           "PlusBus": [
             "520",
             "521"
+          ],
+          "Regionalbus": [
+            "760",
+            "761"
           ]
         },
-        "total_lines": 4
+        "total_lines": 6
       }
     },
     {
@@ -86855,9 +86924,13 @@
           "PlusBus": [
             "520",
             "521"
+          ],
+          "Regionalbus": [
+            "760",
+            "761"
           ]
         },
-        "total_lines": 4
+        "total_lines": 6
       }
     },
     {
@@ -87245,11 +87318,13 @@
         "name_with_city": "Radebeul Bahnhof Naundorf",
         "operators": [
           "DB AG",
+          "DB Regio",
           "VGM"
         ],
         "lines": {
           "Regionalbus": [
-            "400"
+            "400",
+            "SEV"
           ],
           "Zug": [
             "RB31"
@@ -87258,7 +87333,7 @@
             "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {

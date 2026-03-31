@@ -29,7 +29,7 @@ Total stations: 3917
 
 ## Stations by Transit Type
 
-- Regionalbus: 2699 stations
+- Regionalbus: 2716 stations
 - Stadtbus: 1284 stations
 - PlusBus: 645 stations
 - Anruflinienbus: 481 stations
@@ -64,10 +64,10 @@ Total stations: 3917
 - DB AG: 25 stations
 - SDG: 24 stations
 - Mitteldeutsche Regiobahn: 22 stations
+- DB Regio: 21 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
 - trilex - Die Länderbahn GmbH DLB: 11 stations
 - Cottbusverkehr GmbH: 11 stations
-- DB Regio: 8 stations
 - DB Fernverkehr AG: 4 stations
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 4 stations
@@ -123,14 +123,14 @@ Total stations: 3917
 - Lommatzsch Parkstraße: 14 lines
 - Meißen Neugasse: 14 lines
 - Meißen Talbad: 14 lines
+- Cossebaude/Neu-Leuteritz Bahnhof: 13 lines
+- Coswig (Sachsen) Bahnhof: 13 lines
 - Dresden Bahnhof Klotzsche: 13 lines
 - Dresden Pirnaischer Platz: 13 lines
 - Kamenz Flugplatz: 13 lines
 - Nossen Markt: 13 lines
 - Nossen Talstraße: 13 lines
 - Pirna Copitz Schulstraße: 13 lines
-- Cossebaude/Neu-Leuteritz Bahnhof: 12 lines
-- Coswig (Sachsen) Bahnhof: 12 lines
 - Dresden Bahnhof Neustadt (Hansastraße): 12 lines
 - Dresden Julius-Vahlteich-Straße: 12 lines
 - Dresden Lennéplatz: 12 lines

@@ -6803,6 +6803,7 @@
       "latitude": 51.08535,
       "operators": [
         "DB AG",
+        "DB Regio",
         "DVB",
         "SATRA",
         "VGM"
@@ -6818,7 +6819,8 @@
         ],
         "Regionalbus": [
           "404",
-          "423"
+          "423",
+          "SEV"
         ],
         "Zug": [
           "RB31",
@@ -6833,7 +6835,7 @@
           "SEV"
         ]
       },
-      "total_lines": 12
+      "total_lines": 13
     },
     {
       "id": "de:14612:454",
@@ -7087,6 +7089,7 @@
       "latitude": 51.123023,
       "operators": [
         "DB AG",
+        "DB Regio",
         "DB Regio AG Südost",
         "VGM"
       ],
@@ -7097,6 +7100,7 @@
           "402",
           "405",
           "460",
+          "SEV",
           "Sv210"
         ],
         "Zug": [
@@ -7112,7 +7116,7 @@
           "SEV"
         ]
       },
-      "total_lines": 12
+      "total_lines": 13
     },
     {
       "id": "de:14627:4171",
@@ -11247,6 +11251,7 @@
       "latitude": 51.082703,
       "operators": [
         "DB AG",
+        "DB Regio",
         "DVB"
       ],
       "lines": {
@@ -11255,9 +11260,12 @@
         ],
         "Ersatzverkehr": [
           "SEV"
+        ],
+        "Regionalbus": [
+          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:886",
@@ -11762,7 +11770,8 @@
       "longitude": 13.708192,
       "latitude": 51.056026,
       "operators": [
-        "DB AG"
+        "DB AG",
+        "DB Regio"
       ],
       "lines": {
         "Zug": [
@@ -11771,9 +11780,12 @@
         ],
         "Ersatzverkehr": [
           "SEV"
+        ],
+        "Regionalbus": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:658",
@@ -13201,6 +13213,7 @@
       "longitude": 13.68065,
       "latitude": 51.06166,
       "operators": [
+        "DB Regio",
         "DVB"
       ],
       "lines": {
@@ -13212,9 +13225,12 @@
           "68",
           "92",
           "EV 12"
+        ],
+        "Regionalbus": [
+          "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14612:153",
@@ -14221,6 +14237,7 @@
       "latitude": 51.075654,
       "operators": [
         "DB AG",
+        "DB Regio",
         "DVB"
       ],
       "lines": {
@@ -14229,9 +14246,12 @@
         ],
         "Ersatzverkehr": [
           "SEV"
+        ],
+        "Regionalbus": [
+          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:141",
@@ -16247,7 +16267,8 @@
       "longitude": 13.68339,
       "latitude": 51.062123,
       "operators": [
-        "DB AG"
+        "DB AG",
+        "DB Regio"
       ],
       "lines": {
         "Zug": [
@@ -16255,9 +16276,12 @@
         ],
         "Ersatzverkehr": [
           "SEV"
+        ],
+        "Regionalbus": [
+          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:550",
@@ -16268,14 +16292,18 @@
       "longitude": 13.668936,
       "latitude": 51.073001,
       "operators": [
-        "DB AG"
+        "DB AG",
+        "DB Regio"
       ],
       "lines": {
         "Zug": [
           "RB31"
+        ],
+        "Regionalbus": [
+          "SEV"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:556",
@@ -16286,14 +16314,18 @@
       "longitude": 13.651661,
       "latitude": 51.08057,
       "operators": [
-        "DB AG"
+        "DB AG",
+        "DB Regio"
       ],
       "lines": {
         "Zug": [
           "RB31"
+        ],
+        "Regionalbus": [
+          "SEV"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:251",
@@ -23750,6 +23782,7 @@
       "longitude": 13.710061,
       "latitude": 51.05812,
       "operators": [
+        "DB Regio",
         "DVB"
       ],
       "lines": {
@@ -23759,9 +23792,12 @@
         "Stadtbus": [
           "68",
           "92"
+        ],
+        "Regionalbus": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:115",
@@ -24571,6 +24607,7 @@
       "latitude": 51.071737,
       "operators": [
         "DB AG",
+        "DB Regio",
         "DVB"
       ],
       "lines": {
@@ -24579,9 +24616,12 @@
         ],
         "Ersatzverkehr": [
           "SEV"
+        ],
+        "Regionalbus": [
+          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:681",
@@ -43520,9 +43560,12 @@
       "lines": {
         "Stadtbus": [
           "78"
+        ],
+        "Regionalbus": [
+          "761"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:6680",
@@ -43569,9 +43612,12 @@
       "lines": {
         "Stadtbus": [
           "78"
+        ],
+        "Regionalbus": [
+          "761"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:6682",
@@ -43659,9 +43705,12 @@
       "lines": {
         "Stadtbus": [
           "78"
+        ],
+        "Regionalbus": [
+          "761"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3527",
@@ -46061,13 +46110,14 @@
       ],
       "lines": {
         "Stadtbus": [
+          "28",
           "78"
         ],
         "Regionalbus": [
           "761"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6742",
@@ -46106,9 +46156,12 @@
       "lines": {
         "Stadtbus": [
           "78"
+        ],
+        "Regionalbus": [
+          "761"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:6744",
@@ -46142,13 +46195,14 @@
       ],
       "lines": {
         "Stadtbus": [
+          "28",
           "78"
         ],
         "Regionalbus": [
           "761"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6740",
@@ -54229,6 +54283,7 @@
       "latitude": 51.093751,
       "operators": [
         "DB AG",
+        "DB Regio",
         "DVB",
         "VGM"
       ],
@@ -54242,6 +54297,7 @@
         "Regionalbus": [
           "404",
           "423",
+          "SEV",
           "Sv180"
         ],
         "Zug": [
@@ -54254,7 +54310,7 @@
           "SEV"
         ]
       },
-      "total_lines": 8
+      "total_lines": 9
     },
     {
       "id": "de:14627:5383",
@@ -62453,9 +62509,13 @@
         "Stadtbus": [
           "28",
           "78"
+        ],
+        "Regionalbus": [
+          "760",
+          "761"
         ]
       },
-      "total_lines": 2
+      "total_lines": 4
     },
     {
       "id": "de:14625:6733",
@@ -62473,9 +62533,13 @@
         "Stadtbus": [
           "28",
           "78"
+        ],
+        "Regionalbus": [
+          "760",
+          "761"
         ]
       },
-      "total_lines": 2
+      "total_lines": 4
     },
     {
       "id": "de:14625:6731",
@@ -62631,10 +62695,11 @@
           "78"
         ],
         "Regionalbus": [
-          "760"
+          "760",
+          "761"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14625:6738",
@@ -62817,9 +62882,13 @@
         "PlusBus": [
           "520",
           "521"
+        ],
+        "Regionalbus": [
+          "760",
+          "761"
         ]
       },
-      "total_lines": 4
+      "total_lines": 6
     },
     {
       "id": "de:14625:6705",
@@ -62956,9 +63025,13 @@
         "PlusBus": [
           "520",
           "521"
+        ],
+        "Regionalbus": [
+          "760",
+          "761"
         ]
       },
-      "total_lines": 4
+      "total_lines": 6
     },
     {
       "id": "de:14625:6724",
@@ -63234,11 +63307,13 @@
       "latitude": 51.110476,
       "operators": [
         "DB AG",
+        "DB Regio",
         "VGM"
       ],
       "lines": {
         "Regionalbus": [
-          "400"
+          "400",
+          "SEV"
         ],
         "Zug": [
           "RB31"
@@ -63247,7 +63322,7 @@
           "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14627:4237",
