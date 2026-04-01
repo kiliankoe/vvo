@@ -29,11 +29,11 @@ Total stations: 3917
 
 ## Stations by Transit Type
 
-- Regionalbus: 2716 stations
-- Stadtbus: 1284 stations
+- Regionalbus: 2717 stations
+- Stadtbus: 1290 stations
 - PlusBus: 645 stations
 - Anruflinienbus: 481 stations
-- Straßenbahn: 271 stations
+- Straßenbahn: 269 stations
 - Anruflinientaxi: 198 stations
 - Ersatzverkehr: 120 stations
 - Zug: 102 stations
@@ -63,8 +63,8 @@ Total stations: 3917
 - RBM: 31 stations
 - DB AG: 25 stations
 - SDG: 24 stations
+- DB Regio: 23 stations
 - Mitteldeutsche Regiobahn: 22 stations
-- DB Regio: 21 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
 - trilex - Die Länderbahn GmbH DLB: 11 stations
 - Cottbusverkehr GmbH: 11 stations
@@ -79,7 +79,7 @@ Total stations: 3917
 
 - Meißen Busbahnhof: 33 lines
 - Dresden Hauptbahnhof: 32 lines
-- Dresden Bahnhof Neustadt: 27 lines
+- Dresden Bahnhof Neustadt: 29 lines
 - Riesa Busbahnhof / Bahnhof: 27 lines
 - Dresden Bahnhof Mitte: 24 lines
 - Kamenz Bahnhof: 24 lines
@@ -126,12 +126,12 @@ Total stations: 3917
 - Cossebaude/Neu-Leuteritz Bahnhof: 13 lines
 - Coswig (Sachsen) Bahnhof: 13 lines
 - Dresden Bahnhof Klotzsche: 13 lines
+- Dresden Bahnhof Neustadt (Hansastraße): 13 lines
 - Dresden Pirnaischer Platz: 13 lines
 - Kamenz Flugplatz: 13 lines
 - Nossen Markt: 13 lines
 - Nossen Talstraße: 13 lines
 - Pirna Copitz Schulstraße: 13 lines
-- Dresden Bahnhof Neustadt (Hansastraße): 12 lines
 - Dresden Julius-Vahlteich-Straße: 12 lines
 - Dresden Lennéplatz: 12 lines
 - Dresden Prager Straße: 12 lines
@@ -139,7 +139,9 @@ Total stations: 3917
 - Pulsnitz Bahnhof: 12 lines
 - Riesa Goethestraße: 12 lines
 - Bischofswerda Schulstraße: 11 lines
+- Dresden Albertplatz: 11 lines
 - Dresden Amalie-Dietrich-Platz: 11 lines
+- Dresden Anton-/Leipziger Straße: 11 lines
 - Dresden Betriebshof Gorbitz: 11 lines
 - Dresden Kirschenstraße: 11 lines
 - Dresden Lößnitzstraße: 11 lines
@@ -154,9 +156,6 @@ Total stations: 3917
 - Sebnitz Bahnhof: 11 lines
 - Altenberg (Erzgebirge) Bahnhof: 10 lines
 - Bad Schandau Elbkai: 10 lines
-- Dresden Albertplatz: 10 lines
-- Dresden Anton-/Leipziger Straße: 10 lines
-- Dresden Gottfried-Keller-Straße: 10 lines
 - Dresden Kongresszentrum / Haus der Presse: 10 lines
 - Dresden Reichenbachstraße: 10 lines
 - Dresden S-Bf. Freiberger Straße: 10 lines
