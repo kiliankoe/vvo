@@ -50,7 +50,7 @@ Total stations: 3917
 
 ## Transit Operators
 
-- RVSOE: 1307 stations
+- RVSOE: 1308 stations
 - VGM: 1172 stations
 - DVB: 770 stations
 - RBO: 714 stations

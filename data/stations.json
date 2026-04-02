@@ -15676,6 +15676,7 @@
         "DB Regio AG Südost",
         "DVB",
         "Mitteldeutsche Regiobahn",
+        "RVSOE",
         "trilex - Die Länderbahn GmbH DLB"
       ],
       "lines": {
@@ -15683,17 +15684,18 @@
           "66",
           "EV 11"
         ],
+        "Regionalbus": [
+          "366",
+          "SEV"
+        ],
         "Fernbus": [
           "Fernbus"
         ],
         "Ersatzverkehr": [
           "SEV"
-        ],
-        "Regionalbus": [
-          "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14612:32",
