@@ -11988,9 +11988,12 @@
         ],
         "PlusBus": [
           "477"
+        ],
+        "Regionalbus": [
+          "478"
         ]
       },
-      "total_lines": 13
+      "total_lines": 14
     },
     {
       "id": "de:14612:943",
@@ -23588,15 +23591,9 @@
       "name_with_city": "Dresden Universitätsklinikum",
       "longitude": 13.780956,
       "latitude": 51.056523,
-      "operators": [
-        "DVB"
-      ],
-      "lines": {
-        "Stadtbus": [
-          "64"
-        ]
-      },
-      "total_lines": 1
+      "operators": [],
+      "lines": {},
+      "total_lines": 0
     },
     {
       "id": "de:14612:793",
@@ -27976,11 +27973,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "161",
           "162"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:1178",
@@ -29414,10 +29410,11 @@
       "lines": {
         "Regionalbus": [
           "757",
-          "759"
+          "759",
+          "764"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6364",
@@ -33084,7 +33081,6 @@
       "longitude": 13.44257,
       "latitude": 51.412208,
       "operators": [
-        "Mitteldeutsche Regiobahn",
         "VGM"
       ],
       "lines": {
@@ -33097,12 +33093,9 @@
           "440",
           "461",
           "462"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 7
+      "total_lines": 6
     },
     {
       "id": "de:14627:5781",
@@ -39258,13 +39251,14 @@
           "791"
         ],
         "Anruflinienbus": [
+          "789",
           "791"
         ],
         "Stadtbus": [
           "21 (Kamenz)"
         ]
       },
-      "total_lines": 13
+      "total_lines": 14
     },
     {
       "id": "de:14625:6223",
@@ -48651,6 +48645,11 @@
         "VGM"
       ],
       "lines": {
+        "Regionalbus": [
+          "412",
+          "417",
+          "422"
+        ],
         "Anruflinienbus": [
           "416",
           "417"
@@ -48658,14 +48657,12 @@
         "PlusBus": [
           "416"
         ],
-        "Regionalbus": [
-          "417"
-        ],
         "Stadtbus": [
+          "A (Meißen)",
           "B (Meißen)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 8
     },
     {
       "id": "de:14627:4052",
@@ -49438,21 +49435,24 @@
         "VGM"
       ],
       "lines": {
+        "Regionalbus": [
+          "412",
+          "417",
+          "422",
+          "446"
+        ],
         "Anruflinienbus": [
           "416"
         ],
         "PlusBus": [
           "416"
         ],
-        "Regionalbus": [
-          "417",
-          "446"
-        ],
         "Stadtbus": [
+          "A (Meißen)",
           "B (Meißen)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 8
     },
     {
       "id": "de:14627:4077",
@@ -59650,11 +59650,10 @@
           "237",
           "241",
           "245",
-          "246",
           "207a"
         ]
       },
-      "total_lines": 10
+      "total_lines": 9
     },
     {
       "id": "de:14628:3382",
@@ -67500,15 +67499,6 @@
       ],
       "lines": {
         "Regionalbus": [
-          "430",
-          "431",
-          "432",
-          "433",
-          "437",
-          "439",
-          "440",
-          "441",
-          "445",
           "446"
         ],
         "Stadtbus": [
@@ -67519,7 +67509,7 @@
           "E (Riesa)"
         ]
       },
-      "total_lines": 15
+      "total_lines": 6
     },
     {
       "id": "de:14627:5506",
@@ -78333,11 +78323,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411",
-          "Sv250"
+          "411"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4151",

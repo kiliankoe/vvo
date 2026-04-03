@@ -29,13 +29,13 @@ Total stations: 3917
 
 ## Stations by Transit Type
 
-- Regionalbus: 2717 stations
-- Stadtbus: 1290 stations
+- Regionalbus: 2718 stations
+- Stadtbus: 1289 stations
 - PlusBus: 645 stations
 - Anruflinienbus: 481 stations
 - Straßenbahn: 269 stations
 - Anruflinientaxi: 198 stations
-- Ersatzverkehr: 120 stations
+- Ersatzverkehr: 119 stations
 - Zug: 102 stations
 - Taktbus: 102 stations
 - S-Bahn: 54 stations
@@ -52,7 +52,7 @@ Total stations: 3917
 
 - RVSOE: 1308 stations
 - VGM: 1172 stations
-- DVB: 770 stations
+- DVB: 769 stations
 - RBO: 714 stations
 - DB Regio AG Südost: 118 stations
 - VGH: 81 stations
@@ -64,7 +64,7 @@ Total stations: 3917
 - DB AG: 25 stations
 - SDG: 24 stations
 - DB Regio: 23 stations
-- Mitteldeutsche Regiobahn: 22 stations
+- Mitteldeutsche Regiobahn: 21 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
 - trilex - Die Länderbahn GmbH DLB: 11 stations
 - Cottbusverkehr GmbH: 11 stations
@@ -108,9 +108,9 @@ Total stations: 3917
 - Meißen Uferstraße: 15 lines
 - Pirna Breite Straße: 15 lines
 - Radeberg Bahnhof: 15 lines
-- Riesa Kasernenstraße: 15 lines
 - Bad Schandau Nationalparkbahnhof: 14 lines
 - Dippoldiswalde Busbahnhof: 14 lines
+- Dresden Bahnhof Neustadt (Hansastraße): 14 lines
 - Dresden Großenhainer Platz: 14 lines
 - Dresden S-Bahnhof Niedersedlitz: 14 lines
 - Dresden S-Bf. Strehlen: 14 lines
@@ -119,6 +119,7 @@ Total stations: 3917
 - Heidenau (Sachsen) Bahnhof: 14 lines
 - Hoyerswerda Behördenpark: 14 lines
 - Hoyerswerda Lausitzer Platz: 14 lines
+- Kamenz Flugplatz: 14 lines
 - Kamenz Landesämter: 14 lines
 - Lommatzsch Parkstraße: 14 lines
 - Meißen Neugasse: 14 lines
@@ -126,9 +127,7 @@ Total stations: 3917
 - Cossebaude/Neu-Leuteritz Bahnhof: 13 lines
 - Coswig (Sachsen) Bahnhof: 13 lines
 - Dresden Bahnhof Klotzsche: 13 lines
-- Dresden Bahnhof Neustadt (Hansastraße): 13 lines
 - Dresden Pirnaischer Platz: 13 lines
-- Kamenz Flugplatz: 13 lines
 - Nossen Markt: 13 lines
 - Nossen Talstraße: 13 lines
 - Pirna Copitz Schulstraße: 13 lines
@@ -161,5 +160,4 @@ Total stations: 3917
 - Dresden S-Bf. Freiberger Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
 - Neustadt in Sachsen Bahnhof: 10 lines
-- Pirna Robert-Koch-Straße: 10 lines
 - Tharandt Bahnhof: 10 lines
