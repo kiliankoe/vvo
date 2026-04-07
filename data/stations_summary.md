@@ -137,6 +137,7 @@ Total stations: 3917
 - Dresden Zeithainer Straße: 12 lines
 - Pulsnitz Bahnhof: 12 lines
 - Riesa Goethestraße: 12 lines
+- Riesa Kasernenstraße: 12 lines
 - Bischofswerda Schulstraße: 11 lines
 - Dresden Albertplatz: 11 lines
 - Dresden Amalie-Dietrich-Platz: 11 lines
