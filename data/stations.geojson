@@ -9713,7 +9713,8 @@
         "name_with_city": "Cossebaude/Neu-Leuteritz Schulstraße",
         "operators": [
           "DVB",
-          "SATRA"
+          "SATRA",
+          "VGM"
         ],
         "lines": {
           "Stadtbus": [
@@ -9723,11 +9724,15 @@
           "Anruflinienbus": [
             "93"
           ],
+          "Regionalbus": [
+            "404",
+            "423"
+          ],
           "Anruflinientaxi": [
             "alita 68"
           ]
         },
-        "total_lines": 4
+        "total_lines": 6
       }
     },
     {
@@ -14576,11 +14581,10 @@
           "Stadtbus": [
             "68",
             "70",
-            "80",
-            "EV 12"
+            "80"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -14748,14 +14752,13 @@
             "6"
           ],
           "Stadtbus": [
-            "65",
-            "EV 6"
+            "65"
           ],
           "Anruflinientaxi": [
             "alita 65"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -15122,12 +15125,9 @@
             "12",
             "6",
             "9"
-          ],
-          "Stadtbus": [
-            "EV 6"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -15476,14 +15476,13 @@
         ],
         "lines": {
           "Stadtbus": [
-            "92",
-            "EV 12"
+            "92"
           ],
           "Anruflinientaxi": [
             "alita 92"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -16299,14 +16298,13 @@
           ],
           "Stadtbus": [
             "62",
-            "EV 12",
             "EV 6"
           ],
           "PlusBus": [
             "520"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -16911,12 +16909,10 @@
         "lines": {
           "Stadtbus": [
             "63",
-            "65",
-            "EV 12",
-            "EV 6"
+            "65"
           ]
         },
-        "total_lines": 4
+        "total_lines": 2
       }
     },
     {
@@ -17006,14 +17002,13 @@
             "6"
           ],
           "Stadtbus": [
-            "65",
-            "EV 6"
+            "65"
           ],
           "Anruflinientaxi": [
             "alita 65"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -17237,14 +17232,13 @@
           "Stadtbus": [
             "62",
             "64",
-            "EV 12",
             "EV 6"
           ],
           "PlusBus": [
             "520"
           ]
         },
-        "total_lines": 8
+        "total_lines": 7
       }
     },
     {
@@ -17996,12 +17990,9 @@
             "12",
             "2",
             "9"
-          ],
-          "Stadtbus": [
-            "EV 12"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
@@ -18297,14 +18288,13 @@
           ],
           "Stadtbus": [
             "68",
-            "92",
-            "EV 12"
+            "92"
           ],
           "Regionalbus": [
             "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -19293,12 +19283,10 @@
           ],
           "Stadtbus": [
             "65",
-            "85",
-            "EV 12",
-            "EV 6"
+            "85"
           ]
         },
-        "total_lines": 6
+        "total_lines": 4
       }
     },
     {
@@ -19896,11 +19884,10 @@
             "68",
             "70",
             "80",
-            "92",
-            "EV 12"
+            "92"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -20131,11 +20118,10 @@
             "9"
           ],
           "Stadtbus": [
-            "86",
-            "EV 6"
+            "86"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -20413,8 +20399,7 @@
           "Stadtbus": [
             "65",
             "88",
-            "89",
-            "EV 6"
+            "89"
           ],
           "Anruflinientaxi": [
             "alita 65",
@@ -20422,7 +20407,7 @@
             "alita 89"
           ]
         },
-        "total_lines": 9
+        "total_lines": 8
       }
     },
     {
@@ -20476,12 +20461,10 @@
             "8"
           ],
           "Stadtbus": [
-            "64",
-            "EV 12",
-            "EV 6"
+            "64"
           ]
         },
-        "total_lines": 6
+        "total_lines": 4
       }
     },
     {
@@ -20907,8 +20890,7 @@
             "68",
             "91",
             "92",
-            "93",
-            "EV 12"
+            "93"
           ],
           "Anruflinienbus": [
             "91",
@@ -20918,7 +20900,7 @@
             "alita 92"
           ]
         },
-        "total_lines": 9
+        "total_lines": 8
       }
     },
     {
@@ -21031,11 +21013,10 @@
         "lines": {
           "Stadtbus": [
             "70",
-            "80",
-            "EV 12"
+            "80"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -21130,11 +21111,10 @@
             "9"
           ],
           "Stadtbus": [
-            "86",
-            "EV 6"
+            "86"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -21251,12 +21231,9 @@
           "Straßenbahn": [
             "10",
             "6"
-          ],
-          "Stadtbus": [
-            "EV 6"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -21717,12 +21694,9 @@
             "12",
             "2",
             "9"
-          ],
-          "Stadtbus": [
-            "EV 12"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
@@ -22318,11 +22292,10 @@
             "9"
           ],
           "Stadtbus": [
-            "86",
-            "EV 6"
+            "86"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -22345,14 +22318,13 @@
         ],
         "lines": {
           "Stadtbus": [
-            "92",
-            "EV 12"
+            "92"
           ],
           "Anruflinientaxi": [
             "alita 92"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -23070,12 +23042,10 @@
           "Stadtbus": [
             "61",
             "63",
-            "65",
-            "EV 12",
-            "EV 6"
+            "65"
           ]
         },
-        "total_lines": 5
+        "total_lines": 3
       }
     },
     {
@@ -23133,12 +23103,10 @@
             "9"
           ],
           "Stadtbus": [
-            "87",
-            "EV 12",
-            "EV 6"
+            "87"
           ]
         },
-        "total_lines": 7
+        "total_lines": 5
       }
     },
     {
@@ -23390,13 +23358,9 @@
           "Straßenbahn": [
             "12",
             "6"
-          ],
-          "Stadtbus": [
-            "EV 12",
-            "EV 6"
           ]
         },
-        "total_lines": 4
+        "total_lines": 2
       }
     },
     {
@@ -24797,12 +24761,10 @@
             "6"
           ],
           "Stadtbus": [
-            "62",
-            "EV 12",
-            "EV 6"
+            "62"
           ]
         },
-        "total_lines": 5
+        "total_lines": 3
       }
     },
     {
@@ -24898,11 +24860,10 @@
             "9"
           ],
           "Stadtbus": [
-            "86",
-            "EV 6"
+            "86"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -25053,12 +25014,10 @@
             "6"
           ],
           "Stadtbus": [
-            "62",
-            "EV 12",
-            "EV 6"
+            "62"
           ]
         },
-        "total_lines": 5
+        "total_lines": 3
       }
     },
     {
@@ -25152,11 +25111,10 @@
             "9"
           ],
           "Stadtbus": [
-            "86",
-            "EV 6"
+            "86"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -25211,14 +25169,13 @@
             "12"
           ],
           "Stadtbus": [
-            "92",
-            "EV 12"
+            "92"
           ],
           "Anruflinientaxi": [
             "alita 97"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -27087,12 +27044,10 @@
         "lines": {
           "Stadtbus": [
             "65",
-            "85",
-            "EV 12",
-            "EV 6"
+            "85"
           ]
         },
-        "total_lines": 4
+        "total_lines": 2
       }
     },
     {
@@ -27117,12 +27072,10 @@
           "Stadtbus": [
             "61",
             "63",
-            "65",
-            "EV 12",
-            "EV 6"
+            "65"
           ]
         },
-        "total_lines": 5
+        "total_lines": 3
       }
     },
     {
@@ -27388,11 +27341,10 @@
             "12"
           ],
           "Stadtbus": [
-            "68",
-            "EV 12"
+            "68"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -27446,12 +27398,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "65",
-            "EV 12",
-            "EV 6"
+            "65"
           ]
         },
-        "total_lines": 3
+        "total_lines": 1
       }
     },
     {
@@ -28255,12 +28205,10 @@
           ],
           "Stadtbus": [
             "62",
-            "63",
-            "EV 12",
-            "EV 6"
+            "63"
           ]
         },
-        "total_lines": 6
+        "total_lines": 4
       }
     },
     {
@@ -29592,8 +29540,7 @@
           "Stadtbus": [
             "65",
             "88",
-            "89",
-            "EV 6"
+            "89"
           ],
           "Zug": [
             "RE19",
@@ -29612,7 +29559,7 @@
             "SEV"
           ]
         },
-        "total_lines": 14
+        "total_lines": 13
       }
     },
     {
@@ -30307,9 +30254,7 @@
             "62",
             "63",
             "65",
-            "84",
-            "EV 12",
-            "EV 6"
+            "84"
           ],
           "PlusBus": [
             "521"
@@ -30318,7 +30263,7 @@
             "alita 84"
           ]
         },
-        "total_lines": 11
+        "total_lines": 9
       }
     },
     {
@@ -30578,8 +30523,7 @@
             "68",
             "91",
             "92",
-            "93",
-            "EV 12"
+            "93"
           ],
           "Anruflinienbus": [
             "91",
@@ -30589,7 +30533,7 @@
             "alita 92"
           ]
         },
-        "total_lines": 8
+        "total_lines": 7
       }
     },
     {
@@ -31368,12 +31312,9 @@
           "Straßenbahn": [
             "10",
             "6"
-          ],
-          "Stadtbus": [
-            "EV 6"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -31433,13 +31374,9 @@
             "12",
             "6",
             "9"
-          ],
-          "Stadtbus": [
-            "EV 12",
-            "EV 6"
           ]
         },
-        "total_lines": 6
+        "total_lines": 4
       }
     },
     {
@@ -32017,12 +31954,10 @@
             "9"
           ],
           "Stadtbus": [
-            "87",
-            "EV 12",
-            "EV 6"
+            "87"
           ]
         },
-        "total_lines": 7
+        "total_lines": 5
       }
     },
     {
@@ -32046,11 +31981,10 @@
         "lines": {
           "Stadtbus": [
             "70",
-            "80",
-            "EV 12"
+            "80"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -32219,11 +32153,10 @@
             "8"
           ],
           "Stadtbus": [
-            "EV 12",
             "EV 6"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -32786,12 +32719,9 @@
             "12",
             "6",
             "9"
-          ],
-          "Stadtbus": [
-            "EV 6"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -52998,9 +52928,6 @@
           "VGM"
         ],
         "lines": {
-          "PlusBus": [
-            "416"
-          ],
           "Anruflinienbus": [
             "445"
           ],
@@ -53009,7 +52936,7 @@
             "Sv120"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -76842,9 +76769,6 @@
           "VGM"
         ],
         "lines": {
-          "PlusBus": [
-            "416"
-          ],
           "Anruflinienbus": [
             "445"
           ],
@@ -76853,7 +76777,7 @@
             "Sv120"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -93161,12 +93085,14 @@
             "446"
           ],
           "Stadtbus": [
+            "A1 (Riesa)",
+            "A2 (Riesa)",
             "B (Riesa)",
             "D (Riesa)",
             "E (Riesa)"
           ]
         },
-        "total_lines": 12
+        "total_lines": 14
       }
     },
     {

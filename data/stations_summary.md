@@ -29,9 +29,9 @@ Total stations: 3917
 
 ## Stations by Transit Type
 
-- Regionalbus: 2718 stations
-- Stadtbus: 1289 stations
-- PlusBus: 645 stations
+- Regionalbus: 2719 stations
+- Stadtbus: 1281 stations
+- PlusBus: 643 stations
 - Anruflinienbus: 481 stations
 - Straßenbahn: 269 stations
 - Anruflinientaxi: 198 stations
@@ -51,7 +51,7 @@ Total stations: 3917
 ## Transit Operators
 
 - RVSOE: 1308 stations
-- VGM: 1172 stations
+- VGM: 1173 stations
 - DVB: 769 stations
 - RBO: 714 stations
 - DB Regio AG Südost: 118 stations
@@ -112,7 +112,6 @@ Total stations: 3917
 - Dippoldiswalde Busbahnhof: 14 lines
 - Dresden Bahnhof Neustadt (Hansastraße): 14 lines
 - Dresden Großenhainer Platz: 14 lines
-- Dresden S-Bahnhof Niedersedlitz: 14 lines
 - Dresden S-Bf. Strehlen: 14 lines
 - Dresden Tharandter Straße: 14 lines
 - Dresden Walpurgisstraße: 14 lines
@@ -124,10 +123,12 @@ Total stations: 3917
 - Lommatzsch Parkstraße: 14 lines
 - Meißen Neugasse: 14 lines
 - Meißen Talbad: 14 lines
+- Riesa Kasernenstraße: 14 lines
 - Cossebaude/Neu-Leuteritz Bahnhof: 13 lines
 - Coswig (Sachsen) Bahnhof: 13 lines
 - Dresden Bahnhof Klotzsche: 13 lines
 - Dresden Pirnaischer Platz: 13 lines
+- Dresden S-Bahnhof Niedersedlitz: 13 lines
 - Nossen Markt: 13 lines
 - Nossen Talstraße: 13 lines
 - Pirna Copitz Schulstraße: 13 lines
@@ -137,7 +138,6 @@ Total stations: 3917
 - Dresden Zeithainer Straße: 12 lines
 - Pulsnitz Bahnhof: 12 lines
 - Riesa Goethestraße: 12 lines
-- Riesa Kasernenstraße: 12 lines
 - Bischofswerda Schulstraße: 11 lines
 - Dresden Albertplatz: 11 lines
 - Dresden Amalie-Dietrich-Platz: 11 lines
@@ -146,7 +146,6 @@ Total stations: 3917
 - Dresden Kirschenstraße: 11 lines
 - Dresden Lößnitzstraße: 11 lines
 - Dresden Merianplatz: 11 lines
-- Dresden Schillerplatz: 11 lines
 - Dresden Schlehenstraße: 11 lines
 - Dresden Straßburger Platz: 11 lines
 - Dresden Wasaplatz: 11 lines
