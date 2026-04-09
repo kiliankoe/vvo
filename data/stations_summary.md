@@ -35,7 +35,7 @@ Total stations: 3917
 - Anruflinienbus: 481 stations
 - Straßenbahn: 269 stations
 - Anruflinientaxi: 198 stations
-- Ersatzverkehr: 119 stations
+- Ersatzverkehr: 121 stations
 - Zug: 102 stations
 - Taktbus: 102 stations
 - S-Bahn: 54 stations
@@ -54,7 +54,7 @@ Total stations: 3917
 - VGM: 1173 stations
 - DVB: 769 stations
 - RBO: 714 stations
-- DB Regio AG Südost: 118 stations
+- DB Regio AG Südost: 120 stations
 - VGH: 81 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 68 stations
@@ -123,7 +123,6 @@ Total stations: 3917
 - Lommatzsch Parkstraße: 14 lines
 - Meißen Neugasse: 14 lines
 - Meißen Talbad: 14 lines
-- Riesa Kasernenstraße: 14 lines
 - Cossebaude/Neu-Leuteritz Bahnhof: 13 lines
 - Coswig (Sachsen) Bahnhof: 13 lines
 - Dresden Bahnhof Klotzsche: 13 lines

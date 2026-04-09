@@ -18096,10 +18096,11 @@
           "478"
         ],
         "Anruflinientaxi": [
+          "alita 76",
           "alita 81"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14612:754",
@@ -29398,11 +29399,12 @@
       "lines": {
         "Regionalbus": [
           "201",
+          "372",
           "385",
           "389"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:1944",
@@ -29418,10 +29420,11 @@
       "lines": {
         "Regionalbus": [
           "201",
+          "372",
           "389"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:1946",
@@ -29510,11 +29513,12 @@
       "lines": {
         "Regionalbus": [
           "201",
+          "372",
           "385",
           "389"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:1949",
@@ -67423,25 +67427,19 @@
       ],
       "lines": {
         "Regionalbus": [
-          "430",
           "431",
           "433",
           "437",
           "439",
           "440",
           "441",
-          "445",
           "446"
         ],
         "Stadtbus": [
-          "A1 (Riesa)",
-          "A2 (Riesa)",
-          "B (Riesa)",
-          "D (Riesa)",
           "E (Riesa)"
         ]
       },
-      "total_lines": 14
+      "total_lines": 8
     },
     {
       "id": "de:14627:5506",
@@ -70791,13 +70789,14 @@
       "lines": {
         "Regionalbus": [
           "201",
+          "372",
           "389"
         ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:1952",
@@ -70813,10 +70812,11 @@
       "lines": {
         "Regionalbus": [
           "201",
+          "372",
           "389"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6511",
@@ -72754,17 +72754,21 @@
       "longitude": 14.252158,
       "latitude": 50.978503,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
         "Taktbus": [
           "267"
         ],
+        "Ersatzverkehr": [
+          "SEV"
+        ],
         "Stadtbus": [
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3939",
@@ -76948,13 +76952,18 @@
       "name_with_city": "Ulbersdorf Bahnhof",
       "longitude": 14.220133,
       "latitude": 50.955523,
-      "operators": [],
+      "operators": [
+        "DB Regio AG Südost"
+      ],
       "lines": {
         "Zug": [
           "U28"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3676",
