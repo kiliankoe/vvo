@@ -67427,19 +67427,17 @@
       ],
       "lines": {
         "Regionalbus": [
-          "431",
-          "433",
-          "437",
-          "439",
-          "440",
-          "441",
           "446"
         ],
         "Stadtbus": [
+          "A1 (Riesa)",
+          "A2 (Riesa)",
+          "B (Riesa)",
+          "D (Riesa)",
           "E (Riesa)"
         ]
       },
-      "total_lines": 8
+      "total_lines": 6
     },
     {
       "id": "de:14627:5506",
