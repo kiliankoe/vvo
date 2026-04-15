@@ -1,10 +1,10 @@
 # VVO Station Data Summary
 
-Total stations: 3917
+Total stations: 3920
 
 ## Stations by City
 
-- Dresden: 658
+- Dresden: 661
 - Meißen: 104
 - Freital: 86
 - Pirna: 85
@@ -30,8 +30,8 @@ Total stations: 3917
 ## Stations by Transit Type
 
 - Regionalbus: 2719 stations
-- Stadtbus: 1281 stations
-- PlusBus: 643 stations
+- Stadtbus: 1292 stations
+- PlusBus: 644 stations
 - Anruflinienbus: 481 stations
 - Straßenbahn: 269 stations
 - Anruflinientaxi: 198 stations
@@ -50,9 +50,9 @@ Total stations: 3917
 
 ## Transit Operators
 
-- RVSOE: 1308 stations
+- RVSOE: 1309 stations
 - VGM: 1173 stations
-- DVB: 769 stations
+- DVB: 774 stations
 - RBO: 714 stations
 - DB Regio AG Südost: 120 stations
 - VGH: 81 stations
@@ -81,23 +81,24 @@ Total stations: 3917
 - Dresden Hauptbahnhof: 32 lines
 - Dresden Bahnhof Neustadt: 28 lines
 - Riesa Busbahnhof / Bahnhof: 27 lines
-- Dresden Bahnhof Mitte: 24 lines
+- Dresden Bahnhof Mitte: 26 lines
 - Kamenz Bahnhof: 24 lines
 - Pirna ZOB / Bahnhof: 23 lines
 - Großenhain Cottbuser Bahnhof: 21 lines
 - Meißen Altstadtbrücke: 21 lines
 - Meißen Bahnhofstraße: 21 lines
 - Hoyerswerda Bahnhof: 20 lines
+- Dresden Postplatz: 19 lines
 - Dresden Trachenberger Platz: 19 lines
 - Riesa Alexander-Puschkin-Platz: 19 lines
 - Riesa Rudolf-Breitscheid-Straße: 19 lines
 - Bischofswerda Bahnhof: 18 lines
 - Lommatzsch Busbahnhof: 18 lines
-- Dresden Bahnhof Neustadt (Hansastraße): 17 lines
 - Großenhain Lessingplatz: 17 lines
 - Großenhain Mozartallee: 17 lines
 - Meißen S-Bahnhof Altstadt: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
+- Dresden Bahnhof Neustadt (Hansastraße): 16 lines
 - Dresden Liststraße: 16 lines
 - Dresden S-Bahnhof Dobritz: 16 lines
 - Freital S-Bf. / Busbf. Deuben: 16 lines
@@ -108,10 +109,8 @@ Total stations: 3917
 - Meißen Uferstraße: 15 lines
 - Pirna Breite Straße: 15 lines
 - Radeberg Bahnhof: 15 lines
-- Riesa Kasernenstraße: 15 lines
 - Bad Schandau Nationalparkbahnhof: 14 lines
 - Dippoldiswalde Busbahnhof: 14 lines
-- Dresden Postplatz: 14 lines
 - Dresden Tharandter Straße: 14 lines
 - Heidenau (Sachsen) Bahnhof: 14 lines
 - Hoyerswerda Behördenpark: 14 lines
@@ -127,6 +126,7 @@ Total stations: 3917
 - Dresden Großenhainer Platz: 13 lines
 - Dresden Pirnaischer Platz: 13 lines
 - Dresden S-Bahnhof Niedersedlitz: 13 lines
+- Dresden S-Bf. Freiberger Straße: 13 lines
 - Dresden S-Bf. Strehlen: 13 lines
 - Dresden Walpurgisstraße: 13 lines
 - Nossen Markt: 13 lines
@@ -138,6 +138,7 @@ Total stations: 3917
 - Pulsnitz Bahnhof: 12 lines
 - Riesa Goethestraße: 12 lines
 - Bischofswerda Schulstraße: 11 lines
+- Dresden Albertplatz: 11 lines
 - Dresden Amalie-Dietrich-Platz: 11 lines
 - Dresden Anton-/Leipziger Straße: 11 lines
 - Dresden Betriebshof Gorbitz: 11 lines
@@ -152,11 +153,11 @@ Total stations: 3917
 - Sebnitz Bahnhof: 11 lines
 - Altenberg (Erzgebirge) Bahnhof: 10 lines
 - Bad Schandau Elbkai: 10 lines
-- Dresden Albertplatz: 10 lines
+- Dresden Bühlau Ullersdorfer Platz: 10 lines
+- Dresden Fetscherplatz: 10 lines
 - Dresden Kongresszentrum / Haus der Presse: 10 lines
 - Dresden Lößnitzstraße: 10 lines
 - Dresden Reichenbachstraße: 10 lines
-- Dresden S-Bf. Freiberger Straße: 10 lines
 - Dresden Wasaplatz: 10 lines
 - Königswartha Kirchplatz: 10 lines
 - Neustadt in Sachsen Bahnhof: 10 lines
