@@ -776,9 +776,12 @@
           "214",
           "216",
           "247"
+        ],
+        "PlusBus": [
+          "219"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3248",
@@ -1115,6 +1118,7 @@
       "longitude": 14.149445,
       "latitude": 50.917758,
       "operators": [
+        "DB Regio",
         "RVSOE"
       ],
       "lines": {
@@ -1125,7 +1129,8 @@
           "251",
           "252",
           "253",
-          "254"
+          "254",
+          "EV U28"
         ],
         "PlusBus": [
           "260"
@@ -1135,7 +1140,7 @@
           "F 5"
         ]
       },
-      "total_lines": 10
+      "total_lines": 11
     },
     {
       "id": "de:14628:3629",
@@ -1208,7 +1213,6 @@
       "longitude": 14.138099,
       "latitude": 50.91927,
       "operators": [
-        "DB Fernverkehr AG",
         "DB Regio AG Südost",
         "RVSOE",
         "Österreichische Bundesbahnen"
@@ -2007,11 +2011,10 @@
         "Regionalbus": [
           "422",
           "500",
-          "Sv125",
           "Sv230"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14627:5143",
@@ -10468,12 +10471,11 @@
           "12"
         ],
         "Stadtbus": [
-          "68",
           "70",
           "80"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14612:903",
@@ -11969,12 +11971,13 @@
           "478"
         ],
         "Zug": [
+          "RB60",
           "RB61",
           "RE1",
           "RE2"
         ]
       },
-      "total_lines": 15
+      "total_lines": 16
     },
     {
       "id": "de:14612:943",
@@ -12193,11 +12196,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "63",
           "65"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:64",
@@ -16660,11 +16662,10 @@
       "lines": {
         "Stadtbus": [
           "61",
-          "63",
-          "65"
+          "63"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:946",
@@ -17741,11 +17742,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "63",
           "65"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:75",
@@ -19602,12 +19602,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "61",
-          "63",
-          "65"
+          "61"
         ]
       },
-      "total_lines": 3
+      "total_lines": 1
     },
     {
       "id": "de:14612:292",
@@ -20430,11 +20428,10 @@
           "6"
         ],
         "Stadtbus": [
-          "62",
-          "63"
+          "62"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14612:952",
@@ -21318,9 +21315,12 @@
         ],
         "S-Bahn": [
           "S1"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14612:919",
@@ -21453,9 +21453,12 @@
         "Anruflinientaxi": [
           "alita 73",
           "alita 76"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14612:166",
@@ -21544,9 +21547,12 @@
         ],
         "S-Bahn": [
           "S1"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:212",
@@ -38701,10 +38707,11 @@
       "lines": {
         "Regionalbus": [
           "417",
+          "Sv125",
           "Sv170"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:4505",
@@ -38722,11 +38729,10 @@
           "417"
         ],
         "Regionalbus": [
-          "417",
-          "Sv125"
+          "417"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:5955",
@@ -56052,9 +56058,12 @@
         "Regionalbus": [
           "214",
           "247"
+        ],
+        "PlusBus": [
+          "219"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3221",
@@ -56090,9 +56099,12 @@
         "Regionalbus": [
           "214",
           "247"
+        ],
+        "PlusBus": [
+          "219"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3220",
@@ -60746,11 +60758,10 @@
         ],
         "Regionalbus": [
           "422",
-          "Sv125",
           "Sv230"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14627:4537",
@@ -67359,20 +67370,11 @@
         "VGM"
       ],
       "lines": {
-        "Regionalbus": [
-          "430",
-          "431",
-          "439",
-          "440",
-          "441",
-          "446"
-        ],
         "Stadtbus": [
-          "B (Riesa)",
           "E (Riesa)"
         ]
       },
-      "total_lines": 8
+      "total_lines": 1
     },
     {
       "id": "de:14627:5506",
@@ -71064,18 +71066,20 @@
       "longitude": 14.229871,
       "latitude": 50.892023,
       "operators": [
+        "DB Regio",
         "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
-          "252"
+          "252",
+          "EV U28"
         ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3645",
@@ -72143,7 +72147,8 @@
         "Regionalbus": [
           "237",
           "268",
-          "269"
+          "269",
+          "EV U28"
         ],
         "PlusBus": [
           "260",
@@ -72162,7 +72167,7 @@
           "SEV"
         ]
       },
-      "total_lines": 11
+      "total_lines": 12
     },
     {
       "id": "de:14628:3944",
@@ -77412,11 +77417,10 @@
         ],
         "Regionalbus": [
           "501",
-          "Sv120",
-          "Sv125"
+          "Sv120"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14627:4975",
@@ -79050,8 +79054,7 @@
       "latitude": 51.05886,
       "operators": [
         "DVB",
-        "Müller Busreisen",
-        "RVSOE"
+        "Müller Busreisen"
       ],
       "lines": {
         "Stadtbus": [
@@ -79061,12 +79064,9 @@
         ],
         "Regionalbus": [
           "229"
-        ],
-        "PlusBus": [
-          "261"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:3778",
@@ -80646,11 +80646,10 @@
           "445"
         ],
         "Regionalbus": [
-          "445",
-          "Sv120"
+          "445"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:5856",

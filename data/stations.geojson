@@ -1083,9 +1083,12 @@
             "214",
             "216",
             "247"
+          ],
+          "PlusBus": [
+            "219"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -1550,6 +1553,7 @@
         "city": "Bad Schandau",
         "name_with_city": "Bad Schandau Elbkai",
         "operators": [
+          "DB Regio",
           "RVSOE"
         ],
         "lines": {
@@ -1560,7 +1564,8 @@
             "251",
             "252",
             "253",
-            "254"
+            "254",
+            "EV U28"
           ],
           "PlusBus": [
             "260"
@@ -1570,7 +1575,7 @@
             "F 5"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -1675,7 +1680,6 @@
         "city": "Bad Schandau",
         "name_with_city": "Bad Schandau Nationalparkbahnhof",
         "operators": [
-          "DB Fernverkehr AG",
           "DB Regio AG Südost",
           "RVSOE",
           "Österreichische Bundesbahnen"
@@ -2778,11 +2782,10 @@
           "Regionalbus": [
             "422",
             "500",
-            "Sv125",
             "Sv230"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -14575,12 +14578,11 @@
             "12"
           ],
           "Stadtbus": [
-            "68",
             "70",
             "80"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -16580,12 +16582,13 @@
             "478"
           ],
           "Zug": [
+            "RB60",
             "RB61",
             "RE1",
             "RE2"
           ]
         },
-        "total_lines": 15
+        "total_lines": 16
       }
     },
     {
@@ -16892,11 +16895,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "63",
             "65"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -23007,11 +23009,10 @@
         "lines": {
           "Stadtbus": [
             "61",
-            "63",
-            "65"
+            "63"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -24504,11 +24505,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "63",
             "65"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -27061,12 +27061,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "61",
-            "63",
-            "65"
+            "61"
           ]
         },
-        "total_lines": 3
+        "total_lines": 1
       }
     },
     {
@@ -28185,11 +28183,10 @@
             "6"
           ],
           "Stadtbus": [
-            "62",
-            "63"
+            "62"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -29393,9 +29390,12 @@
           ],
           "S-Bahn": [
             "S1"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -29560,9 +29560,12 @@
           "Anruflinientaxi": [
             "alita 73",
             "alita 76"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -29675,9 +29678,12 @@
           ],
           "S-Bahn": [
             "S1"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -53432,10 +53438,11 @@
         "lines": {
           "Regionalbus": [
             "417",
+            "Sv125",
             "Sv170"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -53461,11 +53468,10 @@
             "417"
           ],
           "Regionalbus": [
-            "417",
-            "Sv125"
+            "417"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -77343,9 +77349,12 @@
           "Regionalbus": [
             "214",
             "247"
+          ],
+          "PlusBus": [
+            "219"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -77397,9 +77406,12 @@
           "Regionalbus": [
             "214",
             "247"
+          ],
+          "PlusBus": [
+            "219"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -83845,11 +83857,10 @@
           ],
           "Regionalbus": [
             "422",
-            "Sv125",
             "Sv230"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -93034,20 +93045,11 @@
           "VGM"
         ],
         "lines": {
-          "Regionalbus": [
-            "430",
-            "431",
-            "439",
-            "440",
-            "441",
-            "446"
-          ],
           "Stadtbus": [
-            "B (Riesa)",
             "E (Riesa)"
           ]
         },
-        "total_lines": 8
+        "total_lines": 1
       }
     },
     {
@@ -98163,18 +98165,20 @@
         "city": "Schmilka",
         "name_with_city": "Schmilka Grenzübergang",
         "operators": [
+          "DB Regio",
           "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
-            "252"
+            "252",
+            "EV U28"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -99666,7 +99670,8 @@
           "Regionalbus": [
             "237",
             "268",
-            "269"
+            "269",
+            "EV U28"
           ],
           "PlusBus": [
             "260",
@@ -99685,7 +99690,7 @@
             "SEV"
           ]
         },
-        "total_lines": 11
+        "total_lines": 12
       }
     },
     {
@@ -107007,11 +107012,10 @@
           ],
           "Regionalbus": [
             "501",
-            "Sv120",
-            "Sv125"
+            "Sv120"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -109293,8 +109297,7 @@
         "name_with_city": "Weißig (Dresden) Hutbergschule",
         "operators": [
           "DVB",
-          "Müller Busreisen",
-          "RVSOE"
+          "Müller Busreisen"
         ],
         "lines": {
           "Stadtbus": [
@@ -109304,12 +109307,9 @@
           ],
           "Regionalbus": [
             "229"
-          ],
-          "PlusBus": [
-            "261"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -111497,11 +111497,10 @@
             "445"
           ],
           "Regionalbus": [
-            "445",
-            "Sv120"
+            "445"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {

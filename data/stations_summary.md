@@ -29,13 +29,13 @@ Total stations: 3920
 
 ## Stations by Transit Type
 
-- Regionalbus: 2721 stations
+- Regionalbus: 2720 stations
 - Stadtbus: 1286 stations
-- PlusBus: 644 stations
+- PlusBus: 646 stations
 - Anruflinienbus: 481 stations
 - Straßenbahn: 269 stations
 - Anruflinientaxi: 198 stations
-- Ersatzverkehr: 121 stations
+- Ersatzverkehr: 124 stations
 - Zug: 103 stations
 - Taktbus: 102 stations
 - S-Bahn: 54 stations
@@ -50,7 +50,7 @@ Total stations: 3920
 
 ## Transit Operators
 
-- RVSOE: 1310 stations
+- RVSOE: 1309 stations
 - VGM: 1173 stations
 - DVB: 773 stations
 - RBO: 714 stations
@@ -61,16 +61,16 @@ Total stations: 3920
 - Müller Busreisen: 58 stations
 - SATRA: 43 stations
 - RBM: 31 stations
+- DB Regio: 25 stations
 - DB AG: 25 stations
 - SDG: 24 stations
-- DB Regio: 23 stations
 - Mitteldeutsche Regiobahn: 21 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
 - trilex - Die Länderbahn GmbH DLB: 12 stations
 - Cottbusverkehr GmbH: 11 stations
-- DB Fernverkehr AG: 4 stations
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 4 stations
+- DB Fernverkehr AG: 3 stations
 - FlixTrain: 2 stations
 - Nordsachsen Mobil: 2 stations
 - Omnibusbetrieb Siegfried Wilhelm: 1 stations
@@ -98,11 +98,11 @@ Total stations: 3920
 - Großenhain Mozartallee: 17 lines
 - Meißen S-Bahnhof Altstadt: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
+- Dresden Bahnhof Neustadt (Hansastraße): 16 lines
 - Freital S-Bf. / Busbf. Deuben: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
 - Kamenz Macherstraße: 16 lines
 - Riesa Sachsenhof: 16 lines
-- Dresden Bahnhof Neustadt (Hansastraße): 15 lines
 - Dresden Liststraße: 15 lines
 - Dresden S-Bahnhof Dobritz: 15 lines
 - Kamenz Schwimmhalle: 15 lines
@@ -133,6 +133,8 @@ Total stations: 3920
 - Dresden Walpurgisstraße: 12 lines
 - Pulsnitz Bahnhof: 12 lines
 - Riesa Goethestraße: 12 lines
+- Sebnitz Bahnhof: 12 lines
+- Bad Schandau Elbkai: 11 lines
 - Bischofswerda Schulstraße: 11 lines
 - Dresden Albertplatz: 11 lines
 - Dresden Julius-Vahlteich-Straße: 11 lines
@@ -142,9 +144,7 @@ Total stations: 3920
 - Freital S-Bahnhof Hainsberg: 11 lines
 - Glashütte (Sachsen) Bahnhof / Busbahnhof: 11 lines
 - Großenhain Hohe Straße: 11 lines
-- Sebnitz Bahnhof: 11 lines
 - Altenberg (Erzgebirge) Bahnhof: 10 lines
-- Bad Schandau Elbkai: 10 lines
 - Dresden Amalie-Dietrich-Platz: 10 lines
 - Dresden Betriebshof Gorbitz: 10 lines
 - Dresden Bühlau Ullersdorfer Platz: 10 lines
