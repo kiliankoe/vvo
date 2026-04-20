@@ -31,7 +31,7 @@ Total stations: 3920
 
 - Regionalbus: 2720 stations
 - Stadtbus: 1286 stations
-- PlusBus: 646 stations
+- PlusBus: 647 stations
 - Anruflinienbus: 481 stations
 - Straßenbahn: 269 stations
 - Anruflinientaxi: 198 stations
@@ -50,7 +50,7 @@ Total stations: 3920
 
 ## Transit Operators
 
-- RVSOE: 1309 stations
+- RVSOE: 1310 stations
 - VGM: 1173 stations
 - DVB: 773 stations
 - RBO: 714 stations
@@ -98,11 +98,11 @@ Total stations: 3920
 - Großenhain Mozartallee: 17 lines
 - Meißen S-Bahnhof Altstadt: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
-- Dresden Bahnhof Neustadt (Hansastraße): 16 lines
 - Freital S-Bf. / Busbf. Deuben: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
 - Kamenz Macherstraße: 16 lines
 - Riesa Sachsenhof: 16 lines
+- Dresden Bahnhof Neustadt (Hansastraße): 15 lines
 - Dresden Liststraße: 15 lines
 - Dresden S-Bahnhof Dobritz: 15 lines
 - Kamenz Schwimmhalle: 15 lines
@@ -155,4 +155,5 @@ Total stations: 3920
 - Dresden Wasaplatz: 10 lines
 - Königswartha Kirchplatz: 10 lines
 - Neustadt in Sachsen Bahnhof: 10 lines
+- Pirna Robert-Koch-Straße: 10 lines
 - Tharandt Bahnhof: 10 lines
