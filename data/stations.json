@@ -2011,10 +2011,11 @@
         "Regionalbus": [
           "422",
           "500",
+          "Sv125",
           "Sv230"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14627:5143",
@@ -11946,8 +11947,7 @@
       "latitude": 51.066374,
       "operators": [
         "DVB",
-        "VGM",
-        "trilex - Die Länderbahn GmbH DLB"
+        "VGM"
       ],
       "lines": {
         "Straßenbahn": [
@@ -11969,14 +11969,9 @@
         ],
         "Regionalbus": [
           "478"
-        ],
-        "Zug": [
-          "RB61",
-          "RE1",
-          "RE2"
         ]
       },
-      "total_lines": 15
+      "total_lines": 12
     },
     {
       "id": "de:14612:943",
@@ -38729,10 +38724,11 @@
           "417"
         ],
         "Regionalbus": [
-          "417"
+          "417",
+          "Sv125"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:5955",
@@ -60759,10 +60755,11 @@
         ],
         "Regionalbus": [
           "422",
+          "Sv125",
           "Sv230"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14627:4537",
@@ -77419,10 +77416,11 @@
         ],
         "Regionalbus": [
           "501",
-          "Sv120"
+          "Sv120",
+          "Sv125"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14627:4975",
@@ -79057,8 +79055,7 @@
       "latitude": 51.05886,
       "operators": [
         "DVB",
-        "Müller Busreisen",
-        "RVSOE"
+        "Müller Busreisen"
       ],
       "lines": {
         "Stadtbus": [
@@ -79068,12 +79065,9 @@
         ],
         "Regionalbus": [
           "229"
-        ],
-        "PlusBus": [
-          "261"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:3778",

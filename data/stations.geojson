@@ -2782,10 +2782,11 @@
           "Regionalbus": [
             "422",
             "500",
+            "Sv125",
             "Sv230"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -16557,8 +16558,7 @@
         "name_with_city": "Dresden Bahnhof Neustadt (Hansastraße)",
         "operators": [
           "DVB",
-          "VGM",
-          "trilex - Die Länderbahn GmbH DLB"
+          "VGM"
         ],
         "lines": {
           "Straßenbahn": [
@@ -16580,14 +16580,9 @@
           ],
           "Regionalbus": [
             "478"
-          ],
-          "Zug": [
-            "RB61",
-            "RE1",
-            "RE2"
           ]
         },
-        "total_lines": 15
+        "total_lines": 12
       }
     },
     {
@@ -53468,10 +53463,11 @@
             "417"
           ],
           "Regionalbus": [
-            "417"
+            "417",
+            "Sv125"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -83858,10 +83854,11 @@
           ],
           "Regionalbus": [
             "422",
+            "Sv125",
             "Sv230"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -107014,10 +107011,11 @@
           ],
           "Regionalbus": [
             "501",
-            "Sv120"
+            "Sv120",
+            "Sv125"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -109300,8 +109298,7 @@
         "name_with_city": "Weißig (Dresden) Hutbergschule",
         "operators": [
           "DVB",
-          "Müller Busreisen",
-          "RVSOE"
+          "Müller Busreisen"
         ],
         "lines": {
           "Stadtbus": [
@@ -109311,12 +109308,9 @@
           ],
           "Regionalbus": [
             "229"
-          ],
-          "PlusBus": [
-            "261"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {

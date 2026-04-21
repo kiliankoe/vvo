@@ -31,12 +31,12 @@ Total stations: 3920
 
 - Regionalbus: 2720 stations
 - Stadtbus: 1286 stations
-- PlusBus: 647 stations
+- PlusBus: 646 stations
 - Anruflinienbus: 481 stations
 - Straßenbahn: 269 stations
 - Anruflinientaxi: 198 stations
 - Ersatzverkehr: 124 stations
-- Zug: 103 stations
+- Zug: 102 stations
 - Taktbus: 102 stations
 - S-Bahn: 54 stations
 - Bus: 49 stations
@@ -50,7 +50,7 @@ Total stations: 3920
 
 ## Transit Operators
 
-- RVSOE: 1310 stations
+- RVSOE: 1309 stations
 - VGM: 1173 stations
 - DVB: 773 stations
 - RBO: 714 stations
@@ -66,7 +66,7 @@ Total stations: 3920
 - SDG: 24 stations
 - Mitteldeutsche Regiobahn: 21 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
-- trilex - Die Länderbahn GmbH DLB: 12 stations
+- trilex - Die Länderbahn GmbH DLB: 11 stations
 - Cottbusverkehr GmbH: 11 stations
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 4 stations
@@ -102,7 +102,6 @@ Total stations: 3920
 - Großenhain Franz-Schubert-Allee: 16 lines
 - Kamenz Macherstraße: 16 lines
 - Riesa Sachsenhof: 16 lines
-- Dresden Bahnhof Neustadt (Hansastraße): 15 lines
 - Dresden Liststraße: 15 lines
 - Dresden S-Bahnhof Dobritz: 15 lines
 - Kamenz Schwimmhalle: 15 lines
@@ -127,6 +126,7 @@ Total stations: 3920
 - Nossen Markt: 13 lines
 - Nossen Talstraße: 13 lines
 - Pirna Copitz Schulstraße: 13 lines
+- Dresden Bahnhof Neustadt (Hansastraße): 12 lines
 - Dresden Großenhainer Platz: 12 lines
 - Dresden S-Bahnhof Niedersedlitz: 12 lines
 - Dresden S-Bf. Freiberger Straße: 12 lines
