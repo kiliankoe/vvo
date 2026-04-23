@@ -9495,9 +9495,7 @@
             "SEV"
           ],
           "Zug": [
-            "RB31",
-            "RE15",
-            "RE18"
+            "RB31"
           ],
           "Anruflinientaxi": [
             "alita 68",
@@ -9507,7 +9505,7 @@
             "SEV"
           ]
         },
-        "total_lines": 13
+        "total_lines": 11
       }
     },
     {
@@ -10458,13 +10456,9 @@
         "city": "Coswig (Sachsen)",
         "name_with_city": "Coswig (Sachsen) Salzstraße (Bus)",
         "operators": [
-          "DVB",
           "VGM"
         ],
         "lines": {
-          "Straßenbahn": [
-            "4"
-          ],
           "Regionalbus": [
             "400",
             "401",
@@ -10472,7 +10466,7 @@
             "460"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -15956,7 +15950,6 @@
         "lines": {
           "Straßenbahn": [
             "13",
-            "4",
             "9"
           ],
           "Stadtbus": [
@@ -15967,7 +15960,7 @@
             "alita 79"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -16354,8 +16347,7 @@
         ],
         "lines": {
           "Zug": [
-            "RB31",
-            "RE15"
+            "RB31"
           ],
           "Ersatzverkehr": [
             "SEV"
@@ -16364,7 +16356,7 @@
             "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -17431,7 +17423,6 @@
         "lines": {
           "Straßenbahn": [
             "13",
-            "4",
             "9"
           ],
           "Stadtbus": [
@@ -17442,7 +17433,7 @@
             "alita 79"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -19141,7 +19132,6 @@
         "lines": {
           "Straßenbahn": [
             "13",
-            "4",
             "9"
           ],
           "Stadtbus": [
@@ -19155,7 +19145,7 @@
             "alita 72"
           ]
         },
-        "total_lines": 9
+        "total_lines": 8
       }
     },
     {
@@ -20154,7 +20144,9 @@
         "name": "Fritz-Schreiter-Straße",
         "city": "Dresden",
         "name_with_city": "Dresden Fritz-Schreiter-Straße",
-        "operators": [],
+        "operators": [
+          "DB Regio AG Südost"
+        ],
         "lines": {
           "Ersatzverkehr": [
             "SEV"
@@ -21519,7 +21511,6 @@
         "city": "Dresden",
         "name_with_city": "Dresden Hauptbahnhof",
         "operators": [
-          "DB AG",
           "DB Fernverkehr AG",
           "DB Regio AG Südost",
           "DVB",
@@ -21573,12 +21564,9 @@
             "S2",
             "S3",
             "S8"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 30
+        "total_lines": 29
       }
     },
     {
@@ -29012,7 +29000,6 @@
         "lines": {
           "Straßenbahn": [
             "13",
-            "4",
             "9"
           ],
           "Stadtbus": [
@@ -29024,7 +29011,7 @@
             "alita 72"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
@@ -31584,7 +31571,6 @@
         "lines": {
           "Straßenbahn": [
             "13",
-            "4",
             "9"
           ],
           "Stadtbus": [
@@ -31592,7 +31578,7 @@
             "EV 13"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -32093,7 +32079,6 @@
         "lines": {
           "Straßenbahn": [
             "13",
-            "4",
             "9"
           ],
           "Stadtbus": [
@@ -32104,7 +32089,7 @@
             "alita 79"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -32736,7 +32721,6 @@
         "lines": {
           "Straßenbahn": [
             "13",
-            "4",
             "9"
           ],
           "Stadtbus": [
@@ -32745,7 +32729,7 @@
             "EV 13"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -34724,6 +34708,7 @@
         "city": "Ebenheit (Struppen)",
         "name_with_city": "Ebenheit (Struppen) Ebenheit bei Pirna",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -47887,6 +47872,7 @@
         "city": "Heidenau (Sachsen)",
         "name_with_city": "Heidenau (Sachsen) Pechhütte",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -59308,6 +59294,7 @@
         "city": "Königstein (Sächsische Schweiz)",
         "name_with_city": "Königstein (Sächsische Schweiz) Reißigerplatz/Bahnhof",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -67601,6 +67588,7 @@
         "city": "Meißen",
         "name_with_city": "Meißen Busbahnhof",
         "operators": [
+          "DB Regio AG Südost",
           "VGM"
         ],
         "lines": {
@@ -69086,6 +69074,7 @@
         "city": "Meißen",
         "name_with_city": "Meißen Niesnerstraße",
         "operators": [
+          "DB Regio AG Südost",
           "VGM"
         ],
         "lines": {
@@ -87772,6 +87761,7 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Gerhart-Hauptmann-Straße",
         "operators": [
+          "DB Regio AG Südost",
           "DVB",
           "VGM"
         ],
@@ -88098,6 +88088,7 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Johannisbergstraße",
         "operators": [
+          "DB Regio AG Südost",
           "DVB"
         ],
         "lines": {
@@ -88318,6 +88309,7 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Moritzburger Straße",
         "operators": [
+          "DB Regio AG Südost",
           "DVB",
           "VGM"
         ],
@@ -89229,6 +89221,7 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Zillerstraße",
         "operators": [
+          "DB Regio AG Südost",
           "DVB"
         ],
         "lines": {
@@ -90102,7 +90095,9 @@
         "name": "Parkplatz",
         "city": "Rathen Kurort",
         "name_with_city": "Rathen Kurort Parkplatz",
-        "operators": [],
+        "operators": [
+          "DB Regio AG Südost"
+        ],
         "lines": {
           "Ersatzverkehr": [
             "SEV"
@@ -99089,6 +99084,7 @@
         "city": "Schöna (bei Pirna)",
         "name_with_city": "Schöna (bei Pirna) Hirschgrund",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -102325,6 +102321,7 @@
         "city": "Stadt Wehlen",
         "name_with_city": "Stadt Wehlen Karl-Marx-Platz",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -104336,6 +104333,7 @@
         "city": "Struppen",
         "name_with_city": "Struppen Südstraße",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -108083,13 +108081,9 @@
         "city": "Weinböhla",
         "name_with_city": "Weinböhla Kirchplatz",
         "operators": [
-          "DVB",
           "VGM"
         ],
         "lines": {
-          "Straßenbahn": [
-            "4"
-          ],
           "Regionalbus": [
             "403",
             "411",
@@ -108097,7 +108091,7 @@
             "Sv250"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -108425,15 +108419,9 @@
         "name": "SEV Köhlerstraße",
         "city": "Weinböhla",
         "name_with_city": "Weinböhla SEV Köhlerstraße",
-        "operators": [
-          "DVB"
-        ],
-        "lines": {
-          "Straßenbahn": [
-            "4"
-          ]
-        },
-        "total_lines": 1
+        "operators": [],
+        "lines": {},
+        "total_lines": 0
       }
     },
     {

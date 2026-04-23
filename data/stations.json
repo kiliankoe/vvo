@@ -6820,9 +6820,7 @@
           "SEV"
         ],
         "Zug": [
-          "RB31",
-          "RE15",
-          "RE18"
+          "RB31"
         ],
         "Anruflinientaxi": [
           "alita 68",
@@ -6832,7 +6830,7 @@
           "SEV"
         ]
       },
-      "total_lines": 13
+      "total_lines": 11
     },
     {
       "id": "de:14612:454",
@@ -7519,13 +7517,9 @@
       "longitude": 13.582267,
       "latitude": 51.132968,
       "operators": [
-        "DVB",
         "VGM"
       ],
       "lines": {
-        "Straßenbahn": [
-          "4"
-        ],
         "Regionalbus": [
           "400",
           "401",
@@ -7533,7 +7527,7 @@
           "460"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14627:4156",
@@ -11481,7 +11475,6 @@
       "lines": {
         "Straßenbahn": [
           "13",
-          "4",
           "9"
         ],
         "Stadtbus": [
@@ -11492,7 +11485,7 @@
           "alita 79"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14612:908",
@@ -11775,8 +11768,7 @@
       ],
       "lines": {
         "Zug": [
-          "RB31",
-          "RE15"
+          "RB31"
         ],
         "Ersatzverkehr": [
           "SEV"
@@ -11785,7 +11777,7 @@
           "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14612:658",
@@ -12596,7 +12588,6 @@
       "lines": {
         "Straßenbahn": [
           "13",
-          "4",
           "9"
         ],
         "Stadtbus": [
@@ -12607,7 +12598,7 @@
           "alita 79"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14612:274",
@@ -13850,7 +13841,6 @@
       "lines": {
         "Straßenbahn": [
           "13",
-          "4",
           "9"
         ],
         "Stadtbus": [
@@ -13864,7 +13854,7 @@
           "alita 72"
         ]
       },
-      "total_lines": 9
+      "total_lines": 8
     },
     {
       "id": "de:14612:296",
@@ -14591,7 +14581,9 @@
       "name_with_city": "Dresden Fritz-Schreiter-Straße",
       "longitude": 13.85124,
       "latitude": 50.992748,
-      "operators": [],
+      "operators": [
+        "DB Regio AG Südost"
+      ],
       "lines": {
         "Ersatzverkehr": [
           "SEV"
@@ -15572,7 +15564,6 @@
       "longitude": 13.732932,
       "latitude": 51.03993,
       "operators": [
-        "DB AG",
         "DB Fernverkehr AG",
         "DB Regio AG Südost",
         "DVB",
@@ -15626,12 +15617,9 @@
           "S2",
           "S3",
           "S8"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 30
+      "total_lines": 29
     },
     {
       "id": "de:14612:36",
@@ -21057,7 +21045,6 @@
       "lines": {
         "Straßenbahn": [
           "13",
-          "4",
           "9"
         ],
         "Stadtbus": [
@@ -21069,7 +21056,7 @@
           "alita 72"
         ]
       },
-      "total_lines": 7
+      "total_lines": 6
     },
     {
       "id": "de:14612:833",
@@ -22965,7 +22952,6 @@
       "lines": {
         "Straßenbahn": [
           "13",
-          "4",
           "9"
         ],
         "Stadtbus": [
@@ -22973,7 +22959,7 @@
           "EV 13"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:733",
@@ -23346,7 +23332,6 @@
       "lines": {
         "Straßenbahn": [
           "13",
-          "4",
           "9"
         ],
         "Stadtbus": [
@@ -23357,7 +23342,7 @@
           "alita 79"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14612:249",
@@ -23829,7 +23814,6 @@
       "lines": {
         "Straßenbahn": [
           "13",
-          "4",
           "9"
         ],
         "Stadtbus": [
@@ -23838,7 +23822,7 @@
           "EV 13"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14612:71",
@@ -25265,6 +25249,7 @@
       "longitude": 13.981649,
       "latitude": 50.947736,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -34740,6 +34725,7 @@
       "longitude": 13.892581,
       "latitude": 50.960168,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -42977,6 +42963,7 @@
       "longitude": 14.073394,
       "latitude": 50.91914,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -48958,6 +48945,7 @@
       "longitude": 13.483685,
       "latitude": 51.163747,
       "operators": [
+        "DB Regio AG Südost",
         "VGM"
       ],
       "lines": {
@@ -50059,6 +50047,7 @@
       "longitude": 13.461731,
       "latitude": 51.154373,
       "operators": [
+        "DB Regio AG Südost",
         "VGM"
       ],
       "lines": {
@@ -63609,6 +63598,7 @@
       "longitude": 13.603485,
       "latitude": 51.119815,
       "operators": [
+        "DB Regio AG Südost",
         "DVB",
         "VGM"
       ],
@@ -63839,6 +63829,7 @@
       "longitude": 13.611471,
       "latitude": 51.114582,
       "operators": [
+        "DB Regio AG Südost",
         "DVB"
       ],
       "lines": {
@@ -63995,6 +63986,7 @@
       "longitude": 13.630515,
       "latitude": 51.108164,
       "operators": [
+        "DB Regio AG Südost",
         "DVB",
         "VGM"
       ],
@@ -64642,6 +64634,7 @@
       "longitude": 13.654006,
       "latitude": 51.105485,
       "operators": [
+        "DB Regio AG Südost",
         "DVB"
       ],
       "lines": {
@@ -65275,7 +65268,9 @@
       "name_with_city": "Rathen Kurort Parkplatz",
       "longitude": 14.078765,
       "latitude": 50.956196,
-      "operators": [],
+      "operators": [
+        "DB Regio AG Südost"
+      ],
       "lines": {
         "Ersatzverkehr": [
           "SEV"
@@ -71758,6 +71753,7 @@
       "longitude": 14.206865,
       "latitude": 50.888702,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -74082,6 +74078,7 @@
       "longitude": 14.032628,
       "latitude": 50.956689,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -75525,6 +75522,7 @@
       "longitude": 14.003181,
       "latitude": 50.936834,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -78208,13 +78206,9 @@
       "longitude": 13.564507,
       "latitude": 51.161494,
       "operators": [
-        "DVB",
         "VGM"
       ],
       "lines": {
-        "Straßenbahn": [
-          "4"
-        ],
         "Regionalbus": [
           "403",
           "411",
@@ -78222,7 +78216,7 @@
           "Sv250"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14627:4147",
@@ -78454,15 +78448,9 @@
       "name_with_city": "Weinböhla SEV Köhlerstraße",
       "longitude": 13.567346,
       "latitude": 51.151397,
-      "operators": [
-        "DVB"
-      ],
-      "lines": {
-        "Straßenbahn": [
-          "4"
-        ]
-      },
-      "total_lines": 1
+      "operators": [],
+      "lines": {},
+      "total_lines": 0
     },
     {
       "id": "de:14627:4404",

@@ -33,9 +33,9 @@ Total stations: 3920
 - Stadtbus: 1297 stations
 - PlusBus: 646 stations
 - Anruflinienbus: 481 stations
-- Straßenbahn: 273 stations
+- Straßenbahn: 270 stations
 - Anruflinientaxi: 198 stations
-- Ersatzverkehr: 124 stations
+- Ersatzverkehr: 123 stations
 - Zug: 102 stations
 - Taktbus: 102 stations
 - S-Bahn: 54 stations
@@ -52,9 +52,9 @@ Total stations: 3920
 
 - RVSOE: 1309 stations
 - VGM: 1173 stations
-- DVB: 777 stations
+- DVB: 774 stations
 - RBO: 714 stations
-- DB Regio AG Südost: 120 stations
+- DB Regio AG Südost: 134 stations
 - VGH: 81 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 68 stations
@@ -62,8 +62,8 @@ Total stations: 3920
 - SATRA: 43 stations
 - RBM: 31 stations
 - DB Regio: 25 stations
-- DB AG: 25 stations
 - SDG: 24 stations
+- DB AG: 24 stations
 - Mitteldeutsche Regiobahn: 21 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
 - trilex - Die Länderbahn GmbH DLB: 11 stations
@@ -78,8 +78,8 @@ Total stations: 3920
 ## Major Transit Hubs (10+ lines)
 
 - Meißen Busbahnhof: 33 lines
-- Dresden Hauptbahnhof: 30 lines
 - Dresden Bahnhof Neustadt: 29 lines
+- Dresden Hauptbahnhof: 29 lines
 - Riesa Busbahnhof / Bahnhof: 27 lines
 - Kamenz Bahnhof: 24 lines
 - Dresden Bahnhof Mitte: 23 lines
@@ -120,7 +120,6 @@ Total stations: 3920
 - Lommatzsch Parkstraße: 14 lines
 - Meißen Neugasse: 14 lines
 - Meißen Talbad: 14 lines
-- Cossebaude/Neu-Leuteritz Bahnhof: 13 lines
 - Coswig (Sachsen) Bahnhof: 13 lines
 - Dresden Bahnhof Klotzsche: 13 lines
 - Dresden Tharandter Straße: 13 lines
@@ -135,6 +134,7 @@ Total stations: 3920
 - Riesa Goethestraße: 12 lines
 - Sebnitz Bahnhof: 12 lines
 - Bad Schandau Elbkai: 11 lines
+- Cossebaude/Neu-Leuteritz Bahnhof: 11 lines
 - Dresden Albertplatz: 11 lines
 - Dresden Anton-/Leipziger Straße: 11 lines
 - Dresden Julius-Vahlteich-Straße: 11 lines
