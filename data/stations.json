@@ -20260,10 +20260,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "70",
           "80"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:298",
@@ -25076,7 +25077,6 @@
       "longitude": 14.007242,
       "latitude": 51.027785,
       "operators": [
-        "DB Regio",
         "DB Regio AG Südost",
         "RVSOE"
       ],
@@ -25087,14 +25087,13 @@
           "EV RB 71"
         ],
         "Zug": [
-          "RB 71",
           "RB71"
         ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14628:3751",
@@ -35170,7 +35169,6 @@
       "longitude": 14.046219,
       "latitude": 51.034474,
       "operators": [
-        "DB Regio",
         "DB Regio AG Südost",
         "RVSOE"
       ],
@@ -35181,14 +35179,13 @@
           "EV RB 71"
         ],
         "Zug": [
-          "RB 71",
           "RB71"
         ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14628:3849",
@@ -42210,16 +42207,14 @@
       "longitude": 14.207135,
       "latitude": 50.992787,
       "operators": [
-        "DB Regio",
         "DB Regio AG Südost"
       ],
       "lines": {
         "Zug": [
-          "RB 71",
           "RB71"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3911",
@@ -43940,7 +43935,6 @@
       "longitude": 14.153963,
       "latitude": 51.036445,
       "operators": [
-        "DB Regio",
         "DB Regio AG Südost",
         "RVSOE"
       ],
@@ -43954,14 +43948,13 @@
           "261"
         ],
         "Zug": [
-          "RB 71",
           "RB71"
         ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 7
+      "total_lines": 6
     },
     {
       "id": "de:14628:3813",
@@ -44007,16 +44000,14 @@
       "longitude": 14.126924,
       "latitude": 51.038733,
       "operators": [
-        "DB Regio",
         "DB Regio AG Südost"
       ],
       "lines": {
         "Zug": [
-          "RB 71",
           "RB71"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3827",
@@ -53173,7 +53164,6 @@
       "longitude": 14.213387,
       "latitude": 51.021592,
       "operators": [
-        "DB Regio",
         "DB Regio AG Südost",
         "RVSOE"
       ],
@@ -53192,14 +53182,13 @@
           "267"
         ],
         "Zug": [
-          "RB 71",
           "RB71"
         ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 10
+      "total_lines": 9
     },
     {
       "id": "de:14628:3893",
@@ -72255,7 +72244,6 @@
           "261"
         ],
         "Zug": [
-          "RB 71",
           "RB71",
           "U28"
         ],
@@ -72267,7 +72255,7 @@
           "SEV"
         ]
       },
-      "total_lines": 12
+      "total_lines": 11
     },
     {
       "id": "de:14628:3944",
@@ -74781,16 +74769,14 @@
       "longitude": 14.087407,
       "latitude": 51.037084,
       "operators": [
-        "DB Regio",
         "DB Regio AG Südost"
       ],
       "lines": {
         "Zug": [
-          "RB 71",
           "RB71"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3839",
@@ -76715,14 +76701,11 @@
         "RBO"
       ],
       "lines": {
-        "Anruflinienbus": [
-          "789"
-        ],
         "Regionalbus": [
           "789"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:5395",
@@ -79158,7 +79141,8 @@
       "latitude": 51.05886,
       "operators": [
         "DVB",
-        "Müller Busreisen"
+        "Müller Busreisen",
+        "RVSOE"
       ],
       "lines": {
         "Stadtbus": [
@@ -79168,9 +79152,12 @@
         ],
         "Regionalbus": [
           "229"
+        ],
+        "PlusBus": [
+          "261"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:3778",

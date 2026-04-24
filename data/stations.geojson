@@ -27943,10 +27943,11 @@
         ],
         "lines": {
           "Stadtbus": [
+            "70",
             "80"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -34471,7 +34472,6 @@
         "city": "Dürrröhrsdorf-Dittersbach",
         "name_with_city": "Dürrröhrsdorf-Dittersbach Bahnhof",
         "operators": [
-          "DB Regio",
           "DB Regio AG Südost",
           "RVSOE"
         ],
@@ -34482,14 +34482,13 @@
             "EV RB 71"
           ],
           "Zug": [
-            "RB 71",
             "RB71"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -48501,7 +48500,6 @@
         "city": "Helmsdorf (Stolpen)",
         "name_with_city": "Helmsdorf (Stolpen) Bahnhof",
         "operators": [
-          "DB Regio",
           "DB Regio AG Südost",
           "RVSOE"
         ],
@@ -48512,14 +48510,13 @@
             "EV RB 71"
           ],
           "Zug": [
-            "RB 71",
             "RB71"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -58245,16 +58242,14 @@
         "city": "Krumhermsdorf",
         "name_with_city": "Krumhermsdorf Bahnhof",
         "operators": [
-          "DB Regio",
           "DB Regio AG Südost"
         ],
         "lines": {
           "Zug": [
-            "RB 71",
             "RB71"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -60647,7 +60642,6 @@
         "city": "Langenwolmsdorf",
         "name_with_city": "Langenwolmsdorf Bahnhof",
         "operators": [
-          "DB Regio",
           "DB Regio AG Südost",
           "RVSOE"
         ],
@@ -60661,14 +60655,13 @@
             "261"
           ],
           "Zug": [
-            "RB 71",
             "RB71"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
@@ -60738,16 +60731,14 @@
         "city": "Langenwolmsdorf",
         "name_with_city": "Langenwolmsdorf Hp Mitte",
         "operators": [
-          "DB Regio",
           "DB Regio AG Südost"
         ],
         "lines": {
           "Zug": [
-            "RB 71",
             "RB71"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -73392,7 +73383,6 @@
         "city": "Neustadt in Sachsen",
         "name_with_city": "Neustadt in Sachsen Bahnhof",
         "operators": [
-          "DB Regio",
           "DB Regio AG Südost",
           "RVSOE"
         ],
@@ -73411,14 +73401,13 @@
             "267"
           ],
           "Zug": [
-            "RB 71",
             "RB71"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 10
+        "total_lines": 9
       }
     },
     {
@@ -99778,7 +99767,6 @@
             "261"
           ],
           "Zug": [
-            "RB 71",
             "RB71",
             "U28"
           ],
@@ -99790,7 +99778,7 @@
             "SEV"
           ]
         },
-        "total_lines": 12
+        "total_lines": 11
       }
     },
     {
@@ -103296,16 +103284,14 @@
         "city": "Stolpen",
         "name_with_city": "Stolpen Bahnhof",
         "operators": [
-          "DB Regio",
           "DB Regio AG Südost"
         ],
         "lines": {
           "Zug": [
-            "RB 71",
             "RB71"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -105990,14 +105976,11 @@
           "RBO"
         ],
         "lines": {
-          "Anruflinienbus": [
-            "789"
-          ],
           "Regionalbus": [
             "789"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -109401,7 +109384,8 @@
         "name_with_city": "Weißig (Dresden) Hutbergschule",
         "operators": [
           "DVB",
-          "Müller Busreisen"
+          "Müller Busreisen",
+          "RVSOE"
         ],
         "lines": {
           "Stadtbus": [
@@ -109411,9 +109395,12 @@
           ],
           "Regionalbus": [
             "229"
+          ],
+          "PlusBus": [
+            "261"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {

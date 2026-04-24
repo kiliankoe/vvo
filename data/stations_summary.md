@@ -31,8 +31,8 @@ Total stations: 3920
 
 - Regionalbus: 2720 stations
 - Stadtbus: 1297 stations
-- PlusBus: 646 stations
-- Anruflinienbus: 481 stations
+- PlusBus: 647 stations
+- Anruflinienbus: 480 stations
 - Straßenbahn: 270 stations
 - Anruflinientaxi: 198 stations
 - Ersatzverkehr: 123 stations
@@ -50,7 +50,7 @@ Total stations: 3920
 
 ## Transit Operators
 
-- RVSOE: 1309 stations
+- RVSOE: 1310 stations
 - VGM: 1173 stations
 - DVB: 774 stations
 - RBO: 714 stations
@@ -61,10 +61,10 @@ Total stations: 3920
 - Müller Busreisen: 58 stations
 - SATRA: 43 stations
 - RBM: 31 stations
-- DB Regio: 25 stations
 - SDG: 24 stations
 - DB AG: 24 stations
 - Mitteldeutsche Regiobahn: 21 stations
+- DB Regio: 18 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
 - trilex - Die Länderbahn GmbH DLB: 11 stations
 - Cottbusverkehr GmbH: 11 stations
@@ -132,7 +132,6 @@ Total stations: 3920
 - Dresden Walpurgisstraße: 12 lines
 - Pulsnitz Bahnhof: 12 lines
 - Riesa Goethestraße: 12 lines
-- Sebnitz Bahnhof: 12 lines
 - Bad Schandau Elbkai: 11 lines
 - Cossebaude/Neu-Leuteritz Bahnhof: 11 lines
 - Dresden Albertplatz: 11 lines
@@ -145,6 +144,7 @@ Total stations: 3920
 - Freital S-Bahnhof Hainsberg: 11 lines
 - Glashütte (Sachsen) Bahnhof / Busbahnhof: 11 lines
 - Großenhain Hohe Straße: 11 lines
+- Sebnitz Bahnhof: 11 lines
 - Altenberg (Erzgebirge) Bahnhof: 10 lines
 - Bischofswerda Schulstraße: 10 lines
 - Dresden Amalie-Dietrich-Platz: 10 lines
@@ -155,6 +155,5 @@ Total stations: 3920
 - Dresden Prager Straße: 10 lines
 - Dresden Schlehenstraße: 10 lines
 - Königswartha Kirchplatz: 10 lines
-- Neustadt in Sachsen Bahnhof: 10 lines
 - Pirna Robert-Koch-Straße: 10 lines
 - Tharandt Bahnhof: 10 lines
