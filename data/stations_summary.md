@@ -35,7 +35,7 @@ Total stations: 3920
 - Anruflinienbus: 480 stations
 - Straßenbahn: 270 stations
 - Anruflinientaxi: 198 stations
-- Ersatzverkehr: 123 stations
+- Ersatzverkehr: 121 stations
 - Zug: 102 stations
 - Taktbus: 102 stations
 - S-Bahn: 54 stations
@@ -50,11 +50,11 @@ Total stations: 3920
 
 ## Transit Operators
 
-- RVSOE: 1310 stations
+- RVSOE: 1309 stations
 - VGM: 1173 stations
 - DVB: 774 stations
 - RBO: 714 stations
-- DB Regio AG Südost: 134 stations
+- DB Regio AG Südost: 133 stations
 - VGH: 81 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 68 stations
@@ -66,8 +66,8 @@ Total stations: 3920
 - Mitteldeutsche Regiobahn: 21 stations
 - DB Regio: 18 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
-- trilex - Die Länderbahn GmbH DLB: 11 stations
 - Cottbusverkehr GmbH: 11 stations
+- trilex - Die Länderbahn GmbH DLB: 10 stations
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 4 stations
 - DB Fernverkehr AG: 3 stations
@@ -128,7 +128,6 @@ Total stations: 3920
 - Pirna Copitz Schulstraße: 13 lines
 - Dresden Großenhainer Platz: 12 lines
 - Dresden S-Bahnhof Niedersedlitz: 12 lines
-- Dresden S-Bf. Freiberger Straße: 12 lines
 - Dresden Walpurgisstraße: 12 lines
 - Pulsnitz Bahnhof: 12 lines
 - Riesa Goethestraße: 12 lines
@@ -139,6 +138,7 @@ Total stations: 3920
 - Dresden Julius-Vahlteich-Straße: 11 lines
 - Dresden Lennéplatz: 11 lines
 - Dresden Pirnaischer Platz: 11 lines
+- Dresden S-Bf. Freiberger Straße: 11 lines
 - Dresden Wasaplatz: 11 lines
 - Dresden Zeithainer Straße: 11 lines
 - Freital S-Bahnhof Hainsberg: 11 lines
@@ -155,5 +155,4 @@ Total stations: 3920
 - Dresden Prager Straße: 10 lines
 - Dresden Schlehenstraße: 10 lines
 - Königswartha Kirchplatz: 10 lines
-- Pirna Robert-Koch-Straße: 10 lines
 - Tharandt Bahnhof: 10 lines

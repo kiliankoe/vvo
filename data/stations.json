@@ -21645,8 +21645,7 @@
       "latitude": 51.048617,
       "operators": [
         "DB Regio AG Südost",
-        "DVB",
-        "trilex - Die Länderbahn GmbH DLB"
+        "DVB"
       ],
       "lines": {
         "Straßenbahn": [
@@ -21665,12 +21664,9 @@
         "S-Bahn": [
           "S1",
           "S2"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 12
+      "total_lines": 11
     },
     {
       "id": "de:14612:267",
@@ -27913,11 +27909,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "161",
           "162"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:1178",
@@ -38225,19 +38220,15 @@
       "longitude": 13.585689,
       "latitude": 50.93012,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "375",
           "382"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:1632",
@@ -56044,13 +56035,14 @@
       ],
       "lines": {
         "Regionalbus": [
-          "347"
+          "347",
+          "376"
         ],
         "PlusBus": [
           "348"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:1282",
@@ -56105,13 +56097,14 @@
       ],
       "lines": {
         "Regionalbus": [
-          "347"
+          "347",
+          "376"
         ],
         "PlusBus": [
           "348"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3222",
@@ -59593,11 +59586,10 @@
           "237",
           "241",
           "245",
-          "246",
           "207a"
         ]
       },
-      "total_lines": 10
+      "total_lines": 9
     },
     {
       "id": "de:14628:3382",
@@ -62378,9 +62370,12 @@
         "Regionalbus": [
           "347",
           "376"
+        ],
+        "PlusBus": [
+          "348"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:1291",
@@ -64886,11 +64881,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "403",
-          "405"
+          "403"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4367",
@@ -78292,11 +78286,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411",
-          "Sv250"
+          "411"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4151",
@@ -79141,8 +79134,7 @@
       "latitude": 51.05886,
       "operators": [
         "DVB",
-        "Müller Busreisen",
-        "RVSOE"
+        "Müller Busreisen"
       ],
       "lines": {
         "Stadtbus": [
@@ -79152,12 +79144,9 @@
         ],
         "Regionalbus": [
           "229"
-        ],
-        "PlusBus": [
-          "261"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:3778",
