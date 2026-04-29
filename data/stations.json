@@ -20260,11 +20260,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "70",
           "80"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:298",
@@ -31009,9 +31008,12 @@
       "lines": {
         "Regionalbus": [
           "458"
+        ],
+        "Stadtbus": [
+          "A (Großenhain)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:5018",
@@ -31272,9 +31274,12 @@
       "lines": {
         "Regionalbus": [
           "458"
+        ],
+        "Stadtbus": [
+          "A (Großenhain)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:5032",
@@ -48577,11 +48582,6 @@
         "VGM"
       ],
       "lines": {
-        "Regionalbus": [
-          "412",
-          "417",
-          "422"
-        ],
         "Anruflinienbus": [
           "416",
           "417"
@@ -48589,12 +48589,16 @@
         "PlusBus": [
           "416"
         ],
+        "Regionalbus": [
+          "417",
+          "422"
+        ],
         "Stadtbus": [
           "A (Meißen)",
           "B (Meißen)"
         ]
       },
-      "total_lines": 8
+      "total_lines": 7
     },
     {
       "id": "de:14627:4052",
@@ -49368,24 +49372,23 @@
         "VGM"
       ],
       "lines": {
-        "Regionalbus": [
-          "412",
-          "417",
-          "422",
-          "446"
-        ],
         "Anruflinienbus": [
           "416"
         ],
         "PlusBus": [
           "416"
         ],
+        "Regionalbus": [
+          "417",
+          "422",
+          "446"
+        ],
         "Stadtbus": [
           "A (Meißen)",
           "B (Meißen)"
         ]
       },
-      "total_lines": 8
+      "total_lines": 7
     },
     {
       "id": "de:14627:4077",
@@ -78835,14 +78838,18 @@
       "longitude": 13.799758,
       "latitude": 51.160829,
       "operators": [
+        "DVB",
         "RBO"
       ],
       "lines": {
+        "Stadtbus": [
+          "77"
+        ],
         "PlusBus": [
           "522"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:6591",
@@ -78853,9 +78860,13 @@
       "longitude": 13.794296,
       "latitude": 51.152913,
       "operators": [
+        "DVB",
         "RBO"
       ],
       "lines": {
+        "Stadtbus": [
+          "77"
+        ],
         "PlusBus": [
           "522"
         ],
@@ -78863,7 +78874,7 @@
           "769"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:6585",

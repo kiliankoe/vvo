@@ -27943,11 +27943,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "70",
             "80"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -42716,9 +42715,12 @@
         "lines": {
           "Regionalbus": [
             "458"
+          ],
+          "Stadtbus": [
+            "A (Großenhain)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -43067,9 +43069,12 @@
         "lines": {
           "Regionalbus": [
             "458"
+          ],
+          "Stadtbus": [
+            "A (Großenhain)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -67100,11 +67105,6 @@
           "VGM"
         ],
         "lines": {
-          "Regionalbus": [
-            "412",
-            "417",
-            "422"
-          ],
           "Anruflinienbus": [
             "416",
             "417"
@@ -67112,12 +67112,16 @@
           "PlusBus": [
             "416"
           ],
+          "Regionalbus": [
+            "417",
+            "422"
+          ],
           "Stadtbus": [
             "A (Meißen)",
             "B (Meißen)"
           ]
         },
-        "total_lines": 8
+        "total_lines": 7
       }
     },
     {
@@ -68155,24 +68159,23 @@
           "VGM"
         ],
         "lines": {
-          "Regionalbus": [
-            "412",
-            "417",
-            "422",
-            "446"
-          ],
           "Anruflinienbus": [
             "416"
           ],
           "PlusBus": [
             "416"
           ],
+          "Regionalbus": [
+            "417",
+            "422",
+            "446"
+          ],
           "Stadtbus": [
             "A (Meißen)",
             "B (Meißen)"
           ]
         },
-        "total_lines": 8
+        "total_lines": 7
       }
     },
     {
@@ -108966,14 +108969,18 @@
         "city": "Weixdorf (Dresden)",
         "name_with_city": "Weixdorf (Dresden) Promigberg",
         "operators": [
+          "DVB",
           "RBO"
         ],
         "lines": {
+          "Stadtbus": [
+            "77"
+          ],
           "PlusBus": [
             "522"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -108992,9 +108999,13 @@
         "city": "Weixdorf (Dresden)",
         "name_with_city": "Weixdorf (Dresden) Radeburger Landstraße",
         "operators": [
+          "DVB",
           "RBO"
         ],
         "lines": {
+          "Stadtbus": [
+            "77"
+          ],
           "PlusBus": [
             "522"
           ],
@@ -109002,7 +109013,7 @@
             "769"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
