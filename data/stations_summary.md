@@ -54,7 +54,7 @@ Total stations: 3920
 - VGM: 1173 stations
 - DVB: 776 stations
 - RBO: 714 stations
-- DB Regio AG Südost: 133 stations
+- DB Regio AG Südost: 134 stations
 - VGH: 81 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 68 stations

@@ -57057,7 +57057,9 @@
       "name_with_city": "Ottendorf-Okrilla Dresdner Straße",
       "longitude": 13.831028,
       "latitude": 51.186314,
-      "operators": [],
+      "operators": [
+        "DB Regio AG Südost"
+      ],
       "lines": {},
       "total_lines": 0
     },
@@ -76359,10 +76361,11 @@
       ],
       "lines": {
         "Regionalbus": [
+          "455",
           "456"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:5482",
