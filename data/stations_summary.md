@@ -155,4 +155,5 @@ Total stations: 3920
 - Dresden Prager Straße: 10 lines
 - Dresden Schlehenstraße: 10 lines
 - Königswartha Kirchplatz: 10 lines
+- Pirna Robert-Koch-Straße: 10 lines
 - Tharandt Bahnhof: 10 lines
