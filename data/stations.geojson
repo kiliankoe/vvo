@@ -16643,10 +16643,12 @@
         ],
         "lines": {
           "Stadtbus": [
-            "62"
+            "61",
+            "62",
+            "63"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {
@@ -18031,10 +18033,11 @@
         ],
         "lines": {
           "Stadtbus": [
+            "61",
             "63"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -19262,10 +19265,11 @@
           ],
           "Stadtbus": [
             "65",
-            "85"
+            "85",
+            "87"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -21696,9 +21700,15 @@
         "lines": {
           "Straßenbahn": [
             "2"
+          ],
+          "Stadtbus": [
+            "88"
+          ],
+          "Anruflinientaxi": [
+            "alita 88"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {
@@ -23686,13 +23696,15 @@
         ],
         "lines": {
           "Stadtbus": [
-            "65"
+            "65",
+            "88"
           ],
           "Anruflinientaxi": [
-            "alita 65"
+            "alita 65",
+            "alita 88"
           ]
         },
-        "total_lines": 2
+        "total_lines": 4
       }
     },
     {
@@ -27078,10 +27090,11 @@
         "lines": {
           "Stadtbus": [
             "65",
-            "85"
+            "85",
+            "87"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -31408,9 +31421,12 @@
             "12",
             "6",
             "9"
+          ],
+          "Stadtbus": [
+            "87"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -32752,9 +32768,12 @@
             "12",
             "6",
             "9"
+          ],
+          "Stadtbus": [
+            "87"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -32859,13 +32878,15 @@
         ],
         "lines": {
           "Stadtbus": [
-            "65"
+            "65",
+            "88"
           ],
           "Anruflinientaxi": [
-            "alita 65"
+            "alita 65",
+            "alita 88"
           ]
         },
-        "total_lines": 2
+        "total_lines": 4
       }
     },
     {
@@ -33550,12 +33571,13 @@
         ],
         "lines": {
           "Stadtbus": [
+            "61",
             "62",
             "63",
             "85"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -108787,6 +108809,7 @@
         "city": "Weixdorf (Dresden)",
         "name_with_city": "Weixdorf (Dresden) Bahnhof (Kirche)",
         "operators": [
+          "DB Regio AG Südost",
           "RBO"
         ],
         "lines": {
@@ -108813,6 +108836,7 @@
         "city": "Weixdorf (Dresden)",
         "name_with_city": "Weixdorf (Dresden) Ewald-Kluge-Straße",
         "operators": [
+          "DB Regio AG Südost",
           "DVB",
           "RBO"
         ],
