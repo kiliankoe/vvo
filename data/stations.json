@@ -13986,7 +13986,6 @@
           "66",
           "86",
           "88",
-          "89",
           "H/S (Pirna)"
         ],
         "Regionalbus": [
@@ -13997,7 +13996,7 @@
           "alita 88"
         ]
       },
-      "total_lines": 9
+      "total_lines": 8
     },
     {
       "id": "de:14612:933",
@@ -23571,14 +23570,13 @@
         "Stadtbus": [
           "162",
           "86",
-          "89",
           "H/S (Pirna)"
         ],
         "Regionalbus": [
           "386"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:879",
@@ -29624,9 +29622,12 @@
         ],
         "Zug": [
           "RE50"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:5752",
@@ -35588,9 +35589,12 @@
         ],
         "Zug": [
           "RB33"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14625:6622",
@@ -42072,12 +42076,9 @@
         ],
         "S-Bahn": [
           "S1"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 8
+      "total_lines": 7
     },
     {
       "id": "de:14628:3614",
@@ -42595,9 +42596,12 @@
         ],
         "Zug": [
           "RB33"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 8
+      "total_lines": 9
     },
     {
       "id": "de:14625:6107",
@@ -44791,9 +44795,12 @@
         ],
         "Zug": [
           "RB33"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14625:6097",
@@ -56990,9 +56997,12 @@
         ],
         "Zug": [
           "RB33"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14625:6614",
@@ -57066,9 +57076,12 @@
       "lines": {
         "Zug": [
           "RB33"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:6603",
@@ -57081,8 +57094,12 @@
       "operators": [
         "DB Regio AG Südost"
       ],
-      "lines": {},
-      "total_lines": 0
+      "lines": {
+        "Ersatzverkehr": [
+          "SEV"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14625:6611",
@@ -71765,18 +71782,14 @@
       "longitude": 14.206865,
       "latitude": 50.888702,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "252"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3596",
@@ -78732,9 +78745,12 @@
       "lines": {
         "Regionalbus": [
           "769"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:6587",
@@ -78758,9 +78774,12 @@
         ],
         "Regionalbus": [
           "769"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:6583",

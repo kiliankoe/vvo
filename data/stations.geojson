@@ -19325,7 +19325,6 @@
             "66",
             "86",
             "88",
-            "89",
             "H/S (Pirna)"
           ],
           "Regionalbus": [
@@ -19336,7 +19335,7 @@
             "alita 88"
           ]
         },
-        "total_lines": 9
+        "total_lines": 8
       }
     },
     {
@@ -32398,14 +32397,13 @@
           "Stadtbus": [
             "162",
             "86",
-            "89",
             "H/S (Pirna)"
           ],
           "Regionalbus": [
             "386"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -40771,9 +40769,12 @@
           ],
           "Zug": [
             "RE50"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -49071,9 +49072,12 @@
           ],
           "Zug": [
             "RB33"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -58043,12 +58047,9 @@
           ],
           "S-Bahn": [
             "S1"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 8
+        "total_lines": 7
       }
     },
     {
@@ -58774,9 +58775,12 @@
           ],
           "Zug": [
             "RB33"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 8
+        "total_lines": 9
       }
     },
     {
@@ -61810,9 +61814,12 @@
           ],
           "Zug": [
             "RB33"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -78633,9 +78640,12 @@
           ],
           "Zug": [
             "RB33"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -78741,9 +78751,12 @@
         "lines": {
           "Zug": [
             "RB33"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -78764,8 +78777,12 @@
         "operators": [
           "DB Regio AG Südost"
         ],
-        "lines": {},
-        "total_lines": 0
+        "lines": {
+          "Ersatzverkehr": [
+            "SEV"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
@@ -99096,18 +99113,14 @@
         "city": "Schöna (bei Pirna)",
         "name_with_city": "Schöna (bei Pirna) Hirschgrund",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "252"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -108815,9 +108828,12 @@
         "lines": {
           "Regionalbus": [
             "769"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -108849,9 +108865,12 @@
           ],
           "Regionalbus": [
             "769"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
