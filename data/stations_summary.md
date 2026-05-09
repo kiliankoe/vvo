@@ -31,12 +31,12 @@ Total stations: 3920
 
 - Regionalbus: 2720 stations
 - Stadtbus: 1304 stations
-- PlusBus: 648 stations
+- PlusBus: 647 stations
 - Anruflinienbus: 480 stations
 - Straßenbahn: 270 stations
 - Anruflinientaxi: 199 stations
-- Ersatzverkehr: 128 stations
-- Zug: 102 stations
+- Ersatzverkehr: 129 stations
+- R-Bahn: 102 stations
 - Taktbus: 102 stations
 - S-Bahn: 54 stations
 - Bus: 49 stations
@@ -50,11 +50,11 @@ Total stations: 3920
 
 ## Transit Operators
 
-- RVSOE: 1310 stations
+- RVSOE: 1309 stations
 - VGM: 1173 stations
 - DVB: 776 stations
 - RBO: 714 stations
-- DB Regio AG Südost: 135 stations
+- DB Regio AG Südost: 134 stations
 - VGH: 81 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 68 stations
@@ -91,9 +91,9 @@ Total stations: 3920
 - Dresden Postplatz: 19 lines
 - Riesa Alexander-Puschkin-Platz: 19 lines
 - Riesa Rudolf-Breitscheid-Straße: 19 lines
+- Bischofswerda Bahnhof: 18 lines
 - Dresden Trachenberger Platz: 18 lines
 - Lommatzsch Busbahnhof: 18 lines
-- Bischofswerda Bahnhof: 17 lines
 - Großenhain Lessingplatz: 17 lines
 - Großenhain Mozartallee: 17 lines
 - Meißen S-Bahnhof Altstadt: 17 lines
@@ -155,5 +155,4 @@ Total stations: 3920
 - Dresden Prager Straße: 10 lines
 - Dresden Schlehenstraße: 10 lines
 - Königswartha Kirchplatz: 10 lines
-- Pirna Robert-Koch-Straße: 10 lines
 - Tharandt Bahnhof: 10 lines
