@@ -575,7 +575,7 @@ de:14612:192,33000192,Bahnhof Friedrichstadt,Dresden,Dresden Bahnhof Friedrichst
 de:14612:658,33000658,Bahnhof Klotzsche,Dresden,Dresden Bahnhof Klotzsche,51.11483,13.789041,DB Regio AG Südost|DVB|RBO|trilex - Die Länderbahn GmbH DLB,13,,70|78|80,RB33|RB60|RB61|RE1|RE2,S2|S8
 de:14612:1,33000001,Bahnhof Mitte,Dresden,Dresden Bahnhof Mitte,51.055642,13.723392,DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn|trilex - Die Länderbahn GmbH DLB,23,1|10|2|3|41|6|8|9,68|92|EV 3|EV 9,RB30|RB60|RB61|RE1|RE2|RE3|RE50,S1|S2|S8
 de:14612:16,33000016,Bahnhof Neustadt,Dresden,Dresden Bahnhof Neustadt,51.065426,13.740882,DB AG|DB Fernverkehr AG|DB Regio|DB Regio AG Südost|DVB|FlixTrain|Mitteldeutsche Regiobahn|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,29,11|3|41|6|7|8|9,81|EV 6,RB30|RB31|RB33|RB60|RB61|RE1|RE15|RE17|RE18|RE2|RE3|RE50,S1|S2|S8
-de:14612:198,33000198,Bahnhof Neustadt (Hansastraße),Dresden,Dresden Bahnhof Neustadt (Hansastraße),51.066374,13.739112,DVB|VGM,14,10|11|3|4|41|6|7|8|9,81|EV 13|EV 4,,
+de:14612:198,33000198,Bahnhof Neustadt (Hansastraße),Dresden,Dresden Bahnhof Neustadt (Hansastraße),51.066374,13.739112,DVB|VGM,13,10|11|3|4|41|6|7|8|9,EV 13|EV 4,,
 de:14612:943,33000943,Bahnhofstraße,Dresden,Dresden Bahnhofstraße,51.002268,13.84188,DVB,4,,65|88,,
 de:14612:720,33000720,Bamberger Straße,Dresden,Dresden Bamberger Straße,51.03392,13.71245,DVB,3,,61|62|63,,
 de:14612:736,33000736,Bannewitzer Straße,Dresden,Dresden Bannewitzer Straße,51.012737,13.729914,DVB,2,,66,,
@@ -3001,7 +3001,7 @@ de:14625:6709,33006709,Zur Sternwarte,Radeberg,Radeberg Zur Sternwarte,51.114069
 de:14625:6735,33006735,Ärztehaus,Radeberg,Radeberg Ärztehaus,51.122053,13.917994,DVB|RBO,4,,28|78,,
 de:14627:4245,33004245,Altkötzschenbroda,Radebeul,Radebeul Altkötzschenbroda,51.10505,13.628817,VGM,1,,,,
 de:14627:4275,33004275,Altlindenau,Radebeul,Radebeul Altlindenau,51.12644,13.634019,VGM,1,,,,
-de:14627:4241,33004241,Altserkowitz,Radebeul,Radebeul Altserkowitz,51.095997,13.660097,DVB,2,,72,,
+de:14627:4241,33004241,Altserkowitz,Radebeul,Radebeul Altserkowitz,51.095997,13.660097,DVB|VGM,3,,72,,
 de:14627:4231,33004231,August-Bebel-Straße,Radebeul,Radebeul August-Bebel-Straße,51.101514,13.685447,VGM,1,,,,
 de:14627:4209,33004209,Bahnhof Naundorf,Radebeul,Radebeul Bahnhof Naundorf,51.110476,13.599047,DB AG|DB Regio|VGM,4,,,RB31,
 de:14627:4237,33004237,Barthübelstraße,Radebeul,Radebeul Barthübelstraße,51.093469,13.683408,VGM,1,,,,
@@ -3033,7 +3033,7 @@ de:14627:4258,33004258,Hospiz,Radebeul,Radebeul Hospiz,51.110702,13.690073,DVB|V
 de:14627:4279,33004279,Hp Lößnitzgrund,Radebeul,Radebeul Hp Lößnitzgrund,51.121461,13.653844,SDG,0,,,,
 de:14627:4228,33004228,Johannisbergstraße,Radebeul,Radebeul Johannisbergstraße,51.114582,13.611471,DB Regio AG Südost|DVB,2,4,,,
 de:14627:4235,33004235,Karlstraße,Radebeul,Radebeul Karlstraße,51.112371,13.633003,VGM,1,,,,
-de:14627:4283,33004283,Kaufland,Radebeul,Radebeul Kaufland,51.099861,13.654383,VGM,1,,,,
+de:14627:4283,33004283,Kaufland,Radebeul,Radebeul Kaufland,51.099861,13.654383,DVB|VGM,2,,72,,
 de:14627:4263,33004263,Kleinstückenweg,Radebeul,Radebeul Kleinstückenweg,51.112202,13.589588,VGM,1,,,,
 de:14627:4271,33004271,Kottenleite,Radebeul,Radebeul Kottenleite,51.118005,13.63091,VGM,1,,,,
 de:14627:4282,33004282,Kötzschenbrodaer Straße,Radebeul,Radebeul Kötzschenbrodaer Straße,51.098197,13.651967,VGM,1,,,,
@@ -3054,7 +3054,7 @@ de:14627:4285,33004285,Riesestraße,Radebeul,Radebeul Riesestraße,51.102349,13.
 de:14627:4212,33004212,S-Bahnhof Kötzschenbroda,Radebeul,Radebeul S-Bahnhof Kötzschenbroda,51.107577,13.62941,DB Regio AG Südost|VGM,4,,,,S1
 de:14627:4210,33004210,S-Bahnhof Ost,Radebeul,Radebeul S-Bahnhof Ost,51.098417,13.680039,DB Regio AG Südost|SDG|VGM,5,,,RE50,S1
 de:14627:4238,33004238,S-Bahnhof Ost Südausgang,Radebeul,Radebeul S-Bahnhof Ost Südausgang,51.097977,13.677398,VGM,1,,,,
-de:14627:4211,33004211,S-Bahnhof Weintraube,Radebeul,Radebeul S-Bahnhof Weintraube,51.103014,13.656602,DB Regio AG Südost,1,,,,S1
+de:14627:4211,33004211,S-Bahnhof Weintraube,Radebeul,Radebeul S-Bahnhof Weintraube,51.103014,13.656602,DB Regio AG Südost|DVB,2,,72,,S1
 de:14627:4213,33004213,S-Bahnhof Zitzschewig,Radebeul,Radebeul S-Bahnhof Zitzschewig,51.114503,13.606692,DB Regio AG Südost,1,,,,S1
 de:14627:4218,33004218,Schildenstraße,Radebeul,Radebeul Schildenstraße,51.103804,13.674128,DVB,1,4,,,
 de:14627:4227,33004227,Schloss Wackerbarth,Radebeul,Radebeul Schloss Wackerbarth,51.112913,13.618639,DVB,1,4,,,

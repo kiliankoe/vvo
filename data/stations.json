@@ -11977,19 +11977,18 @@
           "8",
           "9"
         ],
-        "Stadtbus": [
-          "81",
-          "EV 13",
-          "EV 4"
-        ],
         "PlusBus": [
           "477"
         ],
         "Regionalbus": [
           "478"
+        ],
+        "Stadtbus": [
+          "EV 13",
+          "EV 4"
         ]
       },
-      "total_lines": 14
+      "total_lines": 13
     },
     {
       "id": "de:14612:943",
@@ -63342,17 +63341,21 @@
       "longitude": 13.660097,
       "latitude": 51.095997,
       "operators": [
-        "DVB"
+        "DVB",
+        "VGM"
       ],
       "lines": {
         "Stadtbus": [
           "72"
         ],
+        "Regionalbus": [
+          "475"
+        ],
         "Anruflinientaxi": [
           "alita 72"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:4231",
@@ -63963,14 +63966,18 @@
       "longitude": 13.654383,
       "latitude": 51.099861,
       "operators": [
+        "DVB",
         "VGM"
       ],
       "lines": {
+        "Stadtbus": [
+          "72"
+        ],
         "Regionalbus": [
           "475"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4263",
@@ -64393,14 +64400,18 @@
       "longitude": 13.656602,
       "latitude": 51.103014,
       "operators": [
-        "DB Regio AG Südost"
+        "DB Regio AG Südost",
+        "DVB"
       ],
       "lines": {
+        "Stadtbus": [
+          "72"
+        ],
         "S-Bahn": [
           "S1"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4213",

@@ -16588,19 +16588,18 @@
             "8",
             "9"
           ],
-          "Stadtbus": [
-            "81",
-            "EV 13",
-            "EV 4"
-          ],
           "PlusBus": [
             "477"
           ],
           "Regionalbus": [
             "478"
+          ],
+          "Stadtbus": [
+            "EV 13",
+            "EV 4"
           ]
         },
-        "total_lines": 14
+        "total_lines": 13
       }
     },
     {
@@ -87361,17 +87360,21 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Altserkowitz",
         "operators": [
-          "DVB"
+          "DVB",
+          "VGM"
         ],
         "lines": {
           "Stadtbus": [
             "72"
           ],
+          "Regionalbus": [
+            "475"
+          ],
           "Anruflinientaxi": [
             "alita 72"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -88238,14 +88241,18 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Kaufland",
         "operators": [
+          "DVB",
           "VGM"
         ],
         "lines": {
+          "Stadtbus": [
+            "72"
+          ],
           "Regionalbus": [
             "475"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -88836,14 +88843,18 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul S-Bahnhof Weintraube",
         "operators": [
-          "DB Regio AG Südost"
+          "DB Regio AG Südost",
+          "DVB"
         ],
         "lines": {
+          "Stadtbus": [
+            "72"
+          ],
           "S-Bahn": [
             "S1"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
