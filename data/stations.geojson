@@ -1681,6 +1681,7 @@
         "name_with_city": "Bad Schandau Nationalparkbahnhof",
         "operators": [
           "DB Regio AG Südost",
+          "European Sleeper",
           "RVSOE",
           "Österreichische Bundesbahnen"
         ],
@@ -21538,6 +21539,7 @@
           "DB Fernverkehr AG",
           "DB Regio AG Südost",
           "DVB",
+          "European Sleeper",
           "FlixTrain",
           "Mitteldeutsche Regiobahn",
           "RVSOE",
@@ -38463,11 +38465,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "161",
             "162"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -64365,12 +64366,11 @@
           "Regionalbus": [
             "775",
             "776",
-            "777",
             "781",
             "785"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -74458,13 +74458,14 @@
           "Zug": [
             "RB31",
             "RE15",
+            "RE18",
             "RE50"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -82335,11 +82336,10 @@
             "237",
             "241",
             "245",
-            "246",
             "207a"
           ]
         },
-        "total_lines": 10
+        "total_lines": 9
       }
     },
     {
@@ -89685,11 +89685,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "403",
-            "405"
+            "403"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -108322,11 +108321,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411",
-            "Sv250"
+            "411"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -109515,8 +109513,7 @@
         "name_with_city": "Weißig (Dresden) Hutbergschule",
         "operators": [
           "DVB",
-          "Müller Busreisen",
-          "RVSOE"
+          "Müller Busreisen"
         ],
         "lines": {
           "Stadtbus": [
@@ -109526,12 +109523,9 @@
           ],
           "Regionalbus": [
             "229"
-          ],
-          "PlusBus": [
-            "261"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {

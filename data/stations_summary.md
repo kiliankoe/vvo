@@ -31,7 +31,7 @@ Total stations: 3920
 
 - Regionalbus: 2721 stations
 - Stadtbus: 1310 stations
-- PlusBus: 648 stations
+- PlusBus: 647 stations
 - Anruflinienbus: 480 stations
 - Straßenbahn: 270 stations
 - Anruflinientaxi: 199 stations
@@ -50,7 +50,7 @@ Total stations: 3920
 
 ## Transit Operators
 
-- RVSOE: 1310 stations
+- RVSOE: 1309 stations
 - VGM: 1174 stations
 - DVB: 777 stations
 - RBO: 714 stations
@@ -71,6 +71,7 @@ Total stations: 3920
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 4 stations
 - DB Fernverkehr AG: 3 stations
+- European Sleeper: 2 stations
 - FlixTrain: 2 stations
 - Nordsachsen Mobil: 2 stations
 - Omnibusbetrieb Siegfried Wilhelm: 1 stations
@@ -156,5 +157,4 @@ Total stations: 3920
 - Dresden Prager Straße: 10 lines
 - Dresden Schlehenstraße: 10 lines
 - Königswartha Kirchplatz: 10 lines
-- Pirna Robert-Koch-Straße: 10 lines
 - Tharandt Bahnhof: 10 lines
