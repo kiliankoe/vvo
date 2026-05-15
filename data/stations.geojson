@@ -16589,18 +16589,19 @@
             "8",
             "9"
           ],
+          "Stadtbus": [
+            "81",
+            "EV 13",
+            "EV 4"
+          ],
           "PlusBus": [
             "477"
           ],
           "Regionalbus": [
             "478"
-          ],
-          "Stadtbus": [
-            "EV 13",
-            "EV 4"
           ]
         },
-        "total_lines": 13
+        "total_lines": 14
       }
     },
     {
@@ -89685,10 +89686,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "403"
+            "403",
+            "405"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {

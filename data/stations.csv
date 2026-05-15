@@ -575,7 +575,7 @@ de:14612:192,33000192,Bahnhof Friedrichstadt,Dresden,Dresden Bahnhof Friedrichst
 de:14612:658,33000658,Bahnhof Klotzsche,Dresden,Dresden Bahnhof Klotzsche,51.11483,13.789041,DB Regio AG Südost|DVB|RBO|trilex - Die Länderbahn GmbH DLB,13,,70|78|80,RB33|RB60|RB61|RE1|RE2,S2|S8
 de:14612:1,33000001,Bahnhof Mitte,Dresden,Dresden Bahnhof Mitte,51.055642,13.723392,DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn|trilex - Die Länderbahn GmbH DLB,23,1|10|2|3|41|6|8|9,68|92|EV 3|EV 9,RB30|RB60|RB61|RE1|RE2|RE3|RE50,S1|S2|S8
 de:14612:16,33000016,Bahnhof Neustadt,Dresden,Dresden Bahnhof Neustadt,51.065426,13.740882,DB AG|DB Fernverkehr AG|DB Regio|DB Regio AG Südost|DVB|FlixTrain|Mitteldeutsche Regiobahn|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,29,11|3|41|6|7|8|9,81|EV 6,RB30|RB31|RB33|RB60|RB61|RE1|RE15|RE17|RE18|RE2|RE3|RE50,S1|S2|S8
-de:14612:198,33000198,Bahnhof Neustadt (Hansastraße),Dresden,Dresden Bahnhof Neustadt (Hansastraße),51.066374,13.739112,DVB|VGM,13,10|11|3|4|41|6|7|8|9,EV 13|EV 4,,
+de:14612:198,33000198,Bahnhof Neustadt (Hansastraße),Dresden,Dresden Bahnhof Neustadt (Hansastraße),51.066374,13.739112,DVB|VGM,14,10|11|3|4|41|6|7|8|9,81|EV 13|EV 4,,
 de:14612:943,33000943,Bahnhofstraße,Dresden,Dresden Bahnhofstraße,51.002268,13.84188,DVB,4,,65|88,,
 de:14612:720,33000720,Bamberger Straße,Dresden,Dresden Bamberger Straße,51.03392,13.71245,DVB,3,,61|62|63,,
 de:14612:736,33000736,Bannewitzer Straße,Dresden,Dresden Bannewitzer Straße,51.012737,13.729914,DVB,2,,66,,
@@ -3084,7 +3084,7 @@ de:14627:4376,33004376,Gartenstraße,Radeburg,Radeburg Gartenstraße,51.20658,13
 de:14627:4379,33004379,Gewerbestraße,Radeburg,Radeburg Gewerbestraße,51.205668,13.735142,VGM,1,,,,
 de:14627:4377,33004377,Großenhainer Platz,Radeburg,Radeburg Großenhainer Platz,51.216653,13.721577,RBO|VGM,5,,,,
 de:14627:4378,33004378,Grundschule,Radeburg,Radeburg Grundschule,51.214588,13.716313,RBO|VGM,4,,,,
-de:14627:4375,33004375,Kiebitzweg,Radeburg,Radeburg Kiebitzweg,51.216085,13.713124,VGM,1,,,,
+de:14627:4375,33004375,Kiebitzweg,Radeburg,Radeburg Kiebitzweg,51.216085,13.713124,VGM,2,,,,
 de:14627:4367,33004367,Meißner Berg,Radeburg,Radeburg Meißner Berg,51.21357,13.715388,VGM,4,,,,
 de:14627:4368,33004368,Rathaus,Radeburg,Radeburg Rathaus,51.21492,13.725557,RBO|VGM,5,,,,
 de:14627:4389,33004389,Riesstraße,Radeburg,Radeburg Riesstraße,51.201008,13.731108,VGM,1,,,,
