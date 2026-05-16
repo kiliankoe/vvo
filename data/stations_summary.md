@@ -112,7 +112,6 @@ Total stations: 3920
 - Radeberg Bahnhof: 15 lines
 - Bad Schandau Nationalparkbahnhof: 14 lines
 - Dippoldiswalde Busbahnhof: 14 lines
-- Dresden Bahnhof Neustadt (Hansastraße): 14 lines
 - Heidenau (Sachsen) Bahnhof: 14 lines
 - Hoyerswerda Behördenpark: 14 lines
 - Hoyerswerda Lausitzer Platz: 14 lines
@@ -123,6 +122,7 @@ Total stations: 3920
 - Meißen Talbad: 14 lines
 - Coswig (Sachsen) Bahnhof: 13 lines
 - Dresden Bahnhof Klotzsche: 13 lines
+- Dresden Bahnhof Neustadt (Hansastraße): 13 lines
 - Dresden Lennéplatz: 13 lines
 - Dresden Tharandter Straße: 13 lines
 - Dresden Wasaplatz: 13 lines
