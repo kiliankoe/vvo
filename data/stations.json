@@ -3372,10 +3372,11 @@
           "734",
           "736",
           "738",
+          "747",
           "750"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14625:7000",
@@ -3410,6 +3411,7 @@
           "736",
           "738",
           "739",
+          "747",
           "748",
           "750"
         ],
@@ -3423,7 +3425,7 @@
           "SEV"
         ]
       },
-      "total_lines": 18
+      "total_lines": 19
     },
     {
       "id": "de:14625:7034",
@@ -3471,11 +3473,12 @@
           "535"
         ],
         "Regionalbus": [
+          "747",
           "748",
           "750"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14625:7040",
@@ -3544,11 +3547,12 @@
       ],
       "lines": {
         "Regionalbus": [
+          "747",
           "748",
           "750"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:7036",
@@ -3725,11 +3729,12 @@
         "Regionalbus": [
           "734",
           "736",
+          "747",
           "749",
           "750"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14625:7003",
@@ -3797,10 +3802,11 @@
           "735",
           "738",
           "739",
+          "747",
           "748"
         ]
       },
-      "total_lines": 7
+      "total_lines": 8
     },
     {
       "id": "de:14625:7023",
@@ -3913,10 +3919,11 @@
           "736",
           "738",
           "739",
+          "747",
           "750"
         ]
       },
-      "total_lines": 10
+      "total_lines": 11
     },
     {
       "id": "de:14625:7025",
@@ -6981,8 +6988,7 @@
       "latitude": 51.087895,
       "operators": [
         "DVB",
-        "SATRA",
-        "VGM"
+        "SATRA"
       ],
       "lines": {
         "Stadtbus": [
@@ -6992,15 +6998,11 @@
         "Anruflinienbus": [
           "93"
         ],
-        "Regionalbus": [
-          "404",
-          "423"
-        ],
         "Anruflinientaxi": [
           "alita 68"
         ]
       },
-      "total_lines": 6
+      "total_lines": 4
     },
     {
       "id": "de:14612:456",
@@ -15746,14 +15748,11 @@
           "2",
           "9"
         ],
-        "Stadtbus": [
-          "88"
-        ],
         "Anruflinientaxi": [
           "alita 88"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14612:266",
@@ -17194,15 +17193,14 @@
       ],
       "lines": {
         "Stadtbus": [
-          "65",
-          "88"
+          "65"
         ],
         "Anruflinientaxi": [
           "alita 65",
           "alita 88"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14612:1025",
@@ -21722,6 +21720,7 @@
           "8"
         ],
         "Stadtbus": [
+          "62",
           "EV 1",
           "N5"
         ],
@@ -21730,7 +21729,7 @@
           "S2"
         ]
       },
-      "total_lines": 11
+      "total_lines": 12
     },
     {
       "id": "de:14612:267",
@@ -22396,11 +22395,12 @@
           "7"
         ],
         "Stadtbus": [
+          "62",
           "EV 1",
           "N5"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:678",
@@ -23987,15 +23987,14 @@
       ],
       "lines": {
         "Stadtbus": [
-          "65",
-          "88"
+          "65"
         ],
         "Anruflinientaxi": [
           "alita 65",
           "alita 88"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14612:149",
@@ -26270,10 +26269,11 @@
       ],
       "lines": {
         "Regionalbus": [
+          "461",
           "462"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:5824",
@@ -31093,12 +31093,9 @@
       "lines": {
         "Regionalbus": [
           "458"
-        ],
-        "Stadtbus": [
-          "A (Großenhain)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:5018",
@@ -31359,12 +31356,9 @@
       "lines": {
         "Regionalbus": [
           "458"
-        ],
-        "Stadtbus": [
-          "A (Großenhain)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:5032",
@@ -31655,12 +31649,9 @@
           "462",
           "463",
           "467"
-        ],
-        "Stadtbus": [
-          "A (Großenhain)"
         ]
       },
-      "total_lines": 17
+      "total_lines": 16
     },
     {
       "id": "de:14627:5049",
@@ -33386,11 +33377,14 @@
         "RBO"
       ],
       "lines": {
+        "PlusBus": [
+          "532"
+        ],
         "Regionalbus": [
           "787"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:6140",
@@ -33404,11 +33398,14 @@
         "RBO"
       ],
       "lines": {
+        "PlusBus": [
+          "532"
+        ],
         "Regionalbus": [
           "787"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:7709",
@@ -48683,15 +48680,13 @@
           "416"
         ],
         "Regionalbus": [
-          "417",
-          "422"
+          "417"
         ],
         "Stadtbus": [
-          "A (Meißen)",
           "B (Meißen)"
         ]
       },
-      "total_lines": 7
+      "total_lines": 5
     },
     {
       "id": "de:14627:4052",
@@ -49473,15 +49468,13 @@
         ],
         "Regionalbus": [
           "417",
-          "422",
           "446"
         ],
         "Stadtbus": [
-          "A (Meißen)",
           "B (Meißen)"
         ]
       },
-      "total_lines": 7
+      "total_lines": 5
     },
     {
       "id": "de:14627:4077",
@@ -78411,10 +78404,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411"
+          "411",
+          "Sv250"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4151",

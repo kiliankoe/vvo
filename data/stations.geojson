@@ -4695,10 +4695,11 @@
             "734",
             "736",
             "738",
+            "747",
             "750"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -4741,6 +4742,7 @@
             "736",
             "738",
             "739",
+            "747",
             "748",
             "750"
           ],
@@ -4754,7 +4756,7 @@
             "SEV"
           ]
         },
-        "total_lines": 18
+        "total_lines": 19
       }
     },
     {
@@ -4818,11 +4820,12 @@
             "535"
           ],
           "Regionalbus": [
+            "747",
             "748",
             "750"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -4923,11 +4926,12 @@
         ],
         "lines": {
           "Regionalbus": [
+            "747",
             "748",
             "750"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -5176,11 +5180,12 @@
           "Regionalbus": [
             "734",
             "736",
+            "747",
             "749",
             "750"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -5272,10 +5277,11 @@
             "735",
             "738",
             "739",
+            "747",
             "748"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -5428,10 +5434,11 @@
             "736",
             "738",
             "739",
+            "747",
             "750"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -9712,8 +9719,7 @@
         "name_with_city": "Cossebaude/Neu-Leuteritz Schulstraße",
         "operators": [
           "DVB",
-          "SATRA",
-          "VGM"
+          "SATRA"
         ],
         "lines": {
           "Stadtbus": [
@@ -9723,15 +9729,11 @@
           "Anruflinienbus": [
             "93"
           ],
-          "Regionalbus": [
-            "404",
-            "423"
-          ],
           "Anruflinientaxi": [
             "alita 68"
           ]
         },
-        "total_lines": 6
+        "total_lines": 4
       }
     },
     {
@@ -21725,14 +21727,11 @@
             "2",
             "9"
           ],
-          "Stadtbus": [
-            "88"
-          ],
           "Anruflinientaxi": [
             "alita 88"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -23725,15 +23724,14 @@
         ],
         "lines": {
           "Stadtbus": [
-            "65",
-            "88"
+            "65"
           ],
           "Anruflinientaxi": [
             "alita 65",
             "alita 88"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -29869,6 +29867,7 @@
             "8"
           ],
           "Stadtbus": [
+            "62",
             "EV 1",
             "N5"
           ],
@@ -29877,7 +29876,7 @@
             "S2"
           ]
         },
-        "total_lines": 11
+        "total_lines": 12
       }
     },
     {
@@ -30775,11 +30774,12 @@
             "7"
           ],
           "Stadtbus": [
+            "62",
             "EV 1",
             "N5"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -32934,15 +32934,14 @@
         ],
         "lines": {
           "Stadtbus": [
-            "65",
-            "88"
+            "65"
           ],
           "Anruflinientaxi": [
             "alita 65",
             "alita 88"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -36105,10 +36104,11 @@
         ],
         "lines": {
           "Regionalbus": [
+            "461",
             "462"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -42800,12 +42800,9 @@
         "lines": {
           "Regionalbus": [
             "458"
-          ],
-          "Stadtbus": [
-            "A (Großenhain)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -43154,12 +43151,9 @@
         "lines": {
           "Regionalbus": [
             "458"
-          ],
-          "Stadtbus": [
-            "A (Großenhain)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -43554,12 +43548,9 @@
             "462",
             "463",
             "467"
-          ],
-          "Stadtbus": [
-            "A (Großenhain)"
           ]
         },
-        "total_lines": 17
+        "total_lines": 16
       }
     },
     {
@@ -45957,11 +45948,14 @@
           "RBO"
         ],
         "lines": {
+          "PlusBus": [
+            "532"
+          ],
           "Regionalbus": [
             "787"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -45983,11 +45977,14 @@
           "RBO"
         ],
         "lines": {
+          "PlusBus": [
+            "532"
+          ],
           "Regionalbus": [
             "787"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -67206,15 +67203,13 @@
             "416"
           ],
           "Regionalbus": [
-            "417",
-            "422"
+            "417"
           ],
           "Stadtbus": [
-            "A (Meißen)",
             "B (Meißen)"
           ]
         },
-        "total_lines": 7
+        "total_lines": 5
       }
     },
     {
@@ -68260,15 +68255,13 @@
           ],
           "Regionalbus": [
             "417",
-            "422",
             "446"
           ],
           "Stadtbus": [
-            "A (Meißen)",
             "B (Meißen)"
           ]
         },
-        "total_lines": 7
+        "total_lines": 5
       }
     },
     {
@@ -108326,10 +108319,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411"
+            "411",
+            "Sv250"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
