@@ -577,7 +577,7 @@ de:14612:1,33000001,Bahnhof Mitte,Dresden,Dresden Bahnhof Mitte,51.055642,13.723
 de:14612:16,33000016,Bahnhof Neustadt,Dresden,Dresden Bahnhof Neustadt,51.065426,13.740882,DB AG|DB Fernverkehr AG|DB Regio|DB Regio AG Südost|DVB|FlixTrain|Mitteldeutsche Regiobahn|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,29,11|3|41|6|7|8|9,81|EV 6,RB30|RB31|RB33|RB60|RB61|RE1|RE15|RE17|RE18|RE2|RE3|RE50,S1|S2|S8
 de:14612:198,33000198,Bahnhof Neustadt (Hansastraße),Dresden,Dresden Bahnhof Neustadt (Hansastraße),51.066374,13.739112,DVB|VGM,13,10|11|3|4|41|6|7|8|9,EV 13|EV 4,,
 de:14612:943,33000943,Bahnhofstraße,Dresden,Dresden Bahnhofstraße,51.002268,13.84188,DVB,4,,65|88,,
-de:14612:720,33000720,Bamberger Straße,Dresden,Dresden Bamberger Straße,51.03392,13.71245,DVB,3,,61|62|63,,
+de:14612:720,33000720,Bamberger Straße,Dresden,Dresden Bamberger Straße,51.03392,13.71245,DVB,2,,62|63,,
 de:14612:736,33000736,Bannewitzer Straße,Dresden,Dresden Bannewitzer Straße,51.012737,13.729914,DVB,2,,66,,
 de:14612:576,33000576,Baudissinstraße,Dresden,Dresden Baudissinstraße,51.087968,13.699605,VGM,1,,,,
 de:14612:12,33000012,Bautzner Straße / Rothenburger Straße,Dresden,Dresden Bautzner Straße / Rothenburger Straße,51.062987,13.751904,DVB,7,11|13|41|6|8,EV 6|N5,,
@@ -623,7 +623,7 @@ de:14612:14,33000014,Carolaplatz,Dresden,Dresden Carolaplatz,51.057934,13.745958
 de:14612:784,33000784,Caspar-David-Friedrich-Straße,Dresden,Dresden Caspar-David-Friedrich-Straße,51.026412,13.755677,DVB|RVSOE,6,,61|63|66|85|H/S (Pirna),,
 de:14612:178,33000178,Chamissostraße,Dresden,Dresden Chamissostraße,51.049255,13.687873,DVB,5,1|10|12|2|9,,,
 de:14612:723,33000723,Chemnitzer Straße,Dresden,Dresden Chemnitzer Straße,51.036948,13.715882,DVB|RVSOE,4,,61|62|63,,
-de:14612:155,33000155,Clara-Viebig-Straße,Dresden,Dresden Clara-Viebig-Straße,51.0381,13.705165,DVB,2,,61|63,,
+de:14612:155,33000155,Clara-Viebig-Straße,Dresden,Dresden Clara-Viebig-Straße,51.0381,13.705165,DVB,1,,63,,
 de:14612:702,33000702,Clara-Zetkin-Straße,Dresden,Dresden Clara-Zetkin-Straße,51.037999,13.698095,DVB,1,,90,,
 de:14612:516,33000516,Clausen-Dahl-Straße,Dresden,Dresden Clausen-Dahl-Straße,51.017343,13.761139,DVB,2,,87,,
 de:14612:81,33000081,Comeniusplatz,Dresden,Dresden Comeniusplatz,51.041664,13.766466,DVB,4,1|10|2|6,,,
@@ -1017,7 +1017,7 @@ de:14612:166,33000166,S-Bahnhof Plauen,Dresden,Dresden S-Bahnhof Plauen,51.02979
 de:14612:907,33000907,S-Bahnhof Reick,Dresden,Dresden S-Bahnhof Reick,51.02127,13.79064,DB Regio AG Südost|DVB,8,,64|65|87,RE19|RE20,S1|S2
 de:14612:622,33000622,S-Bahnhof Trachau,Dresden,Dresden S-Bahnhof Trachau,51.089937,13.703854,DB Regio AG Südost|DVB|VGM,6,,70|80|EV 4,,S1
 de:14612:212,33000212,S-Bahnhof Trachau West,Dresden,Dresden S-Bahnhof Trachau West,51.090214,13.702569,DVB,2,4,EV 4,,
-de:14612:25,33000025,S-Bf. Freiberger Straße,Dresden,Dresden S-Bf. Freiberger Straße,51.048617,13.720122,DB Regio AG Südost|DVB,12,1|10|11|12|3|7|8,62|EV 1|N5,,S1|S2
+de:14612:25,33000025,S-Bf. Freiberger Straße,Dresden,Dresden S-Bf. Freiberger Straße,51.048617,13.720122,DB Regio AG Südost|DVB,11,1|10|11|12|3|7|8,EV 1|N5,,S1|S2
 de:14612:267,33000267,S-Bf. Industriegelände,Dresden,Dresden S-Bf. Industriegelände,51.086992,13.763026,DB Regio AG Südost|DVB|trilex - Die Länderbahn GmbH DLB,9,7|8,,RB33|RB60|RB61|RE1,S2|S8
 de:14612:757,33000757,S-Bf. Strehlen,Dresden,Dresden S-Bf. Strehlen,51.031022,13.761139,DB Regio AG Südost|DVB,16,1|10|13|4|6|9,61|63|68|85|EV 13,RE19|RE20,S1|S2
 de:14612:910,33000910,S-Bf. Zschachwitz,Dresden,Dresden S-Bf. Zschachwitz,50.989649,13.845168,DB Regio AG Südost,3,,,RE19,S1|S2
@@ -1046,7 +1046,7 @@ de:14612:517,33000517,Schurichtstraße,Dresden,Dresden Schurichtstraße,51.02467
 de:14612:725,33000725,Schweizer Straße,Dresden,Dresden Schweizer Straße,51.041902,13.721389,DVB,1,,62,,
 de:14612:23,33000023,Schweriner Straße,Dresden,Dresden Schweriner Straße,51.052762,13.726698,DVB,6,1|2|9,68|EV 3|EV 9,,
 de:14612:300,33000300,Schwimmhalle Bühlau,Dresden,Dresden Schwimmhalle Bühlau,51.062231,13.838924,DVB|RVSOE,2,11,,,
-de:14612:26,33000026,Schwimmhalle Freiberger Platz,Dresden,Dresden Schwimmhalle Freiberger Platz,51.05039,13.725763,DVB,5,12|7,62|EV 1|N5,,
+de:14612:26,33000026,Schwimmhalle Freiberger Platz,Dresden,Dresden Schwimmhalle Freiberger Platz,51.05039,13.725763,DVB,4,12|7,EV 1|N5,,
 de:14612:678,33000678,Schwimmhalle Klotzsche,Dresden,Dresden Schwimmhalle Klotzsche,51.13542,13.780543,DVB,1,,77,,
 de:14612:951,33000951,Schönaer Straße,Dresden,Dresden Schönaer Straße,51.000804,13.838017,DVB,4,,65|88,,
 de:14612:584,33000584,Seewiesenweg,Dresden,Dresden Seewiesenweg,51.087968,13.679536,DVB,1,,64,,
@@ -1141,7 +1141,7 @@ de:14612:586,33000586,Wächterstraße,Dresden,Dresden Wächterstraße,51.082291,
 de:14612:900,33000900,Wägnerstraße,Dresden,Dresden Wägnerstraße,51.051,13.802848,DVB,2,,61|63,,
 de:14612:148,33000148,Wölfnitz,Dresden,Dresden Wölfnitz,51.043252,13.681782,DVB,4,12|41|6|7,,,
 de:14612:684,33000684,Wölfnitzer Ring,Dresden,Dresden Wölfnitzer Ring,51.040473,13.673526,DVB|RVSOE,3,,70,,
-de:14612:156,33000156,Würzburger Straße,Dresden,Dresden Würzburger Straße,51.034615,13.703593,DVB,4,,61|62|63|85,,
+de:14612:156,33000156,Würzburger Straße,Dresden,Dresden Würzburger Straße,51.034615,13.703593,DVB,3,,62|63|85,,
 de:14612:248,33000248,Zeithainer Straße,Dresden,Dresden Zeithainer Straße,51.082376,13.730147,DVB,11,10|11|13|3|4|41|6|7|8|9,EV 13,,
 de:14612:312,33000312,Zellescher Weg,Dresden,Dresden Zellescher Weg,51.028367,13.74585,DVB,5,11|41,61|63|EV 11,,
 de:14612:671,33000671,Zinnowitzer Straße,Dresden,Dresden Zinnowitzer Straße,51.116646,13.778405,DVB,2,,70|78,,
@@ -3779,7 +3779,7 @@ de:14612:3771,33003771,Fußweg zum Napoleonstein,Weißig (Dresden),Weißig (Dres
 de:14612:3770,33003770,Gasthof,Weißig (Dresden),Weißig (Dresden) Gasthof,51.060605,13.884864,DVB|Müller Busreisen,2,,61|98B,,
 de:14612:3767,33003767,Gönnsdorfer Weg,Weißig (Dresden),Weißig (Dresden) Gönnsdorfer Weg,51.05803,13.883175,DVB|Müller Busreisen,2,,61|98A,,
 de:14612:3773,33003773,Heidestraße,Weißig (Dresden),Weißig (Dresden) Heidestraße,51.060661,13.882726,DVB|Müller Busreisen,2,,61|98A,,
-de:14612:3788,33003788,Hutbergschule,Weißig (Dresden),Weißig (Dresden) Hutbergschule,51.05886,13.885161,DVB|Müller Busreisen,4,,61|98A|98B,,
+de:14612:3788,33003788,Hutbergschule,Weißig (Dresden),Weißig (Dresden) Hutbergschule,51.05886,13.885161,DVB|Müller Busreisen|RVSOE,5,,61|98A|98B,,
 de:14612:3778,33003778,Radeberger Straße,Weißig (Dresden),Weißig (Dresden) Radeberger Straße,51.06813,13.885646,DVB|Müller Busreisen,2,,61|98B,,
 de:14612:3799,33003799,Radeberger Straße Süd,Weißig (Dresden),Weißig (Dresden) Radeberger Straße Süd,51.065065,13.88676,DVB|Müller Busreisen,2,,61|98B,,
 de:14612:3772,33003772,Südstraße,Weißig (Dresden),Weißig (Dresden) Südstraße,51.056551,13.888323,DVB|Müller Busreisen,3,,61|98B|N5,,

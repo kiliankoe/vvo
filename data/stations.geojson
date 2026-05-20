@@ -16656,12 +16656,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "61",
             "62",
             "63"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -18048,11 +18047,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "61",
             "63"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -29867,7 +29865,6 @@
             "8"
           ],
           "Stadtbus": [
-            "62",
             "EV 1",
             "N5"
           ],
@@ -29876,7 +29873,7 @@
             "S2"
           ]
         },
-        "total_lines": 12
+        "total_lines": 11
       }
     },
     {
@@ -30774,12 +30771,11 @@
             "7"
           ],
           "Stadtbus": [
-            "62",
             "EV 1",
             "N5"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -33628,13 +33624,12 @@
         ],
         "lines": {
           "Stadtbus": [
-            "61",
             "62",
             "63",
             "85"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -109512,7 +109507,8 @@
         "name_with_city": "Weißig (Dresden) Hutbergschule",
         "operators": [
           "DVB",
-          "Müller Busreisen"
+          "Müller Busreisen",
+          "RVSOE"
         ],
         "lines": {
           "Stadtbus": [
@@ -109522,9 +109518,12 @@
           ],
           "Regionalbus": [
             "229"
+          ],
+          "PlusBus": [
+            "261"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
