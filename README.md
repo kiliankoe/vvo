@@ -43,6 +43,7 @@ For commercial applications or high-volume usage, contact VVO at opendata@vvo-on
 - [`liniennetzplan.jpg`](https://raw.githubusercontent.com/kiliankoe/vvo/master/data/liniennetzplan.jpg) - Current DVB standard network map (JPEG)
 - [`liniennetzplan.pdf`](https://raw.githubusercontent.com/kiliankoe/vvo/master/data/liniennetzplan.pdf) - Current DVB standard network map (PDF)
 - [`VVO_STOPS.JSON`](https://www.vvo-online.de/open_data/VVO_STOPS.JSON) - Official daily updated station data (external)
+- [`PuR.JSON`](https://www.vvo-online.de/open_data/PuR.JSON) - Official park and ride data (external)
 
 ## APIs
 
