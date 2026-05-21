@@ -12029,11 +12029,12 @@
       ],
       "lines": {
         "Stadtbus": [
+          "61",
           "62",
           "63"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:736",
@@ -13052,10 +13053,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "61",
           "63"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:702",
@@ -24485,12 +24487,13 @@
       ],
       "lines": {
         "Stadtbus": [
+          "61",
           "62",
           "63",
           "85"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:248",
@@ -33062,11 +33065,10 @@
           "439",
           "440",
           "461",
-          "462",
           "Sv313"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14627:5809",
@@ -79264,8 +79266,7 @@
       "latitude": 51.05886,
       "operators": [
         "DVB",
-        "Müller Busreisen",
-        "RVSOE"
+        "Müller Busreisen"
       ],
       "lines": {
         "Stadtbus": [
@@ -79275,12 +79276,9 @@
         ],
         "Regionalbus": [
           "229"
-        ],
-        "PlusBus": [
-          "261"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:3778",
