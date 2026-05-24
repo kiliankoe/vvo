@@ -12050,11 +12050,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "62",
-          "63"
+          "62"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:736",
@@ -13980,11 +13979,10 @@
         ],
         "Stadtbus": [
           "65",
-          "85",
-          "87"
+          "85"
         ]
       },
-      "total_lines": 7
+      "total_lines": 6
     },
     {
       "id": "de:14612:909",
@@ -19695,11 +19693,10 @@
       "lines": {
         "Stadtbus": [
           "65",
-          "85",
-          "87"
+          "85"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:829",
@@ -22923,12 +22920,9 @@
           "12",
           "6",
           "9"
-        ],
-        "Stadtbus": [
-          "87"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:767",
@@ -23956,12 +23950,9 @@
           "12",
           "6",
           "9"
-        ],
-        "Stadtbus": [
-          "87"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:33",
@@ -42447,10 +42438,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "345"
+          "345",
+          "363"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:1215",
@@ -42465,10 +42457,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "345"
+          "345",
+          "363"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:1221",
@@ -42501,10 +42494,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "345"
+          "345",
+          "363"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:1220",
@@ -42611,10 +42605,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "345"
+          "345",
+          "363"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4532",
@@ -72091,9 +72086,12 @@
         "Regionalbus": [
           "226",
           "228"
+        ],
+        "Stadtbus": [
+          "98C"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:865",
