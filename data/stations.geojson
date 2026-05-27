@@ -16631,15 +16631,12 @@
           "PlusBus": [
             "477"
           ],
-          "Regionalbus": [
-            "478"
-          ],
           "Stadtbus": [
             "EV 13",
             "EV 4"
           ]
         },
-        "total_lines": 13
+        "total_lines": 12
       }
     },
     {
@@ -51169,10 +51166,11 @@
         "lines": {
           "Stadtbus": [
             "1 (Hoyerswerda)",
-            "3 (Hoyerswerda)"
+            "3 (Hoyerswerda)",
+            "5 (Hoyerswerda)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -53643,11 +53641,10 @@
         "lines": {
           "Regionalbus": [
             "417",
-            "Sv125",
             "Sv170"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -81352,9 +81349,12 @@
             "238",
             "246",
             "254"
+          ],
+          "Stadtbus": [
+            "M (Pirna)"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -109538,7 +109538,8 @@
         "name_with_city": "Weißig (Dresden) Hutbergschule",
         "operators": [
           "DVB",
-          "Müller Busreisen"
+          "Müller Busreisen",
+          "RVSOE"
         ],
         "lines": {
           "Stadtbus": [
@@ -109548,9 +109549,12 @@
           ],
           "Regionalbus": [
             "229"
+          ],
+          "PlusBus": [
+            "261"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {

@@ -12004,15 +12004,12 @@
         "PlusBus": [
           "477"
         ],
-        "Regionalbus": [
-          "478"
-        ],
         "Stadtbus": [
           "EV 13",
           "EV 4"
         ]
       },
-      "total_lines": 13
+      "total_lines": 12
     },
     {
       "id": "de:14612:943",
@@ -37118,10 +37115,11 @@
       "lines": {
         "Stadtbus": [
           "1 (Hoyerswerda)",
-          "3 (Hoyerswerda)"
+          "3 (Hoyerswerda)",
+          "5 (Hoyerswerda)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:8034",
@@ -38888,11 +38886,10 @@
       "lines": {
         "Regionalbus": [
           "417",
-          "Sv125",
           "Sv170"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4505",
@@ -58965,9 +58962,12 @@
           "238",
           "246",
           "254"
+        ],
+        "Stadtbus": [
+          "M (Pirna)"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14628:3453",
@@ -79271,7 +79271,8 @@
       "latitude": 51.05886,
       "operators": [
         "DVB",
-        "Müller Busreisen"
+        "Müller Busreisen",
+        "RVSOE"
       ],
       "lines": {
         "Stadtbus": [
@@ -79281,9 +79282,12 @@
         ],
         "Regionalbus": [
           "229"
+        ],
+        "PlusBus": [
+          "261"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:3778",
