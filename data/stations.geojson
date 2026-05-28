@@ -51166,11 +51166,10 @@
         "lines": {
           "Stadtbus": [
             "1 (Hoyerswerda)",
-            "3 (Hoyerswerda)",
-            "5 (Hoyerswerda)"
+            "3 (Hoyerswerda)"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -109538,8 +109537,7 @@
         "name_with_city": "Weißig (Dresden) Hutbergschule",
         "operators": [
           "DVB",
-          "Müller Busreisen",
-          "RVSOE"
+          "Müller Busreisen"
         ],
         "lines": {
           "Stadtbus": [
@@ -109549,12 +109547,9 @@
           ],
           "Regionalbus": [
             "229"
-          ],
-          "PlusBus": [
-            "261"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {

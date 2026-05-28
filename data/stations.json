@@ -37115,11 +37115,10 @@
       "lines": {
         "Stadtbus": [
           "1 (Hoyerswerda)",
-          "3 (Hoyerswerda)",
-          "5 (Hoyerswerda)"
+          "3 (Hoyerswerda)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:8034",
@@ -79271,8 +79270,7 @@
       "latitude": 51.05886,
       "operators": [
         "DVB",
-        "Müller Busreisen",
-        "RVSOE"
+        "Müller Busreisen"
       ],
       "lines": {
         "Stadtbus": [
@@ -79282,12 +79280,9 @@
         ],
         "Regionalbus": [
           "229"
-        ],
-        "PlusBus": [
-          "261"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:3778",
