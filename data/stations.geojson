@@ -38522,11 +38522,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "161",
             "162"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -41795,9 +41794,7 @@
         "name": "Waitzdorfer Kreuz",
         "city": "Goßdorf",
         "name_with_city": "Goßdorf Waitzdorfer Kreuz",
-        "operators": [
-          "DB Regio AG Südost"
-        ],
+        "operators": [],
         "lines": {
           "Ersatzverkehr": [
             "SEV"
@@ -46344,16 +46341,14 @@
         "city": "Gönnsdorf",
         "name_with_city": "Gönnsdorf Zur Sternwarte",
         "operators": [
-          "DVB",
           "Müller Busreisen"
         ],
         "lines": {
           "Stadtbus": [
-            "61",
             "98A"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -46595,7 +46590,6 @@
         "city": "Hainersdorf (Sachs)",
         "name_with_city": "Hainersdorf (Sachs) Haltepunkt Amtshainersdorf",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -57155,9 +57149,7 @@
         "name": "Bahnhof Goßdorf-Kohlmühle",
         "city": "Kohlmühle (Hohnstn.)",
         "name_with_city": "Kohlmühle (Hohnstn.) Bahnhof Goßdorf-Kohlmühle",
-        "operators": [
-          "DB Regio AG Südost"
-        ],
+        "operators": [],
         "lines": {
           "Zug": [
             "U28"
@@ -81348,12 +81340,9 @@
             "238",
             "246",
             "254"
-          ],
-          "Stadtbus": [
-            "M (Pirna)"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
@@ -82373,11 +82362,10 @@
             "237",
             "241",
             "245",
-            "246",
             "207a"
           ]
         },
-        "total_lines": 10
+        "total_lines": 9
       }
     },
     {
@@ -83819,7 +83807,6 @@
         "city": "Porschdorf",
         "name_with_city": "Porschdorf Abzw zum Bahnhof",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -89723,11 +89710,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "403",
-            "405"
+            "403"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -90449,7 +90435,6 @@
         "city": "Rathmannsdorf (PIR)",
         "name_with_city": "Rathmannsdorf (PIR) Bahnhof",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -98441,9 +98426,12 @@
           ],
           "S-Bahn": [
             "S1"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -99147,9 +99135,12 @@
           ],
           "S-Bahn": [
             "S1"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -100649,7 +100640,6 @@
         "city": "Sebnitz",
         "name_with_city": "Sebnitz Siedlung",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -106479,7 +106469,6 @@
         "city": "Ulbersdorf",
         "name_with_city": "Ulbersdorf Almenhof",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -106511,7 +106500,6 @@
         "city": "Ulbersdorf",
         "name_with_city": "Ulbersdorf Bahnhof",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -108352,11 +108340,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411",
-            "Sv250"
+            "411"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -109480,16 +109467,14 @@
         "city": "Weißig (Dresden)",
         "name_with_city": "Weißig (Dresden) Gönnsdorfer Weg",
         "operators": [
-          "DVB",
           "Müller Busreisen"
         ],
         "lines": {
           "Stadtbus": [
-            "61",
             "98A"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {

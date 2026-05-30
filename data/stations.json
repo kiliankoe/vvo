@@ -28023,11 +28023,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "161",
           "162"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:1178",
@@ -30360,9 +30359,7 @@
       "name_with_city": "Goßdorf Waitzdorfer Kreuz",
       "longitude": 14.150783,
       "latitude": 50.964129,
-      "operators": [
-        "DB Regio AG Südost"
-      ],
+      "operators": [],
       "lines": {
         "Ersatzverkehr": [
           "SEV"
@@ -33653,16 +33650,14 @@
       "longitude": 13.871147,
       "latitude": 51.048967,
       "operators": [
-        "DVB",
         "Müller Busreisen"
       ],
       "lines": {
         "Stadtbus": [
-          "61",
           "98A"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3354",
@@ -33832,7 +33827,6 @@
       "longitude": 14.232476,
       "latitude": 50.966301,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -41440,9 +41434,7 @@
       "name_with_city": "Kohlmühle (Hohnstn.) Bahnhof Goßdorf-Kohlmühle",
       "longitude": 14.164842,
       "latitude": 50.941283,
-      "operators": [
-        "DB Regio AG Südost"
-      ],
+      "operators": [],
       "lines": {
         "Zug": [
           "U28"
@@ -58961,12 +58953,9 @@
           "238",
           "246",
           "254"
-        ],
-        "Stadtbus": [
-          "M (Pirna)"
         ]
       },
-      "total_lines": 7
+      "total_lines": 6
     },
     {
       "id": "de:14628:3453",
@@ -59706,11 +59695,10 @@
           "237",
           "241",
           "245",
-          "246",
           "207a"
         ]
       },
-      "total_lines": 10
+      "total_lines": 9
     },
     {
       "id": "de:14628:3382",
@@ -60768,7 +60756,6 @@
       "longitude": 14.136599,
       "latitude": 50.944827,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -65016,11 +65003,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "403",
-          "405"
+          "403"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4367",
@@ -65534,7 +65520,6 @@
       "longitude": 14.131002,
       "latitude": 50.927249,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -71310,9 +71295,12 @@
         ],
         "S-Bahn": [
           "S1"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3647",
@@ -71816,9 +71804,12 @@
         ],
         "S-Bahn": [
           "S1"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3597",
@@ -72902,7 +72893,6 @@
       "longitude": 14.252158,
       "latitude": 50.978503,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -77076,7 +77066,6 @@
       "longitude": 14.203964,
       "latitude": 50.966516,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -77100,7 +77089,6 @@
       "longitude": 14.220133,
       "latitude": 50.955523,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -78413,11 +78401,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411",
-          "Sv250"
+          "411"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4151",
@@ -79229,16 +79216,14 @@
       "longitude": 13.883175,
       "latitude": 51.05803,
       "operators": [
-        "DVB",
         "Müller Busreisen"
       ],
       "lines": {
         "Stadtbus": [
-          "61",
           "98A"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:3773",
