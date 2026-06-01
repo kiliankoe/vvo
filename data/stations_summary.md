@@ -30,7 +30,7 @@ Total stations: 3923
 ## Stations by Transit Type
 
 - Regionalbus: 2719 stations
-- Stadtbus: 1309 stations
+- Stadtbus: 1310 stations
 - PlusBus: 649 stations
 - Anruflinienbus: 480 stations
 - Straßenbahn: 270 stations
@@ -156,4 +156,5 @@ Total stations: 3923
 - Dresden Schlehenstraße: 10 lines
 - Glashütte (Sachs) Bahnhof / Busbahnhof: 10 lines
 - Königswartha Kirchplatz: 10 lines
+- Pirna Robert-Koch-Straße: 10 lines
 - Tharandt Bahnhof: 10 lines
