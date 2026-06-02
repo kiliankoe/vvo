@@ -31,7 +31,7 @@ Total stations: 3923
 
 - Regionalbus: 2719 stations
 - Stadtbus: 1310 stations
-- PlusBus: 649 stations
+- PlusBus: 650 stations
 - Anruflinienbus: 480 stations
 - Straßenbahn: 270 stations
 - Anruflinientaxi: 199 stations
@@ -50,7 +50,7 @@ Total stations: 3923
 
 ## Transit Operators
 
-- RVSOE: 1309 stations
+- RVSOE: 1310 stations
 - VGM: 1173 stations
 - DVB: 779 stations
 - RBO: 714 stations
@@ -122,13 +122,13 @@ Total stations: 3923
 - Meißen Talbad: 14 lines
 - Coswig (b Dresden) Bahnhof: 13 lines
 - Dresden Bahnhof Klotzsche: 13 lines
+- Dresden Bahnhof Neustadt (Hansastraße): 13 lines
 - Dresden Lennéplatz: 13 lines
 - Dresden Tharandter Straße: 13 lines
 - Dresden Wasaplatz: 13 lines
 - Nossen Markt: 13 lines
 - Nossen Talstraße: 13 lines
 - Pirna Copitz Schulstraße: 13 lines
-- Dresden Bahnhof Neustadt (Hansastraße): 12 lines
 - Dresden Großenhainer Platz: 12 lines
 - Dresden S-Bahnhof Niedersedlitz: 12 lines
 - Dresden S-Bf. Freiberger Straße: 12 lines
