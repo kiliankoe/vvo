@@ -14384,10 +14384,11 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "10"
+            "10",
+            "20"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -15116,10 +15117,11 @@
             "9"
           ],
           "Stadtbus": [
-            "65"
+            "65",
+            "87"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -15819,10 +15821,11 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "11"
+            "11",
+            "20"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -15850,6 +15853,7 @@
             "11",
             "12",
             "2",
+            "20",
             "41",
             "6",
             "7",
@@ -15857,7 +15861,7 @@
             "9"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -16175,6 +16179,7 @@
           "Straßenbahn": [
             "10",
             "11",
+            "20",
             "3",
             "4",
             "41",
@@ -16188,7 +16193,7 @@
             "EV 6"
           ]
         },
-        "total_lines": 11
+        "total_lines": 12
       }
     },
     {
@@ -16487,6 +16492,7 @@
             "1",
             "10",
             "2",
+            "20",
             "3",
             "41",
             "6",
@@ -16517,7 +16523,7 @@
             "SEV"
           ]
         },
-        "total_lines": 23
+        "total_lines": 24
       }
     },
     {
@@ -16620,6 +16626,7 @@
           "Straßenbahn": [
             "10",
             "11",
+            "20",
             "3",
             "4",
             "41",
@@ -16637,7 +16644,7 @@
             "477"
           ]
         },
-        "total_lines": 13
+        "total_lines": 14
       }
     },
     {
@@ -17073,6 +17080,7 @@
             "11",
             "12",
             "2",
+            "20",
             "41",
             "6",
             "7",
@@ -17080,7 +17088,7 @@
             "9"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -17566,6 +17574,7 @@
             "1",
             "10",
             "11",
+            "20",
             "3",
             "7",
             "8"
@@ -17574,7 +17583,7 @@
             "62"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -17839,13 +17848,14 @@
             "10",
             "11",
             "12",
+            "20",
             "41",
             "6",
             "7",
             "8"
           ]
         },
-        "total_lines": 8
+        "total_lines": 9
       }
     },
     {
@@ -19736,11 +19746,12 @@
             "10",
             "11",
             "12",
+            "20",
             "7",
             "8"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -20726,14 +20737,21 @@
         "city": "Dresden",
         "name_with_city": "Dresden Gewerbegebiet Gittersee",
         "operators": [
+          "DVB",
           "RVSOE"
         ],
         "lines": {
+          "Stadtbus": [
+            "66"
+          ],
           "Regionalbus": [
             "366"
+          ],
+          "Anruflinientaxi": [
+            "alita 66"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {
@@ -21074,6 +21092,7 @@
           "Straßenbahn": [
             "10",
             "11",
+            "20",
             "3",
             "4",
             "41",
@@ -21092,7 +21111,7 @@
             "478"
           ]
         },
-        "total_lines": 12
+        "total_lines": 13
       }
     },
     {
@@ -21585,6 +21604,7 @@
             "1",
             "10",
             "11",
+            "20",
             "3",
             "7",
             "8"
@@ -21627,7 +21647,7 @@
             "S8"
           ]
         },
-        "total_lines": 31
+        "total_lines": 32
       }
     },
     {
@@ -21695,6 +21715,7 @@
           "Straßenbahn": [
             "11",
             "12",
+            "20",
             "3",
             "4",
             "7"
@@ -21703,7 +21724,7 @@
             "EV 11"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -21917,14 +21938,21 @@
         "city": "Dresden",
         "name_with_city": "Dresden Heilbronner Straße",
         "operators": [
+          "DVB",
           "RVSOE"
         ],
         "lines": {
+          "Stadtbus": [
+            "66"
+          ],
           "Regionalbus": [
             "366"
+          ],
+          "Anruflinientaxi": [
+            "alita 66"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {
@@ -23081,9 +23109,12 @@
             "1",
             "13",
             "4"
+          ],
+          "Stadtbus": [
+            "87"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -23297,6 +23328,7 @@
             "10",
             "11",
             "12",
+            "20",
             "41",
             "6",
             "7",
@@ -23312,7 +23344,7 @@
             "alita 70"
           ]
         },
-        "total_lines": 11
+        "total_lines": 12
       }
     },
     {
@@ -23970,6 +24002,7 @@
             "11",
             "12",
             "2",
+            "20",
             "41",
             "6",
             "7",
@@ -23977,7 +24010,7 @@
             "9"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -24202,13 +24235,14 @@
             "10",
             "11",
             "12",
+            "20",
             "41",
             "6",
             "7",
             "8"
           ]
         },
-        "total_lines": 8
+        "total_lines": 9
       }
     },
     {
@@ -24308,6 +24342,7 @@
           "Straßenbahn": [
             "10",
             "11",
+            "20",
             "3",
             "41",
             "6",
@@ -24315,7 +24350,7 @@
             "9"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -24462,14 +24497,15 @@
         "lines": {
           "Straßenbahn": [
             "1",
-            "10"
+            "10",
+            "20"
           ],
           "Stadtbus": [
             "68",
             "92"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -25424,6 +25460,7 @@
             "10",
             "11",
             "13",
+            "20",
             "3",
             "4",
             "41",
@@ -25446,7 +25483,7 @@
             "alita 81"
           ]
         },
-        "total_lines": 15
+        "total_lines": 16
       }
     },
     {
@@ -25714,6 +25751,7 @@
           "Straßenbahn": [
             "10",
             "11",
+            "20",
             "3",
             "4",
             "41",
@@ -25723,7 +25761,7 @@
             "9"
           ]
         },
-        "total_lines": 9
+        "total_lines": 10
       }
     },
     {
@@ -25813,13 +25851,14 @@
             "10",
             "11",
             "12",
+            "20",
             "41",
             "6",
             "7",
             "8"
           ]
         },
-        "total_lines": 8
+        "total_lines": 9
       }
     },
     {
@@ -26114,9 +26153,15 @@
         "name": "Maxstraße (Bf Mitte)",
         "city": "Dresden",
         "name_with_city": "Dresden Maxstraße (Bf Mitte)",
-        "operators": [],
-        "lines": {},
-        "total_lines": 0
+        "operators": [
+          "DVB"
+        ],
+        "lines": {
+          "Straßenbahn": [
+            "20"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
@@ -26199,6 +26244,7 @@
             "11",
             "12",
             "2",
+            "20",
             "41",
             "6",
             "7",
@@ -26206,7 +26252,7 @@
             "9"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -26229,10 +26275,11 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "10"
+            "10",
+            "20"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -26255,10 +26302,11 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "10"
+            "10",
+            "20"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -26281,10 +26329,11 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "10"
+            "10",
+            "20"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -27480,11 +27529,12 @@
             "10",
             "11",
             "12",
+            "20",
             "7",
             "8"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -28227,6 +28277,7 @@
             "11",
             "12",
             "2",
+            "20",
             "3",
             "4",
             "7",
@@ -28247,7 +28298,7 @@
             "477"
           ]
         },
-        "total_lines": 18
+        "total_lines": 19
       }
     },
     {
@@ -28273,6 +28324,7 @@
           "Straßenbahn": [
             "11",
             "12",
+            "20",
             "3",
             "4",
             "7"
@@ -28287,7 +28339,7 @@
             "360"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -29893,6 +29945,7 @@
             "10",
             "11",
             "12",
+            "20",
             "3",
             "7",
             "8"
@@ -29907,7 +29960,7 @@
             "S2"
           ]
         },
-        "total_lines": 12
+        "total_lines": 13
       }
     },
     {
@@ -30476,6 +30529,7 @@
             "11",
             "12",
             "2",
+            "20",
             "41",
             "6",
             "7",
@@ -30483,7 +30537,7 @@
             "9"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -30802,6 +30856,7 @@
         "lines": {
           "Straßenbahn": [
             "12",
+            "20",
             "7"
           ],
           "Stadtbus": [
@@ -30810,7 +30865,7 @@
             "N5"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -31581,14 +31636,21 @@
         "city": "Dresden",
         "name_with_city": "Dresden Stuttgarter Straße",
         "operators": [
+          "DVB",
           "RVSOE"
         ],
         "lines": {
+          "Stadtbus": [
+            "66"
+          ],
           "Regionalbus": [
             "366"
+          ],
+          "Anruflinientaxi": [
+            "alita 66"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {
@@ -31890,6 +31952,7 @@
             "10",
             "11",
             "12",
+            "20",
             "41",
             "6",
             "7",
@@ -31905,7 +31968,7 @@
             "333"
           ]
         },
-        "total_lines": 13
+        "total_lines": 14
       }
     },
     {
@@ -32208,6 +32271,7 @@
             "10",
             "11",
             "13",
+            "20",
             "3",
             "4",
             "41",
@@ -32231,7 +32295,7 @@
             "alita 76"
           ]
         },
-        "total_lines": 18
+        "total_lines": 19
       }
     },
     {
@@ -32398,14 +32462,21 @@
         "city": "Dresden",
         "name_with_city": "Dresden Tübinger Straße",
         "operators": [
+          "DVB",
           "RVSOE"
         ],
         "lines": {
+          "Stadtbus": [
+            "66"
+          ],
           "Regionalbus": [
             "366"
+          ],
+          "Anruflinientaxi": [
+            "alita 66"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {
@@ -32597,14 +32668,15 @@
         "lines": {
           "Straßenbahn": [
             "1",
-            "10"
+            "10",
+            "20"
           ],
           "Stadtbus": [
             "68",
             "92"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -32730,6 +32802,7 @@
           "Straßenbahn": [
             "11",
             "12",
+            "20",
             "3",
             "4",
             "7"
@@ -32748,7 +32821,7 @@
             "H/S (Pirna)"
           ]
         },
-        "total_lines": 12
+        "total_lines": 13
       }
     },
     {
@@ -33024,14 +33097,15 @@
         "lines": {
           "Straßenbahn": [
             "1",
-            "10"
+            "10",
+            "20"
           ],
           "Stadtbus": [
             "68",
             "92"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -33718,6 +33792,7 @@
             "10",
             "11",
             "13",
+            "20",
             "3",
             "4",
             "41",
@@ -33730,7 +33805,7 @@
             "EV 13"
           ]
         },
-        "total_lines": 11
+        "total_lines": 12
       }
     },
     {
