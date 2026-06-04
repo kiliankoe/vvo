@@ -57,7 +57,7 @@ de:14628:3621,33003621,Elbkai,Bad Schandau,Bad Schandau Elbkai,50.917758,14.1494
 de:14628:3629,33003629,Kiefricht,Bad Schandau,Bad Schandau Kiefricht,50.927804,14.16247,RVSOE,1,,,,
 de:14628:3622,33003622,Kurpark,Bad Schandau,Bad Schandau Kurpark,50.920913,14.157772,RVSOE,4,Kirnitzschtalbahn,,,
 de:14628:3626,33003626,Marktplatz,Bad Schandau,Bad Schandau Marktplatz,50.917679,14.153092,RVSOE,2,,,,
-de:14628:3620,33003620,Nationalparkbahnhof,Bad Schandau,Bad Schandau Nationalparkbahnhof,50.91927,14.138099,DB Regio AG Südost|European Sleeper|RVSOE|Österreichische Bundesbahnen,14,,,RE20|RE50|U28,S1
+de:14628:3620,33003620,Nationalparkbahnhof,Bad Schandau,Bad Schandau Nationalparkbahnhof,50.91927,14.138099,DB Regio AG Südost|RVSOE|Österreichische Bundesbahnen,14,,,RE20|RE50|U28,S1
 de:14628:3627,33003627,Personenaufzug,Bad Schandau,Bad Schandau Personenaufzug,50.916541,14.160575,RVSOE,1,,,,
 de:14628:3624,33003624,Waldhäus´l,Bad Schandau,Bad Schandau Waldhäus´l,50.925114,14.180527,RVSOE,2,Kirnitzschtalbahn,,,
 de:14627:4969,33004969,Abzw Badersen/Dobschütz,Badersen,Badersen Abzw Badersen/Dobschütz,51.14645,13.275833,VGM,4,,,,
@@ -744,7 +744,7 @@ de:14612:186,33000186,Hamburger Straße,Dresden,Dresden Hamburger Straße,51.059
 de:14612:548,33000548,Hammeraue,Dresden,Dresden Hammeraue,51.067932,13.666277,SATRA,4,,91|93,,
 de:14612:764,33000764,Hans-Dankner-Straße,Dresden,Dresden Hans-Dankner-Straße,51.042591,13.742086,DVB,3,,62|68|EV 11,,
 de:14612:287,33000287,Hans-Oster-Straße,Dresden,Dresden Hans-Oster-Straße,51.074909,13.760654,DVB,1,,64,,
-de:14612:28,33000028,Hauptbahnhof,Dresden,Dresden Hauptbahnhof,51.03993,13.732932,DB Fernverkehr AG|DB Regio AG Südost|DVB|European Sleeper|FlixTrain|Mitteldeutsche Regiobahn|RVSOE|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,32,1|10|11|20|3|7|8,62|66|EV 11|H/S (Pirna),RB30|RB60|RB61|RE1|RE19|RE2|RE20|RE3|RE50,S1|S2|S3|S8
+de:14612:28,33000028,Hauptbahnhof,Dresden,Dresden Hauptbahnhof,51.03993,13.732932,DB Fernverkehr AG|DB Regio AG Südost|DVB|FlixTrain|Mitteldeutsche Regiobahn|RVSOE|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,32,1|10|11|20|3|7|8,62|66|EV 11|H/S (Pirna),RB30|RB60|RB61|RE1|RE19|RE2|RE20|RE3|RE50,S1|S2|S3|S8
 de:14612:36,33000036,Hauptbahnhof (Strehlener Str.),Dresden,Dresden Hauptbahnhof (Strehlener Str.),51.038671,13.734279,DB AG|DB Regio|DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn|RVSOE|trilex - Die Länderbahn GmbH DLB,6,,66|EV 11,,
 de:14612:32,33000032,Hauptbahnhof Nord,Dresden,Dresden Hauptbahnhof Nord,51.041365,13.735088,DVB,7,11|12|20|3|4|7,EV 11,,
 de:14612:179,33000179,Hebbelplatz,Dresden,Dresden Hebbelplatz,51.051333,13.682743,DVB,5,1|10|12|2|9,,,
@@ -1379,7 +1379,7 @@ de:14625:6355,33006355,Mühlbergstraße,Gelenau (Kamenz),Gelenau (Kamenz) Mühlb
 de:14625:6350,33006350,Pulsnitzer Straße,Gelenau (Kamenz),Gelenau (Kamenz) Pulsnitzer Straße,51.251487,14.070124,RBO,5,,22 (Kamenz),,
 de:14625:6351,33006351,Schule,Gelenau (Kamenz),Gelenau (Kamenz) Schule,51.25156,14.069297,RBO,2,,22 (Kamenz),,
 de:14625:6361,33006361,Bahnhof,Gersdorf (b Kamenz),Gersdorf (b Kamenz) Bahnhof,51.228237,14.045627,DB Regio AG Südost|RBO,5,,,,S8
-de:14625:6363,33006363,Hufenbergweg,Gersdorf (b Kamenz),Gersdorf (b Kamenz) Hufenbergweg,51.22188,14.062964,RBO,2,,,,
+de:14625:6363,33006363,Hufenbergweg,Gersdorf (b Kamenz),Gersdorf (b Kamenz) Hufenbergweg,51.221261,14.063575,RBO,2,,,,
 de:14625:6360,33006360,Niedergersdorfer Straße,Gersdorf (b Kamenz),Gersdorf (b Kamenz) Niedergersdorfer Straße,51.231056,14.051951,RBO,3,,,,
 de:14625:6364,33006364,Schule,Gersdorf (b Kamenz),Gersdorf (b Kamenz) Schule,51.227163,14.057215,RBO,2,,,,
 de:14625:6367,33006367,Viadukt,Gersdorf (b Kamenz),Gersdorf (b Kamenz) Viadukt,51.230966,14.04834,RBO,2,,,,
@@ -2471,7 +2471,7 @@ de:14627:4885,33004885,Mutzschwitz,Mutzschwitz,Mutzschwitz Mutzschwitz,51.130741
 de:14627:4851,33004851,Neumutzschwitz (SV),Mutzschwitz,Mutzschwitz Neumutzschwitz (SV),51.128808,13.269294,VGM,3,,,,
 de:14627:4869,33004869,Obermühle (SV),Mutzschwitz,Mutzschwitz Obermühle (SV),51.128447,13.274109,VGM,3,,,,
 de:14625:6365,33006365,Bergweg,Möhrsdorf,Möhrsdorf Bergweg,51.209839,14.073564,RBO,1,,,,
-de:14625:6369,33006369,Strauchmühle,Möhrsdorf,Möhrsdorf Strauchmühle,51.213834,14.073726,RBO,2,,,,
+de:14625:6369,33006369,Strauchmühle,Möhrsdorf,Möhrsdorf Strauchmühle,51.214672,14.072441,RBO,2,,,,
 de:14628:1837,33001837,Abzweig Fürstenau,Müglitz,Müglitz Abzweig Fürstenau,50.745361,13.860394,RVSOE,1,,,,
 de:14627:5446,33005446,Mühlbach b Großenhain,Mühlbach (b Großenhain),Mühlbach (b Großenhain) Mühlbach b Großenhain,51.295811,13.666735,VGM,2,,,,
 de:14628:3144,33003144,Bahnhof,Mühlbach (b Pirna),Mühlbach (b Pirna) Bahnhof,50.914253,13.818443,DB Regio AG Südost|RVSOE,4,,,RB72,

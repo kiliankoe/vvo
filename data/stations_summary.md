@@ -71,7 +71,6 @@ Total stations: 3923
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 4 stations
 - DB Fernverkehr AG: 3 stations
-- European Sleeper: 2 stations
 - FlixTrain: 2 stations
 - Nordsachsen Mobil: 2 stations
 - Omnibusbetrieb Siegfried Wilhelm: 1 stations

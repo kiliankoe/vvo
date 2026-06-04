@@ -1678,7 +1678,6 @@
         "name_with_city": "Bad Schandau Nationalparkbahnhof",
         "operators": [
           "DB Regio AG Südost",
-          "European Sleeper",
           "RVSOE",
           "Österreichische Bundesbahnen"
         ],
@@ -21591,7 +21590,6 @@
           "DB Fernverkehr AG",
           "DB Regio AG Südost",
           "DVB",
-          "European Sleeper",
           "FlixTrain",
           "Mitteldeutsche Regiobahn",
           "RVSOE",
@@ -40483,8 +40481,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.062964,
-          51.22188
+          14.063575,
+          51.221261
         ]
       },
       "properties": {
@@ -71945,8 +71943,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.073726,
-          51.213834
+          14.072441,
+          51.214672
         ]
       },
       "properties": {

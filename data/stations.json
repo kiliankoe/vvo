@@ -1211,7 +1211,6 @@
       "latitude": 50.91927,
       "operators": [
         "DB Regio AG Südost",
-        "European Sleeper",
         "RVSOE",
         "Österreichische Bundesbahnen"
       ],
@@ -15628,7 +15627,6 @@
         "DB Fernverkehr AG",
         "DB Regio AG Südost",
         "DVB",
-        "European Sleeper",
         "FlixTrain",
         "Mitteldeutsche Regiobahn",
         "RVSOE",
@@ -29448,8 +29446,8 @@
       "name": "Hufenbergweg",
       "city": "Gersdorf (b Kamenz)",
       "name_with_city": "Gersdorf (b Kamenz) Hufenbergweg",
-      "longitude": 14.062964,
-      "latitude": 51.22188,
+      "longitude": 14.063575,
+      "latitude": 51.221261,
       "operators": [
         "RBO"
       ],
@@ -52174,8 +52172,8 @@
       "name": "Strauchmühle",
       "city": "Möhrsdorf",
       "name_with_city": "Möhrsdorf Strauchmühle",
-      "longitude": 14.073726,
-      "latitude": 51.213834,
+      "longitude": 14.072441,
+      "latitude": 51.214672,
       "operators": [
         "RBO"
       ],
