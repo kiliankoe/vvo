@@ -1002,15 +1002,14 @@
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "216",
-          "247"
-        ],
         "PlusBus": [
           "219"
+        ],
+        "Regionalbus": [
+          "247"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:3245",
@@ -2917,11 +2916,14 @@
         "RVSOE"
       ],
       "lines": {
+        "Regionalbus": [
+          "263"
+        ],
         "Taktbus": [
           "264"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3160",
@@ -67828,6 +67830,10 @@
         "VGM"
       ],
       "lines": {
+        "Regionalbus": [
+          "432",
+          "442"
+        ],
         "Stadtbus": [
           "A1 (Riesa)",
           "A2 (Riesa)",
@@ -67835,7 +67841,7 @@
           "D (Riesa)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 6
     },
     {
       "id": "de:14627:5896",
