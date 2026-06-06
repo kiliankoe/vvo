@@ -37755,8 +37755,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.675835,
-          50.986115
+          13.676284,
+          50.986166
         ]
       },
       "properties": {
@@ -38598,11 +38598,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "161",
             "162"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -81417,12 +81416,9 @@
             "238",
             "246",
             "254"
-          ],
-          "Stadtbus": [
-            "M (Pirna)"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
@@ -82442,11 +82438,10 @@
             "237",
             "241",
             "245",
-            "246",
             "207a"
           ]
         },
-        "total_lines": 10
+        "total_lines": 9
       }
     },
     {
@@ -89791,11 +89786,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "403",
-            "405"
+            "403"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -108426,11 +108420,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411",
-            "Sv250"
+            "411"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -109609,8 +109602,7 @@
         "name_with_city": "Weißig (Dresden) Hutbergschule",
         "operators": [
           "DVB",
-          "Müller Busreisen",
-          "RVSOE"
+          "Müller Busreisen"
         ],
         "lines": {
           "Stadtbus": [
@@ -109620,12 +109612,9 @@
           ],
           "Regionalbus": [
             "229"
-          ],
-          "PlusBus": [
-            "261"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {

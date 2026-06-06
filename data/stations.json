@@ -27472,8 +27472,8 @@
       "name": "Niederhäslich Tanzschule",
       "city": "Freital",
       "name_with_city": "Freital Niederhäslich Tanzschule",
-      "longitude": 13.675835,
-      "latitude": 50.986115,
+      "longitude": 13.676284,
+      "latitude": 50.986166,
       "operators": [
         "RVSOE"
       ],
@@ -28099,11 +28099,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "161",
           "162"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:1178",
@@ -59030,12 +59029,9 @@
           "238",
           "246",
           "254"
-        ],
-        "Stadtbus": [
-          "M (Pirna)"
         ]
       },
-      "total_lines": 7
+      "total_lines": 6
     },
     {
       "id": "de:14628:3453",
@@ -59775,11 +59771,10 @@
           "237",
           "241",
           "245",
-          "246",
           "207a"
         ]
       },
-      "total_lines": 10
+      "total_lines": 9
     },
     {
       "id": "de:14628:3382",
@@ -65084,11 +65079,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "403",
-          "405"
+          "403"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4367",
@@ -78487,11 +78481,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411",
-          "Sv250"
+          "411"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4151",
@@ -79342,8 +79335,7 @@
       "latitude": 51.05886,
       "operators": [
         "DVB",
-        "Müller Busreisen",
-        "RVSOE"
+        "Müller Busreisen"
       ],
       "lines": {
         "Stadtbus": [
@@ -79353,12 +79345,9 @@
         ],
         "Regionalbus": [
           "229"
-        ],
-        "PlusBus": [
-          "261"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:3778",
