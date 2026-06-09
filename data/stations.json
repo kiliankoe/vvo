@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3923,
+    "count": 3911,
     "format_version": "2.0"
   },
   "stations": [
@@ -3897,15 +3897,11 @@
       "latitude": 51.131226,
       "operators": [
         "Omnibusunternehmen Gottfried Beck",
-        "RBO",
-        "RVSOE"
+        "RBO"
       ],
       "lines": {
         "Stadtverkehr": [
           "24"
-        ],
-        "Taktbus": [
-          "264"
         ],
         "PlusBus": [
           "520"
@@ -3921,7 +3917,7 @@
           "750"
         ]
       },
-      "total_lines": 11
+      "total_lines": 10
     },
     {
       "id": "de:14625:7025",
@@ -6799,7 +6795,6 @@
       "latitude": 51.08535,
       "operators": [
         "DB AG",
-        "DB Regio",
         "DVB",
         "SATRA",
         "VGM"
@@ -6815,8 +6810,7 @@
         ],
         "Regionalbus": [
           "404",
-          "423",
-          "SEV"
+          "423"
         ],
         "Zug": [
           "RB31"
@@ -6829,7 +6823,7 @@
           "SEV"
         ]
       },
-      "total_lines": 11
+      "total_lines": 10
     },
     {
       "id": "de:14612:454",
@@ -7083,7 +7077,6 @@
       "latitude": 51.123023,
       "operators": [
         "DB AG",
-        "DB Regio",
         "DB Regio AG Südost",
         "VGM"
       ],
@@ -7094,7 +7087,6 @@
           "402",
           "405",
           "460",
-          "SEV",
           "Sv210"
         ],
         "Zug": [
@@ -7110,7 +7102,7 @@
           "SEV"
         ]
       },
-      "total_lines": 13
+      "total_lines": 12
     },
     {
       "id": "de:14627:4171",
@@ -10123,11 +10115,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "70",
           "80"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:91",
@@ -10256,12 +10247,9 @@
       "lines": {
         "Straßenbahn": [
           "13"
-        ],
-        "Stadtbus": [
-          "EV 13"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:532",
@@ -10349,7 +10337,6 @@
         "Straßenbahn": [
           "11",
           "3",
-          "41",
           "6",
           "7",
           "8",
@@ -10358,13 +10345,9 @@
         "PlusBus": [
           "261",
           "477"
-        ],
-        "Stadtbus": [
-          "EV 6",
-          "N5"
         ]
       },
-      "total_lines": 11
+      "total_lines": 8
     },
     {
       "id": "de:14612:202",
@@ -10381,12 +10364,9 @@
         "Straßenbahn": [
           "4",
           "9"
-        ],
-        "Stadtbus": [
-          "EV 4"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:708",
@@ -10538,12 +10518,9 @@
         "Straßenbahn": [
           "4",
           "9"
-        ],
-        "Stadtbus": [
-          "EV 4"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:580",
@@ -10816,13 +10793,9 @@
           "13",
           "4",
           "9"
-        ],
-        "Stadtbus": [
-          "EV 13",
-          "EV 4"
         ]
       },
-      "total_lines": 5
+      "total_lines": 3
     },
     {
       "id": "de:14612:157",
@@ -10910,11 +10883,10 @@
           "4"
         ],
         "Stadtbus": [
-          "70",
-          "EV 4"
+          "70"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:874",
@@ -11267,7 +11239,6 @@
       "latitude": 51.082703,
       "operators": [
         "DB AG",
-        "DB Regio",
         "DVB"
       ],
       "lines": {
@@ -11276,12 +11247,9 @@
         ],
         "Ersatzverkehr": [
           "SEV"
-        ],
-        "Regionalbus": [
-          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:886",
@@ -11404,14 +11372,13 @@
           "12",
           "2",
           "20",
-          "41",
           "6",
           "7",
           "8",
           "9"
         ]
       },
-      "total_lines": 11
+      "total_lines": 10
     },
     {
       "id": "de:14612:34",
@@ -11499,14 +11466,13 @@
           "9"
         ],
         "Stadtbus": [
-          "79",
-          "EV 13"
+          "79"
         ],
         "Anruflinientaxi": [
           "alita 79"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:908",
@@ -11644,18 +11610,12 @@
           "20",
           "3",
           "4",
-          "41",
           "6",
-          "7",
           "8",
           "9"
-        ],
-        "Stadtbus": [
-          "EV 4",
-          "EV 6"
         ]
       },
-      "total_lines": 12
+      "total_lines": 8
     },
     {
       "id": "de:14612:280",
@@ -11673,9 +11633,6 @@
         "Straßenbahn": [
           "7"
         ],
-        "Stadtbus": [
-          "80"
-        ],
         "PlusBus": [
           "522"
         ],
@@ -11683,7 +11640,7 @@
           "769"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14612:817",
@@ -11804,8 +11761,7 @@
       "longitude": 13.708192,
       "latitude": 51.056026,
       "operators": [
-        "DB AG",
-        "DB Regio"
+        "DB AG"
       ],
       "lines": {
         "Zug": [
@@ -11813,12 +11769,9 @@
         ],
         "Ersatzverkehr": [
           "SEV"
-        ],
-        "Regionalbus": [
-          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:658",
@@ -11884,16 +11837,13 @@
           "2",
           "20",
           "3",
-          "41",
           "6",
           "8",
           "9"
         ],
         "Stadtbus": [
           "68",
-          "92",
-          "EV 3",
-          "EV 9"
+          "92"
         ],
         "Zug": [
           "RB30",
@@ -11908,12 +11858,9 @@
           "S1",
           "S2",
           "S8"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 24
+      "total_lines": 20
     },
     {
       "id": "de:14612:16",
@@ -11926,7 +11873,6 @@
       "operators": [
         "DB AG",
         "DB Fernverkehr AG",
-        "DB Regio",
         "DB Regio AG Südost",
         "DVB",
         "FlixTrain",
@@ -11939,22 +11885,19 @@
         "Straßenbahn": [
           "11",
           "3",
-          "41",
           "6",
           "7",
           "8",
           "9"
         ],
         "Stadtbus": [
-          "81",
-          "EV 6"
+          "81"
         ],
         "PlusBus": [
           "477"
         ],
         "Regionalbus": [
-          "478",
-          "SEV"
+          "478"
         ],
         "Zug": [
           "RB30",
@@ -11975,14 +11918,11 @@
           "S2",
           "S8"
         ],
-        "Fernbus": [
-          "Fernbus"
-        ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 29
+      "total_lines": 25
     },
     {
       "id": "de:14612:198",
@@ -12002,8 +11942,6 @@
           "11",
           "20",
           "3",
-          "4",
-          "41",
           "6",
           "7",
           "8",
@@ -12011,13 +11949,9 @@
         ],
         "PlusBus": [
           "477"
-        ],
-        "Stadtbus": [
-          "EV 13",
-          "EV 4"
         ]
       },
-      "total_lines": 13
+      "total_lines": 9
     },
     {
       "id": "de:14612:943",
@@ -12114,16 +12048,11 @@
         "Straßenbahn": [
           "11",
           "13",
-          "41",
           "6",
           "8"
-        ],
-        "Stadtbus": [
-          "EV 6",
-          "N5"
         ]
       },
-      "total_lines": 7
+      "total_lines": 4
     },
     {
       "id": "de:14612:648",
@@ -12255,7 +12184,6 @@
       "lines": {
         "Straßenbahn": [
           "10",
-          "12",
           "6",
           "9"
         ],
@@ -12264,7 +12192,7 @@
           "64"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14612:724",
@@ -12334,14 +12262,13 @@
           "12",
           "2",
           "20",
-          "41",
           "6",
           "7",
           "8",
           "9"
         ]
       },
-      "total_lines": 11
+      "total_lines": 10
     },
     {
       "id": "de:14612:822",
@@ -12384,14 +12311,13 @@
           "70",
           "73",
           "80",
-          "81",
-          "EV 13"
+          "81"
         ],
         "Anruflinientaxi": [
           "alita 73"
         ]
       },
-      "total_lines": 7
+      "total_lines": 6
     },
     {
       "id": "de:14612:183",
@@ -12453,12 +12379,9 @@
         ],
         "PlusBus": [
           "477"
-        ],
-        "Stadtbus": [
-          "EV 13"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:43",
@@ -12475,8 +12398,7 @@
       "lines": {
         "Straßenbahn": [
           "12",
-          "6",
-          "8"
+          "6"
         ],
         "Stadtbus": [
           "62",
@@ -12486,7 +12408,7 @@
           "520"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14612:888",
@@ -12631,14 +12553,13 @@
           "9"
         ],
         "Stadtbus": [
-          "79",
-          "EV 13"
+          "79"
         ],
         "Anruflinientaxi": [
           "alita 79"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:274",
@@ -12868,8 +12789,7 @@
         ],
         "Stadtbus": [
           "61",
-          "84",
-          "N5"
+          "84"
         ],
         "Regionalbus": [
           "226",
@@ -12882,7 +12802,7 @@
           "521"
         ]
       },
-      "total_lines": 10
+      "total_lines": 9
     },
     {
       "id": "de:14612:145",
@@ -12902,13 +12822,12 @@
           "11",
           "12",
           "20",
-          "41",
           "6",
           "7",
           "8"
         ]
       },
-      "total_lines": 9
+      "total_lines": 8
     },
     {
       "id": "de:14612:244",
@@ -12926,12 +12845,9 @@
           "13",
           "4",
           "9"
-        ],
-        "Stadtbus": [
-          "EV 13"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14612:871",
@@ -12988,11 +12904,10 @@
         "Straßenbahn": [
           "3",
           "7",
-          "8",
           "9"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14612:784",
@@ -13035,12 +12950,11 @@
         "Straßenbahn": [
           "1",
           "10",
-          "12",
           "2",
           "9"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:723",
@@ -13116,12 +13030,9 @@
       "lines": {
         "Stadtbus": [
           "87"
-        ],
-        "Anruflinientaxi": [
-          "alita 63"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:81",
@@ -13138,11 +13049,10 @@
         "Straßenbahn": [
           "1",
           "10",
-          "2",
-          "6"
+          "2"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14612:174",
@@ -13181,11 +13091,10 @@
           "H/S (Pirna)"
         ],
         "Anruflinientaxi": [
-          "alita 63",
           "alita 68"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:165",
@@ -13245,7 +13154,6 @@
       "latitude": 51.06166,
       "operators": [
         "DB AG",
-        "DB Regio",
         "DVB"
       ],
       "lines": {
@@ -13258,12 +13166,9 @@
         ],
         "Ersatzverkehr": [
           "SEV"
-        ],
-        "Regionalbus": [
-          "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:153",
@@ -13281,12 +13186,11 @@
           "1",
           "10",
           "2",
-          "41",
           "6",
           "9"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14612:333",
@@ -13303,7 +13207,6 @@
         "Straßenbahn": [
           "1",
           "10",
-          "12",
           "2",
           "9"
         ],
@@ -13311,7 +13214,7 @@
           "70"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14612:861",
@@ -13384,12 +13287,9 @@
           "4",
           "6",
           "9"
-        ],
-        "Stadtbus": [
-          "EV 13"
         ]
       },
-      "total_lines": 7
+      "total_lines": 6
     },
     {
       "id": "de:14612:161",
@@ -13427,7 +13327,6 @@
         "Straßenbahn": [
           "1",
           "10",
-          "12",
           "2",
           "9"
         ],
@@ -13438,7 +13337,7 @@
           "alita 70"
         ]
       },
-      "total_lines": 7
+      "total_lines": 6
     },
     {
       "id": "de:14612:260",
@@ -13504,12 +13403,9 @@
         ],
         "PlusBus": [
           "261"
-        ],
-        "Stadtbus": [
-          "N5"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:803",
@@ -13649,11 +13545,10 @@
           "3"
         ],
         "Stadtbus": [
-          "70",
           "80"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:544",
@@ -13811,14 +13706,10 @@
       "lines": {
         "Straßenbahn": [
           "13",
-          "41",
           "8"
-        ],
-        "Stadtbus": [
-          "EV 6"
         ]
       },
-      "total_lines": 4
+      "total_lines": 2
     },
     {
       "id": "de:14612:700",
@@ -13869,11 +13760,10 @@
       ],
       "lines": {
         "Straßenbahn": [
-          "41",
           "6"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:588",
@@ -13895,14 +13785,13 @@
           "64",
           "70",
           "72",
-          "80",
-          "EV 13"
+          "80"
         ],
         "Anruflinientaxi": [
           "alita 72"
         ]
       },
-      "total_lines": 8
+      "total_lines": 7
     },
     {
       "id": "de:14612:296",
@@ -13981,7 +13870,6 @@
       "lines": {
         "Straßenbahn": [
           "10",
-          "12",
           "6",
           "9"
         ],
@@ -13990,7 +13878,7 @@
           "85"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14612:909",
@@ -14226,14 +14114,13 @@
           "10",
           "12",
           "6",
-          "8",
           "9"
         ],
         "Stadtbus": [
           "64"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14612:973",
@@ -14263,7 +14150,6 @@
       "latitude": 51.075654,
       "operators": [
         "DB AG",
-        "DB Regio",
         "DVB"
       ],
       "lines": {
@@ -14272,12 +14158,9 @@
         ],
         "Ersatzverkehr": [
           "SEV"
-        ],
-        "Regionalbus": [
-          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:141",
@@ -14568,12 +14451,9 @@
         ],
         "PlusBus": [
           "477"
-        ],
-        "Stadtbus": [
-          "EV 13"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:78",
@@ -14838,15 +14718,13 @@
       ],
       "lines": {
         "Straßenbahn": [
-          "12",
-          "6",
-          "8"
+          "12"
         ],
         "Stadtbus": [
           "64"
         ]
       },
-      "total_lines": 4
+      "total_lines": 2
     },
     {
       "id": "de:14612:789",
@@ -14933,13 +14811,12 @@
           "1",
           "10",
           "13",
-          "41",
           "6",
           "8",
           "9"
         ]
       },
-      "total_lines": 7
+      "total_lines": 6
     },
     {
       "id": "de:14612:323",
@@ -15177,12 +15054,11 @@
       "lines": {
         "Straßenbahn": [
           "10",
-          "12",
           "6",
           "9"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14612:661",
@@ -15267,8 +15143,6 @@
           "11",
           "20",
           "3",
-          "4",
-          "41",
           "6",
           "7",
           "8",
@@ -15284,7 +15158,7 @@
           "478"
         ]
       },
-      "total_lines": 13
+      "total_lines": 11
     },
     {
       "id": "de:14612:237",
@@ -15294,23 +15168,9 @@
       "name_with_city": "Dresden Großenhainer Straße / Fritz-Reuter-Straße",
       "longitude": 13.734711,
       "latitude": 51.075197,
-      "operators": [
-        "DVB"
-      ],
-      "lines": {
-        "Straßenbahn": [
-          "13",
-          "4",
-          "6",
-          "7",
-          "8",
-          "9"
-        ],
-        "Stadtbus": [
-          "EV 13"
-        ]
-      },
-      "total_lines": 7
+      "operators": [],
+      "lines": {},
+      "total_lines": 0
     },
     {
       "id": "de:14612:77",
@@ -15521,20 +15381,9 @@
       "name_with_city": "Dresden Güntzplatz",
       "longitude": 13.759378,
       "latitude": 51.053637,
-      "operators": [
-        "DVB"
-      ],
-      "lines": {
-        "Straßenbahn": [
-          "13",
-          "6",
-          "8"
-        ],
-        "Stadtbus": [
-          "EV 6"
-        ]
-      },
-      "total_lines": 4
+      "operators": [],
+      "lines": {},
+      "total_lines": 0
     },
     {
       "id": "de:14612:186",
@@ -15592,11 +15441,10 @@
       "lines": {
         "Stadtbus": [
           "62",
-          "68",
-          "EV 11"
+          "68"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:287",
@@ -15648,7 +15496,6 @@
         "Stadtbus": [
           "62",
           "66",
-          "EV 11",
           "H/S (Pirna)"
         ],
         "PlusBus": [
@@ -15683,7 +15530,7 @@
           "S8"
         ]
       },
-      "total_lines": 32
+      "total_lines": 31
     },
     {
       "id": "de:14612:36",
@@ -15695,21 +15542,17 @@
       "latitude": 51.038671,
       "operators": [
         "DB AG",
-        "DB Regio",
         "DB Regio AG Südost",
         "DVB",
         "Mitteldeutsche Regiobahn",
-        "RVSOE",
-        "trilex - Die Länderbahn GmbH DLB"
+        "RVSOE"
       ],
       "lines": {
         "Stadtbus": [
-          "66",
-          "EV 11"
+          "66"
         ],
         "Regionalbus": [
-          "366",
-          "SEV"
+          "366"
         ],
         "Fernbus": [
           "Fernbus"
@@ -15718,7 +15561,7 @@
           "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 4
     },
     {
       "id": "de:14612:32",
@@ -15739,12 +15582,9 @@
           "3",
           "4",
           "7"
-        ],
-        "Stadtbus": [
-          "EV 11"
         ]
       },
-      "total_lines": 7
+      "total_lines": 6
     },
     {
       "id": "de:14612:179",
@@ -15761,12 +15601,11 @@
         "Straßenbahn": [
           "1",
           "10",
-          "12",
           "2",
           "9"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:99",
@@ -15964,24 +15803,6 @@
       "lines": {
         "Stadtbus": [
           "85"
-        ]
-      },
-      "total_lines": 1
-    },
-    {
-      "id": "de:14612:527",
-      "numeric_id": "33000527",
-      "name": "Heinz-Steyer-Stadion",
-      "city": "Dresden",
-      "name_with_city": "Dresden Heinz-Steyer-Stadion",
-      "longitude": 13.72606,
-      "latitude": 51.058758,
-      "operators": [
-        "DVB"
-      ],
-      "lines": {
-        "Stadtbus": [
-          "EV 3"
         ]
       },
       "total_lines": 1
@@ -16326,8 +16147,7 @@
       "longitude": 13.68339,
       "latitude": 51.062123,
       "operators": [
-        "DB AG",
-        "DB Regio"
+        "DB AG"
       ],
       "lines": {
         "Zug": [
@@ -16335,12 +16155,9 @@
         ],
         "Ersatzverkehr": [
           "SEV"
-        ],
-        "Regionalbus": [
-          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:550",
@@ -16351,18 +16168,14 @@
       "longitude": 13.668936,
       "latitude": 51.073001,
       "operators": [
-        "DB AG",
-        "DB Regio"
+        "DB AG"
       ],
       "lines": {
         "Zug": [
           "RB31"
-        ],
-        "Regionalbus": [
-          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:556",
@@ -16373,18 +16186,14 @@
       "longitude": 13.651661,
       "latitude": 51.08057,
       "operators": [
-        "DB AG",
-        "DB Regio"
+        "DB AG"
       ],
       "lines": {
         "Zug": [
           "RB31"
-        ],
-        "Regionalbus": [
-          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:251",
@@ -16429,14 +16238,13 @@
           "9"
         ],
         "Stadtbus": [
-          "68",
-          "EV 13"
+          "68"
         ],
         "Anruflinientaxi": [
           "alita 68"
         ]
       },
-      "total_lines": 9
+      "total_lines": 8
     },
     {
       "id": "de:14612:672",
@@ -16909,7 +16717,6 @@
           "11",
           "12",
           "20",
-          "41",
           "6",
           "7",
           "8"
@@ -16924,7 +16731,7 @@
           "alita 70"
         ]
       },
-      "total_lines": 12
+      "total_lines": 11
     },
     {
       "id": "de:14612:918",
@@ -17082,24 +16889,6 @@
       "total_lines": 1
     },
     {
-      "id": "de:14612:289",
-      "numeric_id": "33000289",
-      "name": "Kamenzer Straße",
-      "city": "Dresden",
-      "name_with_city": "Dresden Kamenzer Straße",
-      "longitude": 13.759962,
-      "latitude": 51.070134,
-      "operators": [
-        "DVB"
-      ],
-      "lines": {
-        "Stadtbus": [
-          "EV 13"
-        ]
-      },
-      "total_lines": 1
-    },
-    {
       "id": "de:14612:685",
       "numeric_id": "33000685",
       "name": "Kapellenweg",
@@ -17139,8 +16928,7 @@
         "Straßenbahn": [
           "1",
           "10",
-          "2",
-          "6"
+          "2"
         ],
         "Stadtbus": [
           "61",
@@ -17148,7 +16936,7 @@
           "EV 1/2"
         ]
       },
-      "total_lines": 7
+      "total_lines": 6
     },
     {
       "id": "de:14612:807",
@@ -17399,14 +17187,13 @@
           "12",
           "2",
           "20",
-          "41",
           "6",
           "7",
           "8",
           "9"
         ]
       },
-      "total_lines": 11
+      "total_lines": 10
     },
     {
       "id": "de:14612:213",
@@ -17422,31 +17209,9 @@
       "lines": {
         "Straßenbahn": [
           "4"
-        ],
-        "Stadtbus": [
-          "EV 4"
         ]
       },
-      "total_lines": 2
-    },
-    {
-      "id": "de:14612:288",
-      "numeric_id": "33000288",
-      "name": "Kleines Haus (Glacisstraße)",
-      "city": "Dresden",
-      "name_with_city": "Dresden Kleines Haus (Glacisstraße)",
-      "longitude": 13.750045,
-      "latitude": 51.061485,
-      "operators": [
-        "DVB"
-      ],
-      "lines": {
-        "Stadtbus": [
-          "EV 1",
-          "EV 3"
-        ]
-      },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:744",
@@ -17515,24 +17280,6 @@
       "total_lines": 2
     },
     {
-      "id": "de:14612:663",
-      "numeric_id": "33000663",
-      "name": "Klotzsche Maria-Reiche-Straße",
-      "city": "Dresden",
-      "name_with_city": "Dresden Klotzsche Maria-Reiche-Straße",
-      "longitude": 13.788484,
-      "latitude": 51.126237,
-      "operators": [
-        "DVB"
-      ],
-      "lines": {
-        "Stadtbus": [
-          "80"
-        ]
-      },
-      "total_lines": 1
-    },
-    {
       "id": "de:14612:966",
       "numeric_id": "33000966",
       "name": "Knappestraße",
@@ -17568,13 +17315,12 @@
           "11",
           "12",
           "20",
-          "41",
           "6",
           "7",
           "8"
         ]
       },
-      "total_lines": 9
+      "total_lines": 8
     },
     {
       "id": "de:14612:810",
@@ -17644,13 +17390,12 @@
           "11",
           "20",
           "3",
-          "41",
           "6",
           "8",
           "9"
         ]
       },
-      "total_lines": 8
+      "total_lines": 7
     },
     {
       "id": "de:14612:623",
@@ -17665,11 +17410,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "70",
           "80"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:197",
@@ -17687,7 +17431,6 @@
           "1",
           "10",
           "2",
-          "41",
           "6",
           "9"
         ],
@@ -17695,7 +17438,7 @@
           "92"
         ]
       },
-      "total_lines": 7
+      "total_lines": 6
     },
     {
       "id": "de:14612:162",
@@ -17802,11 +17545,10 @@
           "10",
           "12",
           "6",
-          "8",
           "9"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:795",
@@ -17890,24 +17632,6 @@
         ]
       },
       "total_lines": 2
-    },
-    {
-      "id": "de:14612:578",
-      "numeric_id": "33000578",
-      "name": "Kulturhafen Dresden",
-      "city": "Dresden",
-      "name_with_city": "Dresden Kulturhafen Dresden",
-      "longitude": 13.721991,
-      "latitude": 51.082229,
-      "operators": [
-        "DVB"
-      ],
-      "lines": {
-        "Stadtbus": [
-          "EV 9"
-        ]
-      },
-      "total_lines": 1
     },
     {
       "id": "de:14612:983",
@@ -18166,15 +17890,14 @@
         "Straßenbahn": [
           "1",
           "10",
-          "2",
-          "6"
+          "2"
         ],
         "Stadtbus": [
           "86",
           "EV 1/2"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14612:646",
@@ -18198,11 +17921,10 @@
           "478"
         ],
         "Anruflinientaxi": [
-          "alita 76",
           "alita 81"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14612:754",
@@ -18283,19 +18005,16 @@
           "11",
           "13",
           "4",
-          "41",
           "6",
           "8",
           "9"
         ],
         "Stadtbus": [
           "62",
-          "68",
-          "EV 11",
-          "EV 13"
+          "68"
         ]
       },
-      "total_lines": 13
+      "total_lines": 10
     },
     {
       "id": "de:14612:74",
@@ -18399,14 +18118,13 @@
         "Straßenbahn": [
           "1",
           "10",
-          "2",
-          "6"
+          "2"
         ],
         "Stadtbus": [
           "EV 1/2"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:82",
@@ -18423,11 +18141,10 @@
         "Straßenbahn": [
           "1",
           "10",
-          "2",
-          "6"
+          "2"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14612:505",
@@ -18467,15 +18184,13 @@
           "20",
           "3",
           "4",
-          "41",
           "6",
           "7",
           "8",
           "9"
         ],
         "Stadtbus": [
-          "81",
-          "EV 13"
+          "81"
         ],
         "PlusBus": [
           "477"
@@ -18487,7 +18202,7 @@
           "alita 81"
         ]
       },
-      "total_lines": 16
+      "total_lines": 14
     },
     {
       "id": "de:14612:935",
@@ -18685,15 +18400,13 @@
           "11",
           "20",
           "3",
-          "4",
-          "41",
           "6",
           "7",
           "8",
           "9"
         ]
       },
-      "total_lines": 10
+      "total_lines": 8
     },
     {
       "id": "de:14612:634",
@@ -18760,13 +18473,12 @@
           "11",
           "12",
           "20",
-          "41",
           "6",
           "7",
           "8"
         ]
       },
-      "total_lines": 9
+      "total_lines": 8
     },
     {
       "id": "de:14612:184",
@@ -18862,15 +18574,14 @@
         "Straßenbahn": [
           "1",
           "10",
-          "2",
-          "6"
+          "2"
         ],
         "Stadtbus": [
           "87",
           "EV 1/2"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14612:631",
@@ -19041,14 +18752,13 @@
           "12",
           "2",
           "20",
-          "41",
           "6",
           "7",
           "8",
           "9"
         ]
       },
-      "total_lines": 11
+      "total_lines": 10
     },
     {
       "id": "de:14612:522",
@@ -19153,15 +18863,13 @@
         "Stadtbus": [
           "64",
           "70",
-          "79",
-          "EV 13",
-          "EV 4"
+          "79"
         ],
         "Anruflinientaxi": [
           "alita 79"
         ]
       },
-      "total_lines": 9
+      "total_lines": 7
     },
     {
       "id": "de:14612:535",
@@ -19263,15 +18971,14 @@
         ],
         "Stadtbus": [
           "63",
-          "68",
-          "EV 13"
+          "68"
         ],
         "Anruflinientaxi": [
           "alita 63",
           "alita 68"
         ]
       },
-      "total_lines": 11
+      "total_lines": 10
     },
     {
       "id": "de:14612:697",
@@ -19390,7 +19097,6 @@
       "lines": {
         "Straßenbahn": [
           "10",
-          "12",
           "6",
           "9"
         ],
@@ -19398,7 +19104,7 @@
           "64"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:928",
@@ -19452,19 +19158,17 @@
       ],
       "lines": {
         "Straßenbahn": [
-          "11",
-          "41"
+          "11"
         ],
         "Stadtbus": [
           "63",
-          "85",
-          "EV 11"
+          "85"
         ],
         "Anruflinientaxi": [
           "alita 63"
         ]
       },
-      "total_lines": 6
+      "total_lines": 4
     },
     {
       "id": "de:14612:752",
@@ -19596,17 +19300,10 @@
           "3",
           "4",
           "7",
-          "8",
           "9"
-        ],
-        "Stadtbus": [
-          "EV 1",
-          "EV 3",
-          "EV 9",
-          "N5"
         ]
       },
-      "total_lines": 9
+      "total_lines": 4
     },
     {
       "id": "de:14612:815",
@@ -20031,12 +19728,9 @@
         "Straßenbahn": [
           "4",
           "9"
-        ],
-        "Stadtbus": [
-          "EV 4"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:120",
@@ -20116,12 +19810,10 @@
       "lines": {
         "Straßenbahn": [
           "4",
-          "7",
-          "8",
           "9"
         ]
       },
-      "total_lines": 4
+      "total_lines": 2
     },
     {
       "id": "de:14612:173",
@@ -20158,14 +19850,10 @@
       ],
       "lines": {
         "Straßenbahn": [
-          "6",
-          "8"
-        ],
-        "Stadtbus": [
-          "EV 6"
+          "6"
         ]
       },
-      "total_lines": 3
+      "total_lines": 1
     },
     {
       "id": "de:14612:211",
@@ -20185,14 +19873,13 @@
         ],
         "Stadtbus": [
           "70",
-          "80",
-          "EV 4"
+          "80"
         ],
         "Regionalbus": [
           "476"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:594",
@@ -20492,7 +20179,6 @@
       "lines": {
         "Straßenbahn": [
           "10",
-          "12",
           "6",
           "9"
         ],
@@ -20500,7 +20186,7 @@
           "61"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:37",
@@ -20530,11 +20216,7 @@
         "Stadtbus": [
           "62",
           "68",
-          "EV 1",
-          "EV 3",
-          "EV 9",
-          "H/S (Pirna)",
-          "N5"
+          "H/S (Pirna)"
         ],
         "PlusBus": [
           "333",
@@ -20542,7 +20224,7 @@
           "477"
         ]
       },
-      "total_lines": 19
+      "total_lines": 15
     },
     {
       "id": "de:14612:3",
@@ -20635,14 +20317,13 @@
         "Straßenbahn": [
           "1",
           "10",
-          "2",
-          "6"
+          "2"
         ],
         "Stadtbus": [
           "EV 1/2"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:791",
@@ -20787,11 +20468,10 @@
         ],
         "Stadtbus": [
           "62",
-          "68",
-          "EV 13"
+          "68"
         ]
       },
-      "total_lines": 9
+      "total_lines": 8
     },
     {
       "id": "de:14612:860",
@@ -20839,11 +20519,10 @@
         ],
         "Stadtbus": [
           "70",
-          "80",
-          "EV 4"
+          "80"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14612:611",
@@ -20902,13 +20581,9 @@
           "13",
           "4",
           "9"
-        ],
-        "Stadtbus": [
-          "EV 13",
-          "EV 9"
         ]
       },
-      "total_lines": 5
+      "total_lines": 3
     },
     {
       "id": "de:14612:881",
@@ -20975,14 +20650,13 @@
         "Straßenbahn": [
           "1",
           "10",
-          "2",
-          "6"
+          "2"
         ],
         "Stadtbus": [
           "EV 1/2"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:513",
@@ -21125,15 +20799,14 @@
         "Straßenbahn": [
           "1",
           "10",
-          "2",
-          "6"
+          "2"
         ],
         "Stadtbus": [
           "65",
           "EV 1/2"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14612:207",
@@ -21174,14 +20847,13 @@
         ],
         "Stadtbus": [
           "64",
-          "72",
-          "EV 13"
+          "72"
         ],
         "Anruflinientaxi": [
           "alita 72"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14612:833",
@@ -21241,12 +20913,9 @@
       "lines": {
         "Stadtbus": [
           "87"
-        ],
-        "Anruflinientaxi": [
-          "alita 63"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:848",
@@ -21309,15 +20978,11 @@
       "lines": {
         "Straßenbahn": [
           "13",
-          "41",
           "6",
           "8"
-        ],
-        "Stadtbus": [
-          "EV 6"
         ]
       },
-      "total_lines": 5
+      "total_lines": 3
     },
     {
       "id": "de:14612:854",
@@ -21415,15 +21080,13 @@
       ],
       "lines": {
         "Straßenbahn": [
-          "11",
-          "41"
+          "11"
         ],
         "Stadtbus": [
-          "85",
-          "EV 11"
+          "85"
         ]
       },
-      "total_lines": 4
+      "total_lines": 2
     },
     {
       "id": "de:14612:636",
@@ -21496,9 +21159,6 @@
         "PlusBus": [
           "477"
         ],
-        "Stadtbus": [
-          "EV 13"
-        ],
         "S-Bahn": [
           "S1"
         ],
@@ -21506,7 +21166,7 @@
           "SEV"
         ]
       },
-      "total_lines": 7
+      "total_lines": 6
     },
     {
       "id": "de:14612:919",
@@ -21727,8 +21387,7 @@
       "lines": {
         "Stadtbus": [
           "70",
-          "80",
-          "EV 4"
+          "80"
         ],
         "Regionalbus": [
           "476"
@@ -21740,7 +21399,7 @@
           "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14612:212",
@@ -21756,12 +21415,9 @@
       "lines": {
         "Straßenbahn": [
           "4"
-        ],
-        "Stadtbus": [
-          "EV 4"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:25",
@@ -21787,16 +21443,14 @@
           "8"
         ],
         "Stadtbus": [
-          "62",
-          "EV 1",
-          "N5"
+          "62"
         ],
         "S-Bahn": [
           "S1",
           "S2"
         ]
       },
-      "total_lines": 13
+      "total_lines": 11
     },
     {
       "id": "de:14612:267",
@@ -21857,8 +21511,7 @@
           "61",
           "63",
           "68",
-          "85",
-          "EV 13"
+          "85"
         ],
         "Zug": [
           "RE19",
@@ -21872,7 +21525,7 @@
           "SEV"
         ]
       },
-      "total_lines": 16
+      "total_lines": 15
     },
     {
       "id": "de:14612:910",
@@ -21950,15 +21603,11 @@
       "lines": {
         "Straßenbahn": [
           "13",
-          "41",
           "6",
           "8"
-        ],
-        "Stadtbus": [
-          "EV 6"
         ]
       },
-      "total_lines": 5
+      "total_lines": 3
     },
     {
       "id": "de:14612:665",
@@ -22222,14 +21871,13 @@
           "12",
           "2",
           "20",
-          "41",
           "6",
           "7",
           "8",
           "9"
         ]
       },
-      "total_lines": 11
+      "total_lines": 10
     },
     {
       "id": "de:14612:537",
@@ -22417,12 +22065,10 @@
           "9"
         ],
         "Stadtbus": [
-          "68",
-          "EV 3",
-          "EV 9"
+          "68"
         ]
       },
-      "total_lines": 6
+      "total_lines": 4
     },
     {
       "id": "de:14612:300",
@@ -22464,12 +22110,10 @@
           "7"
         ],
         "Stadtbus": [
-          "62",
-          "EV 1",
-          "N5"
+          "62"
         ]
       },
-      "total_lines": 6
+      "total_lines": 4
     },
     {
       "id": "de:14612:678",
@@ -22647,7 +22291,6 @@
       "lines": {
         "Straßenbahn": [
           "10",
-          "12",
           "6",
           "9"
         ],
@@ -22656,7 +22299,7 @@
           "64"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14612:583",
@@ -22715,14 +22358,13 @@
       "lines": {
         "Straßenbahn": [
           "13",
-          "41",
           "8"
         ],
         "Stadtbus": [
           "62"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14612:667",
@@ -22861,11 +22503,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "70",
           "80"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:656",
@@ -22904,13 +22545,12 @@
           "12",
           "13",
           "2",
-          "41",
           "6",
           "8",
           "9"
         ]
       },
-      "total_lines": 9
+      "total_lines": 8
     },
     {
       "id": "de:14612:97",
@@ -22944,16 +22584,14 @@
       ],
       "lines": {
         "Straßenbahn": [
-          "11",
-          "41"
+          "11"
         ],
         "Stadtbus": [
           "66",
-          "EV 11",
           "H/S (Pirna)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 3
     },
     {
       "id": "de:14612:68",
@@ -23093,11 +22731,10 @@
           "9"
         ],
         "Stadtbus": [
-          "72",
-          "EV 13"
+          "72"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14612:733",
@@ -23163,12 +22800,9 @@
         "Straßenbahn": [
           "7",
           "8"
-        ],
-        "Stadtbus": [
-          "EV 13"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:772",
@@ -23261,7 +22895,6 @@
           "11",
           "12",
           "20",
-          "41",
           "6",
           "7",
           "8"
@@ -23276,7 +22909,7 @@
           "333"
         ]
       },
-      "total_lines": 14
+      "total_lines": 13
     },
     {
       "id": "de:14612:20",
@@ -23295,15 +22928,9 @@
           "4",
           "7",
           "9"
-        ],
-        "Stadtbus": [
-          "EV 1",
-          "EV 3",
-          "EV 9",
-          "N5"
         ]
       },
-      "total_lines": 8
+      "total_lines": 4
     },
     {
       "id": "de:14612:934",
@@ -23473,14 +23100,13 @@
           "9"
         ],
         "Stadtbus": [
-          "79",
-          "EV 13"
+          "79"
         ],
         "Anruflinientaxi": [
           "alita 79"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:249",
@@ -23502,7 +23128,6 @@
           "20",
           "3",
           "4",
-          "41",
           "6",
           "7",
           "8",
@@ -23512,8 +23137,7 @@
           "64",
           "70",
           "73",
-          "80",
-          "EV 13"
+          "80"
         ],
         "PlusBus": [
           "477"
@@ -23523,7 +23147,7 @@
           "alita 76"
         ]
       },
-      "total_lines": 19
+      "total_lines": 17
     },
     {
       "id": "de:14612:127",
@@ -23561,11 +23185,10 @@
       ],
       "lines": {
         "Straßenbahn": [
-          "6",
-          "8"
+          "6"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:947",
@@ -23673,11 +23296,10 @@
       "lines": {
         "Stadtbus": [
           "66",
-          "EV 11",
           "H/S (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:45",
@@ -23909,11 +23531,10 @@
           "366"
         ],
         "Stadtbus": [
-          "EV 11",
           "H/S (Pirna)"
         ]
       },
-      "total_lines": 13
+      "total_lines": 12
     },
     {
       "id": "de:14612:185",
@@ -23925,7 +23546,6 @@
       "latitude": 51.05812,
       "operators": [
         "DB AG",
-        "DB Regio",
         "DVB"
       ],
       "lines": {
@@ -23938,12 +23558,9 @@
         ],
         "Ersatzverkehr": [
           "SEV"
-        ],
-        "Regionalbus": [
-          "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:115",
@@ -23969,15 +23586,14 @@
           "61",
           "63",
           "68",
-          "85",
-          "EV 13"
+          "85"
         ],
         "Anruflinientaxi": [
           "alita 63",
           "alita 68"
         ]
       },
-      "total_lines": 13
+      "total_lines": 12
     },
     {
       "id": "de:14612:220",
@@ -23997,11 +23613,10 @@
         ],
         "Stadtbus": [
           "64",
-          "72",
-          "EV 13"
+          "72"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:71",
@@ -24164,11 +23779,10 @@
       "lines": {
         "Straßenbahn": [
           "1",
-          "41",
           "6"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:160",
@@ -24489,15 +24103,13 @@
         "Stadtbus": [
           "64",
           "70",
-          "73",
-          "EV 13",
-          "EV 4"
+          "73"
         ],
         "Anruflinientaxi": [
           "alita 73"
         ]
       },
-      "total_lines": 6
+      "total_lines": 4
     },
     {
       "id": "de:14612:586",
@@ -24552,12 +24164,11 @@
       "lines": {
         "Straßenbahn": [
           "12",
-          "41",
           "6",
           "7"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14612:684",
@@ -24623,17 +24234,13 @@
           "20",
           "3",
           "4",
-          "41",
           "6",
           "7",
           "8",
           "9"
-        ],
-        "Stadtbus": [
-          "EV 13"
         ]
       },
-      "total_lines": 12
+      "total_lines": 10
     },
     {
       "id": "de:14612:312",
@@ -24648,16 +24255,14 @@
       ],
       "lines": {
         "Straßenbahn": [
-          "11",
-          "41"
+          "11"
         ],
         "Stadtbus": [
           "61",
-          "63",
-          "EV 11"
+          "63"
         ]
       },
-      "total_lines": 5
+      "total_lines": 3
     },
     {
       "id": "de:14612:671",
@@ -24700,11 +24305,10 @@
         ],
         "Stadtbus": [
           "62",
-          "68",
-          "EV 13"
+          "68"
         ]
       },
-      "total_lines": 9
+      "total_lines": 8
     },
     {
       "id": "de:14612:753",
@@ -24757,7 +24361,6 @@
       "latitude": 51.071737,
       "operators": [
         "DB AG",
-        "DB Regio",
         "DVB"
       ],
       "lines": {
@@ -24766,12 +24369,9 @@
         ],
         "Ersatzverkehr": [
           "SEV"
-        ],
-        "Regionalbus": [
-          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:681",
@@ -24934,8 +24534,7 @@
         "Straßenbahn": [
           "1",
           "10",
-          "2",
-          "6"
+          "2"
         ],
         "Stadtbus": [
           "61",
@@ -24944,7 +24543,7 @@
           "EV 1/2"
         ]
       },
-      "total_lines": 8
+      "total_lines": 7
     },
     {
       "id": "de:14612:208",
@@ -29474,11 +29073,10 @@
       "lines": {
         "Regionalbus": [
           "757",
-          "759",
-          "764"
+          "759"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:6364",
@@ -29588,12 +29186,11 @@
       "lines": {
         "Regionalbus": [
           "201",
-          "372",
           "385",
           "389"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14628:1944",
@@ -29609,11 +29206,10 @@
       "lines": {
         "Regionalbus": [
           "201",
-          "372",
           "389"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:1946",
@@ -29699,12 +29295,11 @@
       "lines": {
         "Regionalbus": [
           "201",
-          "372",
           "385",
           "389"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14628:1949",
@@ -32927,9 +32522,7 @@
       "name_with_city": "Gräfenhain (Königsbrück) Denkmal",
       "longitude": 13.930543,
       "latitude": 51.250143,
-      "operators": [
-        "RBO"
-      ],
+      "operators": [],
       "lines": {
         "Taktbus": [
           "533"
@@ -33183,12 +32776,9 @@
       "lines": {
         "Zug": [
           "RB45"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:5800",
@@ -33969,15 +33559,11 @@
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "236",
-          "237"
-        ],
         "PlusBus": [
           "260"
         ]
       },
-      "total_lines": 3
+      "total_lines": 1
     },
     {
       "id": "de:14628:1706",
@@ -35276,28 +34862,6 @@
       "total_lines": 4
     },
     {
-      "id": "de:14628:3262",
-      "numeric_id": "33003262",
-      "name": "Grenzlandstraße",
-      "city": "Hellendorf/Gottleuba",
-      "name_with_city": "Hellendorf/Gottleuba Grenzlandstraße",
-      "longitude": 13.967698,
-      "latitude": 50.82481,
-      "operators": [
-        "RVSOE"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "218",
-          "247"
-        ],
-        "PlusBus": [
-          "219"
-        ]
-      },
-      "total_lines": 3
-    },
-    {
       "id": "de:14628:3264",
       "numeric_id": "33003264",
       "name": "Kretzschmarmühle",
@@ -35328,15 +34892,14 @@
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "218",
-          "247"
-        ],
         "PlusBus": [
           "219"
+        ],
+        "Regionalbus": [
+          "247"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:3846",
@@ -38311,12 +37874,9 @@
         ],
         "S-Bahn": [
           "S3"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14628:1637",
@@ -39369,14 +38929,13 @@
           "791"
         ],
         "Anruflinienbus": [
-          "789",
           "791"
         ],
         "Stadtbus": [
           "21 (Kamenz)"
         ]
       },
-      "total_lines": 14
+      "total_lines": 13
     },
     {
       "id": "de:14625:6223",
@@ -41216,12 +40775,9 @@
         ],
         "S-Bahn": [
           "S3"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14628:1246",
@@ -43697,12 +43253,9 @@
       "lines": {
         "Stadtbus": [
           "78"
-        ],
-        "Regionalbus": [
-          "761"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:6680",
@@ -43749,12 +43302,9 @@
       "lines": {
         "Stadtbus": [
           "78"
-        ],
-        "Regionalbus": [
-          "761"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:6682",
@@ -43842,12 +43392,9 @@
       "lines": {
         "Stadtbus": [
           "78"
-        ],
-        "Regionalbus": [
-          "761"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3527",
@@ -46243,14 +45790,13 @@
       ],
       "lines": {
         "Stadtbus": [
-          "28",
           "78"
         ],
         "Regionalbus": [
           "761"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:6742",
@@ -46289,12 +45835,9 @@
       "lines": {
         "Stadtbus": [
           "78"
-        ],
-        "Regionalbus": [
-          "761"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:6744",
@@ -46328,14 +45871,13 @@
       ],
       "lines": {
         "Stadtbus": [
-          "28",
           "78"
         ],
         "Regionalbus": [
           "761"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:6740",
@@ -53410,11 +52952,10 @@
           "263 b"
         ],
         "Taktbus": [
-          "264",
           "267"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14628:3895",
@@ -54414,7 +53955,6 @@
       "latitude": 51.093751,
       "operators": [
         "DB AG",
-        "DB Regio",
         "DVB",
         "VGM"
       ],
@@ -54428,7 +53968,6 @@
         "Regionalbus": [
           "404",
           "423",
-          "SEV",
           "Sv180"
         ],
         "Zug": [
@@ -54441,7 +53980,7 @@
           "SEV"
         ]
       },
-      "total_lines": 9
+      "total_lines": 8
     },
     {
       "id": "de:14627:5383",
@@ -56815,24 +56354,6 @@
       "total_lines": 3
     },
     {
-      "id": "de:14628:3978",
-      "numeric_id": "33003978",
-      "name": "Abzw Ottendorf",
-      "city": "Ottendorf (Sebnitz)",
-      "name_with_city": "Ottendorf (Sebnitz) Abzw Ottendorf",
-      "longitude": 14.288262,
-      "latitude": 50.925516,
-      "operators": [
-        "RVSOE"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "269"
-        ]
-      },
-      "total_lines": 1
-    },
-    {
       "id": "de:14628:3973",
       "numeric_id": "33003973",
       "name": "Buschmühle",
@@ -56901,60 +56422,6 @@
       "lines": {
         "Regionalbus": [
           "241"
-        ]
-      },
-      "total_lines": 1
-    },
-    {
-      "id": "de:14628:3971",
-      "numeric_id": "33003971",
-      "name": "Ortsmitte",
-      "city": "Ottendorf (Sebnitz)",
-      "name_with_city": "Ottendorf (Sebnitz) Ortsmitte",
-      "longitude": 14.288603,
-      "latitude": 50.943944,
-      "operators": [
-        "RVSOE"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "269"
-        ]
-      },
-      "total_lines": 1
-    },
-    {
-      "id": "de:14628:3969",
-      "numeric_id": "33003969",
-      "name": "Ottendorfer Hütte",
-      "city": "Ottendorf (Sebnitz)",
-      "name_with_city": "Ottendorf (Sebnitz) Ottendorfer Hütte",
-      "longitude": 14.291603,
-      "latitude": 50.944164,
-      "operators": [
-        "RVSOE"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "269"
-        ]
-      },
-      "total_lines": 1
-    },
-    {
-      "id": "de:14628:3972",
-      "numeric_id": "33003972",
-      "name": "Steinbruch",
-      "city": "Ottendorf (Sebnitz)",
-      "name_with_city": "Ottendorf (Sebnitz) Steinbruch",
-      "longitude": 14.29782,
-      "latitude": 50.943423,
-      "operators": [
-        "RVSOE"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "269"
         ]
       },
       "total_lines": 1
@@ -57064,18 +56531,14 @@
       "longitude": 13.829743,
       "latitude": 51.17419,
       "operators": [
-        "DVB",
         "RBO"
       ],
       "lines": {
-        "Stadtbus": [
-          "78"
-        ],
         "Regionalbus": [
           "761"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:6605",
@@ -62426,18 +61889,9 @@
       "name_with_city": "Rabenau (Sachs) Abzweig Spechtritz",
       "longitude": 13.64805,
       "latitude": 50.961526,
-      "operators": [
-        "RVSOE"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "347"
-        ],
-        "PlusBus": [
-          "348"
-        ]
-      },
-      "total_lines": 2
+      "operators": [],
+      "lines": {},
+      "total_lines": 0
     },
     {
       "id": "de:14628:1299",
@@ -62657,20 +62111,14 @@
       "longitude": 13.920581,
       "latitude": 51.130955,
       "operators": [
-        "DVB",
         "RBO"
       ],
       "lines": {
         "Stadtbus": [
-          "28",
-          "78"
-        ],
-        "Regionalbus": [
-          "760",
-          "761"
+          "28"
         ]
       },
-      "total_lines": 4
+      "total_lines": 1
     },
     {
       "id": "de:14625:6733",
@@ -62681,20 +62129,14 @@
       "longitude": 13.92554,
       "latitude": 51.127432,
       "operators": [
-        "DVB",
         "RBO"
       ],
       "lines": {
         "Stadtbus": [
-          "28",
-          "78"
-        ],
-        "Regionalbus": [
-          "760",
-          "761"
+          "28"
         ]
       },
-      "total_lines": 4
+      "total_lines": 1
     },
     {
       "id": "de:14625:6731",
@@ -62841,20 +62283,17 @@
       "longitude": 13.916629,
       "latitude": 51.127686,
       "operators": [
-        "DVB",
         "RBO"
       ],
       "lines": {
         "Stadtbus": [
-          "28",
-          "78"
+          "28"
         ],
         "Regionalbus": [
-          "760",
-          "761"
+          "760"
         ]
       },
-      "total_lines": 4
+      "total_lines": 2
     },
     {
       "id": "de:14625:6738",
@@ -63026,24 +62465,18 @@
       "longitude": 13.929456,
       "latitude": 51.123671,
       "operators": [
-        "DVB",
         "RBO"
       ],
       "lines": {
         "Stadtbus": [
-          "28",
-          "78"
+          "28"
         ],
         "PlusBus": [
           "520",
           "521"
-        ],
-        "Regionalbus": [
-          "760",
-          "761"
         ]
       },
-      "total_lines": 6
+      "total_lines": 3
     },
     {
       "id": "de:14625:6705",
@@ -63169,24 +62602,18 @@
       "longitude": 13.921848,
       "latitude": 51.119601,
       "operators": [
-        "DVB",
         "RBO"
       ],
       "lines": {
         "Stadtbus": [
-          "28",
-          "78"
+          "28"
         ],
         "PlusBus": [
           "520",
           "521"
-        ],
-        "Regionalbus": [
-          "760",
-          "761"
         ]
       },
-      "total_lines": 6
+      "total_lines": 3
     },
     {
       "id": "de:14625:6724",
@@ -63466,13 +62893,11 @@
       "latitude": 51.110476,
       "operators": [
         "DB AG",
-        "DB Regio",
         "VGM"
       ],
       "lines": {
         "Regionalbus": [
-          "400",
-          "SEV"
+          "400"
         ],
         "Zug": [
           "RB31"
@@ -63481,7 +62906,7 @@
           "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14627:4237",
@@ -63705,12 +63130,9 @@
       "lines": {
         "Straßenbahn": [
           "4"
-        ],
-        "Stadtbus": [
-          "EV 4"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4242",
@@ -64312,12 +63734,9 @@
       "lines": {
         "Straßenbahn": [
           "4"
-        ],
-        "Stadtbus": [
-          "EV 4"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4226",
@@ -64704,24 +64123,6 @@
       "total_lines": 2
     },
     {
-      "id": "de:14627:4289",
-      "numeric_id": "33004289",
-      "name": "Waldstraße",
-      "city": "Radebeul",
-      "name_with_city": "Radebeul Waldstraße",
-      "longitude": 13.690406,
-      "latitude": 51.107137,
-      "operators": [
-        "VGM"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "475"
-        ]
-      },
-      "total_lines": 1
-    },
-    {
       "id": "de:14627:4219",
       "numeric_id": "33004219",
       "name": "Wasastraße",
@@ -64847,12 +64248,9 @@
       "lines": {
         "Straßenbahn": [
           "4"
-        ],
-        "Stadtbus": [
-          "EV 4"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4365",
@@ -64969,7 +64367,6 @@
       "longitude": 13.730758,
       "latitude": 51.212039,
       "operators": [
-        "RBO",
         "VGM"
       ],
       "lines": {
@@ -64979,11 +64376,10 @@
           "478"
         ],
         "PlusBus": [
-          "477",
-          "522"
+          "477"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14627:4376",
@@ -69339,14 +68735,11 @@
         "RVSOE"
       ],
       "lines": {
-        "PlusBus": [
-          "261"
-        ],
         "Regionalbus": [
           "263"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:1640",
@@ -71008,11 +70401,10 @@
       "lines": {
         "Regionalbus": [
           "201",
-          "372",
           "389"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:1952",
@@ -71028,11 +70420,10 @@
       "lines": {
         "Regionalbus": [
           "201",
-          "372",
           "389"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:6511",
@@ -72984,14 +72375,11 @@
         "Taktbus": [
           "267"
         ],
-        "Ersatzverkehr": [
-          "SEV"
-        ],
         "Stadtbus": [
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:3939",
@@ -76576,11 +75964,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "455",
-          "456"
+          "455"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:6246",
@@ -76725,12 +76112,9 @@
         ],
         "Zug": [
           "RB45"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14627:5874",
@@ -76887,24 +76271,6 @@
         ]
       },
       "total_lines": 2
-    },
-    {
-      "id": "de:14625:6378",
-      "numeric_id": "33006378",
-      "name": "Siedlung",
-      "city": "Trado",
-      "name_with_city": "Trado Siedlung",
-      "longitude": 14.203326,
-      "latitude": 51.333958,
-      "operators": [
-        "RBO"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "789"
-        ]
-      },
-      "total_lines": 1
     },
     {
       "id": "de:14627:5395",
@@ -77173,22 +76539,13 @@
       "name_with_city": "Ulbersdorf Bahnhof",
       "longitude": 14.220133,
       "latitude": 50.955523,
-      "operators": [
-        "RVSOE"
-      ],
+      "operators": [],
       "lines": {
-        "Regionalbus": [
-          "236",
-          "237"
-        ],
         "Zug": [
           "U28"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 1
     },
     {
       "id": "de:14628:3676",
@@ -79414,11 +78771,10 @@
       "lines": {
         "Stadtbus": [
           "61",
-          "98B",
-          "N5"
+          "98B"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:3779",
