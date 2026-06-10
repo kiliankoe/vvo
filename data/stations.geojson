@@ -14742,8 +14742,7 @@
         "lines": {
           "Straßenbahn": [
             "2",
-            "6",
-            "9"
+            "6"
           ],
           "Stadtbus": [
             "65",
@@ -14753,7 +14752,7 @@
             "alita 65"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -15083,19 +15082,16 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "13",
-            "4",
-            "6",
-            "9"
+            "4"
           ],
           "Stadtbus": [
             "65",
             "87"
           ]
         },
-        "total_lines": 8
+        "total_lines": 5
       }
     },
     {
@@ -16907,7 +16903,6 @@
         "lines": {
           "Straßenbahn": [
             "10",
-            "6",
             "9"
           ],
           "Stadtbus": [
@@ -16915,7 +16910,7 @@
             "64"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -16970,8 +16965,7 @@
         "lines": {
           "Straßenbahn": [
             "2",
-            "6",
-            "9"
+            "6"
           ],
           "Stadtbus": [
             "65"
@@ -16980,7 +16974,7 @@
             "alita 65"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -17492,7 +17486,6 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "11",
             "20",
@@ -17504,7 +17497,7 @@
             "62"
           ]
         },
-        "total_lines": 8
+        "total_lines": 7
       }
     },
     {
@@ -18396,15 +18389,12 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "13",
-            "4",
-            "6",
-            "9"
+            "4"
           ]
         },
-        "total_lines": 6
+        "total_lines": 3
       }
     },
     {
@@ -19209,7 +19199,6 @@
         "lines": {
           "Straßenbahn": [
             "10",
-            "6",
             "9"
           ],
           "Stadtbus": [
@@ -19217,7 +19206,7 @@
             "85"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -19373,15 +19362,12 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "13",
-            "4",
-            "6",
-            "9"
+            "4"
           ]
         },
-        "total_lines": 6
+        "total_lines": 3
       }
     },
     {
@@ -19540,14 +19526,13 @@
           "Straßenbahn": [
             "10",
             "12",
-            "6",
             "9"
           ],
           "Stadtbus": [
             "64"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -19966,8 +19951,7 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "2",
-            "9"
+            "2"
           ],
           "Stadtbus": [
             "88"
@@ -19976,7 +19960,7 @@
             "alita 88"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -20507,15 +20491,12 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "13",
-            "6",
-            "8",
-            "9"
+            "8"
           ]
         },
-        "total_lines": 6
+        "total_lines": 3
       }
     },
     {
@@ -20849,11 +20830,10 @@
         "lines": {
           "Straßenbahn": [
             "10",
-            "6",
             "9"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -20905,7 +20885,6 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "11",
             "4",
@@ -20915,7 +20894,7 @@
             "66"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -21448,7 +21427,6 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "11",
             "20",
@@ -21493,7 +21471,7 @@
             "S8"
           ]
         },
-        "total_lines": 31
+        "total_lines": 30
       }
     },
     {
@@ -21615,14 +21593,13 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "2",
-            "9"
+            "2"
           ],
           "Anruflinientaxi": [
             "alita 88"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -22457,12 +22434,9 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "13",
-            "4",
-            "6",
-            "9"
+            "4"
           ],
           "Stadtbus": [
             "68"
@@ -22471,7 +22445,7 @@
             "alita 68"
           ]
         },
-        "total_lines": 8
+        "total_lines": 5
       }
     },
     {
@@ -22694,12 +22668,9 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "13",
-            "4",
-            "6",
-            "9"
+            "4"
           ],
           "Stadtbus": [
             "64",
@@ -22707,7 +22678,7 @@
             "87"
           ]
         },
-        "total_lines": 9
+        "total_lines": 6
       }
     },
     {
@@ -24267,11 +24238,10 @@
           "Straßenbahn": [
             "10",
             "12",
-            "6",
             "9"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -24891,21 +24861,18 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "11",
             "13",
             "4",
-            "6",
-            "8",
-            "9"
+            "8"
           ],
           "Stadtbus": [
             "62",
             "68"
           ]
         },
-        "total_lines": 10
+        "total_lines": 7
       }
     },
     {
@@ -25246,12 +25213,9 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "13",
-            "4",
-            "6",
-            "9"
+            "4"
           ],
           "Stadtbus": [
             "64",
@@ -25259,7 +25223,7 @@
             "87"
           ]
         },
-        "total_lines": 9
+        "total_lines": 6
       }
     },
     {
@@ -25581,11 +25545,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "63",
-            "64"
+            "63"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -26025,8 +25988,7 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "2",
-            "9"
+            "2"
           ],
           "Stadtbus": [
             "86",
@@ -26036,7 +25998,7 @@
             "alita 88"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -26205,12 +26167,9 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "13",
-            "4",
-            "6",
-            "9"
+            "4"
           ],
           "Stadtbus": [
             "63",
@@ -26221,7 +26180,7 @@
             "alita 68"
           ]
         },
-        "total_lines": 10
+        "total_lines": 7
       }
     },
     {
@@ -26388,14 +26347,13 @@
         "lines": {
           "Straßenbahn": [
             "10",
-            "6",
             "9"
           ],
           "Stadtbus": [
             "64"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -27292,15 +27250,12 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "13",
-            "4",
-            "6",
-            "9"
+            "4"
           ]
         },
-        "total_lines": 6
+        "total_lines": 3
       }
     },
     {
@@ -27886,14 +27841,13 @@
         "lines": {
           "Straßenbahn": [
             "10",
-            "6",
             "9"
           ],
           "Stadtbus": [
             "61"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -28254,19 +28208,16 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "13",
-            "4",
-            "6",
-            "9"
+            "4"
           ],
           "Stadtbus": [
             "62",
             "68"
           ]
         },
-        "total_lines": 8
+        "total_lines": 5
       }
     },
     {
@@ -29556,7 +29507,6 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "11",
             "12",
@@ -29573,7 +29523,7 @@
             "S2"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -29639,12 +29589,9 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "13",
-            "4",
-            "6",
-            "9"
+            "4"
           ],
           "Stadtbus": [
             "61",
@@ -29664,7 +29611,7 @@
             "SEV"
           ]
         },
-        "total_lines": 15
+        "total_lines": 12
       }
     },
     {
@@ -30718,7 +30665,6 @@
         "lines": {
           "Straßenbahn": [
             "10",
-            "6",
             "9"
           ],
           "Stadtbus": [
@@ -30726,7 +30672,7 @@
             "64"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -31068,12 +31014,11 @@
             "12",
             "13",
             "2",
-            "6",
             "8",
             "9"
           ]
         },
-        "total_lines": 8
+        "total_lines": 7
       }
     },
     {
@@ -31901,15 +31846,12 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "13",
-            "4",
-            "6",
-            "9"
+            "4"
           ]
         },
-        "total_lines": 6
+        "total_lines": 3
       }
     },
     {
@@ -32458,12 +32400,9 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "13",
-            "4",
-            "6",
-            "9"
+            "4"
           ],
           "Stadtbus": [
             "61",
@@ -32476,7 +32415,7 @@
             "alita 68"
           ]
         },
-        "total_lines": 12
+        "total_lines": 9
       }
     },
     {
@@ -32786,15 +32725,12 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "13",
-            "4",
-            "6",
-            "9"
+            "4"
           ]
         },
-        "total_lines": 6
+        "total_lines": 3
       }
     },
     {
@@ -33270,12 +33206,11 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "12",
             "6",
             "7"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -33451,19 +33386,16 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "13",
-            "4",
-            "6",
-            "9"
+            "4"
           ],
           "Stadtbus": [
             "62",
             "68"
           ]
         },
-        "total_lines": 8
+        "total_lines": 5
       }
     },
     {
@@ -33726,33 +33658,6 @@
           ]
         },
         "total_lines": 3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.713519,
-          51.038473
-        ]
-      },
-      "properties": {
-        "id": "de:14612:722",
-        "numeric_id": "33000722",
-        "name": "Zwickauer Straße",
-        "city": "Dresden",
-        "name_with_city": "Dresden Zwickauer Straße",
-        "operators": [
-          "DVB"
-        ],
-        "lines": {
-          "Stadtbus": [
-            "61",
-            "63"
-          ]
-        },
-        "total_lines": 2
       }
     },
     {
@@ -108448,18 +108353,14 @@
         "city": "Weixdorf (Dresden)",
         "name_with_city": "Weixdorf (Dresden) Promigberg",
         "operators": [
-          "DVB",
           "RBO"
         ],
         "lines": {
-          "Stadtbus": [
-            "77"
-          ],
           "PlusBus": [
             "522"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -108478,13 +108379,9 @@
         "city": "Weixdorf (Dresden)",
         "name_with_city": "Weixdorf (Dresden) Radeburger Landstraße",
         "operators": [
-          "DVB",
           "RBO"
         ],
         "lines": {
-          "Stadtbus": [
-            "77"
-          ],
           "PlusBus": [
             "522"
           ],
@@ -108492,7 +108389,7 @@
             "769"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {

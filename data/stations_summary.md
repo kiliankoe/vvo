@@ -1,10 +1,10 @@
 # VVO Station Data Summary
 
-Total stations: 3911
+Total stations: 3910
 
 ## Stations by City
 
-- Dresden: 659
+- Dresden: 658
 - Meißen: 104
 - Freital: 86
 - Pirna: 85
@@ -30,7 +30,7 @@ Total stations: 3911
 ## Stations by Transit Type
 
 - Regionalbus: 2694 stations
-- Stadtbus: 1276 stations
+- Stadtbus: 1273 stations
 - PlusBus: 647 stations
 - Anruflinienbus: 480 stations
 - Straßenbahn: 269 stations
@@ -52,7 +52,7 @@ Total stations: 3911
 
 - RVSOE: 1302 stations
 - VGM: 1172 stations
-- DVB: 771 stations
+- DVB: 768 stations
 - RBO: 711 stations
 - DB Regio AG Südost: 122 stations
 - VGH: 81 stations
@@ -78,7 +78,7 @@ Total stations: 3911
 ## Major Transit Hubs (10+ lines)
 
 - Meißen Busbahnhof: 33 lines
-- Dresden Hauptbahnhof: 31 lines
+- Dresden Hauptbahnhof: 30 lines
 - Riesa Busbahnhof / Bahnhof: 27 lines
 - Dresden Bahnhof Neustadt: 25 lines
 - Kamenz Bahnhof: 24 lines
@@ -103,7 +103,6 @@ Total stations: 3911
 - Kamenz Macherstraße: 16 lines
 - Riesa Sachsenhof: 16 lines
 - Dresden Postplatz: 15 lines
-- Dresden S-Bf. Strehlen: 15 lines
 - Kamenz Schwimmhalle: 15 lines
 - Meißen Uferstraße: 15 lines
 - Pirna Breite Straße: 15 lines
@@ -126,8 +125,8 @@ Total stations: 3911
 - Pirna Copitz Schulstraße: 13 lines
 - Coswig (b Dresden) Bahnhof: 12 lines
 - Dresden S-Bahnhof Niedersedlitz: 12 lines
+- Dresden S-Bf. Strehlen: 12 lines
 - Dresden Walpurgisstraße: 12 lines
-- Dresden Wasaplatz: 12 lines
 - Pulsnitz Bahnhof: 12 lines
 - Riesa Goethestraße: 12 lines
 - Bad Schandau Elbkai: 11 lines
@@ -135,7 +134,6 @@ Total stations: 3911
 - Dresden Julius-Vahlteich-Straße: 11 lines
 - Dresden Pirnaischer Platz: 11 lines
 - Dresden Prager Straße: 11 lines
-- Dresden S-Bf. Freiberger Straße: 11 lines
 - Freital S-Bahnhof Hainsberg: 11 lines
 - Großenhain Hohe Straße: 11 lines
 - Sebnitz Bahnhof: 11 lines
@@ -144,9 +142,8 @@ Total stations: 3911
 - Dresden Amalie-Dietrich-Platz: 10 lines
 - Dresden Betriebshof Gorbitz: 10 lines
 - Dresden Kirschenstraße: 10 lines
-- Dresden Lennéplatz: 10 lines
 - Dresden Merianplatz: 10 lines
-- Dresden Mockritzer Straße: 10 lines
+- Dresden S-Bf. Freiberger Straße: 10 lines
 - Dresden Schlehenstraße: 10 lines
 - Dresden Zeithainer Straße: 10 lines
 - Glashütte (Sachs) Bahnhof / Busbahnhof: 10 lines
