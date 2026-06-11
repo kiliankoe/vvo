@@ -10362,11 +10362,12 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "13",
           "4",
           "9"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:708",
@@ -10516,11 +10517,12 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "13",
           "4",
           "9"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:580",
@@ -11603,6 +11605,7 @@
         "Straßenbahn": [
           "10",
           "11",
+          "13",
           "20",
           "3",
           "4",
@@ -11611,7 +11614,7 @@
           "9"
         ]
       },
-      "total_lines": 8
+      "total_lines": 9
     },
     {
       "id": "de:14612:280",
@@ -11834,6 +11837,7 @@
           "20",
           "3",
           "6",
+          "7",
           "8",
           "9"
         ],
@@ -11856,7 +11860,7 @@
           "S8"
         ]
       },
-      "total_lines": 20
+      "total_lines": 21
     },
     {
       "id": "de:14612:16",
@@ -11936,8 +11940,10 @@
         "Straßenbahn": [
           "10",
           "11",
+          "13",
           "20",
           "3",
+          "4",
           "6",
           "7",
           "8",
@@ -11947,7 +11953,7 @@
           "477"
         ]
       },
-      "total_lines": 9
+      "total_lines": 11
     },
     {
       "id": "de:14612:943",
@@ -11985,10 +11991,12 @@
       ],
       "lines": {
         "Stadtbus": [
-          "62"
+          "61",
+          "62",
+          "63"
         ]
       },
-      "total_lines": 1
+      "total_lines": 3
     },
     {
       "id": "de:14612:736",
@@ -12986,10 +12994,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "61",
           "63"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:702",
@@ -13180,10 +13189,11 @@
           "10",
           "2",
           "6",
+          "7",
           "9"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14612:333",
@@ -13750,10 +13760,12 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "13",
+          "4",
           "6"
         ]
       },
-      "total_lines": 1
+      "total_lines": 3
     },
     {
       "id": "de:14612:588",
@@ -15080,10 +15092,11 @@
           "8"
         ],
         "Stadtbus": [
-          "66"
+          "66",
+          "68"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14612:507",
@@ -15120,8 +15133,10 @@
         "Straßenbahn": [
           "10",
           "11",
+          "13",
           "20",
           "3",
+          "4",
           "6",
           "7",
           "8",
@@ -15137,7 +15152,7 @@
           "478"
         ]
       },
-      "total_lines": 11
+      "total_lines": 13
     },
     {
       "id": "de:14612:237",
@@ -15147,9 +15162,17 @@
       "name_with_city": "Dresden Großenhainer Straße / Fritz-Reuter-Straße",
       "longitude": 13.734711,
       "latitude": 51.075197,
-      "operators": [],
-      "lines": {},
-      "total_lines": 0
+      "operators": [
+        "DVB"
+      ],
+      "lines": {
+        "Straßenbahn": [
+          "13",
+          "7",
+          "8"
+        ]
+      },
+      "total_lines": 3
     },
     {
       "id": "de:14612:77",
@@ -15474,6 +15497,7 @@
         "Stadtbus": [
           "62",
           "66",
+          "68",
           "H/S (Pirna)"
         ],
         "PlusBus": [
@@ -15508,7 +15532,7 @@
           "S8"
         ]
       },
-      "total_lines": 30
+      "total_lines": 31
     },
     {
       "id": "de:14612:36",
@@ -15560,9 +15584,12 @@
           "3",
           "4",
           "7"
+        ],
+        "Stadtbus": [
+          "68"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14612:179",
@@ -17403,13 +17430,14 @@
           "10",
           "2",
           "6",
+          "7",
           "9"
         ],
         "Stadtbus": [
           "92"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14612:162",
@@ -18362,15 +18390,17 @@
         "Straßenbahn": [
           "10",
           "11",
+          "13",
           "20",
           "3",
+          "4",
           "6",
           "7",
           "8",
           "9"
         ]
       },
-      "total_lines": 8
+      "total_lines": 10
     },
     {
       "id": "de:14612:634",
@@ -19684,11 +19714,12 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "13",
           "4",
           "9"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:120",
@@ -22533,10 +22564,11 @@
         ],
         "Stadtbus": [
           "66",
+          "68",
           "H/S (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:68",
@@ -23238,10 +23270,11 @@
       "lines": {
         "Stadtbus": [
           "66",
+          "68",
           "H/S (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:45",
@@ -23463,6 +23496,10 @@
           "4",
           "7"
         ],
+        "Stadtbus": [
+          "68",
+          "H/S (Pirna)"
+        ],
         "PlusBus": [
           "261",
           "333",
@@ -23471,12 +23508,9 @@
         "Regionalbus": [
           "365",
           "366"
-        ],
-        "Stadtbus": [
-          "H/S (Pirna)"
         ]
       },
-      "total_lines": 12
+      "total_lines": 13
     },
     {
       "id": "de:14612:185",
@@ -23718,10 +23752,11 @@
       "lines": {
         "Straßenbahn": [
           "1",
-          "6"
+          "6",
+          "7"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:160",
@@ -24143,12 +24178,13 @@
       ],
       "lines": {
         "Stadtbus": [
+          "61",
           "62",
           "63",
           "85"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:248",

@@ -30,10 +30,10 @@ Total stations: 3910
 ## Stations by Transit Type
 
 - Regionalbus: 2694 stations
-- Stadtbus: 1273 stations
+- Stadtbus: 1274 stations
 - PlusBus: 647 stations
 - Anruflinienbus: 480 stations
-- Straßenbahn: 269 stations
+- Straßenbahn: 270 stations
 - Anruflinientaxi: 201 stations
 - Ersatzverkehr: 109 stations
 - Zug: 102 stations
@@ -52,7 +52,7 @@ Total stations: 3910
 
 - RVSOE: 1302 stations
 - VGM: 1172 stations
-- DVB: 768 stations
+- DVB: 769 stations
 - RBO: 711 stations
 - DB Regio AG Südost: 122 stations
 - VGH: 81 stations
@@ -78,15 +78,15 @@ Total stations: 3910
 ## Major Transit Hubs (10+ lines)
 
 - Meißen Busbahnhof: 33 lines
-- Dresden Hauptbahnhof: 30 lines
+- Dresden Hauptbahnhof: 31 lines
 - Riesa Busbahnhof / Bahnhof: 27 lines
 - Dresden Bahnhof Neustadt: 25 lines
 - Kamenz Bahnhof: 24 lines
 - Pirna ZOB / Bahnhof: 23 lines
+- Dresden Bahnhof Mitte: 21 lines
 - Großenhain Cottbuser Bahnhof: 21 lines
 - Meißen Altstadtbrücke: 21 lines
 - Meißen Bahnhofstraße: 21 lines
-- Dresden Bahnhof Mitte: 20 lines
 - Hoyerswerda Bahnhof: 20 lines
 - Bischofswerda Bahnhof: 19 lines
 - Riesa Alexander-Puschkin-Platz: 19 lines
@@ -118,7 +118,9 @@ Total stations: 3910
 - Meißen Neugasse: 14 lines
 - Meißen Talbad: 14 lines
 - Dresden Bahnhof Klotzsche: 13 lines
+- Dresden Großenhainer Platz: 13 lines
 - Dresden Tharandter Straße: 13 lines
+- Dresden Walpurgisstraße: 13 lines
 - Kamenz Flugplatz: 13 lines
 - Nossen Markt: 13 lines
 - Nossen Talstraße: 13 lines
@@ -126,11 +128,10 @@ Total stations: 3910
 - Coswig (b Dresden) Bahnhof: 12 lines
 - Dresden S-Bahnhof Niedersedlitz: 12 lines
 - Dresden S-Bf. Strehlen: 12 lines
-- Dresden Walpurgisstraße: 12 lines
 - Pulsnitz Bahnhof: 12 lines
 - Riesa Goethestraße: 12 lines
 - Bad Schandau Elbkai: 11 lines
-- Dresden Großenhainer Platz: 11 lines
+- Dresden Bahnhof Neustadt (Hansastraße): 11 lines
 - Dresden Julius-Vahlteich-Straße: 11 lines
 - Dresden Pirnaischer Platz: 11 lines
 - Dresden Prager Straße: 11 lines
@@ -142,6 +143,7 @@ Total stations: 3910
 - Dresden Amalie-Dietrich-Platz: 10 lines
 - Dresden Betriebshof Gorbitz: 10 lines
 - Dresden Kirschenstraße: 10 lines
+- Dresden Lößnitzstraße: 10 lines
 - Dresden Merianplatz: 10 lines
 - Dresden S-Bf. Freiberger Straße: 10 lines
 - Dresden Schlehenstraße: 10 lines
