@@ -1209,7 +1209,9 @@
       "longitude": 14.138099,
       "latitude": 50.91927,
       "operators": [
+        "DB Fernverkehr AG",
         "DB Regio AG Südost",
+        "European Sleeper",
         "RVSOE",
         "Österreichische Bundesbahnen"
       ],
@@ -10455,8 +10457,8 @@
       "name": "Altdobritz",
       "city": "Dresden",
       "name_with_city": "Dresden Altdobritz",
-      "longitude": 13.810412,
-      "latitude": 51.018778,
+      "longitude": 13.810672,
+      "latitude": 51.018767,
       "operators": [
         "DVB"
       ],
@@ -15170,9 +15172,12 @@
           "13",
           "7",
           "8"
+        ],
+        "Stadtbus": [
+          "81"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:77",
@@ -15478,6 +15483,7 @@
         "DB Fernverkehr AG",
         "DB Regio AG Südost",
         "DVB",
+        "European Sleeper",
         "FlixTrain",
         "Mitteldeutsche Regiobahn",
         "RVSOE",
@@ -15546,15 +15552,11 @@
         "DB AG",
         "DB Regio AG Südost",
         "DVB",
-        "Mitteldeutsche Regiobahn",
-        "RVSOE"
+        "Mitteldeutsche Regiobahn"
       ],
       "lines": {
         "Stadtbus": [
           "66"
-        ],
-        "Regionalbus": [
-          "366"
         ],
         "Fernbus": [
           "Fernbus"
@@ -15563,7 +15565,7 @@
           "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14612:32",
@@ -27645,11 +27647,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "161",
           "162"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:1178",
@@ -31472,6 +31473,7 @@
           "454",
           "455",
           "456",
+          "458",
           "467"
         ],
         "PlusBus": [
@@ -31481,7 +31483,7 @@
           "A (Großenhain)"
         ]
       },
-      "total_lines": 7
+      "total_lines": 8
     },
     {
       "id": "de:14627:5012",
@@ -32724,9 +32726,12 @@
       "lines": {
         "Zug": [
           "RB45"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:5800",
@@ -58440,12 +58445,9 @@
           "238",
           "246",
           "254"
-        ],
-        "Stadtbus": [
-          "M (Pirna)"
         ]
       },
-      "total_lines": 7
+      "total_lines": 6
     },
     {
       "id": "de:14628:3453",
@@ -59185,11 +59187,10 @@
           "237",
           "241",
           "245",
-          "246",
           "207a"
         ]
       },
-      "total_lines": 10
+      "total_lines": 9
     },
     {
       "id": "de:14628:3382",
@@ -63800,6 +63801,7 @@
       "longitude": 13.680039,
       "latitude": 51.098417,
       "operators": [
+        "DB AG",
         "DB Regio AG Südost",
         "SDG",
         "VGM"
@@ -76060,9 +76062,12 @@
         ],
         "Zug": [
           "RB45"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14627:5874",
@@ -77791,11 +77796,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411",
-          "Sv250"
+          "411"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4151",
@@ -78638,8 +78642,7 @@
       "latitude": 51.05886,
       "operators": [
         "DVB",
-        "Müller Busreisen",
-        "RVSOE"
+        "Müller Busreisen"
       ],
       "lines": {
         "Stadtbus": [
@@ -78649,12 +78652,9 @@
         ],
         "Regionalbus": [
           "229"
-        ],
-        "PlusBus": [
-          "261"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:3778",

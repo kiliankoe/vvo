@@ -1676,7 +1676,9 @@
         "city": "Bad Schandau",
         "name_with_city": "Bad Schandau Nationalparkbahnhof",
         "operators": [
+          "DB Fernverkehr AG",
           "DB Regio AG Südost",
+          "European Sleeper",
           "RVSOE",
           "Österreichische Bundesbahnen"
         ],
@@ -14562,8 +14564,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.810412,
-          51.018778
+          13.810672,
+          51.018767
         ]
       },
       "properties": {
@@ -21005,9 +21007,12 @@
             "13",
             "7",
             "8"
+          ],
+          "Stadtbus": [
+            "81"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -21441,6 +21446,7 @@
           "DB Fernverkehr AG",
           "DB Regio AG Südost",
           "DVB",
+          "European Sleeper",
           "FlixTrain",
           "Mitteldeutsche Regiobahn",
           "RVSOE",
@@ -21517,15 +21523,11 @@
           "DB AG",
           "DB Regio AG Südost",
           "DVB",
-          "Mitteldeutsche Regiobahn",
-          "RVSOE"
+          "Mitteldeutsche Regiobahn"
         ],
         "lines": {
           "Stadtbus": [
             "66"
-          ],
-          "Regionalbus": [
-            "366"
           ],
           "Fernbus": [
             "Fernbus"
@@ -21534,7 +21536,7 @@
             "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -38096,11 +38098,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "161",
             "162"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -43411,6 +43412,7 @@
             "454",
             "455",
             "456",
+            "458",
             "467"
           ],
           "PlusBus": [
@@ -43420,7 +43422,7 @@
             "A (Großenhain)"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -45159,9 +45161,12 @@
         "lines": {
           "Zug": [
             "RB45"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -80739,12 +80744,9 @@
             "238",
             "246",
             "254"
-          ],
-          "Stadtbus": [
-            "M (Pirna)"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
@@ -81764,11 +81766,10 @@
             "237",
             "241",
             "245",
-            "246",
             "207a"
           ]
         },
-        "total_lines": 10
+        "total_lines": 9
       }
     },
     {
@@ -88163,6 +88164,7 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul S-Bahnhof Ost",
         "operators": [
+          "DB AG",
           "DB Regio AG Südost",
           "SDG",
           "VGM"
@@ -105191,9 +105193,12 @@
           ],
           "Zug": [
             "RB45"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -107626,11 +107631,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411",
-            "Sv250"
+            "411"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -108801,8 +108805,7 @@
         "name_with_city": "Weißig (Dresden) Hutbergschule",
         "operators": [
           "DVB",
-          "Müller Busreisen",
-          "RVSOE"
+          "Müller Busreisen"
         ],
         "lines": {
           "Stadtbus": [
@@ -108812,12 +108815,9 @@
           ],
           "Regionalbus": [
             "229"
-          ],
-          "PlusBus": [
-            "261"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
