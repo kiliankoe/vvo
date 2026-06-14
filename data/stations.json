@@ -25764,13 +25764,14 @@
           "454",
           "455",
           "456",
+          "458",
           "467"
         ],
         "PlusBus": [
           "477"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14627:5583",
@@ -27881,11 +27882,14 @@
         "VGM"
       ],
       "lines": {
+        "Regionalbus": [
+          "458"
+        ],
         "PlusBus": [
           "477"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:5239",
@@ -38586,13 +38590,14 @@
       ],
       "lines": {
         "Regionalbus": [
+          "458",
           "460"
         ],
         "PlusBus": [
           "477"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:5233",
@@ -38606,11 +38611,14 @@
         "VGM"
       ],
       "lines": {
+        "Regionalbus": [
+          "458"
+        ],
         "PlusBus": [
           "477"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:6204",
@@ -51449,14 +51457,15 @@
         "VGM"
       ],
       "lines": {
+        "Regionalbus": [
+          "405",
+          "Sv270"
+        ],
         "PlusBus": [
           "477"
-        ],
-        "Regionalbus": [
-          "Sv270"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6985",
