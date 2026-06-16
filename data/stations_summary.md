@@ -30,7 +30,7 @@ Total stations: 3910
 ## Stations by Transit Type
 
 - Regionalbus: 2695 stations
-- Stadtbus: 1275 stations
+- Stadtbus: 1276 stations
 - PlusBus: 648 stations
 - Anruflinienbus: 480 stations
 - Straßenbahn: 270 stations
@@ -83,8 +83,8 @@ Total stations: 3910
 - Riesa Busbahnhof / Bahnhof: 27 lines
 - Dresden Bahnhof Neustadt: 25 lines
 - Kamenz Bahnhof: 24 lines
+- Dresden Bahnhof Mitte: 23 lines
 - Pirna ZOB / Bahnhof: 23 lines
-- Dresden Bahnhof Mitte: 21 lines
 - Großenhain Cottbuser Bahnhof: 21 lines
 - Meißen Altstadtbrücke: 21 lines
 - Meißen Bahnhofstraße: 21 lines
@@ -97,13 +97,13 @@ Total stations: 3910
 - Großenhain Mozartallee: 17 lines
 - Meißen S-Bahnhof Altstadt: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
+- Dresden Postplatz: 16 lines
 - Dresden S-Bahnhof Dobritz: 16 lines
 - Freital S-Bf. / Busbf. Deuben: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
 - Großenhain Lessingplatz: 16 lines
 - Kamenz Macherstraße: 16 lines
 - Riesa Sachsenhof: 16 lines
-- Dresden Postplatz: 15 lines
 - Kamenz Schwimmhalle: 15 lines
 - Meißen Uferstraße: 15 lines
 - Pirna Breite Straße: 15 lines
@@ -136,6 +136,7 @@ Total stations: 3910
 - Dresden Julius-Vahlteich-Straße: 11 lines
 - Dresden Pirnaischer Platz: 11 lines
 - Dresden Prager Straße: 11 lines
+- Dresden S-Bf. Freiberger Straße: 11 lines
 - Freital S-Bahnhof Hainsberg: 11 lines
 - Großenhain Hohe Straße: 11 lines
 - Sebnitz Bahnhof: 11 lines
@@ -144,9 +145,9 @@ Total stations: 3910
 - Dresden Amalie-Dietrich-Platz: 10 lines
 - Dresden Betriebshof Gorbitz: 10 lines
 - Dresden Kirschenstraße: 10 lines
+- Dresden Koreanischer Platz: 10 lines
 - Dresden Lößnitzstraße: 10 lines
 - Dresden Merianplatz: 10 lines
-- Dresden S-Bf. Freiberger Straße: 10 lines
 - Dresden Schlehenstraße: 10 lines
 - Dresden Zeithainer Straße: 10 lines
 - Glashütte (Sachs) Bahnhof / Busbahnhof: 10 lines
