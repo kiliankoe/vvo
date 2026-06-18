@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3910,
+    "count": 3911,
     "format_version": "2.0"
   },
   "stations": [
@@ -1209,7 +1209,6 @@
       "longitude": 14.138099,
       "latitude": 50.91927,
       "operators": [
-        "DB Fernverkehr AG",
         "DB Regio AG Südost",
         "European Sleeper",
         "RVSOE",
@@ -16188,9 +16187,7 @@
       "name_with_city": "Dresden Hp Kemnitz",
       "longitude": 13.668936,
       "latitude": 51.073001,
-      "operators": [
-        "DB AG"
-      ],
+      "operators": [],
       "lines": {
         "Zug": [
           "RB31"
@@ -16206,9 +16203,7 @@
       "name_with_city": "Dresden Hp Stetzsch",
       "longitude": 13.651661,
       "latitude": 51.08057,
-      "operators": [
-        "DB AG"
-      ],
+      "operators": [],
       "lines": {
         "Zug": [
           "RB31"
@@ -20988,6 +20983,24 @@
         ]
       },
       "total_lines": 3
+    },
+    {
+      "id": "de:14612:152",
+      "numeric_id": "33000152",
+      "name": "Rosenstraße",
+      "city": "Dresden",
+      "name_with_city": "Dresden Rosenstraße",
+      "longitude": 13.713241,
+      "latitude": 51.046623,
+      "operators": [
+        "DVB"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "EV 12"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14612:854",
@@ -28556,9 +28569,12 @@
         ],
         "PlusBus": [
           "418"
+        ],
+        "Stadtbus": [
+          "C (Meißen)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:4685",
@@ -28577,9 +28593,12 @@
         ],
         "PlusBus": [
           "418"
+        ],
+        "Stadtbus": [
+          "C (Meißen)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:4608",
@@ -31323,9 +31342,12 @@
           "462",
           "463",
           "467"
+        ],
+        "Stadtbus": [
+          "A (Großenhain)"
         ]
       },
-      "total_lines": 16
+      "total_lines": 17
     },
     {
       "id": "de:14627:5049",
@@ -48106,9 +48128,12 @@
         ],
         "PlusBus": [
           "418"
+        ],
+        "Stadtbus": [
+          "C (Meißen)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:4494",
@@ -50139,9 +50164,12 @@
         ],
         "PlusBus": [
           "418"
+        ],
+        "Stadtbus": [
+          "C (Meißen)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:4488",
@@ -63847,7 +63875,6 @@
       "longitude": 13.680039,
       "latitude": 51.098417,
       "operators": [
-        "DB AG",
         "DB Regio AG Südost",
         "SDG",
         "VGM"

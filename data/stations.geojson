@@ -1676,7 +1676,6 @@
         "city": "Bad Schandau",
         "name_with_city": "Bad Schandau Nationalparkbahnhof",
         "operators": [
-          "DB Fernverkehr AG",
           "DB Regio AG Südost",
           "European Sleeper",
           "RVSOE",
@@ -22391,9 +22390,7 @@
         "name": "Hp Kemnitz",
         "city": "Dresden",
         "name_with_city": "Dresden Hp Kemnitz",
-        "operators": [
-          "DB AG"
-        ],
+        "operators": [],
         "lines": {
           "Zug": [
             "RB31"
@@ -22417,9 +22414,7 @@
         "name": "Hp Stetzsch",
         "city": "Dresden",
         "name_with_city": "Dresden Hp Stetzsch",
-        "operators": [
-          "DB AG"
-        ],
+        "operators": [],
         "lines": {
           "Zug": [
             "RB31"
@@ -28967,6 +28962,32 @@
           ]
         },
         "total_lines": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.713241,
+          51.046623
+        ]
+      },
+      "properties": {
+        "id": "de:14612:152",
+        "numeric_id": "33000152",
+        "name": "Rosenstraße",
+        "city": "Dresden",
+        "name_with_city": "Dresden Rosenstraße",
+        "operators": [
+          "DVB"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "EV 12"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
@@ -39367,9 +39388,12 @@
           ],
           "PlusBus": [
             "418"
+          ],
+          "Stadtbus": [
+            "C (Meißen)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -39396,9 +39420,12 @@
           ],
           "PlusBus": [
             "418"
+          ],
+          "Stadtbus": [
+            "C (Meißen)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -43198,9 +43225,12 @@
             "462",
             "463",
             "467"
+          ],
+          "Stadtbus": [
+            "A (Großenhain)"
           ]
         },
-        "total_lines": 16
+        "total_lines": 17
       }
     },
     {
@@ -66533,9 +66563,12 @@
           ],
           "PlusBus": [
             "418"
+          ],
+          "Stadtbus": [
+            "C (Meißen)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -69270,9 +69303,12 @@
           ],
           "PlusBus": [
             "418"
+          ],
+          "Stadtbus": [
+            "C (Meißen)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -88210,7 +88246,6 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul S-Bahnhof Ost",
         "operators": [
-          "DB AG",
           "DB Regio AG Südost",
           "SDG",
           "VGM"

@@ -1,10 +1,10 @@
 # VVO Station Data Summary
 
-Total stations: 3910
+Total stations: 3911
 
 ## Stations by City
 
-- Dresden: 658
+- Dresden: 659
 - Meißen: 104
 - Freital: 86
 - Pirna: 85
@@ -30,7 +30,7 @@ Total stations: 3910
 ## Stations by Transit Type
 
 - Regionalbus: 2695 stations
-- Stadtbus: 1275 stations
+- Stadtbus: 1281 stations
 - PlusBus: 648 stations
 - Anruflinienbus: 480 stations
 - Straßenbahn: 270 stations
@@ -52,7 +52,7 @@ Total stations: 3910
 
 - RVSOE: 1301 stations
 - VGM: 1172 stations
-- DVB: 769 stations
+- DVB: 770 stations
 - RBO: 711 stations
 - DB Regio AG Südost: 122 stations
 - VGH: 81 stations
@@ -61,16 +61,16 @@ Total stations: 3910
 - Müller Busreisen: 58 stations
 - SATRA: 43 stations
 - RBM: 31 stations
-- DB AG: 27 stations
 - SDG: 24 stations
+- DB AG: 24 stations
 - Mitteldeutsche Regiobahn: 21 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
 - Cottbusverkehr GmbH: 11 stations
 - trilex - Die Länderbahn GmbH DLB: 9 stations
-- DB Fernverkehr AG: 4 stations
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 4 stations
 - DB Regio: 3 stations
+- DB Fernverkehr AG: 3 stations
 - European Sleeper: 2 stations
 - FlixTrain: 2 stations
 - Nordsachsen Mobil: 2 stations
@@ -94,6 +94,7 @@ Total stations: 3910
 - Riesa Rudolf-Breitscheid-Straße: 19 lines
 - Lommatzsch Busbahnhof: 18 lines
 - Dresden Trachenberger Platz: 17 lines
+- Großenhain Lessingplatz: 17 lines
 - Großenhain Mozartallee: 17 lines
 - Meißen S-Bahnhof Altstadt: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
@@ -101,7 +102,6 @@ Total stations: 3910
 - Dresden S-Bahnhof Dobritz: 16 lines
 - Freital S-Bf. / Busbf. Deuben: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
-- Großenhain Lessingplatz: 16 lines
 - Kamenz Macherstraße: 16 lines
 - Riesa Sachsenhof: 16 lines
 - Kamenz Schwimmhalle: 15 lines
