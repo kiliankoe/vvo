@@ -31,12 +31,12 @@ Total stations: 3911
 
 - Regionalbus: 2695 stations
 - Stadtbus: 1280 stations
-- PlusBus: 648 stations
+- PlusBus: 646 stations
 - Anruflinienbus: 480 stations
 - Straßenbahn: 270 stations
 - Anruflinientaxi: 201 stations
 - Ersatzverkehr: 111 stations
-- R-Bahn: 102 stations
+- Zug: 102 stations
 - Taktbus: 101 stations
 - S-Bahn: 54 stations
 - Bus: 49 stations
@@ -50,11 +50,11 @@ Total stations: 3911
 
 ## Transit Operators
 
-- RVSOE: 1301 stations
+- RVSOE: 1300 stations
 - VGM: 1172 stations
 - DVB: 770 stations
 - RBO: 711 stations
-- DB Regio AG Südost: 121 stations
+- DB Regio AG Südost: 122 stations
 - VGH: 81 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 68 stations
@@ -71,7 +71,6 @@ Total stations: 3911
 - Ostdeutsche Eisenbahn GmbH: 4 stations
 - DB Regio: 3 stations
 - DB Fernverkehr AG: 3 stations
-- European Sleeper: 2 stations
 - FlixTrain: 2 stations
 - Nordsachsen Mobil: 2 stations
 - Omnibusbetrieb Siegfried Wilhelm: 1 stations
@@ -152,5 +151,4 @@ Total stations: 3911
 - Dresden Zeithainer Straße: 10 lines
 - Glashütte (Sachs) Bahnhof / Busbahnhof: 10 lines
 - Königswartha Kirchplatz: 10 lines
-- Pirna Robert-Koch-Straße: 10 lines
 - Tharandt Bahnhof: 10 lines
