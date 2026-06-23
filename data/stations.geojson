@@ -43223,12 +43223,9 @@
             "462",
             "463",
             "467"
-          ],
-          "Stadtbus": [
-            "A (Großenhain)"
           ]
         },
-        "total_lines": 17
+        "total_lines": 16
       }
     },
     {
@@ -92926,10 +92923,6 @@
           "VGM"
         ],
         "lines": {
-          "Regionalbus": [
-            "432",
-            "442"
-          ],
           "Stadtbus": [
             "A1 (Riesa)",
             "A2 (Riesa)",
@@ -92937,7 +92930,7 @@
             "D (Riesa)"
           ]
         },
-        "total_lines": 6
+        "total_lines": 4
       }
     },
     {
