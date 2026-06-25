@@ -15344,15 +15344,17 @@
         "city": "Dresden",
         "name_with_city": "Dresden Am Friedenshang",
         "operators": [
+          "DVB",
           "Müller Busreisen"
         ],
         "lines": {
           "Stadtbus": [
+            "963",
             "98A",
             "98B"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -16023,10 +16025,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "63"
+            "63",
+            "963"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -16296,7 +16299,8 @@
         "lines": {
           "Straßenbahn": [
             "12",
-            "6"
+            "6",
+            "8"
           ],
           "Stadtbus": [
             "62",
@@ -16306,7 +16310,7 @@
             "520"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -16393,7 +16397,8 @@
           "Stadtbus": [
             "70",
             "78",
-            "80"
+            "80",
+            "EV 7"
           ],
           "PlusBus": [
             "522"
@@ -16416,7 +16421,7 @@
             "SEV"
           ]
         },
-        "total_lines": 13
+        "total_lines": 14
       }
     },
     {
@@ -17197,7 +17202,9 @@
         "lines": {
           "Straßenbahn": [
             "12",
-            "6"
+            "13",
+            "6",
+            "8"
           ],
           "Stadtbus": [
             "62",
@@ -17207,7 +17214,7 @@
             "520"
           ]
         },
-        "total_lines": 5
+        "total_lines": 7
       }
     },
     {
@@ -17233,13 +17240,14 @@
           "Stadtbus": [
             "63",
             "83",
+            "963",
             "P (Pirna)"
           ],
           "Anruflinientaxi": [
             "alita 83"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -17733,7 +17741,10 @@
           ],
           "Stadtbus": [
             "61",
-            "84"
+            "62",
+            "63",
+            "84",
+            "963"
           ],
           "Regionalbus": [
             "226",
@@ -17746,7 +17757,7 @@
             "521"
           ]
         },
-        "total_lines": 9
+        "total_lines": 12
       }
     },
     {
@@ -18346,7 +18357,8 @@
         "lines": {
           "Stadtbus": [
             "61",
-            "84"
+            "84",
+            "963"
           ],
           "Regionalbus": [
             "226",
@@ -18356,7 +18368,7 @@
             "521"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -19162,10 +19174,12 @@
         ],
         "lines": {
           "Stadtbus": [
-            "61"
+            "61",
+            "62",
+            "63"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {
@@ -19467,11 +19481,14 @@
           "DVB"
         ],
         "lines": {
+          "Stadtbus": [
+            "68"
+          ],
           "Anruflinientaxi": [
             "alita 95"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -19490,14 +19507,16 @@
         "city": "Dresden",
         "name_with_city": "Dresden Felsenkeller",
         "operators": [
+          "DVB",
           "RVSOE"
         ],
         "lines": {
           "Stadtbus": [
-            "160"
+            "160",
+            "EV 6"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -19551,13 +19570,15 @@
           "Straßenbahn": [
             "10",
             "12",
+            "13",
+            "8",
             "9"
           ],
           "Stadtbus": [
             "64"
           ]
         },
-        "total_lines": 4
+        "total_lines": 6
       }
     },
     {
@@ -20389,13 +20410,15 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "12"
+            "12",
+            "13",
+            "8"
           ],
           "Stadtbus": [
             "64"
           ]
         },
-        "total_lines": 2
+        "total_lines": 4
       }
     },
     {
@@ -20445,11 +20468,14 @@
           "DVB"
         ],
         "lines": {
+          "Stadtbus": [
+            "68"
+          ],
           "Anruflinientaxi": [
             "alita 95"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -20880,6 +20906,7 @@
         "city": "Dresden",
         "name_with_city": "Dresden Grenzstraße (Bus)",
         "operators": [
+          "DB Regio AG Südost",
           "DVB"
         ],
         "lines": {
@@ -21110,10 +21137,12 @@
             "11"
           ],
           "Stadtbus": [
-            "61"
+            "61",
+            "62",
+            "63"
           ]
         },
-        "total_lines": 2
+        "total_lines": 4
       }
     },
     {
@@ -21197,10 +21226,11 @@
         "lines": {
           "Straßenbahn": [
             "12",
-            "6"
+            "6",
+            "8"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -21225,11 +21255,12 @@
         "lines": {
           "Stadtbus": [
             "63",
+            "963",
             "98A",
             "98B"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -21322,9 +21353,15 @@
         "name": "Güntzplatz",
         "city": "Dresden",
         "name_with_city": "Dresden Güntzplatz",
-        "operators": [],
-        "lines": {},
-        "total_lines": 0
+        "operators": [
+          "DVB"
+        ],
+        "lines": {
+          "Straßenbahn": [
+            "8"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
@@ -21569,6 +21606,7 @@
         ],
         "lines": {
           "Straßenbahn": [
+            "10",
             "11",
             "12",
             "20",
@@ -21580,7 +21618,7 @@
             "68"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -21832,10 +21870,11 @@
         "lines": {
           "Straßenbahn": [
             "12",
-            "6"
+            "6",
+            "8"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -22331,7 +22370,8 @@
         "lines": {
           "Stadtbus": [
             "61",
-            "84"
+            "84",
+            "963"
           ],
           "Regionalbus": [
             "226",
@@ -22341,7 +22381,7 @@
             "521"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -22505,10 +22545,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "77"
+            "77",
+            "EV 7"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -23003,13 +23044,14 @@
             "10",
             "12",
             "6",
+            "8",
             "9"
           ],
           "Stadtbus": [
             "87"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -23259,10 +23301,14 @@
         "lines": {
           "Straßenbahn": [
             "12",
-            "6"
+            "6",
+            "8"
+          ],
+          "Stadtbus": [
+            "63"
           ]
         },
-        "total_lines": 2
+        "total_lines": 4
       }
     },
     {
@@ -24279,10 +24325,12 @@
           "Straßenbahn": [
             "10",
             "12",
+            "13",
+            "8",
             "9"
           ]
         },
-        "total_lines": 3
+        "total_lines": 5
       }
     },
     {
@@ -24506,7 +24554,8 @@
           ],
           "Stadtbus": [
             "78",
-            "80"
+            "80",
+            "EV 7"
           ],
           "PlusBus": [
             "522"
@@ -24515,7 +24564,7 @@
             "769"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -24596,13 +24645,14 @@
         "lines": {
           "Straßenbahn": [
             "12",
-            "6"
+            "6",
+            "8"
           ],
           "Stadtbus": [
             "62"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -24627,6 +24677,7 @@
         "lines": {
           "Stadtbus": [
             "61",
+            "62",
             "63",
             "84"
           ],
@@ -24643,7 +24694,7 @@
             "Standseilbahn"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -24651,8 +24702,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.823141,
-          51.045533
+          13.822808,
+          51.045923
         ]
       },
       "properties": {
@@ -24847,13 +24898,14 @@
         "lines": {
           "Straßenbahn": [
             "12",
-            "6"
+            "6",
+            "8"
           ],
           "Stadtbus": [
             "62"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -26448,10 +26500,14 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "3"
+            "3",
+            "8"
+          ],
+          "Stadtbus": [
+            "EV 6"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {
@@ -26474,7 +26530,8 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "11"
+            "11",
+            "4"
           ],
           "Stadtbus": [
             "63",
@@ -26484,7 +26541,7 @@
             "alita 63"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -27098,11 +27155,14 @@
           "DVB"
         ],
         "lines": {
+          "Stadtbus": [
+            "68"
+          ],
           "Anruflinientaxi": [
             "alita 95"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -27214,10 +27274,11 @@
         ],
         "lines": {
           "Stadtbus": [
+            "63",
             "65"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -27438,10 +27499,12 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "6"
+            "13",
+            "6",
+            "8"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {
@@ -27591,13 +27654,14 @@
           "Stadtbus": [
             "63",
             "83",
+            "963",
             "P (Pirna)"
           ],
           "Anruflinientaxi": [
             "alita 83"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -27620,10 +27684,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "63"
+            "63",
+            "963"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -27649,13 +27714,14 @@
           "Stadtbus": [
             "63",
             "83",
+            "963",
             "P (Pirna)"
           ],
           "Anruflinientaxi": [
             "alita 83"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -27777,13 +27843,15 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "3"
+            "3",
+            "8"
           ],
           "Stadtbus": [
-            "85"
+            "85",
+            "EV 6"
           ]
         },
-        "total_lines": 2
+        "total_lines": 4
       }
     },
     {
@@ -27808,10 +27876,11 @@
           "Stadtbus": [
             "62",
             "63",
-            "85"
+            "85",
+            "EV 6"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -27919,6 +27988,7 @@
         "lines": {
           "Straßenbahn": [
             "1",
+            "10",
             "11",
             "12",
             "2",
@@ -27940,7 +28010,7 @@
             "477"
           ]
         },
-        "total_lines": 16
+        "total_lines": 17
       }
     },
     {
@@ -27964,6 +28034,7 @@
         ],
         "lines": {
           "Straßenbahn": [
+            "10",
             "11",
             "12",
             "20",
@@ -27981,7 +28052,7 @@
             "360"
           ]
         },
-        "total_lines": 11
+        "total_lines": 12
       }
     },
     {
@@ -28005,13 +28076,14 @@
         "lines": {
           "Straßenbahn": [
             "12",
-            "6"
+            "6",
+            "8"
           ],
           "Stadtbus": [
             "62"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -28291,7 +28363,8 @@
         "lines": {
           "Stadtbus": [
             "61",
-            "84"
+            "84",
+            "963"
           ],
           "Regionalbus": [
             "226",
@@ -28301,7 +28374,7 @@
             "521"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -28442,13 +28515,14 @@
           "Stadtbus": [
             "63",
             "83",
+            "963",
             "P (Pirna)"
           ],
           "Anruflinientaxi": [
             "alita 83"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -28807,6 +28881,8 @@
         "lines": {
           "Stadtbus": [
             "61",
+            "62",
+            "63",
             "84"
           ],
           "PlusBus": [
@@ -28816,7 +28892,7 @@
             "alita 84"
           ]
         },
-        "total_lines": 4
+        "total_lines": 6
       }
     },
     {
@@ -29123,13 +29199,14 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "11"
+            "11",
+            "4"
           ],
           "Stadtbus": [
             "85"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -29439,7 +29516,8 @@
           "Stadtbus": [
             "62",
             "63",
-            "85"
+            "85",
+            "EV 6"
           ],
           "Zug": [
             "RB30",
@@ -29452,7 +29530,7 @@
             "SEV"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -30060,7 +30138,8 @@
         "lines": {
           "Straßenbahn": [
             "12",
-            "6"
+            "6",
+            "8"
           ],
           "Stadtbus": [
             "61",
@@ -30076,7 +30155,7 @@
             "alita 84"
           ]
         },
-        "total_lines": 9
+        "total_lines": 10
       }
     },
     {
@@ -30098,11 +30177,14 @@
           "DVB"
         ],
         "lines": {
+          "Stadtbus": [
+            "68"
+          ],
           "Anruflinientaxi": [
             "alita 95"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -30421,6 +30503,8 @@
         "lines": {
           "Straßenbahn": [
             "1",
+            "10",
+            "11",
             "12",
             "2",
             "7",
@@ -30430,7 +30514,7 @@
             "68"
           ]
         },
-        "total_lines": 6
+        "total_lines": 8
       }
     },
     {
@@ -31003,6 +31087,8 @@
         "lines": {
           "Stadtbus": [
             "61",
+            "62",
+            "63",
             "84"
           ],
           "PlusBus": [
@@ -31012,7 +31098,7 @@
             "alita 84"
           ]
         },
-        "total_lines": 4
+        "total_lines": 6
       }
     },
     {
@@ -31147,7 +31233,8 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "11"
+            "11",
+            "4"
           ],
           "Stadtbus": [
             "66",
@@ -31155,7 +31242,7 @@
             "H/S (Pirna)"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -31181,10 +31268,11 @@
             "10",
             "12",
             "6",
+            "8",
             "9"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -31759,13 +31847,14 @@
             "10",
             "12",
             "6",
+            "8",
             "9"
           ],
           "Stadtbus": [
             "87"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -31954,10 +32043,12 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "6"
+            "13",
+            "6",
+            "8"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {
@@ -32038,6 +32129,8 @@
         "lines": {
           "Stadtbus": [
             "61",
+            "62",
+            "63",
             "84"
           ],
           "PlusBus": [
@@ -32047,7 +32140,7 @@
             "alita 84"
           ]
         },
-        "total_lines": 4
+        "total_lines": 6
       }
     },
     {
@@ -32190,10 +32283,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "63"
+            "63",
+            "963"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -32404,6 +32498,7 @@
         ],
         "lines": {
           "Straßenbahn": [
+            "10",
             "11",
             "12",
             "20",
@@ -32425,7 +32520,7 @@
             "366"
           ]
         },
-        "total_lines": 13
+        "total_lines": 14
       }
     },
     {
@@ -33414,14 +33509,15 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "11"
+            "11",
+            "4"
           ],
           "Stadtbus": [
             "61",
             "63"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -33674,7 +33770,8 @@
           "Stadtbus": [
             "70",
             "78",
-            "80"
+            "80",
+            "EV 7"
           ],
           "PlusBus": [
             "522"
@@ -33683,7 +33780,7 @@
             "769"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -45881,6 +45978,7 @@
         "lines": {
           "Stadtbus": [
             "61",
+            "963",
             "98A",
             "98B"
           ],
@@ -45888,7 +45986,7 @@
             "228"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -45944,6 +46042,7 @@
         "lines": {
           "Stadtbus": [
             "61",
+            "963",
             "98A",
             "98B"
           ],
@@ -45951,7 +46050,7 @@
             "228"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -79010,6 +79109,7 @@
         "lines": {
           "Stadtbus": [
             "61",
+            "963",
             "98A",
             "98B"
           ],
@@ -79017,7 +79117,7 @@
             "228"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -79040,10 +79140,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "61"
+            "61",
+            "963"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -79062,15 +79163,17 @@
         "city": "Pappritz",
         "name_with_city": "Pappritz Kurze Straße",
         "operators": [
+          "DVB",
           "Müller Busreisen"
         ],
         "lines": {
           "Stadtbus": [
+            "963",
             "98A",
             "98B"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -79093,10 +79196,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "61"
+            "61",
+            "963"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -79115,15 +79219,17 @@
         "city": "Pappritz",
         "name_with_city": "Pappritz Stallberg",
         "operators": [
+          "DVB",
           "Müller Busreisen"
         ],
         "lines": {
           "Stadtbus": [
+            "963",
             "98A",
             "98B"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -106959,8 +107065,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.09754,
-          50.9428
+          14.100082,
+          50.943859
         ]
       },
       "properties": {
@@ -108875,8 +108981,7 @@
         "name_with_city": "Weißig (Dresden) Hutbergschule",
         "operators": [
           "DVB",
-          "Müller Busreisen",
-          "RVSOE"
+          "Müller Busreisen"
         ],
         "lines": {
           "Stadtbus": [
@@ -108886,12 +108991,9 @@
           ],
           "Regionalbus": [
             "229"
-          ],
-          "PlusBus": [
-            "261"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
