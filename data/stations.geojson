@@ -38243,11 +38243,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "161",
             "162"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -52100,18 +52099,14 @@
           "VGH"
         ],
         "lines": {
-          "PlusBus": [
-            "536"
-          ],
           "Regionalbus": [
-            "776",
             "792"
           ],
           "Stadtbus": [
             "1 (Hoyerswerda)"
           ]
         },
-        "total_lines": 4
+        "total_lines": 2
       }
     },
     {
@@ -81945,11 +81940,10 @@
             "237",
             "241",
             "245",
-            "246",
             "207a"
           ]
         },
-        "total_lines": 10
+        "total_lines": 9
       }
     },
     {
@@ -89219,11 +89213,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "403",
-            "405"
+            "403"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -107806,11 +107799,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411",
-            "Sv250"
+            "411"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
