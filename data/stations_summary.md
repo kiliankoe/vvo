@@ -153,4 +153,5 @@ Total stations: 3911
 - Dresden Zeithainer Straße: 10 lines
 - Glashütte (Sachs) Bahnhof / Busbahnhof: 10 lines
 - Königswartha Kirchplatz: 10 lines
+- Pirna Robert-Koch-Straße: 10 lines
 - Tharandt Bahnhof: 10 lines
