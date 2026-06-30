@@ -1210,6 +1210,8 @@
       "latitude": 50.91927,
       "operators": [
         "DB Regio AG Südost",
+        "European Sleeper",
+        "LEO Express",
         "RVSOE",
         "Österreichische Bundesbahnen"
       ],
@@ -10658,7 +10660,6 @@
       "lines": {
         "Straßenbahn": [
           "1",
-          "12",
           "2",
           "9"
         ],
@@ -10670,7 +10671,7 @@
           "H/S (Pirna)"
         ]
       },
-      "total_lines": 7
+      "total_lines": 6
     },
     {
       "id": "de:14612:738",
@@ -11855,6 +11856,7 @@
         ],
         "Zug": [
           "RB30",
+          "RB31",
           "RB60",
           "RB61",
           "RE1",
@@ -11866,9 +11868,12 @@
           "S1",
           "S2",
           "S8"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 23
+      "total_lines": 25
     },
     {
       "id": "de:14612:16",
@@ -11884,6 +11889,7 @@
         "DB Regio AG Südost",
         "DVB",
         "FlixTrain",
+        "LEO Express",
         "Mitteldeutsche Regiobahn",
         "VGM",
         "trilex - Die Länderbahn GmbH DLB",
@@ -15532,7 +15538,9 @@
         "DB Fernverkehr AG",
         "DB Regio AG Südost",
         "DVB",
+        "European Sleeper",
         "FlixTrain",
+        "LEO Express",
         "Mitteldeutsche Regiobahn",
         "RVSOE",
         "VGM",
@@ -15600,7 +15608,8 @@
         "DB AG",
         "DB Regio AG Südost",
         "DVB",
-        "Mitteldeutsche Regiobahn"
+        "Mitteldeutsche Regiobahn",
+        "trilex - Die Länderbahn GmbH DLB"
       ],
       "lines": {
         "Stadtbus": [
@@ -38066,15 +38075,19 @@
       "longitude": 13.585689,
       "latitude": 50.93012,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "375",
           "382"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:1632",
@@ -40882,9 +40895,12 @@
         ],
         "S-Bahn": [
           "S3"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14628:1246",

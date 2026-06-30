@@ -1677,6 +1677,8 @@
         "name_with_city": "Bad Schandau Nationalparkbahnhof",
         "operators": [
           "DB Regio AG Südost",
+          "European Sleeper",
+          "LEO Express",
           "RVSOE",
           "Österreichische Bundesbahnen"
         ],
@@ -14845,7 +14847,6 @@
         "lines": {
           "Straßenbahn": [
             "1",
-            "12",
             "2",
             "9"
           ],
@@ -14857,7 +14858,7 @@
             "H/S (Pirna)"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
@@ -16466,6 +16467,7 @@
           ],
           "Zug": [
             "RB30",
+            "RB31",
             "RB60",
             "RB61",
             "RE1",
@@ -16477,9 +16479,12 @@
             "S1",
             "S2",
             "S8"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 23
+        "total_lines": 25
       }
     },
     {
@@ -16503,6 +16508,7 @@
           "DB Regio AG Südost",
           "DVB",
           "FlixTrain",
+          "LEO Express",
           "Mitteldeutsche Regiobahn",
           "VGM",
           "trilex - Die Länderbahn GmbH DLB",
@@ -21495,7 +21501,9 @@
           "DB Fernverkehr AG",
           "DB Regio AG Südost",
           "DVB",
+          "European Sleeper",
           "FlixTrain",
+          "LEO Express",
           "Mitteldeutsche Regiobahn",
           "RVSOE",
           "VGM",
@@ -21571,7 +21579,8 @@
           "DB AG",
           "DB Regio AG Südost",
           "DVB",
-          "Mitteldeutsche Regiobahn"
+          "Mitteldeutsche Regiobahn",
+          "trilex - Die Länderbahn GmbH DLB"
         ],
         "lines": {
           "Stadtbus": [
@@ -52549,15 +52558,19 @@
         "city": "Höckendorf b Dippol.",
         "name_with_city": "Höckendorf b Dippol. Tharandter Straße",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "375",
             "382"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -56429,9 +56442,12 @@
           ],
           "S-Bahn": [
             "S3"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {

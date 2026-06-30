@@ -57,7 +57,7 @@ de:14628:3621,33003621,Elbkai,Bad Schandau,Bad Schandau Elbkai,50.917758,14.1494
 de:14628:3629,33003629,Kiefricht,Bad Schandau,Bad Schandau Kiefricht,50.927804,14.16247,RVSOE,1,,,,
 de:14628:3622,33003622,Kurpark,Bad Schandau,Bad Schandau Kurpark,50.920913,14.157772,RVSOE,4,Kirnitzschtalbahn,,,
 de:14628:3626,33003626,Marktplatz,Bad Schandau,Bad Schandau Marktplatz,50.917679,14.153092,RVSOE,2,,,,
-de:14628:3620,33003620,Nationalparkbahnhof,Bad Schandau,Bad Schandau Nationalparkbahnhof,50.91927,14.138099,DB Regio AG Südost|RVSOE|Österreichische Bundesbahnen,14,,,RE20|RE50|U28,S1
+de:14628:3620,33003620,Nationalparkbahnhof,Bad Schandau,Bad Schandau Nationalparkbahnhof,50.91927,14.138099,DB Regio AG Südost|European Sleeper|LEO Express|RVSOE|Österreichische Bundesbahnen,14,,,RE20|RE50|U28,S1
 de:14628:3627,33003627,Personenaufzug,Bad Schandau,Bad Schandau Personenaufzug,50.916541,14.160575,RVSOE,1,,,,
 de:14628:3624,33003624,Waldhäus´l,Bad Schandau,Bad Schandau Waldhäus´l,50.925114,14.180527,RVSOE,2,Kirnitzschtalbahn,,,
 de:14627:4969,33004969,Abzw Badersen/Dobschütz,Badersen,Badersen Abzw Badersen/Dobschütz,51.14645,13.275833,VGM,4,,,,
@@ -522,7 +522,7 @@ de:14612:735,33000735,Altkaitz,Dresden,Dresden Altkaitz,51.01441,13.72694,DVB,2,
 de:14612:93,33000093,Altleuben,Dresden,Dresden Altleuben,51.012019,13.825962,DVB,5,2|6,65|EV 1/2,,
 de:14612:804,33000804,Altleubnitz,Dresden,Dresden Altleubnitz,51.015845,13.76829,DVB,3,,68|87,,
 de:14612:794,33000794,Altlockwitz,Dresden,Dresden Altlockwitz,50.989502,13.81149,DVB|RVSOE,6,,162|86|89|H/S (Pirna),,
-de:14612:4,33000004,Altmarkt,Dresden,Dresden Altmarkt,51.050249,13.738511,DVB|RVSOE,7,1|12|2|9,H/S (Pirna),,
+de:14612:4,33000004,Altmarkt,Dresden,Dresden Altmarkt,51.050249,13.738511,DVB|RVSOE,6,1|2|9,H/S (Pirna),,
 de:14612:738,33000738,Altmockritz,Dresden,Dresden Altmockritz,51.015082,13.740873,DVB,2,,63,,
 de:14612:706,33000706,Altnaußlitz,Dresden,Dresden Altnaußlitz,51.034525,13.687334,DVB,2,,62|90,,
 de:14612:800,33000800,Altnickern,Dresden,Dresden Altnickern,50.996174,13.789202,DVB|RVSOE,2,,88,,
@@ -575,8 +575,8 @@ de:14612:48,33000048,Augsburger Straße,Dresden,Dresden Augsburger Straße,51.05
 de:14612:737,33000737,Babisnauer Straße,Dresden,Dresden Babisnauer Straße,51.013234,13.742957,DVB,3,,63|66,,
 de:14612:192,33000192,Bahnhof Friedrichstadt,Dresden,Dresden Bahnhof Friedrichstadt,51.056026,13.708192,DB AG,2,,,RB31,
 de:14612:658,33000658,Bahnhof Klotzsche,Dresden,Dresden Bahnhof Klotzsche,51.11483,13.789041,DB Regio AG Südost|DVB|RBO|trilex - Die Länderbahn GmbH DLB,14,,70|78|80|EV 7,RB33|RB60|RB61|RE1|RE2,S2|S8
-de:14612:1,33000001,Bahnhof Mitte,Dresden,Dresden Bahnhof Mitte,51.055642,13.723392,DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn|trilex - Die Länderbahn GmbH DLB,23,1|10|11|12|2|20|3|6|7|8|9,68|92,RB30|RB60|RB61|RE1|RE2|RE3|RE50,S1|S2|S8
-de:14612:16,33000016,Bahnhof Neustadt,Dresden,Dresden Bahnhof Neustadt,51.065426,13.740882,DB AG|DB Fernverkehr AG|DB Regio AG Südost|DVB|FlixTrain|Mitteldeutsche Regiobahn|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,25,11|3|6|7|8|9,81,RB30|RB31|RB33|RB60|RB61|RE1|RE15|RE17|RE18|RE2|RE3|RE50,S1|S2|S8
+de:14612:1,33000001,Bahnhof Mitte,Dresden,Dresden Bahnhof Mitte,51.055642,13.723392,DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn|trilex - Die Länderbahn GmbH DLB,25,1|10|11|12|2|20|3|6|7|8|9,68|92,RB30|RB31|RB60|RB61|RE1|RE2|RE3|RE50,S1|S2|S8
+de:14612:16,33000016,Bahnhof Neustadt,Dresden,Dresden Bahnhof Neustadt,51.065426,13.740882,DB AG|DB Fernverkehr AG|DB Regio AG Südost|DVB|FlixTrain|LEO Express|Mitteldeutsche Regiobahn|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,25,11|3|6|7|8|9,81,RB30|RB31|RB33|RB60|RB61|RE1|RE15|RE17|RE18|RE2|RE3|RE50,S1|S2|S8
 de:14612:198,33000198,Bahnhof Neustadt (Hansastraße),Dresden,Dresden Bahnhof Neustadt (Hansastraße),51.066374,13.739112,DVB|VGM,11,10|11|13|20|3|4|6|7|8|9,,,
 de:14612:943,33000943,Bahnhofstraße,Dresden,Dresden Bahnhofstraße,51.002268,13.84188,DVB,4,,65|88,,
 de:14612:720,33000720,Bamberger Straße,Dresden,Dresden Bamberger Straße,51.03392,13.71245,DVB,3,,61|62|63,,
@@ -744,8 +744,8 @@ de:14612:186,33000186,Hamburger Straße,Dresden,Dresden Hamburger Straße,51.059
 de:14612:548,33000548,Hammeraue,Dresden,Dresden Hammeraue,51.067932,13.666277,SATRA,4,,91|93,,
 de:14612:764,33000764,Hans-Dankner-Straße,Dresden,Dresden Hans-Dankner-Straße,51.042591,13.742086,DVB,2,,62|68,,
 de:14612:287,33000287,Hans-Oster-Straße,Dresden,Dresden Hans-Oster-Straße,51.074909,13.760654,DVB,1,,64,,
-de:14612:28,33000028,Hauptbahnhof,Dresden,Dresden Hauptbahnhof,51.03993,13.732932,DB Fernverkehr AG|DB Regio AG Südost|DVB|FlixTrain|Mitteldeutsche Regiobahn|RVSOE|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,31,10|11|20|3|7|8,62|66|68|H/S (Pirna),RB30|RB60|RB61|RE1|RE19|RE2|RE20|RE3|RE50,S1|S2|S3|S8
-de:14612:36,33000036,Hauptbahnhof (Strehlener Str.),Dresden,Dresden Hauptbahnhof (Strehlener Str.),51.038671,13.734279,DB AG|DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn,3,,66,,
+de:14612:28,33000028,Hauptbahnhof,Dresden,Dresden Hauptbahnhof,51.03993,13.732932,DB Fernverkehr AG|DB Regio AG Südost|DVB|European Sleeper|FlixTrain|LEO Express|Mitteldeutsche Regiobahn|RVSOE|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,31,10|11|20|3|7|8,62|66|68|H/S (Pirna),RB30|RB60|RB61|RE1|RE19|RE2|RE20|RE3|RE50,S1|S2|S3|S8
+de:14612:36,33000036,Hauptbahnhof (Strehlener Str.),Dresden,Dresden Hauptbahnhof (Strehlener Str.),51.038671,13.734279,DB AG|DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn|trilex - Die Länderbahn GmbH DLB,3,,66,,
 de:14612:32,33000032,Hauptbahnhof Nord,Dresden,Dresden Hauptbahnhof Nord,51.041365,13.735088,DVB,8,10|11|12|20|3|4|7,68,,
 de:14612:179,33000179,Hebbelplatz,Dresden,Dresden Hebbelplatz,51.051333,13.682743,DVB,6,1|10|11|2|8|9,,,
 de:14612:99,33000099,Heckenweg,Dresden,Dresden Heckenweg,51.008746,13.839921,DVB,2,2,,,
@@ -1809,7 +1809,7 @@ de:14628:1637,33001637,Edle Krone Bahnhofstraße,Höckendorf b Dippol.,Höckendo
 de:14628:1631,33001631,Edle Krone Brücke,Höckendorf b Dippol.,Höckendorf b Dippol. Edle Krone Brücke,50.947153,13.58241,RVSOE,2,,,,
 de:14628:1629,33001629,Edle Krone Tharandter Straße,Höckendorf b Dippol.,Höckendorf b Dippol. Edle Krone Tharandter Straße,50.948132,13.583821,RVSOE,2,,,,
 de:14628:1639,33001639,Mitte,Höckendorf b Dippol.,Höckendorf b Dippol. Mitte,50.924916,13.588752,RVSOE,2,,,,
-de:14628:1635,33001635,Tharandter Straße,Höckendorf b Dippol.,Höckendorf b Dippol. Tharandter Straße,50.93012,13.585689,RVSOE,2,,,,
+de:14628:1635,33001635,Tharandter Straße,Höckendorf b Dippol.,Höckendorf b Dippol. Tharandter Straße,50.93012,13.585689,DB Regio AG Südost|RVSOE,3,,,,
 de:14628:1632,33001632,Wendeplatz,Höckendorf b Dippol.,Höckendorf b Dippol. Wendeplatz,50.916048,13.588537,RVSOE,2,,,,
 de:14627:4884,33004884,Abzw Höfgen,Höfgen (b Lommatzsch),Höfgen (b Lommatzsch) Abzw Höfgen,51.125972,13.289586,VGM,5,,,,
 de:14627:4887,33004887,Höfgen,Höfgen (b Lommatzsch),Höfgen (b Lommatzsch) Höfgen,51.122409,13.291015,VGM,5,,,,
@@ -1942,7 +1942,7 @@ de:14627:4103,33004103,Wendeplatz,Kleinzadel,Kleinzadel Wendeplatz,51.195992,13.
 de:14627:4099,33004099,Wiesengrund,Kleinzadel,Kleinzadel Wiesengrund,51.212241,13.409134,VGM,4,,,,
 de:14627:4853,33004853,Klessig,Klessig,Klessig Klessig,51.108874,13.273623,VGM,7,,,,
 de:14628:1247,33001247,Abzweig Dorfhain,Klingenberg (Sachs),Klingenberg (Sachs) Abzweig Dorfhain,50.922023,13.520624,RVSOE,2,,,,
-de:14628:1243,33001243,Bahnhof,Klingenberg (Sachs),Klingenberg (Sachs) Bahnhof,50.925556,13.500547,DB Regio AG Südost|Mitteldeutsche Regiobahn|RVSOE,5,,,RB30,S3
+de:14628:1243,33001243,Bahnhof,Klingenberg (Sachs),Klingenberg (Sachs) Bahnhof,50.925556,13.500547,DB Regio AG Südost|Mitteldeutsche Regiobahn|RVSOE,6,,,RB30,S3
 de:14628:1246,33001246,Schule,Klingenberg (Sachs),Klingenberg (Sachs) Schule,50.923829,13.504895,RVSOE,3,,,,
 de:14628:1245,33001245,Zum Weißeritztal/Wendeplatz,Klingenberg (Sachs),Klingenberg (Sachs) Zum Weißeritztal/Wendeplatz,50.91871,13.533147,RVSOE,2,,,,
 de:14627:4732,33004732,Am Flachsgrund,Klipphausen,Klipphausen Am Flachsgrund,51.071545,13.519843,VGM,3,,,,
