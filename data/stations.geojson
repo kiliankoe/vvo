@@ -1677,7 +1677,6 @@
         "name_with_city": "Bad Schandau Nationalparkbahnhof",
         "operators": [
           "DB Regio AG Südost",
-          "European Sleeper",
           "LEO Express",
           "RVSOE",
           "Österreichische Bundesbahnen"
@@ -6899,10 +6898,11 @@
         ],
         "lines": {
           "Regionalbus": [
+            "751",
             "765"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -14139,7 +14139,7 @@
           ],
           "Stadtbus": [
             "86",
-            "EV 1/2"
+            "EV 2"
           ]
         },
         "total_lines": 8
@@ -14349,7 +14349,7 @@
             "9"
           ],
           "Stadtbus": [
-            "EV 1/2"
+            "EV 2"
           ]
         },
         "total_lines": 9
@@ -14750,7 +14750,7 @@
           ],
           "Stadtbus": [
             "65",
-            "EV 1/2"
+            "EV 2"
           ],
           "Anruflinientaxi": [
             "alita 65"
@@ -14973,13 +14973,14 @@
           ],
           "Stadtbus": [
             "70",
-            "91"
+            "91",
+            "EV 7"
           ],
           "PlusBus": [
             "333"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -15858,13 +15859,14 @@
             "360"
           ],
           "Regionalbus": [
+            "352",
             "366"
           ],
           "Bus": [
             "400"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -17029,9 +17031,12 @@
             "7",
             "8",
             "9"
+          ],
+          "Stadtbus": [
+            "EV 2"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -18025,15 +18030,17 @@
         "city": "Dresden",
         "name_with_city": "Dresden Clara-Viebig-Straße",
         "operators": [
-          "DVB"
+          "DVB",
+          "RVSOE"
         ],
         "lines": {
           "Stadtbus": [
+            "160",
             "61",
             "63"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -18334,10 +18341,12 @@
             "9"
           ],
           "Stadtbus": [
-            "70"
+            "70",
+            "EV 2",
+            "EV 7"
           ]
         },
-        "total_lines": 7
+        "total_lines": 9
       }
     },
     {
@@ -18490,17 +18499,20 @@
             "10",
             "11",
             "2",
+            "7",
             "8",
             "9"
           ],
           "Stadtbus": [
-            "70"
+            "70",
+            "EV 2",
+            "EV 7"
           ],
           "Anruflinientaxi": [
             "alita 70"
           ]
         },
-        "total_lines": 8
+        "total_lines": 11
       }
     },
     {
@@ -18956,10 +18968,11 @@
         "lines": {
           "Stadtbus": [
             "62",
+            "85",
             "90"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -20078,7 +20091,7 @@
           ],
           "Stadtbus": [
             "86",
-            "EV 1/2"
+            "EV 2"
           ]
         },
         "total_lines": 6
@@ -21501,7 +21514,6 @@
           "DB Fernverkehr AG",
           "DB Regio AG Südost",
           "DVB",
-          "European Sleeper",
           "FlixTrain",
           "LEO Express",
           "Mitteldeutsche Regiobahn",
@@ -23193,7 +23205,9 @@
             "8"
           ],
           "Stadtbus": [
-            "70"
+            "70",
+            "EV 2",
+            "EV 7"
           ],
           "PlusBus": [
             "333"
@@ -23202,7 +23216,7 @@
             "alita 70"
           ]
         },
-        "total_lines": 11
+        "total_lines": 13
       }
     },
     {
@@ -23488,7 +23502,7 @@
           "Stadtbus": [
             "61",
             "63",
-            "EV 1/2"
+            "EV 2"
           ]
         },
         "total_lines": 6
@@ -23842,9 +23856,13 @@
             "7",
             "8",
             "9"
+          ],
+          "Stadtbus": [
+            "EV 2",
+            "EV 7"
           ]
         },
-        "total_lines": 10
+        "total_lines": 12
       }
     },
     {
@@ -24817,7 +24835,7 @@
           ],
           "Stadtbus": [
             "86",
-            "EV 1/2"
+            "EV 2"
           ]
         },
         "total_lines": 5
@@ -25122,7 +25140,7 @@
             "2"
           ],
           "Stadtbus": [
-            "EV 1/2"
+            "EV 2"
           ]
         },
         "total_lines": 4
@@ -25737,7 +25755,7 @@
           ],
           "Stadtbus": [
             "87",
-            "EV 1/2"
+            "EV 2"
           ]
         },
         "total_lines": 5
@@ -25987,9 +26005,13 @@
             "7",
             "8",
             "9"
+          ],
+          "Stadtbus": [
+            "EV 2",
+            "EV 7"
           ]
         },
-        "total_lines": 10
+        "total_lines": 12
       }
     },
     {
@@ -26194,7 +26216,7 @@
         "lines": {
           "Stadtbus": [
             "65",
-            "EV 1/2"
+            "EV 2"
           ]
         },
         "total_lines": 2
@@ -26541,6 +26563,7 @@
         "lines": {
           "Straßenbahn": [
             "11",
+            "13",
             "4"
           ],
           "Stadtbus": [
@@ -26551,7 +26574,7 @@
             "alita 63"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -26904,7 +26927,7 @@
         "lines": {
           "Stadtbus": [
             "65",
-            "EV 1/2"
+            "EV 2"
           ]
         },
         "total_lines": 2
@@ -28150,7 +28173,7 @@
             "2"
           ],
           "Stadtbus": [
-            "EV 1/2"
+            "EV 2"
           ]
         },
         "total_lines": 4
@@ -28468,7 +28491,7 @@
         "lines": {
           "Stadtbus": [
             "65",
-            "EV 1/2"
+            "EV 2"
           ]
         },
         "total_lines": 2
@@ -28594,7 +28617,7 @@
             "2"
           ],
           "Stadtbus": [
-            "EV 1/2"
+            "EV 2"
           ]
         },
         "total_lines": 4
@@ -28800,7 +28823,7 @@
           ],
           "Stadtbus": [
             "65",
-            "EV 1/2"
+            "EV 2"
           ]
         },
         "total_lines": 5
@@ -29131,7 +29154,7 @@
             "9"
           ],
           "Stadtbus": [
-            "EV 1/2"
+            "EV 2"
           ]
         },
         "total_lines": 6
@@ -29210,13 +29233,14 @@
         "lines": {
           "Straßenbahn": [
             "11",
+            "13",
             "4"
           ],
           "Stadtbus": [
             "85"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -29364,7 +29388,7 @@
             "162",
             "65",
             "86",
-            "EV 1/2"
+            "EV 2"
           ],
           "Regionalbus": [
             "386"
@@ -30255,9 +30279,13 @@
             "7",
             "8",
             "9"
+          ],
+          "Stadtbus": [
+            "EV 2",
+            "EV 7"
           ]
         },
-        "total_lines": 10
+        "total_lines": 12
       }
     },
     {
@@ -31038,11 +31066,12 @@
         "lines": {
           "Stadtbus": [
             "63",
+            "963",
             "98A",
             "98B"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -31244,6 +31273,7 @@
         "lines": {
           "Straßenbahn": [
             "11",
+            "13",
             "4"
           ],
           "Stadtbus": [
@@ -31252,7 +31282,7 @@
             "H/S (Pirna)"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -33395,11 +33425,14 @@
         ],
         "lines": {
           "Straßenbahn": [
+            "10",
+            "11",
+            "12",
             "6",
             "7"
           ]
         },
-        "total_lines": 2
+        "total_lines": 5
       }
     },
     {
@@ -33451,17 +33484,19 @@
         "city": "Dresden",
         "name_with_city": "Dresden Würzburger Straße",
         "operators": [
-          "DVB"
+          "DVB",
+          "RVSOE"
         ],
         "lines": {
           "Stadtbus": [
+            "160",
             "61",
             "62",
             "63",
             "85"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -33520,6 +33555,7 @@
         "lines": {
           "Straßenbahn": [
             "11",
+            "13",
             "4"
           ],
           "Stadtbus": [
@@ -33527,7 +33563,7 @@
             "63"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -33880,7 +33916,7 @@
             "61",
             "64",
             "85",
-            "EV 1/2"
+            "EV 2"
           ]
         },
         "total_lines": 7
@@ -38140,6 +38176,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.656863,
+          50.990724
+        ]
+      },
+      "properties": {
+        "id": "de:14628:1198",
+        "numeric_id": "33001198",
+        "name": "Schweinsdorf Wilhelm-Müller-Straße",
+        "city": "Freital",
+        "name_with_city": "Freital Schweinsdorf Wilhelm-Müller-Straße",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "162"
+          ],
+          "PlusBus": [
+            "163"
+          ]
+        },
+        "total_lines": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.635591,
           50.985188
         ]
@@ -41199,7 +41264,8 @@
             "162",
             "70",
             "90",
-            "91"
+            "91",
+            "EV 7"
           ],
           "Anruflinienbus": [
             "91"
@@ -41211,7 +41277,7 @@
             "337"
           ]
         },
-        "total_lines": 8
+        "total_lines": 9
       }
     },
     {
@@ -41292,13 +41358,14 @@
           ],
           "Stadtbus": [
             "70",
-            "91"
+            "91",
+            "EV 7"
           ],
           "PlusBus": [
             "333"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -68875,7 +68942,6 @@
         "city": "Meißen",
         "name_with_city": "Meißen Niesnerstraße",
         "operators": [
-          "DB Regio AG Südost",
           "VGM"
         ],
         "lines": {
@@ -68887,12 +68953,9 @@
           ],
           "Stadtbus": [
             "C (Meißen)"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -69261,9 +69324,12 @@
           ],
           "Regionalbus": [
             "Sv190"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -74861,14 +74927,15 @@
           "VGM"
         ],
         "lines": {
-          "Anruflinienbus": [
+          "Regionalbus": [
+            "407",
             "415"
           ],
-          "Regionalbus": [
+          "Anruflinienbus": [
             "415"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -77518,8 +77585,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.047962,
-          51.176488
+          14.048025,
+          51.176477
         ]
       },
       "properties": {
@@ -77533,11 +77600,12 @@
         ],
         "lines": {
           "Regionalbus": [
+            "751",
             "758",
             "764"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -78254,10 +78322,11 @@
         ],
         "lines": {
           "Regionalbus": [
+            "760",
             "761"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -78350,10 +78419,11 @@
             "78"
           ],
           "Regionalbus": [
+            "760",
             "761"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -78479,14 +78549,18 @@
         "city": "Ottendorf-Okrilla",
         "name_with_city": "Ottendorf-Okrilla Einkaufszentrum",
         "operators": [
-          "DVB"
+          "DVB",
+          "RBO"
         ],
         "lines": {
           "Stadtbus": [
             "78"
+          ],
+          "Regionalbus": [
+            "760"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -78593,14 +78667,18 @@
         "city": "Ottendorf-Okrilla",
         "name_with_city": "Ottendorf-Okrilla Jakobsdorfer Straße",
         "operators": [
-          "DVB"
+          "DVB",
+          "RBO"
         ],
         "lines": {
           "Stadtbus": [
             "78"
+          ],
+          "Regionalbus": [
+            "760"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -78653,10 +78731,11 @@
             "78"
           ],
           "Regionalbus": [
+            "760",
             "769"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -79591,10 +79670,11 @@
             "91"
           ],
           "Stadtbus": [
-            "91"
+            "91",
+            "EV 7"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
