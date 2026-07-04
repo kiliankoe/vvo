@@ -1677,7 +1677,6 @@
         "name_with_city": "Bad Schandau Nationalparkbahnhof",
         "operators": [
           "DB Regio AG Südost",
-          "LEO Express",
           "RVSOE",
           "Österreichische Bundesbahnen"
         ],
@@ -16509,7 +16508,6 @@
           "DB Regio AG Südost",
           "DVB",
           "FlixTrain",
-          "LEO Express",
           "Mitteldeutsche Regiobahn",
           "VGM",
           "trilex - Die Länderbahn GmbH DLB",
@@ -21514,7 +21512,6 @@
           "DB Regio AG Südost",
           "DVB",
           "FlixTrain",
-          "LEO Express",
           "Mitteldeutsche Regiobahn",
           "RVSOE",
           "VGM",
@@ -37718,13 +37715,14 @@
           ],
           "Regionalbus": [
             "345",
+            "363",
             "376"
           ],
           "PlusBus": [
             "348"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -38317,11 +38315,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "161",
             "162"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -59137,10 +59134,11 @@
         ],
         "lines": {
           "Regionalbus": [
+            "242",
             "246"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -68941,6 +68939,7 @@
         "city": "Meißen",
         "name_with_city": "Meißen Niesnerstraße",
         "operators": [
+          "DB Regio AG Südost",
           "VGM"
         ],
         "lines": {
@@ -68952,9 +68951,12 @@
           ],
           "Stadtbus": [
             "C (Meißen)"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -69323,12 +69325,9 @@
           ],
           "Regionalbus": [
             "Sv190"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -82037,11 +82036,10 @@
             "237",
             "241",
             "245",
-            "246",
             "207a"
           ]
         },
-        "total_lines": 10
+        "total_lines": 9
       }
     },
     {
@@ -89311,11 +89309,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "403",
-            "405"
+            "403"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -107898,11 +107895,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411",
-            "Sv250"
+            "411"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {

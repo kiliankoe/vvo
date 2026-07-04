@@ -54,7 +54,7 @@ Total stations: 3912
 - VGM: 1172 stations
 - DVB: 775 stations
 - RBO: 713 stations
-- DB Regio AG Südost: 123 stations
+- DB Regio AG Südost: 124 stations
 - VGH: 81 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 68 stations
@@ -70,7 +70,6 @@ Total stations: 3912
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 4 stations
 - DB Regio: 3 stations
-- LEO Express: 3 stations
 - DB Fernverkehr AG: 3 stations
 - FlixTrain: 2 stations
 - Nordsachsen Mobil: 2 stations
@@ -155,5 +154,4 @@ Total stations: 3912
 - Dresden Zeithainer Straße: 10 lines
 - Glashütte (Sachs) Bahnhof / Busbahnhof: 10 lines
 - Königswartha Kirchplatz: 10 lines
-- Pirna Robert-Koch-Straße: 10 lines
 - Tharandt Bahnhof: 10 lines
