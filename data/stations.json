@@ -31502,9 +31502,12 @@
           "462",
           "463",
           "467"
+        ],
+        "Stadtbus": [
+          "A (Großenhain)"
         ]
       },
-      "total_lines": 16
+      "total_lines": 17
     },
     {
       "id": "de:14627:5049",
@@ -32523,10 +32526,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "344"
+          "344",
+          "363"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:1340",
@@ -40512,10 +40516,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "344"
+          "344",
+          "363"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:1398",
@@ -64682,10 +64687,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "403"
+          "403",
+          "405"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4367",

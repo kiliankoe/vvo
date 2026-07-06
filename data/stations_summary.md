@@ -30,7 +30,7 @@ Total stations: 3912
 ## Stations by Transit Type
 
 - Regionalbus: 2696 stations
-- Stadtbus: 1290 stations
+- Stadtbus: 1291 stations
 - PlusBus: 647 stations
 - Anruflinienbus: 480 stations
 - Straßenbahn: 271 stations
@@ -94,13 +94,13 @@ Total stations: 3912
 - Lommatzsch Busbahnhof: 18 lines
 - Dresden Postplatz: 17 lines
 - Dresden Trachenberger Platz: 17 lines
+- Großenhain Lessingplatz: 17 lines
 - Großenhain Mozartallee: 17 lines
 - Meißen S-Bahnhof Altstadt: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
 - Dresden S-Bahnhof Dobritz: 16 lines
 - Freital S-Bf. / Busbf. Deuben: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
-- Großenhain Lessingplatz: 16 lines
 - Kamenz Macherstraße: 16 lines
 - Riesa Sachsenhof: 16 lines
 - Kamenz Schwimmhalle: 15 lines
