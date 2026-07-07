@@ -36900,10 +36900,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "1 (Hoyerswerda)",
           "4 (Hoyerswerda)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:8022",
@@ -56917,10 +56918,11 @@
           "78"
         ],
         "Regionalbus": [
-          "760"
+          "760",
+          "761"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6608",
@@ -57003,10 +57005,11 @@
           "78"
         ],
         "Regionalbus": [
-          "760"
+          "760",
+          "761"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6625",
@@ -57044,10 +57047,11 @@
         ],
         "Regionalbus": [
           "760",
+          "761",
           "769"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14625:6609",
