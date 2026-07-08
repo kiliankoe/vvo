@@ -78,9 +78,9 @@ Total stations: 3912
 ## Major Transit Hubs (10+ lines)
 
 - Meißen Busbahnhof: 33 lines
-- Dresden Hauptbahnhof: 31 lines
+- Dresden Hauptbahnhof: 32 lines
 - Riesa Busbahnhof / Bahnhof: 27 lines
-- Dresden Bahnhof Mitte: 25 lines
+- Dresden Bahnhof Mitte: 26 lines
 - Dresden Bahnhof Neustadt: 25 lines
 - Kamenz Bahnhof: 24 lines
 - Pirna ZOB / Bahnhof: 23 lines
@@ -91,18 +91,21 @@ Total stations: 3912
 - Bischofswerda Bahnhof: 19 lines
 - Riesa Alexander-Puschkin-Platz: 19 lines
 - Riesa Rudolf-Breitscheid-Straße: 19 lines
+- Dresden Trachenberger Platz: 18 lines
 - Lommatzsch Busbahnhof: 18 lines
 - Dresden Postplatz: 17 lines
-- Dresden Trachenberger Platz: 17 lines
 - Großenhain Lessingplatz: 17 lines
 - Großenhain Mozartallee: 17 lines
 - Meißen S-Bahnhof Altstadt: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
 - Dresden S-Bahnhof Dobritz: 16 lines
+- Dresden Tharandter Straße: 16 lines
 - Freital S-Bf. / Busbf. Deuben: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
 - Kamenz Macherstraße: 16 lines
 - Riesa Sachsenhof: 16 lines
+- Dresden Julius-Vahlteich-Straße: 15 lines
+- Dresden Liststraße: 15 lines
 - Kamenz Schwimmhalle: 15 lines
 - Meißen Uferstraße: 15 lines
 - Pirna Breite Straße: 15 lines
@@ -110,7 +113,7 @@ Total stations: 3912
 - Bad Schandau Nationalparkbahnhof: 14 lines
 - Dippoldiswalde Busbahnhof: 14 lines
 - Dresden Bahnhof Klotzsche: 14 lines
-- Dresden Liststraße: 14 lines
+- Dresden Großenhainer Platz: 14 lines
 - Dresden Walpurgisstraße: 14 lines
 - Heidenau (Sachs) Bahnhof: 14 lines
 - Hoyerswerda Behördenpark: 14 lines
@@ -119,15 +122,14 @@ Total stations: 3912
 - Lommatzsch Parkstraße: 14 lines
 - Meißen Neugasse: 14 lines
 - Meißen Talbad: 14 lines
-- Dresden Großenhainer Platz: 13 lines
-- Dresden Julius-Vahlteich-Straße: 13 lines
-- Dresden Tharandter Straße: 13 lines
+- Dresden Bühlau Ullersdorfer Platz: 13 lines
+- Dresden S-Bf. Freiberger Straße: 13 lines
 - Kamenz Flugplatz: 13 lines
 - Nossen Markt: 13 lines
 - Nossen Talstraße: 13 lines
 - Pirna Copitz Schulstraße: 13 lines
 - Coswig (b Dresden) Bahnhof: 12 lines
-- Dresden Bühlau Ullersdorfer Platz: 12 lines
+- Dresden Bahnhof Neustadt (Hansastraße): 12 lines
 - Dresden Kirschenstraße: 12 lines
 - Dresden Merianplatz: 12 lines
 - Dresden Prager Straße: 12 lines
@@ -137,21 +139,23 @@ Total stations: 3912
 - Pulsnitz Bahnhof: 12 lines
 - Riesa Goethestraße: 12 lines
 - Bad Schandau Elbkai: 11 lines
-- Dresden Bahnhof Neustadt (Hansastraße): 11 lines
 - Dresden Betriebshof Gorbitz: 11 lines
+- Dresden Bünaustraße: 11 lines
 - Dresden Dahlienweg: 11 lines
+- Dresden Lößnitzstraße: 11 lines
 - Dresden Pirnaischer Platz: 11 lines
-- Dresden S-Bf. Freiberger Straße: 11 lines
+- Dresden Zeithainer Straße: 11 lines
 - Freital S-Bahnhof Hainsberg: 11 lines
 - Großenhain Hohe Straße: 11 lines
 - Sebnitz Bahnhof: 11 lines
 - Bischofswerda Schulstraße: 10 lines
 - Cossebaude/Neu-Leuteritz Bahnhof: 10 lines
 - Dresden Amalie-Dietrich-Platz: 10 lines
+- Dresden Anton-/Leipziger Straße: 10 lines
+- Dresden Koblenzer Straße: 10 lines
 - Dresden Koreanischer Platz: 10 lines
-- Dresden Lößnitzstraße: 10 lines
+- Dresden Malterstraße: 10 lines
 - Dresden Schillerplatz: 10 lines
-- Dresden Zeithainer Straße: 10 lines
 - Glashütte (Sachs) Bahnhof / Busbahnhof: 10 lines
 - Königswartha Kirchplatz: 10 lines
 - Tharandt Bahnhof: 10 lines
