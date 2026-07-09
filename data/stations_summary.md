@@ -35,8 +35,8 @@ Total stations: 3912
 - Anruflinienbus: 480 stations
 - Straßenbahn: 271 stations
 - Anruflinientaxi: 201 stations
-- Ersatzverkehr: 114 stations
-- Zug: 102 stations
+- Ersatzverkehr: 119 stations
+- Zug: 105 stations
 - Taktbus: 101 stations
 - S-Bahn: 54 stations
 - Bus: 49 stations
@@ -54,15 +54,15 @@ Total stations: 3912
 - VGM: 1172 stations
 - DVB: 775 stations
 - RBO: 713 stations
-- DB Regio AG Südost: 124 stations
+- DB Regio AG Südost: 126 stations
 - VGH: 81 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 68 stations
 - Müller Busreisen: 58 stations
 - SATRA: 43 stations
 - RBM: 31 stations
+- DB AG: 29 stations
 - SDG: 24 stations
-- DB AG: 24 stations
 - Mitteldeutsche Regiobahn: 21 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
 - Cottbusverkehr GmbH: 11 stations
@@ -70,6 +70,7 @@ Total stations: 3912
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 4 stations
 - DB Regio: 3 stations
+- LEO Express: 3 stations
 - DB Fernverkehr AG: 3 stations
 - FlixTrain: 2 stations
 - Nordsachsen Mobil: 2 stations
@@ -79,8 +80,8 @@ Total stations: 3912
 
 - Meißen Busbahnhof: 33 lines
 - Dresden Hauptbahnhof: 32 lines
+- Dresden Bahnhof Mitte: 27 lines
 - Riesa Busbahnhof / Bahnhof: 27 lines
-- Dresden Bahnhof Mitte: 26 lines
 - Dresden Bahnhof Neustadt: 25 lines
 - Kamenz Bahnhof: 24 lines
 - Pirna ZOB / Bahnhof: 23 lines

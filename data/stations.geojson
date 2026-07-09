@@ -1677,6 +1677,7 @@
         "name_with_city": "Bad Schandau Nationalparkbahnhof",
         "operators": [
           "DB Regio AG Südost",
+          "LEO Express",
           "RVSOE",
           "Österreichische Bundesbahnen"
         ],
@@ -7932,14 +7933,18 @@
         "city": "Burkhardswalde (PIR)",
         "name_with_city": "Burkhardswalde (PIR) Talstraße (Bf)",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "201"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -13629,9 +13634,12 @@
           ],
           "Stadtbus": [
             "B (Heidenau)"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -16447,6 +16455,7 @@
         "city": "Dresden",
         "name_with_city": "Dresden Bahnhof Mitte",
         "operators": [
+          "DB AG",
           "DB Regio AG Südost",
           "DVB",
           "Mitteldeutsche Regiobahn",
@@ -16477,6 +16486,7 @@
             "RB60",
             "RB61",
             "RE1",
+            "RE18",
             "RE2",
             "RE3",
             "RE50"
@@ -16490,7 +16500,7 @@
             "SEV"
           ]
         },
-        "total_lines": 26
+        "total_lines": 27
       }
     },
     {
@@ -16514,6 +16524,7 @@
           "DB Regio AG Südost",
           "DVB",
           "FlixTrain",
+          "LEO Express",
           "Mitteldeutsche Regiobahn",
           "VGM",
           "trilex - Die Länderbahn GmbH DLB",
@@ -21544,6 +21555,7 @@
           "DB Regio AG Südost",
           "DVB",
           "FlixTrain",
+          "LEO Express",
           "Mitteldeutsche Regiobahn",
           "RVSOE",
           "VGM",
@@ -44882,11 +44894,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "344",
-            "363"
+            "344"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -55977,11 +55988,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "344",
-            "363"
+            "344"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -59560,9 +59570,12 @@
           ],
           "Zug": [
             "RB72"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -71813,9 +71826,12 @@
           ],
           "Zug": [
             "RB72"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -78484,9 +78500,9 @@
       "properties": {
         "id": "de:14625:6614",
         "numeric_id": "33006614",
-        "name": "Bergener Ring",
+        "name": "Bergener Ring Mitte",
         "city": "Ottendorf-Okrilla",
-        "name_with_city": "Ottendorf-Okrilla Bergener Ring",
+        "name_with_city": "Ottendorf-Okrilla Bergener Ring Mitte",
         "operators": [
           "DVB",
           "RBO"
@@ -88484,6 +88500,7 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul S-Bahnhof Kötzschenbroda",
         "operators": [
+          "DB AG",
           "DB Regio AG Südost",
           "VGM"
         ],
@@ -88493,11 +88510,14 @@
             "475",
             "476"
           ],
+          "Zug": [
+            "RE15"
+          ],
           "S-Bahn": [
             "S1"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -88516,6 +88536,7 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul S-Bahnhof Ost",
         "operators": [
+          "DB AG",
           "DB Regio AG Südost",
           "SDG",
           "VGM"
@@ -88526,6 +88547,7 @@
             "Sv280"
           ],
           "Zug": [
+            "RE15",
             "RE50"
           ],
           "S-Bahn": [
@@ -88535,7 +88557,7 @@
             "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -88580,6 +88602,7 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul S-Bahnhof Weintraube",
         "operators": [
+          "DB AG",
           "DB Regio AG Südost",
           "DVB"
         ],
@@ -88587,11 +88610,14 @@
           "Stadtbus": [
             "72"
           ],
+          "Zug": [
+            "RE15"
+          ],
           "S-Bahn": [
             "S1"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -88610,14 +88636,18 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul S-Bahnhof Zitzschewig",
         "operators": [
+          "DB AG",
           "DB Regio AG Südost"
         ],
         "lines": {
+          "Zug": [
+            "RE15"
+          ],
           "S-Bahn": [
             "S1"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -107578,15 +107608,19 @@
         "city": "Weesenstein",
         "name_with_city": "Weesenstein Gemeindeamt",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "201",
             "202"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {

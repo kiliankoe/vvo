@@ -57,7 +57,7 @@ de:14628:3621,33003621,Elbkai,Bad Schandau,Bad Schandau Elbkai,50.917758,14.1494
 de:14628:3629,33003629,Kiefricht,Bad Schandau,Bad Schandau Kiefricht,50.927804,14.16247,RVSOE,1,,,,
 de:14628:3622,33003622,Kurpark,Bad Schandau,Bad Schandau Kurpark,50.920913,14.157772,RVSOE,4,Kirnitzschtalbahn,,,
 de:14628:3626,33003626,Marktplatz,Bad Schandau,Bad Schandau Marktplatz,50.917679,14.153092,RVSOE,2,,,,
-de:14628:3620,33003620,Nationalparkbahnhof,Bad Schandau,Bad Schandau Nationalparkbahnhof,50.91927,14.138099,DB Regio AG Südost|RVSOE|Österreichische Bundesbahnen,14,,,RE20|RE50|U28,S1
+de:14628:3620,33003620,Nationalparkbahnhof,Bad Schandau,Bad Schandau Nationalparkbahnhof,50.91927,14.138099,DB Regio AG Südost|LEO Express|RVSOE|Österreichische Bundesbahnen,14,,,RE20|RE50|U28,S1
 de:14628:3627,33003627,Personenaufzug,Bad Schandau,Bad Schandau Personenaufzug,50.916541,14.160575,RVSOE,1,,,,
 de:14628:3624,33003624,Waldhäus´l,Bad Schandau,Bad Schandau Waldhäus´l,50.925114,14.180527,RVSOE,2,Kirnitzschtalbahn,,,
 de:14627:4969,33004969,Abzw Badersen/Dobschütz,Badersen,Badersen Abzw Badersen/Dobschütz,51.14645,13.275833,VGM,4,,,,
@@ -277,7 +277,7 @@ de:14628:3143,33003143,Am Kanitz,Burkhardswalde (PIR),Burkhardswalde (PIR) Am Ka
 de:14628:3146,33003146,An der Siedlung,Burkhardswalde (PIR),Burkhardswalde (PIR) An der Siedlung,50.924112,13.857519,RVSOE,1,,,,
 de:14628:3147,33003147,Bahnhof,Burkhardswalde (PIR),Burkhardswalde (PIR) Bahnhof,50.925341,13.838583,DB Regio AG Südost|RVSOE,2,,,RB72,
 de:14628:3148,33003148,Dorfplatz,Burkhardswalde (PIR),Burkhardswalde (PIR) Dorfplatz,50.921541,13.857519,RVSOE,3,,,,
-de:14628:3149,33003149,Talstraße (Bf),Burkhardswalde (PIR),Burkhardswalde (PIR) Talstraße (Bf),50.925652,13.838781,RVSOE,1,,,,
+de:14628:3149,33003149,Talstraße (Bf),Burkhardswalde (PIR),Burkhardswalde (PIR) Talstraße (Bf),50.925652,13.838781,DB Regio AG Südost|RVSOE,2,,,,
 de:14628:1546,33001546,Felsenburg,Bärenfels,Bärenfels Felsenburg,50.793209,13.67464,RVSOE,1,,,,
 de:14628:1544,33001544,Mühle,Bärenfels,Bärenfels Mühle,50.797473,13.677784,RVSOE,3,,,,
 de:14628:1545,33001545,Parkplatz,Bärenfels,Bärenfels Parkplatz,50.795179,13.674434,RVSOE,1,,,,
@@ -480,7 +480,7 @@ de:14628:3364,33003364,Weinleite,Dohma,Dohma Weinleite,50.92585,13.926205,RVSOE,
 de:14628:3362,33003362,Wendeplatz,Dohma,Dohma Wendeplatz,50.920029,13.930067,RVSOE,3,,Z (Pirna),,
 de:14628:3105,33003105,Altenberger Straße,Dohna,Dohna Altenberger Straße,50.949734,13.858714,RVSOE,2,,,,
 de:14628:3109,33003109,Am Kronenhügel,Dohna,Dohna Am Kronenhügel,50.962811,13.865802,RVSOE,1,,A (Heidenau),,
-de:14628:3103,33003103,Bahnhof,Dohna,Dohna Bahnhof,50.961153,13.855723,DB Regio AG Südost|RVSOE,5,,B (Heidenau),RB72,
+de:14628:3103,33003103,Bahnhof,Dohna,Dohna Bahnhof,50.961153,13.855723,DB Regio AG Südost|RVSOE,6,,B (Heidenau),RB72,
 de:14628:3108,33003108,Dresdner Straße,Dohna,Dohna Dresdner Straße,50.958731,13.857663,RVSOE,3,,B (Heidenau),,
 de:14628:3110,33003110,Gewerbering,Dohna,Dohna Gewerbering,50.949326,13.865101,RVSOE,3,,,,
 de:14628:3107,33003107,Markt,Dohna,Dohna Markt,50.955098,13.857807,RVSOE,5,,A (Heidenau)|B (Heidenau),,
@@ -575,8 +575,8 @@ de:14612:48,33000048,Augsburger Straße,Dresden,Dresden Augsburger Straße,51.05
 de:14612:737,33000737,Babisnauer Straße,Dresden,Dresden Babisnauer Straße,51.013234,13.742957,DVB,3,,63|66,,
 de:14612:192,33000192,Bahnhof Friedrichstadt,Dresden,Dresden Bahnhof Friedrichstadt,51.056026,13.708192,DB AG,2,,,RB31,
 de:14612:658,33000658,Bahnhof Klotzsche,Dresden,Dresden Bahnhof Klotzsche,51.11483,13.789041,DB Regio AG Südost|DVB|RBO|trilex - Die Länderbahn GmbH DLB,14,,70|78|80|EV 7,RB33|RB60|RB61|RE1|RE2,S2|S8
-de:14612:1,33000001,Bahnhof Mitte,Dresden,Dresden Bahnhof Mitte,51.055642,13.723392,DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn|trilex - Die Länderbahn GmbH DLB,26,1|10|11|12|2|20|3|41|6|7|8|9,68|92,RB30|RB31|RB60|RB61|RE1|RE2|RE3|RE50,S1|S2|S8
-de:14612:16,33000016,Bahnhof Neustadt,Dresden,Dresden Bahnhof Neustadt,51.065426,13.740882,DB AG|DB Fernverkehr AG|DB Regio AG Südost|DVB|FlixTrain|Mitteldeutsche Regiobahn|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,25,11|3|6|7|8|9,81,RB30|RB31|RB33|RB60|RB61|RE1|RE15|RE17|RE18|RE2|RE3|RE50,S1|S2|S8
+de:14612:1,33000001,Bahnhof Mitte,Dresden,Dresden Bahnhof Mitte,51.055642,13.723392,DB AG|DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn|trilex - Die Länderbahn GmbH DLB,27,1|10|11|12|2|20|3|41|6|7|8|9,68|92,RB30|RB31|RB60|RB61|RE1|RE18|RE2|RE3|RE50,S1|S2|S8
+de:14612:16,33000016,Bahnhof Neustadt,Dresden,Dresden Bahnhof Neustadt,51.065426,13.740882,DB AG|DB Fernverkehr AG|DB Regio AG Südost|DVB|FlixTrain|LEO Express|Mitteldeutsche Regiobahn|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,25,11|3|6|7|8|9,81,RB30|RB31|RB33|RB60|RB61|RE1|RE15|RE17|RE18|RE2|RE3|RE50,S1|S2|S8
 de:14612:198,33000198,Bahnhof Neustadt (Hansastraße),Dresden,Dresden Bahnhof Neustadt (Hansastraße),51.066374,13.739112,DVB|VGM,12,10|11|13|20|3|4|41|6|7|8|9,,,
 de:14612:943,33000943,Bahnhofstraße,Dresden,Dresden Bahnhofstraße,51.002268,13.84188,DVB,4,,65|88,,
 de:14612:720,33000720,Bamberger Straße,Dresden,Dresden Bamberger Straße,51.03392,13.71245,DVB,3,,61|62|63,,
@@ -744,7 +744,7 @@ de:14612:186,33000186,Hamburger Straße,Dresden,Dresden Hamburger Straße,51.059
 de:14612:548,33000548,Hammeraue,Dresden,Dresden Hammeraue,51.067932,13.666277,SATRA,4,,91|93,,
 de:14612:764,33000764,Hans-Dankner-Straße,Dresden,Dresden Hans-Dankner-Straße,51.042591,13.742086,DVB,2,,62|68,,
 de:14612:287,33000287,Hans-Oster-Straße,Dresden,Dresden Hans-Oster-Straße,51.074909,13.760654,DVB,1,,64,,
-de:14612:28,33000028,Hauptbahnhof,Dresden,Dresden Hauptbahnhof,51.03993,13.732932,DB Fernverkehr AG|DB Regio AG Südost|DVB|FlixTrain|Mitteldeutsche Regiobahn|RVSOE|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,32,10|11|20|3|41|7|8,62|66|68|H/S (Pirna),RB30|RB60|RB61|RE1|RE19|RE2|RE20|RE3|RE50,S1|S2|S3|S8
+de:14612:28,33000028,Hauptbahnhof,Dresden,Dresden Hauptbahnhof,51.03993,13.732932,DB Fernverkehr AG|DB Regio AG Südost|DVB|FlixTrain|LEO Express|Mitteldeutsche Regiobahn|RVSOE|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,32,10|11|20|3|41|7|8,62|66|68|H/S (Pirna),RB30|RB60|RB61|RE1|RE19|RE2|RE20|RE3|RE50,S1|S2|S3|S8
 de:14612:36,33000036,Hauptbahnhof (Strehlener Str.),Dresden,Dresden Hauptbahnhof (Strehlener Str.),51.038671,13.734279,DB AG|DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn|trilex - Die Länderbahn GmbH DLB,3,,66,,
 de:14612:32,33000032,Hauptbahnhof Nord,Dresden,Dresden Hauptbahnhof Nord,51.041365,13.735088,DVB,8,10|11|12|20|3|4|7,68,,
 de:14612:179,33000179,Hebbelplatz,Dresden,Dresden Hebbelplatz,51.051333,13.682743,DVB,6,1|10|11|2|8|9,,,
@@ -1534,7 +1534,7 @@ de:14628:3168,33003168,Denkmal,Großröhrsdorf (PIR),Großröhrsdorf (PIR) Denkm
 de:14628:3167,33003167,Wendeplatz,Großröhrsdorf (PIR),Großröhrsdorf (PIR) Wendeplatz,50.89298,13.82571,RVSOE,2,,,,
 de:14627:5587,33005587,Großrügeln,Großrügeln,Großrügeln Großrügeln,51.333857,13.227351,VGM,1,,,,
 de:14627:5994,33005994,Grubnitz,Grubnitz (b Riesa),Grubnitz (b Riesa) Grubnitz,51.26372,13.231097,VGM,2,,,,
-de:14628:1343,33001343,Am Kalkofen,Grumbach (Sachsen),Grumbach (Sachsen) Am Kalkofen,51.010448,13.56139,RVSOE,2,,,,
+de:14628:1343,33001343,Am Kalkofen,Grumbach (Sachsen),Grumbach (Sachsen) Am Kalkofen,51.010448,13.56139,RVSOE,1,,,,
 de:14628:1340,33001340,Braunsdorfer Straße,Grumbach (Sachsen),Grumbach (Sachsen) Braunsdorfer Straße,51.018789,13.559306,RVSOE,2,,,,
 de:14628:1341,33001341,Kirche,Grumbach (Sachsen),Grumbach (Sachsen) Kirche,51.025932,13.552946,RVSOE,2,,,,
 de:14628:1345,33001345,Mühlweg,Grumbach (Sachsen),Grumbach (Sachsen) Mühlweg,51.03496,13.548131,RVSOE,4,,,,
@@ -1922,7 +1922,7 @@ de:14627:4511,33004511,Kleinkagen,Kleinkagen,Kleinkagen Kleinkagen,51.169803,13.
 de:14627:5473,33005473,Am Eichberg,Kleinnaundorf/Kr MEI,Kleinnaundorf/Kr MEI Am Eichberg,51.244655,13.785052,VGM,1,,,,
 de:14627:5465,33005465,Feldmühle,Kleinnaundorf/Kr MEI,Kleinnaundorf/Kr MEI Feldmühle,51.249114,13.780498,VGM,1,,,,
 de:14627:5474,33005474,Zum Springbach,Kleinnaundorf/Kr MEI,Kleinnaundorf/Kr MEI Zum Springbach,51.245409,13.789966,VGM,1,,,,
-de:14628:1228,33001228,Abzweig Fördergersdorf,Kleinopitz,Kleinopitz Abzweig Fördergersdorf,51.000539,13.571406,RVSOE,2,,,,
+de:14628:1228,33001228,Abzweig Fördergersdorf,Kleinopitz,Kleinopitz Abzweig Fördergersdorf,51.000539,13.571406,RVSOE,1,,,,
 de:14628:1398,33001398,Kreuzstraße,Kleinopitz,Kleinopitz Kreuzstraße,51.00622,13.590073,RVSOE,3,,164,,
 de:14628:1397,33001397,Weißiger Straße,Kleinopitz,Kleinopitz Weißiger Straße,51.002811,13.592319,RVSOE,2,,164,,
 de:14628:1399,33001399,Wendeplatz,Kleinopitz,Kleinopitz Wendeplatz,51.006802,13.595508,RVSOE,3,,164,,
@@ -2047,7 +2047,7 @@ de:14625:7736,33007736,Grundschule,Königswartha,Königswartha Grundschule,51.31
 de:14625:7733,33007733,Kirchplatz,Königswartha,Königswartha Kirchplatz,51.309711,14.32856,RBO|SchmidtSchwarz GmbH & CO. KG,10,,,,
 de:14625:7734,33007734,Neudorfer Straße,Königswartha,Königswartha Neudorfer Straße,51.309464,14.334156,RBO,3,,,,
 de:14628:3116,33003116,Alte Poststraße,Köttewitz,Köttewitz Alte Poststraße,50.939574,13.873914,RVSOE,1,,,,
-de:14628:3113,33003113,Haltepunkt,Köttewitz,Köttewitz Haltepunkt,50.945025,13.860196,DB Regio AG Südost|RVSOE,3,,,RB72,
+de:14628:3113,33003113,Haltepunkt,Köttewitz,Köttewitz Haltepunkt,50.945025,13.860196,DB Regio AG Südost|RVSOE,4,,,RB72,
 de:14628:3115,33003115,Steinbank,Köttewitz,Köttewitz Steinbank,50.939659,13.873222,RVSOE,1,,,,
 de:14627:4744,33004744,Lampersdorf,Lampersdorf b Meißen,Lampersdorf b Meißen Lampersdorf,51.077878,13.486057,VGM,2,,,,
 de:14627:5443,33005443,Abzw Mühlbach,Lampertswalde (Kr MEI),Lampertswalde (Kr MEI) Abzw Mühlbach,51.303719,13.670418,VGM,2,,,,
@@ -2469,7 +2469,7 @@ de:14625:6365,33006365,Bergweg,Möhrsdorf,Möhrsdorf Bergweg,51.209839,14.073564
 de:14625:6369,33006369,Strauchmühle,Möhrsdorf,Möhrsdorf Strauchmühle,51.214672,14.072441,RBO,2,,,,
 de:14628:1837,33001837,Abzweig Fürstenau,Müglitz,Müglitz Abzweig Fürstenau,50.745361,13.860394,RVSOE,1,,,,
 de:14627:5446,33005446,Mühlbach b Großenhain,Mühlbach (b Großenhain),Mühlbach (b Großenhain) Mühlbach b Großenhain,51.295811,13.666735,VGM,2,,,,
-de:14628:3144,33003144,Bahnhof,Mühlbach (b Pirna),Mühlbach (b Pirna) Bahnhof,50.914253,13.818443,DB Regio AG Südost|RVSOE,4,,,RB72,
+de:14628:3144,33003144,Bahnhof,Mühlbach (b Pirna),Mühlbach (b Pirna) Bahnhof,50.914253,13.818443,DB Regio AG Südost|RVSOE,5,,,RB72,
 de:14628:3142,33003142,Siedlung,Mühlbach (b Pirna),Mühlbach (b Pirna) Siedlung,50.915991,13.826159,RVSOE,2,,,,
 de:14628:3145,33003145,Wendeplatz,Mühlbach (b Pirna),Mühlbach (b Pirna) Wendeplatz,50.913329,13.817383,RVSOE,2,,,,
 de:14625:6847,33006847,Feuerwehrschule,Nardt,Nardt Feuerwehrschule,51.452604,14.188531,RBO|Verkehrsgesellschaft Oberspreewald-Lausitz mbH,3,,,,
@@ -2699,7 +2699,7 @@ de:14625:6615,33006615,An den Erlwiesen,Ottendorf-Okrilla,Ottendorf-Okrilla An d
 de:14625:6605,33006605,An den Schindertannen,Ottendorf-Okrilla,Ottendorf-Okrilla An den Schindertannen,51.175013,13.848815,RBO,2,,,,
 de:14625:6627,33006627,Auenstraße,Ottendorf-Okrilla,Ottendorf-Okrilla Auenstraße,51.181799,13.847099,RBO,2,,,,
 de:14625:6600,33006600,Bahnhof Süd,Ottendorf-Okrilla,Ottendorf-Okrilla Bahnhof Süd,51.177322,13.824839,DB Regio AG Südost|DVB|RBO,6,,78,RB33,
-de:14625:6614,33006614,Bergener Ring,Ottendorf-Okrilla,Ottendorf-Okrilla Bergener Ring,51.179721,13.838646,DVB|RBO,3,,78,,
+de:14625:6614,33006614,Bergener Ring Mitte,Ottendorf-Okrilla,Ottendorf-Okrilla Bergener Ring Mitte,51.179721,13.838646,DVB|RBO,3,,78,,
 de:14625:6623,33006623,Bergener Ring Nord,Ottendorf-Okrilla,Ottendorf-Okrilla Bergener Ring Nord,51.183747,13.837011,RBO,1,,,,
 de:14625:6624,33006624,Bergener Ring Ost,Ottendorf-Okrilla,Ottendorf-Okrilla Bergener Ring Ost,51.177147,13.843721,RBO,1,,,,
 de:14625:6602,33006602,Bf Nord,Ottendorf-Okrilla,Ottendorf-Okrilla Bf Nord,51.197175,13.835008,DB Regio AG Südost,2,,,RB33,
@@ -3045,11 +3045,11 @@ de:14627:4226,33004226,Radebl. West (Flemmingstraße),Radebeul,Radebeul Radebl. 
 de:14627:4255,33004255,Reichsstraße,Radebeul,Radebeul Reichsstraße,51.108705,13.682384,DVB,1,,72,,
 de:14627:4266,33004266,Rennerbergstraße,Radebeul,Radebeul Rennerbergstraße,51.108694,13.658408,VGM,1,,,,
 de:14627:4285,33004285,Riesestraße,Radebeul,Radebeul Riesestraße,51.102349,13.668262,DVB|VGM,2,,72,,
-de:14627:4212,33004212,S-Bahnhof Kötzschenbroda,Radebeul,Radebeul S-Bahnhof Kötzschenbroda,51.107577,13.62941,DB Regio AG Südost|VGM,4,,,,S1
-de:14627:4210,33004210,S-Bahnhof Ost,Radebeul,Radebeul S-Bahnhof Ost,51.098417,13.680039,DB Regio AG Südost|SDG|VGM,5,,,RE50,S1
+de:14627:4212,33004212,S-Bahnhof Kötzschenbroda,Radebeul,Radebeul S-Bahnhof Kötzschenbroda,51.107577,13.62941,DB AG|DB Regio AG Südost|VGM,5,,,RE15,S1
+de:14627:4210,33004210,S-Bahnhof Ost,Radebeul,Radebeul S-Bahnhof Ost,51.098417,13.680039,DB AG|DB Regio AG Südost|SDG|VGM,6,,,RE15|RE50,S1
 de:14627:4238,33004238,S-Bahnhof Ost Südausgang,Radebeul,Radebeul S-Bahnhof Ost Südausgang,51.097977,13.677398,VGM,1,,,,
-de:14627:4211,33004211,S-Bahnhof Weintraube,Radebeul,Radebeul S-Bahnhof Weintraube,51.103014,13.656602,DB Regio AG Südost|DVB,2,,72,,S1
-de:14627:4213,33004213,S-Bahnhof Zitzschewig,Radebeul,Radebeul S-Bahnhof Zitzschewig,51.114503,13.606692,DB Regio AG Südost,1,,,,S1
+de:14627:4211,33004211,S-Bahnhof Weintraube,Radebeul,Radebeul S-Bahnhof Weintraube,51.103014,13.656602,DB AG|DB Regio AG Südost|DVB,3,,72,RE15,S1
+de:14627:4213,33004213,S-Bahnhof Zitzschewig,Radebeul,Radebeul S-Bahnhof Zitzschewig,51.114503,13.606692,DB AG|DB Regio AG Südost,2,,,RE15,S1
 de:14627:4218,33004218,Schildenstraße,Radebeul,Radebeul Schildenstraße,51.103804,13.674128,DVB,1,4,,,
 de:14627:4227,33004227,Schloss Wackerbarth,Radebeul,Radebeul Schloss Wackerbarth,51.112913,13.618639,DVB,1,4,,,
 de:14627:4236,33004236,Seestraße,Radebeul,Radebeul Seestraße,51.091652,13.687585,VGM,1,,,,
@@ -3716,7 +3716,7 @@ de:14627:4959,33004959,Abzw Wauden,Wauden,Wauden Abzw Wauden,51.180976,13.28222,
 de:14627:4966,33004966,Wauden,Wauden,Wauden Wauden,51.175863,13.275761,VGM,3,,,,
 de:14628:3131,33003131,Abzweig nach Maxen,Weesenstein,Weesenstein Abzweig nach Maxen,50.939008,13.860367,RVSOE,2,,,,
 de:14628:3130,33003130,Bahnhof,Weesenstein,Weesenstein Bahnhof,50.936155,13.862676,DB Regio AG Südost,2,,,RB72|RE19,
-de:14628:3132,33003132,Gemeindeamt,Weesenstein,Weesenstein Gemeindeamt,50.934394,13.862667,RVSOE,2,,,,
+de:14628:3132,33003132,Gemeindeamt,Weesenstein,Weesenstein Gemeindeamt,50.934394,13.862667,DB Regio AG Südost|RVSOE,3,,,,
 de:14628:3133,33003133,Müglitzbrücke,Weesenstein,Weesenstein Müglitzbrücke,50.929389,13.849821,RVSOE,1,,,,
 de:14627:4142,33004142,Am Sandweg,Weinböhla,Weinböhla Am Sandweg,51.171222,13.564157,VGM,3,,,,
 de:14627:4150,33004150,Bahnhofstraße,Weinböhla,Weinböhla Bahnhofstraße,51.164226,13.573445,VGM,3,,,,
