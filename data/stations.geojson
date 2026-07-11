@@ -231,9 +231,12 @@
           "Zug": [
             "RB72",
             "RE19"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 9
+        "total_lines": 10
       }
     },
     {
@@ -8134,9 +8137,12 @@
           ],
           "Zug": [
             "RB72"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -8164,9 +8170,12 @@
           ],
           "Zug": [
             "RB72"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -15860,6 +15869,7 @@
         "city": "Dresden",
         "name_with_city": "Dresden Ammonstraße / Budapester Straße",
         "operators": [
+          "RVE",
           "RVSOE"
         ],
         "lines": {
@@ -16743,7 +16753,8 @@
         "city": "Dresden",
         "name_with_city": "Dresden Bautzner Straße / Rothenburger Straße",
         "operators": [
-          "DVB"
+          "DVB",
+          "RVSOE"
         ],
         "lines": {
           "Straßenbahn": [
@@ -16752,9 +16763,12 @@
             "41",
             "6",
             "8"
+          ],
+          "PlusBus": [
+            "261"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -21556,6 +21570,7 @@
           "FlixTrain",
           "LEO Express",
           "Mitteldeutsche Regiobahn",
+          "RVE",
           "RVSOE",
           "VGM",
           "trilex - Die Länderbahn GmbH DLB",
@@ -27111,6 +27126,7 @@
           "DB Regio AG Südost",
           "DVB",
           "Mitteldeutsche Regiobahn",
+          "RVE",
           "RVSOE"
         ],
         "lines": {
@@ -39930,9 +39946,12 @@
           "Zug": [
             "RB72",
             "RE19"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -39961,9 +39980,12 @@
           "Zug": [
             "RB72",
             "RE19"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -40592,9 +40614,12 @@
           "Zug": [
             "RB72",
             "RE19"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -61092,9 +61117,12 @@
           "Zug": [
             "RB72",
             "RE19"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -89420,11 +89448,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "403",
-            "405"
+            "403"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -97592,9 +97619,12 @@
           ],
           "Zug": [
             "RB72"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -97613,15 +97643,19 @@
         "city": "Schlottwitz",
         "name_with_city": "Schlottwitz Neue Mittelstraße",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "201",
             "389"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {

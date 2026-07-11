@@ -172,9 +172,12 @@
         "Zug": [
           "RB72",
           "RE19"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14628:1796",
@@ -5851,9 +5854,12 @@
         ],
         "Zug": [
           "RB72"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:1865",
@@ -5873,9 +5879,12 @@
         ],
         "Zug": [
           "RB72"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:1868",
@@ -11401,6 +11410,7 @@
       "longitude": 13.725997,
       "latitude": 51.043839,
       "operators": [
+        "RVE",
         "RVSOE"
       ],
       "lines": {
@@ -12076,7 +12086,8 @@
       "longitude": 13.751904,
       "latitude": 51.062987,
       "operators": [
-        "DVB"
+        "DVB",
+        "RVSOE"
       ],
       "lines": {
         "Straßenbahn": [
@@ -12085,9 +12096,12 @@
           "41",
           "6",
           "8"
+        ],
+        "PlusBus": [
+          "261"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14612:648",
@@ -15593,6 +15607,7 @@
         "FlixTrain",
         "LEO Express",
         "Mitteldeutsche Regiobahn",
+        "RVE",
         "RVSOE",
         "VGM",
         "trilex - Die Länderbahn GmbH DLB",
@@ -19652,6 +19667,7 @@
         "DB Regio AG Südost",
         "DVB",
         "Mitteldeutsche Regiobahn",
+        "RVE",
         "RVSOE"
       ],
       "lines": {
@@ -29023,9 +29039,12 @@
         "Zug": [
           "RB72",
           "RE19"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14628:1803",
@@ -29046,9 +29065,12 @@
         "Zug": [
           "RB72",
           "RE19"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:1799",
@@ -29501,9 +29523,12 @@
         "Zug": [
           "RB72",
           "RE19"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 10
+      "total_lines": 11
     },
     {
       "id": "de:14628:1945",
@@ -44273,9 +44298,12 @@
         "Zug": [
           "RB72",
           "RE19"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:1872",
@@ -64793,11 +64821,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "403",
-          "405"
+          "403"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4367",
@@ -70693,9 +70720,12 @@
         ],
         "Zug": [
           "RB72"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:1951",
@@ -70706,15 +70736,19 @@
       "longitude": 13.8152,
       "latitude": 50.873983,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "201",
           "389"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:1952",
