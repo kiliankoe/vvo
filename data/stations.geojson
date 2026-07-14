@@ -35798,14 +35798,13 @@
             "454",
             "455",
             "456",
-            "458",
             "467"
           ],
           "PlusBus": [
             "477"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
@@ -38738,14 +38737,11 @@
           "VGM"
         ],
         "lines": {
-          "Regionalbus": [
-            "458"
-          ],
           "PlusBus": [
             "477"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -43753,7 +43749,6 @@
             "454",
             "455",
             "456",
-            "458",
             "467"
           ],
           "PlusBus": [
@@ -43763,7 +43758,7 @@
             "A (Großenhain)"
           ]
         },
-        "total_lines": 8
+        "total_lines": 7
       }
     },
     {
@@ -53681,14 +53676,13 @@
         ],
         "lines": {
           "Regionalbus": [
-            "458",
             "460"
           ],
           "PlusBus": [
             "477"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -53710,14 +53704,11 @@
           "VGM"
         ],
         "lines": {
-          "Regionalbus": [
-            "458"
-          ],
           "PlusBus": [
             "477"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
