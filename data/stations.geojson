@@ -6789,9 +6789,12 @@
         "lines": {
           "PlusBus": [
             "163"
+          ],
+          "Stadtbus": [
+            "164"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -15883,14 +15886,13 @@
             "360"
           ],
           "Regionalbus": [
-            "352",
             "366"
           ],
           "Bus": [
             "400"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -41880,6 +41882,32 @@
           ]
         },
         "total_lines": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.924588,
+          50.994308
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3006",
+        "numeric_id": "33003006",
+        "name": "Lindenallee",
+        "city": "Graupa",
+        "name_with_city": "Graupa Lindenallee",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "G/L (Pirna)"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {

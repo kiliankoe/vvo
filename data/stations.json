@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3912,
+    "count": 3913,
     "format_version": "2.0"
   },
   "stations": [
@@ -4898,9 +4898,12 @@
       "lines": {
         "PlusBus": [
           "163"
+        ],
+        "Stadtbus": [
+          "164"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3204",
@@ -11424,14 +11427,13 @@
           "360"
         ],
         "Regionalbus": [
-          "352",
           "366"
         ],
         "Bus": [
           "400"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:843",
@@ -30445,6 +30447,24 @@
         ]
       },
       "total_lines": 3
+    },
+    {
+      "id": "de:14628:3006",
+      "numeric_id": "33003006",
+      "name": "Lindenallee",
+      "city": "Graupa",
+      "name_with_city": "Graupa Lindenallee",
+      "longitude": 13.924588,
+      "latitude": 50.994308,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "G/L (Pirna)"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14628:3007",
