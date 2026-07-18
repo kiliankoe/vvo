@@ -31,11 +31,11 @@ Total stations: 3913
 
 - Regionalbus: 2694 stations
 - Stadtbus: 1304 stations
-- PlusBus: 648 stations
+- PlusBus: 649 stations
 - Anruflinienbus: 480 stations
 - Straßenbahn: 271 stations
 - Anruflinientaxi: 201 stations
-- Ersatzverkehr: 128 stations
+- Ersatzverkehr: 129 stations
 - Zug: 105 stations
 - Taktbus: 101 stations
 - S-Bahn: 54 stations
@@ -156,6 +156,7 @@ Total stations: 3913
 - Altenberg (Erzgeb) Bahnhof: 10 lines
 - Bischofswerda Schulstraße: 10 lines
 - Cossebaude/Neu-Leuteritz Bahnhof: 10 lines
+- Dresden Coventrystraße: 10 lines
 - Dresden Hauptbahnhof Nord: 10 lines
 - Dresden Koblenzer Straße: 10 lines
 - Dresden Koreanischer Platz: 10 lines
