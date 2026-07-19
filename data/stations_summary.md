@@ -156,7 +156,6 @@ Total stations: 3913
 - Altenberg (Erzgeb) Bahnhof: 10 lines
 - Bischofswerda Schulstraße: 10 lines
 - Cossebaude/Neu-Leuteritz Bahnhof: 10 lines
-- Dresden Coventrystraße: 10 lines
 - Dresden Hauptbahnhof Nord: 10 lines
 - Dresden Koblenzer Straße: 10 lines
 - Dresden Koreanischer Platz: 10 lines
