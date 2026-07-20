@@ -15886,13 +15886,14 @@
             "360"
           ],
           "Regionalbus": [
+            "352",
             "366"
           ],
           "Bus": [
             "400"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -89548,10 +89549,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "403"
+            "403",
+            "405"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
