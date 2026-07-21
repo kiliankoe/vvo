@@ -35,7 +35,7 @@ Total stations: 3913
 - Anruflinienbus: 480 stations
 - Straßenbahn: 271 stations
 - Anruflinientaxi: 201 stations
-- Ersatzverkehr: 129 stations
+- Ersatzverkehr: 130 stations
 - Zug: 105 stations
 - Taktbus: 101 stations
 - S-Bahn: 54 stations
@@ -54,7 +54,7 @@ Total stations: 3913
 - VGM: 1172 stations
 - DVB: 775 stations
 - RBO: 713 stations
-- DB Regio AG Südost: 127 stations
+- DB Regio AG Südost: 128 stations
 - VGH: 81 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 68 stations
