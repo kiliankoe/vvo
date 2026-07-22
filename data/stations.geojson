@@ -14832,6 +14832,7 @@
         "lines": {
           "Stadtbus": [
             "162",
+            "66",
             "86",
             "89",
             "H/S (Pirna)"
@@ -14840,10 +14841,11 @@
             "386"
           ],
           "Anruflinientaxi": [
+            "alita 66",
             "alita 89"
           ]
         },
-        "total_lines": 6
+        "total_lines": 8
       }
     },
     {
@@ -18025,12 +18027,13 @@
             "1",
             "10",
             "11",
+            "12",
             "2",
             "8",
             "9"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -18325,13 +18328,15 @@
           ],
           "Stadtbus": [
             "68",
+            "70",
+            "80",
             "92"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 6
       }
     },
     {
@@ -18391,6 +18396,7 @@
             "1",
             "10",
             "11",
+            "12",
             "2",
             "8",
             "9"
@@ -18401,7 +18407,7 @@
             "EV 7"
           ]
         },
-        "total_lines": 9
+        "total_lines": 10
       }
     },
     {
@@ -18554,6 +18560,7 @@
             "1",
             "10",
             "11",
+            "12",
             "2",
             "7",
             "8",
@@ -18568,7 +18575,7 @@
             "alita 70"
           ]
         },
-        "total_lines": 11
+        "total_lines": 12
       }
     },
     {
@@ -19161,12 +19168,13 @@
         ],
         "lines": {
           "Straßenbahn": [
+            "11",
             "13",
             "4",
             "6"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -20933,6 +20941,8 @@
           ],
           "Stadtbus": [
             "68",
+            "70",
+            "80",
             "91",
             "92",
             "93"
@@ -20945,7 +20955,7 @@
             "alita 92"
           ]
         },
-        "total_lines": 8
+        "total_lines": 10
       }
     },
     {
@@ -21741,12 +21751,13 @@
             "1",
             "10",
             "11",
+            "12",
             "2",
             "8",
             "9"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -27358,10 +27369,12 @@
             "12"
           ],
           "Stadtbus": [
-            "68"
+            "68",
+            "70",
+            "80"
           ]
         },
-        "total_lines": 2
+        "total_lines": 4
       }
     },
     {
@@ -32447,14 +32460,18 @@
         "lines": {
           "Stadtbus": [
             "162",
+            "66",
             "86",
             "H/S (Pirna)"
           ],
           "Regionalbus": [
             "386"
+          ],
+          "Anruflinientaxi": [
+            "alita 66"
           ]
         },
-        "total_lines": 4
+        "total_lines": 6
       }
     },
     {
@@ -51102,11 +51119,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "1 (Hoyerswerda)",
             "4 (Hoyerswerda)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -88880,11 +88896,10 @@
             "72"
           ],
           "Regionalbus": [
-            "475",
             "Sv280"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
