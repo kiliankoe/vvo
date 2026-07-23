@@ -88,9 +88,9 @@ Total stations: 3913
 - Großenhain Cottbuser Bahnhof: 21 lines
 - Meißen Altstadtbrücke: 21 lines
 - Meißen Bahnhofstraße: 21 lines
+- Dresden Postplatz: 20 lines
 - Hoyerswerda Bahnhof: 20 lines
 - Bischofswerda Bahnhof: 19 lines
-- Dresden Postplatz: 19 lines
 - Riesa Alexander-Puschkin-Platz: 19 lines
 - Riesa Rudolf-Breitscheid-Straße: 19 lines
 - Dresden Trachenberger Platz: 18 lines
@@ -136,7 +136,7 @@ Total stations: 3913
 - Coswig (b Dresden) Bahnhof: 12 lines
 - Dresden Bahnhof Neustadt (Hansastraße): 12 lines
 - Dresden Betriebshof Gorbitz: 12 lines
-- Dresden Dahlienweg: 12 lines
+- Dresden Pirnaischer Platz: 12 lines
 - Dresden S-Bahnhof Niedersedlitz: 12 lines
 - Dresden S-Bf. Strehlen: 12 lines
 - Pulsnitz Bahnhof: 12 lines
@@ -145,8 +145,8 @@ Total stations: 3913
 - Dresden Amalie-Dietrich-Platz: 11 lines
 - Dresden Anton-/Leipziger Straße: 11 lines
 - Dresden Bünaustraße: 11 lines
+- Dresden Dahlienweg: 11 lines
 - Dresden Lößnitzstraße: 11 lines
-- Dresden Pirnaischer Platz: 11 lines
 - Dresden Reichenbachstraße: 11 lines
 - Dresden Zeithainer Straße: 11 lines
 - Freital S-Bahnhof Hainsberg: 11 lines
@@ -156,7 +156,6 @@ Total stations: 3913
 - Altenberg (Erzgeb) Bahnhof: 10 lines
 - Bischofswerda Schulstraße: 10 lines
 - Cossebaude/Neu-Leuteritz Bahnhof: 10 lines
-- Dresden Coventrystraße: 10 lines
 - Dresden Gottfried-Keller-Straße: 10 lines
 - Dresden Hauptbahnhof Nord: 10 lines
 - Dresden Koblenzer Straße: 10 lines
