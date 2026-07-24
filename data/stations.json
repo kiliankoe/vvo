@@ -1212,6 +1212,7 @@
       "longitude": 14.138099,
       "latitude": 50.91927,
       "operators": [
+        "DB Fernverkehr AG",
         "DB Regio AG Südost",
         "LEO Express",
         "RVSOE",
@@ -6315,12 +6316,13 @@
       "lines": {
         "Regionalbus": [
           "205",
+          "206",
           "214",
           "207a",
           "207b"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14625:7107",
@@ -10684,7 +10686,6 @@
         "Straßenbahn": [
           "1",
           "2",
-          "6",
           "9"
         ],
         "PlusBus": [
@@ -10695,7 +10696,7 @@
           "H/S (Pirna)"
         ]
       },
-      "total_lines": 7
+      "total_lines": 6
     },
     {
       "id": "de:14612:738",
@@ -11430,14 +11431,13 @@
           "360"
         ],
         "Regionalbus": [
-          "352",
           "366"
         ],
         "Bus": [
           "400"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:843",
@@ -12986,12 +12986,11 @@
       "lines": {
         "Straßenbahn": [
           "3",
-          "6",
           "7",
           "9"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14612:784",
@@ -13487,11 +13486,10 @@
           "1",
           "12",
           "2",
-          "6",
           "9"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:291",
@@ -14232,7 +14230,6 @@
           "12",
           "13",
           "41",
-          "6",
           "8",
           "9"
         ],
@@ -14240,7 +14237,7 @@
           "64"
         ]
       },
-      "total_lines": 8
+      "total_lines": 7
     },
     {
       "id": "de:14612:973",
@@ -14847,14 +14844,13 @@
           "12",
           "13",
           "41",
-          "6",
           "8"
         ],
         "Stadtbus": [
           "64"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14612:789",
@@ -17739,12 +17735,11 @@
           "12",
           "13",
           "41",
-          "6",
           "8",
           "9"
         ]
       },
-      "total_lines": 7
+      "total_lines": 6
     },
     {
       "id": "de:14612:795",
@@ -19508,12 +19503,11 @@
         "Straßenbahn": [
           "3",
           "4",
-          "6",
           "7",
           "9"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:815",
@@ -20260,7 +20254,6 @@
           "1",
           "12",
           "2",
-          "6",
           "9"
         ],
         "Stadtbus": [
@@ -20277,7 +20270,7 @@
           "366"
         ]
       },
-      "total_lines": 12
+      "total_lines": 11
     },
     {
       "id": "de:14612:627",
@@ -20446,7 +20439,6 @@
           "20",
           "3",
           "4",
-          "6",
           "7",
           "9"
         ],
@@ -20464,7 +20456,7 @@
           "477"
         ]
       },
-      "total_lines": 20
+      "total_lines": 19
     },
     {
       "id": "de:14612:3",
@@ -22846,12 +22838,11 @@
           "13",
           "2",
           "41",
-          "6",
           "8",
           "9"
         ]
       },
-      "total_lines": 9
+      "total_lines": 8
     },
     {
       "id": "de:14612:97",
@@ -23243,12 +23234,11 @@
         "Straßenbahn": [
           "3",
           "4",
-          "6",
           "7",
           "9"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:934",
@@ -26019,11 +26009,15 @@
         "RBO"
       ],
       "lines": {
+        "Stadtbus": [
+          "28"
+        ],
         "Regionalbus": [
-          "760"
+          "760",
+          "761"
         ]
       },
-      "total_lines": 1
+      "total_lines": 3
     },
     {
       "id": "de:14625:6659",
@@ -33946,11 +33940,15 @@
         "RVSOE"
       ],
       "lines": {
+        "Regionalbus": [
+          "236",
+          "237"
+        ],
         "PlusBus": [
           "260"
         ]
       },
-      "total_lines": 1
+      "total_lines": 3
     },
     {
       "id": "de:14628:1706",
@@ -46144,10 +46142,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "205"
+          "205",
+          "206"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:5455",
@@ -46262,9 +46261,12 @@
       "lines": {
         "Stadtbus": [
           "28"
+        ],
+        "Regionalbus": [
+          "761"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:6743",
@@ -62729,10 +62731,11 @@
           "28"
         ],
         "Regionalbus": [
-          "760"
+          "760",
+          "761"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6738",
@@ -77006,13 +77009,19 @@
       "name_with_city": "Ulbersdorf Bahnhof",
       "longitude": 14.220133,
       "latitude": 50.955523,
-      "operators": [],
+      "operators": [
+        "RVSOE"
+      ],
       "lines": {
+        "Regionalbus": [
+          "236",
+          "237"
+        ],
         "Zug": [
           "U28"
         ]
       },
-      "total_lines": 1
+      "total_lines": 3
     },
     {
       "id": "de:14628:3676",

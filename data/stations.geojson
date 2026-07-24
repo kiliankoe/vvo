@@ -1679,6 +1679,7 @@
         "city": "Bad Schandau",
         "name_with_city": "Bad Schandau Nationalparkbahnhof",
         "operators": [
+          "DB Fernverkehr AG",
           "DB Regio AG Südost",
           "LEO Express",
           "RVSOE",
@@ -8790,12 +8791,13 @@
         "lines": {
           "Regionalbus": [
             "205",
+            "206",
             "214",
             "207a",
             "207b"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -14871,7 +14873,6 @@
           "Straßenbahn": [
             "1",
             "2",
-            "6",
             "9"
           ],
           "PlusBus": [
@@ -14882,7 +14883,7 @@
             "H/S (Pirna)"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
@@ -15889,14 +15890,13 @@
             "360"
           ],
           "Regionalbus": [
-            "352",
             "366"
           ],
           "Bus": [
             "400"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -17965,12 +17965,11 @@
         "lines": {
           "Straßenbahn": [
             "3",
-            "6",
             "7",
             "9"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -18634,11 +18633,10 @@
             "1",
             "12",
             "2",
-            "6",
             "9"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -19659,7 +19657,6 @@
             "12",
             "13",
             "41",
-            "6",
             "8",
             "9"
           ],
@@ -19667,7 +19664,7 @@
             "64"
           ]
         },
-        "total_lines": 8
+        "total_lines": 7
       }
     },
     {
@@ -20506,14 +20503,13 @@
             "12",
             "13",
             "41",
-            "6",
             "8"
           ],
           "Stadtbus": [
             "64"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -24462,12 +24458,11 @@
             "12",
             "13",
             "41",
-            "6",
             "8",
             "9"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
@@ -26879,12 +26874,11 @@
           "Straßenbahn": [
             "3",
             "4",
-            "6",
             "7",
             "9"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -27911,7 +27905,6 @@
             "1",
             "12",
             "2",
-            "6",
             "9"
           ],
           "Stadtbus": [
@@ -27928,7 +27921,7 @@
             "366"
           ]
         },
-        "total_lines": 12
+        "total_lines": 11
       }
     },
     {
@@ -28161,7 +28154,6 @@
             "20",
             "3",
             "4",
-            "6",
             "7",
             "9"
           ],
@@ -28179,7 +28171,7 @@
             "477"
           ]
         },
-        "total_lines": 20
+        "total_lines": 19
       }
     },
     {
@@ -31377,12 +31369,11 @@
             "13",
             "2",
             "41",
-            "6",
             "8",
             "9"
           ]
         },
-        "total_lines": 9
+        "total_lines": 8
       }
     },
     {
@@ -31910,12 +31901,11 @@
           "Straßenbahn": [
             "3",
             "4",
-            "6",
             "7",
             "9"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -35726,11 +35716,15 @@
           "RBO"
         ],
         "lines": {
+          "Stadtbus": [
+            "28"
+          ],
           "Regionalbus": [
-            "760"
+            "760",
+            "761"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {
@@ -46709,11 +46703,15 @@
           "RVSOE"
         ],
         "lines": {
+          "Regionalbus": [
+            "236",
+            "237"
+          ],
           "PlusBus": [
             "260"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {
@@ -63659,10 +63657,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "205"
+            "205",
+            "206"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -63825,9 +63824,12 @@
         "lines": {
           "Stadtbus": [
             "28"
+          ],
+          "Regionalbus": [
+            "761"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -86492,10 +86494,11 @@
             "28"
           ],
           "Regionalbus": [
-            "760"
+            "760",
+            "761"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -106337,13 +106340,19 @@
         "name": "Bahnhof",
         "city": "Ulbersdorf",
         "name_with_city": "Ulbersdorf Bahnhof",
-        "operators": [],
+        "operators": [
+          "RVSOE"
+        ],
         "lines": {
+          "Regionalbus": [
+            "236",
+            "237"
+          ],
           "Zug": [
             "U28"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {

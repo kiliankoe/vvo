@@ -29,8 +29,8 @@ Total stations: 3913
 
 ## Stations by Transit Type
 
-- Regionalbus: 2694 stations
-- Stadtbus: 1304 stations
+- Regionalbus: 2697 stations
+- Stadtbus: 1305 stations
 - PlusBus: 649 stations
 - Anruflinienbus: 480 stations
 - Straßenbahn: 271 stations
@@ -50,7 +50,7 @@ Total stations: 3913
 
 ## Transit Operators
 
-- RVSOE: 1305 stations
+- RVSOE: 1306 stations
 - VGM: 1172 stations
 - DVB: 775 stations
 - RBO: 713 stations
@@ -67,11 +67,11 @@ Total stations: 3913
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
 - Cottbusverkehr GmbH: 11 stations
 - trilex - Die Länderbahn GmbH DLB: 10 stations
+- DB Fernverkehr AG: 4 stations
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 4 stations
 - DB Regio: 3 stations
 - LEO Express: 3 stations
-- DB Fernverkehr AG: 3 stations
 - FlixTrain: 2 stations
 - Nordsachsen Mobil: 2 stations
 - Omnibusbetrieb Siegfried Wilhelm: 1 stations
@@ -88,9 +88,9 @@ Total stations: 3913
 - Großenhain Cottbuser Bahnhof: 21 lines
 - Meißen Altstadtbrücke: 21 lines
 - Meißen Bahnhofstraße: 21 lines
-- Dresden Postplatz: 20 lines
 - Hoyerswerda Bahnhof: 20 lines
 - Bischofswerda Bahnhof: 19 lines
+- Dresden Postplatz: 19 lines
 - Riesa Alexander-Puschkin-Platz: 19 lines
 - Riesa Rudolf-Breitscheid-Straße: 19 lines
 - Dresden Trachenberger Platz: 18 lines
@@ -136,7 +136,6 @@ Total stations: 3913
 - Coswig (b Dresden) Bahnhof: 12 lines
 - Dresden Bahnhof Neustadt (Hansastraße): 12 lines
 - Dresden Betriebshof Gorbitz: 12 lines
-- Dresden Pirnaischer Platz: 12 lines
 - Dresden S-Bahnhof Niedersedlitz: 12 lines
 - Dresden S-Bf. Strehlen: 12 lines
 - Pulsnitz Bahnhof: 12 lines
@@ -147,6 +146,7 @@ Total stations: 3913
 - Dresden Bünaustraße: 11 lines
 - Dresden Dahlienweg: 11 lines
 - Dresden Lößnitzstraße: 11 lines
+- Dresden Pirnaischer Platz: 11 lines
 - Dresden Reichenbachstraße: 11 lines
 - Dresden Zeithainer Straße: 11 lines
 - Freital S-Bahnhof Hainsberg: 11 lines
