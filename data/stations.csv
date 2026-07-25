@@ -57,7 +57,7 @@ de:14628:3621,33003621,Elbkai,Bad Schandau,Bad Schandau Elbkai,50.917758,14.1494
 de:14628:3629,33003629,Kiefricht,Bad Schandau,Bad Schandau Kiefricht,50.927804,14.16247,RVSOE,1,,,,
 de:14628:3622,33003622,Kurpark,Bad Schandau,Bad Schandau Kurpark,50.920913,14.157772,RVSOE,4,Kirnitzschtalbahn,,,
 de:14628:3626,33003626,Marktplatz,Bad Schandau,Bad Schandau Marktplatz,50.917679,14.153092,RVSOE,2,,,,
-de:14628:3620,33003620,Nationalparkbahnhof,Bad Schandau,Bad Schandau Nationalparkbahnhof,50.91927,14.138099,DB Fernverkehr AG|DB Regio AG Südost|LEO Express|RVSOE|Österreichische Bundesbahnen,14,,,RE20|RE50|U28,S1
+de:14628:3620,33003620,Nationalparkbahnhof,Bad Schandau,Bad Schandau Nationalparkbahnhof,50.91927,14.138099,DB Regio AG Südost|RVSOE|Österreichische Bundesbahnen,14,,,RE20|RE50|U28,S1
 de:14628:3627,33003627,Personenaufzug,Bad Schandau,Bad Schandau Personenaufzug,50.916541,14.160575,RVSOE,1,,,,
 de:14628:3624,33003624,Waldhäus´l,Bad Schandau,Bad Schandau Waldhäus´l,50.925114,14.180527,RVSOE,2,Kirnitzschtalbahn,,,
 de:14627:4969,33004969,Abzw Badersen/Dobschütz,Badersen,Badersen Abzw Badersen/Dobschütz,51.14645,13.275833,VGM,4,,,,
@@ -576,7 +576,7 @@ de:14612:737,33000737,Babisnauer Straße,Dresden,Dresden Babisnauer Straße,51.0
 de:14612:192,33000192,Bahnhof Friedrichstadt,Dresden,Dresden Bahnhof Friedrichstadt,51.056026,13.708192,DB AG,2,,,RB31,
 de:14612:658,33000658,Bahnhof Klotzsche,Dresden,Dresden Bahnhof Klotzsche,51.11483,13.789041,DB Regio AG Südost|DVB|RBO|trilex - Die Länderbahn GmbH DLB,14,,70|78|80|EV 7,RB33|RB60|RB61|RE1|RE2,S2|S8
 de:14612:1,33000001,Bahnhof Mitte,Dresden,Dresden Bahnhof Mitte,51.055642,13.723392,DB AG|DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn|trilex - Die Länderbahn GmbH DLB,27,1|10|11|12|2|20|3|41|6|7|8|9,68|92,RB30|RB31|RB60|RB61|RE1|RE18|RE2|RE3|RE50,S1|S2|S8
-de:14612:16,33000016,Bahnhof Neustadt,Dresden,Dresden Bahnhof Neustadt,51.065426,13.740882,DB AG|DB Fernverkehr AG|DB Regio AG Südost|DVB|FlixTrain|LEO Express|Mitteldeutsche Regiobahn|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,25,11|3|6|7|8|9,81,RB30|RB31|RB33|RB60|RB61|RE1|RE15|RE17|RE18|RE2|RE3|RE50,S1|S2|S8
+de:14612:16,33000016,Bahnhof Neustadt,Dresden,Dresden Bahnhof Neustadt,51.065426,13.740882,DB AG|DB Fernverkehr AG|DB Regio AG Südost|DVB|FlixTrain|Mitteldeutsche Regiobahn|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,25,11|3|6|7|8|9,81,RB30|RB31|RB33|RB60|RB61|RE1|RE15|RE17|RE18|RE2|RE3|RE50,S1|S2|S8
 de:14612:198,33000198,Bahnhof Neustadt (Hansastraße),Dresden,Dresden Bahnhof Neustadt (Hansastraße),51.066374,13.739112,DVB|VGM,12,10|11|13|20|3|4|41|6|7|8|9,,,
 de:14612:943,33000943,Bahnhofstraße,Dresden,Dresden Bahnhofstraße,51.002268,13.84188,DVB,4,,65|88,,
 de:14612:720,33000720,Bamberger Straße,Dresden,Dresden Bamberger Straße,51.03392,13.71245,DVB,3,,61|62|63,,
@@ -744,7 +744,7 @@ de:14612:186,33000186,Hamburger Straße,Dresden,Dresden Hamburger Straße,51.059
 de:14612:548,33000548,Hammeraue,Dresden,Dresden Hammeraue,51.067932,13.666277,SATRA,4,,91|93,,
 de:14612:764,33000764,Hans-Dankner-Straße,Dresden,Dresden Hans-Dankner-Straße,51.042591,13.742086,DVB,2,,62|68,,
 de:14612:287,33000287,Hans-Oster-Straße,Dresden,Dresden Hans-Oster-Straße,51.074909,13.760654,DVB,1,,64,,
-de:14612:28,33000028,Hauptbahnhof,Dresden,Dresden Hauptbahnhof,51.03993,13.732932,DB Fernverkehr AG|DB Regio AG Südost|DVB|FlixTrain|LEO Express|Mitteldeutsche Regiobahn|RVSOE|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,34,10|11|20|3|41|7|8,62|66|68|EV 3|EV 8|H/S (Pirna),RB30|RB60|RB61|RE1|RE19|RE2|RE20|RE3|RE50,S1|S2|S3|S8
+de:14612:28,33000028,Hauptbahnhof,Dresden,Dresden Hauptbahnhof,51.03993,13.732932,DB Fernverkehr AG|DB Regio AG Südost|DVB|FlixTrain|Mitteldeutsche Regiobahn|RVSOE|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,34,10|11|20|3|41|7|8,62|66|68|EV 3|EV 8|H/S (Pirna),RB30|RB60|RB61|RE1|RE19|RE2|RE20|RE3|RE50,S1|S2|S3|S8
 de:14612:36,33000036,Hauptbahnhof (Strehlener Str.),Dresden,Dresden Hauptbahnhof (Strehlener Str.),51.038671,13.734279,DB AG|DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn|trilex - Die Länderbahn GmbH DLB,3,,66,,
 de:14612:32,33000032,Hauptbahnhof Nord,Dresden,Dresden Hauptbahnhof Nord,51.041365,13.735088,DVB,10,10|11|12|20|3|4|7,68|EV 3|EV 8,,
 de:14612:179,33000179,Hebbelplatz,Dresden,Dresden Hebbelplatz,51.051333,13.682743,DVB,6,1|10|11|2|8|9,,,
@@ -780,7 +780,7 @@ de:14612:251,33000251,Hubertusplatz,Dresden,Dresden Hubertusplatz,51.089666,13.7
 de:14612:117,33000117,Hugo-Bürkner-Straße,Dresden,Dresden Hugo-Bürkner-Straße,51.022428,13.765433,DVB,5,10|13|4,68,,
 de:14612:672,33000672,Hugo-Junkers-Ring,Dresden,Dresden Hugo-Junkers-Ring,51.129732,13.791296,DVB,2,,77|EV 7,,
 de:14612:840,33000840,Hutbergstraße,Dresden,Dresden Hutbergstraße,51.050689,13.845212,DVB|RBO,3,,84,,
-de:14612:938,33000938,Hänichenweg,Dresden,Dresden Hänichenweg,50.988145,13.802695,DVB,2,,66,,
+de:14612:938,33000938,Hänichenweg,Dresden,Dresden Hänichenweg,50.988145,13.802695,DVB|RVSOE,4,,162|66|86,,
 de:14612:743,33000743,Höckendorfer Weg,Dresden,Dresden Höckendorfer Weg,51.019417,13.725512,DVB|RVSOE,3,,63|66,,
 de:14612:827,33000827,Hüblerplatz,Dresden,Dresden Hüblerplatz,51.049266,13.794026,DVB,1,,63,,
 de:14612:936,33000936,Hüfnerweg,Dresden,Dresden Hüfnerweg,50.995592,13.858714,DVB,2,,65,,
@@ -1083,7 +1083,7 @@ de:14612:855,33000855,Taubenberg,Dresden,Dresden Taubenberg,51.06135,13.870042,D
 de:14612:727,33000727,Technische Universität (Fr.-Foerster-Platz),Dresden,Dresden Technische Universität (Fr.-Foerster-Platz),51.029892,13.73092,DVB|RVSOE|VGM,8,,61|63|66,,
 de:14612:144,33000144,Tharandter Straße,Dresden,Dresden Tharandter Straße,51.043726,13.702785,DVB|RVSOE,16,1|10|11|12|2|20|41|6|7|8|9,160|61|63|90,,
 de:14612:20,33000020,Theaterplatz,Dresden,Dresden Theaterplatz,51.053575,13.736579,DVB,4,3|4|7|9,,,
-de:14612:934,33000934,Theilestraße,Dresden,Dresden Theilestraße,50.990339,13.802462,DVB,2,,66,,
+de:14612:934,33000934,Theilestraße,Dresden,Dresden Theilestraße,50.990339,13.802462,DVB|RVSOE,4,,162|66|86,,
 de:14612:808,33000808,Thomas-Mann-Straße,Dresden,Dresden Thomas-Mann-Straße,51.010623,13.770059,DVB,2,,68,,
 de:14612:530,33000530,Thäterstraße,Dresden,Dresden Thäterstraße,51.071043,13.695086,DVB,2,,79,,
 de:14612:821,33000821,Tiergartenstraße,Dresden,Dresden Tiergartenstraße,51.030271,13.771667,DVB,7,,61|62|63|64|65|68|85,,
@@ -1809,7 +1809,7 @@ de:14628:1633,33001633,Dippoldiswalder Straße,Höckendorf b Dippol.,Höckendorf
 de:14628:1630,33001630,Edle Krone Bahnhof,Höckendorf b Dippol.,Höckendorf b Dippol. Edle Krone Bahnhof,50.949869,13.583722,DB Regio AG Südost|Mitteldeutsche Regiobahn|RVSOE,6,,,RB30,S3
 de:14628:1637,33001637,Edle Krone Bahnhofstraße,Höckendorf b Dippol.,Höckendorf b Dippol. Edle Krone Bahnhofstraße,50.947294,13.583893,RVSOE,2,,,,
 de:14628:1631,33001631,Edle Krone Brücke,Höckendorf b Dippol.,Höckendorf b Dippol. Edle Krone Brücke,50.947153,13.58241,RVSOE,2,,,,
-de:14628:1629,33001629,Edle Krone Tharandter Straße,Höckendorf b Dippol.,Höckendorf b Dippol. Edle Krone Tharandter Straße,50.948132,13.583821,DB Regio AG Südost|RVSOE,3,,,,
+de:14628:1629,33001629,Edle Krone Tharandter Straße,Höckendorf b Dippol.,Höckendorf b Dippol. Edle Krone Tharandter Straße,50.948132,13.583821,RVSOE,2,,,,
 de:14628:1639,33001639,Mitte,Höckendorf b Dippol.,Höckendorf b Dippol. Mitte,50.924916,13.588752,RVSOE,2,,,,
 de:14628:1635,33001635,Tharandter Straße,Höckendorf b Dippol.,Höckendorf b Dippol. Tharandter Straße,50.93012,13.585689,DB Regio AG Südost|RVSOE,3,,,,
 de:14628:1632,33001632,Wendeplatz,Höckendorf b Dippol.,Höckendorf b Dippol. Wendeplatz,50.916048,13.588537,RVSOE,2,,,,
@@ -3028,7 +3028,7 @@ de:14627:4258,33004258,Hospiz,Radebeul,Radebeul Hospiz,51.110702,13.690073,DVB|V
 de:14627:4279,33004279,Hp Lößnitzgrund,Radebeul,Radebeul Hp Lößnitzgrund,51.121461,13.653844,SDG,0,,,,
 de:14627:4228,33004228,Johannisbergstraße,Radebeul,Radebeul Johannisbergstraße,51.114582,13.611471,DB Regio AG Südost|DVB,2,4,,,
 de:14627:4235,33004235,Karlstraße,Radebeul,Radebeul Karlstraße,51.112371,13.633003,VGM,1,,,,
-de:14627:4283,33004283,Kaufland,Radebeul,Radebeul Kaufland,51.099861,13.654383,DVB|VGM,2,,72,,
+de:14627:4283,33004283,Kaufland,Radebeul,Radebeul Kaufland,51.099861,13.654383,DVB,1,,72,,
 de:14627:4263,33004263,Kleinstückenweg,Radebeul,Radebeul Kleinstückenweg,51.112202,13.589588,VGM,1,,,,
 de:14627:4271,33004271,Kottenleite,Radebeul,Radebeul Kottenleite,51.118005,13.63091,VGM,1,,,,
 de:14627:4282,33004282,Kötzschenbrodaer Straße,Radebeul,Radebeul Kötzschenbrodaer Straße,51.098197,13.651967,VGM,1,,,,
@@ -3078,7 +3078,7 @@ de:14627:4376,33004376,Gartenstraße,Radeburg,Radeburg Gartenstraße,51.20658,13
 de:14627:4379,33004379,Gewerbestraße,Radeburg,Radeburg Gewerbestraße,51.205668,13.735142,VGM,1,,,,
 de:14627:4377,33004377,Großenhainer Platz,Radeburg,Radeburg Großenhainer Platz,51.216653,13.721577,RBO|VGM,5,,,,
 de:14627:4378,33004378,Grundschule,Radeburg,Radeburg Grundschule,51.214588,13.716313,RBO|VGM,4,,,,
-de:14627:4375,33004375,Kiebitzweg,Radeburg,Radeburg Kiebitzweg,51.216085,13.713124,VGM,2,,,,
+de:14627:4375,33004375,Kiebitzweg,Radeburg,Radeburg Kiebitzweg,51.216085,13.713124,VGM,1,,,,
 de:14627:4367,33004367,Meißner Berg,Radeburg,Radeburg Meißner Berg,51.21357,13.715388,VGM,4,,,,
 de:14627:4368,33004368,Rathaus,Radeburg,Radeburg Rathaus,51.21492,13.725557,RBO|VGM,5,,,,
 de:14627:4389,33004389,Riesstraße,Radeburg,Radeburg Riesstraße,51.201008,13.731108,VGM,1,,,,

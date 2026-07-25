@@ -29,13 +29,13 @@ Total stations: 3913
 
 ## Stations by Transit Type
 
-- Regionalbus: 2697 stations
+- Regionalbus: 2696 stations
 - Stadtbus: 1305 stations
 - PlusBus: 649 stations
 - Anruflinienbus: 480 stations
 - Straßenbahn: 271 stations
 - Anruflinientaxi: 202 stations
-- Ersatzverkehr: 130 stations
+- Ersatzverkehr: 129 stations
 - Zug: 105 stations
 - Taktbus: 101 stations
 - S-Bahn: 54 stations
@@ -50,11 +50,11 @@ Total stations: 3913
 
 ## Transit Operators
 
-- RVSOE: 1306 stations
-- VGM: 1172 stations
+- RVSOE: 1308 stations
+- VGM: 1171 stations
 - DVB: 775 stations
 - RBO: 713 stations
-- DB Regio AG Südost: 128 stations
+- DB Regio AG Südost: 127 stations
 - VGH: 81 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 68 stations
@@ -67,11 +67,10 @@ Total stations: 3913
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
 - Cottbusverkehr GmbH: 11 stations
 - trilex - Die Länderbahn GmbH DLB: 10 stations
-- DB Fernverkehr AG: 4 stations
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 4 stations
 - DB Regio: 3 stations
-- LEO Express: 3 stations
+- DB Fernverkehr AG: 3 stations
 - FlixTrain: 2 stations
 - Nordsachsen Mobil: 2 stations
 - Omnibusbetrieb Siegfried Wilhelm: 1 stations

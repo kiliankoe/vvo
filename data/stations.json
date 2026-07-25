@@ -1212,9 +1212,7 @@
       "longitude": 14.138099,
       "latitude": 50.91927,
       "operators": [
-        "DB Fernverkehr AG",
         "DB Regio AG Südost",
-        "LEO Express",
         "RVSOE",
         "Österreichische Bundesbahnen"
       ],
@@ -11932,7 +11930,6 @@
         "DB Regio AG Südost",
         "DVB",
         "FlixTrain",
-        "LEO Express",
         "Mitteldeutsche Regiobahn",
         "VGM",
         "trilex - Die Länderbahn GmbH DLB",
@@ -15631,7 +15628,6 @@
         "DB Regio AG Südost",
         "DVB",
         "FlixTrain",
-        "LEO Express",
         "Mitteldeutsche Regiobahn",
         "RVSOE",
         "VGM",
@@ -16457,17 +16453,20 @@
       "longitude": 13.802695,
       "latitude": 50.988145,
       "operators": [
-        "DVB"
+        "DVB",
+        "RVSOE"
       ],
       "lines": {
         "Stadtbus": [
-          "66"
+          "162",
+          "66",
+          "86"
         ],
         "Anruflinientaxi": [
           "alita 66"
         ]
       },
-      "total_lines": 2
+      "total_lines": 4
     },
     {
       "id": "de:14612:743",
@@ -23249,17 +23248,20 @@
       "longitude": 13.802462,
       "latitude": 50.990339,
       "operators": [
-        "DVB"
+        "DVB",
+        "RVSOE"
       ],
       "lines": {
         "Stadtbus": [
-          "66"
+          "162",
+          "66",
+          "86"
         ],
         "Anruflinientaxi": [
           "alita 66"
         ]
       },
-      "total_lines": 2
+      "total_lines": 4
     },
     {
       "id": "de:14612:808",
@@ -38313,19 +38315,15 @@
       "longitude": 13.583821,
       "latitude": 50.948132,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "343",
           "382"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:1639",
@@ -63914,18 +63912,14 @@
       "longitude": 13.654383,
       "latitude": 51.099861,
       "operators": [
-        "DVB",
-        "VGM"
+        "DVB"
       ],
       "lines": {
         "Stadtbus": [
           "72"
-        ],
-        "Regionalbus": [
-          "475"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4263",
@@ -64943,11 +64937,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "403",
-          "405"
+          "403"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4367",

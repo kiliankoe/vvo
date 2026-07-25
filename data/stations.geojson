@@ -1679,9 +1679,7 @@
         "city": "Bad Schandau",
         "name_with_city": "Bad Schandau Nationalparkbahnhof",
         "operators": [
-          "DB Fernverkehr AG",
           "DB Regio AG Südost",
-          "LEO Express",
           "RVSOE",
           "Österreichische Bundesbahnen"
         ],
@@ -16551,7 +16549,6 @@
           "DB Regio AG Südost",
           "DVB",
           "FlixTrain",
-          "LEO Express",
           "Mitteldeutsche Regiobahn",
           "VGM",
           "trilex - Die Länderbahn GmbH DLB",
@@ -21594,7 +21591,6 @@
           "DB Regio AG Südost",
           "DVB",
           "FlixTrain",
-          "LEO Express",
           "Mitteldeutsche Regiobahn",
           "RVSOE",
           "VGM",
@@ -22708,17 +22704,20 @@
         "city": "Dresden",
         "name_with_city": "Dresden Hänichenweg",
         "operators": [
-          "DVB"
+          "DVB",
+          "RVSOE"
         ],
         "lines": {
           "Stadtbus": [
-            "66"
+            "162",
+            "66",
+            "86"
           ],
           "Anruflinientaxi": [
             "alita 66"
           ]
         },
-        "total_lines": 2
+        "total_lines": 4
       }
     },
     {
@@ -31924,17 +31923,20 @@
         "city": "Dresden",
         "name_with_city": "Dresden Theilestraße",
         "operators": [
-          "DVB"
+          "DVB",
+          "RVSOE"
         ],
         "lines": {
           "Stadtbus": [
-            "66"
+            "162",
+            "66",
+            "86"
           ],
           "Anruflinientaxi": [
             "alita 66"
           ]
         },
-        "total_lines": 2
+        "total_lines": 4
       }
     },
     {
@@ -52796,19 +52798,15 @@
         "city": "Höckendorf b Dippol.",
         "name_with_city": "Höckendorf b Dippol. Edle Krone Tharandter Straße",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "343",
             "382"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -88149,18 +88147,14 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Kaufland",
         "operators": [
-          "DVB",
-          "VGM"
+          "DVB"
         ],
         "lines": {
           "Stadtbus": [
             "72"
-          ],
-          "Regionalbus": [
-            "475"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -89578,11 +89572,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "403",
-            "405"
+            "403"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
