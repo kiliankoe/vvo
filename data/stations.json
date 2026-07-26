@@ -16453,20 +16453,17 @@
       "longitude": 13.802695,
       "latitude": 50.988145,
       "operators": [
-        "DVB",
-        "RVSOE"
+        "DVB"
       ],
       "lines": {
         "Stadtbus": [
-          "162",
-          "66",
-          "86"
+          "66"
         ],
         "Anruflinientaxi": [
           "alita 66"
         ]
       },
-      "total_lines": 4
+      "total_lines": 2
     },
     {
       "id": "de:14612:743",
@@ -23248,20 +23245,17 @@
       "longitude": 13.802462,
       "latitude": 50.990339,
       "operators": [
-        "DVB",
-        "RVSOE"
+        "DVB"
       ],
       "lines": {
         "Stadtbus": [
-          "162",
-          "66",
-          "86"
+          "66"
         ],
         "Anruflinientaxi": [
           "alita 66"
         ]
       },
-      "total_lines": 4
+      "total_lines": 2
     },
     {
       "id": "de:14612:808",

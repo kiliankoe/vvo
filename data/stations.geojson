@@ -22704,20 +22704,17 @@
         "city": "Dresden",
         "name_with_city": "Dresden Hänichenweg",
         "operators": [
-          "DVB",
-          "RVSOE"
+          "DVB"
         ],
         "lines": {
           "Stadtbus": [
-            "162",
-            "66",
-            "86"
+            "66"
           ],
           "Anruflinientaxi": [
             "alita 66"
           ]
         },
-        "total_lines": 4
+        "total_lines": 2
       }
     },
     {
@@ -31923,20 +31920,17 @@
         "city": "Dresden",
         "name_with_city": "Dresden Theilestraße",
         "operators": [
-          "DVB",
-          "RVSOE"
+          "DVB"
         ],
         "lines": {
           "Stadtbus": [
-            "162",
-            "66",
-            "86"
+            "66"
           ],
           "Anruflinientaxi": [
             "alita 66"
           ]
         },
-        "total_lines": 4
+        "total_lines": 2
       }
     },
     {
