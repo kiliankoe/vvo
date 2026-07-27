@@ -1809,7 +1809,7 @@ de:14628:1633,33001633,Dippoldiswalder Straße,Höckendorf b Dippol.,Höckendorf
 de:14628:1630,33001630,Edle Krone Bahnhof,Höckendorf b Dippol.,Höckendorf b Dippol. Edle Krone Bahnhof,50.949869,13.583722,DB Regio AG Südost|Mitteldeutsche Regiobahn|RVSOE,6,,,RB30,S3
 de:14628:1637,33001637,Edle Krone Bahnhofstraße,Höckendorf b Dippol.,Höckendorf b Dippol. Edle Krone Bahnhofstraße,50.947294,13.583893,RVSOE,2,,,,
 de:14628:1631,33001631,Edle Krone Brücke,Höckendorf b Dippol.,Höckendorf b Dippol. Edle Krone Brücke,50.947153,13.58241,RVSOE,2,,,,
-de:14628:1629,33001629,Edle Krone Tharandter Straße,Höckendorf b Dippol.,Höckendorf b Dippol. Edle Krone Tharandter Straße,50.948132,13.583821,RVSOE,2,,,,
+de:14628:1629,33001629,Edle Krone Tharandter Straße,Höckendorf b Dippol.,Höckendorf b Dippol. Edle Krone Tharandter Straße,50.948132,13.583821,DB Regio AG Südost|RVSOE,3,,,,
 de:14628:1639,33001639,Mitte,Höckendorf b Dippol.,Höckendorf b Dippol. Mitte,50.924916,13.588752,RVSOE,2,,,,
 de:14628:1635,33001635,Tharandter Straße,Höckendorf b Dippol.,Höckendorf b Dippol. Tharandter Straße,50.93012,13.585689,DB Regio AG Südost|RVSOE,3,,,,
 de:14628:1632,33001632,Wendeplatz,Höckendorf b Dippol.,Höckendorf b Dippol. Wendeplatz,50.916048,13.588537,RVSOE,2,,,,
@@ -3078,7 +3078,7 @@ de:14627:4376,33004376,Gartenstraße,Radeburg,Radeburg Gartenstraße,51.20658,13
 de:14627:4379,33004379,Gewerbestraße,Radeburg,Radeburg Gewerbestraße,51.205668,13.735142,VGM,1,,,,
 de:14627:4377,33004377,Großenhainer Platz,Radeburg,Radeburg Großenhainer Platz,51.216653,13.721577,RBO|VGM,5,,,,
 de:14627:4378,33004378,Grundschule,Radeburg,Radeburg Grundschule,51.214588,13.716313,RBO|VGM,4,,,,
-de:14627:4375,33004375,Kiebitzweg,Radeburg,Radeburg Kiebitzweg,51.216085,13.713124,VGM,1,,,,
+de:14627:4375,33004375,Kiebitzweg,Radeburg,Radeburg Kiebitzweg,51.216085,13.713124,VGM,2,,,,
 de:14627:4367,33004367,Meißner Berg,Radeburg,Radeburg Meißner Berg,51.21357,13.715388,VGM,4,,,,
 de:14627:4368,33004368,Rathaus,Radeburg,Radeburg Rathaus,51.21492,13.725557,RBO|VGM,5,,,,
 de:14627:4389,33004389,Riesstraße,Radeburg,Radeburg Riesstraße,51.201008,13.731108,VGM,1,,,,

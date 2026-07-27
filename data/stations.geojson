@@ -52792,15 +52792,19 @@
         "city": "Höckendorf b Dippol.",
         "name_with_city": "Höckendorf b Dippol. Edle Krone Tharandter Straße",
         "operators": [
+          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "343",
             "382"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -89566,10 +89570,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "403"
+            "403",
+            "405"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
