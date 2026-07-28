@@ -1,6 +1,6 @@
 # VVO Station Data Summary
 
-Total stations: 3913
+Total stations: 3914
 
 ## Stations by City
 
@@ -16,7 +16,7 @@ Total stations: 3913
 - Heidenau (Sachs): 35
 - Bischofswerda: 33
 - Kamenz: 33
-- Radeberg: 32
+- Radeberg: 33
 - Dippoldiswalde: 27
 - Sebnitz: 27
 - Weinböhla: 26
@@ -30,12 +30,12 @@ Total stations: 3913
 ## Stations by Transit Type
 
 - Regionalbus: 2696 stations
-- Stadtbus: 1305 stations
+- Stadtbus: 1306 stations
 - PlusBus: 649 stations
 - Anruflinienbus: 480 stations
 - Straßenbahn: 271 stations
 - Anruflinientaxi: 202 stations
-- Ersatzverkehr: 130 stations
+- Ersatzverkehr: 129 stations
 - Zug: 105 stations
 - Taktbus: 101 stations
 - S-Bahn: 54 stations
@@ -54,7 +54,7 @@ Total stations: 3913
 - VGM: 1171 stations
 - DVB: 775 stations
 - RBO: 713 stations
-- DB Regio AG Südost: 128 stations
+- DB Regio AG Südost: 127 stations
 - VGH: 81 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 68 stations

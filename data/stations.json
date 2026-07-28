@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3913,
+    "count": 3914,
     "format_version": "2.0"
   },
   "stations": [
@@ -38309,19 +38309,15 @@
       "longitude": 13.583821,
       "latitude": 50.948132,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "343",
           "382"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:1639",
@@ -62830,6 +62826,22 @@
       "lines": {
         "PlusBus": [
           "520"
+        ]
+      },
+      "total_lines": 1
+    },
+    {
+      "id": "de:14625:6729",
+      "numeric_id": "33006729",
+      "name": "Güterbahnhofstraße",
+      "city": "Radeberg",
+      "name_with_city": "Radeberg Güterbahnhofstraße",
+      "longitude": 13.917769,
+      "latitude": 51.110014,
+      "operators": [],
+      "lines": {
+        "Stadtbus": [
+          "28"
         ]
       },
       "total_lines": 1

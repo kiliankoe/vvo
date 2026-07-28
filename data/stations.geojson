@@ -52792,19 +52792,15 @@
         "city": "Höckendorf b Dippol.",
         "name_with_city": "Höckendorf b Dippol. Edle Krone Tharandter Straße",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "343",
             "382"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -86633,6 +86629,30 @@
         "lines": {
           "PlusBus": [
             "520"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.917769,
+          51.110014
+        ]
+      },
+      "properties": {
+        "id": "de:14625:6729",
+        "numeric_id": "33006729",
+        "name": "Güterbahnhofstraße",
+        "city": "Radeberg",
+        "name_with_city": "Radeberg Güterbahnhofstraße",
+        "operators": [],
+        "lines": {
+          "Stadtbus": [
+            "28"
           ]
         },
         "total_lines": 1
