@@ -1,6 +1,6 @@
 # VVO Station Data Summary
 
-Total stations: 3914
+Total stations: 3915
 
 ## Stations by City
 
@@ -29,8 +29,8 @@ Total stations: 3914
 
 ## Stations by Transit Type
 
-- Regionalbus: 2696 stations
-- Stadtbus: 1306 stations
+- Regionalbus: 2698 stations
+- Stadtbus: 1312 stations
 - PlusBus: 649 stations
 - Anruflinienbus: 480 stations
 - Straßenbahn: 271 stations
@@ -52,10 +52,10 @@ Total stations: 3914
 
 - RVSOE: 1306 stations
 - VGM: 1171 stations
-- DVB: 775 stations
-- RBO: 713 stations
+- DVB: 784 stations
+- RBO: 716 stations
 - DB Regio AG Südost: 127 stations
-- VGH: 81 stations
+- VGH: 82 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 68 stations
 - Müller Busreisen: 58 stations
@@ -163,4 +163,5 @@ Total stations: 3914
 - Dresden Nürnberger Platz: 10 lines
 - Dresden Schillerplatz: 10 lines
 - Königswartha Kirchplatz: 10 lines
+- Meißen Fabrikstraße: 10 lines
 - Tharandt Bahnhof: 10 lines

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3914,
+    "count": 3915,
     "format_version": "2.0"
   },
   "stations": [
@@ -11429,13 +11429,14 @@
           "360"
         ],
         "Regionalbus": [
+          "352",
           "366"
         ],
         "Bus": [
           "400"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:843",
@@ -26002,18 +26003,20 @@
       "longitude": 13.916341,
       "latitude": 51.136728,
       "operators": [
+        "DVB",
         "RBO"
       ],
       "lines": {
         "Stadtbus": [
-          "28"
+          "28",
+          "78"
         ],
         "Regionalbus": [
           "760",
           "761"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14625:6659",
@@ -32300,10 +32303,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "756"
+          "756",
+          "767"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:6071",
@@ -33520,6 +33524,24 @@
       "name_with_city": "Gödlau Gödlau",
       "longitude": 14.145546,
       "latitude": 51.200771,
+      "operators": [
+        "RBO"
+      ],
+      "lines": {
+        "Regionalbus": [
+          "795"
+        ]
+      },
+      "total_lines": 1
+    },
+    {
+      "id": "de:14625:6444",
+      "numeric_id": "33006444",
+      "name": "Siedlung",
+      "city": "Gödlau",
+      "name_with_city": "Gödlau Siedlung",
+      "longitude": 14.152634,
+      "latitude": 51.210469,
       "operators": [
         "RBO"
       ],
@@ -36913,10 +36935,11 @@
           "779"
         ],
         "Stadtbus": [
-          "3 (Hoyerswerda)"
+          "3 (Hoyerswerda)",
+          "4 (Hoyerswerda)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:8003",
@@ -37185,9 +37208,15 @@
       "name_with_city": "Hoyerswerda Hufelandstraße",
       "longitude": 14.262812,
       "latitude": 51.43318,
-      "operators": [],
-      "lines": {},
-      "total_lines": 0
+      "operators": [
+        "VGH"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "4 (Hoyerswerda)"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14625:8038",
@@ -37816,10 +37845,11 @@
       ],
       "lines": {
         "Stadtbus": [
-          "3 (Hoyerswerda)"
+          "3 (Hoyerswerda)",
+          "4 (Hoyerswerda)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:8055",
@@ -38042,9 +38072,13 @@
       "longitude": 13.715038,
       "latitude": 50.975562,
       "operators": [
+        "DVB",
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "88"
+        ],
         "Regionalbus": [
           "352",
           "353",
@@ -38055,7 +38089,7 @@
           "360"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14628:1058",
@@ -38084,9 +38118,13 @@
       "longitude": 13.717571,
       "latitude": 50.97908,
       "operators": [
+        "DVB",
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "88"
+        ],
         "Regionalbus": [
           "352",
           "353",
@@ -38097,7 +38135,7 @@
           "360"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14628:1060",
@@ -38108,14 +38146,18 @@
       "longitude": 13.721389,
       "latitude": 50.979894,
       "operators": [
+        "DVB",
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "88"
+        ],
         "Regionalbus": [
           "353"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:6342",
@@ -46248,17 +46290,19 @@
       "longitude": 13.899192,
       "latitude": 51.141772,
       "operators": [
+        "DVB",
         "RBO"
       ],
       "lines": {
         "Stadtbus": [
-          "28"
+          "28",
+          "78"
         ],
         "Regionalbus": [
           "761"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6743",
@@ -47147,10 +47191,11 @@
       ],
       "lines": {
         "Regionalbus": [
+          "756",
           "760"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:6640",
@@ -49278,6 +49323,7 @@
       "longitude": 13.487315,
       "latitude": 51.165848,
       "operators": [
+        "RBO",
         "VGM"
       ],
       "lines": {
@@ -49285,6 +49331,7 @@
           "407",
           "408",
           "415",
+          "787",
           "Sv250"
         ],
         "Anruflinienbus": [
@@ -49299,7 +49346,7 @@
           "C (Meißen)"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14627:4050",
@@ -60976,12 +61023,14 @@
       "longitude": 13.712486,
       "latitude": 50.96801,
       "operators": [
+        "DVB",
         "RVSOE"
       ],
       "lines": {
         "Stadtbus": [
           "162",
-          "356"
+          "356",
+          "88"
         ],
         "Regionalbus": [
           "347",
@@ -60994,7 +61043,7 @@
           "360"
         ]
       },
-      "total_lines": 8
+      "total_lines": 9
     },
     {
       "id": "de:14628:1032",
@@ -62716,18 +62765,20 @@
       "longitude": 13.916629,
       "latitude": 51.127686,
       "operators": [
+        "DVB",
         "RBO"
       ],
       "lines": {
         "Stadtbus": [
-          "28"
+          "28",
+          "78"
         ],
         "Regionalbus": [
           "760",
           "761"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14625:6738",
@@ -62838,13 +62889,18 @@
       "name_with_city": "Radeberg Güterbahnhofstraße",
       "longitude": 13.917769,
       "latitude": 51.110014,
-      "operators": [],
+      "operators": [
+        "RBO"
+      ],
       "lines": {
         "Stadtbus": [
           "28"
+        ],
+        "Regionalbus": [
+          "753"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:6706",
@@ -68570,15 +68626,19 @@
       "longitude": 13.733444,
       "latitude": 50.981811,
       "operators": [
+        "DVB",
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "88"
+        ],
         "Regionalbus": [
           "351",
           "353"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:1068",
@@ -68589,15 +68649,19 @@
       "longitude": 13.734872,
       "latitude": 50.983887,
       "operators": [
+        "DVB",
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "88"
+        ],
         "Regionalbus": [
           "351",
           "353"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:4688",

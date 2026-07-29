@@ -15888,13 +15888,14 @@
             "360"
           ],
           "Regionalbus": [
+            "352",
             "366"
           ],
           "Bus": [
             "400"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -35709,18 +35710,20 @@
         "city": "Feldschlößchen",
         "name_with_city": "Feldschlößchen Grenzweg",
         "operators": [
+          "DVB",
           "RBO"
         ],
         "lines": {
           "Stadtbus": [
-            "28"
+            "28",
+            "78"
           ],
           "Regionalbus": [
             "760",
             "761"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -44423,10 +44426,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "756"
+            "756",
+            "767"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -46123,6 +46127,32 @@
         "name": "Gödlau",
         "city": "Gödlau",
         "name_with_city": "Gödlau Gödlau",
+        "operators": [
+          "RBO"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "795"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.152634,
+          51.210469
+        ]
+      },
+      "properties": {
+        "id": "de:14625:6444",
+        "numeric_id": "33006444",
+        "name": "Siedlung",
+        "city": "Gödlau",
+        "name_with_city": "Gödlau Siedlung",
         "operators": [
           "RBO"
         ],
@@ -50844,10 +50874,11 @@
             "779"
           ],
           "Stadtbus": [
-            "3 (Hoyerswerda)"
+            "3 (Hoyerswerda)",
+            "4 (Hoyerswerda)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -51228,9 +51259,15 @@
         "name": "Hufelandstraße",
         "city": "Hoyerswerda",
         "name_with_city": "Hoyerswerda Hufelandstraße",
-        "operators": [],
-        "lines": {},
-        "total_lines": 0
+        "operators": [
+          "VGH"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "4 (Hoyerswerda)"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
@@ -52099,10 +52136,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "3 (Hoyerswerda)"
+            "3 (Hoyerswerda)",
+            "4 (Hoyerswerda)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -52421,9 +52459,13 @@
         "city": "Hänichen",
         "name_with_city": "Hänichen Am Käferberg",
         "operators": [
+          "DVB",
           "RVSOE"
         ],
         "lines": {
+          "Stadtbus": [
+            "88"
+          ],
           "Regionalbus": [
             "352",
             "353",
@@ -52434,7 +52476,7 @@
             "360"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -52479,9 +52521,13 @@
         "city": "Hänichen",
         "name_with_city": "Hänichen Pulverweg",
         "operators": [
+          "DVB",
           "RVSOE"
         ],
         "lines": {
+          "Stadtbus": [
+            "88"
+          ],
           "Regionalbus": [
             "352",
             "353",
@@ -52492,7 +52538,7 @@
             "360"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -52511,14 +52557,18 @@
         "city": "Hänichen",
         "name_with_city": "Hänichen Wilischblick",
         "operators": [
+          "DVB",
           "RVSOE"
         ],
         "lines": {
+          "Stadtbus": [
+            "88"
+          ],
           "Regionalbus": [
             "353"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -63811,17 +63861,19 @@
         "city": "Liegau-Augustusbad",
         "name_with_city": "Liegau-Augustusbad Epilepsiezentrum",
         "operators": [
+          "DVB",
           "RBO"
         ],
         "lines": {
           "Stadtbus": [
-            "28"
+            "28",
+            "78"
           ],
           "Regionalbus": [
             "761"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -65030,10 +65082,11 @@
         ],
         "lines": {
           "Regionalbus": [
+            "756",
             "760"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -67985,6 +68038,7 @@
         "city": "Meißen",
         "name_with_city": "Meißen Fabrikstraße",
         "operators": [
+          "RBO",
           "VGM"
         ],
         "lines": {
@@ -67992,6 +68046,7 @@
             "407",
             "408",
             "415",
+            "787",
             "Sv250"
           ],
           "Anruflinienbus": [
@@ -68006,7 +68061,7 @@
             "C (Meißen)"
           ]
         },
-        "total_lines": 9
+        "total_lines": 10
       }
     },
     {
@@ -84067,12 +84122,14 @@
         "city": "Possendorf (Bannewitz)",
         "name_with_city": "Possendorf (Bannewitz) Kastanienallee",
         "operators": [
+          "DVB",
           "RVSOE"
         ],
         "lines": {
           "Stadtbus": [
             "162",
-            "356"
+            "356",
+            "88"
           ],
           "Regionalbus": [
             "347",
@@ -84085,7 +84142,7 @@
             "360"
           ]
         },
-        "total_lines": 8
+        "total_lines": 9
       }
     },
     {
@@ -86479,18 +86536,20 @@
         "city": "Radeberg",
         "name_with_city": "Radeberg Einkaufszentrum",
         "operators": [
+          "DVB",
           "RBO"
         ],
         "lines": {
           "Stadtbus": [
-            "28"
+            "28",
+            "78"
           ],
           "Regionalbus": [
             "760",
             "761"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -86649,13 +86708,18 @@
         "name": "Güterbahnhofstraße",
         "city": "Radeberg",
         "name_with_city": "Radeberg Güterbahnhofstraße",
-        "operators": [],
+        "operators": [
+          "RBO"
+        ],
         "lines": {
           "Stadtbus": [
             "28"
+          ],
+          "Regionalbus": [
+            "753"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -94589,15 +94653,19 @@
         "city": "Rippien",
         "name_with_city": "Rippien Dorfplatz",
         "operators": [
+          "DVB",
           "RVSOE"
         ],
         "lines": {
+          "Stadtbus": [
+            "88"
+          ],
           "Regionalbus": [
             "351",
             "353"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -94616,15 +94684,19 @@
         "city": "Rippien",
         "name_with_city": "Rippien Nöthnitzer Straße",
         "operators": [
+          "DVB",
           "RVSOE"
         ],
         "lines": {
+          "Stadtbus": [
+            "88"
+          ],
           "Regionalbus": [
             "351",
             "353"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
