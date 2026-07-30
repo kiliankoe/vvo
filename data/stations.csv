@@ -556,7 +556,7 @@ de:14612:949,33000949,Am Wiesenrand,Dresden,Dresden Am Wiesenrand,50.999233,13.8
 de:14612:536,33000536,Am Zschonergrundbad,Dresden,Dresden Am Zschonergrundbad,51.068187,13.655371,SATRA,4,,91|93,,
 de:14612:35,33000035,Am Zwingerteich,Dresden,Dresden Am Zwingerteich,51.054467,13.730372,DVB,2,11|20,,,
 de:14612:334,33000334,Amalie-Dietrich-Platz,Dresden,Dresden Amalie-Dietrich-Platz,51.045324,13.677946,DVB,11,1|10|11|12|2|20|41|6|7|8|9,,,
-de:14612:34,33000034,Ammonstraße / Budapester Straße,Dresden,Dresden Ammonstraße / Budapester Straße,51.043839,13.725997,RVSOE,5,,,,
+de:14612:34,33000034,Ammonstraße / Budapester Straße,Dresden,Dresden Ammonstraße / Budapester Straße,51.043839,13.725997,RVSOE,4,,,,
 de:14612:843,33000843,Amselsteg,Dresden,Dresden Amselsteg,51.053067,13.828845,DVB|RBO,3,,84,,
 de:14612:655,33000655,An der Bartlake,Dresden,Dresden An der Bartlake,51.125746,13.737145,DVB,2,,78|80,,
 de:14612:217,33000217,An der Flutrinne,Dresden,Dresden An der Flutrinne,51.077263,13.698706,DVB,4,13|9,79,,
@@ -2067,7 +2067,7 @@ de:14628:3857,33003857,Raupenberg,Langburkersdorf,Langburkersdorf Raupenberg,51.
 de:14628:3850,33003850,Sebnitzer Straße,Langburkersdorf,Langburkersdorf Sebnitzer Straße,51.024321,14.232054,RVSOE,3,,,,
 de:14628:3851,33003851,Tännicht,Langburkersdorf,Langburkersdorf Tännicht,51.011425,14.231775,RVSOE,2,,,,
 de:14612:6681,33006681,Am Mühlenteich,Langebrück (Dresden),Langebrück (Dresden) Am Mühlenteich,51.133329,13.840101,DVB,1,,78,,
-de:14612:6680,33006680,Bahnhof,Langebrück (Dresden),Langebrück (Dresden) Bahnhof,51.126739,13.841475,DB Regio AG Südost|DVB|trilex - Die Länderbahn GmbH DLB,6,,78,RB60|RB61|RE1,S8
+de:14612:6680,33006680,Bahnhof,Langebrück (Dresden),Langebrück (Dresden) Bahnhof,51.126739,13.841475,DB Regio AG Südost|DVB|trilex - Die Länderbahn GmbH DLB,5,,78,RB60|RB61|RE1,S8
 de:14612:6683,33006683,Borngäßchen,Langebrück (Dresden),Langebrück (Dresden) Borngäßchen,51.136452,13.842104,DVB,1,,78,,
 de:14612:6682,33006682,Heidehof,Langebrück (Dresden),Langebrück (Dresden) Heidehof,51.125876,13.820868,DVB,1,,78,,
 de:14612:6684,33006684,Klotzscher Straße,Langebrück (Dresden),Langebrück (Dresden) Klotzscher Straße,51.125374,13.826545,DVB,1,,78,,
@@ -2988,7 +2988,7 @@ de:14625:6703,33006703,Oberstraße,Radeberg,Radeberg Oberstraße,51.119956,13.92
 de:14625:6702,33006702,Otto-Uhlig-Straße,Radeberg,Radeberg Otto-Uhlig-Straße,51.118721,13.918425,DVB|RBO,4,,28|78,,
 de:14625:6718,33006718,Pulsnitzer Straße,Radeberg,Radeberg Pulsnitzer Straße,51.119601,13.921848,RBO,3,,28,,
 de:14625:6724,33006724,Randsiedlung,Radeberg,Radeberg Randsiedlung,51.127263,13.949938,RBO,1,,,,
-de:14625:6716,33006716,Rathenaustraße,Radeberg,Radeberg Rathenaustraße,51.112399,13.917473,RBO,2,,28,,
+de:14625:6716,33006716,Rathenaustraße,Radeberg,Radeberg Rathenaustraße,51.112399,13.917473,RBO,4,,28,,
 de:14625:6730,33006730,Richard-Wagner-Straße,Radeberg,Radeberg Richard-Wagner-Straße,51.106162,13.920105,RBO,3,,28,,
 de:14625:6719,33006719,Robert-Blum-Weg,Radeberg,Radeberg Robert-Blum-Weg,51.103364,13.905175,RBO,2,,28,,
 de:14625:6710,33006710,Steinstraße,Radeberg,Radeberg Steinstraße,51.113832,13.902839,RBO,2,,28,,

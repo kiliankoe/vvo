@@ -11429,14 +11429,13 @@
           "360"
         ],
         "Regionalbus": [
-          "352",
           "366"
         ],
         "Bus": [
           "400"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:843",
@@ -43719,12 +43718,9 @@
         ],
         "S-Bahn": [
           "S8"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14612:6683",
@@ -63154,11 +63150,15 @@
         "Stadtbus": [
           "28"
         ],
+        "PlusBus": [
+          "521"
+        ],
         "Regionalbus": [
+          "753",
           "755"
         ]
       },
-      "total_lines": 2
+      "total_lines": 4
     },
     {
       "id": "de:14625:6730",
