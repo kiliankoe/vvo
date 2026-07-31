@@ -1820,11 +1820,12 @@
         ],
         "lines": {
           "Regionalbus": [
+            "216",
             "218",
             "245"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -1901,10 +1902,11 @@
         ],
         "lines": {
           "Regionalbus": [
+            "216",
             "245"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -60558,6 +60560,32 @@
           ]
         },
         "total_lines": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.025055,
+          50.880989
+        ]
+      },
+      "properties": {
+        "id": "de:14628:3528",
+        "numeric_id": "33003528",
+        "name": "Oberdorf",
+        "city": "Langenhennersdorf",
+        "name_with_city": "Langenhennersdorf Oberdorf",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "245"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3915,
+    "count": 3916,
     "format_version": "2.0"
   },
   "stations": [
@@ -1321,11 +1321,12 @@
       ],
       "lines": {
         "Regionalbus": [
+          "216",
           "218",
           "245"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3532",
@@ -1378,10 +1379,11 @@
       ],
       "lines": {
         "Regionalbus": [
+          "216",
           "245"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3535",
@@ -43923,6 +43925,24 @@
         ]
       },
       "total_lines": 3
+    },
+    {
+      "id": "de:14628:3528",
+      "numeric_id": "33003528",
+      "name": "Oberdorf",
+      "city": "Langenhennersdorf",
+      "name_with_city": "Langenhennersdorf Oberdorf",
+      "longitude": 14.025055,
+      "latitude": 50.880989,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Regionalbus": [
+          "245"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14628:3520",
