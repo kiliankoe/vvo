@@ -30,7 +30,7 @@ Total stations: 3916
 ## Stations by Transit Type
 
 - Regionalbus: 2699 stations
-- Stadtbus: 1312 stations
+- Stadtbus: 1307 stations
 - PlusBus: 650 stations
 - Anruflinienbus: 480 stations
 - Straßenbahn: 271 stations
@@ -50,9 +50,9 @@ Total stations: 3916
 
 ## Transit Operators
 
-- RVSOE: 1307 stations
+- RVSOE: 1305 stations
 - VGM: 1171 stations
-- DVB: 784 stations
+- DVB: 778 stations
 - RBO: 716 stations
 - DB Regio AG Südost: 127 stations
 - VGH: 82 stations
@@ -70,6 +70,7 @@ Total stations: 3916
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 4 stations
 - DB Regio: 3 stations
+- LEO Express: 3 stations
 - DB Fernverkehr AG: 3 stations
 - FlixTrain: 2 stations
 - Nordsachsen Mobil: 2 stations

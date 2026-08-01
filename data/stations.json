@@ -1213,6 +1213,7 @@
       "latitude": 50.91927,
       "operators": [
         "DB Regio AG Südost",
+        "LEO Express",
         "RVSOE",
         "Österreichische Bundesbahnen"
       ],
@@ -11932,6 +11933,7 @@
         "DB Regio AG Südost",
         "DVB",
         "FlixTrain",
+        "LEO Express",
         "Mitteldeutsche Regiobahn",
         "VGM",
         "trilex - Die Länderbahn GmbH DLB",
@@ -15630,6 +15632,7 @@
         "DB Regio AG Südost",
         "DVB",
         "FlixTrain",
+        "LEO Express",
         "Mitteldeutsche Regiobahn",
         "RVSOE",
         "VGM",
@@ -38073,13 +38076,9 @@
       "longitude": 13.715038,
       "latitude": 50.975562,
       "operators": [
-        "DVB",
         "RVSOE"
       ],
       "lines": {
-        "Stadtbus": [
-          "88"
-        ],
         "Regionalbus": [
           "352",
           "353",
@@ -38090,7 +38089,7 @@
           "360"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14628:1058",
@@ -38119,13 +38118,9 @@
       "longitude": 13.717571,
       "latitude": 50.97908,
       "operators": [
-        "DVB",
         "RVSOE"
       ],
       "lines": {
-        "Stadtbus": [
-          "88"
-        ],
         "Regionalbus": [
           "352",
           "353",
@@ -38136,7 +38131,7 @@
           "360"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14628:1060",
@@ -38147,18 +38142,14 @@
       "longitude": 13.721389,
       "latitude": 50.979894,
       "operators": [
-        "DVB",
         "RVSOE"
       ],
       "lines": {
-        "Stadtbus": [
-          "88"
-        ],
         "Regionalbus": [
           "353"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:6342",
@@ -61039,14 +61030,12 @@
       "longitude": 13.712486,
       "latitude": 50.96801,
       "operators": [
-        "DVB",
         "RVSOE"
       ],
       "lines": {
         "Stadtbus": [
           "162",
-          "356",
-          "88"
+          "356"
         ],
         "Regionalbus": [
           "347",
@@ -61059,7 +61048,7 @@
           "360"
         ]
       },
-      "total_lines": 9
+      "total_lines": 8
     },
     {
       "id": "de:14628:1032",
@@ -66744,19 +66733,17 @@
       "longitude": 13.903917,
       "latitude": 51.026638,
       "operators": [
-        "Müller Busreisen",
-        "RVSOE"
+        "Müller Busreisen"
       ],
       "lines": {
         "Regionalbus": [
-          "226",
           "228"
         ],
         "Stadtbus": [
           "98C"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:445",
@@ -68646,19 +68633,15 @@
       "longitude": 13.733444,
       "latitude": 50.981811,
       "operators": [
-        "DVB",
         "RVSOE"
       ],
       "lines": {
-        "Stadtbus": [
-          "88"
-        ],
         "Regionalbus": [
           "351",
           "353"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:1068",
@@ -68669,19 +68652,15 @@
       "longitude": 13.734872,
       "latitude": 50.983887,
       "operators": [
-        "DVB",
         "RVSOE"
       ],
       "lines": {
-        "Stadtbus": [
-          "88"
-        ],
         "Regionalbus": [
           "351",
           "353"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4688",
@@ -72171,19 +72150,17 @@
       "longitude": 13.901079,
       "latitude": 51.0297,
       "operators": [
-        "Müller Busreisen",
-        "RVSOE"
+        "Müller Busreisen"
       ],
       "lines": {
         "Regionalbus": [
-          "226",
           "228"
         ],
         "Stadtbus": [
           "98C"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:3790",
