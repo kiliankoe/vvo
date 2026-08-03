@@ -11432,13 +11432,14 @@
           "360"
         ],
         "Regionalbus": [
+          "352",
           "366"
         ],
         "Bus": [
           "400"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:843",
@@ -66733,17 +66734,19 @@
       "longitude": 13.903917,
       "latitude": 51.026638,
       "operators": [
-        "Müller Busreisen"
+        "Müller Busreisen",
+        "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
+          "226",
           "228"
         ],
         "Stadtbus": [
           "98C"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:445",
@@ -72150,17 +72153,19 @@
       "longitude": 13.901079,
       "latitude": 51.0297,
       "operators": [
-        "Müller Busreisen"
+        "Müller Busreisen",
+        "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
+          "226",
           "228"
         ],
         "Stadtbus": [
           "98C"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:3790",

@@ -15891,13 +15891,14 @@
             "360"
           ],
           "Regionalbus": [
+            "352",
             "366"
           ],
           "Bus": [
             "400"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -92088,17 +92089,19 @@
         "city": "Reitzendorf(Dresden)",
         "name_with_city": "Reitzendorf(Dresden) Kleinbauernmuseum",
         "operators": [
-          "Müller Busreisen"
+          "Müller Busreisen",
+          "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
+            "226",
             "228"
           ],
           "Stadtbus": [
             "98C"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -99569,17 +99572,19 @@
         "city": "Schönfeld (Dresden)",
         "name_with_city": "Schönfeld (Dresden) Meixstraße",
         "operators": [
-          "Müller Busreisen"
+          "Müller Busreisen",
+          "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
+            "226",
             "228"
           ],
           "Stadtbus": [
             "98C"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
