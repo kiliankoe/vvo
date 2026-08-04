@@ -2977,6 +2977,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.52649,
+          51.239155
+        ]
+      },
+      "properties": {
+        "id": "de:14627:5294",
+        "numeric_id": "33005294",
+        "name": "Am Schmuhl",
+        "city": "Baßlitz",
+        "name_with_city": "Baßlitz Am Schmuhl",
+        "operators": [
+          "VGM"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "463"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.536435,
           51.234099
         ]
@@ -15663,8 +15689,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.651895,
-          51.082703
+          13.652937,
+          51.08237
         ]
       },
       "properties": {

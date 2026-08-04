@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3916,
+    "count": 3917,
     "format_version": "2.0"
   },
   "stations": [
@@ -2140,6 +2140,24 @@
       "lines": {
         "Regionalbus": [
           "461"
+        ]
+      },
+      "total_lines": 1
+    },
+    {
+      "id": "de:14627:5294",
+      "numeric_id": "33005294",
+      "name": "Am Schmuhl",
+      "city": "Baßlitz",
+      "name_with_city": "Baßlitz Am Schmuhl",
+      "longitude": 13.52649,
+      "latitude": 51.239155,
+      "operators": [
+        "VGM"
+      ],
+      "lines": {
+        "Regionalbus": [
+          "463"
         ]
       },
       "total_lines": 1
@@ -11268,8 +11286,8 @@
       "name": "Am Urnenfeld",
       "city": "Dresden",
       "name_with_city": "Dresden Am Urnenfeld",
-      "longitude": 13.651895,
-      "latitude": 51.082703,
+      "longitude": 13.652937,
+      "latitude": 51.08237,
       "operators": [
         "DB AG",
         "DVB"
