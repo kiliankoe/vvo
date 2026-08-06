@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3910,
+    "count": 3911,
     "format_version": "2.0"
   },
   "stations": [
@@ -1215,7 +1215,6 @@
       "latitude": 50.91927,
       "operators": [
         "DB Regio AG Südost",
-        "LEO Express",
         "RVSOE",
         "Österreichische Bundesbahnen"
       ],
@@ -11428,13 +11427,14 @@
           "360"
         ],
         "Regionalbus": [
+          "352",
           "366"
         ],
         "Bus": [
           "400"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:843",
@@ -11889,6 +11889,7 @@
           "RB60",
           "RB61",
           "RE1",
+          "RE15",
           "RE18",
           "RE2",
           "RE3",
@@ -11903,7 +11904,7 @@
           "SEV"
         ]
       },
-      "total_lines": 26
+      "total_lines": 27
     },
     {
       "id": "de:14612:16",
@@ -11919,7 +11920,6 @@
         "DB Regio AG Südost",
         "DVB",
         "FlixTrain",
-        "LEO Express",
         "Mitteldeutsche Regiobahn",
         "VGM",
         "trilex - Die Länderbahn GmbH DLB",
@@ -15597,11 +15597,11 @@
       "longitude": 13.732932,
       "latitude": 51.03993,
       "operators": [
+        "DB AG",
         "DB Fernverkehr AG",
         "DB Regio AG Südost",
         "DVB",
         "FlixTrain",
-        "LEO Express",
         "Mitteldeutsche Regiobahn",
         "RVSOE",
         "VGM",
@@ -15645,6 +15645,7 @@
           "RB60",
           "RB61",
           "RE1",
+          "RE15",
           "RE19",
           "RE2",
           "RE20",
@@ -15658,7 +15659,7 @@
           "S8"
         ]
       },
-      "total_lines": 34
+      "total_lines": 35
     },
     {
       "id": "de:14612:36",
@@ -39174,13 +39175,14 @@
       "lines": {
         "Regionalbus": [
           "759",
-          "786"
+          "786",
+          "787"
         ],
         "Stadtbus": [
           "22 (Kamenz)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14625:6217",
@@ -49176,7 +49178,6 @@
       "longitude": 13.487315,
       "latitude": 51.165848,
       "operators": [
-        "RBO",
         "VGM"
       ],
       "lines": {
@@ -49184,7 +49185,6 @@
           "407",
           "408",
           "415",
-          "787",
           "Sv250"
         ],
         "Anruflinienbus": [
@@ -49199,7 +49199,7 @@
           "C (Meißen)"
         ]
       },
-      "total_lines": 10
+      "total_lines": 9
     },
     {
       "id": "de:14627:4050",
@@ -53647,8 +53647,8 @@
       "name": "Elbaue",
       "city": "Neusörnewitz",
       "name_with_city": "Neusörnewitz Elbaue",
-      "longitude": 13.526337,
-      "latitude": 51.150778,
+      "longitude": 13.525906,
+      "latitude": 51.150913,
       "operators": [
         "VGM"
       ],
@@ -53896,6 +53896,7 @@
         ],
         "Zug": [
           "RB31",
+          "RE15",
           "RE18",
           "RE50"
         ],
@@ -53903,7 +53904,7 @@
           "SEV"
         ]
       },
-      "total_lines": 7
+      "total_lines": 8
     },
     {
       "id": "de:14627:4122",
@@ -54390,15 +54391,14 @@
         "VGM"
       ],
       "lines": {
-        "Regionalbus": [
-          "407",
+        "Anruflinienbus": [
           "415"
         ],
-        "Anruflinienbus": [
+        "Regionalbus": [
           "415"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:7715",
@@ -71375,6 +71375,24 @@
       "total_lines": 1
     },
     {
+      "id": "de:14625:6113",
+      "numeric_id": "33006113",
+      "name": "Industriestraße",
+      "city": "Schwepnitz",
+      "name_with_city": "Schwepnitz Industriestraße",
+      "longitude": 13.944611,
+      "latitude": 51.323781,
+      "operators": [
+        "RBO"
+      ],
+      "lines": {
+        "PlusBus": [
+          "532"
+        ]
+      },
+      "total_lines": 1
+    },
+    {
       "id": "de:14625:6114",
       "numeric_id": "33006114",
       "name": "Kirche",
@@ -72637,11 +72655,14 @@
         "Taktbus": [
           "267"
         ],
+        "Ersatzverkehr": [
+          "SEV"
+        ],
         "Stadtbus": [
           "T (Sebnitz)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3939",
@@ -75814,8 +75835,8 @@
       "name": "Abzweig Sönitz",
       "city": "Taubenheim b Meißen",
       "name_with_city": "Taubenheim b Meißen Abzweig Sönitz",
-      "longitude": 13.453942,
-      "latitude": 51.094834,
+      "longitude": 13.453861,
+      "latitude": 51.094868,
       "operators": [
         "VGM"
       ],
@@ -75835,8 +75856,8 @@
       "name": "Brücke",
       "city": "Taubenheim b Meißen",
       "name_with_city": "Taubenheim b Meißen Brücke",
-      "longitude": 13.460195,
-      "latitude": 51.094851,
+      "longitude": 13.460769,
+      "latitude": 51.094987,
       "operators": [
         "VGM"
       ],
@@ -75858,8 +75879,8 @@
       "name": "Gasthaus",
       "city": "Taubenheim b Meißen",
       "name_with_city": "Taubenheim b Meißen Gasthaus",
-      "longitude": 13.467974,
-      "latitude": 51.09541,
+      "longitude": 13.46766,
+      "latitude": 51.095438,
       "operators": [
         "VGM"
       ],
@@ -76791,9 +76812,12 @@
         ],
         "Zug": [
           "U28"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3676",
@@ -76888,8 +76912,8 @@
       "name": "Verkaufsstelle",
       "city": "Ullendorf",
       "name_with_city": "Ullendorf Verkaufsstelle",
-      "longitude": 13.488429,
-      "latitude": 51.103251,
+      "longitude": 13.488599,
+      "latitude": 51.102743,
       "operators": [
         "VGM"
       ],

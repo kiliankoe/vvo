@@ -1682,7 +1682,6 @@
         "name_with_city": "Bad Schandau Nationalparkbahnhof",
         "operators": [
           "DB Regio AG Südost",
-          "LEO Express",
           "RVSOE",
           "Österreichische Bundesbahnen"
         ],
@@ -15887,13 +15886,14 @@
             "360"
           ],
           "Regionalbus": [
+            "352",
             "366"
           ],
           "Bus": [
             "400"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -16500,6 +16500,7 @@
             "RB60",
             "RB61",
             "RE1",
+            "RE15",
             "RE18",
             "RE2",
             "RE3",
@@ -16514,7 +16515,7 @@
             "SEV"
           ]
         },
-        "total_lines": 26
+        "total_lines": 27
       }
     },
     {
@@ -16538,7 +16539,6 @@
           "DB Regio AG Südost",
           "DVB",
           "FlixTrain",
-          "LEO Express",
           "Mitteldeutsche Regiobahn",
           "VGM",
           "trilex - Die Länderbahn GmbH DLB",
@@ -21560,11 +21560,11 @@
         "city": "Dresden",
         "name_with_city": "Dresden Hauptbahnhof",
         "operators": [
+          "DB AG",
           "DB Fernverkehr AG",
           "DB Regio AG Südost",
           "DVB",
           "FlixTrain",
-          "LEO Express",
           "Mitteldeutsche Regiobahn",
           "RVSOE",
           "VGM",
@@ -21608,6 +21608,7 @@
             "RB60",
             "RB61",
             "RE1",
+            "RE15",
             "RE19",
             "RE2",
             "RE20",
@@ -21621,7 +21622,7 @@
             "S8"
           ]
         },
-        "total_lines": 34
+        "total_lines": 35
       }
     },
     {
@@ -54025,13 +54026,14 @@
         "lines": {
           "Regionalbus": [
             "759",
-            "786"
+            "786",
+            "787"
           ],
           "Stadtbus": [
             "22 (Kamenz)"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -67891,7 +67893,6 @@
         "city": "Meißen",
         "name_with_city": "Meißen Fabrikstraße",
         "operators": [
-          "RBO",
           "VGM"
         ],
         "lines": {
@@ -67899,7 +67900,6 @@
             "407",
             "408",
             "415",
-            "787",
             "Sv250"
           ],
           "Anruflinienbus": [
@@ -67914,7 +67914,7 @@
             "C (Meißen)"
           ]
         },
-        "total_lines": 10
+        "total_lines": 9
       }
     },
     {
@@ -74034,8 +74034,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.526337,
-          51.150778
+          13.525906,
+          51.150913
         ]
       },
       "properties": {
@@ -74387,6 +74387,7 @@
           ],
           "Zug": [
             "RB31",
+            "RE15",
             "RE18",
             "RE50"
           ],
@@ -74394,7 +74395,7 @@
             "SEV"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -75065,15 +75066,14 @@
           "VGM"
         ],
         "lines": {
-          "Regionalbus": [
-            "407",
+          "Anruflinienbus": [
             "415"
           ],
-          "Anruflinienbus": [
+          "Regionalbus": [
             "415"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -98559,6 +98559,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.944611,
+          51.323781
+        ]
+      },
+      "properties": {
+        "id": "de:14625:6113",
+        "numeric_id": "33006113",
+        "name": "Industriestraße",
+        "city": "Schwepnitz",
+        "name_with_city": "Schwepnitz Industriestraße",
+        "operators": [
+          "RBO"
+        ],
+        "lines": {
+          "PlusBus": [
+            "532"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.958634,
           51.33159
         ]
@@ -100296,11 +100322,14 @@
           "Taktbus": [
             "267"
           ],
+          "Ersatzverkehr": [
+            "SEV"
+          ],
           "Stadtbus": [
             "T (Sebnitz)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -104737,8 +104766,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.453942,
-          51.094834
+          13.453861,
+          51.094868
         ]
       },
       "properties": {
@@ -104766,8 +104795,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.460195,
-          51.094851
+          13.460769,
+          51.094987
         ]
       },
       "properties": {
@@ -104797,8 +104826,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.467974,
-          51.09541
+          13.46766,
+          51.095438
         ]
       },
       "properties": {
@@ -106098,9 +106127,12 @@
           ],
           "Zug": [
             "U28"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -106227,8 +106259,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.488429,
-          51.103251
+          13.488599,
+          51.102743
         ]
       },
       "properties": {
