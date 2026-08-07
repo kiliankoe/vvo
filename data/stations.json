@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3911,
+    "count": 3914,
     "format_version": "2.0"
   },
   "stations": [
@@ -11427,14 +11427,13 @@
           "360"
         ],
         "Regionalbus": [
-          "352",
           "366"
         ],
         "Bus": [
           "400"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:843",
@@ -66788,10 +66787,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "A1 (Riesa)",
           "D (Riesa)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:5500",
@@ -67626,6 +67626,24 @@
       "total_lines": 4
     },
     {
+      "id": "de:14627:5567",
+      "numeric_id": "33005567",
+      "name": "Merzdorfer Ring",
+      "city": "Riesa",
+      "name_with_city": "Riesa Merzdorfer Ring",
+      "longitude": 13.250025,
+      "latitude": 51.306106,
+      "operators": [
+        "VGM"
+      ],
+      "lines": {
+        "Regionalbus": [
+          "442"
+        ]
+      },
+      "total_lines": 1
+    },
+    {
       "id": "de:14627:5899",
       "numeric_id": "33005899",
       "name": "Neunickritz",
@@ -68094,6 +68112,24 @@
       "total_lines": 16
     },
     {
+      "id": "de:14627:5516",
+      "numeric_id": "33005516",
+      "name": "Segouer Straße",
+      "city": "Riesa",
+      "name_with_city": "Riesa Segouer Straße",
+      "longitude": 13.25272,
+      "latitude": 51.30286,
+      "operators": [
+        "VGM"
+      ],
+      "lines": {
+        "Regionalbus": [
+          "442"
+        ]
+      },
+      "total_lines": 1
+    },
+    {
       "id": "de:14627:5505",
       "numeric_id": "33005505",
       "name": "Seifenwerk",
@@ -68351,6 +68387,24 @@
         ]
       },
       "total_lines": 4
+    },
+    {
+      "id": "de:14627:5517",
+      "numeric_id": "33005517",
+      "name": "Weidaer Straße",
+      "city": "Riesa",
+      "name_with_city": "Riesa Weidaer Straße",
+      "longitude": 13.249189,
+      "latitude": 51.309515,
+      "operators": [
+        "VGM"
+      ],
+      "lines": {
+        "Regionalbus": [
+          "442"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14627:5893",

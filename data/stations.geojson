@@ -15886,14 +15886,13 @@
             "360"
           ],
           "Regionalbus": [
-            "352",
             "366"
           ],
           "Bus": [
             "400"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -92215,10 +92214,11 @@
         ],
         "lines": {
           "Stadtbus": [
+            "A1 (Riesa)",
             "D (Riesa)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -93362,6 +93362,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.250025,
+          51.306106
+        ]
+      },
+      "properties": {
+        "id": "de:14627:5567",
+        "numeric_id": "33005567",
+        "name": "Merzdorfer Ring",
+        "city": "Riesa",
+        "name_with_city": "Riesa Merzdorfer Ring",
+        "operators": [
+          "VGM"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "442"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.296189,
           51.27228
         ]
@@ -93990,6 +94016,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.25272,
+          51.30286
+        ]
+      },
+      "properties": {
+        "id": "de:14627:5516",
+        "numeric_id": "33005516",
+        "name": "Segouer Straße",
+        "city": "Riesa",
+        "name_with_city": "Riesa Segouer Straße",
+        "operators": [
+          "VGM"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "442"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.261631,
           51.314434
         ]
@@ -94338,6 +94390,32 @@
           ]
         },
         "total_lines": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.249189,
+          51.309515
+        ]
+      },
+      "properties": {
+        "id": "de:14627:5517",
+        "numeric_id": "33005517",
+        "name": "Weidaer Straße",
+        "city": "Riesa",
+        "name_with_city": "Riesa Weidaer Straße",
+        "operators": [
+          "VGM"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "442"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
