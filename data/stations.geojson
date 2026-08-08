@@ -85808,9 +85808,18 @@
         "name": "Abzweig Spechtritz",
         "city": "Rabenau (Sachs)",
         "name_with_city": "Rabenau (Sachs) Abzweig Spechtritz",
-        "operators": [],
-        "lines": {},
-        "total_lines": 0
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "347"
+          ],
+          "PlusBus": [
+            "348"
+          ]
+        },
+        "total_lines": 2
       }
     },
     {
@@ -91892,19 +91901,17 @@
         "city": "Reitzendorf(Dresden)",
         "name_with_city": "Reitzendorf(Dresden) Kleinbauernmuseum",
         "operators": [
-          "Müller Busreisen",
-          "RVSOE"
+          "Müller Busreisen"
         ],
         "lines": {
           "Regionalbus": [
-            "226",
             "228"
           ],
           "Stadtbus": [
             "98C"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -99361,19 +99368,17 @@
         "city": "Schönfeld (Dresden)",
         "name_with_city": "Schönfeld (Dresden) Meixstraße",
         "operators": [
-          "Müller Busreisen",
-          "RVSOE"
+          "Müller Busreisen"
         ],
         "lines": {
           "Regionalbus": [
-            "226",
             "228"
           ],
           "Stadtbus": [
             "98C"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
