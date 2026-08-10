@@ -14872,7 +14872,6 @@
           "Straßenbahn": [
             "1",
             "2",
-            "6",
             "9"
           ],
           "PlusBus": [
@@ -14883,7 +14882,7 @@
             "H/S (Pirna)"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
@@ -15887,13 +15886,14 @@
             "360"
           ],
           "Regionalbus": [
+            "352",
             "366"
           ],
           "Bus": [
             "400"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -16181,7 +16181,6 @@
           "Straßenbahn": [
             "10",
             "11",
-            "13",
             "3",
             "4",
             "41",
@@ -16191,7 +16190,7 @@
             "9"
           ]
         },
-        "total_lines": 10
+        "total_lines": 9
       }
     },
     {
@@ -16483,7 +16482,6 @@
             "10",
             "11",
             "12",
-            "13",
             "2",
             "3",
             "41",
@@ -16517,7 +16515,7 @@
             "SEV"
           ]
         },
-        "total_lines": 28
+        "total_lines": 27
       }
     },
     {
@@ -17555,7 +17553,6 @@
             "10",
             "11",
             "12",
-            "13",
             "3",
             "41",
             "7",
@@ -17565,7 +17562,7 @@
             "62"
           ]
         },
-        "total_lines": 9
+        "total_lines": 8
       }
     },
     {
@@ -17953,13 +17950,12 @@
         "lines": {
           "Straßenbahn": [
             "3",
-            "6",
             "7",
             "8",
             "9"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -18624,11 +18620,10 @@
             "1",
             "12",
             "2",
-            "6",
             "9"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -19645,7 +19640,6 @@
             "12",
             "13",
             "41",
-            "6",
             "8",
             "9"
           ],
@@ -19653,7 +19647,7 @@
             "64"
           ]
         },
-        "total_lines": 8
+        "total_lines": 7
       }
     },
     {
@@ -20487,14 +20481,13 @@
             "12",
             "13",
             "41",
-            "6",
             "8"
           ],
           "Stadtbus": [
             "64"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -21021,7 +21014,6 @@
           "Straßenbahn": [
             "10",
             "11",
-            "13",
             "4",
             "41",
             "8"
@@ -21031,7 +21023,7 @@
             "68"
           ]
         },
-        "total_lines": 8
+        "total_lines": 7
       }
     },
     {
@@ -21584,7 +21576,6 @@
             "10",
             "11",
             "12",
-            "13",
             "3",
             "41",
             "7",
@@ -21631,7 +21622,7 @@
             "S8"
           ]
         },
-        "total_lines": 36
+        "total_lines": 35
       }
     },
     {
@@ -24211,7 +24202,6 @@
           "Straßenbahn": [
             "10",
             "11",
-            "13",
             "3",
             "41",
             "6",
@@ -24219,7 +24209,7 @@
             "9"
           ]
         },
-        "total_lines": 8
+        "total_lines": 7
       }
     },
     {
@@ -24429,12 +24419,11 @@
             "12",
             "13",
             "41",
-            "6",
             "8",
             "9"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
@@ -26835,13 +26824,12 @@
             "11",
             "3",
             "4",
-            "6",
             "7",
             "8",
             "9"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
@@ -27872,7 +27860,6 @@
             "1",
             "12",
             "2",
-            "6",
             "9"
           ],
           "Stadtbus": [
@@ -27889,7 +27876,7 @@
             "366"
           ]
         },
-        "total_lines": 12
+        "total_lines": 11
       }
     },
     {
@@ -28117,7 +28104,6 @@
             "2",
             "3",
             "4",
-            "6",
             "7",
             "8",
             "9"
@@ -28135,7 +28121,7 @@
             "477"
           ]
         },
-        "total_lines": 18
+        "total_lines": 17
       }
     },
     {
@@ -29753,7 +29739,6 @@
             "10",
             "11",
             "12",
-            "13",
             "3",
             "41",
             "7",
@@ -29765,7 +29750,7 @@
             "S2"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -31272,12 +31257,11 @@
             "13",
             "2",
             "41",
-            "6",
             "8",
             "9"
           ]
         },
-        "total_lines": 9
+        "total_lines": 8
       }
     },
     {
@@ -31804,13 +31788,12 @@
             "11",
             "3",
             "4",
-            "6",
             "7",
             "8",
             "9"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
@@ -91919,17 +91902,19 @@
         "city": "Reitzendorf(Dresden)",
         "name_with_city": "Reitzendorf(Dresden) Kleinbauernmuseum",
         "operators": [
-          "Müller Busreisen"
+          "Müller Busreisen",
+          "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
+            "226",
             "228"
           ],
           "Stadtbus": [
             "98C"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -93403,9 +93388,12 @@
         "lines": {
           "Regionalbus": [
             "442"
+          ],
+          "Stadtbus": [
+            "A1 (Riesa)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -94057,9 +94045,12 @@
         "lines": {
           "Regionalbus": [
             "442"
+          ],
+          "Stadtbus": [
+            "A1 (Riesa)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -94438,9 +94429,12 @@
         "lines": {
           "Regionalbus": [
             "442"
+          ],
+          "Stadtbus": [
+            "A1 (Riesa)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -99386,17 +99380,19 @@
         "city": "Schönfeld (Dresden)",
         "name_with_city": "Schönfeld (Dresden) Meixstraße",
         "operators": [
-          "Müller Busreisen"
+          "Müller Busreisen",
+          "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
+            "226",
             "228"
           ],
           "Stadtbus": [
             "98C"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {

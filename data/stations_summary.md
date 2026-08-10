@@ -30,7 +30,7 @@ Total stations: 3914
 ## Stations by Transit Type
 
 - Regionalbus: 2697 stations
-- Stadtbus: 1304 stations
+- Stadtbus: 1307 stations
 - PlusBus: 651 stations
 - Anruflinienbus: 479 stations
 - Straßenbahn: 269 stations
@@ -50,7 +50,7 @@ Total stations: 3914
 
 ## Transit Operators
 
-- RVSOE: 1306 stations
+- RVSOE: 1308 stations
 - VGM: 1170 stations
 - DVB: 774 stations
 - RBO: 714 stations
@@ -77,9 +77,9 @@ Total stations: 3914
 
 ## Major Transit Hubs (10+ lines)
 
-- Dresden Hauptbahnhof: 36 lines
+- Dresden Hauptbahnhof: 35 lines
 - Meißen Busbahnhof: 33 lines
-- Dresden Bahnhof Mitte: 28 lines
+- Dresden Bahnhof Mitte: 27 lines
 - Riesa Busbahnhof / Bahnhof: 27 lines
 - Dresden Bahnhof Neustadt: 25 lines
 - Kamenz Bahnhof: 23 lines
@@ -91,8 +91,8 @@ Total stations: 3914
 - Riesa Alexander-Puschkin-Platz: 19 lines
 - Riesa Rudolf-Breitscheid-Straße: 19 lines
 - Bischofswerda Bahnhof: 18 lines
-- Dresden Postplatz: 18 lines
 - Lommatzsch Busbahnhof: 18 lines
+- Dresden Postplatz: 17 lines
 - Dresden Trachenberger Platz: 17 lines
 - Großenhain Lessingplatz: 17 lines
 - Großenhain Mozartallee: 17 lines
@@ -130,7 +130,6 @@ Total stations: 3914
 - Coswig (b Dresden) Bahnhof: 12 lines
 - Dresden Kirschenstraße: 12 lines
 - Dresden Merianplatz: 12 lines
-- Dresden Pirnaischer Platz: 12 lines
 - Dresden Reichenbachstraße: 12 lines
 - Dresden S-Bahnhof Niedersedlitz: 12 lines
 - Dresden S-Bf. Strehlen: 12 lines
@@ -140,7 +139,7 @@ Total stations: 3914
 - Dresden Bahnhof Neustadt (Hansastraße): 11 lines
 - Dresden Betriebshof Gorbitz: 11 lines
 - Dresden Nürnberger Platz: 11 lines
-- Dresden S-Bf. Freiberger Straße: 11 lines
+- Dresden Pirnaischer Platz: 11 lines
 - Freital S-Bahnhof Hainsberg: 11 lines
 - Glashütte (Sachs) Bahnhof / Busbahnhof: 11 lines
 - Großenhain Hohe Straße: 11 lines
@@ -151,7 +150,6 @@ Total stations: 3914
 - Bischofswerda Schulstraße: 10 lines
 - Cossebaude/Neu-Leuteritz Bahnhof: 10 lines
 - Dresden Amalie-Dietrich-Platz: 10 lines
-- Dresden Anton-/Leipziger Straße: 10 lines
 - Dresden Bünaustraße: 10 lines
 - Dresden Dahlienweg: 10 lines
 - Dresden Gottfried-Keller-Straße: 10 lines
@@ -159,6 +157,7 @@ Total stations: 3914
 - Dresden Koblenzer Straße: 10 lines
 - Dresden Lößnitzstraße: 10 lines
 - Dresden Malterstraße: 10 lines
+- Dresden S-Bf. Freiberger Straße: 10 lines
 - Dresden Zeithainer Straße: 10 lines
 - Gompitz Gompitzer Höhe: 10 lines
 - Königswartha Kirchplatz: 10 lines
