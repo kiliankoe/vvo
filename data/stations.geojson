@@ -13447,8 +13447,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.928082,
-          50.920975
+          13.927381,
+          50.921519
         ]
       },
       "properties": {
@@ -37987,9 +37987,12 @@
           ],
           "S-Bahn": [
             "S3"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 15
+        "total_lines": 16
       }
     },
     {
@@ -60425,32 +60428,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.025055,
-          50.880989
-        ]
-      },
-      "properties": {
-        "id": "de:14628:3528",
-        "numeric_id": "33003528",
-        "name": "Oberdorf",
-        "city": "Langenhennersdorf",
-        "name_with_city": "Langenhennersdorf Oberdorf",
-        "operators": [
-          "RVSOE"
-        ],
-        "lines": {
-          "Regionalbus": [
-            "245"
-          ]
-        },
-        "total_lines": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.993147,
           50.902176
         ]
@@ -80791,8 +80768,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.937694,
-          50.973441
+          13.937748,
+          50.97322
         ]
       },
       "properties": {
@@ -81482,8 +81459,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.935646,
-          50.954267
+          13.934649,
+          50.955161
         ]
       },
       "properties": {
@@ -94743,11 +94720,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "242",
-            "245"
+            "242"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -94827,11 +94803,10 @@
         "lines": {
           "Regionalbus": [
             "217",
-            "242",
-            "245"
+            "242"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -94938,11 +94913,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "242",
-            "245"
+            "242"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -94965,11 +94939,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "242",
-            "245"
+            "242"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {

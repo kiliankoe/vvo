@@ -1,6 +1,6 @@
 # VVO Station Data Summary
 
-Total stations: 3914
+Total stations: 3913
 
 ## Stations by City
 
@@ -29,13 +29,13 @@ Total stations: 3914
 
 ## Stations by Transit Type
 
-- Regionalbus: 2697 stations
+- Regionalbus: 2696 stations
 - Stadtbus: 1307 stations
 - PlusBus: 651 stations
 - Anruflinienbus: 479 stations
 - Straßenbahn: 269 stations
 - Anruflinientaxi: 202 stations
-- Ersatzverkehr: 109 stations
+- Ersatzverkehr: 110 stations
 - Zug: 105 stations
 - Taktbus: 101 stations
 - S-Bahn: 54 stations
@@ -50,7 +50,7 @@ Total stations: 3914
 
 ## Transit Operators
 
-- RVSOE: 1308 stations
+- RVSOE: 1307 stations
 - VGM: 1170 stations
 - DVB: 774 stations
 - RBO: 714 stations
@@ -99,13 +99,13 @@ Total stations: 3914
 - Meißen S-Bahnhof Altstadt: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
 - Dresden Walpurgisstraße: 16 lines
+- Freital S-Bf. / Busbf. Deuben: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
 - Kamenz Macherstraße: 16 lines
 - Riesa Sachsenhof: 16 lines
 - Dresden Julius-Vahlteich-Straße: 15 lines
 - Dresden S-Bahnhof Dobritz: 15 lines
 - Dresden Tharandter Straße: 15 lines
-- Freital S-Bf. / Busbf. Deuben: 15 lines
 - Kamenz Schwimmhalle: 15 lines
 - Meißen Uferstraße: 15 lines
 - Pirna Breite Straße: 15 lines

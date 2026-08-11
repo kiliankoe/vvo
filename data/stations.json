@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3914,
+    "count": 3913,
     "format_version": "2.0"
   },
   "stations": [
@@ -9652,8 +9652,8 @@
       "name": "Mitte",
       "city": "Dohma",
       "name_with_city": "Dohma Mitte",
-      "longitude": 13.928082,
-      "latitude": 50.920975,
+      "longitude": 13.927381,
+      "latitude": 50.921519,
       "operators": [
         "RVSOE"
       ],
@@ -27632,9 +27632,12 @@
         ],
         "S-Bahn": [
           "S3"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 15
+      "total_lines": 16
     },
     {
       "id": "de:14628:1176",
@@ -43793,24 +43796,6 @@
       "total_lines": 3
     },
     {
-      "id": "de:14628:3528",
-      "numeric_id": "33003528",
-      "name": "Oberdorf",
-      "city": "Langenhennersdorf",
-      "name_with_city": "Langenhennersdorf Oberdorf",
-      "longitude": 14.025055,
-      "latitude": 50.880989,
-      "operators": [
-        "RVSOE"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "245"
-        ]
-      },
-      "total_lines": 1
-    },
-    {
       "id": "de:14628:3520",
       "numeric_id": "33003520",
       "name": "Presswerk",
@@ -58556,8 +58541,8 @@
       "name": "Copitz Albert-Barthel-Straße",
       "city": "Pirna",
       "name_with_city": "Pirna Copitz Albert-Barthel-Straße",
-      "longitude": 13.937694,
-      "latitude": 50.973441,
+      "longitude": 13.937748,
+      "latitude": 50.97322,
       "operators": [
         "RVSOE"
       ],
@@ -59063,8 +59048,8 @@
       "name": "Einsteinstraße",
       "city": "Pirna",
       "name_with_city": "Pirna Einsteinstraße",
-      "longitude": 13.935646,
-      "latitude": 50.954267,
+      "longitude": 13.934649,
+      "latitude": 50.955161,
       "operators": [
         "RVSOE"
       ],
@@ -68644,11 +68629,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "242",
-          "245"
+          "242"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3545",
@@ -68704,11 +68688,10 @@
       "lines": {
         "Regionalbus": [
           "217",
-          "242",
-          "245"
+          "242"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:3553",
@@ -68783,11 +68766,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "242",
-          "245"
+          "242"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:3551",
@@ -68802,11 +68784,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "242",
-          "245"
+          "242"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:6765",
