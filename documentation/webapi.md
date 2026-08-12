@@ -401,6 +401,16 @@ curl -X "POST" "https://webapi.vvo-online.de/dm/trip" \
 
 The `MapData` field contains pipe-delimited GK4 coordinate pairs for drawing the route on a map, prefixed by the transport mode.
 
+## Run identity, or: what `tripid` and `time` actually select
+
+- `tripid` does not identify a single run. It names a line's course and is shared by every run of that line and direction, meaning all "3 Wilder Mann" departures report the same Id (currently of the form `voe:11003: :H:j26`, where `H`/`R` is the direction and `j26` the timetable year).
+- The actual run is selected by `time`: the endpoint returns the run with the next departure at `stopid` at or after `time`, matched against **realtime** (not scheduled) departure times.
+- Future realtimes jitter. A token equal to the run's expected departure at a stop stops matching that run the moment the prediction shifts a minute earlier, and the same query silently returns the line's _next_ run.
+- Past realtimes are frozen. A token slightly before a departure that already happened keeps identifying the same run indefinitely. Runs that have long left the stop (or even reached their terminus) are still returned.
+- `Stops` is not limited to one journey: it is a sliding window over the course's whole service (roughly 1.5–2 h of chained journeys, including terminus loops), so the same stop can appear multiple times. Disambiguate occurrences by their scheduled `Time`; `Position` marks the occurrence the query matched.
+
+To reliably poll one run over time, keep `stopid` and `time` fixed, e.g. the stop you care about with a token a minute or two before the run's departure there and verify each response by the scheduled `Time` at that stop, which never changes for a given run. Any strategy that refreshes the token from realtime data eventually drifts onto the next run.
+
 ---
 
 # Query a Trip
