@@ -19,6 +19,7 @@ Got any more info, details, links? Please don't hesitate to open an issue and/or
 - **[GTFS Data](documentation/gtfs.md)** - Standard transit data format with static and real-time feeds
 - **[SIRI ET Real-Time Data](documentation/siri.md)** - DELFI real-time feed with delays, cancellations, and occupancy
 - **[Dresden OpenData](documentation/opendata.md)** - Geographic transit datasets via OGC API Features (lines, stops, accessibility)
+- **[TLMS Live Vehicle Positions](documentation/tlms.md)** - Community WebSocket feed of live vehicle positions from R09 telegrams
 
 ## Legal Information
 
@@ -72,6 +73,12 @@ For commercial applications or high-volume usage, contact VVO at opendata@vvo-on
   - Legacy XML trip planning interface
   - Being superseded by TRIAS
   - No public documentation
+
+- **[TLMS Live Vehicle Positions](documentation/tlms.md)** - `wss://socket.tlm.solutions`
+  - Live vehicle positions with line, run, and delay as a JSON WebSocket stream
+  - Data gathered from R09 telegrams (traffic light priority radio) by community receivers
+  - Independent community project ([tlm-solutions](https://github.com/tlm-solutions)), not affiliated with VVO/DVB
+  - [Documentation](documentation/tlms.md), live map at [kid.tlm.solutions](https://kid.tlm.solutions/de/map/0)
 
 ### Restricted Access APIs
 
@@ -173,4 +180,4 @@ Mobile apps known and used in Dresden.
 - [`wartefrei`](https://github.com/Nichtmetall/wartefrei) - web-based realtime dashboard for departures and routes
 - [`dvb-mcp`](https://github.com/hoodie/dvb-mcp) - mcp-server
 - [`Dresden-Live`](https://github.com/HaardhikK/Dresden-Live) - Real-time 3D visualization of tram and bus positions using Deck.GL and inferred routing geometry.
-- [`TLMS Live Map`](https://kid.tlm.solutions/en/map/) - Live Map of DVB-Vehicles with data gathered from R09 Telegram Radio Receiver
+- [`TLMS Live Map`](https://kid.tlm.solutions/en/map/) - Live Map of DVB-Vehicles with data gathered from R09 Telegram Radio Receiver (see [TLMS documentation](documentation/tlms.md) for the underlying WebSocket API)

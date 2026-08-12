@@ -12,6 +12,7 @@ This guide helps you choose the right API or data source for your Dresden public
 | Data analysis            | GTFS            | Complete dataset, standard format    |
 | Real-time bulk feed      | SIRI ET         | All delays/cancellations in one feed |
 | Real-time tracking       | WebAPI or TRIAS | Live delays and service alerts       |
+| Live vehicle positions   | [TLMS](tlms.md) | Community WebSocket with GPS streams |
 | Route planning           | WebAPI or TRIAS | Full journey planning features       |
 | Stop/station search      | WebAPI or TRIAS | Comprehensive search options         |
 
