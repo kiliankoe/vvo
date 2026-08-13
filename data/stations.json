@@ -11457,14 +11457,13 @@
           "360"
         ],
         "Regionalbus": [
-          "352",
           "366"
         ],
         "Bus": [
           "400"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:843",
@@ -11995,11 +11994,14 @@
           "S2",
           "S8"
         ],
+        "Fernbus": [
+          "Fernbus"
+        ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 25
+      "total_lines": 26
     },
     {
       "id": "de:14612:198",
@@ -15653,7 +15655,6 @@
       "longitude": 13.732932,
       "latitude": 51.03993,
       "operators": [
-        "DB AG",
         "DB Fernverkehr AG",
         "DB Regio AG Südost",
         "DVB",
@@ -15701,7 +15702,6 @@
           "RB60",
           "RB61",
           "RE1",
-          "RE15",
           "RE19",
           "RE2",
           "RE20",
@@ -15715,7 +15715,7 @@
           "S8"
         ]
       },
-      "total_lines": 35
+      "total_lines": 34
     },
     {
       "id": "de:14612:36",
@@ -56396,10 +56396,11 @@
         "Regionalbus": [
           "751",
           "758",
-          "764"
+          "764",
+          "765"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14625:6053",
@@ -56455,10 +56456,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "751"
+          "751",
+          "765"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:6068",

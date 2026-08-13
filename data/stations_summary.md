@@ -44,9 +44,9 @@ Total stations: 3914
 - Stadtverkehr: 29 stations
 - Schülerlinie: 13 stations
 - TaktBus: 5 stations
+- Fernbus: 2 stations
 - Schwebebahn: 2 stations
 - Seilbahn: 2 stations
-- Fernbus: 1 stations
 
 ## Transit Operators
 
@@ -61,7 +61,7 @@ Total stations: 3914
 - Müller Busreisen: 58 stations
 - SATRA: 43 stations
 - RBM: 31 stations
-- DB AG: 29 stations
+- DB AG: 28 stations
 - SDG: 24 stations
 - Mitteldeutsche Regiobahn: 21 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
@@ -77,11 +77,11 @@ Total stations: 3914
 
 ## Major Transit Hubs (10+ lines)
 
-- Dresden Hauptbahnhof: 35 lines
+- Dresden Hauptbahnhof: 34 lines
 - Meißen Busbahnhof: 33 lines
 - Dresden Bahnhof Mitte: 28 lines
 - Riesa Busbahnhof / Bahnhof: 27 lines
-- Dresden Bahnhof Neustadt: 25 lines
+- Dresden Bahnhof Neustadt: 26 lines
 - Kamenz Bahnhof: 23 lines
 - Pirna ZOB / Bahnhof: 23 lines
 - Großenhain Cottbuser Bahnhof: 21 lines

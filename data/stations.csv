@@ -557,7 +557,7 @@ de:14612:949,33000949,Am Wiesenrand,Dresden,Dresden Am Wiesenrand,50.999233,13.8
 de:14612:536,33000536,Am Zschonergrundbad,Dresden,Dresden Am Zschonergrundbad,51.068187,13.655371,SATRA,4,,91|93,,
 de:14612:35,33000035,Am Zwingerteich,Dresden,Dresden Am Zwingerteich,51.054467,13.730372,DVB,5,11|3|4|7|9,,,
 de:14612:334,33000334,Amalie-Dietrich-Platz,Dresden,Dresden Amalie-Dietrich-Platz,51.045324,13.677946,DVB,12,1|10|11|12|2|3|4|41|6|7|8|9,,,
-de:14612:34,33000034,Ammonstraße / Budapester Straße,Dresden,Dresden Ammonstraße / Budapester Straße,51.043839,13.725997,RVSOE,5,,,,
+de:14612:34,33000034,Ammonstraße / Budapester Straße,Dresden,Dresden Ammonstraße / Budapester Straße,51.043839,13.725997,RVSOE,4,,,,
 de:14612:843,33000843,Amselsteg,Dresden,Dresden Amselsteg,51.053067,13.828845,DVB|RBO,3,,84,,
 de:14612:655,33000655,An der Bartlake,Dresden,Dresden An der Bartlake,51.125746,13.737145,DVB,2,,78|80,,
 de:14612:217,33000217,An der Flutrinne,Dresden,Dresden An der Flutrinne,51.077263,13.698706,DVB,6,13|3|4|9,79,,
@@ -577,7 +577,7 @@ de:14612:737,33000737,Babisnauer Straße,Dresden,Dresden Babisnauer Straße,51.0
 de:14612:192,33000192,Bahnhof Friedrichstadt,Dresden,Dresden Bahnhof Friedrichstadt,51.056026,13.708192,,1,,,RB31,
 de:14612:658,33000658,Bahnhof Klotzsche,Dresden,Dresden Bahnhof Klotzsche,51.11483,13.789041,DB Regio AG Südost|DVB|RBO|trilex - Die Länderbahn GmbH DLB,13,,70|78|80,RB33|RB60|RB61|RE1|RE2,S2|S8
 de:14612:1,33000001,Bahnhof Mitte,Dresden,Dresden Bahnhof Mitte,51.055642,13.723392,DB AG|DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn|trilex - Die Länderbahn GmbH DLB,28,1|10|11|12|2|3|4|41|6|8|9,68|92|EV 10,RB30|RB31|RB60|RB61|RE1|RE15|RE18|RE2|RE3|RE50,S1|S2|S8
-de:14612:16,33000016,Bahnhof Neustadt,Dresden,Dresden Bahnhof Neustadt,51.065426,13.740882,DB AG|DB Fernverkehr AG|DB Regio AG Südost|DVB|FlixTrain|Mitteldeutsche Regiobahn|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,25,11|3|6|7|8|9,81,RB30|RB31|RB33|RB60|RB61|RE1|RE15|RE17|RE18|RE2|RE3|RE50,S1|S2|S8
+de:14612:16,33000016,Bahnhof Neustadt,Dresden,Dresden Bahnhof Neustadt,51.065426,13.740882,DB AG|DB Fernverkehr AG|DB Regio AG Südost|DVB|FlixTrain|Mitteldeutsche Regiobahn|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,26,11|3|6|7|8|9,81,RB30|RB31|RB33|RB60|RB61|RE1|RE15|RE17|RE18|RE2|RE3|RE50,S1|S2|S8
 de:14612:198,33000198,Bahnhof Neustadt (Hansastraße),Dresden,Dresden Bahnhof Neustadt (Hansastraße),51.066374,13.739112,DVB|VGM,11,10|11|13|3|4|41|6|7|8|9,,,
 de:14612:943,33000943,Bahnhofstraße,Dresden,Dresden Bahnhofstraße,51.002268,13.84188,DVB,4,,65|88,,
 de:14612:720,33000720,Bamberger Straße,Dresden,Dresden Bamberger Straße,51.03392,13.71245,DVB,1,,62,,
@@ -745,7 +745,7 @@ de:14612:186,33000186,Hamburger Straße,Dresden,Dresden Hamburger Straße,51.059
 de:14612:548,33000548,Hammeraue,Dresden,Dresden Hammeraue,51.067932,13.666277,SATRA,4,,91|93,,
 de:14612:764,33000764,Hans-Dankner-Straße,Dresden,Dresden Hans-Dankner-Straße,51.042591,13.742086,DVB,2,,62|68,,
 de:14612:287,33000287,Hans-Oster-Straße,Dresden,Dresden Hans-Oster-Straße,51.074909,13.760654,DVB,1,,64,,
-de:14612:28,33000028,Hauptbahnhof,Dresden,Dresden Hauptbahnhof,51.03993,13.732932,DB AG|DB Fernverkehr AG|DB Regio AG Südost|DVB|FlixTrain|Mitteldeutsche Regiobahn|RVSOE|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,35,10|11|12|3|41|7|8,62|66|68|EV 3|EV 8|H/S (Pirna),RB30|RB60|RB61|RE1|RE15|RE19|RE2|RE20|RE3|RE50,S1|S2|S3|S8
+de:14612:28,33000028,Hauptbahnhof,Dresden,Dresden Hauptbahnhof,51.03993,13.732932,DB Fernverkehr AG|DB Regio AG Südost|DVB|FlixTrain|Mitteldeutsche Regiobahn|RVSOE|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,34,10|11|12|3|41|7|8,62|66|68|EV 3|EV 8|H/S (Pirna),RB30|RB60|RB61|RE1|RE19|RE2|RE20|RE3|RE50,S1|S2|S3|S8
 de:14612:36,33000036,Hauptbahnhof (Strehlener Str.),Dresden,Dresden Hauptbahnhof (Strehlener Str.),51.038671,13.734279,DB AG|DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn|trilex - Die Länderbahn GmbH DLB,3,,66,,
 de:14612:32,33000032,Hauptbahnhof Nord,Dresden,Dresden Hauptbahnhof Nord,51.041365,13.735088,DVB,10,11|12|3|4|7|8,62|68|EV 3|EV 8,,
 de:14612:179,33000179,Hebbelplatz,Dresden,Dresden Hebbelplatz,51.051333,13.682743,DVB,8,1|10|11|2|3|4|9,EV 2,,
@@ -2669,10 +2669,10 @@ de:14625:6052,33006052,Am Pflegeheim,Ohorn,Ohorn Am Pflegeheim,51.178014,14.0381
 de:14625:6056,33006056,Bretniger Straße,Ohorn,Ohorn Bretniger Straße,51.16929,14.044683,RBO,2,,,,
 de:14625:6058,33006058,Gickelsberg Kohlicht,Ohorn,Ohorn Gickelsberg Kohlicht,51.185616,14.052157,RBO,2,,,,
 de:14625:6059,33006059,Gickelsberg Wendeplatz,Ohorn,Ohorn Gickelsberg Wendeplatz,51.188781,14.057754,RBO,2,,,,
-de:14625:6057,33006057,Hauptstraße,Ohorn,Ohorn Hauptstraße,51.174331,14.049247,RBO,3,,,,
+de:14625:6057,33006057,Hauptstraße,Ohorn,Ohorn Hauptstraße,51.174331,14.049247,RBO,4,,,,
 de:14625:6053,33006053,Hufestraße,Ohorn,Ohorn Hufestraße,51.173728,14.041153,RBO,4,,,,
 de:14625:6055,33006055,Rathaus,Ohorn,Ohorn Rathaus,51.176477,14.048025,RBO,3,,,,
-de:14625:6049,33006049,Röderstraße,Ohorn,Ohorn Röderstraße,51.163646,14.060826,RBO,1,,,,
+de:14625:6049,33006049,Röderstraße,Ohorn,Ohorn Röderstraße,51.163646,14.060826,RBO,2,,,,
 de:14625:6068,33006068,Schule,Ohorn,Ohorn Schule,51.175722,14.047486,RBO,3,,,,
 de:14625:7746,33007746,Gemeindeamt,Oppitz,Oppitz Gemeindeamt,51.302691,14.408806,RBO,3,,,,
 de:14625:7745,33007745,Grüner Wald,Oppitz,Oppitz Grüner Wald,51.30345,14.401081,RBO,3,,,,
