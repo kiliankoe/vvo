@@ -10531,6 +10531,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.575772,
+          51.118924
+        ]
+      },
+      "properties": {
+        "id": "de:14627:4173",
+        "numeric_id": "33004173",
+        "name": "Seestraße (SV)",
+        "city": "Coswig (b Dresden)",
+        "name_with_city": "Coswig (b Dresden) Seestraße (SV)",
+        "operators": [
+          "VGM"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "Sv210"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.59107,
           51.139118
         ]
@@ -14356,7 +14382,8 @@
         "city": "Dresden",
         "name_with_city": "Dresden Albert-Wolf-Platz",
         "operators": [
-          "DVB"
+          "DVB",
+          "RVSOE"
         ],
         "lines": {
           "Straßenbahn": [
@@ -14368,9 +14395,13 @@
             "4",
             "6",
             "9"
+          ],
+          "Stadtbus": [
+            "162",
+            "86"
           ]
         },
-        "total_lines": 8
+        "total_lines": 10
       }
     },
     {
@@ -23099,7 +23130,8 @@
         "city": "Dresden",
         "name_with_city": "Dresden Jacob-Winter-Platz",
         "operators": [
-          "DVB"
+          "DVB",
+          "RVSOE"
         ],
         "lines": {
           "Straßenbahn": [
@@ -23107,9 +23139,13 @@
             "13",
             "2",
             "4"
+          ],
+          "Stadtbus": [
+            "162",
+            "86"
           ]
         },
-        "total_lines": 4
+        "total_lines": 6
       }
     },
     {
@@ -92007,19 +92043,17 @@
         "city": "Reitzendorf(Dresden)",
         "name_with_city": "Reitzendorf(Dresden) Kleinbauernmuseum",
         "operators": [
-          "Müller Busreisen",
-          "RVSOE"
+          "Müller Busreisen"
         ],
         "lines": {
           "Regionalbus": [
-            "226",
             "228"
           ],
           "Stadtbus": [
             "98C"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -99476,19 +99510,17 @@
         "city": "Schönfeld (Dresden)",
         "name_with_city": "Schönfeld (Dresden) Meixstraße",
         "operators": [
-          "Müller Busreisen",
-          "RVSOE"
+          "Müller Busreisen"
         ],
         "lines": {
           "Regionalbus": [
-            "226",
             "228"
           ],
           "Stadtbus": [
             "98C"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {

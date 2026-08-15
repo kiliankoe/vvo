@@ -1,6 +1,6 @@
 # VVO Station Data Summary
 
-Total stations: 3915
+Total stations: 3916
 
 ## Stations by City
 
@@ -12,7 +12,7 @@ Total stations: 3915
 - Radebeul: 74
 - Hoyerswerda: 73
 - Großenhain: 45
-- Coswig (b Dresden): 35
+- Coswig (b Dresden): 36
 - Heidenau (Sachs): 35
 - Bischofswerda: 33
 - Kamenz: 33
@@ -29,8 +29,8 @@ Total stations: 3915
 
 ## Stations by Transit Type
 
-- Regionalbus: 2697 stations
-- Stadtbus: 1305 stations
+- Regionalbus: 2698 stations
+- Stadtbus: 1307 stations
 - PlusBus: 651 stations
 - Anruflinienbus: 479 stations
 - Straßenbahn: 270 stations
@@ -51,7 +51,7 @@ Total stations: 3915
 ## Transit Operators
 
 - RVSOE: 1308 stations
-- VGM: 1170 stations
+- VGM: 1171 stations
 - DVB: 773 stations
 - RBO: 714 stations
 - DB Regio AG Südost: 120 stations
@@ -151,6 +151,7 @@ Total stations: 3915
 - Altenberg (Erzgeb) Bahnhof: 10 lines
 - Bischofswerda Schulstraße: 10 lines
 - Cossebaude/Neu-Leuteritz Bahnhof: 10 lines
+- Dresden Albert-Wolf-Platz: 10 lines
 - Dresden Bünaustraße: 10 lines
 - Dresden Cottaer Straße: 10 lines
 - Dresden Coventrystraße: 10 lines

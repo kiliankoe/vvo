@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3915,
+    "count": 3916,
     "format_version": "2.0"
   },
   "stations": [
@@ -7571,6 +7571,24 @@
       "total_lines": 1
     },
     {
+      "id": "de:14627:4173",
+      "numeric_id": "33004173",
+      "name": "Seestraße (SV)",
+      "city": "Coswig (b Dresden)",
+      "name_with_city": "Coswig (b Dresden) Seestraße (SV)",
+      "longitude": 13.575772,
+      "latitude": 51.118924,
+      "operators": [
+        "VGM"
+      ],
+      "lines": {
+        "Regionalbus": [
+          "Sv210"
+        ]
+      },
+      "total_lines": 1
+    },
+    {
       "id": "de:14627:4163",
       "numeric_id": "33004163",
       "name": "Siedlerstraße",
@@ -10305,7 +10323,8 @@
       "longitude": 13.803315,
       "latitude": 51.008362,
       "operators": [
-        "DVB"
+        "DVB",
+        "RVSOE"
       ],
       "lines": {
         "Straßenbahn": [
@@ -10317,9 +10336,13 @@
           "4",
           "6",
           "9"
+        ],
+        "Stadtbus": [
+          "162",
+          "86"
         ]
       },
-      "total_lines": 8
+      "total_lines": 10
     },
     {
       "id": "de:14612:520",
@@ -16744,7 +16767,8 @@
       "longitude": 13.799039,
       "latitude": 51.005236,
       "operators": [
-        "DVB"
+        "DVB",
+        "RVSOE"
       ],
       "lines": {
         "Straßenbahn": [
@@ -16752,9 +16776,13 @@
           "13",
           "2",
           "4"
+        ],
+        "Stadtbus": [
+          "162",
+          "86"
         ]
       },
-      "total_lines": 4
+      "total_lines": 6
     },
     {
       "id": "de:14612:830",
@@ -66652,19 +66680,17 @@
       "longitude": 13.903917,
       "latitude": 51.026638,
       "operators": [
-        "Müller Busreisen",
-        "RVSOE"
+        "Müller Busreisen"
       ],
       "lines": {
         "Regionalbus": [
-          "226",
           "228"
         ],
         "Stadtbus": [
           "98C"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:445",
@@ -72057,19 +72083,17 @@
       "longitude": 13.901079,
       "latitude": 51.0297,
       "operators": [
-        "Müller Busreisen",
-        "RVSOE"
+        "Müller Busreisen"
       ],
       "lines": {
         "Regionalbus": [
-          "226",
           "228"
         ],
         "Stadtbus": [
           "98C"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:3790",
