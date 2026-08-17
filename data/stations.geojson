@@ -14382,8 +14382,7 @@
         "city": "Dresden",
         "name_with_city": "Dresden Albert-Wolf-Platz",
         "operators": [
-          "DVB",
-          "RVSOE"
+          "DVB"
         ],
         "lines": {
           "Straßenbahn": [
@@ -14395,13 +14394,9 @@
             "4",
             "6",
             "9"
-          ],
-          "Stadtbus": [
-            "162",
-            "86"
           ]
         },
-        "total_lines": 10
+        "total_lines": 8
       }
     },
     {
@@ -23130,8 +23125,7 @@
         "city": "Dresden",
         "name_with_city": "Dresden Jacob-Winter-Platz",
         "operators": [
-          "DVB",
-          "RVSOE"
+          "DVB"
         ],
         "lines": {
           "Straßenbahn": [
@@ -23139,13 +23133,9 @@
             "13",
             "2",
             "4"
-          ],
-          "Stadtbus": [
-            "162",
-            "86"
           ]
         },
-        "total_lines": 6
+        "total_lines": 4
       }
     },
     {
@@ -38517,10 +38507,11 @@
         ],
         "lines": {
           "Stadtbus": [
+            "161",
             "162"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -82300,10 +82291,11 @@
             "237",
             "241",
             "245",
+            "246",
             "207a"
           ]
         },
-        "total_lines": 9
+        "total_lines": 10
       }
     },
     {
@@ -92043,17 +92035,19 @@
         "city": "Reitzendorf(Dresden)",
         "name_with_city": "Reitzendorf(Dresden) Kleinbauernmuseum",
         "operators": [
-          "Müller Busreisen"
+          "Müller Busreisen",
+          "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
+            "226",
             "228"
           ],
           "Stadtbus": [
             "98C"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -93435,6 +93429,9 @@
           "VGM"
         ],
         "lines": {
+          "Regionalbus": [
+            "432"
+          ],
           "Stadtbus": [
             "A1 (Riesa)",
             "A2 (Riesa)",
@@ -93442,7 +93439,7 @@
             "D (Riesa)"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -93580,11 +93577,14 @@
           "VGM"
         ],
         "lines": {
+          "Regionalbus": [
+            "432"
+          ],
           "Stadtbus": [
             "D (Riesa)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -93863,11 +93863,14 @@
           "VGM"
         ],
         "lines": {
+          "Regionalbus": [
+            "432"
+          ],
           "Stadtbus": [
             "D (Riesa)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -99510,17 +99513,19 @@
         "city": "Schönfeld (Dresden)",
         "name_with_city": "Schönfeld (Dresden) Meixstraße",
         "operators": [
-          "Müller Busreisen"
+          "Müller Busreisen",
+          "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
+            "226",
             "228"
           ],
           "Stadtbus": [
             "98C"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -108185,10 +108190,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411"
+            "411",
+            "Sv250"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {

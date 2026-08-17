@@ -29,8 +29,8 @@ Total stations: 3916
 
 ## Stations by Transit Type
 
-- Regionalbus: 2698 stations
-- Stadtbus: 1307 stations
+- Regionalbus: 2701 stations
+- Stadtbus: 1305 stations
 - PlusBus: 651 stations
 - Anruflinienbus: 479 stations
 - Straßenbahn: 270 stations
@@ -151,7 +151,6 @@ Total stations: 3916
 - Altenberg (Erzgeb) Bahnhof: 10 lines
 - Bischofswerda Schulstraße: 10 lines
 - Cossebaude/Neu-Leuteritz Bahnhof: 10 lines
-- Dresden Albert-Wolf-Platz: 10 lines
 - Dresden Bünaustraße: 10 lines
 - Dresden Cottaer Straße: 10 lines
 - Dresden Coventrystraße: 10 lines
@@ -166,4 +165,5 @@ Total stations: 3916
 - Dresden Zeithainer Straße: 10 lines
 - Gompitz Gompitzer Höhe: 10 lines
 - Königswartha Kirchplatz: 10 lines
+- Pirna Robert-Koch-Straße: 10 lines
 - Tharandt Bahnhof: 10 lines
