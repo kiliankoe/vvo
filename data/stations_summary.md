@@ -1,10 +1,10 @@
 # VVO Station Data Summary
 
-Total stations: 3916
+Total stations: 3917
 
 ## Stations by City
 
-- Dresden: 659
+- Dresden: 660
 - Meißen: 104
 - Freital: 87
 - Pirna: 85
@@ -29,7 +29,7 @@ Total stations: 3916
 
 ## Stations by Transit Type
 
-- Regionalbus: 2701 stations
+- Regionalbus: 2702 stations
 - Stadtbus: 1305 stations
 - PlusBus: 651 stations
 - Anruflinienbus: 479 stations
@@ -50,7 +50,7 @@ Total stations: 3916
 
 ## Transit Operators
 
-- RVSOE: 1308 stations
+- RVSOE: 1309 stations
 - VGM: 1171 stations
 - DVB: 773 stations
 - RBO: 714 stations
@@ -77,7 +77,7 @@ Total stations: 3916
 
 ## Major Transit Hubs (10+ lines)
 
-- Dresden Hauptbahnhof: 34 lines
+- Dresden Hauptbahnhof: 35 lines
 - Meißen Busbahnhof: 33 lines
 - Dresden Bahnhof Mitte: 28 lines
 - Riesa Busbahnhof / Bahnhof: 27 lines
@@ -91,15 +91,15 @@ Total stations: 3916
 - Riesa Alexander-Puschkin-Platz: 19 lines
 - Riesa Rudolf-Breitscheid-Straße: 19 lines
 - Bischofswerda Bahnhof: 18 lines
+- Dresden Postplatz: 18 lines
+- Dresden Walpurgisstraße: 18 lines
 - Lommatzsch Busbahnhof: 18 lines
-- Dresden Postplatz: 17 lines
+- Dresden Prager Straße: 17 lines
 - Dresden Trachenberger Platz: 17 lines
 - Großenhain Lessingplatz: 17 lines
 - Großenhain Mozartallee: 17 lines
 - Meißen S-Bahnhof Altstadt: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
-- Dresden Prager Straße: 16 lines
-- Dresden Walpurgisstraße: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
 - Kamenz Macherstraße: 16 lines
 - Riesa Sachsenhof: 16 lines
@@ -134,13 +134,16 @@ Total stations: 3916
 - Dresden Amalie-Dietrich-Platz: 12 lines
 - Dresden Betriebshof Gorbitz: 12 lines
 - Dresden Dahlienweg: 12 lines
+- Dresden Hauptbahnhof Nord: 12 lines
 - Dresden Reichenbachstraße: 12 lines
 - Dresden S-Bahnhof Niedersedlitz: 12 lines
 - Dresden S-Bf. Strehlen: 12 lines
+- Gompitz Gompitzer Höhe: 12 lines
 - Pirna Copitz Schulstraße: 12 lines
 - Riesa Goethestraße: 12 lines
 - Bad Schandau Elbkai: 11 lines
 - Dresden Bahnhof Neustadt (Hansastraße): 11 lines
+- Dresden Koreanischer Platz: 11 lines
 - Dresden Nürnberger Platz: 11 lines
 - Dresden Pirnaischer Platz: 11 lines
 - Freital S-Bahnhof Hainsberg: 11 lines
@@ -155,15 +158,13 @@ Total stations: 3916
 - Dresden Cottaer Straße: 10 lines
 - Dresden Coventrystraße: 10 lines
 - Dresden Gottfried-Keller-Straße: 10 lines
-- Dresden Hauptbahnhof Nord: 10 lines
 - Dresden Koblenzer Straße: 10 lines
-- Dresden Koreanischer Platz: 10 lines
 - Dresden Lößnitzstraße: 10 lines
 - Dresden Malterstraße: 10 lines
 - Dresden Prohlis Gleisschleife: 10 lines
 - Dresden S-Bf. Freiberger Straße: 10 lines
 - Dresden Zeithainer Straße: 10 lines
-- Gompitz Gompitzer Höhe: 10 lines
+- Hoyerswerda Albert-Einstein-Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
 - Pirna Robert-Koch-Straße: 10 lines
 - Tharandt Bahnhof: 10 lines
