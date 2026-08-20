@@ -43,7 +43,7 @@ Total stations: 3917
 - Fähre: 31 stations
 - Stadtverkehr: 29 stations
 - Schülerlinie: 13 stations
-- TaktBus: 5 stations
+- TaktBus: 4 stations
 - Fernbus: 2 stations
 - Schwebebahn: 2 stations
 - Seilbahn: 2 stations
