@@ -57,7 +57,7 @@ de:14628:3621,33003621,Elbkai,Bad Schandau,Bad Schandau Elbkai,50.917758,14.1494
 de:14628:3629,33003629,Kiefricht,Bad Schandau,Bad Schandau Kiefricht,50.927804,14.16247,RVSOE,1,,,,
 de:14628:3622,33003622,Kurpark,Bad Schandau,Bad Schandau Kurpark,50.920913,14.157772,RVSOE,4,Kirnitzschtalbahn,,,
 de:14628:3626,33003626,Marktplatz,Bad Schandau,Bad Schandau Marktplatz,50.917679,14.153092,RVSOE,2,,,,
-de:14628:3620,33003620,Nationalparkbahnhof,Bad Schandau,Bad Schandau Nationalparkbahnhof,50.91927,14.138099,DB Regio AG Südost|RVSOE|Österreichische Bundesbahnen,14,,,RE20|RE50|U28,S1
+de:14628:3620,33003620,Nationalparkbahnhof,Bad Schandau,Bad Schandau Nationalparkbahnhof,50.91927,14.138099,DB Regio AG Südost|LEO Express|RVSOE|Österreichische Bundesbahnen,14,,,RE20|RE50|U28,S1
 de:14628:3627,33003627,Personenaufzug,Bad Schandau,Bad Schandau Personenaufzug,50.916541,14.160575,RVSOE,1,,,,
 de:14628:3624,33003624,Waldhäus´l,Bad Schandau,Bad Schandau Waldhäus´l,50.925114,14.180527,RVSOE,2,Kirnitzschtalbahn,,,
 de:14627:4969,33004969,Abzw Badersen/Dobschütz,Badersen,Badersen Abzw Badersen/Dobschütz,51.14645,13.275833,VGM,4,,,,
@@ -427,7 +427,6 @@ de:14627:4814,33004814,Klotz-Mühle,Deutschenbora,Deutschenbora Klotz-Mühle,51.
 de:14627:4108,33004108,Golkblick,Diera,Diera Golkblick,51.198469,13.44318,VGM,2,,,,
 de:14627:4110,33004110,Storchplatz,Diera,Diera Storchplatz,51.197,13.450888,VGM,2,,,,
 de:14627:5697,33005697,Am Brummochsenloch (Weingut),Diesbar-Seußlitz,Diesbar-Seußlitz Am Brummochsenloch (Weingut),51.233086,13.426957,VGM,2,,,,
-de:14627:5699,33005699,Dampfschifffahrt,Diesbar-Seußlitz,Diesbar-Seußlitz Dampfschifffahrt,51.227326,13.425259,,0,,,,
 de:14627:5695,33005695,Fährstelle Seußlitz,Diesbar-Seußlitz,Diesbar-Seußlitz Fährstelle Seußlitz,51.240713,13.411102,VGM,1,,,,
 de:14627:5694,33005694,Heinrichsburg,Diesbar-Seußlitz,Diesbar-Seußlitz Heinrichsburg,51.239262,13.418037,VGM,2,,,,
 de:14627:5696,33005696,Schiffsanlegestelle (Weingut),Diesbar-Seußlitz,Diesbar-Seußlitz Schiffsanlegestelle (Weingut),51.236062,13.421271,VGM,2,,,,
@@ -578,7 +577,7 @@ de:14612:737,33000737,Babisnauer Straße,Dresden,Dresden Babisnauer Straße,51.0
 de:14612:192,33000192,Bahnhof Friedrichstadt,Dresden,Dresden Bahnhof Friedrichstadt,51.056026,13.708192,,1,,,RB31,
 de:14612:658,33000658,Bahnhof Klotzsche,Dresden,Dresden Bahnhof Klotzsche,51.11483,13.789041,DB Regio AG Südost|DVB|RBO|trilex - Die Länderbahn GmbH DLB,13,,70|78|80,RB33|RB60|RB61|RE1|RE2,S2|S8
 de:14612:1,33000001,Bahnhof Mitte,Dresden,Dresden Bahnhof Mitte,51.055642,13.723392,DB AG|DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn|trilex - Die Länderbahn GmbH DLB,28,1|10|11|12|2|3|4|41|6|8|9,68|92|EV 10,RB30|RB31|RB60|RB61|RE1|RE15|RE18|RE2|RE3|RE50,S1|S2|S8
-de:14612:16,33000016,Bahnhof Neustadt,Dresden,Dresden Bahnhof Neustadt,51.065426,13.740882,DB AG|DB Fernverkehr AG|DB Regio AG Südost|DVB|FlixTrain|Mitteldeutsche Regiobahn|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,26,11|3|6|7|8|9,81,RB30|RB31|RB33|RB60|RB61|RE1|RE15|RE17|RE18|RE2|RE3|RE50,S1|S2|S8
+de:14612:16,33000016,Bahnhof Neustadt,Dresden,Dresden Bahnhof Neustadt,51.065426,13.740882,DB AG|DB Fernverkehr AG|DB Regio AG Südost|DVB|FlixTrain|LEO Express|Mitteldeutsche Regiobahn|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,26,11|3|6|7|8|9,81,RB30|RB31|RB33|RB60|RB61|RE1|RE15|RE17|RE18|RE2|RE3|RE50,S1|S2|S8
 de:14612:198,33000198,Bahnhof Neustadt (Hansastraße),Dresden,Dresden Bahnhof Neustadt (Hansastraße),51.066374,13.739112,DVB|VGM,11,10|11|13|3|4|41|6|7|8|9,,,
 de:14612:943,33000943,Bahnhofstraße,Dresden,Dresden Bahnhofstraße,51.002268,13.84188,DVB,4,,65|88,,
 de:14612:720,33000720,Bamberger Straße,Dresden,Dresden Bamberger Straße,51.03392,13.71245,DVB,1,,62,,
@@ -746,7 +745,7 @@ de:14612:186,33000186,Hamburger Straße,Dresden,Dresden Hamburger Straße,51.059
 de:14612:548,33000548,Hammeraue,Dresden,Dresden Hammeraue,51.067932,13.666277,SATRA,4,,91|93,,
 de:14612:764,33000764,Hans-Dankner-Straße,Dresden,Dresden Hans-Dankner-Straße,51.042591,13.742086,DVB,2,,62|68,,
 de:14612:287,33000287,Hans-Oster-Straße,Dresden,Dresden Hans-Oster-Straße,51.074909,13.760654,DVB,1,,64,,
-de:14612:28,33000028,Hauptbahnhof,Dresden,Dresden Hauptbahnhof,51.03993,13.732932,DB Fernverkehr AG|DB Regio AG Südost|DVB|FlixTrain|Mitteldeutsche Regiobahn|RVSOE|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,36,10|11|12|13|3|41|7|8|9,62|66|68|EV 3|EV 8|H/S (Pirna),RB30|RB60|RB61|RE1|RE19|RE2|RE20|RE3|RE50,S1|S2|S3|S8
+de:14612:28,33000028,Hauptbahnhof,Dresden,Dresden Hauptbahnhof,51.03993,13.732932,DB Fernverkehr AG|DB Regio AG Südost|DVB|FlixTrain|LEO Express|Mitteldeutsche Regiobahn|RVSOE|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,36,10|11|12|13|3|41|7|8|9,62|66|68|EV 3|EV 8|H/S (Pirna),RB30|RB60|RB61|RE1|RE19|RE2|RE20|RE3|RE50,S1|S2|S3|S8
 de:14612:36,33000036,Hauptbahnhof (Strehlener Str.),Dresden,Dresden Hauptbahnhof (Strehlener Str.),51.038671,13.734279,DB AG|DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn|trilex - Die Länderbahn GmbH DLB,3,,66,,
 de:14612:32,33000032,Hauptbahnhof Nord,Dresden,Dresden Hauptbahnhof Nord,51.041365,13.735088,DVB,12,10|11|12|3|4|7|8|9,62|68|EV 3|EV 8,,
 de:14612:179,33000179,Hebbelplatz,Dresden,Dresden Hebbelplatz,51.051333,13.682743,DVB,8,1|10|11|2|3|4|9,EV 2,,
@@ -1173,7 +1172,7 @@ de:14627:4992,33004992,Dörschnitz,Dörschnitz,Dörschnitz Dörschnitz,51.225003
 de:14627:5125,33005125,Döschütz,Döschütz (b Großenh),Döschütz (b Großenh) Döschütz,51.24308,13.440306,VGM,1,,,,
 de:14627:5966,33005966,Dösitz,Dösitz,Dösitz Dösitz,51.22979,13.210975,VGM,2,,,,
 de:14628:3756,33003756,Am Breiten Stein,Dürrröhrsdorf-Dittersbach,Dürrröhrsdorf-Dittersbach Am Breiten Stein,51.024796,14.009811,RVSOE,4,,,,
-de:14628:3750,33003750,Bahnhof,Dürrröhrsdorf-Dittersbach,Dürrröhrsdorf-Dittersbach Bahnhof,51.027785,14.007242,DB Regio AG Südost|RVSOE,4,,,RB71,
+de:14628:3750,33003750,Bahnhof,Dürrröhrsdorf-Dittersbach,Dürrröhrsdorf-Dittersbach Bahnhof,51.027785,14.007242,DB Regio AG Südost|RVSOE,5,,,RB71,
 de:14628:3751,33003751,Drogerie,Dürrröhrsdorf-Dittersbach,Dürrröhrsdorf-Dittersbach Drogerie,51.028576,14.002885,RVSOE,5,,,,
 de:14628:3757,33003757,Eschdorfer Berg,Dürrröhrsdorf-Dittersbach,Dürrröhrsdorf-Dittersbach Eschdorfer Berg,51.038417,13.980409,RVSOE,1,,,,
 de:14628:3761,33003761,Fleischerei,Dürrröhrsdorf-Dittersbach,Dürrröhrsdorf-Dittersbach Fleischerei,51.025316,14.010538,RVSOE,2,,,,
@@ -2210,7 +2209,7 @@ de:14625:6993,33006993,Abzw Litschen,Litschen,Litschen Abzw Litschen,51.368226,1
 de:14625:6994,33006994,Litschen,Litschen,Litschen Litschen,51.368535,14.408771,RBO,3,,,,
 de:14628:3735,33003735,Abzweig nach Porschendorf,Lohmen (Sachs),Lohmen (Sachs) Abzweig nach Porschendorf,51.000182,14.009586,RVSOE,2,,,,
 de:14628:3732,33003732,Bahnhof,Lohmen (Sachs),Lohmen (Sachs) Bahnhof,50.989197,13.987964,DB Regio AG Südost,1,,,RB71,
-de:14628:3733,33003733,Bahnhofstraße,Lohmen (Sachs),Lohmen (Sachs) Bahnhofstraße,50.988428,13.992599,RVSOE,6,,,,
+de:14628:3733,33003733,Bahnhofstraße,Lohmen (Sachs),Lohmen (Sachs) Bahnhofstraße,50.988428,13.992599,DB Regio AG Südost|RVSOE,7,,,,
 de:14628:3739,33003739,Bastei,Lohmen (Sachs),Lohmen (Sachs) Bastei,50.965521,14.066279,RVSOE,4,,,,
 de:14628:3731,33003731,Landhaus Nicolai,Lohmen (Sachs),Lohmen (Sachs) Landhaus Nicolai,50.987992,14.022549,RVSOE,3,,,,
 de:14628:3737,33003737,Meißner Hochland,Lohmen (Sachs),Lohmen (Sachs) Meißner Hochland,50.987223,14.017958,RVSOE,3,,,,
@@ -2791,14 +2790,14 @@ de:14628:3461,33003461,Copitz Fährstelle,Pirna,Pirna Copitz Fährstelle,50.9654
 de:14628:3450,33003450,Copitz Gewerbegebiet,Pirna,Pirna Copitz Gewerbegebiet,50.980222,13.94877,RVSOE,6,,M (Pirna),,
 de:14628:3457,33003457,Copitz Grundschänke,Pirna,Pirna Copitz Grundschänke,50.966912,13.953477,RVSOE,2,,M (Pirna),,
 de:14628:3455,33003455,Copitz Hauptplatz,Pirna,Pirna Copitz Hauptplatz,50.96719,13.937928,RVSOE,2,,M (Pirna),,
-de:14628:3452,33003452,Copitz Heinrich-Heine-Straße,Pirna,Pirna Copitz Heinrich-Heine-Straße,50.974159,13.940039,RVSOE,7,,,,
+de:14628:3452,33003452,Copitz Heinrich-Heine-Straße,Pirna,Pirna Copitz Heinrich-Heine-Straße,50.974159,13.940039,DB Regio AG Südost|RVSOE,8,,,,
 de:14628:3435,33003435,Copitz Herderstraße,Pirna,Pirna Copitz Herderstraße,50.970861,13.931891,RVSOE,7,,G/L (Pirna)|M (Pirna),,
 de:14628:3451,33003451,Copitz Lohmener Straße,Pirna,Pirna Copitz Lohmener Straße,50.978531,13.944539,RVSOE,6,,,,
 de:14628:3453,33003453,Copitz Pillnitzer Straße,Pirna,Pirna Copitz Pillnitzer Straße,50.973429,13.935754,RVSOE,6,,,,
 de:14628:3431,33003431,Copitz Pratzschwitzer Straße,Pirna,Pirna Copitz Pratzschwitzer Straße,50.966341,13.928962,RVSOE,1,,G/L (Pirna),,
 de:14628:3436,33003436,Copitz Rudolf-Renner-Straße,Pirna,Pirna Copitz Rudolf-Renner-Straße,50.974521,13.931029,RVSOE,7,,G/L (Pirna)|M (Pirna),,
 de:14628:3434,33003434,Copitz Schillerstraße,Pirna,Pirna Copitz Schillerstraße,50.970063,13.932098,RVSOE,4,,G/L (Pirna),,
-de:14628:3454,33003454,Copitz Schulstraße,Pirna,Pirna Copitz Schulstraße,50.968332,13.934649,RVSOE,12,,G/L (Pirna)|H/S (Pirna)|M (Pirna)|P (Pirna),,
+de:14628:3454,33003454,Copitz Schulstraße,Pirna,Pirna Copitz Schulstraße,50.968332,13.934649,DB Regio AG Südost|RVSOE,13,,G/L (Pirna)|H/S (Pirna)|M (Pirna)|P (Pirna),,
 de:14628:3438,33003438,Copitz Sportplatz,Pirna,Pirna Copitz Sportplatz,50.97602,13.924058,RVSOE,1,,M (Pirna),,
 de:14628:3456,33003456,Copitz Werthaus,Pirna,Pirna Copitz Werthaus,50.966188,13.946255,RVSOE,2,,M (Pirna),,
 de:14628:3437,33003437,Copitz Wesenitztalschänke,Pirna,Pirna Copitz Wesenitztalschänke,50.979385,13.930337,RVSOE,2,,G/L (Pirna)|M (Pirna),,
@@ -2914,7 +2913,6 @@ de:14628:1683,33001683,Mitte,Pretzschendorf,Pretzschendorf Mitte,50.873921,13.52
 de:14628:1682,33001682,Schule,Pretzschendorf,Pretzschendorf Schule,50.874051,13.524927,RVSOE,2,,,,
 de:14628:1681,33001681,Sportplatz,Pretzschendorf,Pretzschendorf Sportplatz,50.87824,13.524047,RVSOE,1,,,,
 de:14628:1684,33001684,Thomas-Müntzer-Straße,Pretzschendorf,Pretzschendorf Thomas-Müntzer-Straße,50.863007,13.536884,RVSOE,2,,,,
-de:14627:4859,33004859,Priesen,Priesen (b Lommatzsch),Priesen (b Lommatzsch) Priesen,51.108852,13.2286,RBM,3,,,,
 de:14627:5104,33005104,Abzw Porschütz,Priestewitz,Priestewitz Abzw Porschütz,51.244678,13.503421,VGM,3,,,,
 de:14627:5101,33005101,Abzw Strießen,Priestewitz,Priestewitz Abzw Strießen,51.254613,13.509018,,0,,,,
 de:14627:5100,33005100,Bahnhof,Priestewitz,Priestewitz Bahnhof,51.250739,13.508757,DB AG|DB Regio AG Südost|VGM,9,,,RB31|RE15|RE18|RE50,
@@ -3094,13 +3092,10 @@ de:14627:5740,33005740,Glaubitzer Straße,Radewitz (b Riesa),Radewitz (b Riesa) 
 de:14627:5996,33005996,Ragewitz,Ragewitz (b Riesa),Ragewitz (b Riesa) Ragewitz,51.266109,13.238841,VGM,2,,,,
 de:14625:6470,33006470,Hauptstraße,Ralbitz,Ralbitz Hauptstraße,51.301461,14.248322,RBO|SchmidtSchwarz GmbH & CO. KG,3,,,,
 de:14625:6471,33006471,Schule,Ralbitz,Ralbitz Schule,51.303034,14.250236,RBO|SchmidtSchwarz GmbH & CO. KG,4,,,,
-de:14625:7129,33007135,Am Schloss,Rammenau,Rammenau Am Schloss,51.159883,14.129107,Omnibusunternehmen Gottfried Beck,1,,,,
 de:14625:7130,33007130,Feldschlösschen,Rammenau,Rammenau Feldschlösschen,51.151888,14.148097,Omnibusunternehmen Gottfried Beck|RBO,4,,,,
 de:14625:7131,33007131,Johann-Gottlieb-Fichte-Straße,Rammenau,Rammenau Johann-Gottlieb-Fichte-Straße,51.154136,14.135889,Omnibusunternehmen Gottfried Beck|RBO,2,,,,
 de:14625:7132,33007132,Schaudorf,Rammenau,Rammenau Schaudorf,51.153172,14.122837,Omnibusunternehmen Gottfried Beck|RBO,2,,,,
 de:14628:3710,33003710,Bahnhof,Rathen Kurort,Rathen Kurort Bahnhof,50.956541,14.076026,DB Regio AG Südost,2,,,RE50,S1
-de:14628:3711,33003711,Fährstelle Niederrathen,Rathen Kurort,Rathen Kurort Fährstelle Niederrathen,50.957775,14.08058,RVSOE,1,,,,
-de:14628:3712,33003712,Fährstelle Oberrathen,Rathen Kurort,Rathen Kurort Fährstelle Oberrathen,50.956932,14.079376,RVSOE,1,,,,
 de:14628:3713,33003713,Parkplatz,Rathen Kurort,Rathen Kurort Parkplatz,50.956196,14.078765,DB Regio AG Südost,1,,,,
 de:14628:3705,33003705,Bruno-Barthel-Weg,Rathewalde,Rathewalde Bruno-Barthel-Weg,50.979894,14.057511,RVSOE,4,,,,
 de:14628:3699,33003699,Hocksteinschänke,Rathewalde,Rathewalde Hocksteinschänke,50.984713,14.089375,RVSOE,2,,,,

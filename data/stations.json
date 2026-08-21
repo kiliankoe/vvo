@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3917,
+    "count": 3912,
     "format_version": "2.0"
   },
   "stations": [
@@ -1215,6 +1215,7 @@
       "latitude": 50.91927,
       "operators": [
         "DB Regio AG Südost",
+        "LEO Express",
         "RVSOE",
         "Österreichische Bundesbahnen"
       ],
@@ -8722,18 +8723,6 @@
       "total_lines": 2
     },
     {
-      "id": "de:14627:5699",
-      "numeric_id": "33005699",
-      "name": "Dampfschifffahrt",
-      "city": "Diesbar-Seußlitz",
-      "name_with_city": "Diesbar-Seußlitz Dampfschifffahrt",
-      "longitude": 13.425259,
-      "latitude": 51.227326,
-      "operators": [],
-      "lines": {},
-      "total_lines": 0
-    },
-    {
       "id": "de:14627:5695",
       "numeric_id": "33005695",
       "name": "Fährstelle Seußlitz",
@@ -11992,6 +11981,7 @@
         "DB Regio AG Südost",
         "DVB",
         "FlixTrain",
+        "LEO Express",
         "Mitteldeutsche Regiobahn",
         "VGM",
         "trilex - Die Länderbahn GmbH DLB",
@@ -15715,6 +15705,7 @@
         "DB Regio AG Südost",
         "DVB",
         "FlixTrain",
+        "LEO Express",
         "Mitteldeutsche Regiobahn",
         "RVSOE",
         "VGM",
@@ -25281,9 +25272,12 @@
         ],
         "Zug": [
           "RB71"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3751",
@@ -46595,6 +46589,7 @@
       "longitude": 13.992599,
       "latitude": 50.988428,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -46605,9 +46600,12 @@
           "238",
           "254",
           "EV RB 71"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14628:3739",
@@ -58961,6 +58959,7 @@
       "longitude": 13.940039,
       "latitude": 50.974159,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -58972,9 +58971,12 @@
           "246",
           "254",
           "EV RB 71"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 7
+      "total_lines": 8
     },
     {
       "id": "de:14628:3435",
@@ -59124,6 +59126,7 @@
       "longitude": 13.934649,
       "latitude": 50.968332,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -59142,9 +59145,12 @@
           "H/S (Pirna)",
           "M (Pirna)",
           "P (Pirna)"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 12
+      "total_lines": 13
     },
     {
       "id": "de:14628:3438",
@@ -61549,28 +61555,6 @@
         ]
       },
       "total_lines": 2
-    },
-    {
-      "id": "de:14627:4859",
-      "numeric_id": "33004859",
-      "name": "Priesen",
-      "city": "Priesen (b Lommatzsch)",
-      "name_with_city": "Priesen (b Lommatzsch) Priesen",
-      "longitude": 13.2286,
-      "latitude": 51.108852,
-      "operators": [
-        "RBM"
-      ],
-      "lines": {
-        "Schülerlinie": [
-          "852",
-          "854"
-        ],
-        "Bus": [
-          "892"
-        ]
-      },
-      "total_lines": 3
     },
     {
       "id": "de:14627:5104",
@@ -65269,24 +65253,6 @@
       "total_lines": 4
     },
     {
-      "id": "de:14625:7129",
-      "numeric_id": "33007135",
-      "name": "Am Schloss",
-      "city": "Rammenau",
-      "name_with_city": "Rammenau Am Schloss",
-      "longitude": 14.129107,
-      "latitude": 51.159883,
-      "operators": [
-        "Omnibusunternehmen Gottfried Beck"
-      ],
-      "lines": {
-        "Regionalbus": [
-          "749"
-        ]
-      },
-      "total_lines": 1
-    },
-    {
       "id": "de:14625:7130",
       "numeric_id": "33007130",
       "name": "Feldschlösschen",
@@ -65374,42 +65340,6 @@
         ]
       },
       "total_lines": 2
-    },
-    {
-      "id": "de:14628:3711",
-      "numeric_id": "33003711",
-      "name": "Fährstelle Niederrathen",
-      "city": "Rathen Kurort",
-      "name_with_city": "Rathen Kurort Fährstelle Niederrathen",
-      "longitude": 14.08058,
-      "latitude": 50.957775,
-      "operators": [
-        "RVSOE"
-      ],
-      "lines": {
-        "Fähre": [
-          "F 7"
-        ]
-      },
-      "total_lines": 1
-    },
-    {
-      "id": "de:14628:3712",
-      "numeric_id": "33003712",
-      "name": "Fährstelle Oberrathen",
-      "city": "Rathen Kurort",
-      "name_with_city": "Rathen Kurort Fährstelle Oberrathen",
-      "longitude": 14.079376,
-      "latitude": 50.956932,
-      "operators": [
-        "RVSOE"
-      ],
-      "lines": {
-        "Fähre": [
-          "F 7"
-        ]
-      },
-      "total_lines": 1
     },
     {
       "id": "de:14628:3713",

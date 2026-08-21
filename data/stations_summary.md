@@ -1,6 +1,6 @@
 # VVO Station Data Summary
 
-Total stations: 3917
+Total stations: 3912
 
 ## Stations by City
 
@@ -25,24 +25,24 @@ Total stations: 3917
 - Bannewitz: 21
 - Nossen: 18
 
-... and 820 more municipalities
+... and 819 more municipalities
 
 ## Stations by Transit Type
 
-- Regionalbus: 2702 stations
+- Regionalbus: 2701 stations
 - Stadtbus: 1303 stations
 - PlusBus: 651 stations
 - Anruflinienbus: 479 stations
 - Straßenbahn: 270 stations
 - Anruflinientaxi: 203 stations
-- Ersatzverkehr: 109 stations
+- Ersatzverkehr: 113 stations
 - Zug: 105 stations
 - Taktbus: 101 stations
 - S-Bahn: 54 stations
-- Bus: 50 stations
-- Fähre: 31 stations
+- Bus: 49 stations
+- Fähre: 29 stations
 - Stadtverkehr: 29 stations
-- Schülerlinie: 13 stations
+- Schülerlinie: 12 stations
 - TaktBus: 4 stations
 - Fernbus: 2 stations
 - Schwebebahn: 2 stations
@@ -50,17 +50,17 @@ Total stations: 3917
 
 ## Transit Operators
 
-- RVSOE: 1309 stations
+- RVSOE: 1307 stations
 - VGM: 1171 stations
 - DVB: 773 stations
 - RBO: 714 stations
-- DB Regio AG Südost: 120 stations
+- DB Regio AG Südost: 123 stations
 - VGH: 82 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
-- Omnibusunternehmen Gottfried Beck: 68 stations
+- Omnibusunternehmen Gottfried Beck: 67 stations
 - Müller Busreisen: 58 stations
 - SATRA: 43 stations
-- RBM: 31 stations
+- RBM: 30 stations
 - DB AG: 28 stations
 - SDG: 24 stations
 - Mitteldeutsche Regiobahn: 21 stations
@@ -70,6 +70,7 @@ Total stations: 3917
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 4 stations
 - DB Regio: 3 stations
+- LEO Express: 3 stations
 - DB Fernverkehr AG: 3 stations
 - FlixTrain: 2 stations
 - Nordsachsen Mobil: 2 stations
@@ -133,6 +134,7 @@ Total stations: 3917
 - Kamenz Flugplatz: 13 lines
 - Nossen Markt: 13 lines
 - Nossen Talstraße: 13 lines
+- Pirna Copitz Schulstraße: 13 lines
 - Coswig (b Dresden) Bahnhof: 12 lines
 - Dresden Dahlienweg: 12 lines
 - Dresden Hauptbahnhof Nord: 12 lines
@@ -140,7 +142,6 @@ Total stations: 3917
 - Dresden S-Bahnhof Niedersedlitz: 12 lines
 - Dresden S-Bf. Strehlen: 12 lines
 - Gompitz Gompitzer Höhe: 12 lines
-- Pirna Copitz Schulstraße: 12 lines
 - Riesa Goethestraße: 12 lines
 - Bad Schandau Elbkai: 11 lines
 - Dresden Bahnhof Neustadt (Hansastraße): 11 lines
