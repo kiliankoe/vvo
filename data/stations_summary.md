@@ -29,13 +29,13 @@ Total stations: 3912
 
 ## Stations by Transit Type
 
-- Regionalbus: 2701 stations
+- Regionalbus: 2698 stations
 - Stadtbus: 1303 stations
 - PlusBus: 651 stations
 - Anruflinienbus: 479 stations
 - Straßenbahn: 270 stations
 - Anruflinientaxi: 203 stations
-- Ersatzverkehr: 113 stations
+- Ersatzverkehr: 117 stations
 - Zug: 105 stations
 - Taktbus: 101 stations
 - S-Bahn: 54 stations
@@ -50,11 +50,11 @@ Total stations: 3912
 
 ## Transit Operators
 
-- RVSOE: 1307 stations
+- RVSOE: 1305 stations
 - VGM: 1171 stations
 - DVB: 773 stations
 - RBO: 714 stations
-- DB Regio AG Südost: 123 stations
+- DB Regio AG Südost: 125 stations
 - VGH: 82 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 67 stations
@@ -101,6 +101,7 @@ Total stations: 3912
 - Großenhain Mozartallee: 17 lines
 - Meißen S-Bahnhof Altstadt: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
+- Freital S-Bf. / Busbf. Deuben: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
 - Kamenz Macherstraße: 16 lines
 - Riesa Sachsenhof: 16 lines
@@ -111,7 +112,6 @@ Total stations: 3912
 - Dresden S-Bahnhof Dobritz: 15 lines
 - Dresden Schlehenstraße: 15 lines
 - Dresden Tharandter Straße: 15 lines
-- Freital S-Bf. / Busbf. Deuben: 15 lines
 - Kamenz Schwimmhalle: 15 lines
 - Meißen Uferstraße: 15 lines
 - Pirna Breite Straße: 15 lines
@@ -169,7 +169,7 @@ Total stations: 3912
 - Dresden Lößnitzstraße: 10 lines
 - Dresden Malterstraße: 10 lines
 - Dresden Prohlis Gleisschleife: 10 lines
+- Dresden Schillerplatz: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
-- Pirna Robert-Koch-Straße: 10 lines
 - Tharandt Bahnhof: 10 lines
