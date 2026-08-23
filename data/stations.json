@@ -50574,12 +50574,9 @@
         ],
         "Regionalbus": [
           "Sv190"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4076",
@@ -53923,19 +53920,15 @@
       "longitude": 13.549074,
       "latitude": 51.144816,
       "operators": [
-        "DB Regio AG Südost",
         "VGM"
       ],
       "lines": {
         "Regionalbus": [
           "402",
           "411"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4196",
@@ -78147,18 +78140,14 @@
       "longitude": 13.556665,
       "latitude": 51.1492,
       "operators": [
-        "DB Regio AG Südost",
         "VGM"
       ],
       "lines": {
         "Regionalbus": [
           "411"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4149",

@@ -2391,7 +2391,7 @@ de:14627:4023,33004023,Rothes Haus,Meißen,Meißen Rothes Haus,51.160919,13.4608
 de:14627:4089,33004089,Roßmarkt,Meißen,Meißen Roßmarkt,51.162136,13.47234,VGM,1,,E (Meißen),,
 de:14627:4000,33004000,S-Bahnhof,Meißen,Meißen S-Bahnhof,51.16315,13.481997,DB Regio AG Südost,1,,,,S1
 de:14627:4055,33004055,S-Bahnhof Altstadt,Meißen,Meißen S-Bahnhof Altstadt,51.159111,13.47313,DB Regio AG Südost|VGM,17,,A (Meißen)|C (Meißen)|E (Meißen),,S1
-de:14627:4079,33004079,S-Bahnhof Triebischtal,Meißen,Meißen S-Bahnhof Triebischtal,51.152288,13.462126,DB Regio AG Südost|VGM,3,,,,S1
+de:14627:4079,33004079,S-Bahnhof Triebischtal,Meißen,Meißen S-Bahnhof Triebischtal,51.152288,13.462126,DB Regio AG Südost|VGM,2,,,,S1
 de:14627:4076,33004076,Schützestraße,Meißen,Meißen Schützestraße,51.150265,13.458838,VGM,3,,C (Meißen),,
 de:14627:4051,33004051,Siedlerstraße,Meißen,Meißen Siedlerstraße,51.164232,13.453825,VGM,3,,B (Meißen),,
 de:14627:4006,33004006,Spaar Rote Gasse,Meißen,Meißen Spaar Rote Gasse,51.153764,13.493396,VGM,2,,A (Meißen)|B (Meißen),,
@@ -2552,7 +2552,7 @@ de:14628:3865,33003865,Steinwerke,Neustadt in Sachsen,Neustadt in Sachsen Steinw
 de:14628:3881,33003881,Wilhelm-Kaulisch-Straße,Neustadt in Sachsen,Neustadt in Sachsen Wilhelm-Kaulisch-Straße,51.026107,14.219253,RVSOE,6,,,,
 de:14627:4198,33004198,Elbaue,Neusörnewitz,Neusörnewitz Elbaue,51.150913,13.525906,VGM,1,,,,
 de:14627:4199,33004199,Elbgaustraße,Neusörnewitz,Neusörnewitz Elbgaustraße,51.147504,13.538007,VGM,2,,,,
-de:14627:4197,33004197,Fabrikstraße,Neusörnewitz,Neusörnewitz Fabrikstraße,51.144816,13.549074,DB Regio AG Südost|VGM,3,,,,
+de:14627:4197,33004197,Fabrikstraße,Neusörnewitz,Neusörnewitz Fabrikstraße,51.144816,13.549074,VGM,2,,,,
 de:14627:4196,33004196,Köhlerstraße,Neusörnewitz,Neusörnewitz Köhlerstraße,51.146878,13.545139,VGM,2,,,,
 de:14627:4194,33004194,S-Bahnhof,Neusörnewitz,Neusörnewitz S-Bahnhof,51.147543,13.552712,DB Regio AG Südost|VGM,3,,,,S1
 de:14625:6848,33006848,Abzw Bergen,Neuwiese-Bergen,Neuwiese-Bergen Abzw Bergen,51.462864,14.215732,RBO,2,,,,
@@ -3720,7 +3720,7 @@ de:14628:3132,33003132,Gemeindeamt,Weesenstein,Weesenstein Gemeindeamt,50.934394
 de:14628:3133,33003133,Müglitzbrücke,Weesenstein,Weesenstein Müglitzbrücke,50.929389,13.849821,RVSOE,1,,,,
 de:14627:4142,33004142,Am Sandweg,Weinböhla,Weinböhla Am Sandweg,51.171222,13.564157,VGM,3,,,,
 de:14627:4150,33004150,Bahnhofstraße,Weinböhla,Weinböhla Bahnhofstraße,51.164226,13.573445,VGM,3,,,,
-de:14627:4136,33004136,Brockwitzer Straße,Weinböhla,Weinböhla Brockwitzer Straße,51.1492,13.556665,DB Regio AG Südost|VGM,2,,,,
+de:14627:4136,33004136,Brockwitzer Straße,Weinböhla,Weinböhla Brockwitzer Straße,51.1492,13.556665,VGM,1,,,,
 de:14627:4149,33004149,Friedensstraße,Weinböhla,Weinböhla Friedensstraße,51.153696,13.579931,VGM,1,,,,
 de:14627:4139,33004139,Gellertstraße,Weinböhla,Weinböhla Gellertstraße,51.157122,13.56916,DVB,1,4,,,
 de:14627:4138,33004138,Grundschule,Weinböhla,Weinböhla Grundschule,51.151127,13.569403,VGM,1,,,,

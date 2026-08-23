@@ -69713,12 +69713,9 @@
           ],
           "Regionalbus": [
             "Sv190"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -74350,19 +74347,15 @@
         "city": "Neusörnewitz",
         "name_with_city": "Neusörnewitz Fabrikstraße",
         "operators": [
-          "DB Regio AG Südost",
           "VGM"
         ],
         "lines": {
           "Regionalbus": [
             "402",
             "411"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -107918,18 +107911,14 @@
         "city": "Weinböhla",
         "name_with_city": "Weinböhla Brockwitzer Straße",
         "operators": [
-          "DB Regio AG Südost",
           "VGM"
         ],
         "lines": {
           "Regionalbus": [
             "411"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
