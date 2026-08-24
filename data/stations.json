@@ -11484,13 +11484,14 @@
           "360"
         ],
         "Regionalbus": [
+          "352",
           "366"
         ],
         "Bus": [
           "400"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:843",
@@ -28151,10 +28152,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "161",
           "162"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:1178",
@@ -59794,10 +59796,11 @@
           "237",
           "241",
           "245",
+          "246",
           "207a"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14628:3382",
@@ -65061,10 +65064,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "403"
+          "403",
+          "405"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4367",
@@ -66727,17 +66731,19 @@
       "longitude": 13.903917,
       "latitude": 51.026638,
       "operators": [
-        "Müller Busreisen"
+        "Müller Busreisen",
+        "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
+          "226",
           "228"
         ],
         "Stadtbus": [
           "98C"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:445",
@@ -67751,6 +67757,9 @@
         "VGM"
       ],
       "lines": {
+        "Regionalbus": [
+          "432"
+        ],
         "Stadtbus": [
           "A1 (Riesa)",
           "A2 (Riesa)",
@@ -67758,7 +67767,7 @@
           "D (Riesa)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14627:5896",
@@ -67856,11 +67865,14 @@
         "VGM"
       ],
       "lines": {
+        "Regionalbus": [
+          "432"
+        ],
         "Stadtbus": [
           "D (Riesa)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:5560",
@@ -68067,11 +68079,14 @@
         "VGM"
       ],
       "lines": {
+        "Regionalbus": [
+          "432"
+        ],
         "Stadtbus": [
           "D (Riesa)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:5550",
@@ -72130,17 +72145,19 @@
       "longitude": 13.901079,
       "latitude": 51.0297,
       "operators": [
-        "Müller Busreisen"
+        "Müller Busreisen",
+        "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
+          "226",
           "228"
         ],
         "Stadtbus": [
           "98C"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:3790",
@@ -78349,10 +78366,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411"
+          "411",
+          "Sv250"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4151",

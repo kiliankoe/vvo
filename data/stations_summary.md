@@ -29,7 +29,7 @@ Total stations: 3912
 
 ## Stations by Transit Type
 
-- Regionalbus: 2698 stations
+- Regionalbus: 2701 stations
 - Stadtbus: 1303 stations
 - PlusBus: 651 stations
 - Anruflinienbus: 479 stations
@@ -50,7 +50,7 @@ Total stations: 3912
 
 ## Transit Operators
 
-- RVSOE: 1305 stations
+- RVSOE: 1307 stations
 - VGM: 1171 stations
 - DVB: 773 stations
 - RBO: 714 stations
@@ -172,4 +172,5 @@ Total stations: 3912
 - Dresden Schillerplatz: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
+- Pirna Robert-Koch-Straße: 10 lines
 - Tharandt Bahnhof: 10 lines
