@@ -39557,9 +39557,14 @@
         "Regionalbus": [
           "772",
           "788"
+        ],
+        "Stadtbus": [
+          "21 (Kamenz)",
+          "22 (Kamenz)",
+          "23 (Kamenz)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 6
     },
     {
       "id": "de:14625:6205",
