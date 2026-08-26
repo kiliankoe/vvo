@@ -9528,7 +9528,8 @@
           ],
           "Regionalbus": [
             "404",
-            "423"
+            "423",
+            "851"
           ],
           "Zug": [
             "RB31"
@@ -9541,7 +9542,7 @@
             "SEV"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -9806,7 +9807,8 @@
         "city": "Cossebaude/Neu-Leuteritz",
         "name_with_city": "Cossebaude/Neu-Leuteritz Talstraße",
         "operators": [
-          "SATRA"
+          "SATRA",
+          "VGM"
         ],
         "lines": {
           "Anruflinienbus": [
@@ -9814,9 +9816,12 @@
           ],
           "Stadtbus": [
             "93"
+          ],
+          "Regionalbus": [
+            "851"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -9940,10 +9945,11 @@
         "lines": {
           "Regionalbus": [
             "400",
-            "401"
+            "401",
+            "850"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -10733,10 +10739,11 @@
         "lines": {
           "Regionalbus": [
             "400",
-            "401"
+            "401",
+            "850"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -10823,13 +10830,14 @@
             "401",
             "405",
             "460",
+            "850",
             "Sv280"
           ],
           "Ersatzverkehr": [
             "SEV"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -11242,10 +11250,11 @@
         ],
         "lines": {
           "Regionalbus": [
+            "771",
             "772"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -11268,10 +11277,11 @@
         ],
         "lines": {
           "Regionalbus": [
+            "771",
             "772"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -12133,13 +12143,14 @@
         ],
         "lines": {
           "Regionalbus": [
-            "407"
+            "407",
+            "850"
           ],
           "Anruflinienbus": [
             "415"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -12217,13 +12228,14 @@
         ],
         "lines": {
           "Regionalbus": [
-            "407"
+            "407",
+            "850"
           ],
           "Anruflinienbus": [
             "415"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -12246,13 +12258,14 @@
         ],
         "lines": {
           "Regionalbus": [
-            "407"
+            "407",
+            "850"
           ],
           "Anruflinienbus": [
             "415"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -15007,8 +15020,6 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
-            "2",
             "7"
           ],
           "Stadtbus": [
@@ -15020,7 +15031,7 @@
             "333"
           ]
         },
-        "total_lines": 7
+        "total_lines": 5
       }
     },
     {
@@ -17233,15 +17244,14 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
-            "10"
+            "1"
           ],
           "Stadtbus": [
             "68",
             "92"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -17639,14 +17649,13 @@
             "3",
             "41",
             "7",
-            "8",
-            "9"
+            "8"
           ],
           "Stadtbus": [
             "62"
           ]
         },
-        "total_lines": 10
+        "total_lines": 9
       }
     },
     {
@@ -21234,9 +21243,12 @@
             "6",
             "7",
             "8"
+          ],
+          "Stadtbus": [
+            "81"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -21700,8 +21712,7 @@
             "3",
             "41",
             "7",
-            "8",
-            "9"
+            "8"
           ],
           "Stadtbus": [
             "62",
@@ -21743,7 +21754,7 @@
             "S8"
           ]
         },
-        "total_lines": 36
+        "total_lines": 35
       }
     },
     {
@@ -21808,8 +21819,7 @@
             "3",
             "4",
             "7",
-            "8",
-            "9"
+            "8"
           ],
           "Stadtbus": [
             "62",
@@ -21818,7 +21828,7 @@
             "EV 8"
           ]
         },
-        "total_lines": 12
+        "total_lines": 11
       }
     },
     {
@@ -24495,9 +24505,7 @@
         "lines": {
           "Straßenbahn": [
             "1",
-            "10",
-            "2",
-            "9"
+            "10"
           ],
           "Stadtbus": [
             "68",
@@ -24505,7 +24513,7 @@
             "EV 10"
           ]
         },
-        "total_lines": 7
+        "total_lines": 5
       }
     },
     {
@@ -25847,15 +25855,14 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
-            "10"
+            "1"
           ],
           "Stadtbus": [
             "68",
             "92"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -32671,9 +32678,7 @@
         "lines": {
           "Straßenbahn": [
             "1",
-            "10",
-            "2",
-            "9"
+            "10"
           ],
           "Stadtbus": [
             "68",
@@ -32681,7 +32686,7 @@
             "EV 10"
           ]
         },
-        "total_lines": 7
+        "total_lines": 5
       }
     },
     {
@@ -32812,8 +32817,7 @@
             "3",
             "4",
             "7",
-            "8",
-            "9"
+            "8"
           ],
           "Stadtbus": [
             "62",
@@ -32832,7 +32836,7 @@
             "366"
           ]
         },
-        "total_lines": 18
+        "total_lines": 17
       }
     },
     {
@@ -32856,8 +32860,7 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
-            "10"
+            "1"
           ],
           "Stadtbus": [
             "68",
@@ -32867,7 +32870,7 @@
             "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -33105,9 +33108,7 @@
         "lines": {
           "Straßenbahn": [
             "1",
-            "10",
-            "2",
-            "9"
+            "10"
           ],
           "Stadtbus": [
             "68",
@@ -33115,7 +33116,7 @@
             "EV 10"
           ]
         },
-        "total_lines": 7
+        "total_lines": 5
       }
     },
     {
@@ -41486,10 +41487,11 @@
         "lines": {
           "Regionalbus": [
             "407",
+            "850",
             "Sv152"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -41572,8 +41574,6 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
-            "2",
             "7"
           ],
           "Stadtbus": [
@@ -41594,7 +41594,7 @@
             "337"
           ]
         },
-        "total_lines": 12
+        "total_lines": 10
       }
     },
     {
@@ -41672,8 +41672,6 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
-            "2",
             "7"
           ],
           "Stadtbus": [
@@ -41685,7 +41683,7 @@
             "333"
           ]
         },
-        "total_lines": 7
+        "total_lines": 5
       }
     },
     {
@@ -67349,6 +67347,7 @@
             "426",
             "428",
             "446",
+            "850",
             "Sv191"
           ],
           "PlusBus": [
@@ -67361,7 +67360,7 @@
             "C (Meißen)"
           ]
         },
-        "total_lines": 21
+        "total_lines": 22
       }
     },
     {
@@ -67584,6 +67583,7 @@
           "Regionalbus": [
             "407",
             "408",
+            "852",
             "Sv152"
           ],
           "Anruflinienbus": [
@@ -67593,7 +67593,7 @@
             "409"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -67616,7 +67616,8 @@
         ],
         "lines": {
           "Regionalbus": [
-            "407"
+            "407",
+            "852"
           ],
           "Anruflinienbus": [
             "409"
@@ -67628,7 +67629,7 @@
             "C (Meißen)"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -67734,7 +67735,8 @@
         ],
         "lines": {
           "Regionalbus": [
-            "407"
+            "407",
+            "852"
           ],
           "Anruflinienbus": [
             "409"
@@ -67746,7 +67748,7 @@
             "C (Meißen)"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -67870,6 +67872,8 @@
             "426",
             "428",
             "446",
+            "850",
+            "852",
             "Sv191",
             "Sv250",
             "Sv254"
@@ -67899,7 +67903,7 @@
             "SEV"
           ]
         },
-        "total_lines": 33
+        "total_lines": 35
       }
     },
     {
@@ -68443,13 +68447,14 @@
           ],
           "Regionalbus": [
             "417",
-            "446"
+            "446",
+            "850"
           ],
           "Stadtbus": [
             "B (Meißen)"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -68645,10 +68650,11 @@
         "lines": {
           "Regionalbus": [
             "401",
+            "850",
             "Sv250"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -68686,6 +68692,32 @@
           ]
         },
         "total_lines": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.475313,
+          51.173205
+        ]
+      },
+      "properties": {
+        "id": "de:14627:4436",
+        "numeric_id": "33004436",
+        "name": "Katzenstufen",
+        "city": "Meißen",
+        "name_with_city": "Meißen Katzenstufen",
+        "operators": [
+          "VGM"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "850"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
@@ -69072,10 +69104,11 @@
         "lines": {
           "Regionalbus": [
             "401",
+            "850",
             "Sv250"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -69400,13 +69433,14 @@
         ],
         "lines": {
           "Regionalbus": [
-            "401"
+            "401",
+            "850"
           ],
           "Stadtbus": [
             "A (Meißen)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -69441,6 +69475,32 @@
           ]
         },
         "total_lines": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.477173,
+          51.179507
+        ]
+      },
+      "properties": {
+        "id": "de:14627:4435",
+        "numeric_id": "33004435",
+        "name": "Proschwitz",
+        "city": "Meißen",
+        "name_with_city": "Meißen Proschwitz",
+        "operators": [
+          "VGM"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "852"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
@@ -70192,6 +70252,32 @@
           ]
         },
         "total_lines": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.448409,
+          51.168485
+        ]
+      },
+      "properties": {
+        "id": "de:14627:4437",
+        "numeric_id": "33004437",
+        "name": "Weingut Rothes Gut",
+        "city": "Meißen",
+        "name_with_city": "Meißen Weingut Rothes Gut",
+        "operators": [
+          "VGM"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "850"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
@@ -74413,7 +74499,8 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411"
+            "411",
+            "852"
           ],
           "S-Bahn": [
             "S1"
@@ -74422,7 +74509,7 @@
             "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -75170,6 +75257,7 @@
           "Regionalbus": [
             "404",
             "423",
+            "851",
             "Sv180"
           ],
           "Zug": [
@@ -75182,7 +75270,7 @@
             "SEV"
           ]
         },
-        "total_lines": 8
+        "total_lines": 9
       }
     },
     {
@@ -75233,13 +75321,14 @@
           "Regionalbus": [
             "407",
             "415",
+            "850",
             "Sv152"
           ],
           "Anruflinienbus": [
             "415"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -80051,8 +80140,6 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
-            "2",
             "7"
           ],
           "Anruflinienbus": [
@@ -80063,7 +80150,7 @@
             "EV 7"
           ]
         },
-        "total_lines": 6
+        "total_lines": 4
       }
     },
     {
@@ -87928,6 +88015,7 @@
             "4"
           ],
           "Regionalbus": [
+            "850",
             "Sv270",
             "Sv280"
           ],
@@ -87935,7 +88023,7 @@
             "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -88146,10 +88234,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "400"
+            "400",
+            "850"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -88265,6 +88354,58 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.647341,
+          51.118602
+        ]
+      },
+      "properties": {
+        "id": "de:14627:4452",
+        "numeric_id": "33004452",
+        "name": "Jägerhofstraße",
+        "city": "Radebeul",
+        "name_with_city": "Radebeul Jägerhofstraße",
+        "operators": [
+          "VGM"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "850"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.653162,
+          51.114999
+        ]
+      },
+      "properties": {
+        "id": "de:14627:4456",
+        "numeric_id": "33004456",
+        "name": "Jägerhofstraße/ Auf den Bergen",
+        "city": "Radebeul",
+        "name_with_city": "Radebeul Jägerhofstraße/ Auf den Bergen",
+        "operators": [
+          "VGM"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "850"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.633003,
           51.112371
         ]
@@ -88358,10 +88499,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "400"
+            "400",
+            "850"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -88418,11 +88560,12 @@
           ],
           "Regionalbus": [
             "476",
+            "850",
             "Sv270",
             "Sv280"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -88456,6 +88599,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.599362,
+          51.123677
+        ]
+      },
+      "properties": {
+        "id": "de:14627:4450",
+        "numeric_id": "33004450",
+        "name": "Mittlere Bergstraße",
+        "city": "Radebeul",
+        "name_with_city": "Radebeul Mittlere Bergstraße",
+        "operators": [
+          "VGM"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "850"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.630515,
           51.108164
         ]
@@ -88478,6 +88647,7 @@
           "Regionalbus": [
             "400",
             "476",
+            "850",
             "Sv270",
             "Sv280"
           ],
@@ -88485,7 +88655,7 @@
             "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -88588,6 +88758,32 @@
         "lines": {
           "Regionalbus": [
             "Sv270"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.659261,
+          51.108824
+        ]
+      },
+      "properties": {
+        "id": "de:14627:4453",
+        "numeric_id": "33004453",
+        "name": "Paradiesstraße/ Jägermühle",
+        "city": "Radebeul",
+        "name_with_city": "Radebeul Paradiesstraße/ Jägermühle",
+        "operators": [
+          "VGM"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "850"
           ]
         },
         "total_lines": 1
@@ -88942,9 +89138,13 @@
         "name_with_city": "Radebeul S-Bahnhof Zitzschewig",
         "operators": [
           "DB AG",
-          "DB Regio AG Südost"
+          "DB Regio AG Südost",
+          "VGM"
         ],
         "lines": {
+          "Regionalbus": [
+            "851"
+          ],
           "Zug": [
             "RE15"
           ],
@@ -88952,7 +89152,7 @@
             "S1"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -88997,14 +89197,19 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Schloss Wackerbarth",
         "operators": [
-          "DVB"
+          "DVB",
+          "VGM"
         ],
         "lines": {
           "Straßenbahn": [
             "4"
+          ],
+          "Regionalbus": [
+            "850",
+            "851"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {
@@ -104629,10 +104834,12 @@
         ],
         "lines": {
           "Regionalbus": [
-            "402"
+            "402",
+            "850",
+            "852"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {
@@ -104656,10 +104863,11 @@
         "lines": {
           "Regionalbus": [
             "401",
-            "402"
+            "402",
+            "850"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -104709,10 +104917,11 @@
         "lines": {
           "Regionalbus": [
             "401",
+            "850",
             "Sv250"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -104735,10 +104944,11 @@
         ],
         "lines": {
           "Regionalbus": [
+            "852",
             "Sv250"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -108045,7 +108255,8 @@
           "Regionalbus": [
             "403",
             "411",
-            "459"
+            "459",
+            "852"
           ],
           "PlusBus": [
             "421"
@@ -108060,7 +108271,7 @@
             "SEV"
           ]
         },
-        "total_lines": 9
+        "total_lines": 10
       }
     },
     {
@@ -108086,10 +108297,11 @@
             "403",
             "411",
             "459",
+            "852",
             "Sv250"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -108631,6 +108843,32 @@
         "lines": {
           "Regionalbus": [
             "423"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.585743,
+          51.087138
+        ]
+      },
+      "properties": {
+        "id": "de:14627:4783",
+        "numeric_id": "33004783",
+        "name": "Weingut Wellhöfer",
+        "city": "Weistropp",
+        "name_with_city": "Weistropp Weingut Wellhöfer",
+        "operators": [
+          "VGM"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "851"
           ]
         },
         "total_lines": 1
