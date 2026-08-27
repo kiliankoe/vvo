@@ -10801,6 +10801,8 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "1",
+          "2",
           "7"
         ],
         "Stadtbus": [
@@ -10812,7 +10814,7 @@
           "333"
         ]
       },
-      "total_lines": 5
+      "total_lines": 7
     },
     {
       "id": "de:14612:503",
@@ -12465,14 +12467,15 @@
       ],
       "lines": {
         "Straßenbahn": [
-          "1"
+          "1",
+          "10"
         ],
         "Stadtbus": [
           "68",
           "92"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:175",
@@ -12766,13 +12769,14 @@
           "3",
           "41",
           "7",
-          "8"
+          "8",
+          "9"
         ],
         "Stadtbus": [
           "62"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14612:587",
@@ -15741,7 +15745,8 @@
           "3",
           "41",
           "7",
-          "8"
+          "8",
+          "9"
         ],
         "Stadtbus": [
           "62",
@@ -15783,7 +15788,7 @@
           "S8"
         ]
       },
-      "total_lines": 35
+      "total_lines": 36
     },
     {
       "id": "de:14612:36",
@@ -15832,7 +15837,8 @@
           "3",
           "4",
           "7",
-          "8"
+          "8",
+          "9"
         ],
         "Stadtbus": [
           "62",
@@ -15841,7 +15847,7 @@
           "EV 8"
         ]
       },
-      "total_lines": 11
+      "total_lines": 12
     },
     {
       "id": "de:14612:179",
@@ -17790,7 +17796,9 @@
       "lines": {
         "Straßenbahn": [
           "1",
-          "10"
+          "10",
+          "2",
+          "9"
         ],
         "Stadtbus": [
           "68",
@@ -17798,7 +17806,7 @@
           "EV 10"
         ]
       },
-      "total_lines": 5
+      "total_lines": 7
     },
     {
       "id": "de:14612:621",
@@ -18788,14 +18796,15 @@
       ],
       "lines": {
         "Straßenbahn": [
-          "1"
+          "1",
+          "10"
         ],
         "Stadtbus": [
           "68",
           "92"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:820",
@@ -23835,7 +23844,9 @@
       "lines": {
         "Straßenbahn": [
           "1",
-          "10"
+          "10",
+          "2",
+          "9"
         ],
         "Stadtbus": [
           "68",
@@ -23843,7 +23854,7 @@
           "EV 10"
         ]
       },
-      "total_lines": 5
+      "total_lines": 7
     },
     {
       "id": "de:14612:293",
@@ -23942,7 +23953,8 @@
           "3",
           "4",
           "7",
-          "8"
+          "8",
+          "9"
         ],
         "Stadtbus": [
           "62",
@@ -23961,7 +23973,7 @@
           "366"
         ]
       },
-      "total_lines": 17
+      "total_lines": 18
     },
     {
       "id": "de:14612:185",
@@ -23977,7 +23989,8 @@
       ],
       "lines": {
         "Straßenbahn": [
-          "1"
+          "1",
+          "10"
         ],
         "Stadtbus": [
           "68",
@@ -23987,7 +24000,7 @@
           "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:115",
@@ -24161,7 +24174,9 @@
       "lines": {
         "Straßenbahn": [
           "1",
-          "10"
+          "10",
+          "2",
+          "9"
         ],
         "Stadtbus": [
           "68",
@@ -24169,7 +24184,7 @@
           "EV 10"
         ]
       },
-      "total_lines": 5
+      "total_lines": 7
     },
     {
       "id": "de:14612:571",
@@ -29030,12 +29045,9 @@
         ],
         "PlusBus": [
           "418"
-        ],
-        "Stadtbus": [
-          "C (Meißen)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4685",
@@ -29054,12 +29066,9 @@
         ],
         "PlusBus": [
           "418"
-        ],
-        "Stadtbus": [
-          "C (Meißen)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4608",
@@ -30259,6 +30268,8 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "1",
+          "2",
           "7"
         ],
         "Stadtbus": [
@@ -30279,7 +30290,7 @@
           "337"
         ]
       },
-      "total_lines": 10
+      "total_lines": 12
     },
     {
       "id": "de:14612:414",
@@ -30333,6 +30344,8 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "1",
+          "2",
           "7"
         ],
         "Stadtbus": [
@@ -30344,7 +30357,7 @@
           "333"
         ]
       },
-      "total_lines": 5
+      "total_lines": 7
     },
     {
       "id": "de:14612:415",
@@ -48652,12 +48665,9 @@
         ],
         "PlusBus": [
           "418"
-        ],
-        "Stadtbus": [
-          "C (Meißen)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4494",
@@ -50217,9 +50227,16 @@
       "name_with_city": "Meißen Mittelberg",
       "longitude": 13.497699,
       "latitude": 51.153989,
-      "operators": [],
-      "lines": {},
-      "total_lines": 0
+      "operators": [
+        "VGM"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "A (Meißen)",
+          "B (Meißen)"
+        ]
+      },
+      "total_lines": 2
     },
     {
       "id": "de:14627:4069",
@@ -50734,12 +50751,9 @@
         ],
         "PlusBus": [
           "418"
-        ],
-        "Stadtbus": [
-          "C (Meißen)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4488",
@@ -58129,6 +58143,8 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "1",
+          "2",
           "7"
         ],
         "Anruflinienbus": [
@@ -58139,7 +58155,7 @@
           "EV 7"
         ]
       },
-      "total_lines": 4
+      "total_lines": 6
     },
     {
       "id": "de:14612:419",
