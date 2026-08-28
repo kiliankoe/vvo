@@ -15404,12 +15404,9 @@
           "6",
           "7",
           "8"
-        ],
-        "Stadtbus": [
-          "81"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14612:77",
@@ -48808,6 +48805,25 @@
         "VGM"
       ],
       "lines": {
+        "Regionalbus": [
+          "401",
+          "404",
+          "407",
+          "409",
+          "412",
+          "413",
+          "414",
+          "416",
+          "417",
+          "418",
+          "421",
+          "422",
+          "426",
+          "428",
+          "446",
+          "850",
+          "Sv191"
+        ],
         "Anruflinienbus": [
           "404",
           "412",
@@ -48815,19 +48831,6 @@
           "417",
           "422",
           "428"
-        ],
-        "Regionalbus": [
-          "404",
-          "412",
-          "413",
-          "414",
-          "417",
-          "422",
-          "426",
-          "428",
-          "446",
-          "850",
-          "Sv191"
         ],
         "PlusBus": [
           "416",
@@ -48839,7 +48842,7 @@
           "C (Meißen)"
         ]
       },
-      "total_lines": 22
+      "total_lines": 28
     },
     {
       "id": "de:14627:4046",
@@ -56377,14 +56380,13 @@
       ],
       "lines": {
         "Regionalbus": [
-          "347",
-          "376"
+          "347"
         ],
         "PlusBus": [
           "348"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:1282",
@@ -56439,14 +56441,13 @@
       ],
       "lines": {
         "Regionalbus": [
-          "347",
-          "376"
+          "347"
         ],
         "PlusBus": [
           "348"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:3222",
@@ -62638,12 +62639,9 @@
         "Regionalbus": [
           "347",
           "376"
-        ],
-        "PlusBus": [
-          "348"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:1291",
@@ -67143,11 +67141,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "A1 (Riesa)",
           "D (Riesa)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:5500",
@@ -78599,16 +78596,17 @@
         "VGM"
       ],
       "lines": {
-        "PlusBus": [
-          "421"
-        ],
         "Regionalbus": [
+          "411",
           "459",
           "Sv152",
           "Sv250"
+        ],
+        "PlusBus": [
+          "421"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14627:4406",
@@ -79694,6 +79692,27 @@
         "Regionalbus": [
           "776",
           "781"
+        ]
+      },
+      "total_lines": 2
+    },
+    {
+      "id": "de:14625:6447",
+      "numeric_id": "33006447",
+      "name": "Abzw Welka",
+      "city": "Welka",
+      "name_with_city": "Welka Abzw Welka",
+      "longitude": 14.117106,
+      "latitude": 51.231179,
+      "operators": [
+        "RBO"
+      ],
+      "lines": {
+        "Anruflinienbus": [
+          "789"
+        ],
+        "Regionalbus": [
+          "789"
         ]
       },
       "total_lines": 2
@@ -80801,27 +80820,6 @@
         ]
       },
       "total_lines": 3
-    },
-    {
-      "id": "de:14625:6447",
-      "numeric_id": "33006447",
-      "name": "Abzw Welka",
-      "city": "Wohla (b Kamenz)",
-      "name_with_city": "Wohla (b Kamenz) Abzw Welka",
-      "longitude": 14.117106,
-      "latitude": 51.231179,
-      "operators": [
-        "RBO"
-      ],
-      "lines": {
-        "Anruflinienbus": [
-          "789"
-        ],
-        "Regionalbus": [
-          "789"
-        ]
-      },
-      "total_lines": 2
     },
     {
       "id": "de:14625:6446",

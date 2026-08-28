@@ -25,13 +25,13 @@ Total stations: 3920
 - Bannewitz: 21
 - Nossen: 18
 
-... and 819 more municipalities
+... and 820 more municipalities
 
 ## Stations by Transit Type
 
 - Regionalbus: 2712 stations
-- Stadtbus: 1302 stations
-- PlusBus: 651 stations
+- Stadtbus: 1301 stations
+- PlusBus: 650 stations
 - Anruflinienbus: 479 stations
 - Straßenbahn: 270 stations
 - Anruflinientaxi: 203 stations
@@ -81,11 +81,11 @@ Total stations: 3920
 - Dresden Hauptbahnhof: 36 lines
 - Meißen Busbahnhof: 35 lines
 - Dresden Bahnhof Mitte: 28 lines
+- Meißen Altstadtbrücke: 28 lines
 - Riesa Busbahnhof / Bahnhof: 27 lines
 - Dresden Bahnhof Neustadt: 26 lines
 - Kamenz Bahnhof: 23 lines
 - Pirna ZOB / Bahnhof: 23 lines
-- Meißen Altstadtbrücke: 22 lines
 - Großenhain Cottbuser Bahnhof: 21 lines
 - Meißen Bahnhofstraße: 21 lines
 - Hoyerswerda Bahnhof: 20 lines
