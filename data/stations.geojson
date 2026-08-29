@@ -1574,9 +1574,12 @@
           "Fähre": [
             "F 4",
             "F 5"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 11
+        "total_lines": 12
       }
     },
     {
@@ -1682,7 +1685,6 @@
         "name_with_city": "Bad Schandau Nationalparkbahnhof",
         "operators": [
           "DB Regio AG Südost",
-          "LEO Express",
           "RVSOE",
           "Österreichische Bundesbahnen"
         ],
@@ -15964,14 +15966,13 @@
             "360"
           ],
           "Regionalbus": [
-            "352",
             "366"
           ],
           "Bus": [
             "400"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -16580,6 +16581,7 @@
           "Zug": [
             "RB30",
             "RB31",
+            "RB33",
             "RB60",
             "RB61",
             "RE1",
@@ -16598,7 +16600,7 @@
             "SEV"
           ]
         },
-        "total_lines": 28
+        "total_lines": 29
       }
     },
     {
@@ -16622,7 +16624,6 @@
           "DB Regio AG Südost",
           "DVB",
           "FlixTrain",
-          "LEO Express",
           "Mitteldeutsche Regiobahn",
           "VGM",
           "trilex - Die Länderbahn GmbH DLB",
@@ -21697,7 +21698,6 @@
           "DB Regio AG Südost",
           "DVB",
           "FlixTrain",
-          "LEO Express",
           "Mitteldeutsche Regiobahn",
           "RVSOE",
           "VGM",
@@ -21740,6 +21740,7 @@
           ],
           "Zug": [
             "RB30",
+            "RB33",
             "RB60",
             "RB61",
             "RE1",
@@ -21756,7 +21757,7 @@
             "S8"
           ]
         },
-        "total_lines": 36
+        "total_lines": 37
       }
     },
     {
@@ -38640,11 +38641,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "161",
             "162"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -82532,11 +82532,10 @@
             "237",
             "241",
             "245",
-            "246",
             "207a"
           ]
         },
-        "total_lines": 10
+        "total_lines": 9
       }
     },
     {
@@ -92286,19 +92285,17 @@
         "city": "Reitzendorf(Dresden)",
         "name_with_city": "Reitzendorf(Dresden) Kleinbauernmuseum",
         "operators": [
-          "Müller Busreisen",
-          "RVSOE"
+          "Müller Busreisen"
         ],
         "lines": {
           "Regionalbus": [
-            "226",
             "228"
           ],
           "Stadtbus": [
             "98C"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -99763,19 +99760,17 @@
         "city": "Schönfeld (Dresden)",
         "name_with_city": "Schönfeld (Dresden) Meixstraße",
         "operators": [
-          "Müller Busreisen",
-          "RVSOE"
+          "Müller Busreisen"
         ],
         "lines": {
           "Regionalbus": [
-            "226",
             "228"
           ],
           "Stadtbus": [
             "98C"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -108447,11 +108442,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411",
-            "Sv250"
+            "411"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -108524,6 +108518,7 @@
         "city": "Weinböhla",
         "name_with_city": "Weinböhla Nassauhalle",
         "operators": [
+          "DB Regio AG Südost",
           "VGM"
         ],
         "lines": {
@@ -108535,9 +108530,12 @@
           ],
           "PlusBus": [
             "421"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {

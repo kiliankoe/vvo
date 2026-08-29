@@ -35,7 +35,7 @@ Total stations: 3920
 - Anruflinienbus: 479 stations
 - Straßenbahn: 270 stations
 - Anruflinientaxi: 203 stations
-- Ersatzverkehr: 114 stations
+- Ersatzverkehr: 116 stations
 - Zug: 105 stations
 - Taktbus: 101 stations
 - S-Bahn: 54 stations
@@ -50,11 +50,11 @@ Total stations: 3920
 
 ## Transit Operators
 
-- RVSOE: 1307 stations
+- RVSOE: 1305 stations
 - VGM: 1183 stations
 - DVB: 773 stations
 - RBO: 714 stations
-- DB Regio AG Südost: 123 stations
+- DB Regio AG Südost: 124 stations
 - VGH: 82 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 67 stations
@@ -70,7 +70,6 @@ Total stations: 3920
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 4 stations
 - DB Regio: 3 stations
-- LEO Express: 3 stations
 - DB Fernverkehr AG: 3 stations
 - FlixTrain: 2 stations
 - Nordsachsen Mobil: 2 stations
@@ -78,9 +77,9 @@ Total stations: 3920
 
 ## Major Transit Hubs (10+ lines)
 
-- Dresden Hauptbahnhof: 36 lines
+- Dresden Hauptbahnhof: 37 lines
 - Meißen Busbahnhof: 35 lines
-- Dresden Bahnhof Mitte: 28 lines
+- Dresden Bahnhof Mitte: 29 lines
 - Meißen Altstadtbrücke: 28 lines
 - Riesa Busbahnhof / Bahnhof: 27 lines
 - Dresden Bahnhof Neustadt: 26 lines
@@ -135,6 +134,7 @@ Total stations: 3920
 - Nossen Markt: 13 lines
 - Nossen Talstraße: 13 lines
 - Pirna Copitz Schulstraße: 13 lines
+- Bad Schandau Elbkai: 12 lines
 - Coswig (b Dresden) Bahnhof: 12 lines
 - Dresden Dahlienweg: 12 lines
 - Dresden Hauptbahnhof Nord: 12 lines
@@ -143,7 +143,6 @@ Total stations: 3920
 - Dresden S-Bf. Strehlen: 12 lines
 - Gompitz Gompitzer Höhe: 12 lines
 - Riesa Goethestraße: 12 lines
-- Bad Schandau Elbkai: 11 lines
 - Cossebaude/Neu-Leuteritz Bahnhof: 11 lines
 - Dresden Bahnhof Neustadt (Hansastraße): 11 lines
 - Dresden Koreanischer Platz: 11 lines
@@ -172,6 +171,5 @@ Total stations: 3920
 - Dresden Schillerplatz: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
-- Pirna Robert-Koch-Straße: 10 lines
 - Tharandt Bahnhof: 10 lines
 - Weinböhla Haltepunkt: 10 lines
