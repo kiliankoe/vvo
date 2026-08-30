@@ -77,9 +77,9 @@ Total stations: 3920
 
 ## Major Transit Hubs (10+ lines)
 
-- Dresden Hauptbahnhof: 37 lines
+- Dresden Hauptbahnhof: 36 lines
 - Meißen Busbahnhof: 35 lines
-- Dresden Bahnhof Mitte: 29 lines
+- Dresden Bahnhof Mitte: 28 lines
 - Meißen Altstadtbrücke: 28 lines
 - Riesa Busbahnhof / Bahnhof: 27 lines
 - Dresden Bahnhof Neustadt: 26 lines
