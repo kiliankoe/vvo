@@ -1,15 +1,15 @@
 # VVO Station Data Summary
 
-Total stations: 3920
+Total stations: 3912
 
 ## Stations by City
 
 - Dresden: 660
-- Meißen: 107
+- Meißen: 104
 - Freital: 87
 - Pirna: 85
-- Radebeul: 78
 - Riesa: 78
+- Radebeul: 74
 - Hoyerswerda: 73
 - Großenhain: 45
 - Coswig (b Dresden): 36
@@ -29,7 +29,7 @@ Total stations: 3920
 
 ## Stations by Transit Type
 
-- Regionalbus: 2712 stations
+- Regionalbus: 2701 stations
 - Stadtbus: 1301 stations
 - PlusBus: 650 stations
 - Anruflinienbus: 479 stations
@@ -51,7 +51,7 @@ Total stations: 3920
 ## Transit Operators
 
 - RVSOE: 1307 stations
-- VGM: 1183 stations
+- VGM: 1172 stations
 - DVB: 773 stations
 - RBO: 714 stations
 - DB Regio AG Südost: 124 stations
@@ -78,9 +78,9 @@ Total stations: 3920
 ## Major Transit Hubs (10+ lines)
 
 - Dresden Hauptbahnhof: 36 lines
-- Meißen Busbahnhof: 35 lines
+- Meißen Busbahnhof: 33 lines
 - Dresden Bahnhof Mitte: 28 lines
-- Meißen Altstadtbrücke: 28 lines
+- Meißen Altstadtbrücke: 27 lines
 - Riesa Busbahnhof / Bahnhof: 27 lines
 - Dresden Bahnhof Neustadt: 26 lines
 - Kamenz Bahnhof: 23 lines
@@ -143,7 +143,6 @@ Total stations: 3920
 - Dresden S-Bf. Strehlen: 12 lines
 - Gompitz Gompitzer Höhe: 12 lines
 - Riesa Goethestraße: 12 lines
-- Cossebaude/Neu-Leuteritz Bahnhof: 11 lines
 - Dresden Bahnhof Neustadt (Hansastraße): 11 lines
 - Dresden Koreanischer Platz: 11 lines
 - Dresden Nürnberger Platz: 11 lines
@@ -157,6 +156,7 @@ Total stations: 3920
 - Sebnitz Bahnhof: 11 lines
 - Altenberg (Erzgeb) Bahnhof: 10 lines
 - Bischofswerda Schulstraße: 10 lines
+- Cossebaude/Neu-Leuteritz Bahnhof: 10 lines
 - Dresden Altpieschen: 10 lines
 - Dresden Budapester Straße: 10 lines
 - Dresden Bünaustraße: 10 lines
@@ -173,4 +173,3 @@ Total stations: 3920
 - Königswartha Kirchplatz: 10 lines
 - Pirna Robert-Koch-Straße: 10 lines
 - Tharandt Bahnhof: 10 lines
-- Weinböhla Haltepunkt: 10 lines
