@@ -50,7 +50,7 @@ Total stations: 3911
 
 ## Transit Operators
 
-- RVSOE: 1307 stations
+- RVSOE: 1305 stations
 - VGM: 1172 stations
 - DVB: 773 stations
 - RBO: 714 stations
@@ -70,6 +70,7 @@ Total stations: 3911
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 4 stations
 - DB Regio: 3 stations
+- LEO Express: 3 stations
 - DB Fernverkehr AG: 3 stations
 - FlixTrain: 2 stations
 - Nordsachsen Mobil: 2 stations
@@ -164,5 +165,4 @@ Total stations: 3911
 - Dresden Schillerplatz: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
-- Pirna Robert-Koch-Straße: 10 lines
 - Tharandt Bahnhof: 10 lines
