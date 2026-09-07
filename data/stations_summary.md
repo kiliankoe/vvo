@@ -50,7 +50,7 @@ Total stations: 3911
 
 ## Transit Operators
 
-- RVSOE: 1305 stations
+- RVSOE: 1307 stations
 - VGM: 1172 stations
 - DVB: 773 stations
 - RBO: 714 stations
@@ -165,4 +165,5 @@ Total stations: 3911
 - Dresden Schillerplatz: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
+- Pirna Robert-Koch-Straße: 10 lines
 - Tharandt Bahnhof: 10 lines
