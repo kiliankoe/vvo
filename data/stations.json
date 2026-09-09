@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3911,
+    "count": 3912,
     "format_version": "2.0"
   },
   "stations": [
@@ -17068,10 +17068,11 @@
           "6"
         ],
         "Stadtbus": [
-          "63"
+          "63",
+          "65"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:997",
@@ -17889,10 +17890,12 @@
       ],
       "lines": {
         "Stadtbus": [
+          "61",
+          "63",
           "65"
         ]
       },
-      "total_lines": 1
+      "total_lines": 3
     },
     {
       "id": "de:14612:75",
@@ -19791,10 +19794,11 @@
       ],
       "lines": {
         "Stadtbus": [
-          "64"
+          "64",
+          "65"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:132",
@@ -54434,6 +54438,24 @@
         ]
       },
       "total_lines": 2
+    },
+    {
+      "id": "de:14627:4531",
+      "numeric_id": "33004531",
+      "name": "Niederstößwitz",
+      "city": "Niederstößwitz",
+      "name_with_city": "Niederstößwitz Niederstößwitz",
+      "longitude": 13.341419,
+      "latitude": 51.145503,
+      "operators": [
+        "VGM"
+      ],
+      "lines": {
+        "Regionalbus": [
+          "500"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14612:472",

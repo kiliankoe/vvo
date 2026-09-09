@@ -1,6 +1,6 @@
 # VVO Station Data Summary
 
-Total stations: 3911
+Total stations: 3912
 
 ## Stations by City
 
@@ -25,11 +25,11 @@ Total stations: 3911
 - Bannewitz: 21
 - Nossen: 18
 
-... and 820 more municipalities
+... and 821 more municipalities
 
 ## Stations by Transit Type
 
-- Regionalbus: 2701 stations
+- Regionalbus: 2702 stations
 - Stadtbus: 1304 stations
 - PlusBus: 650 stations
 - Anruflinienbus: 479 stations
@@ -51,7 +51,7 @@ Total stations: 3911
 ## Transit Operators
 
 - RVSOE: 1307 stations
-- VGM: 1172 stations
+- VGM: 1173 stations
 - DVB: 773 stations
 - RBO: 714 stations
 - DB Regio AG Südost: 124 stations

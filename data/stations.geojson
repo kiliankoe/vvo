@@ -23519,10 +23519,11 @@
             "6"
           ],
           "Stadtbus": [
-            "63"
+            "63",
+            "65"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -24644,10 +24645,12 @@
         ],
         "lines": {
           "Stadtbus": [
+            "61",
+            "63",
             "65"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {
@@ -27250,10 +27253,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "64"
+            "64",
+            "65"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -75061,6 +75065,32 @@
           ]
         },
         "total_lines": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.341419,
+          51.145503
+        ]
+      },
+      "properties": {
+        "id": "de:14627:4531",
+        "numeric_id": "33004531",
+        "name": "Niederstößwitz",
+        "city": "Niederstößwitz",
+        "name_with_city": "Niederstößwitz Niederstößwitz",
+        "operators": [
+          "VGM"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "500"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
