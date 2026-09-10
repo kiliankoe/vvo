@@ -1683,7 +1683,6 @@
         "name_with_city": "Bad Schandau Nationalparkbahnhof",
         "operators": [
           "DB Regio AG Südost",
-          "LEO Express",
           "RVSOE",
           "Österreichische Bundesbahnen"
         ],
@@ -16614,7 +16613,6 @@
           "DB Regio AG Südost",
           "DVB",
           "FlixTrain",
-          "LEO Express",
           "Mitteldeutsche Regiobahn",
           "VGM",
           "trilex - Die Länderbahn GmbH DLB",
@@ -21694,7 +21692,6 @@
           "DB Regio AG Südost",
           "DVB",
           "FlixTrain",
-          "LEO Express",
           "Mitteldeutsche Regiobahn",
           "RVSOE",
           "VGM",
@@ -34880,19 +34877,15 @@
         "city": "Ebenheit bei Pirna",
         "name_with_city": "Ebenheit bei Pirna Ebenheit bei Pirna",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "241",
             "246"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -58244,6 +58237,7 @@
         "city": "Krippen",
         "name_with_city": "Krippen Bahnhof",
         "operators": [
+          "Ceske Drahy",
           "DB Regio AG Südost",
           "RVSOE"
         ],
@@ -58260,9 +58254,12 @@
           ],
           "S-Bahn": [
             "S1"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -82440,11 +82437,30 @@
         ],
         "lines": {
           "Regionalbus": [
+            "204",
+            "216",
+            "218",
             "226",
-            "234"
+            "234",
+            "236",
+            "237",
+            "238",
+            "241",
+            "245",
+            "246",
+            "207a"
+          ],
+          "PlusBus": [
+            "219"
+          ],
+          "Stadtbus": [
+            "G/L (Pirna)",
+            "H/S (Pirna)",
+            "M (Pirna)",
+            "N (Pirna)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 17
       }
     },
     {
@@ -90147,15 +90163,9 @@
         "name": "Parkplatz",
         "city": "Rathen Kurort",
         "name_with_city": "Rathen Kurort Parkplatz",
-        "operators": [
-          "DB Regio AG Südost"
-        ],
-        "lines": {
-          "Ersatzverkehr": [
-            "SEV"
-          ]
-        },
-        "total_lines": 1
+        "operators": [],
+        "lines": {},
+        "total_lines": 0
       }
     },
     {
@@ -98337,6 +98347,7 @@
         "city": "Schmilka",
         "name_with_city": "Schmilka Hp Hirschmühle",
         "operators": [
+          "Ceske Drahy",
           "DB Regio AG Südost"
         ],
         "lines": {
@@ -99046,6 +99057,7 @@
         "city": "Schöna (b Pirna)",
         "name_with_city": "Schöna (b Pirna) Bahnhof",
         "operators": [
+          "Ceske Drahy",
           "DB Regio AG Südost"
         ],
         "lines": {
@@ -102365,19 +102377,15 @@
         "city": "Stadt Wehlen",
         "name_with_city": "Stadt Wehlen Karl-Marx-Platz",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "238",
             "239"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -104375,19 +104383,15 @@
         "city": "Struppen",
         "name_with_city": "Struppen Südstraße",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
             "241",
             "246"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -108281,7 +108285,6 @@
         "city": "Weinböhla",
         "name_with_city": "Weinböhla Nassauhalle",
         "operators": [
-          "DB Regio AG Südost",
           "VGM"
         ],
         "lines": {
@@ -108294,12 +108297,9 @@
           ],
           "PlusBus": [
             "421"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {

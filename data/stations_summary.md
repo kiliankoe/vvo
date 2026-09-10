@@ -30,12 +30,12 @@ Total stations: 3912
 ## Stations by Transit Type
 
 - Regionalbus: 2702 stations
-- Stadtbus: 1304 stations
-- PlusBus: 650 stations
+- Stadtbus: 1305 stations
+- PlusBus: 651 stations
 - Anruflinienbus: 479 stations
 - Straßenbahn: 270 stations
 - Anruflinientaxi: 203 stations
-- Ersatzverkehr: 116 stations
+- Ersatzverkehr: 112 stations
 - Zug: 105 stations
 - Taktbus: 101 stations
 - S-Bahn: 54 stations
@@ -54,7 +54,7 @@ Total stations: 3912
 - VGM: 1173 stations
 - DVB: 773 stations
 - RBO: 714 stations
-- DB Regio AG Südost: 124 stations
+- DB Regio AG Südost: 119 stations
 - VGH: 82 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 67 stations
@@ -70,8 +70,8 @@ Total stations: 3912
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 4 stations
 - DB Regio: 3 stations
-- LEO Express: 3 stations
 - DB Fernverkehr AG: 3 stations
+- Ceske Drahy: 3 stations
 - FlixTrain: 2 stations
 - Nordsachsen Mobil: 2 stations
 - Omnibusbetrieb Siegfried Wilhelm: 1 stations
@@ -98,6 +98,7 @@ Total stations: 3912
 - Großenhain Lessingplatz: 17 lines
 - Großenhain Mozartallee: 17 lines
 - Meißen S-Bahnhof Altstadt: 17 lines
+- Pirna Rosa-Luxemburg-Straße: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
 - Dresden Prager Straße: 16 lines
 - Dresden Walpurgisstraße: 16 lines

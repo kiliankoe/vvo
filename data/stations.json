@@ -1216,7 +1216,6 @@
       "latitude": 50.91927,
       "operators": [
         "DB Regio AG Südost",
-        "LEO Express",
         "RVSOE",
         "Österreichische Bundesbahnen"
       ],
@@ -11987,7 +11986,6 @@
         "DB Regio AG Südost",
         "DVB",
         "FlixTrain",
-        "LEO Express",
         "Mitteldeutsche Regiobahn",
         "VGM",
         "trilex - Die Länderbahn GmbH DLB",
@@ -15723,7 +15721,6 @@
         "DB Regio AG Südost",
         "DVB",
         "FlixTrain",
-        "LEO Express",
         "Mitteldeutsche Regiobahn",
         "RVSOE",
         "VGM",
@@ -25437,19 +25434,15 @@
       "longitude": 13.981649,
       "latitude": 50.947736,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "241",
           "246"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:3471",
@@ -42273,6 +42266,7 @@
       "longitude": 14.16027,
       "latitude": 50.913109,
       "operators": [
+        "Ceske Drahy",
         "DB Regio AG Südost",
         "RVSOE"
       ],
@@ -42289,9 +42283,12 @@
         ],
         "S-Bahn": [
           "S1"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 7
+      "total_lines": 8
     },
     {
       "id": "de:14628:3614",
@@ -59805,11 +59802,30 @@
       ],
       "lines": {
         "Regionalbus": [
+          "204",
+          "216",
+          "218",
           "226",
-          "234"
+          "234",
+          "236",
+          "237",
+          "238",
+          "241",
+          "245",
+          "246",
+          "207a"
+        ],
+        "PlusBus": [
+          "219"
+        ],
+        "Stadtbus": [
+          "G/L (Pirna)",
+          "H/S (Pirna)",
+          "M (Pirna)",
+          "N (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 17
     },
     {
       "id": "de:14628:3373",
@@ -65368,15 +65384,9 @@
       "name_with_city": "Rathen Kurort Parkplatz",
       "longitude": 14.078765,
       "latitude": 50.956196,
-      "operators": [
-        "DB Regio AG Südost"
-      ],
-      "lines": {
-        "Ersatzverkehr": [
-          "SEV"
-        ]
-      },
-      "total_lines": 1
+      "operators": [],
+      "lines": {},
+      "total_lines": 0
     },
     {
       "id": "de:14628:3705",
@@ -71278,6 +71288,7 @@
       "longitude": 14.228631,
       "latitude": 50.88987,
       "operators": [
+        "Ceske Drahy",
         "DB Regio AG Südost"
       ],
       "lines": {
@@ -71787,6 +71798,7 @@
       "longitude": 14.234641,
       "latitude": 50.875684,
       "operators": [
+        "Ceske Drahy",
         "DB Regio AG Südost"
       ],
       "lines": {
@@ -74170,19 +74182,15 @@
       "longitude": 14.032628,
       "latitude": 50.956689,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "238",
           "239"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14628:3729",
@@ -75612,19 +75620,15 @@
       "longitude": 14.003181,
       "latitude": 50.936834,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "241",
           "246"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:5497",
@@ -78406,7 +78410,6 @@
       "longitude": 13.562162,
       "latitude": 51.162547,
       "operators": [
-        "DB Regio AG Südost",
         "VGM"
       ],
       "lines": {
@@ -78419,12 +78422,9 @@
         ],
         "PlusBus": [
           "421"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 7
+      "total_lines": 6
     },
     {
       "id": "de:14627:4406",
