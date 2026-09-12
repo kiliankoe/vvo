@@ -1137,12 +1137,9 @@
         "Fähre": [
           "F 4",
           "F 5"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 12
+      "total_lines": 11
     },
     {
       "id": "de:14628:3629",
@@ -1216,6 +1213,7 @@
       "latitude": 50.91927,
       "operators": [
         "DB Regio AG Südost",
+        "LEO Express",
         "RVSOE",
         "Österreichische Bundesbahnen"
       ],
@@ -11487,14 +11485,13 @@
           "360"
         ],
         "Regionalbus": [
-          "352",
           "366"
         ],
         "Bus": [
           "400"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:843",
@@ -11986,6 +11983,7 @@
         "DB Regio AG Südost",
         "DVB",
         "FlixTrain",
+        "LEO Express",
         "Mitteldeutsche Regiobahn",
         "VGM",
         "trilex - Die Länderbahn GmbH DLB",
@@ -15721,6 +15719,7 @@
         "DB Regio AG Südost",
         "DVB",
         "FlixTrain",
+        "LEO Express",
         "Mitteldeutsche Regiobahn",
         "RVSOE",
         "VGM",
@@ -28122,11 +28121,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "161",
           "162"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:1178",
@@ -28470,10 +28468,12 @@
       ],
       "lines": {
         "Regionalbus": [
-          "775"
+          "775",
+          "777",
+          "785"
         ]
       },
-      "total_lines": 1
+      "total_lines": 3
     },
     {
       "id": "de:14625:6979",
@@ -28488,10 +28488,12 @@
       ],
       "lines": {
         "Regionalbus": [
-          "775"
+          "775",
+          "777",
+          "785"
         ]
       },
-      "total_lines": 1
+      "total_lines": 3
     },
     {
       "id": "de:14625:6050",
@@ -37049,6 +37051,9 @@
         "VGH"
       ],
       "lines": {
+        "PlusBus": [
+          "500"
+        ],
         "Regionalbus": [
           "776",
           "780",
@@ -37056,10 +37061,12 @@
           "792"
         ],
         "Stadtbus": [
-          "1 (Hoyerswerda)"
+          "1 (Hoyerswerda)",
+          "2 (Hoyerswerda)",
+          "3 (Hoyerswerda)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 8
     },
     {
       "id": "de:14625:8053",
@@ -37508,14 +37515,19 @@
       "longitude": 14.262121,
       "latitude": 51.441138,
       "operators": [
+        "RBO",
         "VGH"
       ],
       "lines": {
+        "PlusBus": [
+          "500"
+        ],
         "Stadtbus": [
+          "1 (Hoyerswerda)",
           "3 (Hoyerswerda)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 3
     },
     {
       "id": "de:14625:8082",
@@ -59783,11 +59795,10 @@
           "237",
           "241",
           "245",
-          "246",
           "207a"
         ]
       },
-      "total_lines": 10
+      "total_lines": 9
     },
     {
       "id": "de:14628:3382",
@@ -59802,30 +59813,16 @@
       ],
       "lines": {
         "Regionalbus": [
-          "204",
-          "216",
-          "218",
           "226",
           "234",
-          "236",
-          "237",
-          "238",
-          "241",
-          "245",
-          "246",
-          "207a"
-        ],
-        "PlusBus": [
-          "219"
+          "241"
         ],
         "Stadtbus": [
-          "G/L (Pirna)",
           "H/S (Pirna)",
-          "M (Pirna)",
           "N (Pirna)"
         ]
       },
-      "total_lines": 17
+      "total_lines": 5
     },
     {
       "id": "de:14628:3373",
@@ -64168,6 +64165,7 @@
         ],
         "Regionalbus": [
           "400",
+          "475",
           "476",
           "Sv270",
           "Sv280"
@@ -64176,7 +64174,7 @@
           "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14627:4274",
@@ -65067,11 +65065,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "403",
-          "405"
+          "403"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4367",
@@ -66728,19 +66725,17 @@
       "longitude": 13.903917,
       "latitude": 51.026638,
       "operators": [
-        "Müller Busreisen",
-        "RVSOE"
+        "Müller Busreisen"
       ],
       "lines": {
         "Regionalbus": [
-          "226",
           "228"
         ],
         "Stadtbus": [
           "98C"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:445",
@@ -67760,11 +67755,10 @@
           "A1 (Riesa)",
           "A2 (Riesa)",
           "B (Riesa)",
-          "C (Riesa)",
           "D (Riesa)"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14627:5896",
@@ -72144,19 +72138,17 @@
       "longitude": 13.901079,
       "latitude": 51.0297,
       "operators": [
-        "Müller Busreisen",
-        "RVSOE"
+        "Müller Busreisen"
       ],
       "lines": {
         "Regionalbus": [
-          "226",
           "228"
         ],
         "Stadtbus": [
           "98C"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:3790",
@@ -72450,9 +72442,12 @@
         "Stadtbus": [
           "R (Sebnitz)",
           "T (Sebnitz)"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14628:3932",
@@ -78357,11 +78352,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411",
-          "Sv250"
+          "411"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4151",

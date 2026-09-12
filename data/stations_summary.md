@@ -31,7 +31,7 @@ Total stations: 3912
 
 - Regionalbus: 2702 stations
 - Stadtbus: 1305 stations
-- PlusBus: 651 stations
+- PlusBus: 652 stations
 - Anruflinienbus: 479 stations
 - Straßenbahn: 270 stations
 - Anruflinientaxi: 203 stations
@@ -50,10 +50,10 @@ Total stations: 3912
 
 ## Transit Operators
 
-- RVSOE: 1307 stations
+- RVSOE: 1305 stations
 - VGM: 1173 stations
 - DVB: 773 stations
-- RBO: 714 stations
+- RBO: 715 stations
 - DB Regio AG Südost: 119 stations
 - VGH: 82 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
@@ -70,6 +70,7 @@ Total stations: 3912
 - Österreichische Bundesbahnen: 4 stations
 - Ostdeutsche Eisenbahn GmbH: 4 stations
 - DB Regio: 3 stations
+- LEO Express: 3 stations
 - DB Fernverkehr AG: 3 stations
 - Ceske Drahy: 3 stations
 - FlixTrain: 2 stations
@@ -98,7 +99,6 @@ Total stations: 3912
 - Großenhain Lessingplatz: 17 lines
 - Großenhain Mozartallee: 17 lines
 - Meißen S-Bahnhof Altstadt: 17 lines
-- Pirna Rosa-Luxemburg-Straße: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
 - Dresden Prager Straße: 16 lines
 - Dresden Walpurgisstraße: 16 lines
@@ -136,12 +136,12 @@ Total stations: 3912
 - Nossen Markt: 13 lines
 - Nossen Talstraße: 13 lines
 - Pirna Copitz Schulstraße: 13 lines
-- Bad Schandau Elbkai: 12 lines
 - Coswig (b Dresden) Bahnhof: 12 lines
 - Dresden Bühlau Ullersdorfer Platz: 12 lines
 - Dresden Dahlienweg: 12 lines
 - Dresden S-Bf. Strehlen: 12 lines
 - Riesa Goethestraße: 12 lines
+- Bad Schandau Elbkai: 11 lines
 - Dresden Bahnhof Neustadt (Hansastraße): 11 lines
 - Dresden Pirnaischer Platz: 11 lines
 - Dresden Reichenbachstraße: 11 lines
@@ -166,5 +166,5 @@ Total stations: 3912
 - Dresden Schillerplatz: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
-- Pirna Robert-Koch-Straße: 10 lines
+- Sebnitz Busbahnhof: 10 lines
 - Tharandt Bahnhof: 10 lines
