@@ -51006,9 +51006,6 @@
           "VGH"
         ],
         "lines": {
-          "PlusBus": [
-            "500"
-          ],
           "Regionalbus": [
             "776",
             "780",
@@ -51016,12 +51013,10 @@
             "792"
           ],
           "Stadtbus": [
-            "1 (Hoyerswerda)",
-            "2 (Hoyerswerda)",
-            "3 (Hoyerswerda)"
+            "1 (Hoyerswerda)"
           ]
         },
-        "total_lines": 8
+        "total_lines": 5
       }
     },
     {
@@ -51646,19 +51641,14 @@
         "city": "Hoyerswerda",
         "name_with_city": "Hoyerswerda Käthe-Niederkirchner-Straße",
         "operators": [
-          "RBO",
           "VGH"
         ],
         "lines": {
-          "PlusBus": [
-            "500"
-          ],
           "Stadtbus": [
-            "1 (Hoyerswerda)",
             "3 (Hoyerswerda)"
           ]
         },
-        "total_lines": 3
+        "total_lines": 1
       }
     },
     {
@@ -82451,13 +82441,9 @@
             "226",
             "234",
             "241"
-          ],
-          "Stadtbus": [
-            "H/S (Pirna)",
-            "N (Pirna)"
           ]
         },
-        "total_lines": 5
+        "total_lines": 3
       }
     },
     {
@@ -89724,10 +89710,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "403"
+            "403",
+            "405"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -93542,9 +93529,13 @@
         "lines": {
           "Regionalbus": [
             "442"
+          ],
+          "Stadtbus": [
+            "A1 (Riesa)",
+            "A2 (Riesa)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {
@@ -94202,9 +94193,13 @@
         "lines": {
           "Regionalbus": [
             "442"
+          ],
+          "Stadtbus": [
+            "A1 (Riesa)",
+            "A2 (Riesa)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {
@@ -94583,9 +94578,13 @@
         "lines": {
           "Regionalbus": [
             "442"
+          ],
+          "Stadtbus": [
+            "A1 (Riesa)",
+            "A2 (Riesa)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 3
       }
     },
     {
