@@ -29,9 +29,9 @@ Total stations: 3912
 
 ## Stations by Transit Type
 
-- Regionalbus: 2702 stations
-- Stadtbus: 1307 stations
-- PlusBus: 650 stations
+- Regionalbus: 2703 stations
+- Stadtbus: 1308 stations
+- PlusBus: 651 stations
 - Anruflinienbus: 479 stations
 - Straßenbahn: 270 stations
 - Anruflinientaxi: 203 stations
@@ -50,8 +50,8 @@ Total stations: 3912
 
 ## Transit Operators
 
-- RVSOE: 1305 stations
-- VGM: 1173 stations
+- RVSOE: 1307 stations
+- VGM: 1174 stations
 - DVB: 773 stations
 - RBO: 714 stations
 - DB Regio AG Südost: 119 stations
@@ -99,6 +99,7 @@ Total stations: 3912
 - Großenhain Lessingplatz: 17 lines
 - Großenhain Mozartallee: 17 lines
 - Meißen S-Bahnhof Altstadt: 17 lines
+- Pirna Rosa-Luxemburg-Straße: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
 - Dresden Prager Straße: 16 lines
 - Dresden Walpurgisstraße: 16 lines
@@ -166,5 +167,6 @@ Total stations: 3912
 - Dresden Schillerplatz: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
+- Pirna Robert-Koch-Straße: 10 lines
 - Sebnitz Busbahnhof: 10 lines
 - Tharandt Bahnhof: 10 lines
