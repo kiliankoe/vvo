@@ -13253,13 +13253,14 @@
         "Stadtbus": [
           "66",
           "68",
+          "87",
           "H/S (Pirna)"
         ],
         "Anruflinientaxi": [
           "alita 68"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:165",
@@ -13605,13 +13606,14 @@
       ],
       "lines": {
         "Stadtbus": [
-          "68"
+          "68",
+          "87"
         ],
         "Anruflinientaxi": [
           "alita 68"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:730",
@@ -14314,8 +14316,10 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "1",
           "10",
           "12",
+          "2",
           "41",
           "8",
           "9"
@@ -14324,7 +14328,7 @@
           "64"
         ]
       },
-      "total_lines": 6
+      "total_lines": 8
     },
     {
       "id": "de:14612:973",
@@ -17821,14 +17825,16 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "1",
           "10",
           "12",
+          "2",
           "41",
           "8",
           "9"
         ]
       },
-      "total_lines": 5
+      "total_lines": 7
     },
     {
       "id": "de:14612:795",
@@ -18224,13 +18230,14 @@
       ],
       "lines": {
         "Stadtbus": [
-          "63"
+          "63",
+          "87"
         ],
         "Anruflinientaxi": [
           "alita 63"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:50",
