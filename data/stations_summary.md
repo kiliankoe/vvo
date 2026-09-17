@@ -101,7 +101,6 @@ Total stations: 3912
 - Meißen S-Bahnhof Altstadt: 17 lines
 - Pirna Rosa-Luxemburg-Straße: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
-- Dresden Prager Straße: 16 lines
 - Dresden Walpurgisstraße: 16 lines
 - Freital S-Bf. / Busbf. Deuben: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
@@ -110,6 +109,7 @@ Total stations: 3912
 - Dresden Kirschenstraße: 15 lines
 - Dresden Liststraße: 15 lines
 - Dresden Merianplatz: 15 lines
+- Dresden Prager Straße: 15 lines
 - Dresden S-Bahnhof Dobritz: 15 lines
 - Dresden Schlehenstraße: 15 lines
 - Kamenz Schwimmhalle: 15 lines

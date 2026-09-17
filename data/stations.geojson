@@ -14397,14 +14397,13 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10"
           ],
           "Stadtbus": [
             "EV 10"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -26243,14 +26242,13 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10"
           ],
           "Stadtbus": [
             "EV 10"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -26273,11 +26271,10 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -26300,14 +26297,13 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10"
           ],
           "Stadtbus": [
             "EV 10"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -28322,7 +28318,6 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "11",
             "12",
@@ -28344,7 +28339,7 @@
             "360"
           ]
         },
-        "total_lines": 16
+        "total_lines": 15
       }
     },
     {
@@ -93476,11 +93471,10 @@
             "A1 (Riesa)",
             "A2 (Riesa)",
             "B (Riesa)",
-            "C (Riesa)",
             "D (Riesa)"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
