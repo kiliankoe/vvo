@@ -30,12 +30,12 @@ Total stations: 3912
 ## Stations by Transit Type
 
 - Regionalbus: 2703 stations
-- Stadtbus: 1308 stations
+- Stadtbus: 1305 stations
 - PlusBus: 651 stations
 - Anruflinienbus: 479 stations
 - Straßenbahn: 270 stations
 - Anruflinientaxi: 203 stations
-- Ersatzverkehr: 112 stations
+- Ersatzverkehr: 109 stations
 - Zug: 105 stations
 - Taktbus: 101 stations
 - S-Bahn: 54 stations
@@ -81,7 +81,7 @@ Total stations: 3912
 
 - Dresden Hauptbahnhof: 33 lines
 - Meißen Busbahnhof: 33 lines
-- Dresden Bahnhof Mitte: 28 lines
+- Dresden Bahnhof Mitte: 27 lines
 - Dresden Bahnhof Neustadt: 27 lines
 - Meißen Altstadtbrücke: 27 lines
 - Riesa Busbahnhof / Bahnhof: 27 lines
@@ -168,5 +168,4 @@ Total stations: 3912
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
 - Königswartha Kirchplatz: 10 lines
 - Pirna Robert-Koch-Straße: 10 lines
-- Sebnitz Busbahnhof: 10 lines
 - Tharandt Bahnhof: 10 lines

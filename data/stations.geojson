@@ -16567,7 +16567,6 @@
           ],
           "Zug": [
             "RB30",
-            "RB31",
             "RB60",
             "RB61",
             "RE1",
@@ -16586,7 +16585,7 @@
             "SEV"
           ]
         },
-        "total_lines": 28
+        "total_lines": 27
       }
     },
     {
@@ -45697,12 +45696,9 @@
         "lines": {
           "Zug": [
             "RB45"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -93559,12 +93555,9 @@
         "lines": {
           "Regionalbus": [
             "442"
-          ],
-          "Stadtbus": [
-            "A2 (Riesa)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -94222,12 +94215,9 @@
         "lines": {
           "Regionalbus": [
             "442"
-          ],
-          "Stadtbus": [
-            "A2 (Riesa)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -94606,12 +94596,9 @@
         "lines": {
           "Regionalbus": [
             "442"
-          ],
-          "Stadtbus": [
-            "A2 (Riesa)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -99969,12 +99956,9 @@
           "Stadtbus": [
             "R (Sebnitz)",
             "T (Sebnitz)"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 10
+        "total_lines": 9
       }
     },
     {
@@ -105781,12 +105765,9 @@
           ],
           "Zug": [
             "RB45"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
