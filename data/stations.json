@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3886,
+    "count": 3908,
     "format_version": "2.0"
   },
   "stations": [
@@ -3237,9 +3237,16 @@
       "name_with_city": "Birkwitz Altbirkwitz",
       "longitude": 13.887748,
       "latitude": 50.980194,
-      "operators": [],
-      "lines": {},
-      "total_lines": 0
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "G/L (Pirna)",
+          "P (Pirna)"
+        ]
+      },
+      "total_lines": 2
     },
     {
       "id": "de:14628:3022",
@@ -3258,6 +3265,25 @@
         ]
       },
       "total_lines": 1
+    },
+    {
+      "id": "de:14628:3023",
+      "numeric_id": "33003023",
+      "name": "Kindergarten",
+      "city": "Birkwitz",
+      "name_with_city": "Birkwitz Kindergarten",
+      "longitude": 13.88826,
+      "latitude": 50.978271,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "G/L (Pirna)",
+          "P (Pirna)"
+        ]
+      },
+      "total_lines": 2
     },
     {
       "id": "de:14625:6346",
@@ -9562,6 +9588,24 @@
       "total_lines": 3
     },
     {
+      "id": "de:14628:3360",
+      "numeric_id": "33003360",
+      "name": "Brücke",
+      "city": "Dohma",
+      "name_with_city": "Dohma Brücke",
+      "longitude": 13.916664,
+      "latitude": 50.925522,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "Z (Pirna)"
+        ]
+      },
+      "total_lines": 1
+    },
+    {
       "id": "de:14628:3366",
       "numeric_id": "33003366",
       "name": "Dohmaer Weg",
@@ -9600,9 +9644,30 @@
         ],
         "Regionalbus": [
           "207a"
+        ],
+        "Stadtbus": [
+          "Z (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
+    },
+    {
+      "id": "de:14628:3361",
+      "numeric_id": "33003361",
+      "name": "Siedlung",
+      "city": "Dohma",
+      "name_with_city": "Dohma Siedlung",
+      "longitude": 13.925684,
+      "latitude": 50.92273,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "Z (Pirna)"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14628:3364",
@@ -9621,9 +9686,12 @@
         ],
         "Regionalbus": [
           "207a"
+        ],
+        "Stadtbus": [
+          "Z (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3362",
@@ -9642,9 +9710,12 @@
         ],
         "Regionalbus": [
           "207a"
+        ],
+        "Stadtbus": [
+          "Z (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3105",
@@ -12401,18 +12472,20 @@
       "longitude": 13.869835,
       "latitude": 51.012595,
       "operators": [
-        "DVB"
+        "DVB",
+        "RVSOE"
       ],
       "lines": {
         "Stadtbus": [
           "63",
-          "83"
+          "83",
+          "P (Pirna)"
         ],
         "Anruflinientaxi": [
           "alita 83"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:696",
@@ -18340,17 +18413,19 @@
       "longitude": 13.832322,
       "latitude": 50.985357,
       "operators": [
-        "DVB"
+        "DVB",
+        "RVSOE"
       ],
       "lines": {
         "Stadtbus": [
-          "65"
+          "65",
+          "H/S (Pirna)"
         ],
         "Anruflinientaxi": [
           "alita 65"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:797",
@@ -19758,6 +19833,24 @@
       "total_lines": 3
     },
     {
+      "id": "de:14612:896",
+      "numeric_id": "33000896",
+      "name": "Otto-Schindler-Straße",
+      "city": "Dresden",
+      "name_with_city": "Dresden Otto-Schindler-Straße",
+      "longitude": 13.875584,
+      "latitude": 51.005785,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "P (Pirna)"
+        ]
+      },
+      "total_lines": 1
+    },
+    {
       "id": "de:14612:572",
       "numeric_id": "33000572",
       "name": "Overbeckstraße",
@@ -19948,18 +20041,20 @@
       "longitude": 13.864239,
       "latitude": 51.013901,
       "operators": [
-        "DVB"
+        "DVB",
+        "RVSOE"
       ],
       "lines": {
         "Stadtbus": [
           "63",
-          "83"
+          "83",
+          "P (Pirna)"
         ],
         "Anruflinientaxi": [
           "alita 83"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:887",
@@ -19988,18 +20083,20 @@
       "longitude": 13.874947,
       "latitude": 51.008582,
       "operators": [
-        "DVB"
+        "DVB",
+        "RVSOE"
       ],
       "lines": {
         "Stadtbus": [
           "63",
-          "83"
+          "83",
+          "P (Pirna)"
         ],
         "Anruflinientaxi": [
           "alita 83"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:5",
@@ -20334,7 +20431,8 @@
         ],
         "Stadtbus": [
           "66",
-          "88"
+          "88",
+          "H/S (Pirna)"
         ],
         "Regionalbus": [
           "353"
@@ -20344,7 +20442,7 @@
           "alita 88"
         ]
       },
-      "total_lines": 8
+      "total_lines": 9
     },
     {
       "id": "de:14612:324",
@@ -20584,18 +20682,20 @@
       "longitude": 13.873563,
       "latitude": 51.012347,
       "operators": [
-        "DVB"
+        "DVB",
+        "RVSOE"
       ],
       "lines": {
         "Stadtbus": [
           "63",
-          "83"
+          "83",
+          "P (Pirna)"
         ],
         "Anruflinientaxi": [
           "alita 83"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:745",
@@ -22655,6 +22755,42 @@
         ]
       },
       "total_lines": 3
+    },
+    {
+      "id": "de:14612:898",
+      "numeric_id": "33000898",
+      "name": "Söbrigen",
+      "city": "Dresden",
+      "name_with_city": "Dresden Söbrigen",
+      "longitude": 13.881963,
+      "latitude": 50.994337,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "P (Pirna)"
+        ]
+      },
+      "total_lines": 1
+    },
+    {
+      "id": "de:14612:897",
+      "numeric_id": "33000897",
+      "name": "Söbrigener Straße",
+      "city": "Dresden",
+      "name_with_city": "Dresden Söbrigener Straße",
+      "longitude": 13.879537,
+      "latitude": 50.99774,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "P (Pirna)"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14612:218",
@@ -29969,6 +30105,24 @@
       "total_lines": 1
     },
     {
+      "id": "de:14628:3008",
+      "numeric_id": "33003008",
+      "name": "Abzweig Birkwitz-Pratzschwitz",
+      "city": "Graupa",
+      "name_with_city": "Graupa Abzweig Birkwitz-Pratzschwitz",
+      "longitude": 13.920123,
+      "latitude": 50.989304,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "G/L (Pirna)"
+        ]
+      },
+      "total_lines": 1
+    },
+    {
       "id": "de:14628:3005",
       "numeric_id": "33003005",
       "name": "Am Schloß",
@@ -29976,9 +30130,16 @@
       "name_with_city": "Graupa Am Schloß",
       "longitude": 13.924049,
       "latitude": 50.99934,
-      "operators": [],
-      "lines": {},
-      "total_lines": 0
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "G/L (Pirna)",
+          "P (Pirna)"
+        ]
+      },
+      "total_lines": 2
     },
     {
       "id": "de:14628:3003",
@@ -30007,17 +30168,37 @@
       "longitude": 13.90734,
       "latitude": 50.995564,
       "operators": [
-        "DVB"
+        "DVB",
+        "RVSOE"
       ],
       "lines": {
         "Stadtbus": [
-          "83"
+          "83",
+          "G/L (Pirna)"
         ],
         "Anruflinientaxi": [
           "alita 83"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
+    },
+    {
+      "id": "de:14628:3007",
+      "numeric_id": "33003007",
+      "name": "Lohengrinstraße",
+      "city": "Graupa",
+      "name_with_city": "Graupa Lohengrinstraße",
+      "longitude": 13.93234,
+      "latitude": 50.995807,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "G/L (Pirna)"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14628:3001",
@@ -30028,17 +30209,19 @@
       "longitude": 13.912245,
       "latitude": 51.000092,
       "operators": [
-        "DVB"
+        "DVB",
+        "RVSOE"
       ],
       "lines": {
         "Stadtbus": [
-          "83"
+          "83",
+          "G/L (Pirna)"
         ],
         "Anruflinientaxi": [
           "alita 83"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3002",
@@ -30049,17 +30232,20 @@
       "longitude": 13.921722,
       "latitude": 51.000052,
       "operators": [
-        "DVB"
+        "DVB",
+        "RVSOE"
       ],
       "lines": {
         "Stadtbus": [
-          "83"
+          "83",
+          "G/L (Pirna)",
+          "P (Pirna)"
         ],
         "Anruflinientaxi": [
           "alita 83"
         ]
       },
-      "total_lines": 2
+      "total_lines": 4
     },
     {
       "id": "de:14627:4978",
@@ -34078,6 +34264,24 @@
         ]
       },
       "total_lines": 2
+    },
+    {
+      "id": "de:14628:3072",
+      "numeric_id": "33003072",
+      "name": "Einkaufszentrum",
+      "city": "Heidenau (Sachs)",
+      "name_with_city": "Heidenau (Sachs) Einkaufszentrum",
+      "longitude": 13.85363,
+      "latitude": 50.979379,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "H/S (Pirna)"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14628:3075",
@@ -57724,6 +57928,24 @@
       "total_lines": 2
     },
     {
+      "id": "de:14628:3443",
+      "numeric_id": "33003443",
+      "name": "Abzweig Jessen",
+      "city": "Pirna",
+      "name_with_city": "Pirna Abzweig Jessen",
+      "longitude": 13.936068,
+      "latitude": 50.989118,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "G/L (Pirna)"
+        ]
+      },
+      "total_lines": 1
+    },
+    {
       "id": "de:14628:3418",
       "numeric_id": "33003418",
       "name": "Abzweig Pirna-Cunnersdorf",
@@ -57761,9 +57983,12 @@
           "209",
           "216",
           "218"
+        ],
+        "Stadtbus": [
+          "N (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3311",
@@ -57781,9 +58006,12 @@
           "209",
           "216",
           "218"
+        ],
+        "Stadtbus": [
+          "N (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3407",
@@ -57801,9 +58029,12 @@
           "209",
           "216",
           "218"
+        ],
+        "Stadtbus": [
+          "N (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3390",
@@ -57839,9 +58070,12 @@
           "209",
           "216",
           "218"
+        ],
+        "Stadtbus": [
+          "N (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3393",
@@ -57861,9 +58095,12 @@
         ],
         "PlusBus": [
           "219"
+        ],
+        "Stadtbus": [
+          "Z (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3378",
@@ -57881,9 +58118,12 @@
           "209",
           "216",
           "218"
+        ],
+        "Stadtbus": [
+          "N (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3374",
@@ -57893,9 +58133,15 @@
       "name_with_city": "Pirna Aufbauring/Friedhof",
       "longitude": 13.927624,
       "latitude": 50.955172,
-      "operators": [],
-      "lines": {},
-      "total_lines": 0
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "Z (Pirna)"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14628:3370",
@@ -57970,10 +58216,15 @@
           "219"
         ],
         "Stadtbus": [
-          "H/S (Pirna)"
+          "G/L (Pirna)",
+          "H/S (Pirna)",
+          "M (Pirna)",
+          "N (Pirna)",
+          "P (Pirna)",
+          "Z (Pirna)"
         ]
       },
-      "total_lines": 10
+      "total_lines": 15
     },
     {
       "id": "de:14628:3385",
@@ -57996,9 +58247,12 @@
         ],
         "PlusBus": [
           "219"
+        ],
+        "Stadtbus": [
+          "N (Pirna)"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14628:3446",
@@ -58039,9 +58293,12 @@
           "237",
           "238",
           "246"
+        ],
+        "Stadtbus": [
+          "M (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3447",
@@ -58063,6 +58320,24 @@
       "total_lines": 2
     },
     {
+      "id": "de:14628:3439",
+      "numeric_id": "33003439",
+      "name": "Copitz Birkwitzer Straße",
+      "city": "Pirna",
+      "name_with_city": "Pirna Copitz Birkwitzer Straße",
+      "longitude": 13.919638,
+      "latitude": 50.974798,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "M (Pirna)"
+        ]
+      },
+      "total_lines": 1
+    },
+    {
       "id": "de:14628:3433",
       "numeric_id": "33003433",
       "name": "Copitz Eichendorffstraße",
@@ -58079,10 +58354,12 @@
           "207a"
         ],
         "Stadtbus": [
-          "H/S (Pirna)"
+          "G/L (Pirna)",
+          "H/S (Pirna)",
+          "P (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 5
     },
     {
       "id": "de:14628:3461",
@@ -58120,9 +58397,12 @@
           "237",
           "238",
           "254"
+        ],
+        "Stadtbus": [
+          "M (Pirna)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14628:3457",
@@ -58138,9 +58418,12 @@
       "lines": {
         "Regionalbus": [
           "238"
+        ],
+        "Stadtbus": [
+          "M (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3455",
@@ -58156,9 +58439,12 @@
       "lines": {
         "Regionalbus": [
           "238"
+        ],
+        "Stadtbus": [
+          "M (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3452",
@@ -58205,9 +58491,13 @@
           "237",
           "238",
           "246"
+        ],
+        "Stadtbus": [
+          "G/L (Pirna)",
+          "M (Pirna)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 7
     },
     {
       "id": "de:14628:3451",
@@ -58256,6 +58546,24 @@
       "total_lines": 6
     },
     {
+      "id": "de:14628:3431",
+      "numeric_id": "33003431",
+      "name": "Copitz Pratzschwitzer Straße",
+      "city": "Pirna",
+      "name_with_city": "Pirna Copitz Pratzschwitzer Straße",
+      "longitude": 13.928962,
+      "latitude": 50.966341,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "G/L (Pirna)"
+        ]
+      },
+      "total_lines": 1
+    },
+    {
       "id": "de:14628:3436",
       "numeric_id": "33003436",
       "name": "Copitz Rudolf-Renner-Straße",
@@ -58273,9 +58581,13 @@
           "238",
           "241",
           "246"
+        ],
+        "Stadtbus": [
+          "G/L (Pirna)",
+          "M (Pirna)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 7
     },
     {
       "id": "de:14628:3434",
@@ -58293,9 +58605,12 @@
           "237",
           "238",
           "241"
+        ],
+        "Stadtbus": [
+          "G/L (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3454",
@@ -58320,13 +58635,34 @@
           "254"
         ],
         "Stadtbus": [
-          "H/S (Pirna)"
+          "G/L (Pirna)",
+          "H/S (Pirna)",
+          "M (Pirna)",
+          "P (Pirna)"
         ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 9
+      "total_lines": 12
+    },
+    {
+      "id": "de:14628:3438",
+      "numeric_id": "33003438",
+      "name": "Copitz Sportplatz",
+      "city": "Pirna",
+      "name_with_city": "Pirna Copitz Sportplatz",
+      "longitude": 13.924058,
+      "latitude": 50.97602,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "M (Pirna)"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14628:3456",
@@ -58342,9 +58678,12 @@
       "lines": {
         "Regionalbus": [
           "238"
+        ],
+        "Stadtbus": [
+          "M (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3437",
@@ -58354,9 +58693,16 @@
       "name_with_city": "Pirna Copitz Wesenitztalschänke",
       "longitude": 13.930337,
       "latitude": 50.979385,
-      "operators": [],
-      "lines": {},
-      "total_lines": 0
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "G/L (Pirna)",
+          "M (Pirna)"
+        ]
+      },
+      "total_lines": 2
     },
     {
       "id": "de:14628:3004",
@@ -58372,9 +58718,12 @@
       "lines": {
         "Regionalbus": [
           "234"
+        ],
+        "Stadtbus": [
+          "G/L (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3432",
@@ -58392,10 +58741,12 @@
           "246"
         ],
         "Stadtbus": [
-          "H/S (Pirna)"
+          "G/L (Pirna)",
+          "H/S (Pirna)",
+          "P (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 4
     },
     {
       "id": "de:14628:3375",
@@ -58411,6 +58762,27 @@
       "lines": {
         "Regionalbus": [
           "204"
+        ],
+        "Stadtbus": [
+          "H/S (Pirna)"
+        ]
+      },
+      "total_lines": 2
+    },
+    {
+      "id": "de:14628:3369",
+      "numeric_id": "33003369",
+      "name": "Einsteinstraße",
+      "city": "Pirna",
+      "name_with_city": "Pirna Einsteinstraße",
+      "longitude": 13.934649,
+      "latitude": 50.955161,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "Z (Pirna)"
         ]
       },
       "total_lines": 1
@@ -58431,9 +58803,12 @@
           "209",
           "216",
           "218"
+        ],
+        "Stadtbus": [
+          "N (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3387",
@@ -58469,9 +58844,12 @@
           "209",
           "216",
           "218"
+        ],
+        "Stadtbus": [
+          "N (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3430",
@@ -58510,6 +58888,60 @@
       "total_lines": 1
     },
     {
+      "id": "de:14628:3441",
+      "numeric_id": "33003441",
+      "name": "Jessen An der Sandgrube",
+      "city": "Pirna",
+      "name_with_city": "Pirna Jessen An der Sandgrube",
+      "longitude": 13.937389,
+      "latitude": 50.98987,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "G/L (Pirna)"
+        ]
+      },
+      "total_lines": 1
+    },
+    {
+      "id": "de:14628:3440",
+      "numeric_id": "33003440",
+      "name": "Jessen W-Hultsch-Heim",
+      "city": "Pirna",
+      "name_with_city": "Pirna Jessen W-Hultsch-Heim",
+      "longitude": 13.935152,
+      "latitude": 50.986392,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "G/L (Pirna)"
+        ]
+      },
+      "total_lines": 1
+    },
+    {
+      "id": "de:14628:3442",
+      "numeric_id": "33003442",
+      "name": "Jessen Weinbergweg",
+      "city": "Pirna",
+      "name_with_city": "Pirna Jessen Weinbergweg",
+      "longitude": 13.944575,
+      "latitude": 50.990531,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "G/L (Pirna)"
+        ]
+      },
+      "total_lines": 1
+    },
+    {
       "id": "de:14628:3406",
       "numeric_id": "33003406",
       "name": "Johann-Sebastian-Bach-Straße",
@@ -58525,9 +58957,12 @@
           "209",
           "216",
           "218"
+        ],
+        "Stadtbus": [
+          "N (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3415",
@@ -58550,6 +58985,24 @@
         ]
       },
       "total_lines": 3
+    },
+    {
+      "id": "de:14628:3392",
+      "numeric_id": "33003392",
+      "name": "Kohlbergstraße",
+      "city": "Pirna",
+      "name_with_city": "Pirna Kohlbergstraße",
+      "longitude": 13.931046,
+      "latitude": 50.951392,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "Z (Pirna)"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14628:3388",
@@ -58575,6 +59028,24 @@
       "total_lines": 4
     },
     {
+      "id": "de:14628:3445",
+      "numeric_id": "33003445",
+      "name": "Liebethaler Grund",
+      "city": "Pirna",
+      "name_with_city": "Pirna Liebethaler Grund",
+      "longitude": 13.957322,
+      "latitude": 50.996259,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "G/L (Pirna)"
+        ]
+      },
+      "total_lines": 1
+    },
+    {
       "id": "de:14628:3394",
       "numeric_id": "33003394",
       "name": "Lindigt",
@@ -58592,9 +59063,12 @@
         ],
         "PlusBus": [
           "219"
+        ],
+        "Stadtbus": [
+          "Z (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3459",
@@ -58610,9 +59084,12 @@
       "lines": {
         "Regionalbus": [
           "238"
+        ],
+        "Stadtbus": [
+          "M (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3458",
@@ -58628,9 +59105,12 @@
       "lines": {
         "Regionalbus": [
           "238"
+        ],
+        "Stadtbus": [
+          "M (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3460",
@@ -58666,9 +59146,12 @@
           "209",
           "216",
           "218"
+        ],
+        "Stadtbus": [
+          "N (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3309",
@@ -58685,9 +59168,12 @@
         "Regionalbus": [
           "216",
           "218"
+        ],
+        "Stadtbus": [
+          "N (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3310",
@@ -58704,9 +59190,12 @@
         "Regionalbus": [
           "216",
           "218"
+        ],
+        "Stadtbus": [
+          "N (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3401",
@@ -58724,9 +59213,30 @@
           "209",
           "216",
           "218"
+        ],
+        "Stadtbus": [
+          "N (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
+    },
+    {
+      "id": "de:14628:3391",
+      "numeric_id": "33003391",
+      "name": "Postweg",
+      "city": "Pirna",
+      "name_with_city": "Pirna Postweg",
+      "longitude": 13.927777,
+      "latitude": 50.952461,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "Z (Pirna)"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14628:3381",
@@ -58790,9 +59300,12 @@
           "209",
           "216",
           "218"
+        ],
+        "Stadtbus": [
+          "N (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3384",
@@ -58814,9 +59327,12 @@
         ],
         "PlusBus": [
           "219"
+        ],
+        "Stadtbus": [
+          "N (Pirna)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14628:3467",
@@ -58835,9 +59351,13 @@
           "237",
           "238",
           "246"
+        ],
+        "Stadtbus": [
+          "G/L (Pirna)",
+          "M (Pirna)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 6
     },
     {
       "id": "de:14628:3423",
@@ -58867,9 +59387,12 @@
           "209",
           "216",
           "218"
+        ],
+        "Stadtbus": [
+          "N (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3377",
@@ -58879,9 +59402,15 @@
       "name_with_city": "Pirna Siedlung",
       "longitude": 13.908759,
       "latitude": 50.956485,
-      "operators": [],
-      "lines": {},
-      "total_lines": 0
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "H/S (Pirna)"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14628:3413",
@@ -58940,9 +59469,12 @@
       "lines": {
         "Regionalbus": [
           "246"
+        ],
+        "Stadtbus": [
+          "H/S (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3412",
@@ -59002,9 +59534,12 @@
           "209",
           "216",
           "218"
+        ],
+        "Stadtbus": [
+          "N (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3403",
@@ -59022,9 +59557,12 @@
           "209",
           "216",
           "218"
+        ],
+        "Stadtbus": [
+          "N (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3371",
@@ -59059,13 +59597,18 @@
           "219"
         ],
         "Stadtbus": [
-          "H/S (Pirna)"
+          "G/L (Pirna)",
+          "H/S (Pirna)",
+          "M (Pirna)",
+          "N (Pirna)",
+          "P (Pirna)",
+          "Z (Pirna)"
         ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 17
+      "total_lines": 22
     },
     {
       "id": "de:14628:3448",
@@ -59106,9 +59649,12 @@
         ],
         "Regionalbus": [
           "207a"
+        ],
+        "Stadtbus": [
+          "Z (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3395",
@@ -59128,9 +59674,12 @@
         ],
         "PlusBus": [
           "219"
+        ],
+        "Stadtbus": [
+          "Z (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3410",
@@ -59147,9 +59696,12 @@
         "Regionalbus": [
           "205",
           "207a"
+        ],
+        "Stadtbus": [
+          "Z (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3386",
@@ -59169,9 +59721,12 @@
         ],
         "PlusBus": [
           "219"
+        ],
+        "Stadtbus": [
+          "Z (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3389",
@@ -59191,9 +59746,12 @@
         ],
         "PlusBus": [
           "219"
+        ],
+        "Stadtbus": [
+          "Z (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3399",
@@ -59210,9 +59768,12 @@
         "Regionalbus": [
           "205",
           "207a"
+        ],
+        "Stadtbus": [
+          "Z (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3397",
@@ -59229,9 +59790,12 @@
         "Regionalbus": [
           "205",
           "207a"
+        ],
+        "Stadtbus": [
+          "Z (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3398",
@@ -59248,9 +59812,12 @@
         "Regionalbus": [
           "205",
           "207a"
+        ],
+        "Stadtbus": [
+          "Z (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:5153",
@@ -60242,6 +60809,44 @@
         ]
       },
       "total_lines": 4
+    },
+    {
+      "id": "de:14628:3030",
+      "numeric_id": "33003030",
+      "name": "An der Elbaue",
+      "city": "Pratzschwitz",
+      "name_with_city": "Pratzschwitz An der Elbaue",
+      "longitude": 13.89179,
+      "latitude": 50.970165,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "G/L (Pirna)",
+          "P (Pirna)"
+        ]
+      },
+      "total_lines": 2
+    },
+    {
+      "id": "de:14628:3031",
+      "numeric_id": "33003031",
+      "name": "Dorfplatz",
+      "city": "Pratzschwitz",
+      "name_with_city": "Pratzschwitz Dorfplatz",
+      "longitude": 13.897512,
+      "latitude": 50.968021,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "G/L (Pirna)",
+          "P (Pirna)"
+        ]
+      },
+      "total_lines": 2
     },
     {
       "id": "de:14627:5946",
@@ -63878,10 +64483,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "403"
+          "403",
+          "405"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4367",

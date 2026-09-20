@@ -1,19 +1,19 @@
 # VVO Station Data Summary
 
-Total stations: 3886
+Total stations: 3908
 
 ## Stations by City
 
-- Dresden: 656
+- Dresden: 659
 - Meißen: 104
 - Freital: 87
+- Pirna: 85
 - Riesa: 75
-- Pirna: 74
 - Radebeul: 74
 - Hoyerswerda: 73
 - Großenhain: 45
 - Coswig (b Dresden): 36
-- Heidenau (Sachs): 34
+- Heidenau (Sachs): 35
 - Bischofswerda: 33
 - Kamenz: 33
 - Radeberg: 33
@@ -25,12 +25,12 @@ Total stations: 3886
 - Bannewitz: 21
 - Nossen: 18
 
-... and 820 more municipalities
+... and 821 more municipalities
 
 ## Stations by Transit Type
 
 - Regionalbus: 2692 stations
-- Stadtbus: 1199 stations
+- Stadtbus: 1271 stations
 - PlusBus: 645 stations
 - Anruflinienbus: 432 stations
 - Straßenbahn: 270 stations
@@ -50,7 +50,7 @@ Total stations: 3886
 
 ## Transit Operators
 
-- RVSOE: 1265 stations
+- RVSOE: 1300 stations
 - VGM: 1171 stations
 - DVB: 770 stations
 - RBO: 678 stations
@@ -85,6 +85,7 @@ Total stations: 3886
 - Meißen Altstadtbrücke: 27 lines
 - Riesa Busbahnhof / Bahnhof: 27 lines
 - Dresden Bahnhof Mitte: 24 lines
+- Pirna ZOB / Bahnhof: 22 lines
 - Großenhain Cottbuser Bahnhof: 21 lines
 - Meißen Bahnhofstraße: 21 lines
 - Hoyerswerda Bahnhof: 20 lines
@@ -96,7 +97,6 @@ Total stations: 3886
 - Dresden Trachenberger Platz: 17 lines
 - Großenhain Mozartallee: 17 lines
 - Meißen S-Bahnhof Altstadt: 17 lines
-- Pirna ZOB / Bahnhof: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
 - Freital S-Bf. / Busbf. Deuben: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
@@ -105,6 +105,7 @@ Total stations: 3886
 - Dresden Postplatz: 15 lines
 - Dresden S-Bahnhof Dobritz: 15 lines
 - Meißen Uferstraße: 15 lines
+- Pirna Breite Straße: 15 lines
 - Bad Schandau Nationalparkbahnhof: 14 lines
 - Dippoldiswalde Busbahnhof: 14 lines
 - Dresden Liststraße: 14 lines
@@ -130,6 +131,7 @@ Total stations: 3886
 - Dresden S-Bf. Strehlen: 12 lines
 - Kamenz Flugplatz: 12 lines
 - Kamenz Landesämter: 12 lines
+- Pirna Copitz Schulstraße: 12 lines
 - Riesa Goethestraße: 12 lines
 - Bad Schandau Elbkai: 11 lines
 - Cossebaude/Neu-Leuteritz Bahnhof: 11 lines
@@ -150,5 +152,4 @@ Total stations: 3886
 - Dresden Zeithainer Straße: 10 lines
 - Glashütte (Sachs) Bahnhof / Busbahnhof: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
-- Pirna Breite Straße: 10 lines
 - Tharandt Bahnhof: 10 lines
