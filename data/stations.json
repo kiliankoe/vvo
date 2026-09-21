@@ -11436,13 +11436,14 @@
           "360"
         ],
         "Regionalbus": [
+          "352",
           "366"
         ],
         "Bus": [
           "400"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:843",
@@ -27761,10 +27762,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "161",
           "162"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:1178",
@@ -37191,14 +37193,26 @@
       "longitude": 14.245026,
       "latitude": 51.436535,
       "operators": [
+        "RBO",
         "VGH"
       ],
       "lines": {
+        "PlusBus": [
+          "500",
+          "536"
+        ],
+        "Regionalbus": [
+          "776",
+          "782",
+          "784",
+          "792",
+          "794"
+        ],
         "Stadtbus": [
           "1 (Hoyerswerda)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 8
     },
     {
       "id": "de:14625:8054",
@@ -58518,9 +58532,12 @@
           "238",
           "246",
           "254"
+        ],
+        "Stadtbus": [
+          "M (Pirna)"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14628:3453",
@@ -59259,10 +59276,11 @@
           "237",
           "241",
           "245",
+          "246",
           "207a"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14628:3382",
@@ -59277,12 +59295,30 @@
       ],
       "lines": {
         "Regionalbus": [
+          "204",
+          "216",
+          "218",
           "226",
           "234",
-          "241"
+          "236",
+          "237",
+          "238",
+          "241",
+          "245",
+          "246",
+          "207a"
+        ],
+        "PlusBus": [
+          "219"
+        ],
+        "Stadtbus": [
+          "G/L (Pirna)",
+          "H/S (Pirna)",
+          "M (Pirna)",
+          "N (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 17
     },
     {
       "id": "de:14628:3373",
@@ -66139,17 +66175,19 @@
       "longitude": 13.903917,
       "latitude": 51.026638,
       "operators": [
-        "Müller Busreisen"
+        "Müller Busreisen",
+        "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
+          "226",
           "228"
         ],
         "Stadtbus": [
           "98C"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:445",
@@ -71455,17 +71493,19 @@
       "longitude": 13.901079,
       "latitude": 51.0297,
       "operators": [
-        "Müller Busreisen"
+        "Müller Busreisen",
+        "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
+          "226",
           "228"
         ],
         "Stadtbus": [
           "98C"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:3790",
@@ -77623,10 +77663,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411"
+          "411",
+          "Sv250"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4151",
