@@ -63013,12 +63013,11 @@
           "4"
         ],
         "Regionalbus": [
-          "475",
           "Sv270",
           "Sv280"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14627:4223",
@@ -63505,18 +63504,14 @@
       "longitude": 13.654383,
       "latitude": 51.099861,
       "operators": [
-        "DVB",
-        "VGM"
+        "DVB"
       ],
       "lines": {
         "Stadtbus": [
           "72"
-        ],
-        "Regionalbus": [
-          "475"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4263",

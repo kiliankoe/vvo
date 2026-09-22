@@ -87056,12 +87056,11 @@
             "4"
           ],
           "Regionalbus": [
-            "475",
             "Sv270",
             "Sv280"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -87756,18 +87755,14 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Kaufland",
         "operators": [
-          "DVB",
-          "VGM"
+          "DVB"
         ],
         "lines": {
           "Stadtbus": [
             "72"
-          ],
-          "Regionalbus": [
-            "475"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
