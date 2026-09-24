@@ -136,6 +136,7 @@ Mobile apps known and used in Dresden.
 - [`DVB mobil`](https://www.dvb.de/de-de/fahrplan/dvb-mobil/) - Official, cross-platform
 - [`ÖPNV Navigator`](https://itunes.apple.com/de/app/öpnv-navigator/id1239908782?mt=8) - iOS, not specific to the VVO network
 - [`Öffi`](https://f-droid.org/packages/de.schildbach.oeffi/) - Android
+- [`Takt Dresden`](https://takt-dresden.de/)
 - [`Haltestellenmonitor-v3`](https://github.com/HanashiDev/Haltestellenmonitor-v3) - iOS
 
 ### Assistive apps & accessibility
