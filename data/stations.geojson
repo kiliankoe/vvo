@@ -17224,6 +17224,7 @@
         ],
         "lines": {
           "Straßenbahn": [
+            "11",
             "13",
             "6",
             "7",
@@ -17233,7 +17234,7 @@
             "477"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -21747,11 +21748,12 @@
         ],
         "lines": {
           "Straßenbahn": [
+            "11",
             "7",
             "8"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -22126,11 +22128,12 @@
         ],
         "lines": {
           "Straßenbahn": [
+            "11",
             "7",
             "8"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -25393,6 +25396,7 @@
         ],
         "lines": {
           "Straßenbahn": [
+            "11",
             "7",
             "8"
           ],
@@ -25400,7 +25404,7 @@
             "477"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -26460,6 +26464,7 @@
         ],
         "lines": {
           "Straßenbahn": [
+            "11",
             "7",
             "8"
           ],
@@ -26467,7 +26472,7 @@
             "EV 7"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -29703,6 +29708,7 @@
         ],
         "lines": {
           "Straßenbahn": [
+            "11",
             "7",
             "8"
           ],
@@ -29720,7 +29726,7 @@
             "SEV"
           ]
         },
-        "total_lines": 9
+        "total_lines": 10
       }
     },
     {
@@ -31053,6 +31059,7 @@
         ],
         "lines": {
           "Straßenbahn": [
+            "11",
             "7",
             "8"
           ],
@@ -31060,7 +31067,7 @@
             "64"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -31527,11 +31534,12 @@
         ],
         "lines": {
           "Straßenbahn": [
+            "11",
             "7",
             "8"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -68837,6 +68845,7 @@
         "city": "Meißen",
         "name_with_city": "Meißen Niesnerstraße",
         "operators": [
+          "DB Regio AG Südost",
           "VGM"
         ],
         "lines": {
@@ -68848,9 +68857,12 @@
           ],
           "Stadtbus": [
             "C (Meißen)"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -69219,12 +69231,9 @@
           ],
           "Regionalbus": [
             "Sv190"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -87077,12 +87086,11 @@
             "4"
           ],
           "Regionalbus": [
-            "475",
             "Sv270",
             "Sv280"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -87777,18 +87785,14 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Kaufland",
         "operators": [
-          "DVB",
-          "VGM"
+          "DVB"
         ],
         "lines": {
           "Stadtbus": [
             "72"
-          ],
-          "Regionalbus": [
-            "475"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {

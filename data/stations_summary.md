@@ -29,7 +29,7 @@ Total stations: 3908
 
 ## Stations by Transit Type
 
-- Regionalbus: 2693 stations
+- Regionalbus: 2692 stations
 - Stadtbus: 1278 stations
 - PlusBus: 647 stations
 - Anruflinienbus: 432 stations
@@ -51,10 +51,10 @@ Total stations: 3908
 ## Transit Operators
 
 - RVSOE: 1302 stations
-- VGM: 1171 stations
+- VGM: 1170 stations
 - DVB: 771 stations
 - RBO: 679 stations
-- DB Regio AG Südost: 115 stations
+- DB Regio AG Südost: 116 stations
 - VGH: 82 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 67 stations
@@ -148,6 +148,7 @@ Total stations: 3908
 - Dresden Betriebshof Gorbitz: 10 lines
 - Dresden Kirschenstraße: 10 lines
 - Dresden Merianplatz: 10 lines
+- Dresden S-Bf. Industriegelände: 10 lines
 - Dresden Schillerplatz: 10 lines
 - Dresden Schlehenstraße: 10 lines
 - Glashütte (Sachs) Bahnhof / Busbahnhof: 10 lines

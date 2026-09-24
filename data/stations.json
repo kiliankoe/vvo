@@ -12429,6 +12429,7 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "11",
           "13",
           "6",
           "7",
@@ -12438,7 +12439,7 @@
           "477"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14612:43",
@@ -15736,11 +15737,12 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "11",
           "7",
           "8"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:305",
@@ -16011,11 +16013,12 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "11",
           "7",
           "8"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:742",
@@ -18398,6 +18401,7 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "11",
           "7",
           "8"
         ],
@@ -18405,7 +18409,7 @@
           "477"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:739",
@@ -19169,6 +19173,7 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "11",
           "7",
           "8"
         ],
@@ -19176,7 +19181,7 @@
           "EV 7"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:63",
@@ -21564,6 +21569,7 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "11",
           "7",
           "8"
         ],
@@ -21581,7 +21587,7 @@
           "SEV"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14612:757",
@@ -22554,6 +22560,7 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "11",
           "7",
           "8"
         ],
@@ -22561,7 +22568,7 @@
           "64"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:834",
@@ -22900,11 +22907,12 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "11",
           "7",
           "8"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:772",
@@ -49810,6 +49818,7 @@
       "longitude": 13.461731,
       "latitude": 51.154373,
       "operators": [
+        "DB Regio AG Südost",
         "VGM"
       ],
       "lines": {
@@ -49821,9 +49830,12 @@
         ],
         "Stadtbus": [
           "C (Meißen)"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14627:4022",
@@ -50096,12 +50108,9 @@
         ],
         "Regionalbus": [
           "Sv190"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4076",
@@ -63034,12 +63043,11 @@
           "4"
         ],
         "Regionalbus": [
-          "475",
           "Sv270",
           "Sv280"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14627:4223",
@@ -63526,18 +63534,14 @@
       "longitude": 13.654383,
       "latitude": 51.099861,
       "operators": [
-        "DVB",
-        "VGM"
+        "DVB"
       ],
       "lines": {
         "Stadtbus": [
           "72"
-        ],
-        "Regionalbus": [
-          "475"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4263",

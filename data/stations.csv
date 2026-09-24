@@ -598,7 +598,7 @@ de:14612:822,33000822,Betriebshof Gruna,Dresden,Dresden Betriebshof Gruna,51.027
 de:14612:250,33000250,Betriebshof Trachenberge,Dresden,Dresden Betriebshof Trachenberge,51.087375,13.7295,DVB,6,,64|70|73|80|81,,
 de:14612:183,33000183,Betriebshof Waltherstraße,Dresden,Dresden Betriebshof Waltherstraße,51.060339,13.711902,DVB,3,1,68|92,,
 de:14612:175,33000175,Birkenhainer Straße,Dresden,Dresden Birkenhainer Straße,51.053061,13.690936,DVB,1,12,,,
-de:14612:262,33000262,Bischofsweg,Dresden,Dresden Bischofsweg,51.071427,13.750737,DVB|VGM,5,13|6|7|8,,,
+de:14612:262,33000262,Bischofsweg,Dresden,Dresden Bischofsweg,51.071427,13.750737,DVB|VGM,6,11|13|6|7|8,,,
 de:14612:43,33000043,Blasewitzer Straße / Fetscherstraße,Dresden,Dresden Blasewitzer Straße / Fetscherstraße,51.052886,13.777704,DVB,7,10|12|6,62|64|EV 6,,
 de:14612:888,33000888,Bodemerweg,Dresden,Dresden Bodemerweg,51.012595,13.869835,DVB|RVSOE,4,,63|83|P (Pirna),,
 de:14612:696,33000696,Bonhoefferplatz,Dresden,Dresden Bonhoefferplatz,51.038959,13.701662,DVB|RVSOE,2,,160|90,,
@@ -750,7 +750,7 @@ de:14612:36,33000036,Hauptbahnhof (Strehlener Str.),Dresden,Dresden Hauptbahnhof
 de:14612:32,33000032,Hauptbahnhof Nord,Dresden,Dresden Hauptbahnhof Nord,51.041365,13.735088,DVB,7,10|11|12|3|4|7,68,,
 de:14612:179,33000179,Hebbelplatz,Dresden,Dresden Hebbelplatz,51.051333,13.682743,DVB,5,1|10|11|2|9,,,
 de:14612:99,33000099,Heckenweg,Dresden,Dresden Heckenweg,51.008746,13.839921,DVB,2,2,,,
-de:14612:266,33000266,Heeresbäckerei,Dresden,Dresden Heeresbäckerei,51.081885,13.760124,DVB,2,7|8,,,
+de:14612:266,33000266,Heeresbäckerei,Dresden,Dresden Heeresbäckerei,51.081885,13.760124,DVB,3,11|7|8,,,
 de:14612:305,33000305,Hegereiterstraße,Dresden,Dresden Hegereiterstraße,51.06196,13.843667,DVB,1,11,,,
 de:14612:629,33000629,Heidefriedhof,Dresden,Dresden Heidefriedhof,51.104667,13.710402,DVB|VGM,2,,80,,
 de:14612:974,33000974,Heidemühle,Dresden,Dresden Heidemühle,51.094439,13.841475,,1,,,,
@@ -763,7 +763,7 @@ de:14612:816,33000816,Helena-Rott-Straße,Dresden,Dresden Helena-Rott-Straße,50
 de:14612:275,33000275,Hellerau Kiefernweg,Dresden,Dresden Hellerau Kiefernweg,51.116787,13.740693,DVB,6,7|8,70|72,,
 de:14612:638,33000638,Hellerberge,Dresden,Dresden Hellerberge,51.099923,13.73578,DVB|VGM,5,,70|80|81,,
 de:14612:637,33000637,Hellerhofstraße,Dresden,Dresden Hellerhofstraße,51.098061,13.731441,DVB|VGM,3,,81,,
-de:14612:268,33000268,Hellersiedlung,Dresden,Dresden Hellersiedlung,51.091743,13.76502,DVB,2,7|8,,,
+de:14612:268,33000268,Hellersiedlung,Dresden,Dresden Hellersiedlung,51.091743,13.76502,DVB,3,11|7|8,,,
 de:14612:742,33000742,Helmholtzstraße,Dresden,Dresden Helmholtzstraße,51.025717,13.72447,DVB,1,,85,,
 de:14612:890,33000890,Hepkeplatz,Dresden,Dresden Hepkeplatz,51.039993,13.788502,DVB,1,,64,,
 de:14612:904,33000904,Hepkestraße,Dresden,Dresden Hepkestraße,51.032819,13.805327,DVB,2,,65|85,,
@@ -873,7 +873,7 @@ de:14612:243,33000243,Liststraße,Dresden,Dresden Liststraße,51.076614,13.73300
 de:14612:935,33000935,Lockwitz,Dresden,Dresden Lockwitz,50.987257,13.806747,DVB|RVSOE,7,,162|66|86|89,,
 de:14612:883,33000883,Lohmener Straße,Dresden,Dresden Lohmener Straße,51.006712,13.880516,DVB,2,,83,,
 de:14612:122,33000122,Lohrmannstraße,Dresden,Dresden Lohrmannstraße,51.015766,13.786984,DVB,6,10|13|4,64|65|87,,
-de:14612:261,33000261,Louisenstraße,Dresden,Dresden Louisenstraße,51.067955,13.747637,DVB|VGM,3,7|8,,,
+de:14612:261,33000261,Louisenstraße,Dresden,Dresden Louisenstraße,51.067955,13.747637,DVB|VGM,4,11|7|8,,,
 de:14612:739,33000739,Ludwig-Renn-Allee,Dresden,Dresden Ludwig-Renn-Allee,51.019145,13.73551,DVB,2,,63|85,,
 de:14612:796,33000796,Luga,Dresden,Dresden Luga,50.985357,13.832322,DVB|RVSOE,3,,65|H/S (Pirna),,
 de:14612:797,33000797,Lugaer Platz,Dresden,Dresden Lugaer Platz,50.98374,13.835978,RVSOE,1,,H/S (Pirna),,
@@ -910,7 +910,7 @@ de:14612:697,33000697,Mohorner Straße,Dresden,Dresden Mohorner Straße,51.03450
 de:14612:732,33000732,Mommsenstraße,Dresden,Dresden Mommsenstraße,51.027514,13.731378,DVB|RVSOE,5,,66,,
 de:14612:875,33000875,Moosleite,Dresden,Dresden Moosleite,51.032513,13.840011,DVB,1,,63,,
 de:14612:297,33000297,Mordgrundbrücke,Dresden,Dresden Mordgrundbrücke,51.064303,13.811696,DVB,1,11,,,
-de:14612:269,33000269,Moritzburger Weg,Dresden,Dresden Moritzburger Weg,51.099111,13.768685,DVB,3,7|8,EV 7,,
+de:14612:269,33000269,Moritzburger Weg,Dresden,Dresden Moritzburger Weg,51.099111,13.768685,DVB,4,11|7|8,EV 7,,
 de:14612:63,33000063,Mosenstraße,Dresden,Dresden Mosenstraße,51.044827,13.777785,DVB,4,10|12|9,64,,
 de:14612:928,33000928,Mühlenstraße,Dresden,Dresden Mühlenstraße,50.998294,13.817275,DVB,2,,88,,
 de:14612:134,33000134,Münchner Platz,Dresden,Dresden Münchner Platz,51.029898,13.721568,DVB,1,3,,,
@@ -1016,7 +1016,7 @@ de:14612:907,33000907,S-Bahnhof Reick,Dresden,Dresden S-Bahnhof Reick,51.02127,1
 de:14612:622,33000622,S-Bahnhof Trachau,Dresden,Dresden S-Bahnhof Trachau,51.089937,13.703854,DB Regio AG Südost|DVB|VGM,4,,70|80,,S1
 de:14612:212,33000212,S-Bahnhof Trachau West,Dresden,Dresden S-Bahnhof Trachau West,51.090214,13.702569,DVB,2,13|4,,,
 de:14612:25,33000025,S-Bf. Freiberger Straße,Dresden,Dresden S-Bf. Freiberger Straße,51.048617,13.720122,DB Regio AG Südost|DVB,9,10|11|12|13|3|7|8,,,S1|S2
-de:14612:267,33000267,S-Bf. Industriegelände,Dresden,Dresden S-Bf. Industriegelände,51.086992,13.763026,DB Regio AG Südost|DVB|trilex - Die Länderbahn GmbH DLB,9,7|8,,RB33|RB60|RB61|RE1,S2|S8
+de:14612:267,33000267,S-Bf. Industriegelände,Dresden,Dresden S-Bf. Industriegelände,51.086992,13.763026,DB Regio AG Südost|DVB|trilex - Die Länderbahn GmbH DLB,10,11|7|8,,RB33|RB60|RB61|RE1,S2|S8
 de:14612:757,33000757,S-Bf. Strehlen,Dresden,Dresden S-Bf. Strehlen,51.031022,13.761139,DB Regio AG Südost|DVB,12,10|13|4,61|63|68|85,RE19|RE20,S1|S2
 de:14612:910,33000910,S-Bf. Zschachwitz,Dresden,Dresden S-Bf. Zschachwitz,50.989649,13.845168,DB Regio AG Südost,3,,,RE19,S1|S2
 de:14612:711,33000711,Saalhausener Straße,Dresden,Dresden Saalhausener Straße,51.036513,13.683372,DVB,2,,62|90,,
@@ -1061,7 +1061,7 @@ de:14612:667,33000667,St.-Marien-Krankenhaus,Dresden,Dresden St.-Marien-Krankenh
 de:14612:728,33000728,Staats- und Universitätsbibliothek,Dresden,Dresden Staats- und Universitätsbibliothek,51.029096,13.737765,DVB,2,,61|63,,
 de:14612:512,33000512,Stadtgutstraße,Dresden,Dresden Stadtgutstraße,51.024123,13.736247,DVB,1,,85,,
 de:14612:876,33000876,Staffelsteinstraße,Dresden,Dresden Staffelsteinstraße,51.028384,13.847117,DVB|Müller Busreisen,3,,63|98A|98B,,
-de:14612:265,33000265,Stauffenbergallee,Dresden,Dresden Stauffenbergallee,51.076619,13.755543,DVB,3,7|8,64,,
+de:14612:265,33000265,Stauffenbergallee,Dresden,Dresden Stauffenbergallee,51.076619,13.755543,DVB,4,11|7|8,64,,
 de:14612:834,33000834,Steglichstraße,Dresden,Dresden Steglichstraße,51.058504,13.828423,DVB|RBO,4,,61|84,,
 de:14612:625,33000625,Stephanstraße,Dresden,Dresden Stephanstraße,51.093757,13.716151,DVB,1,,80,,
 de:14612:656,33000656,Stralsunder Straße,Dresden,Dresden Stralsunder Straße,51.115061,13.780372,DVB,3,,70|78|EV 7,,
@@ -1077,7 +1077,7 @@ de:14612:897,33000897,Söbrigener Straße,Dresden,Dresden Söbrigener Straße,50
 de:14612:218,33000218,Sörnewitzer Straße,Dresden,Dresden Sörnewitzer Straße,51.079819,13.697134,DVB,3,13|9,72,,
 de:14612:733,33000733,Südhöhe,Dresden,Dresden Südhöhe,51.019716,13.729599,DVB|RVSOE,7,,63|66|85,,
 de:14612:133,33000133,Südvorstadt,Dresden,Dresden Südvorstadt,51.033994,13.722278,DVB,1,8,,,
-de:14612:259,33000259,Tannenstraße,Dresden,Dresden Tannenstraße,51.073865,13.752946,DVB,2,7|8,,,
+de:14612:259,33000259,Tannenstraße,Dresden,Dresden Tannenstraße,51.073865,13.752946,DVB,3,11|7|8,,,
 de:14612:772,33000772,Tatzberg,Dresden,Dresden Tatzberg,51.056093,13.777614,DVB,3,,62|64,,
 de:14612:855,33000855,Taubenberg,Dresden,Dresden Taubenberg,51.06135,13.870042,DVB,1,,61,,
 de:14612:727,33000727,Technische Universität (Fr.-Foerster-Platz),Dresden,Dresden Technische Universität (Fr.-Foerster-Platz),51.029892,13.73092,DVB|RVSOE|VGM,8,,61|63|66,,
@@ -2377,7 +2377,7 @@ de:14627:4479,33004479,Mittelberg,Meißen,Meißen Mittelberg,51.153989,13.497699
 de:14627:4069,33004069,Nassauweg,Meißen,Meißen Nassauweg,51.177727,13.501113,VGM,2,,C (Meißen),,
 de:14627:4012,33004012,Neugasse,Meißen,Meißen Neugasse,51.161162,13.471352,VGM,14,,A (Meißen)|C (Meißen),,
 de:14627:4024,33004024,Neumarkt,Meißen,Meißen Neumarkt,51.158373,13.471037,VGM,7,,A (Meißen)|C (Meißen),,
-de:14627:4075,33004075,Niesnerstraße,Meißen,Meißen Niesnerstraße,51.154373,13.461731,VGM,3,,C (Meißen),,
+de:14627:4075,33004075,Niesnerstraße,Meißen,Meißen Niesnerstraße,51.154373,13.461731,DB Regio AG Südost|VGM,4,,C (Meißen),,
 de:14627:4022,33004022,Nossener Straße,Meißen,Meißen Nossener Straße,51.159314,13.454778,VGM,1,,A (Meißen),,
 de:14627:4003,33004003,Oberspaarer Straße,Meißen,Meißen Oberspaarer Straße,51.149555,13.49354,VGM,2,,A (Meißen),,
 de:14627:4056,33004056,Porzellan-Manufaktur,Meißen,Meißen Porzellan-Manufaktur,51.157038,13.465486,VGM,5,,C (Meißen)|E (Meißen),,
@@ -2389,7 +2389,7 @@ de:14627:4023,33004023,Rothes Haus,Meißen,Meißen Rothes Haus,51.160919,13.4608
 de:14627:4089,33004089,Roßmarkt,Meißen,Meißen Roßmarkt,51.162136,13.47234,VGM,1,,E (Meißen),,
 de:14627:4000,33004000,S-Bahnhof,Meißen,Meißen S-Bahnhof,51.16315,13.481997,DB Regio AG Südost,1,,,,S1
 de:14627:4055,33004055,S-Bahnhof Altstadt,Meißen,Meißen S-Bahnhof Altstadt,51.159111,13.47313,DB Regio AG Südost|VGM,17,,A (Meißen)|C (Meißen)|E (Meißen),,S1
-de:14627:4079,33004079,S-Bahnhof Triebischtal,Meißen,Meißen S-Bahnhof Triebischtal,51.152288,13.462126,DB Regio AG Südost|VGM,3,,,,S1
+de:14627:4079,33004079,S-Bahnhof Triebischtal,Meißen,Meißen S-Bahnhof Triebischtal,51.152288,13.462126,DB Regio AG Südost|VGM,2,,,,S1
 de:14627:4076,33004076,Schützestraße,Meißen,Meißen Schützestraße,51.150265,13.458838,VGM,3,,C (Meißen),,
 de:14627:4051,33004051,Siedlerstraße,Meißen,Meißen Siedlerstraße,51.164232,13.453825,VGM,3,,B (Meißen),,
 de:14627:4006,33004006,Spaar Rote Gasse,Meißen,Meißen Spaar Rote Gasse,51.153764,13.493396,VGM,2,,A (Meißen)|B (Meißen),,
@@ -3004,7 +3004,7 @@ de:14627:4209,33004209,Bahnhof Naundorf,Radebeul,Radebeul Bahnhof Naundorf,51.11
 de:14627:4237,33004237,Barthübelstraße,Radebeul,Radebeul Barthübelstraße,51.093469,13.683408,VGM,1,,,,
 de:14627:4250,33004250,Bergblick,Radebeul,Radebeul Bergblick,51.105806,13.665073,DVB,1,,72,,
 de:14627:4264,33004264,Bertheltstraße,Radebeul,Radebeul Bertheltstraße,51.109777,13.608578,VGM,1,,,,
-de:14627:4224,33004224,Borstraße,Radebeul,Radebeul Borstraße,51.106669,13.640271,DVB|VGM,4,4,,,
+de:14627:4224,33004224,Borstraße,Radebeul,Radebeul Borstraße,51.106669,13.640271,DVB|VGM,3,4,,,
 de:14627:4223,33004223,Dr.-Külz-Straße,Radebeul,Radebeul Dr.-Külz-Straße,51.106229,13.646658,DVB|VGM,3,4,,,
 de:14627:4262,33004262,Dr.-Rudolf-Friedrichs-Straße,Radebeul,Radebeul Dr.-Rudolf-Friedrichs-Straße,51.110826,13.646945,VGM,1,,,,
 de:14627:4276,33004276,Drosselweg,Radebeul,Radebeul Drosselweg,51.12887,13.637899,VGM,1,,,,
@@ -3030,7 +3030,7 @@ de:14627:4258,33004258,Hospiz,Radebeul,Radebeul Hospiz,51.110702,13.690073,DVB|V
 de:14627:4279,33004279,Hp Lößnitzgrund,Radebeul,Radebeul Hp Lößnitzgrund,51.121461,13.653844,SDG,0,,,,
 de:14627:4228,33004228,Johannisbergstraße,Radebeul,Radebeul Johannisbergstraße,51.114582,13.611471,DB Regio AG Südost|DVB,2,4,,,
 de:14627:4235,33004235,Karlstraße,Radebeul,Radebeul Karlstraße,51.112371,13.633003,VGM,1,,,,
-de:14627:4283,33004283,Kaufland,Radebeul,Radebeul Kaufland,51.099861,13.654383,DVB|VGM,2,,72,,
+de:14627:4283,33004283,Kaufland,Radebeul,Radebeul Kaufland,51.099861,13.654383,DVB,1,,72,,
 de:14627:4263,33004263,Kleinstückenweg,Radebeul,Radebeul Kleinstückenweg,51.112202,13.589588,VGM,1,,,,
 de:14627:4271,33004271,Kottenleite,Radebeul,Radebeul Kottenleite,51.118005,13.63091,VGM,1,,,,
 de:14627:4282,33004282,Kötzschenbrodaer Straße,Radebeul,Radebeul Kötzschenbrodaer Straße,51.098197,13.651967,VGM,1,,,,
