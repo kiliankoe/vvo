@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3908,
+    "count": 3907,
     "format_version": "2.0"
   },
   "stations": [
@@ -1258,9 +1258,12 @@
       "lines": {
         "Regionalbus": [
           "252"
+        ],
+        "PlusBus": [
+          "260"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3624",
@@ -29281,11 +29284,12 @@
       "lines": {
         "Regionalbus": [
           "201",
+          "372",
           "385",
           "389"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:1944",
@@ -29301,10 +29305,11 @@
       "lines": {
         "Regionalbus": [
           "201",
+          "372",
           "389"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:1946",
@@ -29390,11 +29395,12 @@
       "lines": {
         "Regionalbus": [
           "201",
+          "372",
           "385",
           "389"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:1949",
@@ -62442,27 +62448,6 @@
       "total_lines": 1
     },
     {
-      "id": "de:14625:6729",
-      "numeric_id": "33006729",
-      "name": "Güterbahnhofstraße",
-      "city": "Radeberg",
-      "name_with_city": "Radeberg Güterbahnhofstraße",
-      "longitude": 13.917769,
-      "latitude": 51.110014,
-      "operators": [
-        "RBO"
-      ],
-      "lines": {
-        "Stadtbus": [
-          "28"
-        ],
-        "Regionalbus": [
-          "753"
-        ]
-      },
-      "total_lines": 2
-    },
-    {
       "id": "de:14625:6706",
       "numeric_id": "33006706",
       "name": "Heidehäuser",
@@ -68801,10 +68786,11 @@
       "lines": {
         "Regionalbus": [
           "437",
+          "439",
           "441"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:5634",
@@ -70310,10 +70296,11 @@
       "lines": {
         "Regionalbus": [
           "201",
+          "372",
           "389"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:1952",
@@ -70329,10 +70316,11 @@
       "lines": {
         "Regionalbus": [
           "201",
+          "372",
           "389"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6511",

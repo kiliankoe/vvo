@@ -1733,9 +1733,12 @@
         "lines": {
           "Regionalbus": [
             "252"
+          ],
+          "PlusBus": [
+            "260"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -40348,11 +40351,12 @@
         "lines": {
           "Regionalbus": [
             "201",
+            "372",
             "385",
             "389"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -40376,10 +40380,11 @@
         "lines": {
           "Regionalbus": [
             "201",
+            "372",
             "389"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -40497,11 +40502,12 @@
         "lines": {
           "Regionalbus": [
             "201",
+            "372",
             "385",
             "389"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -86258,35 +86264,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.917769,
-          51.110014
-        ]
-      },
-      "properties": {
-        "id": "de:14625:6729",
-        "numeric_id": "33006729",
-        "name": "Güterbahnhofstraße",
-        "city": "Radeberg",
-        "name_with_city": "Radeberg Güterbahnhofstraße",
-        "operators": [
-          "RBO"
-        ],
-        "lines": {
-          "Stadtbus": [
-            "28"
-          ],
-          "Regionalbus": [
-            "753"
-          ]
-        },
-        "total_lines": 2
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.890919,
           51.113217
         ]
@@ -95084,10 +95061,11 @@
         "lines": {
           "Regionalbus": [
             "437",
+            "439",
             "441"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -97193,10 +97171,11 @@
         "lines": {
           "Regionalbus": [
             "201",
+            "372",
             "389"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -97220,10 +97199,11 @@
         "lines": {
           "Regionalbus": [
             "201",
+            "372",
             "389"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
