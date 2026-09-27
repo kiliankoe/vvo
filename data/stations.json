@@ -37244,18 +37244,14 @@
       "longitude": 14.245026,
       "latitude": 51.436535,
       "operators": [
-        "RBO",
         "VGH"
       ],
       "lines": {
-        "PlusBus": [
-          "500"
-        ],
         "Stadtbus": [
           "1 (Hoyerswerda)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:8054",
@@ -59341,13 +59337,9 @@
           "226",
           "234",
           "241"
-        ],
-        "Stadtbus": [
-          "H/S (Pirna)",
-          "N (Pirna)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 3
     },
     {
       "id": "de:14628:3373",

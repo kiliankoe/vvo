@@ -51399,18 +51399,14 @@
         "city": "Hoyerswerda",
         "name_with_city": "Hoyerswerda Lessinghaus",
         "operators": [
-          "RBO",
           "VGH"
         ],
         "lines": {
-          "PlusBus": [
-            "500"
-          ],
           "Stadtbus": [
             "1 (Hoyerswerda)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -81968,13 +81964,9 @@
             "226",
             "234",
             "241"
-          ],
-          "Stadtbus": [
-            "H/S (Pirna)",
-            "N (Pirna)"
           ]
         },
-        "total_lines": 5
+        "total_lines": 3
       }
     },
     {
