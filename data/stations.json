@@ -12047,10 +12047,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "61",
           "62"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:736",
@@ -13064,10 +13065,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "61",
           "63"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:702",
@@ -13418,8 +13420,8 @@
       "name": "Dammweg",
       "city": "Dresden",
       "name_with_city": "Dresden Dammweg",
-      "longitude": 13.745356,
-      "latitude": 51.068271,
+      "longitude": 13.745221,
+      "latitude": 51.068322,
       "operators": [
         "DVB",
         "VGM"
@@ -14898,10 +14900,11 @@
         "Straßenbahn": [
           "10",
           "13",
-          "8"
+          "8",
+          "9"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:323",
@@ -14918,10 +14921,11 @@
         "Straßenbahn": [
           "1",
           "13",
+          "2",
           "4"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:766",
@@ -15185,14 +15189,15 @@
           "11",
           "13",
           "4",
-          "8"
+          "8",
+          "9"
         ],
         "Stadtbus": [
           "66",
           "68"
         ]
       },
-      "total_lines": 7
+      "total_lines": 8
     },
     {
       "id": "de:14612:507",
@@ -15687,13 +15692,14 @@
           "12",
           "3",
           "4",
-          "7"
+          "7",
+          "9"
         ],
         "Stadtbus": [
           "68"
         ]
       },
-      "total_lines": 7
+      "total_lines": 8
     },
     {
       "id": "de:14612:179",
@@ -16678,10 +16684,11 @@
         "Straßenbahn": [
           "1",
           "13",
+          "2",
           "4"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:830",
@@ -18133,14 +18140,15 @@
           "11",
           "13",
           "4",
-          "8"
+          "8",
+          "9"
         ],
         "Stadtbus": [
           "62",
           "68"
         ]
       },
-      "total_lines": 7
+      "total_lines": 8
     },
     {
       "id": "de:14612:74",
@@ -20371,13 +20379,15 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "1",
           "10",
           "11",
           "12",
           "2",
           "3",
           "4",
-          "7"
+          "7",
+          "9"
         ],
         "Stadtbus": [
           "62",
@@ -20389,7 +20399,7 @@
           "360"
         ]
       },
-      "total_lines": 12
+      "total_lines": 14
     },
     {
       "id": "de:14612:51",
@@ -20472,6 +20482,7 @@
         "Straßenbahn": [
           "1",
           "13",
+          "2",
           "4"
         ],
         "Stadtbus": [
@@ -20487,7 +20498,7 @@
           "alita 88"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14612:324",
@@ -21109,12 +21120,13 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "11",
           "13",
           "6",
           "8"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:854",
@@ -23645,7 +23657,8 @@
           "12",
           "3",
           "4",
-          "7"
+          "7",
+          "9"
         ],
         "Stadtbus": [
           "68",
@@ -23661,7 +23674,7 @@
           "366"
         ]
       },
-      "total_lines": 13
+      "total_lines": 14
     },
     {
       "id": "de:14612:185",
@@ -23776,13 +23789,14 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "12",
           "2",
           "4",
           "7",
           "9"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:309",
@@ -24285,11 +24299,12 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "10",
           "6",
           "7"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:684",
@@ -24329,12 +24344,13 @@
       ],
       "lines": {
         "Stadtbus": [
+          "61",
           "62",
           "63",
           "85"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:248",

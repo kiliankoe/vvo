@@ -109,6 +109,8 @@ Total stations: 3907
 - Pirna Breite Straße: 15 lines
 - Bad Schandau Nationalparkbahnhof: 14 lines
 - Dippoldiswalde Busbahnhof: 14 lines
+- Dresden Prager Straße: 14 lines
+- Dresden Walpurgisstraße: 14 lines
 - Heidenau (Sachs) Bahnhof: 14 lines
 - Hoyerswerda Behördenpark: 14 lines
 - Hoyerswerda Lausitzer Platz: 14 lines
@@ -121,13 +123,11 @@ Total stations: 3907
 - Dresden Liststraße: 13 lines
 - Dresden S-Bahnhof Niedersedlitz: 13 lines
 - Dresden Tharandter Straße: 13 lines
-- Dresden Walpurgisstraße: 13 lines
 - Kamenz Schwimmhalle: 13 lines
 - Nossen Markt: 13 lines
 - Nossen Talstraße: 13 lines
 - Coswig (b Dresden) Bahnhof: 12 lines
 - Dresden Großenhainer Platz: 12 lines
-- Dresden Prager Straße: 12 lines
 - Dresden S-Bf. Strehlen: 12 lines
 - Kamenz Flugplatz: 12 lines
 - Kamenz Landesämter: 12 lines
@@ -148,6 +148,7 @@ Total stations: 3907
 - Dresden Betriebshof Gorbitz: 10 lines
 - Dresden Kirschenstraße: 10 lines
 - Dresden Merianplatz: 10 lines
+- Dresden Prohlis Gleisschleife: 10 lines
 - Dresden S-Bf. Industriegelände: 10 lines
 - Dresden Schillerplatz: 10 lines
 - Dresden Schlehenstraße: 10 lines
