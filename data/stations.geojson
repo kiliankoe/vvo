@@ -523,15 +523,17 @@
         "city": "Altendorf (Sebnitz)",
         "name_with_city": "Altendorf (Sebnitz) Erbgericht",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "PlusBus": [
             "260"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -46375,7 +46377,6 @@
         "city": "Hainersdorf (Sachs)",
         "name_with_city": "Hainersdorf (Sachs) Haltepunkt Amtshainersdorf",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -51421,22 +51422,14 @@
           "VGH"
         ],
         "lines": {
-          "PlusBus": [
-            "500",
-            "536"
-          ],
           "Regionalbus": [
-            "776",
-            "782",
-            "784",
-            "792",
-            "794"
+            "782"
           ],
           "Stadtbus": [
             "1 (Hoyerswerda)"
           ]
         },
-        "total_lines": 8
+        "total_lines": 2
       }
     },
     {
@@ -56878,9 +56871,7 @@
         "name": "Bahnhof Goßdorf-Kohlmühle",
         "city": "Kohlmühle (Hohnstn.)",
         "name_with_city": "Kohlmühle (Hohnstn.) Bahnhof Goßdorf-Kohlmühle",
-        "operators": [
-          "DB Regio AG Südost"
-        ],
+        "operators": [],
         "lines": {
           "Zug": [
             "U28"
@@ -81186,12 +81177,15 @@
           "RVSOE"
         ],
         "lines": {
+          "Regionalbus": [
+            "234"
+          ],
           "Stadtbus": [
             "G/L (Pirna)",
             "M (Pirna)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -83506,15 +83500,16 @@
         "name": "Haltepunkt",
         "city": "Porschdorf",
         "name_with_city": "Porschdorf Haltepunkt",
-        "operators": [
-          "DB Regio AG Südost"
-        ],
+        "operators": [],
         "lines": {
           "Zug": [
             "U28"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -89878,7 +89873,6 @@
         "city": "Rathmannsdorf (PIR)",
         "name_with_city": "Rathmannsdorf (PIR) Brücke",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -89888,9 +89882,12 @@
           ],
           "PlusBus": [
             "260"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -100196,9 +100193,12 @@
         "lines": {
           "Zug": [
             "RB45"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -100217,6 +100217,7 @@
         "city": "Seerhausen",
         "name_with_city": "Seerhausen Gasthaus",
         "operators": [
+          "Mitteldeutsche Regiobahn",
           "VGM"
         ],
         "lines": {
@@ -100226,9 +100227,12 @@
           "Regionalbus": [
             "431",
             "443"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -102078,9 +102082,12 @@
           ],
           "Zug": [
             "RB45"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -105667,7 +105674,6 @@
         "city": "Ulbersdorf",
         "name_with_city": "Ulbersdorf Almenhof",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -105698,15 +105704,16 @@
         "name": "Bahnhof",
         "city": "Ulbersdorf",
         "name_with_city": "Ulbersdorf Bahnhof",
-        "operators": [
-          "DB Regio AG Südost"
-        ],
+        "operators": [],
         "lines": {
           "Zug": [
             "U28"
+          ],
+          "Ersatzverkehr": [
+            "SEV"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {

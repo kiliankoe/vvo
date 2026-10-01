@@ -376,15 +376,17 @@
       "longitude": 14.182386,
       "latitude": 50.935611,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
         "PlusBus": [
           "260"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:688",
@@ -33636,7 +33638,6 @@
       "longitude": 14.232476,
       "latitude": 50.966301,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -37266,22 +37267,14 @@
         "VGH"
       ],
       "lines": {
-        "PlusBus": [
-          "500",
-          "536"
-        ],
         "Regionalbus": [
-          "776",
-          "782",
-          "784",
-          "792",
-          "794"
+          "782"
         ],
         "Stadtbus": [
           "1 (Hoyerswerda)"
         ]
       },
-      "total_lines": 8
+      "total_lines": 2
     },
     {
       "id": "de:14625:8054",
@@ -41195,9 +41188,7 @@
       "name_with_city": "Kohlmühle (Hohnstn.) Bahnhof Goßdorf-Kohlmühle",
       "longitude": 14.164842,
       "latitude": 50.941283,
-      "operators": [
-        "DB Regio AG Südost"
-      ],
+      "operators": [],
       "lines": {
         "Zug": [
           "U28"
@@ -58783,12 +58774,15 @@
         "RVSOE"
       ],
       "lines": {
+        "Regionalbus": [
+          "234"
+        ],
         "Stadtbus": [
           "G/L (Pirna)",
           "M (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3004",
@@ -60479,15 +60473,16 @@
       "name_with_city": "Porschdorf Haltepunkt",
       "longitude": 14.138476,
       "latitude": 50.943281,
-      "operators": [
-        "DB Regio AG Südost"
-      ],
+      "operators": [],
       "lines": {
         "Zug": [
           "U28"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3694",
@@ -65043,7 +65038,6 @@
       "longitude": 14.131928,
       "latitude": 50.92486,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -65053,9 +65047,12 @@
         ],
         "PlusBus": [
           "260"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3656",
@@ -72489,9 +72486,12 @@
       "lines": {
         "Zug": [
           "RB45"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:5951",
@@ -72502,6 +72502,7 @@
       "longitude": 13.253537,
       "latitude": 51.268071,
       "operators": [
+        "Mitteldeutsche Regiobahn",
         "VGM"
       ],
       "lines": {
@@ -72511,9 +72512,12 @@
         "Regionalbus": [
           "431",
           "443"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14627:5952",
@@ -73827,9 +73831,12 @@
         ],
         "Zug": [
           "RB45"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14627:5981",
@@ -76392,7 +76399,6 @@
       "longitude": 14.203964,
       "latitude": 50.966516,
       "operators": [
-        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -76415,15 +76421,16 @@
       "name_with_city": "Ulbersdorf Bahnhof",
       "longitude": 14.220133,
       "latitude": 50.955523,
-      "operators": [
-        "DB Regio AG Südost"
-      ],
+      "operators": [],
       "lines": {
         "Zug": [
           "U28"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3676",
