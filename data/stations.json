@@ -11129,23 +11129,18 @@
       "longitude": 13.806468,
       "latitude": 50.984175,
       "operators": [
-        "DVB",
-        "RVSOE"
+        "DVB"
       ],
       "lines": {
         "Stadtbus": [
-          "162",
           "86",
           "89"
-        ],
-        "Regionalbus": [
-          "386"
         ],
         "Anruflinientaxi": [
           "alita 89"
         ]
       },
-      "total_lines": 5
+      "total_lines": 3
     },
     {
       "id": "de:14612:543",
@@ -39098,10 +39093,11 @@
           "789"
         ],
         "Stadtbus": [
-          "21 (Kamenz)"
+          "21 (Kamenz)",
+          "22 (Kamenz)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6249",
@@ -44879,10 +44875,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "458"
+          "458",
+          "463"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:5167",

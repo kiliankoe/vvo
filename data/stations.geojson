@@ -15484,23 +15484,18 @@
         "city": "Dresden",
         "name_with_city": "Dresden Am Krähenhügel",
         "operators": [
-          "DVB",
-          "RVSOE"
+          "DVB"
         ],
         "lines": {
           "Stadtbus": [
-            "162",
             "86",
             "89"
-          ],
-          "Regionalbus": [
-            "386"
           ],
           "Anruflinientaxi": [
             "alita 89"
           ]
         },
-        "total_lines": 5
+        "total_lines": 3
       }
     },
     {
@@ -53973,10 +53968,11 @@
             "789"
           ],
           "Stadtbus": [
-            "21 (Kamenz)"
+            "21 (Kamenz)",
+            "22 (Kamenz)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -62018,10 +62014,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "458"
+            "458",
+            "463"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
