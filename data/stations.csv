@@ -609,7 +609,7 @@ de:14612:187,33000187,Bremer Straße,Dresden,Dresden Bremer Straße,51.060656,13
 de:14612:216,33000216,Brockwitzer Straße,Dresden,Dresden Brockwitzer Straße,51.077996,13.702874,DVB,4,13|9,79,,
 de:14612:274,33000274,Brunnenweg,Dresden,Dresden Brunnenweg,51.115625,13.745967,DVB,5,7|8,70|72,,
 de:14612:601,33000601,Buchenstraße,Dresden,Dresden Buchenstraße,51.078758,13.747233,DVB,1,,64,,
-de:14612:27,33000027,Budapester Straße,Dresden,Dresden Budapester Straße,51.043754,13.724892,DVB,7,10|11|13|3|7|8,62,,
+de:14612:27,33000027,Budapester Straße,Dresden,Dresden Budapester Straße,51.043754,13.724892,DVB,8,1|10|11|13|3|7|8,62,,
 de:14612:587,33000587,Bunsenstraße,Dresden,Dresden Bunsenstraße,51.082297,13.706827,DVB,3,,64|70|80,,
 de:14612:962,33000962,Burgenlandstraße,Dresden,Dresden Burgenlandstraße,51.025581,13.8296,DVB,1,,86,,
 de:14612:172,33000172,Burgkstraße,Dresden,Dresden Burgkstraße,51.049007,13.695715,DVB,5,1|10|11|2|9,,,
@@ -712,7 +712,7 @@ de:14612:789,33000789,Gamigstraße,Dresden,Dresden Gamigstraße,51.005705,13.788
 de:14612:558,33000558,Gartenstraße,Dresden,Dresden Gartenstraße,51.089119,13.637836,DVB,1,,,,
 de:14612:889,33000889,Gasanstaltstraße,Dresden,Dresden Gasanstaltstraße,51.028536,13.78631,DVB,2,,64|65,,
 de:14612:783,33000783,Gebauerstraße,Dresden,Dresden Gebauerstraße,51.014862,13.697197,,0,,,,
-de:14612:8,33000008,Georg-Arnhold-Bad,Dresden,Dresden Georg-Arnhold-Bad,51.042568,13.75133,DVB,4,10|13|8|9,,,
+de:14612:8,33000008,Georg-Arnhold-Bad,Dresden,Dresden Georg-Arnhold-Bad,51.042568,13.75133,DVB,5,1|10|13|8|9,,,
 de:14612:323,33000323,Georg-Palitzsch-Straße,Dresden,Dresden Georg-Palitzsch-Straße,51.002116,13.797862,DVB,4,1|13|2|4,,,
 de:14612:766,33000766,Gerichtsstraße,Dresden,Dresden Gerichtsstraße,51.050633,13.752021,DVB,1,,62,,
 de:14612:768,33000768,Gerokstraße,Dresden,Dresden Gerokstraße,51.052751,13.761858,DVB,2,,62|EV 6,,
@@ -726,7 +726,7 @@ de:14612:506,33000506,Gorbitzer Straße,Dresden,Dresden Gorbitzer Straße,51.052
 de:14612:190,33000190,Gottfried-Keller-Straße,Dresden,Dresden Gottfried-Keller-Straße,51.061,13.677731,DVB|SATRA,8,12,68|91|92|93,,
 de:14612:66,33000066,Gottleubaer Straße,Dresden,Dresden Gottleubaer Straße,51.041173,13.800926,DVB,3,10|12|9,,,
 de:14612:661,33000661,Grenzstraße (Bus),Dresden,Dresden Grenzstraße (Bus),51.12737,13.781055,DB Regio AG Südost|DVB,2,,80,,
-de:14612:30,33000030,Gret-Palucca-Straße,Dresden,Dresden Gret-Palucca-Straße,51.038829,13.739723,DVB,8,10|11|13|4|8|9,66|68,,
+de:14612:30,33000030,Gret-Palucca-Straße,Dresden,Dresden Gret-Palucca-Straße,51.038829,13.739723,DVB,9,1|10|11|13|4|8|9,66|68,,
 de:14612:507,33000507,Grillparzerstraße,Dresden,Dresden Grillparzerstraße,51.052858,13.681899,DVB,2,,70|80,,
 de:14612:242,33000242,Großenhainer Platz,Dresden,Dresden Großenhainer Platz,51.072736,13.735762,DVB|VGM,12,10|11|13|3|4|6|7|8|9,81,,
 de:14612:237,33000237,Großenhainer Straße / Fritz-Reuter-Straße,Dresden,Dresden Großenhainer Straße / Fritz-Reuter-Straße,51.075197,13.734711,DVB,4,13|3|7|8,,,
@@ -745,7 +745,7 @@ de:14612:186,33000186,Hamburger Straße,Dresden,Dresden Hamburger Straße,51.059
 de:14612:548,33000548,Hammeraue,Dresden,Dresden Hammeraue,51.067932,13.666277,SATRA,4,,91|93,,
 de:14612:764,33000764,Hans-Dankner-Straße,Dresden,Dresden Hans-Dankner-Straße,51.042591,13.742086,DVB,2,,62|68,,
 de:14612:287,33000287,Hans-Oster-Straße,Dresden,Dresden Hans-Oster-Straße,51.074909,13.760654,DVB,1,,64,,
-de:14612:28,33000028,Hauptbahnhof,Dresden,Dresden Hauptbahnhof,51.03993,13.732932,DB Fernverkehr AG|DB Regio AG Südost|DVB|FlixTrain|LEO Express|Mitteldeutsche Regiobahn|RVSOE|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,30,10|11|13|3|7|8,66|68|H/S (Pirna),RB30|RB60|RB61|RE1|RE19|RE2|RE20|RE3|RE50,S1|S2|S3|S8
+de:14612:28,33000028,Hauptbahnhof,Dresden,Dresden Hauptbahnhof,51.03993,13.732932,DB Fernverkehr AG|DB Regio AG Südost|DVB|FlixTrain|LEO Express|Mitteldeutsche Regiobahn|RVSOE|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,31,1|10|11|13|3|7|8,66|68|H/S (Pirna),RB30|RB60|RB61|RE1|RE19|RE2|RE20|RE3|RE50,S1|S2|S3|S8
 de:14612:36,33000036,Hauptbahnhof (Strehlener Str.),Dresden,Dresden Hauptbahnhof (Strehlener Str.),51.038671,13.734279,DB AG|DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn,3,,66,,
 de:14612:32,33000032,Hauptbahnhof Nord,Dresden,Dresden Hauptbahnhof Nord,51.041365,13.735088,DVB,8,10|11|12|3|4|7|9,68,,
 de:14612:179,33000179,Hebbelplatz,Dresden,Dresden Hebbelplatz,51.051333,13.682743,DVB,5,1|10|11|2|9,,,
@@ -861,7 +861,7 @@ de:14612:646,33000646,Lauterbacher Straße,Dresden,Dresden Lauterbacher Straße,
 de:14612:754,33000754,Leiblstraße,Dresden,Dresden Leiblstraße,51.021925,13.759855,DVB,3,,63|87,,
 de:14612:50,33000050,Lene-Glatzer-Straße,Dresden,Dresden Lene-Glatzer-Straße,51.053784,13.792347,DVB,4,10|12|6,62,,
 de:14612:892,33000892,Lengefelder Straße,Dresden,Dresden Lengefelder Straße,51.033982,13.816044,DVB,1,,87,,
-de:14612:111,33000111,Lennéplatz,Dresden,Dresden Lennéplatz,51.038377,13.746604,DVB,8,10|11|13|4|8|9,62|68,,
+de:14612:111,33000111,Lennéplatz,Dresden,Dresden Lennéplatz,51.038377,13.746604,DVB,9,1|10|11|13|4|8|9,62|68,,
 de:14612:74,33000074,Leubener Straße,Dresden,Dresden Leubener Straße,51.024813,13.837415,DVB,5,10|12|6|9,86,,
 de:14612:811,33000811,Leubnitzer Höhe,Dresden,Dresden Leubnitzer Höhe,51.003761,13.764526,DVB,2,,68,,
 de:14612:191,33000191,Leutewitz,Dresden,Dresden Leutewitz,51.059261,13.67049,DVB,3,12,92,,
@@ -1015,7 +1015,7 @@ de:14612:166,33000166,S-Bahnhof Plauen,Dresden,Dresden S-Bahnhof Plauen,51.02979
 de:14612:907,33000907,S-Bahnhof Reick,Dresden,Dresden S-Bahnhof Reick,51.02127,13.79064,DB Regio AG Südost|DVB,8,,64|65|87,RE19|RE20,S1|S2
 de:14612:622,33000622,S-Bahnhof Trachau,Dresden,Dresden S-Bahnhof Trachau,51.089937,13.703854,DB Regio AG Südost|DVB|VGM,4,,70|80,,S1
 de:14612:212,33000212,S-Bahnhof Trachau West,Dresden,Dresden S-Bahnhof Trachau West,51.090214,13.702569,DVB,2,13|4,,,
-de:14612:25,33000025,S-Bf. Freiberger Straße,Dresden,Dresden S-Bf. Freiberger Straße,51.048617,13.720122,DB Regio AG Südost|DVB,9,10|11|12|13|3|7|8,,,S1|S2
+de:14612:25,33000025,S-Bf. Freiberger Straße,Dresden,Dresden S-Bf. Freiberger Straße,51.048617,13.720122,DB Regio AG Südost|DVB,10,1|10|11|12|13|3|7|8,,,S1|S2
 de:14612:267,33000267,S-Bf. Industriegelände,Dresden,Dresden S-Bf. Industriegelände,51.086992,13.763026,DB Regio AG Südost|DVB|trilex - Die Länderbahn GmbH DLB,10,11|7|8,,RB33|RB60|RB61|RE1,S2|S8
 de:14612:757,33000757,S-Bf. Strehlen,Dresden,Dresden S-Bf. Strehlen,51.031022,13.761139,DB Regio AG Südost|DVB,12,10|13|4,61|63|68|85,RE19|RE20,S1|S2
 de:14612:910,33000910,S-Bf. Zschachwitz,Dresden,Dresden S-Bf. Zschachwitz,50.989649,13.845168,DB Regio AG Südost,3,,,RE19,S1|S2
@@ -1485,7 +1485,7 @@ de:14627:5034,33005034,Johannes-R-Becher-Straße,Großenhain,Großenhain Johanne
 de:14627:5092,33005092,Kleinraschütz Mittelstraße,Großenhain,Großenhain Kleinraschütz Mittelstraße,51.29498,13.502927,VGM,2,,A (Großenhain),,
 de:14627:5093,33005093,Kleinraschütz Skassaer Straße,Großenhain,Großenhain Kleinraschütz Skassaer Straße,51.295249,13.505856,VGM,3,,A (Großenhain),,
 de:14627:5014,33005014,Kupferberg,Großenhain,Großenhain Kupferberg,51.283946,13.546657,VGM,2,,A (Großenhain),,
-de:14627:5005,33005005,Lessingplatz,Großenhain,Großenhain Lessingplatz,51.291834,13.53462,VGM,16,,,,
+de:14627:5005,33005005,Lessingplatz,Großenhain,Großenhain Lessingplatz,51.291834,13.53462,VGM,17,,A (Großenhain),,
 de:14627:5049,33005049,M-Scheumann-Straße,Großenhain,Großenhain M-Scheumann-Straße,51.286092,13.543387,VGM,1,,A (Großenhain),,
 de:14627:5007,33005007,Markusstraße,Großenhain,Großenhain Markusstraße,51.285957,13.537108,VGM,2,,A (Großenhain),,
 de:14627:5001,33005001,Mozartallee,Großenhain,Großenhain Mozartallee,51.291525,13.527676,VGM,17,,A (Großenhain),,

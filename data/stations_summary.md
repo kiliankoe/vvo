@@ -30,7 +30,7 @@ Total stations: 3908
 ## Stations by Transit Type
 
 - Regionalbus: 2691 stations
-- Stadtbus: 1275 stations
+- Stadtbus: 1276 stations
 - PlusBus: 646 stations
 - Anruflinienbus: 432 stations
 - Straßenbahn: 270 stations
@@ -80,7 +80,7 @@ Total stations: 3908
 ## Major Transit Hubs (10+ lines)
 
 - Meißen Busbahnhof: 33 lines
-- Dresden Hauptbahnhof: 30 lines
+- Dresden Hauptbahnhof: 31 lines
 - Dresden Bahnhof Neustadt: 27 lines
 - Meißen Altstadtbrücke: 27 lines
 - Riesa Busbahnhof / Bahnhof: 27 lines
@@ -94,13 +94,13 @@ Total stations: 3908
 - Riesa Alexander-Puschkin-Platz: 19 lines
 - Riesa Rudolf-Breitscheid-Straße: 19 lines
 - Lommatzsch Busbahnhof: 18 lines
+- Großenhain Lessingplatz: 17 lines
 - Großenhain Mozartallee: 17 lines
 - Meißen S-Bahnhof Altstadt: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
 - Dresden Trachenberger Platz: 16 lines
 - Freital S-Bf. / Busbf. Deuben: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
-- Großenhain Lessingplatz: 16 lines
 - Riesa Sachsenhof: 16 lines
 - Dresden Postplatz: 15 lines
 - Dresden S-Bahnhof Dobritz: 15 lines
@@ -148,6 +148,7 @@ Total stations: 3908
 - Dresden Kirschenstraße: 10 lines
 - Dresden Merianplatz: 10 lines
 - Dresden Prohlis Gleisschleife: 10 lines
+- Dresden S-Bf. Freiberger Straße: 10 lines
 - Dresden S-Bf. Industriegelände: 10 lines
 - Dresden Schillerplatz: 10 lines
 - Dresden Schlehenstraße: 10 lines
