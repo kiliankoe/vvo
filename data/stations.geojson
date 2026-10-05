@@ -15907,13 +15907,14 @@
             "360"
           ],
           "Regionalbus": [
+            "352",
             "366"
           ],
           "Bus": [
             "400"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -17562,7 +17563,6 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "11",
             "13",
@@ -17574,7 +17574,7 @@
             "62"
           ]
         },
-        "total_lines": 8
+        "total_lines": 7
       }
     },
     {
@@ -20602,14 +20602,13 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "13",
             "8",
             "9"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -21002,7 +21001,6 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "11",
             "13",
@@ -21015,7 +21013,7 @@
             "68"
           ]
         },
-        "total_lines": 9
+        "total_lines": 8
       }
     },
     {
@@ -21571,7 +21569,6 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "11",
             "13",
@@ -21616,7 +21613,7 @@
             "S8"
           ]
         },
-        "total_lines": 31
+        "total_lines": 30
       }
     },
     {
@@ -25035,7 +25032,6 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "11",
             "13",
@@ -25048,7 +25044,7 @@
             "68"
           ]
         },
-        "total_lines": 9
+        "total_lines": 8
       }
     },
     {
@@ -29699,7 +29695,6 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "11",
             "12",
@@ -29713,7 +29708,7 @@
             "S2"
           ]
         },
-        "total_lines": 10
+        "total_lines": 9
       }
     },
     {
@@ -38291,10 +38286,11 @@
         ],
         "lines": {
           "Stadtbus": [
+            "161",
             "162"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -43366,12 +43362,9 @@
             "462",
             "463",
             "467"
-          ],
-          "Stadtbus": [
-            "A (Großenhain)"
           ]
         },
-        "total_lines": 17
+        "total_lines": 16
       }
     },
     {
@@ -81958,10 +81951,11 @@
             "237",
             "241",
             "245",
+            "246",
             "207a"
           ]
         },
-        "total_lines": 9
+        "total_lines": 10
       }
     },
     {
@@ -81984,12 +81978,30 @@
         ],
         "lines": {
           "Regionalbus": [
+            "204",
+            "216",
+            "218",
             "226",
             "234",
-            "241"
+            "236",
+            "237",
+            "238",
+            "241",
+            "245",
+            "246",
+            "207a"
+          ],
+          "PlusBus": [
+            "219"
+          ],
+          "Stadtbus": [
+            "G/L (Pirna)",
+            "H/S (Pirna)",
+            "M (Pirna)",
+            "N (Pirna)"
           ]
         },
-        "total_lines": 3
+        "total_lines": 17
       }
     },
     {
@@ -91539,17 +91551,19 @@
         "city": "Reitzendorf(Dresden)",
         "name_with_city": "Reitzendorf(Dresden) Kleinbauernmuseum",
         "operators": [
-          "Müller Busreisen"
+          "Müller Busreisen",
+          "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
+            "226",
             "228"
           ],
           "Stadtbus": [
             "98C"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -98897,17 +98911,19 @@
         "city": "Schönfeld (Dresden)",
         "name_with_city": "Schönfeld (Dresden) Meixstraße",
         "operators": [
-          "Müller Busreisen"
+          "Müller Busreisen",
+          "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
+            "226",
             "228"
           ],
           "Stadtbus": [
             "98C"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -107537,10 +107553,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411"
+            "411",
+            "Sv250"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {

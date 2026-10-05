@@ -11440,13 +11440,14 @@
           "360"
         ],
         "Regionalbus": [
+          "352",
           "366"
         ],
         "Bus": [
           "400"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:843",
@@ -12679,7 +12680,6 @@
       ],
       "lines": {
         "Straßenbahn": [
-          "1",
           "10",
           "11",
           "13",
@@ -12691,7 +12691,7 @@
           "62"
         ]
       },
-      "total_lines": 8
+      "total_lines": 7
     },
     {
       "id": "de:14612:587",
@@ -14895,14 +14895,13 @@
       ],
       "lines": {
         "Straßenbahn": [
-          "1",
           "10",
           "13",
           "8",
           "9"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:323",
@@ -15183,7 +15182,6 @@
       ],
       "lines": {
         "Straßenbahn": [
-          "1",
           "10",
           "11",
           "13",
@@ -15196,7 +15194,7 @@
           "68"
         ]
       },
-      "total_lines": 9
+      "total_lines": 8
     },
     {
       "id": "de:14612:507",
@@ -15600,7 +15598,6 @@
       ],
       "lines": {
         "Straßenbahn": [
-          "1",
           "10",
           "11",
           "13",
@@ -15645,7 +15642,7 @@
           "S8"
         ]
       },
-      "total_lines": 31
+      "total_lines": 30
     },
     {
       "id": "de:14612:36",
@@ -18136,7 +18133,6 @@
       ],
       "lines": {
         "Straßenbahn": [
-          "1",
           "10",
           "11",
           "13",
@@ -18149,7 +18145,7 @@
           "68"
         ]
       },
-      "total_lines": 9
+      "total_lines": 8
     },
     {
       "id": "de:14612:74",
@@ -21568,7 +21564,6 @@
       ],
       "lines": {
         "Straßenbahn": [
-          "1",
           "10",
           "11",
           "12",
@@ -21582,7 +21577,7 @@
           "S2"
         ]
       },
-      "total_lines": 10
+      "total_lines": 9
     },
     {
       "id": "de:14612:267",
@@ -27824,10 +27819,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "161",
           "162"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:1178",
@@ -31475,12 +31471,9 @@
           "462",
           "463",
           "467"
-        ],
-        "Stadtbus": [
-          "A (Großenhain)"
         ]
       },
-      "total_lines": 17
+      "total_lines": 16
     },
     {
       "id": "de:14627:5049",
@@ -59339,10 +59332,11 @@
           "237",
           "241",
           "245",
+          "246",
           "207a"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14628:3382",
@@ -59357,12 +59351,30 @@
       ],
       "lines": {
         "Regionalbus": [
+          "204",
+          "216",
+          "218",
           "226",
           "234",
-          "241"
+          "236",
+          "237",
+          "238",
+          "241",
+          "245",
+          "246",
+          "207a"
+        ],
+        "PlusBus": [
+          "219"
+        ],
+        "Stadtbus": [
+          "G/L (Pirna)",
+          "H/S (Pirna)",
+          "M (Pirna)",
+          "N (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 17
     },
     {
       "id": "de:14628:3373",
@@ -66216,17 +66228,19 @@
       "longitude": 13.903917,
       "latitude": 51.026638,
       "operators": [
-        "Müller Busreisen"
+        "Müller Busreisen",
+        "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
+          "226",
           "228"
         ],
         "Stadtbus": [
           "98C"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:445",
@@ -71534,17 +71548,19 @@
       "longitude": 13.901079,
       "latitude": 51.0297,
       "operators": [
-        "Müller Busreisen"
+        "Müller Busreisen",
+        "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
+          "226",
           "228"
         ],
         "Stadtbus": [
           "98C"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:3790",
@@ -77718,10 +77734,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411"
+          "411",
+          "Sv250"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4151",
