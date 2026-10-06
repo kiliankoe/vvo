@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3908,
+    "count": 3910,
     "format_version": "2.0"
   },
   "stations": [
@@ -3248,11 +3248,12 @@
       ],
       "lines": {
         "Stadtbus": [
+          "142",
           "G/L (Pirna)",
           "P (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3022",
@@ -3285,11 +3286,12 @@
       ],
       "lines": {
         "Stadtbus": [
+          "142",
           "G/L (Pirna)",
           "P (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6346",
@@ -4395,14 +4397,16 @@
       "longitude": 13.942734,
       "latitude": 51.006214,
       "operators": [
-        "DVB"
+        "DVB",
+        "RVSOE"
       ],
       "lines": {
         "Stadtbus": [
+          "141",
           "83"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3016",
@@ -4551,6 +4555,7 @@
       ],
       "lines": {
         "Stadtbus": [
+          "149",
           "89",
           "B (Heidenau)"
         ],
@@ -4558,7 +4563,7 @@
           "alita 89"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3097",
@@ -4573,10 +4578,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "149",
           "B (Heidenau)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3096",
@@ -5467,10 +5473,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "149",
           "B (Heidenau)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:7140",
@@ -9645,17 +9652,18 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "146",
+          "Z (Pirna)"
+        ],
         "PlusBus": [
           "219"
         ],
         "Regionalbus": [
           "207a"
-        ],
-        "Stadtbus": [
-          "Z (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3361",
@@ -9687,17 +9695,18 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "146",
+          "Z (Pirna)"
+        ],
         "PlusBus": [
           "219"
         ],
         "Regionalbus": [
           "207a"
-        ],
-        "Stadtbus": [
-          "Z (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3362",
@@ -9711,17 +9720,18 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "146",
+          "Z (Pirna)"
+        ],
         "PlusBus": [
           "219"
         ],
         "Regionalbus": [
           "207a"
-        ],
-        "Stadtbus": [
-          "Z (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3105",
@@ -9799,15 +9809,16 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "149",
+          "B (Heidenau)"
+        ],
         "Regionalbus": [
           "201",
           "202"
-        ],
-        "Stadtbus": [
-          "B (Heidenau)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3110",
@@ -9821,13 +9832,16 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "149"
+        ],
         "Regionalbus": [
           "201",
           "202",
           "204"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3107",
@@ -9841,17 +9855,18 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "149",
+          "A (Heidenau)",
+          "B (Heidenau)"
+        ],
         "Regionalbus": [
           "201",
           "202",
           "204"
-        ],
-        "Stadtbus": [
-          "A (Heidenau)",
-          "B (Heidenau)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14628:3101",
@@ -9909,15 +9924,16 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "149",
+          "B (Heidenau)"
+        ],
         "Regionalbus": [
           "201",
           "202"
-        ],
-        "Stadtbus": [
-          "B (Heidenau)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3728",
@@ -9931,11 +9947,14 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "146"
+        ],
         "Regionalbus": [
           "238"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3719",
@@ -9968,12 +9987,15 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "146"
+        ],
         "Regionalbus": [
           "238",
           "239"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:1254",
@@ -10642,6 +10664,7 @@
       ],
       "lines": {
         "Stadtbus": [
+          "140",
           "162",
           "86",
           "89",
@@ -10654,7 +10677,7 @@
           "alita 89"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14612:4",
@@ -10674,15 +10697,16 @@
           "2",
           "9"
         ],
+        "Stadtbus": [
+          "140",
+          "H/S (Pirna)"
+        ],
         "PlusBus": [
           "333",
           "360"
-        ],
-        "Stadtbus": [
-          "H/S (Pirna)"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14612:738",
@@ -12486,6 +12510,7 @@
       ],
       "lines": {
         "Stadtbus": [
+          "142",
           "63",
           "83",
           "P (Pirna)"
@@ -12494,7 +12519,7 @@
           "alita 83"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:696",
@@ -12991,6 +13016,7 @@
       ],
       "lines": {
         "Stadtbus": [
+          "140",
           "61",
           "63",
           "66",
@@ -13001,7 +13027,7 @@
           "alita 63"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14612:178",
@@ -13157,6 +13183,7 @@
       ],
       "lines": {
         "Stadtbus": [
+          "140",
           "66",
           "68",
           "87",
@@ -13166,7 +13193,7 @@
           "alita 68"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14612:165",
@@ -13997,6 +14024,7 @@
       ],
       "lines": {
         "Stadtbus": [
+          "140",
           "162",
           "66",
           "86",
@@ -14011,7 +14039,7 @@
           "alita 88"
         ]
       },
-      "total_lines": 8
+      "total_lines": 9
     },
     {
       "id": "de:14612:933",
@@ -14574,6 +14602,7 @@
       ],
       "lines": {
         "Stadtbus": [
+          "140",
           "66",
           "88",
           "H/S (Pirna)"
@@ -14582,7 +14611,7 @@
           "353"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:945",
@@ -14827,11 +14856,12 @@
       ],
       "lines": {
         "Stadtbus": [
+          "140",
           "66",
           "H/S (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:558",
@@ -15606,6 +15636,7 @@
           "8"
         ],
         "Stadtbus": [
+          "140",
           "66",
           "68",
           "H/S (Pirna)"
@@ -15642,7 +15673,7 @@
           "S8"
         ]
       },
-      "total_lines": 30
+      "total_lines": 31
     },
     {
       "id": "de:14612:36",
@@ -17691,6 +17722,7 @@
       ],
       "lines": {
         "Stadtbus": [
+          "140",
           "65",
           "H/S (Pirna)"
         ],
@@ -17698,7 +17730,7 @@
           "alita 65"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:924",
@@ -18465,6 +18497,7 @@
       ],
       "lines": {
         "Stadtbus": [
+          "140",
           "65",
           "H/S (Pirna)"
         ],
@@ -18472,7 +18505,7 @@
           "alita 65"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:797",
@@ -18487,10 +18520,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "140",
           "H/S (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:140",
@@ -18661,12 +18695,13 @@
       ],
       "lines": {
         "Stadtbus": [
+          "140",
           "66",
           "87",
           "H/S (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:604",
@@ -19895,10 +19930,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "142",
           "P (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:572",
@@ -20096,6 +20132,7 @@
       ],
       "lines": {
         "Stadtbus": [
+          "142",
           "63",
           "83",
           "P (Pirna)"
@@ -20104,7 +20141,7 @@
           "alita 83"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:887",
@@ -20138,6 +20175,7 @@
       ],
       "lines": {
         "Stadtbus": [
+          "142",
           "63",
           "83",
           "P (Pirna)"
@@ -20146,7 +20184,7 @@
           "alita 83"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:5",
@@ -20168,6 +20206,7 @@
           "9"
         ],
         "Stadtbus": [
+          "140",
           "62",
           "H/S (Pirna)"
         ],
@@ -20181,7 +20220,7 @@
           "366"
         ]
       },
-      "total_lines": 11
+      "total_lines": 12
     },
     {
       "id": "de:14612:627",
@@ -20350,6 +20389,7 @@
           "9"
         ],
         "Stadtbus": [
+          "140",
           "62",
           "68",
           "H/S (Pirna)"
@@ -20360,7 +20400,7 @@
           "477"
         ]
       },
-      "total_lines": 15
+      "total_lines": 16
     },
     {
       "id": "de:14612:3",
@@ -20387,6 +20427,7 @@
           "9"
         ],
         "Stadtbus": [
+          "140",
           "62",
           "68",
           "H/S (Pirna)"
@@ -20396,7 +20437,7 @@
           "360"
         ]
       },
-      "total_lines": 14
+      "total_lines": 15
     },
     {
       "id": "de:14612:51",
@@ -20483,6 +20524,7 @@
           "4"
         ],
         "Stadtbus": [
+          "140",
           "66",
           "88",
           "H/S (Pirna)"
@@ -20495,7 +20537,7 @@
           "alita 88"
         ]
       },
-      "total_lines": 10
+      "total_lines": 11
     },
     {
       "id": "de:14612:324",
@@ -20511,6 +20553,7 @@
       ],
       "lines": {
         "Stadtbus": [
+          "140",
           "162",
           "66",
           "86",
@@ -20526,7 +20569,7 @@
           "alita 88"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14612:290",
@@ -20740,6 +20783,7 @@
       ],
       "lines": {
         "Stadtbus": [
+          "142",
           "63",
           "83",
           "P (Pirna)"
@@ -20748,7 +20792,7 @@
           "alita 83"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:745",
@@ -22465,12 +22509,13 @@
       ],
       "lines": {
         "Stadtbus": [
+          "140",
           "66",
           "87",
           "H/S (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:80",
@@ -22720,12 +22765,13 @@
           "11"
         ],
         "Stadtbus": [
+          "140",
           "66",
           "68",
           "H/S (Pirna)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:68",
@@ -22826,10 +22872,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "142",
           "P (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:897",
@@ -22844,10 +22891,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "142",
           "P (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:218",
@@ -23212,12 +23260,13 @@
       ],
       "lines": {
         "Stadtbus": [
+          "140",
           "66",
           "87",
           "H/S (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:206",
@@ -23431,12 +23480,13 @@
       ],
       "lines": {
         "Stadtbus": [
+          "140",
           "66",
           "68",
           "H/S (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14612:45",
@@ -23470,6 +23520,7 @@
       ],
       "lines": {
         "Stadtbus": [
+          "140",
           "162",
           "86",
           "H/S (Pirna)"
@@ -23478,7 +23529,7 @@
           "386"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:879",
@@ -23658,6 +23709,7 @@
           "9"
         ],
         "Stadtbus": [
+          "140",
           "68",
           "H/S (Pirna)"
         ],
@@ -23671,7 +23723,7 @@
           "366"
         ]
       },
-      "total_lines": 14
+      "total_lines": 15
     },
     {
       "id": "de:14612:185",
@@ -23809,11 +23861,12 @@
       ],
       "lines": {
         "Stadtbus": [
+          "140",
           "66",
           "H/S (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:691",
@@ -28660,10 +28713,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "149",
           "B (Heidenau)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3095",
@@ -28678,10 +28732,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "149",
           "B (Heidenau)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4684",
@@ -30092,10 +30147,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "149",
           "B (Heidenau)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:1835",
@@ -30199,11 +30255,13 @@
       ],
       "lines": {
         "Stadtbus": [
+          "141",
+          "143",
           "G/L (Pirna)",
           "P (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 4
     },
     {
       "id": "de:14628:3003",
@@ -30214,14 +30272,16 @@
       "longitude": 13.92934,
       "latitude": 51.003795,
       "operators": [
-        "DVB"
+        "DVB",
+        "RVSOE"
       ],
       "lines": {
         "Stadtbus": [
+          "141",
           "83"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3000",
@@ -30237,6 +30297,7 @@
       ],
       "lines": {
         "Stadtbus": [
+          "143",
           "83",
           "G/L (Pirna)"
         ],
@@ -30244,7 +30305,25 @@
           "alita 83"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
+    },
+    {
+      "id": "de:14628:3006",
+      "numeric_id": "33003006",
+      "name": "Lindenallee",
+      "city": "Graupa",
+      "name_with_city": "Graupa Lindenallee",
+      "longitude": 13.924588,
+      "latitude": 50.994308,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "143"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14628:3007",
@@ -30259,10 +30338,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "141",
           "G/L (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3001",
@@ -30278,6 +30358,7 @@
       ],
       "lines": {
         "Stadtbus": [
+          "143",
           "83",
           "G/L (Pirna)"
         ],
@@ -30285,7 +30366,7 @@
           "alita 83"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3002",
@@ -30301,6 +30382,7 @@
       ],
       "lines": {
         "Stadtbus": [
+          "143",
           "83",
           "G/L (Pirna)",
           "P (Pirna)"
@@ -30309,7 +30391,7 @@
           "alita 83"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14627:4978",
@@ -34167,17 +34249,18 @@
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "201",
-          "202"
-        ],
         "Stadtbus": [
+          "140",
           "A (Heidenau)",
           "B (Heidenau)",
           "H/S (Pirna)"
+        ],
+        "Regionalbus": [
+          "201",
+          "202"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14628:3070",
@@ -34192,10 +34275,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "140",
           "H/S (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3040",
@@ -34212,6 +34296,7 @@
       ],
       "lines": {
         "Stadtbus": [
+          "140",
           "65",
           "86",
           "A (Heidenau)",
@@ -34236,7 +34321,7 @@
           "SEV"
         ]
       },
-      "total_lines": 14
+      "total_lines": 15
     },
     {
       "id": "de:14628:3064",
@@ -34290,10 +34375,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "140",
           "H/S (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3060",
@@ -34345,10 +34431,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "140",
           "H/S (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3075",
@@ -34403,11 +34490,12 @@
       ],
       "lines": {
         "Stadtbus": [
+          "140",
           "A (Heidenau)",
           "H/S (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3049",
@@ -34440,11 +34528,12 @@
       ],
       "lines": {
         "Stadtbus": [
+          "140",
           "A (Heidenau)",
           "H/S (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3068",
@@ -34631,13 +34720,14 @@
       ],
       "lines": {
         "Stadtbus": [
+          "140",
           "H/S (Pirna)"
         ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3062",
@@ -34718,11 +34808,12 @@
       ],
       "lines": {
         "Stadtbus": [
+          "140",
           "A (Heidenau)",
           "H/S (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3053",
@@ -41460,11 +41551,14 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "149"
+        ],
         "Regionalbus": [
           "204"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:5625",
@@ -42991,11 +43085,14 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "149"
+        ],
         "Regionalbus": [
           "204"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3113",
@@ -43032,11 +43129,14 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "149"
+        ],
         "Regionalbus": [
           "204"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:4744",
@@ -50831,11 +50931,14 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "149"
+        ],
         "Regionalbus": [
           "204"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:6389",
@@ -58009,10 +58112,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "141",
           "G/L (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3418",
@@ -58026,15 +58130,17 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "140",
+          "141",
+          "H/S (Pirna)"
+        ],
         "Regionalbus": [
           "241",
           "246"
-        ],
-        "Stadtbus": [
-          "H/S (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 5
     },
     {
       "id": "de:14628:3404",
@@ -58048,16 +58154,17 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "142",
+          "N (Pirna)"
+        ],
         "Regionalbus": [
           "209",
           "216",
           "218"
-        ],
-        "Stadtbus": [
-          "N (Pirna)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3311",
@@ -58071,16 +58178,17 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "142",
+          "N (Pirna)"
+        ],
         "Regionalbus": [
           "209",
           "216",
           "218"
-        ],
-        "Stadtbus": [
-          "N (Pirna)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3407",
@@ -58094,16 +58202,17 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "142",
+          "N (Pirna)"
+        ],
         "Regionalbus": [
           "209",
           "216",
           "218"
-        ],
-        "Stadtbus": [
-          "N (Pirna)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3390",
@@ -58117,11 +58226,14 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "149"
+        ],
         "Regionalbus": [
           "204"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3408",
@@ -58135,16 +58247,17 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "142",
+          "N (Pirna)"
+        ],
         "Regionalbus": [
           "209",
           "216",
           "218"
-        ],
-        "Stadtbus": [
-          "N (Pirna)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3393",
@@ -58158,18 +58271,20 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "146",
+          "147",
+          "Z (Pirna)"
+        ],
         "Regionalbus": [
           "205",
           "207a"
         ],
         "PlusBus": [
           "219"
-        ],
-        "Stadtbus": [
-          "Z (Pirna)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 6
     },
     {
       "id": "de:14628:3378",
@@ -58183,16 +58298,17 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "142",
+          "N (Pirna)"
+        ],
         "Regionalbus": [
           "209",
           "216",
           "218"
-        ],
-        "Stadtbus": [
-          "N (Pirna)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3374",
@@ -58207,10 +58323,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "149",
           "Z (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3370",
@@ -58248,16 +58365,18 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "140",
+          "141",
+          "H/S (Pirna)"
+        ],
         "Regionalbus": [
           "241",
           "245",
           "246"
-        ],
-        "Stadtbus": [
-          "H/S (Pirna)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 6
     },
     {
       "id": "de:14628:3380",
@@ -58271,6 +58390,20 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "140",
+          "141",
+          "142",
+          "146",
+          "147",
+          "149",
+          "G/L (Pirna)",
+          "H/S (Pirna)",
+          "M (Pirna)",
+          "N (Pirna)",
+          "P (Pirna)",
+          "Z (Pirna)"
+        ],
         "Regionalbus": [
           "209",
           "216",
@@ -58283,17 +58416,9 @@
         ],
         "PlusBus": [
           "219"
-        ],
-        "Stadtbus": [
-          "G/L (Pirna)",
-          "H/S (Pirna)",
-          "M (Pirna)",
-          "N (Pirna)",
-          "P (Pirna)",
-          "Z (Pirna)"
         ]
       },
-      "total_lines": 15
+      "total_lines": 21
     },
     {
       "id": "de:14628:3385",
@@ -58307,6 +58432,12 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "142",
+          "146",
+          "147",
+          "N (Pirna)"
+        ],
         "Regionalbus": [
           "205",
           "209",
@@ -58316,12 +58447,9 @@
         ],
         "PlusBus": [
           "219"
-        ],
-        "Stadtbus": [
-          "N (Pirna)"
         ]
       },
-      "total_lines": 7
+      "total_lines": 10
     },
     {
       "id": "de:14628:3446",
@@ -58335,6 +58463,9 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "146"
+        ],
         "Regionalbus": [
           "226",
           "234",
@@ -58344,7 +58475,7 @@
           "254"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14628:3449",
@@ -58358,16 +58489,17 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "147",
+          "M (Pirna)"
+        ],
         "Regionalbus": [
           "237",
           "238",
           "246"
-        ],
-        "Stadtbus": [
-          "M (Pirna)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3447",
@@ -58418,17 +58550,20 @@
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "246",
-          "207a"
-        ],
         "Stadtbus": [
+          "140",
+          "141",
+          "142",
           "G/L (Pirna)",
           "H/S (Pirna)",
           "P (Pirna)"
+        ],
+        "Regionalbus": [
+          "246",
+          "207a"
         ]
       },
-      "total_lines": 5
+      "total_lines": 8
     },
     {
       "id": "de:14628:3461",
@@ -58460,18 +58595,20 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "146",
+          "147",
+          "M (Pirna)"
+        ],
         "Regionalbus": [
           "226",
           "236",
           "237",
           "238",
           "254"
-        ],
-        "Stadtbus": [
-          "M (Pirna)"
         ]
       },
-      "total_lines": 6
+      "total_lines": 8
     },
     {
       "id": "de:14628:3457",
@@ -58485,14 +58622,15 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "147",
+          "M (Pirna)"
+        ],
         "Regionalbus": [
           "238"
-        ],
-        "Stadtbus": [
-          "M (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3455",
@@ -58506,14 +58644,15 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "147",
+          "M (Pirna)"
+        ],
         "Regionalbus": [
           "238"
-        ],
-        "Stadtbus": [
-          "M (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3452",
@@ -58528,6 +58667,9 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "146"
+        ],
         "Regionalbus": [
           "226",
           "236",
@@ -58540,7 +58682,7 @@
           "SEV"
         ]
       },
-      "total_lines": 7
+      "total_lines": 8
     },
     {
       "id": "de:14628:3435",
@@ -58554,19 +58696,41 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "141",
+          "143",
+          "G/L (Pirna)",
+          "M (Pirna)"
+        ],
         "Regionalbus": [
           "226",
           "234",
           "237",
           "238",
           "246"
-        ],
-        "Stadtbus": [
-          "G/L (Pirna)",
-          "M (Pirna)"
         ]
       },
-      "total_lines": 7
+      "total_lines": 9
+    },
+    {
+      "id": "de:14628:3466",
+      "numeric_id": "33003466",
+      "name": "Copitz Lindenstraße (Hp Copitz)",
+      "city": "Pirna",
+      "name_with_city": "Pirna Copitz Lindenstraße (Hp Copitz)",
+      "longitude": 13.932726,
+      "latitude": 50.967982,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Stadtbus": [
+          "141",
+          "142",
+          "143"
+        ]
+      },
+      "total_lines": 3
     },
     {
       "id": "de:14628:3451",
@@ -58580,6 +58744,9 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "146"
+        ],
         "Regionalbus": [
           "226",
           "236",
@@ -58589,7 +58756,7 @@
           "254"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14628:3453",
@@ -58603,6 +58770,9 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "146"
+        ],
         "Regionalbus": [
           "226",
           "234",
@@ -58612,7 +58782,7 @@
           "254"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14628:3431",
@@ -58627,10 +58797,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "141",
           "G/L (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3436",
@@ -58644,19 +58815,21 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "141",
+          "143",
+          "G/L (Pirna)",
+          "M (Pirna)"
+        ],
         "Regionalbus": [
           "234",
           "237",
           "238",
           "241",
           "246"
-        ],
-        "Stadtbus": [
-          "G/L (Pirna)",
-          "M (Pirna)"
         ]
       },
-      "total_lines": 7
+      "total_lines": 9
     },
     {
       "id": "de:14628:3434",
@@ -58670,16 +58843,18 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "141",
+          "143",
+          "G/L (Pirna)"
+        ],
         "Regionalbus": [
           "237",
           "238",
           "241"
-        ],
-        "Stadtbus": [
-          "G/L (Pirna)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 6
     },
     {
       "id": "de:14628:3454",
@@ -58694,6 +58869,16 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "140",
+          "141",
+          "142",
+          "146",
+          "G/L (Pirna)",
+          "H/S (Pirna)",
+          "M (Pirna)",
+          "P (Pirna)"
+        ],
         "Regionalbus": [
           "226",
           "234",
@@ -58703,17 +58888,11 @@
           "246",
           "254"
         ],
-        "Stadtbus": [
-          "G/L (Pirna)",
-          "H/S (Pirna)",
-          "M (Pirna)",
-          "P (Pirna)"
-        ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 12
+      "total_lines": 16
     },
     {
       "id": "de:14628:3438",
@@ -58728,10 +58907,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "147",
           "M (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3456",
@@ -58745,14 +58925,15 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "147",
+          "M (Pirna)"
+        ],
         "Regionalbus": [
           "238"
-        ],
-        "Stadtbus": [
-          "M (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3437",
@@ -58766,15 +58947,17 @@
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "234"
-        ],
         "Stadtbus": [
+          "141",
+          "147",
           "G/L (Pirna)",
           "M (Pirna)"
+        ],
+        "Regionalbus": [
+          "234"
         ]
       },
-      "total_lines": 3
+      "total_lines": 5
     },
     {
       "id": "de:14628:3004",
@@ -58788,15 +58971,16 @@
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "234"
-        ],
         "Stadtbus": [
+          "143",
           "G/L (Pirna)",
           "M (Pirna)"
+        ],
+        "Regionalbus": [
+          "234"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3432",
@@ -58810,16 +58994,19 @@
         "RVSOE"
       ],
       "lines": {
-        "Regionalbus": [
-          "246"
-        ],
         "Stadtbus": [
+          "140",
+          "141",
+          "142",
           "G/L (Pirna)",
           "H/S (Pirna)",
           "P (Pirna)"
+        ],
+        "Regionalbus": [
+          "246"
         ]
       },
-      "total_lines": 4
+      "total_lines": 7
     },
     {
       "id": "de:14628:3375",
@@ -58833,14 +59020,15 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "140",
+          "H/S (Pirna)"
+        ],
         "Regionalbus": [
           "204"
-        ],
-        "Stadtbus": [
-          "H/S (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3369",
@@ -58855,10 +59043,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "149",
           "Z (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3405",
@@ -58872,16 +59061,17 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "142",
+          "N (Pirna)"
+        ],
         "Regionalbus": [
           "209",
           "216",
           "218"
-        ],
-        "Stadtbus": [
-          "N (Pirna)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3387",
@@ -58913,16 +59103,17 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "142",
+          "N (Pirna)"
+        ],
         "Regionalbus": [
           "209",
           "216",
           "218"
-        ],
-        "Stadtbus": [
-          "N (Pirna)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3430",
@@ -58973,10 +59164,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "141",
           "G/L (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3440",
@@ -58991,10 +59183,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "141",
           "G/L (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3442",
@@ -59009,10 +59202,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "141",
           "G/L (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3406",
@@ -59026,16 +59220,17 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "142",
+          "N (Pirna)"
+        ],
         "Regionalbus": [
           "209",
           "216",
           "218"
-        ],
-        "Stadtbus": [
-          "N (Pirna)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3415",
@@ -59049,15 +59244,17 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "140",
+          "141",
+          "H/S (Pirna)"
+        ],
         "Regionalbus": [
           "241",
           "246"
-        ],
-        "Stadtbus": [
-          "H/S (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 5
     },
     {
       "id": "de:14628:3392",
@@ -59072,10 +59269,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "149",
           "Z (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3388",
@@ -59089,16 +59287,18 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "140",
+          "141",
+          "H/S (Pirna)"
+        ],
         "Regionalbus": [
           "241",
           "245",
           "246"
-        ],
-        "Stadtbus": [
-          "H/S (Pirna)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 6
     },
     {
       "id": "de:14628:3445",
@@ -59113,10 +59313,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "141",
           "G/L (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3394",
@@ -59130,18 +59331,20 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "146",
+          "147",
+          "Z (Pirna)"
+        ],
         "Regionalbus": [
           "205",
           "207a"
         ],
         "PlusBus": [
           "219"
-        ],
-        "Stadtbus": [
-          "Z (Pirna)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 6
     },
     {
       "id": "de:14628:3459",
@@ -59155,14 +59358,15 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "147",
+          "M (Pirna)"
+        ],
         "Regionalbus": [
           "238"
-        ],
-        "Stadtbus": [
-          "M (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3458",
@@ -59176,14 +59380,15 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "147",
+          "M (Pirna)"
+        ],
         "Regionalbus": [
           "238"
-        ],
-        "Stadtbus": [
-          "M (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3460",
@@ -59197,11 +59402,14 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "146"
+        ],
         "Regionalbus": [
           "238"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3409",
@@ -59215,16 +59423,17 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "142",
+          "N (Pirna)"
+        ],
         "Regionalbus": [
           "209",
           "216",
           "218"
-        ],
-        "Stadtbus": [
-          "N (Pirna)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3309",
@@ -59238,15 +59447,16 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "142",
+          "N (Pirna)"
+        ],
         "Regionalbus": [
           "216",
           "218"
-        ],
-        "Stadtbus": [
-          "N (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3310",
@@ -59260,15 +59470,16 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "142",
+          "N (Pirna)"
+        ],
         "Regionalbus": [
           "216",
           "218"
-        ],
-        "Stadtbus": [
-          "N (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3401",
@@ -59282,16 +59493,17 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "142",
+          "N (Pirna)"
+        ],
         "Regionalbus": [
           "209",
           "216",
           "218"
-        ],
-        "Stadtbus": [
-          "N (Pirna)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3391",
@@ -59306,10 +59518,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "149",
           "Z (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3381",
@@ -59388,16 +59601,17 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "142",
+          "N (Pirna)"
+        ],
         "Regionalbus": [
           "209",
           "216",
           "218"
-        ],
-        "Stadtbus": [
-          "N (Pirna)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3384",
@@ -59411,6 +59625,12 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "142",
+          "146",
+          "147",
+          "N (Pirna)"
+        ],
         "Regionalbus": [
           "209",
           "216",
@@ -59419,12 +59639,9 @@
         ],
         "PlusBus": [
           "219"
-        ],
-        "Stadtbus": [
-          "N (Pirna)"
         ]
       },
-      "total_lines": 6
+      "total_lines": 9
     },
     {
       "id": "de:14628:3467",
@@ -59438,18 +59655,20 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "141",
+          "143",
+          "G/L (Pirna)",
+          "M (Pirna)"
+        ],
         "Regionalbus": [
           "234",
           "237",
           "238",
           "246"
-        ],
-        "Stadtbus": [
-          "G/L (Pirna)",
-          "M (Pirna)"
         ]
       },
-      "total_lines": 6
+      "total_lines": 8
     },
     {
       "id": "de:14628:3423",
@@ -59475,16 +59694,17 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "142",
+          "N (Pirna)"
+        ],
         "Regionalbus": [
           "209",
           "216",
           "218"
-        ],
-        "Stadtbus": [
-          "N (Pirna)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3377",
@@ -59499,10 +59719,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "140",
           "H/S (Pirna)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3413",
@@ -59516,14 +59737,16 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "140",
+          "141",
+          "H/S (Pirna)"
+        ],
         "Regionalbus": [
           "246"
-        ],
-        "Stadtbus": [
-          "H/S (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 4
     },
     {
       "id": "de:14628:3419",
@@ -59537,15 +59760,16 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "140",
+          "H/S (Pirna)"
+        ],
         "Regionalbus": [
           "245",
           "246"
-        ],
-        "Stadtbus": [
-          "H/S (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3417",
@@ -59559,14 +59783,16 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "140",
+          "141",
+          "H/S (Pirna)"
+        ],
         "Regionalbus": [
           "246"
-        ],
-        "Stadtbus": [
-          "H/S (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 4
     },
     {
       "id": "de:14628:3412",
@@ -59580,14 +59806,16 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "140",
+          "141",
+          "H/S (Pirna)"
+        ],
         "Regionalbus": [
           "246"
-        ],
-        "Stadtbus": [
-          "H/S (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 4
     },
     {
       "id": "de:14628:3416",
@@ -59601,14 +59829,16 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "140",
+          "141",
+          "H/S (Pirna)"
+        ],
         "Regionalbus": [
           "246"
-        ],
-        "Stadtbus": [
-          "H/S (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 4
     },
     {
       "id": "de:14628:3414",
@@ -59622,16 +59852,17 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "142",
+          "N (Pirna)"
+        ],
         "Regionalbus": [
           "209",
           "216",
           "218"
-        ],
-        "Stadtbus": [
-          "N (Pirna)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3403",
@@ -59645,16 +59876,17 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "142",
+          "N (Pirna)"
+        ],
         "Regionalbus": [
           "209",
           "216",
           "218"
-        ],
-        "Stadtbus": [
-          "N (Pirna)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:3371",
@@ -59669,6 +59901,21 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "140",
+          "141",
+          "142",
+          "143",
+          "146",
+          "147",
+          "149",
+          "G/L (Pirna)",
+          "H/S (Pirna)",
+          "M (Pirna)",
+          "N (Pirna)",
+          "P (Pirna)",
+          "Z (Pirna)"
+        ],
         "Regionalbus": [
           "204",
           "209",
@@ -59688,19 +59935,11 @@
         "PlusBus": [
           "219"
         ],
-        "Stadtbus": [
-          "G/L (Pirna)",
-          "H/S (Pirna)",
-          "M (Pirna)",
-          "N (Pirna)",
-          "P (Pirna)",
-          "Z (Pirna)"
-        ],
         "Ersatzverkehr": [
           "SEV"
         ]
       },
-      "total_lines": 22
+      "total_lines": 29
     },
     {
       "id": "de:14628:3448",
@@ -59736,17 +59975,18 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "146",
+          "Z (Pirna)"
+        ],
         "PlusBus": [
           "219"
         ],
         "Regionalbus": [
           "207a"
-        ],
-        "Stadtbus": [
-          "Z (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3395",
@@ -59760,18 +60000,20 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "146",
+          "147",
+          "Z (Pirna)"
+        ],
         "Regionalbus": [
           "205",
           "207a"
         ],
         "PlusBus": [
           "219"
-        ],
-        "Stadtbus": [
-          "Z (Pirna)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 6
     },
     {
       "id": "de:14628:3410",
@@ -59785,15 +60027,17 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "146",
+          "147",
+          "Z (Pirna)"
+        ],
         "Regionalbus": [
           "205",
           "207a"
-        ],
-        "Stadtbus": [
-          "Z (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 5
     },
     {
       "id": "de:14628:3386",
@@ -59807,18 +60051,21 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "146",
+          "147",
+          "149",
+          "Z (Pirna)"
+        ],
         "Regionalbus": [
           "205",
           "207a"
         ],
         "PlusBus": [
           "219"
-        ],
-        "Stadtbus": [
-          "Z (Pirna)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 7
     },
     {
       "id": "de:14628:3389",
@@ -59832,18 +60079,20 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "146",
+          "147",
+          "Z (Pirna)"
+        ],
         "Regionalbus": [
           "205",
           "207a"
         ],
         "PlusBus": [
           "219"
-        ],
-        "Stadtbus": [
-          "Z (Pirna)"
         ]
       },
-      "total_lines": 4
+      "total_lines": 6
     },
     {
       "id": "de:14628:3399",
@@ -59857,15 +60106,17 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "146",
+          "147",
+          "Z (Pirna)"
+        ],
         "Regionalbus": [
           "205",
           "207a"
-        ],
-        "Stadtbus": [
-          "Z (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 5
     },
     {
       "id": "de:14628:3397",
@@ -59879,15 +60130,17 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "146",
+          "147",
+          "Z (Pirna)"
+        ],
         "Regionalbus": [
           "205",
           "207a"
-        ],
-        "Stadtbus": [
-          "Z (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 5
     },
     {
       "id": "de:14628:3398",
@@ -59901,15 +60154,16 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "146",
+          "Z (Pirna)"
+        ],
         "Regionalbus": [
           "205",
           "207a"
-        ],
-        "Stadtbus": [
-          "Z (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14627:5153",
@@ -60918,11 +61172,12 @@
       ],
       "lines": {
         "Stadtbus": [
+          "142",
           "G/L (Pirna)",
           "P (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3031",
@@ -60937,11 +61192,12 @@
       ],
       "lines": {
         "Stadtbus": [
+          "142",
           "G/L (Pirna)",
           "P (Pirna)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:5946",
@@ -69200,6 +69456,7 @@
       ],
       "lines": {
         "Stadtbus": [
+          "149",
           "89",
           "B (Heidenau)"
         ],
@@ -69207,7 +69464,7 @@
           "alita 89"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:1697",
@@ -73488,12 +73745,15 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "146"
+        ],
         "Regionalbus": [
           "238",
           "239"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3720",
@@ -73564,12 +73824,15 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "146"
+        ],
         "Regionalbus": [
           "238",
           "239"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3723",
@@ -73583,12 +73846,15 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "146"
+        ],
         "Regionalbus": [
           "238",
           "239"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3729",
@@ -73602,12 +73868,15 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "146"
+        ],
         "Regionalbus": [
           "238",
           "239"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3726",
@@ -73621,12 +73890,15 @@
         "RVSOE"
       ],
       "lines": {
+        "Stadtbus": [
+          "146"
+        ],
         "Regionalbus": [
           "238",
           "239"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:4847",
@@ -75296,10 +75568,11 @@
       ],
       "lines": {
         "Stadtbus": [
+          "149",
           "B (Heidenau)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14625:6438",
