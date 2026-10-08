@@ -1,0 +1,67 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { fileInfo, formatBytes } from '../lib/data';
+import { GTFS_URL, RAW_URL, REPO_URL } from '../lib/config';
+
+const files = [
+	['data/stations.json', 'All stops with IDs, coordinates, operators and lines by mode.'],
+	['data/stations.geojson', 'The same stops as GeoJSON points, for maps.'],
+	['data/stations.csv', 'Tabular list of stops with coordinates, operators and line counts.'],
+	['data/stations_summary.md', 'Statistics on the network: stops per mode, operator and city.'],
+	['data/gtfs/lines.csv', 'Weekly summary of the GTFS snapshot: trips per weekday, first and last departure per line.'],
+	['data/abbreviations_dresden.csv', 'DVB stop codes in Dresden.'],
+	['data/abbreviations_regional.csv', 'DVB stop codes in the surrounding area.'],
+	['data/liniennetzplan.pdf', 'Current DVB network map.'],
+	['data/liniennetzplan.jpg', 'Current DVB network map as an image.'],
+] as const;
+
+const rows = await Promise.all(files.map(async ([file, description]) => ({ file, description, ...(await fileInfo(file)) })));
+const date = (iso?: string) => (iso ? new Date(iso).toLocaleDateString('en-CA', { timeZone: 'Europe/Berlin' }) : '–');
+---
+
+<StarlightPage
+	frontmatter={{
+		title: 'Downloads',
+		description: 'Data files collected from VVO and DVB, updated automatically.',
+		tableOfContents: false,
+	}}
+>
+	<p>
+		GitHub Actions check the sources daily (GTFS weekly) and commit only real changes, so the <a
+			href={`${REPO_URL}/commits/main/data`}>git history</a> doubles as an archive. The links below always point to the latest version.
+	</p>
+
+	<div class="table-scroll">
+		<table>
+			<thead><tr><th>File</th><th>Contents</th><th class="num">Size</th><th class="num">Changed</th></tr></thead>
+			<tbody>
+				<tr>
+					<td><a href={GTFS_URL}>vvo-gtfs.zip</a></td>
+					<td>
+						Weekly GTFS feed for the VVO area, cut from the national feed by gtfs.de. See the <a
+							href={`${import.meta.env.BASE_URL}docs/gtfs/`}>GTFS docs</a> for coverage and license.
+					</td>
+					<td class="num">~6 MB</td>
+					<td class="num"><a href={`${REPO_URL}/releases`}>releases</a></td>
+				</tr>
+				{
+					rows.map((r) => (
+						<tr>
+							<td><a href={`${RAW_URL}/main/${r.file}`}>{r.file.replace('data/', '')}</a></td>
+							<td>{r.description}</td>
+							<td class="num">{formatBytes(r.size)}</td>
+							<td class="num"><a href={`${REPO_URL}/commits/main/${r.file}`}>{date(r.updated)}</a></td>
+						</tr>
+					))
+				}
+			</tbody>
+		</table>
+	</div>
+
+	<h2>Official sources</h2>
+	<ul>
+		<li><a href="https://www.vvo-online.de/open_data/VVO_STOPS.JSON">VVO_STOPS.JSON</a>: VVO's daily stop list, the source of stations.json.</li>
+		<li><a href="https://www.vvo-online.de/open_data/PuR.JSON">PuR.JSON</a>: Park and ride facilities.</li>
+		<li><a href={`${import.meta.env.BASE_URL}docs/opendata/`}>Dresden OpenData</a>: line routes, stops and accessibility data.</li>
+	</ul>
+</StarlightPage>

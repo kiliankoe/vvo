@@ -1,0 +1,152 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+---
+
+<StarlightPage
+	frontmatter={{
+		title: 'Departures',
+		description: 'Live departure board for any stop in the VVO network.',
+		tableOfContents: false,
+	}}
+>
+	<p>
+		Live data from the WebAPI's <a href={`${import.meta.env.BASE_URL}docs/webapi/#departure-monitor`}>departure monitor</a>.
+		The board refreshes every 30 seconds, and the URL can be bookmarked.
+	</p>
+	<input class="search" id="q" type="search" placeholder="Stop name or ID, e.g. Postplatz" aria-label="Search stop" autocomplete="off" />
+	<ul class="list" id="results"></ul>
+
+	<div id="board" hidden>
+		<h2 id="stop-name"></h2>
+		<p class="muted" id="board-meta" aria-live="polite"></p>
+		<div class="table-scroll">
+			<table>
+				<thead>
+					<tr><th>Line</th><th>Direction</th><th class="wide-only">Platform</th><th class="num wide-only">Planned</th><th class="num">Expected</th></tr>
+				</thead>
+				<tbody id="rows"></tbody>
+			</table>
+		</div>
+	</div>
+</StarlightPage>
+
+<script>
+	import { webapi, parseDate, formatTime, el, WebApiError } from '../lib/vvo';
+	import { loadStops, searchStops } from '../lib/stops-search';
+
+	interface Departure {
+		LineName: string;
+		Direction: string;
+		Platform?: { Name: string; Type: string };
+		Mot?: string;
+		ScheduledTime: string;
+		RealTime?: string;
+		State?: string;
+		CancelReasons?: unknown[];
+	}
+
+	const $ = (id: string) => document.getElementById(id)!;
+	const input = $('q') as HTMLInputElement;
+	let timer: number | undefined;
+	let current: string | undefined;
+
+	input.addEventListener('input', async () => {
+		const matches = searchStops(await loadStops(), input.value, 8);
+		if (input.value.trim() && !matches.length) {
+			$('results').replaceChildren(el('li', { class: 'muted' }, 'No stops found.'));
+			return;
+		}
+		$('results').replaceChildren(
+			...matches.map(([, numericId, name, city]) => {
+				const a = el('a', { href: `?stop=${numericId}` }, `${name}`);
+				a.addEventListener('click', (e) => {
+					e.preventDefault();
+					show(numericId);
+				});
+				return el('li', {}, a, ' ', el('span', { class: 'muted' }, city));
+			}),
+		);
+	});
+	// Enter picks the best match, so the board works without a mouse.
+	input.addEventListener('keydown', (e) => {
+		if (e.key === 'Enter') ($('results').querySelector('a') as HTMLAnchorElement | null)?.click();
+	});
+
+	async function show(stopId: string, push = true) {
+		if (push) history.pushState(null, '', `?stop=${stopId}`);
+		$('results').replaceChildren();
+		input.value = '';
+		$('board').hidden = false;
+		$('stop-name').textContent = '';
+		$('rows').replaceChildren();
+		$('board-meta').textContent = 'Loading departures…';
+		current = stopId;
+		clearInterval(timer);
+		timer = window.setInterval(() => document.visibilityState === 'visible' && refresh(stopId), 30_000);
+		await refresh(stopId);
+	}
+
+	async function refresh(stopId: string) {
+		try {
+			const data = await webapi<{ Name: string; Place: string; Departures?: Departure[] }>('dm', { stopid: stopId, limit: 30 });
+			// A slow response for a previously selected stop must not overwrite the current one.
+			if (stopId !== current) return;
+			$('stop-name').textContent = `${data.Name}, ${data.Place}`;
+			document.title = `${data.Name} – Departures`;
+			$('board-meta').textContent = `Updated ${formatTime(new Date())}`;
+			$('rows').replaceChildren(...(data.Departures ?? []).map(row));
+			if (!data.Departures?.length) $('rows').append(el('tr', {}, el('td', { colspan: '5' }, 'No departures in the near future.')));
+		} catch (err) {
+			if (stopId !== current) return;
+			$('board-meta').replaceChildren(...explain(err));
+		}
+	}
+
+	// The WebAPI reports both an unknown stop and a stop without service as ServiceError;
+	// only the message tells them apart.
+	function explain(err: unknown): (Node | string)[] {
+		if (!(err instanceof WebApiError)) return ['Could not reach the WebAPI. The board will retry in 30 seconds.'];
+		const { Name, Place, Status } = err.body;
+		if (Status.Message === 'no serving lines found') {
+			$('stop-name').textContent = [Name, Place].filter(Boolean).join(', ');
+			return [
+				'No line serves this stop at the moment, for example because of construction. See the ',
+				el('a', { href: `${import.meta.env.BASE_URL}status/` }, 'network status'),
+				' for route changes.',
+			];
+		}
+		if (Status.Message === 'stop invalid') return ['This stop ID is unknown to the WebAPI. Check it in the ', el('a', { href: `${import.meta.env.BASE_URL}stops/` }, 'stop lookup'), '.'];
+		return [`The WebAPI returned an error: ${err.message}. The board will retry in 30 seconds.`];
+	}
+
+	function row(d: Departure) {
+		const planned = parseDate(d.ScheduledTime)!;
+		const real = parseDate(d.RealTime);
+		const cancelled = d.State === 'Cancelled' || (d.CancelReasons?.length ?? 0) > 0;
+		const delay = real ? Math.round((real.getTime() - planned.getTime()) / 60_000) : undefined;
+		let expected: Node | string = el('span', { class: 'muted', title: 'No live data' }, formatTime(planned));
+		if (cancelled) expected = el('span', { class: 'bad' }, 'cancelled');
+		else if (real && delay !== undefined)
+			expected = el('span', { class: delay >= 3 ? 'bad' : delay > 0 ? 'warn' : 'ok' }, `${formatTime(real)}${delay ? ` (${delay > 0 ? '+' : ''}${delay})` : ''}`);
+		return el(
+			'tr',
+			{},
+			el('td', {}, el('span', { class: 'chip', title: d.Mot ?? '' }, d.LineName)),
+			el('td', {}, d.Direction),
+			el('td', { class: 'wide-only' }, d.Platform?.Name ?? ''),
+			el('td', { class: 'num wide-only' }, formatTime(planned)),
+			el('td', { class: 'num' }, expected),
+		);
+	}
+
+	function fromUrl() {
+		const stop = new URLSearchParams(location.search).get('stop');
+		if (stop) return show(stop, false);
+		// Back to the plain search page.
+		current = undefined;
+		clearInterval(timer);
+		$('board').hidden = true;
+	}
+	window.addEventListener('popstate', fromUrl);
+	fromUrl();
+</script>

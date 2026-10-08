@@ -52,14 +52,14 @@ jobs:
       id: check_changes
       run: |
         git add data/*
-        git diff --staged --quiet || echo "changes=true" >> $GITHUB_OUTPUT
+        git diff --staged --quiet || echo "changes=true" >> "$GITHUB_OUTPUT"
 
     - name: Generate commit message
       if: steps.check_changes.outputs.changes == 'true'
       id: commit_message
       run: |
         MSG=$(python3 scripts/generate_commit_message.py /tmp/old_summary.md data/stations_summary.md /tmp/old_stations.csv data/stations.csv)
-        echo "msg=$MSG" >> $GITHUB_OUTPUT
+        echo "msg=$MSG" >> "$GITHUB_OUTPUT"
 
     - name: Commit and push changes
       if: steps.check_changes.outputs.changes == 'true'

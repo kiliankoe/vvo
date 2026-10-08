@@ -1,0 +1,56 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { CardGrid, LinkCard } from '@astrojs/starlight/components';
+import { loadStations } from '../lib/data';
+
+const stations = await loadStations();
+const lines = new Set(stations.flatMap((s) => Object.values(s.lines).flat()));
+const operators = new Set(stations.flatMap((s) => s.operators));
+const base = import.meta.env.BASE_URL;
+---
+
+<StarlightPage
+	frontmatter={{
+		title: 'Public transit data for Dresden and the VVO network',
+		template: 'splash',
+		hero: {
+			tagline:
+				'Unofficial community documentation for the APIs and data feeds of the Verkehrsverbund Oberelbe (VVO) and the Dresdner Verkehrsbetriebe (DVB), with live status and searchable data.',
+			actions: [
+				{ text: 'Choose an API', link: `${base}docs/api-comparison/`, icon: 'right-arrow' },
+				{ text: 'Network status', link: `${base}status/`, variant: 'secondary' },
+			],
+		},
+	}}
+>
+	<div class="stats">
+		<div><strong>{stations.length.toLocaleString('en')}</strong><span>stops</span></div>
+		<div><strong>{lines.size.toLocaleString('en')}</strong><span>lines</span></div>
+		<div><strong>{operators.size}</strong><span>operators</span></div>
+	</div>
+
+	<h2>Live</h2>
+	<CardGrid>
+		<LinkCard title="Network status" href={`${base}status/`} description="Current and upcoming disruptions, and delays at the main hubs." />
+		<LinkCard title="Departures" href={`${base}departures/`} description="Live departure board for any stop." />
+		<LinkCard title="Endpoint health" href={`${base}health/`} description="Hourly checks of every documented endpoint." />
+	</CardGrid>
+
+	<h2>Build something</h2>
+	<CardGrid>
+		<LinkCard title="API docs" href={`${base}docs/webapi/`} description="Reverse-engineered WebAPI, Widget API, TRIAS, GTFS, SIRI and more." />
+		<LinkCard title="Interactive reference" href={`${base}reference/webapi/`} description="OpenAPI specs you can try in the browser or import into your tools." />
+		<LinkCard title="Libraries, apps & tools" href={`${base}ecosystem/`} description="Client libraries in eight languages and community projects." />
+	</CardGrid>
+
+	<h2>Data</h2>
+	<CardGrid>
+		<LinkCard title="Stop lookup" href={`${base}stops/`} description="Find stop IDs in both formats, with lines and coordinates." />
+		<LinkCard title="Abbreviations" href={`${base}abbreviations/`} description="The short codes used on DVB displays and timetables." />
+		<LinkCard title="Downloads" href={`${base}downloads/`} description="Stations, GTFS snapshot and network maps, updated automatically." />
+	</CardGrid>
+
+	<p class="muted">
+		Found something wrong or missing? <a href="https://github.com/kiliankoe/vvo">Open an issue or pull request</a>.
+	</p>
+</StarlightPage>

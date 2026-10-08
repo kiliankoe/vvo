@@ -13,6 +13,10 @@ TRIAS (Traveller Realtime Information and Advisory Standard) is VVO's official s
 - No authentication required for basic access (use `<RequestorRef>OpenService</RequestorRef>`)
 - Supports real-time data
 - Comprehensive functionality for journey planning, stop information, and departures
+- Plain HTTP on port 8080 only. Requests must use `Content-Type: application/xml` or `text/xml` (`text/plain` is rejected with HTTP 400)
+- Not usable from browsers: besides mixed-content blocking on HTTPS pages, the server answers CORS preflight (`OPTIONS`) requests with 404
+
+An OpenAPI 3.1 description of the endpoint, with the request types below as examples, is available at [`openapi/trias.yaml`](../openapi/trias.yaml).
 
 ## Official Documentation
 
@@ -183,7 +187,7 @@ TRIAS uses DHID (Deutsche Haltestellen-ID) format for stop references:
 
 ## Response Structure
 
-Responses follow the TRIAS XML schema with namespaced elements:
+Responses are sent as `text/xml` and follow the TRIAS XML schema with namespaced elements:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -202,7 +206,7 @@ Responses follow the TRIAS XML schema with namespaced elements:
 
 ## Error Handling
 
-Errors are returned inside the `DeliveryPayload`:
+Errors in the request content are returned with HTTP 200 inside the `DeliveryPayload`, for example:
 
 ```xml
 <trias:LocationInformationResponse>
@@ -215,6 +219,8 @@ Errors are returned inside the `DeliveryPayload`:
   </trias:ErrorMessage>
 </trias:LocationInformationResponse>
 ```
+
+Malformed XML results in HTTP 400 with an HTML body.
 
 ## Additional Resources
 

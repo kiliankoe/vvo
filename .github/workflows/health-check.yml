@@ -1,0 +1,55 @@
+name: Endpoint Health Check
+
+on:
+  schedule:
+    # Hourly, off the full hour when scheduled runs pile up
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: health-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v10
+        with:
+          version: "latest"
+
+      # Results live on their own branch so hourly updates don't clutter main
+      # or trigger site rebuilds. The site reads health.json from there directly.
+      # A failed fetch must fail the run, otherwise the force push below would
+      # replace 30 days of history with a single sample.
+      - name: Fetch previous results
+        run: |
+          if git ls-remote --exit-code --heads origin status-data; then
+            git fetch origin status-data
+            git show FETCH_HEAD:health.json > /tmp/health.json
+          else
+            echo "No status-data branch yet, starting a new history"
+          fi
+
+      - name: Check endpoints
+        run: uv run scripts/check_endpoints.py /tmp/health.json
+
+      # The file holds the whole history, so the branch is rewritten as a single
+      # commit instead of growing by one commit per hour.
+      - name: Publish results
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git checkout --orphan status-data-new
+          git rm -rf --cached --quiet .
+          cp /tmp/health.json health.json
+          git add health.json
+          git commit --quiet -m "Endpoint health results [automated]"
+          git push --force origin status-data-new:status-data

@@ -47,7 +47,6 @@ This guide helps you choose the right API or data source for your Dresden public
 - Extremely simple format
 - No parsing complexity
 - Lightweight responses
-- Works everywhere
 - No authentication
 
 **Cons**
@@ -57,6 +56,7 @@ This guide helps you choose the right API or data source for your Dresden public
 - Basic data only
 - No route planning
 - Commercial use prohibited
+- HTTP only, so browsers block it on HTTPS pages
 
 **Best for**: Hobby projects, home displays, simple widgets
 
@@ -69,12 +69,12 @@ This guide helps you choose the right API or data source for your Dresden public
 - Modern JSON format
 - Mobile-optimized
 - Comprehensive data
+- CORS enabled, usable from browsers
 
 **Cons**
 
 - Undocumented (community reverse-engineered)
 - May change without notice
-- No CORS support
 - No official support
 
 **Best for**: Mobile apps, web applications, home automation
@@ -96,6 +96,7 @@ This guide helps you choose the right API or data source for your Dresden public
 - Verbose responses
 - Steeper learning curve
 - Larger payloads
+- HTTP only and no CORS preflight support, so not usable from browsers
 
 **Best for**: Professional applications, long-term projects, commercial use
 

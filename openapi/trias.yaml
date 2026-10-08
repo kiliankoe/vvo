@@ -1,0 +1,300 @@
+openapi: 3.1.0
+info:
+  title: VVO TRIAS API
+  version: "1.2"
+  summary: VVO's official, standards-based XML API (VDV 431-2).
+  description: |
+    TRIAS (Traveller Realtime Information and Advisory Standard) is VVO's
+    official XML interface. It implements VDV 431-2, versions 1.1 and 1.2,
+    and offers stop search, departure boards and journey planning with
+    realtime data.
+
+    All services share one endpoint. The service is selected by the element
+    inside `RequestPayload`. This spec does not model the XML schema; see the
+    VDV 431-2 specification and the official XSD files for the full structure.
+
+    - Specification: [VDV 431-2 v1.2 (PDF)](https://www.vdv.de/431-2-sdsv1.2.pdfx?forced=false)
+    - XML schema: [VDVde/TRIAS](https://github.com/VDVde/TRIAS)
+    - Contact and API keys: opendata@vvo-online.de
+
+    No authentication is needed for basic access. Send
+    `<siri:RequestorRef>OpenService</siri:RequestorRef>`.
+
+    Browser limitations: the endpoint is only reachable over plain `http` on
+    port 8080, so browsers block requests from `https` pages (mixed content).
+    It also answers CORS preflight (`OPTIONS`) requests with 404, so even
+    from an `http` page a browser cannot send XML to it. "Try it" from a
+    documentation page will not work. Use curl or a server-side client.
+
+    Errors in the request content are reported inside the response's
+    `DeliveryPayload` as an `ErrorMessage` element with HTTP 200. Malformed
+    XML or an unsupported content type yields HTTP 400 with an HTML body.
+  contact:
+    name: kiliankoe/vvo
+    url: https://github.com/kiliankoe/vvo
+externalDocs:
+  description: TRIAS documentation (Markdown)
+  url: https://github.com/kiliankoe/vvo/blob/main/documentation/trias.md
+servers:
+  - url: http://efa.vvo-online.de:8080/std3
+# No authentication; requests identify themselves with RequestorRef.
+security: []
+tags:
+  - name: TRIAS
+    description: Single endpoint for all TRIAS services.
+
+paths:
+  /trias:
+    post:
+      tags: [TRIAS]
+      operationId: trias
+      summary: TRIAS request
+      description: |
+        Send a `Trias` document with one `ServiceRequest`. Set
+        `RequestTimestamp` to the current time.
+
+        Stops are referenced by DHID, for example `de:14612:28` for Dresden
+        Hauptbahnhof. Some stop names only match with a city prefix
+        ("Dresden Postplatz" instead of "Postplatz").
+      requestBody:
+        required: true
+        description: "`Content-Type` must be `application/xml` or `text/xml`; `text/plain` is rejected."
+        content:
+          application/xml:
+            schema:
+              $ref: "#/components/schemas/TriasDocument"
+            examples:
+              LocationInformationRequest:
+                summary: Stop search
+                description: Find stops, addresses or POIs by name or coordinate.
+                value: |
+                  <?xml version="1.0" encoding="UTF-8"?>
+                  <Trias xmlns="trias" xmlns:siri="http://www.siri.org.uk/siri" version="1.2">
+                    <ServiceRequest>
+                      <siri:RequestTimestamp>2026-10-08T13:00:00Z</siri:RequestTimestamp>
+                      <siri:RequestorRef>OpenService</siri:RequestorRef>
+                      <RequestPayload>
+                        <LocationInformationRequest>
+                          <InitialInput>
+                            <LocationName>Hauptbahnhof</LocationName>
+                          </InitialInput>
+                          <Restrictions>
+                            <Type>stop</Type>
+                            <NumberOfResults>10</NumberOfResults>
+                            <IncludePtModes>true</IncludePtModes>
+                          </Restrictions>
+                        </LocationInformationRequest>
+                      </RequestPayload>
+                    </ServiceRequest>
+                  </Trias>
+              StopEventRequest:
+                summary: Departure board
+                description: Departures or arrivals at a stop, with realtime data and situations.
+                value: |
+                  <?xml version="1.0" encoding="UTF-8"?>
+                  <Trias xmlns="trias" xmlns:siri="http://www.siri.org.uk/siri" version="1.2">
+                    <ServiceRequest>
+                      <siri:RequestTimestamp>2026-10-08T13:00:00Z</siri:RequestTimestamp>
+                      <siri:RequestorRef>OpenService</siri:RequestorRef>
+                      <RequestPayload>
+                        <StopEventRequest>
+                          <Location>
+                            <LocationRef>
+                              <StopPointRef>de:14612:28</StopPointRef>
+                            </LocationRef>
+                          </Location>
+                          <Params>
+                            <NumberOfResults>10</NumberOfResults>
+                            <StopEventType>departure</StopEventType>
+                            <IncludeRealtimeData>true</IncludeRealtimeData>
+                            <IncludeOperatingDays>false</IncludeOperatingDays>
+                          </Params>
+                        </StopEventRequest>
+                      </RequestPayload>
+                    </ServiceRequest>
+                  </Trias>
+              TripRequest:
+                summary: Journey planning
+                description: Plan journeys between two locations.
+                value: |
+                  <?xml version="1.0" encoding="UTF-8"?>
+                  <Trias xmlns="trias" xmlns:siri="http://www.siri.org.uk/siri" version="1.2">
+                    <ServiceRequest>
+                      <siri:RequestTimestamp>2026-10-08T13:00:00Z</siri:RequestTimestamp>
+                      <siri:RequestorRef>OpenService</siri:RequestorRef>
+                      <RequestPayload>
+                        <TripRequest>
+                          <Origin>
+                            <LocationRef>
+                              <StopPointRef>de:14612:28</StopPointRef>
+                            </LocationRef>
+                          </Origin>
+                          <Destination>
+                            <LocationRef>
+                              <StopPointRef>de:14612:201</StopPointRef>
+                            </LocationRef>
+                          </Destination>
+                          <Params>
+                            <NumberOfResults>5</NumberOfResults>
+                            <IncludeTrackSections>true</IncludeTrackSections>
+                            <IncludeIntermediateStops>true</IncludeIntermediateStops>
+                            <IncludeFares>false</IncludeFares>
+                          </Params>
+                        </TripRequest>
+                      </RequestPayload>
+                    </ServiceRequest>
+                  </Trias>
+          text/xml:
+            schema:
+              $ref: "#/components/schemas/TriasDocument"
+      responses:
+        "200":
+          description: |
+            A `trias:Trias` document with a `ServiceDelivery`. Errors in the
+            request content are returned here too, as an `ErrorMessage`
+            inside the service-specific response element.
+          content:
+            text/xml:
+              schema:
+                $ref: "#/components/schemas/TriasDocument"
+              examples:
+                LocationInformationResponse:
+                  summary: Stop search result (shortened)
+                  value: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <trias:Trias xmlns:siri="http://www.siri.org.uk/siri" xmlns:trias="http://www.vdv.de/trias" version="1.2">
+                      <trias:ServiceDelivery>
+                        <siri:ResponseTimestamp>2026-10-08T13:14:31Z</siri:ResponseTimestamp>
+                        <siri:ProducerRef>DELIVVO2019</siri:ProducerRef>
+                        <siri:Status>true</siri:Status>
+                        <trias:Language>de</trias:Language>
+                        <trias:CalcTime>103</trias:CalcTime>
+                        <trias:DeliveryPayload>
+                          <trias:LocationInformationResponse>
+                            <trias:LocationResult>
+                              <trias:Location>
+                                <trias:StopPoint>
+                                  <trias:StopPointRef>de:14612:28</trias:StopPointRef>
+                                  <trias:StopPointName>
+                                    <trias:Text>Hauptbahnhof</trias:Text>
+                                    <trias:Language>de</trias:Language>
+                                  </trias:StopPointName>
+                                  <trias:LocalityRef>14612000:1</trias:LocalityRef>
+                                </trias:StopPoint>
+                                <trias:LocationName>
+                                  <trias:Text>Dresden</trias:Text>
+                                  <trias:Language>de</trias:Language>
+                                </trias:LocationName>
+                                <trias:GeoPosition>
+                                  <trias:Longitude>13.73293</trias:Longitude>
+                                  <trias:Latitude>51.03993</trias:Latitude>
+                                </trias:GeoPosition>
+                              </trias:Location>
+                              <trias:Complete>true</trias:Complete>
+                              <trias:Probability>1</trias:Probability>
+                              <trias:Mode>
+                                <trias:PtMode>tram</trias:PtMode>
+                                <trias:TramSubmode>cityTram</trias:TramSubmode>
+                              </trias:Mode>
+                            </trias:LocationResult>
+                          </trias:LocationInformationResponse>
+                        </trias:DeliveryPayload>
+                      </trias:ServiceDelivery>
+                    </trias:Trias>
+                StopEventResponse:
+                  summary: One departure (shortened)
+                  value: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <trias:Trias xmlns:siri="http://www.siri.org.uk/siri" xmlns:trias="http://www.vdv.de/trias" version="1.2">
+                      <trias:ServiceDelivery>
+                        <siri:ResponseTimestamp>2026-10-08T13:14:31Z</siri:ResponseTimestamp>
+                        <siri:ProducerRef>DELIVVO2019</siri:ProducerRef>
+                        <siri:Status>true</siri:Status>
+                        <trias:DeliveryPayload>
+                          <trias:StopEventResponse>
+                            <trias:StopEventResult>
+                              <trias:ResultId>ID-4A29220C-980E-4CCE-95D7-DD49C57FD27D</trias:ResultId>
+                              <trias:StopEvent>
+                                <trias:ThisCall>
+                                  <trias:CallAtStop>
+                                    <trias:StopPointRef>de:14612:28:8:Gleis18</trias:StopPointRef>
+                                    <trias:StopPointName>
+                                      <trias:Text>Dresden Hauptbahnhof</trias:Text>
+                                      <trias:Language>de</trias:Language>
+                                    </trias:StopPointName>
+                                    <trias:PlannedBay>
+                                      <trias:Text>13</trias:Text>
+                                      <trias:Language>de</trias:Language>
+                                    </trias:PlannedBay>
+                                    <trias:ServiceDeparture>
+                                      <trias:TimetabledTime>2026-10-08T13:10:00Z</trias:TimetabledTime>
+                                      <trias:EstimatedTime>2026-10-08T13:14:00Z</trias:EstimatedTime>
+                                    </trias:ServiceDeparture>
+                                    <trias:StopSeqNumber>8</trias:StopSeqNumber>
+                                  </trias:CallAtStop>
+                                </trias:ThisCall>
+                                <trias:Service>
+                                  <trias:OperatingDayRef>2026-10-08</trias:OperatingDayRef>
+                                  <trias:JourneyRef>ddb:92D02::R:j26:171</trias:JourneyRef>
+                                  <trias:ServiceSection>
+                                    <trias:LineRef>ddb:92D02::R</trias:LineRef>
+                                    <trias:DirectionRef>inward</trias:DirectionRef>
+                                    <trias:Mode>
+                                      <trias:PtMode>rail</trias:PtMode>
+                                      <trias:RailSubmode>suburbanRailway</trias:RailSubmode>
+                                    </trias:Mode>
+                                    <trias:PublishedLineName>
+                                      <trias:Text>S2</trias:Text>
+                                      <trias:Language>de</trias:Language>
+                                    </trias:PublishedLineName>
+                                  </trias:ServiceSection>
+                                  <trias:DestinationText>
+                                    <trias:Text>Pirna Bahnhof</trias:Text>
+                                    <trias:Language>de</trias:Language>
+                                  </trias:DestinationText>
+                                </trias:Service>
+                              </trias:StopEvent>
+                            </trias:StopEventResult>
+                          </trias:StopEventResponse>
+                        </trias:DeliveryPayload>
+                      </trias:ServiceDelivery>
+                    </trias:Trias>
+                ErrorMessage:
+                  summary: No results
+                  value: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <trias:Trias xmlns:siri="http://www.siri.org.uk/siri" xmlns:trias="http://www.vdv.de/trias" version="1.2">
+                      <trias:ServiceDelivery>
+                        <siri:ResponseTimestamp>2026-10-08T13:14:40Z</siri:ResponseTimestamp>
+                        <siri:ProducerRef>DELIVVO2019</siri:ProducerRef>
+                        <siri:Status>true</siri:Status>
+                        <trias:DeliveryPayload>
+                          <trias:LocationInformationResponse>
+                            <trias:ErrorMessage>
+                              <trias:Code>-8014</trias:Code>
+                              <trias:Text>
+                                <trias:Text>LOCATION_NORESULTS</trias:Text>
+                                <trias:Language>de</trias:Language>
+                              </trias:Text>
+                            </trias:ErrorMessage>
+                          </trias:LocationInformationResponse>
+                        </trias:DeliveryPayload>
+                      </trias:ServiceDelivery>
+                    </trias:Trias>
+        "400":
+          description: Malformed XML or unsupported content type. The body is an HTML error page.
+          content:
+            text/html:
+              schema:
+                type: string
+
+components:
+  schemas:
+    TriasDocument:
+      type: string
+      description: |
+        A TRIAS XML document as defined by VDV 431-2. See
+        https://github.com/VDVde/TRIAS for the XSD.
+      externalDocs:
+        description: TRIAS XML schema
+        url: https://github.com/VDVde/TRIAS

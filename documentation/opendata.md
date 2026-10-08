@@ -12,18 +12,20 @@ The datasets are available through a standardized OGC API Features interface.
 https://kommisdd.dresden.de/net4/public/ogcapi/collections/{LAYER_ID}/items
 ```
 
-### Available Formats
-- **GeoJSON**: Geographic data in GeoJSON format (default)
-- **JSON**: Structured data without geometry conversion
+Features are returned as GeoJSON (`application/geo+json`). The list of collections and their metadata are available as JSON with `?f=json`.
+
+The server publishes its own OpenAPI document at `https://kommisdd.dresden.de/net4/public/ogcapi/Api`, but it only covers the landing page, conformance and collection list. A description of the feature endpoints used here is available at [`openapi/opendata.yaml`](../openapi/opendata.yaml).
 
 ### Query Parameters
-- `limit`: Number of returned records (default: 10, maximum: varies)
-- `offset`: For pagination of larger datasets
-- Additional OGC-compliant filters depending on dataset
+- `limit`: Maximum number of returned features. Without it, all features of the collection are returned
+- `bbox`: Bounding box as `minLon,minLat,maxLon,maxLat` in WGS84
+- `crs`: Output coordinate system, `http://www.opengis.net/def/crs/EPSG/0/4326` (default) or `http://www.opengis.net/def/crs/EPSG/0/25833`
+
+`offset` is not supported and returns an error. Filtering by attribute values is not supported either; unknown parameters are ignored. Errors are returned with HTTP 200 as a JSON object with `code` and `description`.
 
 ### Coordinate System
-- **EPSG:4326** (WGS84) for GeoJSON output
-- **EPSG:25833** (ETRS89 / UTM zone 33N) for internal storage
+- **EPSG:4326** (WGS84) for GeoJSON output by default
+- **EPSG:25833** (ETRS89 / UTM zone 33N) for internal storage, also available via the `crs` parameter
 
 ## Overview of Available Public Transit Datasets
 
@@ -57,7 +59,8 @@ https://kommisdd.dresden.de/net4/public/ogcapi/collections/{LAYER_ID}/items
   - **Attributes**:
     - `slinie`: Line number
     - `anfang`/`ende`: Start and end stops
-    - `takt`: Service frequency in minutes
+    - `takt`: Service frequency. All tram lines have `6.0`, which matches a 10-minute frequency, so this is likely departures per hour (unconfirmed)
+    - `takt_bemerkung`: Frequency as text, e.g. `oft` (frequent)
     - `verkehrsmittel`: Transport mode type (STRABA)
     - `url_linienaenderung`: Link to current changes
   - **Geometry**: MultiLineString (line route)
@@ -83,7 +86,8 @@ https://kommisdd.dresden.de/net4/public/ogcapi/collections/{LAYER_ID}/items
   - **Attributes**:
     - `buslinie`: Line number
     - `anfang`/`ende`: Start and end stops
-    - `takt`: Service frequency (1=infrequent, 2=frequent)
+    - `takt`: Service frequency, likely departures per hour (values between `0.01` and `7.0`, unconfirmed)
+    - `takt_bemerkung`: Frequency as text, `oft` (frequent) or `selten, nach Bedarf` (infrequent, on demand)
     - `verkehrsmittel`: Type (SBUS, etc.)
   - **Geometry**: LineString or MultiLineString
 
@@ -105,10 +109,10 @@ https://kommisdd.dresden.de/net4/public/ogcapi/collections/{LAYER_ID}/items
   - `hst_name`: Stop name
   - `steig`: Platform number
   - `verkehrende_linien`: Serving lines
-  - `verkehrsmittel`: Transport mode type
-  - `globale_id`: VVO stop identifier
+  - `verkehrsmittel`: Transport mode type, e.g. `Bus`, `Straßenbahn`, `Straßenbahn und Bus`
+  - `globale_id`: DHID of the platform, e.g. `de:14612:13:3:5`
 - **Accessibility Attributes**:
-  - `best_einstieg`: Boarding accessibility rating (10-40)
+  - `best_einstieg`: Boarding accessibility rating (10-50)
   - `bordhoehe`: Curb height in cm
   - `breite`: Waiting area width in m
   - `ls_txt`: Tactile paving strips present
@@ -143,7 +147,7 @@ import json
 # Fetch all tram lines
 url = "https://kommisdd.dresden.de/net4/public/ogcapi/collections/L457/items"
 params = {
-    "limit": 50  # Fetch all lines
+    "limit": 50  # More than the number of tram lines
 }
 
 response = requests.get(url, params=params)
@@ -153,7 +157,7 @@ data = response.json()
 for feature in data["features"]:
     props = feature["properties"]
     print(f"Line {props['slinie']}: {props['anfang']} - {props['ende']}")
-    print(f"  Frequency: {props['takt']} minutes ({props['takt_bemerkung']})")
+    print(f"  Frequency: {props['takt']} ({props['takt_bemerkung']})")
     print(f"  Changes: {props['url_linienaenderung']}")
     print()
 ```
@@ -187,10 +191,10 @@ fetch(`${url}?${params}`)
 ### curl Example: Filter Bus Lines by Frequency
 
 ```bash
-# Fetch all frequently running bus lines (takt=2)
+# Fetch all frequently running bus lines
 curl -X GET \
   "https://kommisdd.dresden.de/net4/public/ogcapi/collections/L1076/items?limit=100" \
-  | jq '.features[] | select(.properties.takt == 2) |
+  | jq '.features[] | select(.properties.takt_bemerkung == "oft") |
          {line: .properties.buslinie,
           route: (.properties.anfang + " - " + .properties.ende)}'
 ```
@@ -211,7 +215,7 @@ curl -X GET \
 - Construction-related changes not always included
 
 ### Performance
-- Large datasets should be paginated using `limit` and `offset`
+- Without `limit`, a request returns the whole dataset. Paging with `offset` is not supported; use `bbox` to fetch smaller parts
 - GeoJSON format can become large with complex geometries
 - Observe cache headers for efficient usage
 
@@ -229,5 +233,6 @@ curl -X GET \
 - [OGC API Features Specification](https://ogcapi.ogc.org/features/)
 
 ### Tools and Libraries
-- [dresden-opendata-mcp](https://github.com/kiliankoe/dresden-opendata-mcp) - MCP Tool for Dresden Open Data
+- [Dresden Open Data Suche](https://opendata.dresden.lol/) - Search all datasets of the Dresden open data portal and view them on a map
+- [opendata-dresden](https://github.com/kiliankoe/opendata-dresden) - Source of the search page above, plus a CLI and MCP server for the same data
 - [QGIS](https://qgis.org/) - Open Source GIS for geodata visualization

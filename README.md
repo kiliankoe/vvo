@@ -8,6 +8,8 @@ This document is inspired by [derhuerst/vbb-modules](https://github.com/derhuers
 
 Got any more info, details, links? Please don't hesitate to open an issue and/or PR!
 
+The [website](https://oepnv.dresden.lol/) renders these docs together with interactive API references, live network status, endpoint health checks and searchable stop data.
+
 ![DVB transit map](./data/liniennetzplan.jpg)
 
 ## Documentation Overview
@@ -20,6 +22,7 @@ Got any more info, details, links? Please don't hesitate to open an issue and/or
 - **[SIRI ET Real-Time Data](documentation/siri.md)** - DELFI real-time feed with delays, cancellations, and occupancy
 - **[Dresden OpenData](documentation/opendata.md)** - Geographic transit datasets via OGC API Features (lines, stops, accessibility)
 - **[TLMS Live Vehicle Positions](documentation/tlms.md)** - Community WebSocket feed of live vehicle positions from R09 telegrams
+- **[OpenAPI specs](openapi/)** - Machine-readable descriptions of the WebAPI, Widget API, TRIAS and Dresden OpenData endpoints, for client generators and tools like Postman
 
 ## Legal Information
 
@@ -47,6 +50,15 @@ For commercial applications or high-volume usage, contact VVO at opendata@vvo-on
 - [`liniennetzplan.pdf`](https://raw.githubusercontent.com/kiliankoe/vvo/master/data/liniennetzplan.pdf) - Current DVB standard network map (PDF)
 - [`VVO_STOPS.JSON`](https://www.vvo-online.de/open_data/VVO_STOPS.JSON) - Official daily updated station data (external)
 - [`PuR.JSON`](https://www.vvo-online.de/open_data/PuR.JSON) - Official park and ride data (external)
+
+## Development
+
+The data in `data/` and the endpoint health results are updated by the GitHub Actions in `.github/workflows/`. The website lives in `site/` and is built with [Astro Starlight](https://starlight.astro.build/). It reads the markdown in `documentation/`, the specs in `openapi/` and the files in `data/` at build time, so there is no second copy to keep in sync.
+
+```sh
+nix develop   # or direnv allow, provides Node.js, pnpm and uv
+cd site && pnpm install && pnpm dev
+```
 
 ## APIs
 

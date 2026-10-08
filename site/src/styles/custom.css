@@ -1,0 +1,180 @@
+/* Small set of shared building blocks for the custom pages. Colors come from
+   Starlight's variables so light and dark mode work without extra rules. */
+
+/* Accent derived from the green in the VVO logo (#159a34). The light-mode shade is
+   darker so links reach WCAG AA contrast (5.1:1) on white. */
+:root {
+	--sl-color-accent-low: #0d3317;
+	--sl-color-accent: #159a34;
+	--sl-color-accent-high: #6fd18a;
+}
+:root[data-theme='light'] {
+	--sl-color-accent-low: #c8ecd1;
+	--sl-color-accent: #11802b;
+	--sl-color-accent-high: #0b4f1b;
+}
+
+:root {
+	--vvo-ok: #1a7f37;
+	--vvo-warn: #9a6700;
+	--vvo-bad: #cf222e;
+}
+:root[data-theme='dark'] {
+	--vvo-ok: #3fb950;
+	--vvo-warn: #d29922;
+	--vvo-bad: #f85149;
+}
+
+.stats {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+	gap: 0.75rem;
+}
+.stats > div {
+	border: 1px solid var(--sl-color-gray-5);
+	border-radius: 0.5rem;
+	padding: 0.75rem 1rem;
+	margin: 0;
+}
+.stats strong {
+	display: block;
+	font-size: var(--sl-text-2xl);
+	line-height: 1.2;
+	color: var(--sl-color-white);
+}
+.stats span {
+	font-size: var(--sl-text-sm);
+	color: var(--sl-color-gray-3);
+}
+
+.muted {
+	color: var(--sl-color-gray-3);
+	font-size: var(--sl-text-sm);
+}
+
+.chip {
+	display: inline-block;
+	padding: 0 0.4rem;
+	margin: 0.1rem 0.15rem 0.1rem 0;
+	border-radius: 0.3rem;
+	border: 1px solid var(--sl-color-gray-5);
+	font-size: var(--sl-text-xs);
+	font-variant-numeric: tabular-nums;
+	white-space: nowrap;
+}
+
+.dot {
+	display: inline-block;
+	width: 0.6rem;
+	height: 0.6rem;
+	border-radius: 50%;
+	background: var(--sl-color-gray-4);
+	margin-right: 0.4rem;
+}
+.ok { color: var(--vvo-ok); }
+.warn { color: var(--vvo-warn); }
+.bad { color: var(--vvo-bad); }
+.dot.ok { background: var(--vvo-ok); }
+.dot.warn { background: var(--vvo-warn); }
+.dot.bad { background: var(--vvo-bad); }
+
+.search {
+	width: 100%;
+	padding: 0.6rem 0.8rem;
+	font: inherit;
+	color: inherit;
+	background: var(--sl-color-black);
+	border: 1px solid var(--sl-color-gray-4);
+	border-radius: 0.5rem;
+}
+/* Starlight's content spacing skips inputs, so add the usual gap around them.
+   Headings keep their own, larger gap. */
+.search,
+.search + :not(h1, h2, h3, h4, h5, h6) {
+	margin-top: var(--sl-content-gap-y);
+}
+.search:focus {
+	outline: 2px solid var(--sl-color-accent);
+	outline-offset: 1px;
+}
+
+/* Wide tables scroll inside their container on small screens. */
+.table-scroll {
+	overflow-x: auto;
+}
+.table-scroll table {
+	display: table;
+	width: 100%;
+}
+.num {
+	text-align: right;
+	white-space: nowrap;
+	font-variant-numeric: tabular-nums;
+}
+
+.list {
+	list-style: none;
+	padding: 0;
+}
+.list > li {
+	border-bottom: 1px solid var(--sl-color-gray-6);
+	padding: 0.6rem 0;
+	margin: 0;
+}
+.list details > summary {
+	cursor: pointer;
+}
+.list .body {
+	font-size: var(--sl-text-sm);
+	margin-top: 0.5rem;
+}
+.list .body h4 {
+	font-size: var(--sl-text-base);
+}
+
+.bars {
+	display: flex;
+	gap: 1px;
+	height: 1.5rem;
+	align-items: stretch;
+}
+.bars > i {
+	flex: 1;
+	margin: 0;
+	min-width: 1px;
+	background: var(--sl-color-gray-5);
+	border-radius: 1px;
+}
+.bars > i.ok { background: var(--vvo-ok); }
+.bars > i.warn { background: var(--vvo-warn); }
+.bars > i.bad { background: var(--vvo-bad); }
+
+/* Secondary table columns give way on phones so the key ones stay readable. */
+@media (max-width: 40rem) {
+	.wide-only {
+		display: none;
+	}
+}
+
+/* Tables with many columns turn into one block per row on phones. */
+@media (max-width: 40rem) {
+	table.stack-narrow thead {
+		display: none;
+	}
+	table.stack-narrow tr,
+	table.stack-narrow td {
+		display: block;
+		margin: 0;
+		border: 0;
+		padding: 0.15rem 0;
+	}
+	table.stack-narrow tr {
+		border-bottom: 1px solid var(--sl-color-gray-6);
+		padding: 0.6rem 0;
+	}
+	table.stack-narrow td[data-label]::before {
+		content: attr(data-label) ': ';
+		color: var(--sl-color-gray-3);
+		font-size: var(--sl-text-sm);
+	}
+}

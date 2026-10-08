@@ -1,0 +1,68 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+---
+
+<StarlightPage
+	frontmatter={{
+		title: 'Stop lookup',
+		description: 'Find VVO stops and their IDs in DHID and WebAPI format, with lines and coordinates.',
+		tableOfContents: false,
+	}}
+>
+	<p>
+		Search by name, place or ID. The DHID (e.g. <code>de:14612:28</code>) is the national stop ID used by TRIAS. The numeric
+		ID (e.g. <code>33000028</code>) is VVO's own and used by the WebAPI and Widget API. Data from <a href={`${import.meta.env.BASE_URL}downloads/`}>stations.json</a>, updated daily.
+	</p>
+	<input class="search" id="q" type="search" placeholder="e.g. Albertplatz, Pirna Bahnhof or 33000028" aria-label="Search stops" autocomplete="off" />
+	<p class="muted" id="count" aria-live="polite"></p>
+	<div class="table-scroll">
+		<table hidden id="table" class="stack-narrow">
+			<thead><tr><th>Stop</th><th>DHID</th><th>WebAPI ID</th><th>Lines</th></tr></thead>
+			<tbody id="rows"></tbody>
+		</table>
+	</div>
+</StarlightPage>
+
+<script>
+	import { el } from '../lib/vvo';
+	import { loadStops, searchStops, type StopRow } from '../lib/stops-search';
+
+	const $ = (id: string) => document.getElementById(id)!;
+	const input = $('q') as HTMLInputElement;
+	const base = import.meta.env.BASE_URL;
+
+	// The same line name can appear under several modes, e.g. a bus that also runs as on-demand service.
+	function chips(lines: Record<string, string[]>) {
+		const modes = new Map<string, string[]>();
+		for (const [mode, names] of Object.entries(lines)) for (const n of names) modes.set(n, [...(modes.get(n) ?? []), mode]);
+		return [...modes]
+			.sort(([a], [b]) => a.localeCompare(b, 'de', { numeric: true }))
+			.map(([name, m]) => el('span', { class: 'chip', title: m.join(', ') }, name));
+	}
+
+	function row([id, numericId, name, city, lat, lon, lines]: StopRow) {
+		const osm = `https://www.openstreetmap.org/?mlat=${lat}&mlon=${lon}#map=18/${lat}/${lon}`;
+		return el(
+			'tr',
+			{},
+			el('td', {}, el('strong', {}, name), el('br'), el('span', { class: 'muted' }, city, ' · '), el('a', { href: osm, class: 'muted' }, 'map'), el('span', { class: 'muted' }, ' · '), el('a', { href: `${base}departures/?stop=${numericId}`, class: 'muted' }, 'departures')),
+			el('td', { 'data-label': 'DHID' }, el('code', {}, id)),
+			el('td', { 'data-label': 'WebAPI ID' }, el('code', {}, numericId)),
+			el('td', {}, ...chips(lines)),
+		);
+	}
+
+	async function update() {
+		const query = input.value;
+		const params = new URLSearchParams(query ? { q: query } : {});
+		history.replaceState(null, '', params.size ? `?${params}` : location.pathname);
+		const results = searchStops(await loadStops(), query, 100);
+		$('table').hidden = !results.length;
+		$('rows').replaceChildren(...results.map(row));
+		$('count').textContent = !query ? '' : results.length === 100 ? 'First 100 matches' : results.length === 1 ? '1 match' : results.length ? `${results.length} matches` : 'No stops found.';
+	}
+
+	input.addEventListener('input', update);
+	input.value = new URLSearchParams(location.search).get('q') ?? '';
+	if (input.value) update();
+</script>

@@ -1,0 +1,121 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { HEALTH_URL, REPO_URL } from '../lib/config';
+---
+
+<StarlightPage
+	frontmatter={{
+		title: 'Endpoint health',
+		description: 'Hourly availability checks of every documented VVO API and data feed.',
+		tableOfContents: false,
+	}}
+>
+	<p>
+		A <a href={`${REPO_URL}/blob/main/.github/workflows/health-check.yml`}>GitHub Action</a> calls each documented endpoint
+		once an hour with a small request. Feeds count as degraded when their data is older than expected.{' '}
+		<span class="muted" id="updated"></span>
+	</p>
+
+	<div class="stats" id="stats">
+		<div><strong>…</strong><span>endpoints up</span></div>
+		<div><strong>…</strong><span>degraded</span></div>
+		<div><strong>…</strong><span>down</span></div>
+	</div>
+
+	<div id="groups" aria-live="polite"></div>
+	<p class="muted" id="error" hidden></p>
+
+	<p class="muted">
+		Bars show the last 48 checks, oldest on the left. Raw results: <a href={HEALTH_URL}>health.json</a>.
+	</p>
+</StarlightPage>
+
+<script>
+	import { el, formatTime } from '../lib/vvo';
+	import { HEALTH_URL } from '../lib/config';
+
+	type Result = [status: 0 | 1 | 2, ms: number, note?: string];
+	interface History {
+		checks: { id: string; group: string; name: string; docs: string; url: string }[];
+		samples: { t: string; r: Record<string, Result> }[];
+	}
+
+	const LABEL = ['down', 'up', 'degraded'] as const;
+	const CLASS = ['bad', 'ok', 'warn'] as const;
+	const $ = (id: string) => document.getElementById(id)!;
+	const base = import.meta.env.BASE_URL;
+
+	function uptime(results: (Result | undefined)[]) {
+		const known = results.filter((r): r is Result => !!r);
+		if (!known.length) return '–';
+		return `${((100 * known.filter((r) => r[0] !== 0).length) / known.length).toFixed(1)} %`;
+	}
+
+	async function load() {
+		const res = await fetch(HEALTH_URL, { cache: 'no-cache' });
+		// The branch only exists after the workflow's first run.
+		if (res.status === 404) throw new Error('no results published yet');
+		if (!res.ok) throw new Error(`HTTP ${res.status}`);
+		const history: History = await res.json();
+		const samples = history.samples;
+		const latest = samples.at(-1);
+		if (!latest) throw new Error('no results yet');
+		const since = (hours: number) => samples.filter((s) => Date.parse(s.t) >= Date.parse(latest.t) - hours * 3_600_000);
+
+		const counts = [0, 0, 0];
+		for (const c of history.checks) counts[latest.r[c.id]?.[0] ?? 0]++;
+		$('stats').children[0].querySelector('strong')!.textContent = `${counts[1]} / ${history.checks.length}`;
+		$('stats').children[1].querySelector('strong')!.textContent = String(counts[2]);
+		$('stats').children[2].querySelector('strong')!.textContent = String(counts[0]);
+		$('updated').textContent = `Last check: ${new Date(latest.t).toLocaleString('de-DE', { timeZone: 'Europe/Berlin', dateStyle: 'short', timeStyle: 'short' })}.`;
+
+		const groups = Map.groupBy(history.checks, (c) => c.group);
+		$('groups').replaceChildren(
+			...[...groups].flatMap(([group, checks]) => [
+				el('h2', {}, group),
+				el(
+					'div',
+					{ class: 'table-scroll' },
+					el(
+						'table',
+						{},
+						el('thead', {}, el('tr', {}, el('th', {}, 'Endpoint'), el('th', {}, 'Last 48 checks'), el('th', { class: 'num wide-only' }, 'Response'), el('th', { class: 'num' }, '24 h'), el('th', { class: 'num wide-only' }, '30 d'))),
+						el(
+							'tbody',
+							{},
+							...checks.map((c) => {
+								const now = latest.r[c.id];
+								const bars = samples.slice(-48).map((s) => {
+									const r = s.r[c.id];
+									const title = `${formatTime(new Date(s.t))}: ${r ? LABEL[r[0]] : 'not checked'}${r?.[2] ? ` (${r[2]})` : ''}`;
+									return el('i', { class: r ? CLASS[r[0]] : '', title });
+								});
+								return el(
+									'tr',
+									{},
+									el(
+										'td',
+										{},
+										el('span', { class: `dot ${now ? CLASS[now[0]] : ''}`, 'aria-label': now ? LABEL[now[0]] : 'unknown' }),
+										el('a', { href: `${base}${c.docs}` }, c.name),
+										now?.[2] ? el('div', { class: `muted ${CLASS[now[0]]}` }, now[2]) : null,
+									),
+									el('td', { style: 'min-width: 8rem' }, el('div', { class: 'bars' }, ...bars)),
+									el('td', { class: 'num wide-only' }, now ? `${now[1]} ms` : '–'),
+									el('td', { class: 'num' }, uptime(since(24).map((s) => s.r[c.id]))),
+									el('td', { class: 'num wide-only' }, uptime(samples.map((s) => s.r[c.id]))),
+								);
+							}),
+						),
+					),
+				),
+			]),
+		);
+	}
+
+	load().catch((err) => {
+		for (const tile of Array.from($('stats').children)) tile.querySelector('strong')!.textContent = '–';
+		$('error').hidden = false;
+		$('error').textContent = `Could not load health results: ${err.message}.`;
+	});
+</script>

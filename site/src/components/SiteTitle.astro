@@ -1,0 +1,36 @@
+---
+import Default from '@astrojs/starlight/components/SiteTitle.astro';
+---
+
+<div class="title">
+	<Default />
+	<span class="tag">unofficial</span>
+</div>
+
+<style>
+	/* One gap between logo, title and badge. Starlight's own gap is wider. */
+	.title {
+		--title-gap: 0.6rem;
+		display: flex;
+		align-items: center;
+		gap: var(--title-gap);
+		min-width: 0;
+	}
+	.title :global(.site-title) {
+		gap: var(--title-gap);
+	}
+	.tag {
+		padding: 0 0.4rem;
+		border: 1px solid var(--sl-color-gray-4);
+		border-radius: 0.3rem;
+		color: var(--sl-color-gray-3);
+		font-size: var(--sl-text-xs);
+		white-space: nowrap;
+	}
+	/* The banner carries the message on phones, where header space is scarce. */
+	@media (max-width: 30rem) {
+		.tag {
+			display: none;
+		}
+	}
+</style>

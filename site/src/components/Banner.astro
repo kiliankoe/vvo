@@ -1,0 +1,24 @@
+---
+import { REPO_URL } from '../lib/config';
+---
+
+<!-- Shown on every page so nobody mistakes the site for an official VVO or DVB service. -->
+<div class="unofficial-banner" data-pagefind-ignore>
+	Unofficial community project, not affiliated with VVO or DVB. Data may be incomplete or out of date.{' '}
+	<a href={REPO_URL}>Contribute on GitHub</a>
+</div>
+
+<style>
+	.unofficial-banner {
+		padding: 0.4rem var(--sl-nav-pad-x);
+		background: var(--sl-color-gray-6);
+		color: var(--sl-color-gray-2);
+		font-size: var(--sl-text-xs);
+		text-align: center;
+		text-wrap: balance;
+		border-bottom: 1px solid var(--sl-color-hairline);
+	}
+	.unofficial-banner a {
+		color: inherit;
+	}
+</style>

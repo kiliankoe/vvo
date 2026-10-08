@@ -1,0 +1,352 @@
+openapi: 3.1.0
+info:
+  title: Dresden Open Data (OGC API Features)
+  version: "2026-10-08"
+  summary: Geodata of the City of Dresden, including transit lines and stops.
+  description: |
+    The City of Dresden publishes its geodata through an
+    [OGC API Features](https://ogcapi.ogc.org/features/) server. This
+    document covers only the parts used by the transit datasets described in
+    the Markdown docs. The server itself publishes an OpenAPI document at
+    `https://kommisdd.dresden.de/net4/public/ogcapi/Api`, but that one
+    only describes the landing page, conformance and collection list, not
+    the feature endpoints.
+
+    Server behavior that differs from the OGC defaults (checked on the date
+    in the version field):
+
+    - Without `limit`, `items` returns all features of a collection.
+    - `offset` is not supported and returns an error.
+    - Filtering by property values is not supported; unknown query
+      parameters are ignored.
+    - Responses have no `next` links and no `numberMatched`.
+    - Errors such as an unknown collection or an unsupported parameter come
+      back with HTTP 200 and a `{code, description}` JSON object.
+
+    The server sends `Access-Control-Allow-Origin: *`.
+
+    **License:** Open Data license of the City of Dresden. Attribution
+    "Landeshauptstadt Dresden" is required; commercial use is permitted.
+  contact:
+    name: kiliankoe/vvo
+    url: https://github.com/kiliankoe/vvo
+externalDocs:
+  description: Dresden Open Data documentation (Markdown)
+  url: https://github.com/kiliankoe/vvo/blob/main/documentation/opendata.md
+servers:
+  - url: https://kommisdd.dresden.de/net4/public/ogcapi
+# No authentication.
+security: []
+tags:
+  - name: Collections
+    description: Dataset metadata.
+  - name: Features
+    description: Dataset contents as GeoJSON.
+
+paths:
+  /collections:
+    get:
+      tags: [Collections]
+      operationId: getCollections
+      summary: List collections
+      description: List all datasets (several hundred). Transit datasets are listed in the Markdown docs.
+      parameters:
+        - name: f
+          in: query
+          schema: { type: string, enum: [json] }
+          example: json
+          description: Response format. Use `json`; browsers otherwise get HTML.
+      responses:
+        "200":
+          description: Collections.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Collections"
+
+  /collections/{collectionId}:
+    get:
+      tags: [Collections]
+      operationId: describeCollection
+      summary: Describe a collection
+      description: Metadata of one dataset, including its attribute names and types.
+      parameters:
+        - $ref: "#/components/parameters/collectionId"
+        - name: f
+          in: query
+          schema: { type: string, enum: [json] }
+          example: json
+      responses:
+        "200":
+          description: Collection metadata.
+          content:
+            application/json:
+              schema:
+                oneOf:
+                  - $ref: "#/components/schemas/Collection"
+                  - $ref: "#/components/schemas/Error"
+              example:
+                id: L457
+                title: Straßenbahnlinien
+                links:
+                  - rel: items
+                    type: application/geo+json
+                    title: Datenabruf der Ebene
+                    href: https://kommisdd.dresden.de/net4/public/ogcapi/collections/L457/items?limit=10
+                extent:
+                  spatial:
+                    bbox:
+                      - [399652.9748, 5650402.6549, 419770.487, 5668600.1244]
+                    crs: http://www.opengis.net/def/crs/EPSG/0/25833
+                crs:
+                  - http://www.opengis.net/def/crs/EPSG/0/4326
+                  - http://www.opengis.net/def/crs/EPSG/0/25833
+                itemType: feature
+                properties:
+                  - name: objectid
+                    type: Int64
+                    flags: RowId, UniqueValues
+                  - { name: slinie, type: Text }
+                  - { name: takt, type: Double }
+
+  /collections/{collectionId}/items:
+    get:
+      tags: [Features]
+      operationId: getFeatures
+      summary: Get features
+      description: Features of a dataset as a GeoJSON FeatureCollection.
+      parameters:
+        - $ref: "#/components/parameters/collectionId"
+        - name: limit
+          in: query
+          schema: { type: integer, minimum: 1 }
+          example: 10
+          description: Maximum number of features. Without it, all features are returned.
+        - name: bbox
+          in: query
+          style: form
+          explode: false
+          schema:
+            type: array
+            items: { type: number }
+            minItems: 4
+            maxItems: 4
+          example: [13.6, 50.9, 13.9, 51.2]
+          description: Bounding box as `minLon,minLat,maxLon,maxLat` in WGS84.
+        - $ref: "#/components/parameters/crs"
+      responses:
+        "200":
+          description: |
+            Features as GeoJSON. Errors such as an unknown collection or an
+            unsupported parameter also use HTTP 200, with an error object
+            served as `application/json`.
+          content:
+            application/geo+json:
+              schema:
+                $ref: "#/components/schemas/FeatureCollection"
+              example:
+                type: FeatureCollection
+                links:
+                  - rel: self
+                    type: application/json
+                    title: Dieses Dokument
+                    href: https://kommisdd.dresden.de/net4/public/ogcapi/collections/L1087/items?limit=1
+                timeStamp: "2026-10-08T13:14:55.2497994Z"
+                numberReturned: 1
+                features:
+                  - type: Feature
+                    geometry:
+                      type: Point
+                      crs:
+                        type: name
+                        properties: { name: "urn:ogc:def:crs:EPSG::4326" }
+                      coordinates: [13.734074895146318, 51.0510715460776]
+                    id: L900.0
+                    properties:
+                      url: https://www.dvb.de/de-de/service/service-standorte/#kuz
+                      x: 5411371.23
+                      y: 5658084.27
+                      id: 1
+                      art: Kundenzentrum
+                      name0: DVB-Kundenzentrum
+                      aenddat: 15.10.2019 00:00:00
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+              example:
+                code: NotImplementedException
+                description: Der Parameter 'offset' wird z. Z. nicht unterstützt.
+
+  /collections/{collectionId}/items/{featureId}:
+    get:
+      tags: [Features]
+      operationId: getFeature
+      summary: Get a feature
+      description: |
+        A single feature. Lookup works for numeric feature IDs (pass them
+        without the `.0` suffix) but not for string IDs such as `L900.0`.
+      parameters:
+        - $ref: "#/components/parameters/collectionId"
+        - name: featureId
+          in: path
+          required: true
+          schema: { type: string }
+          example: "1"
+        - $ref: "#/components/parameters/crs"
+      responses:
+        "200":
+          description: Feature.
+          content:
+            application/geo+json:
+              schema:
+                $ref: "#/components/schemas/Feature"
+        "404":
+          description: Feature not found. The body is an empty JSON object.
+          content:
+            application/geo+json:
+              schema:
+                type: object
+
+components:
+  parameters:
+    collectionId:
+      name: collectionId
+      in: path
+      required: true
+      schema: { type: string }
+      example: L457
+      description: |
+        Dataset ID. Transit datasets include `L457` (tram lines), `L1076`
+        (bus lines), `L1233` (stops with accessibility data) and `L1087` (DVB
+        service points).
+    crs:
+      name: crs
+      in: query
+      schema:
+        type: string
+        enum:
+          - http://www.opengis.net/def/crs/EPSG/0/4326
+          - http://www.opengis.net/def/crs/EPSG/0/25833
+        default: http://www.opengis.net/def/crs/EPSG/0/4326
+      description: Coordinate reference system of the returned geometries.
+
+  schemas:
+    Error:
+      type: object
+      required: [code]
+      properties:
+        code:
+          type: string
+          examples: [NotImplementedException, Exception]
+        description:
+          type: string
+
+    Link:
+      type: object
+      required: [href]
+      properties:
+        href: { type: string }
+        rel: { type: string }
+        type: { type: string }
+        title: { type: string }
+
+    Collection:
+      type: object
+      required: [id]
+      properties:
+        id:
+          type: string
+        title:
+          type: string
+        description:
+          type: [string, "null"]
+        links:
+          type: array
+          items:
+            $ref: "#/components/schemas/Link"
+        extent:
+          type: object
+        crs:
+          type: array
+          items: { type: string }
+        itemType:
+          type: string
+        properties:
+          type: array
+          description: Attribute names and types. Not part of the OGC standard.
+          items:
+            type: object
+            properties:
+              name: { type: string }
+              type: { type: string }
+              flags: { type: string }
+
+    Collections:
+      type: object
+      required: [collections]
+      properties:
+        links:
+          type: array
+          items:
+            $ref: "#/components/schemas/Link"
+        collections:
+          type: array
+          items:
+            $ref: "#/components/schemas/Collection"
+
+    Geometry:
+      type: object
+      description: GeoJSON geometry. Includes a legacy `crs` member naming the coordinate system.
+      required: [type]
+      properties:
+        type:
+          type: string
+          enum:
+            - Point
+            - MultiPoint
+            - LineString
+            - MultiLineString
+            - Polygon
+            - MultiPolygon
+        coordinates:
+          type: array
+          items: {}
+        crs:
+          type: object
+
+    Feature:
+      type: object
+      required: [type, properties]
+      properties:
+        type:
+          const: Feature
+        id:
+          type: [number, string]
+          description: Numeric for most datasets, a string like `L900.0` for some.
+        geometry:
+          oneOf:
+            - $ref: "#/components/schemas/Geometry"
+            - type: "null"
+        properties:
+          type: object
+          description: Dataset-specific attributes.
+
+    FeatureCollection:
+      type: object
+      required: [type, features]
+      properties:
+        type:
+          const: FeatureCollection
+        links:
+          type: array
+          items:
+            $ref: "#/components/schemas/Link"
+        timeStamp:
+          type: string
+          format: date-time
+        numberReturned:
+          type: integer
+        features:
+          type: array
+          items:
+            $ref: "#/components/schemas/Feature"

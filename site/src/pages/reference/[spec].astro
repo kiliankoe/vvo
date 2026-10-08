@@ -1,0 +1,89 @@
+---
+import type { GetStaticPaths } from 'astro';
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { loadSpecs } from '../../lib/specs';
+import { REPO_BLOB_URL } from '../../lib/config';
+
+export const getStaticPaths = (async () =>
+	(await loadSpecs()).map((spec) => ({ params: { spec: spec.name }, props: spec }))) satisfies GetStaticPaths;
+
+const { name, file, title, httpOnly } = Astro.props;
+const specUrl = `${import.meta.env.BASE_URL}openapi/${file}`;
+---
+
+<StarlightPage frontmatter={{ title, description: `Interactive OpenAPI reference for the ${title}.`, tableOfContents: false }}>
+	<p class="muted">
+		OpenAPI spec: <a href={specUrl} download>{file}</a> (<a href={`${REPO_BLOB_URL}/openapi/${file}`}>source</a>). Import it
+		into Postman, Bruno or a client generator.{' '}
+		{
+			httpOnly ? (
+				<>This API only works over plain http, which browsers block on this page. Copy the generated request and run it from a terminal or app instead.</>
+			) : (
+				<>Requests from "Test request" go directly from your browser to the API.</>
+			)
+		}
+	</p>
+	<div id="scalar" data-spec={specUrl} data-name={name}></div>
+</StarlightPage>
+
+<style is:global>
+	/* The reference needs room for request and response side by side. */
+	:root {
+		--sl-content-width: 72rem;
+	}
+	#scalar {
+		margin-top: 1rem;
+	}
+	/* Scalar's request client is a fullscreen overlay inside the page content, so
+	   Starlight's fixed header and sidebar would paint over it. */
+	body:has(.scalar-client--open) :is(header.header, .sidebar-pane) {
+		visibility: hidden;
+	}
+	/* Starlight already shows the spec title as the page heading. */
+	#scalar h1.section-header-label {
+		display: none;
+	}
+	#scalar .scalar-app {
+		--scalar-font: var(--sl-font);
+		--scalar-font-code: var(--sl-font-mono);
+		--scalar-background-1: var(--sl-color-bg);
+		--scalar-color-accent: var(--sl-color-text-accent);
+	}
+</style>
+
+<script>
+	import { createApiReference } from '@scalar/api-reference';
+	import '@scalar/api-reference/style.css';
+
+	const root = document.getElementById('scalar')!;
+	const theme = () => (document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light');
+
+	const config = {
+		url: root.dataset.spec!,
+		layout: 'classic' as const,
+		hideDarkModeToggle: true,
+		forceDarkModeState: theme(),
+		withDefaultFonts: false,
+		hideClientButton: false,
+		// No third-party proxy, no telemetry, no AI chat: requests go straight to the API.
+		proxyUrl: '',
+		telemetry: false,
+		agent: { disabled: true },
+		mcp: { disabled: true },
+		showDeveloperTools: 'never' as const,
+		// Starlight's search already owns the ⌘K shortcut and the search field.
+		hideSearch: true,
+		defaultOpenFirstTag: true,
+	};
+	createApiReference(root, config);
+
+	// Follow Starlight's theme switcher. Scalar styles itself from these body classes;
+	// updating its configuration at runtime doesn't reliably restyle it.
+	new MutationObserver(() => {
+		document.body.classList.toggle('dark-mode', theme() === 'dark');
+		document.body.classList.toggle('light-mode', theme() === 'light');
+	}).observe(document.documentElement, {
+		attributes: true,
+		attributeFilter: ['data-theme'],
+	});
+</script>

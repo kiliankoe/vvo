@@ -1,0 +1,1789 @@
+openapi: 3.1.0
+info:
+  title: VVO WebAPI
+  version: "2026-10-08"
+  summary: JSON API behind vvo-mobil.de and the DVB mobil app.
+  description: |
+    The WebAPI is the JSON interface used by VVO's mobile web portal and the
+    DVB mobil app. It covers stop search, departure monitors, trip planning,
+    route changes, line information and map data for the VVO network around
+    Dresden.
+
+    This description is **community reverse-engineered**. It is not published
+    or supported by VVO or DVB, and the API may change without notice. The
+    version above is the date the spec was last checked against the live API.
+
+    Things to know:
+
+    - Most endpoints take a POST with a JSON body. Always send `"format": "json"`.
+    - Timestamps in responses use the Microsoft JSON date format, see `MsDate`.
+    - Coordinates are Gauss-Krüger zone 4 (GK4) values, mostly integers.
+      Some fields carry GK4 values with decimals.
+    - Stop IDs can be given as numeric VVO IDs (`33000028`) or as DHIDs
+      (`de:14612:28`).
+    - Errors are reported in the `Status` object. Validation errors use HTTP
+      400, other errors often come back with HTTP 200 and a `Status.Code`
+      other than `Ok`.
+    - The server sends `Access-Control-Allow-Origin: *` and answers CORS
+      preflight requests, so it can be called from a browser.
+    - Occasional 503 responses and timeouts happen. Retry with backoff, cache
+      what you can and keep request volume low.
+  contact:
+    name: kiliankoe/vvo
+    url: https://github.com/kiliankoe/vvo
+externalDocs:
+  description: WebAPI documentation (Markdown)
+  url: https://github.com/kiliankoe/vvo/blob/main/documentation/webapi.md
+servers:
+  - url: https://webapi.vvo-online.de
+# No authentication.
+security: []
+tags:
+  - name: Stops
+    description: Search for stops, addresses and points of interest.
+  - name: Departures
+    description: Departure monitor and the stops of a single run.
+  - name: Trips
+    description: Journey planning between two points.
+  - name: Route changes
+    description: Planned construction work and disruptions.
+  - name: Lines
+    description: Lines serving a stop.
+  - name: Map
+    description: Map pins and tariff zone polygons.
+
+paths:
+  /tr/pointfinder:
+    get:
+      tags: [Stops]
+      operationId: pointFinderGet
+      summary: PointFinder
+      description: |
+        Find stops, addresses or POIs by name or coordinate. This is the form
+        the DVB mobil app uses. Without `format=json` the server returns an
+        HTML debug page.
+      parameters:
+        - $ref: "#/components/parameters/PointFinderQuery"
+        - name: limit
+          in: query
+          schema: { type: integer, minimum: 1 }
+          description: Maximum number of results.
+        - name: stopsOnly
+          in: query
+          schema: { type: boolean }
+          description: Only return stops.
+        - name: regionalOnly
+          in: query
+          schema: { type: boolean }
+          description: Only return stops in the VVO area.
+        - name: stopShortcuts
+          in: query
+          schema: { type: boolean }
+          description: Include stop shortcuts (field 8 of each point).
+        - name: assignedstops
+          in: query
+          schema: { type: boolean }
+          description: For coordinate queries, include nearby stops.
+        - name: showlines
+          in: query
+          schema: { type: boolean }
+          description: Include serving lines (field 7 of each point).
+        - name: provider
+          in: query
+          schema: { type: string, default: dvb }
+          description: Provider filter.
+        - name: format
+          in: query
+          required: true
+          schema: { type: string, enum: [json] }
+          example: json
+          description: Must be `json`, otherwise the response is HTML.
+      responses:
+        "200":
+          $ref: "#/components/responses/PointFinder"
+        "400":
+          $ref: "#/components/responses/ValidationError"
+    post:
+      tags: [Stops]
+      operationId: pointFinder
+      summary: PointFinder (POST)
+      description: Same as the GET variant, with parameters in a JSON body.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/PointFinderRequest"
+            examples:
+              name:
+                summary: Search stops by name, with lines and shortcuts
+                value:
+                  query: Hauptbahnhof
+                  limit: 3
+                  stopsOnly: true
+                  showlines: true
+                  stopShortcuts: true
+                  format: json
+              coordinate:
+                summary: Reverse lookup of a GK4 coordinate
+                value:
+                  query: "coord:4621020:5655935"
+                  assignedstops: true
+                  limit: 5
+                  format: json
+      responses:
+        "200":
+          $ref: "#/components/responses/PointFinder"
+        "400":
+          $ref: "#/components/responses/ValidationError"
+
+  /dm:
+    post:
+      tags: [Departures]
+      operationId: departureMonitor
+      summary: Departure Monitor
+      description: List upcoming departures from a stop.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/DepartureMonitorRequest"
+            example:
+              stopid: "33000028"
+              limit: 5
+              shorttermchanges: true
+              mot:
+                - Tram
+                - CityBus
+                - IntercityBus
+                - SuburbanRailway
+                - Train
+                - Cableway
+                - Ferry
+                - HailedSharedTaxi
+              format: json
+      responses:
+        "200":
+          description: |
+            Departures. An unknown stop returns HTTP 200 with
+            `Status.Code: ServiceError` and no `Departures`.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DepartureMonitorResponse"
+              example:
+                Name: Hauptbahnhof
+                Status: { Code: Ok }
+                Place: Dresden
+                ExpirationTime: /Date(1791465125450+0200)/
+                Departures:
+                  - Id: "ddb:92D01: :R:j26"
+                    DlId: "de:vvo:10-1"
+                    LineName: S1
+                    Direction: Meißen S-Bf. Triebischtal
+                    Platform: { Name: "14", Type: Railtrack }
+                    Mot: SuburbanRailway
+                    RealTime: /Date(1791465060000-0000)/
+                    ScheduledTime: /Date(1791465000000-0000)/
+                    State: Delayed
+                    RouteChanges: []
+                    Diva: { Number: 92D01, Network: ddb }
+                    CancelReasons: []
+                    Occupancy: Unknown
+                  - Id: "voe:11007: :H:j26"
+                    DlId: "de:vvo:11-7"
+                    LineName: "7"
+                    Direction: Pennrich
+                    Platform: { Name: "2", Type: Platform }
+                    Mot: Tram
+                    RealTime: /Date(1791465120000-0000)/
+                    ScheduledTime: /Date(1791464820000-0000)/
+                    State: Delayed
+                    RouteChanges: ["27519"]
+                    Diva: { Number: "11007", Network: voe }
+                    CancelReasons: []
+                    Occupancy: StandingOnly
+        "400":
+          $ref: "#/components/responses/ValidationError"
+
+  /dm/trip:
+    post:
+      tags: [Departures]
+      operationId: tripDetails
+      summary: Trip Details
+      description: |
+        List the stops of a run. Take `tripid` and `time` from a departure
+        monitor response.
+
+        `tripid` names a line course shared by every run of that line and
+        direction. The run is selected by `time`: the endpoint returns the run
+        with the next realtime departure at `stopid` at or after `time`. See
+        the Markdown docs for how to poll one run reliably.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/TripDetailsRequest"
+            example:
+              tripid: "voe:11011: :H:j26"
+              time: /Date(1791464640000-0000)/
+              stopid: "33000293"
+              mapdata: true
+              format: json
+      responses:
+        "200":
+          description: Stops of the selected run.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/TripDetailsResponse"
+              example:
+                Stops:
+                  - Id: "33000294"
+                    DhId: "de:14612:294"
+                    Place: ""
+                    Name: Dresden Angelikastraße
+                    Longitude: 4625079
+                    Latitude: 5660615
+                    Position: Previous
+                    Platform: { Name: "1", Type: Platform }
+                    Time: /Date(1791463560000-0000)/
+                    RealTime: /Date(1791463560000-0000)/
+                    State: InTime
+                    Occupancy: Unknown
+                  - Id: "33000293"
+                    DhId: "de:14612:293"
+                    Place: ""
+                    Name: Dresden Waldschlößchen
+                    Longitude: 4624656
+                    Latitude: 5660652
+                    Position: Current
+                    Platform: { Name: "1", Type: Platform }
+                    Time: /Date(1791463680000-0000)/
+                    RealTime: /Date(1791463740000-0000)/
+                    State: Delayed
+                    Occupancy: ManySeats
+                Status: { Code: Ok }
+                MapData:
+                  - Tram|5660211|4630082|5660194|4630066|5660193|4630046
+        "400":
+          $ref: "#/components/responses/ValidationError"
+
+  /tr/trips:
+    post:
+      tags: [Trips]
+      operationId: queryTrip
+      summary: Query a Trip
+      description: |
+        Plan a journey. `origin`, `destination` and `via` accept stop IDs and
+        the street, POI or coordinate IDs returned by PointFinder. Omit `time`
+        to depart now.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/TripRequest"
+            example:
+              origin: "33000028"
+              destination: "33000016"
+              isarrivaltime: false
+              shorttermchanges: true
+              mobilitySettings:
+                mobilityRestriction: None
+              standardSettings:
+                footpathToStop: 5
+                includeAlternativeStops: true
+                maxChanges: Unlimited
+                walkingSpeed: Normal
+                mot:
+                  - Tram
+                  - CityBus
+                  - IntercityBus
+                  - SuburbanRailway
+                  - Train
+                  - Cableway
+                  - Ferry
+                  - HailedSharedTaxi
+              format: json
+      responses:
+        "200":
+          $ref: "#/components/responses/Trips"
+        "400":
+          $ref: "#/components/responses/ValidationError"
+
+  /tr/prevnext:
+    post:
+      tags: [Trips]
+      operationId: earlierLaterConnections
+      summary: Earlier/Later Connections
+      description: |
+        Load earlier or later connections for a previous `tr/trips` query.
+        Send the same parameters as the original query plus its `SessionId`.
+        The response contains the previously returned routes as well as the
+        new ones, renumbered from 0. If the session has expired, the server
+        recalculates the query and returns a new `SessionId`; use that one
+        for further requests.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/PrevNextRequest"
+            example:
+              origin: "33000028"
+              destination: "33000016"
+              sessionId: "2065107265:efa3"
+              previous: false
+              numberprev: 0
+              numbernext: 0
+              format: json
+      responses:
+        "200":
+          $ref: "#/components/responses/Trips"
+        "400":
+          $ref: "#/components/responses/ValidationError"
+
+  /tr/prevnextmove:
+    post:
+      tags: [Trips]
+      operationId: alternativeConnectionForLeg
+      summary: Alternative Connection for a Leg
+      description: |
+        Replace one leg of a route from a previous `tr/trips` query with an
+        earlier or later alternative. Note the lowercase `sessionid`. For
+        routes where no alternative exists the server answers with
+        `Status.Code: ServiceError` and `Message: trip calculation error`.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/PrevNextMoveRequest"
+            example:
+              origin: "33000742"
+              destination: "33000302"
+              sessionid: "2411471812:efa1"
+              routeid: "0"
+              partialrouteid: "1"
+              previous: false
+              format: json
+      responses:
+        "200":
+          $ref: "#/components/responses/Trips"
+        "400":
+          $ref: "#/components/responses/ValidationError"
+
+  /tr/trippdf:
+    get:
+      tags: [Trips]
+      operationId: tripPdf
+      summary: Trip PDF Export
+      description: |
+        Render one route of a `tr/trips` query as a PDF. The trip appears to
+        be recalculated from the parameters, so an expired session still
+        works.
+      parameters:
+        - name: id
+          in: query
+          required: true
+          schema: { type: string }
+          example: "0"
+          description: "`RouteId` of the route to export."
+        - name: origin
+          in: query
+          required: true
+          schema: { type: string }
+          example: "33000742"
+        - name: destination
+          in: query
+          required: true
+          schema: { type: string }
+          example: "33000302"
+        - name: sessionid
+          in: query
+          required: true
+          schema: { type: string }
+          example: "2411471812:efa1"
+          description: "`SessionId` from the `tr/trips` response."
+        - name: time
+          in: query
+          schema: { type: string, format: date-time }
+        - name: isarrivaltime
+          in: query
+          schema: { type: boolean }
+        - name: via
+          in: query
+          schema: { type: string }
+        - name: mobilitysettings
+          in: query
+          schema: { type: string }
+          description: "`mobilitySettings` object serialized as JSON."
+        - name: standardSettings
+          in: query
+          schema: { type: string }
+          description: "`standardSettings` object serialized as JSON."
+        - name: numberprev
+          in: query
+          schema: { type: integer }
+          example: 0
+        - name: numbernext
+          in: query
+          schema: { type: integer }
+          example: 0
+        - name: format
+          in: query
+          schema: { type: string, enum: [json] }
+          example: json
+      responses:
+        "200":
+          description: PDF document, sent as an attachment named `trip.pdf`. If no trip can be calculated, a JSON status with `ServiceError` is returned instead.
+          content:
+            application/pdf:
+              schema:
+                type: string
+                contentMediaType: application/pdf
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+              example:
+                Status: { Code: ServiceError, Message: no connection }
+        "400":
+          $ref: "#/components/responses/ValidationError"
+
+  /rc:
+    post:
+      tags: [Route changes]
+      operationId: routeChanges
+      summary: Route Changes
+      description: |
+        List route changes due to construction work or disruptions. The
+        response is large (hundreds of kilobytes).
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/RouteChangesRequest"
+            example:
+              shortterm: true
+              format: json
+      responses:
+        "200":
+          description: Route changes and the lines they affect.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RouteChangesResponse"
+              example:
+                Banners: []
+                Status: { Code: Ok }
+                Lines:
+                  - Id: "11001:voe"
+                    Diva: { Number: "11001", Network: voe }
+                    Name: "1"
+                    RouteDescription: Dresden Prohlis Gleisschleife - Dresden Waltherstraße
+                    TransportationCompany: DVB
+                    Mot: Tram
+                    Divas: [{ Number: "11001", Network: voe }]
+                    Changes: ["27721", "27769", "27668"]
+                ExpirationTime: /Date(1791465272750+0200)/
+                Changes:
+                  - Id: "27670"
+                    Type: Scheduled
+                    Title: Instandhaltungsmaßnahmen zwischen Oschatz und Riesa
+                    Description: <h2>Beschreibung</h2><p>Sehr geehrte Damen und Herren,</p>
+                    ValidityPeriods:
+                      - Begin: /Date(1791486000000-0000)/
+                        End: /Date(1791500400000-0000)/
+                    LineIds: ["90D50:ddb"]
+                    PublishDate: /Date(1789729260000-0000)/
+                    SeqID: "306507661"
+
+  /rc/lines:
+    post:
+      tags: [Route changes]
+      operationId: routeChangeLines
+      summary: Route Change Lines
+      description: List lines with their identifiers. This appears to cover the whole network, not only lines with active route changes.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/RouteChangeLinesRequest"
+            example:
+              format: json
+      responses:
+        "200":
+          description: Lines.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RouteChangeLinesResponse"
+              example:
+                Lines:
+                  - Id: "11001:voe"
+                    Diva: { Number: "11001", Network: voe }
+                    Name: "1"
+                    RouteDescription: Dresden Betriebshof Waltherstraße
+                    TransportationCompany: DVB
+                    Mot: Tram
+                    Divas: [{ Number: "11001", Network: voe }]
+                    DorisId: "386"
+                Status: { Code: Ok }
+                ExpirationTime: /Date(1791534909187+0200)/
+
+  /stt/lines:
+    post:
+      tags: [Lines]
+      operationId: lines
+      summary: Lines
+      description: List the lines serving a stop, with their directions and timetables.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/LinesRequest"
+            example:
+              stopid: "33000293"
+              format: json
+      responses:
+        "200":
+          description: Lines serving the stop.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/LinesResponse"
+              example:
+                Lines:
+                  - Name: "11"
+                    Mot: Tram
+                    Directions:
+                      - Name: Dresden Zschertnitz Münzmeisterstraße
+                        TimeTables:
+                          - Id: "voe:11011: :H:j26:4"
+                            Name: Standardfahrplan - gültig ab 05.01.2026
+                      - Name: Dresden Bühlau Ullersdorfer Platz
+                        TimeTables:
+                          - Id: "voe:11011: :R:j26:4"
+                            Name: Standardfahrplan - gültig ab 05.01.2026
+                    Diva: { Number: "11011", Network: voe }
+                Status: { Code: Ok }
+                ExpirationTime: /Date(1791479541167+0200)/
+        "400":
+          $ref: "#/components/responses/ValidationError"
+
+  /map/pins:
+    post:
+      tags: [Map]
+      operationId: mapPins
+      summary: Map Pins
+      description: List map pins inside a GK4 bounding box.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/MapPinsRequest"
+            example:
+              swlat: 5657000
+              swlng: 4621000
+              nelat: 5658000
+              nelng: 4622500
+              pintypes: [Stop, Platform, TicketMachine]
+              format: json
+      responses:
+        "200":
+          description: Pins.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/MapPinsResponse"
+              example:
+                Pins:
+                  - de:14612:28|||Hauptbahnhof|5657517|4621643||
+                  - de:14612:28:2:3|pf||Hauptbahnhof|5657497|4621685|3|
+                  - "poiID:2104108252:14612000:-1:Ticketautomat Dresden, Hauptbahnhof - Unter den Brücken:Dresden:Ticketautomat Dresden, Hauptbahnhof - Unter den Brücken:ANY:POI:1528819:5371672:MRCV:VVO|t||Ticketautomat Dresden, Hauptbahnhof - Unter den Brücken|5657498|4621692||"
+                Status: { Code: Ok }
+                ExpirationTime: /Date(1791479635371+0200)/
+        "400":
+          $ref: "#/components/responses/ValidationError"
+
+  /map/polygons:
+    post:
+      tags: [Map]
+      operationId: tariffZonePolygons
+      summary: Tariff Zone Polygons
+      description: Polygon outlines of all VVO tariff zones. The response is about 400 kB.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/FormatOnlyRequest"
+            example:
+              format: json
+      responses:
+        "200":
+          description: Tariff zone polygons.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PolygonsResponse"
+              example:
+                Status: { Code: Ok }
+                ExpirationTime: /Date(1791621306238+0200)/
+                Polygons:
+                  - 93|Elsterwerda|ECECEE|5704015|4605526|5700452|4602883|5701129|4603602
+
+components:
+  parameters:
+    PointFinderQuery:
+      name: query
+      in: query
+      required: true
+      schema: { type: string }
+      example: helmholtz
+      description: Search term, or a coordinate as `coord:<right>:<up>` in GK4.
+
+  responses:
+    PointFinder:
+      description: Matching points.
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/PointFinderResponse"
+          example:
+            PointStatus: List
+            Status: { Code: Ok }
+            Points:
+              - "33000028|||Hauptbahnhof|5657517|4621643|0|1:3~7~8~10~11~13#2:66~68~H/S#5:S1~S2~S3~S8|HBF"
+              - "33000036|||Hauptbahnhof (Strehlener Str.)|5657379|4621741|0|2:66#3:Fernbus~SEV|"
+              - "33000032|||Hauptbahnhof Nord|5657680|4621791|0|1:1~2~3~4~7~9~10~11~12#2:68|HBN"
+            ExpirationTime: /Date(1791551515539+0200)/
+    Trips:
+      description: |
+        Routes. Failed calculations return HTTP 200 with a `Status.Code` other
+        than `Ok` and no `Routes`.
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/TripResponse"
+          example:
+            SessionId: "2065107265:efa3"
+            Status: { Code: Ok }
+            Routes:
+              - PriceLevel: 1
+                Price: "3,60"
+                PriceDayTicket: "9,50"
+                TicketNotes: ""
+                Net: voe
+                Duration: 7
+                Interchanges: 0
+                MotChain:
+                  - DlId: "de:vvo:10-1"
+                    StatelessId: "ddb:92D01: :R:j26"
+                    Type: RapidTransit
+                    Name: S1
+                    Direction: Meißen S-Bf. Triebischtal
+                    Changes: []
+                    Diva: { Number: 92D01, Network: ddb }
+                    TransportationCompany: DB Regio AG Südost
+                    OperatorCode: "8004"
+                    ProductName: S-Bahn
+                    TrainNumber: "30728"
+                NumberOfFareZones: 1 Tarifzone
+                NumberOfFareZonesDayTicket: 1 Tarifzone
+                FareZoneNames: TZ Dresden (10)
+                FareZoneNamesDayTicket: TZ Dresden (10)
+                FareZoneOrigin: 10
+                FareZoneDestination: 10
+                RouteId: 0
+                PartialRoutes:
+                  - PartialRouteId: 0
+                    Duration: 7
+                    Mot:
+                      DlId: "de:vvo:10-1"
+                      StatelessId: "ddb:92D01: :R:j26"
+                      Type: RapidTransit
+                      Name: S1
+                      Direction: Meißen S-Bf. Triebischtal
+                      Changes: []
+                      Diva: { Number: 92D01, Network: ddb }
+                      TransportationCompany: DB Regio AG Südost
+                      OperatorCode: "8004"
+                      ProductName: S-Bahn
+                      TrainNumber: "30728"
+                    MapDataIndex: 0
+                    Shift: None
+                    Infos: [Fahrradmitnahme begrenzt möglich]
+                    RegularStops:
+                      - ArrivalTime: /Date(1791465000000-0000)/
+                        DepartureTime: /Date(1791465000000-0000)/
+                        ArrivalRealTime: /Date(1791465000000-0000)/
+                        DepartureRealTime: /Date(1791465060000-0000)/
+                        Place: Dresden
+                        Name: Hauptbahnhof
+                        Type: Stop
+                        DataId: "33000028"
+                        DhId: "de:14612:28"
+                        Platform: { Name: "14", Type: Railtrack }
+                        Latitude: 5657622
+                        Longitude: 4621566
+                        DepartureState: Delayed
+                        ArrivalState: InTime
+                        CancelReasons: []
+                        ParkAndRail: []
+                        Occupancy: Unknown
+                        BikeAndRideBoxes: []
+                      - ArrivalTime: /Date(1791465360000-0000)/
+                        DepartureTime: /Date(1791465360000-0000)/
+                        ArrivalRealTime: /Date(1791465480000-0000)/
+                        DepartureRealTime: /Date(1791465360000-0000)/
+                        Place: Dresden
+                        Name: Bahnhof Neustadt
+                        Type: Stop
+                        DataId: "33000016"
+                        DhId: "de:14612:16"
+                        Platform: { Name: "1", Type: Railtrack }
+                        Latitude: 5660412
+                        Longitude: 4622148
+                        DepartureState: InTime
+                        ArrivalState: Delayed
+                        CancelReasons: []
+                        ParkAndRail: []
+                        Occupancy: Unknown
+                        BikeAndRideBoxes: []
+                    NextDepartureTimes: [/Date(1791466200000-0000)/]
+                    PreviousDepartureTimes: []
+                MapData:
+                  - RapidTransit|5657588|4621635|5657675|4621458
+                Tickets:
+                  - Name: VVO Einzelfahrt
+                    PriceLevel: 1
+                    Price: "3,60"
+                    NumberOfFareZones: 1 Tarifzone
+                    FareZoneNames: TZ Dresden (10)
+    ValidationError:
+      description: Missing or invalid parameters.
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorResponse"
+          example:
+            Status:
+              Code: ValidationError
+              Message: stopid has to be not null
+
+  schemas:
+    MsDate:
+      type: string
+      description: |
+        Microsoft JSON date: milliseconds since the Unix epoch, optionally
+        followed by a UTC offset. The milliseconds are always UTC; the offset
+        is informational and is often `-0000`.
+      pattern: '^/Date\(-?\d+([+-]\d{4})?\)/$'
+      examples:
+        - /Date(1791465000000-0000)/
+        - /Date(1791465125450+0200)/
+
+    Status:
+      type: object
+      description: |
+        Outcome of the request. Always check `Code` before using the rest of
+        the response.
+      required: [Code]
+      properties:
+        Code:
+          type: string
+          description: |
+            `Ok` on success. Observed error values are `ValidationError`
+            (HTTP 400) and `ServiceError` (HTTP 200). Older documentation
+            also mentions `InvalidRequest`, `NoData` and `ServerError`.
+          examples: [Ok, ValidationError, ServiceError]
+        Message:
+          type: string
+          description: Error description, only present on errors.
+          examples: [stop invalid, no serving lines found]
+
+    ErrorResponse:
+      type: object
+      required: [Status]
+      properties:
+        Status:
+          $ref: "#/components/schemas/Status"
+
+    Format:
+      type: string
+      enum: [json]
+      default: json
+      description: Response format. Always send `json`.
+
+    RequestMot:
+      type: string
+      description: Mode of transport accepted in request filters.
+      enum:
+        - Tram
+        - CityBus
+        - IntercityBus
+        - SuburbanRailway
+        - Train
+        - Cableway
+        - Ferry
+        - HailedSharedTaxi
+
+    Mot:
+      type: string
+      description: |
+        Mode of transport as it appears in responses. Besides the request
+        values, responses use further vehicle types (e.g. `PlusBus` in
+        `/dm`) and, in trip results, values for walking, waiting and
+        accessibility segments.
+      enum:
+        - Tram
+        - CityBus
+        - IntercityBus
+        - SuburbanRailway
+        - Train
+        - Cableway
+        - Ferry
+        - HailedSharedTaxi
+        - Bus
+        - RegioBus
+        - PlusBus
+        - CitizenBus
+        - DemandBus
+        - SchoolBus
+        - ClockBus
+        - Cablecar
+        - OverheadRailway
+        - RapidTransit
+        - Taxi
+        - BusOnRequest
+        - Footpath
+        - StayForConnection
+        - StayInVehicle
+        - MobilityStairsUp
+        - MobilityStairsDown
+        - MobilityElevatorUp
+        - MobilityElevatorDown
+        - MobilityEscalatorUp
+        - MobilityEscalatorDown
+        - MobilityRampUp
+        - MobilityRampDown
+
+    Platform:
+      type: object
+      required: [Name, Type]
+      properties:
+        Name:
+          type: string
+          examples: ["3"]
+        Type:
+          type: string
+          enum: [Platform, Railtrack]
+
+    Diva:
+      type: object
+      description: DIVA line identifier. Both fields are empty strings for footpaths.
+      properties:
+        Number:
+          type: string
+          examples: ["11003"]
+        Network:
+          type: string
+          examples: [voe]
+
+    RealtimeState:
+      type: string
+      enum: [InTime, Delayed, Cancelled]
+
+    Occupancy:
+      type: string
+      enum: [Unknown, ManySeats, StandingOnly, Full]
+
+    CancelReason:
+      type: object
+      properties:
+        Reason:
+          type: string
+
+    GK4Coordinate:
+      type: integer
+      description: Gauss-Krüger zone 4 coordinate.
+
+    PointFinderRequest:
+      type: object
+      required: [query]
+      properties:
+        query:
+          type: string
+          description: Search term, or a coordinate as `coord:<right>:<up>` in GK4.
+        limit:
+          type: integer
+          minimum: 1
+        stopsOnly:
+          type: boolean
+        regionalOnly:
+          type: boolean
+          description: Only return stops in the VVO area.
+        stopShortcuts:
+          type: boolean
+          description: Include stop shortcuts (field 8 of each point).
+        assignedstops:
+          type: boolean
+          description: For coordinate queries, include nearby stops.
+        showlines:
+          type: boolean
+          description: Include serving lines (field 7 of each point).
+        provider:
+          type: string
+          default: dvb
+        format:
+          $ref: "#/components/schemas/Format"
+
+    PointFinderResponse:
+      type: object
+      required: [PointStatus, Status]
+      properties:
+        PointStatus:
+          type: string
+          description: |
+            `Identified` if the query resolved to a single point (the first
+            entry), `List` for a list of candidates, `NotIdentified` on errors.
+          enum: [List, Identified, NotIdentified]
+        Status:
+          $ref: "#/components/schemas/Status"
+        Points:
+          type: array
+          items:
+            type: string
+            description: |
+              Nine pipe-separated fields: ID, type (`a` address, `p` POI, `c`
+              coordinate, empty for stops), city (often empty for Dresden),
+              name, GK4 up, GK4 right, distance in meters (coordinate queries
+              only), serving lines (with `showlines`), shortcut (with
+              `stopShortcuts`). Fields are counted from 0. Serving lines look
+              like `1:3~7~8#2:66~68`: groups separated by `#`, each a numeric
+              transport type, `:`, and lines separated by `~`. Street and POI IDs are themselves
+              colon-separated; see the Markdown docs.
+            examples:
+              - 33000742|||Helmholtzstraße|5655922|4621087|0||
+        ExpirationTime:
+          $ref: "#/components/schemas/MsDate"
+
+    DepartureMonitorRequest:
+      type: object
+      required: [stopid]
+      properties:
+        stopid:
+          type: string
+          description: Stop ID or DHID.
+        limit:
+          type: integer
+          minimum: 1
+        time:
+          type: string
+          format: date-time
+          description: ISO 8601 timestamp. Defaults to now.
+          examples: ["2026-10-08T15:40:00Z"]
+        isarrival:
+          type: boolean
+          description: Interpret `time` as arrival time.
+        shorttermchanges:
+          type: boolean
+        mot:
+          type: array
+          items:
+            $ref: "#/components/schemas/RequestMot"
+        mentzonly:
+          type: boolean
+          description: Use the EFA (Mentz) backend only.
+        departureid:
+          type: string
+        format:
+          $ref: "#/components/schemas/Format"
+
+    Departure:
+      type: object
+      required: [Id, LineName, Direction, Mot, ScheduledTime]
+      properties:
+        Id:
+          type: string
+          description: Line course ID, shared by all runs of a line and direction. Use with `dm/trip`.
+          examples: ["voe:11003: :H:j26"]
+        DlId:
+          type: string
+          examples: ["de:vvo:11-3"]
+        LineName:
+          type: string
+        Direction:
+          type: string
+        Platform:
+          $ref: "#/components/schemas/Platform"
+        Mot:
+          $ref: "#/components/schemas/Mot"
+        ScheduledTime:
+          $ref: "#/components/schemas/MsDate"
+        RealTime:
+          allOf: [{ $ref: "#/components/schemas/MsDate" }]
+          description: Predicted time. Missing for cancelled departures and without realtime data.
+        State:
+          $ref: "#/components/schemas/RealtimeState"
+        RouteChanges:
+          type: array
+          description: IDs of route changes (see `/rc`) affecting this departure.
+          items: { type: string }
+        Diva:
+          $ref: "#/components/schemas/Diva"
+        CancelReasons:
+          type: array
+          items:
+            $ref: "#/components/schemas/CancelReason"
+        Occupancy:
+          $ref: "#/components/schemas/Occupancy"
+
+    DepartureMonitorResponse:
+      type: object
+      required: [Status]
+      properties:
+        Name:
+          type: string
+          description: Stop name.
+        Status:
+          $ref: "#/components/schemas/Status"
+        Place:
+          type: string
+          description: City of the stop.
+        ExpirationTime:
+          $ref: "#/components/schemas/MsDate"
+        Departures:
+          type: array
+          items:
+            $ref: "#/components/schemas/Departure"
+
+    TripDetailsRequest:
+      type: object
+      required: [tripid, time, stopid]
+      properties:
+        tripid:
+          type: string
+          description: "`Id` of a departure from `/dm`."
+        time:
+          allOf: [{ $ref: "#/components/schemas/MsDate" }]
+          description: Selects the run with the next realtime departure at `stopid` at or after this time.
+        stopid:
+          type: string
+          description: "A stop of the run. Marked `Position: Current` in the response."
+        isarrival:
+          type: boolean
+        mapdata:
+          type: boolean
+          description: Include `MapData`.
+        format:
+          $ref: "#/components/schemas/Format"
+
+    TripStop:
+      type: object
+      required: [Id, Name, Position, Time]
+      properties:
+        Id:
+          type: string
+        DhId:
+          type: string
+          examples: ["de:14612:293"]
+        Place:
+          type: string
+          description: Often empty; the city is then part of `Name`.
+        Name:
+          type: string
+        Position:
+          type: string
+          enum: [Previous, Current, Next, Onward]
+        Platform:
+          $ref: "#/components/schemas/Platform"
+        Time:
+          allOf: [{ $ref: "#/components/schemas/MsDate" }]
+          description: Scheduled time.
+        RealTime:
+          $ref: "#/components/schemas/MsDate"
+        State:
+          $ref: "#/components/schemas/RealtimeState"
+        CancelReasons:
+          type: array
+          items:
+            $ref: "#/components/schemas/CancelReason"
+        Latitude:
+          $ref: "#/components/schemas/GK4Coordinate"
+        Longitude:
+          $ref: "#/components/schemas/GK4Coordinate"
+        Occupancy:
+          $ref: "#/components/schemas/Occupancy"
+
+    TripDetailsResponse:
+      type: object
+      required: [Status]
+      properties:
+        Stops:
+          type: array
+          items:
+            $ref: "#/components/schemas/TripStop"
+        MapData:
+          type: array
+          description: Pipe-separated GK4 coordinate lists prefixed with a mode of transport (sometimes `Undefined`). Only with `mapdata`.
+          items: { type: string }
+        Status:
+          $ref: "#/components/schemas/Status"
+        ExpirationTime:
+          $ref: "#/components/schemas/MsDate"
+
+    MobilitySettings:
+      type: object
+      properties:
+        mobilityRestriction:
+          type: string
+          description: |
+            `None` no restriction, `Medium` walking impaired, `High` unaided
+            wheelchair, `Individual` use the fields below.
+          enum: [None, Medium, High, Individual]
+        solidStairs:
+          type: boolean
+        escalators:
+          type: boolean
+        leastChange:
+          type: boolean
+        entrance:
+          type: string
+          enum: [Any, SmallStep, NoStep]
+
+    StandardSettings:
+      type: object
+      properties:
+        mot:
+          type: array
+          items:
+            $ref: "#/components/schemas/RequestMot"
+        maxChanges:
+          type: string
+          enum: [Unlimited, Two, One, None]
+        walkingSpeed:
+          type: string
+          enum: [VerySlow, Slow, Normal, Fast, VeryFast]
+        footpathToStop:
+          type: integer
+          description: Maximum walk to the first stop, in minutes.
+        includeAlternativeStops:
+          type: boolean
+        extraCharge:
+          type: string
+          enum: ["", None, LocalTraffic]
+
+    TripRequest:
+      type: object
+      required: [origin, destination]
+      properties:
+        origin:
+          type: string
+          description: Stop ID or a PointFinder ID (street, POI, coordinate).
+        destination:
+          type: string
+        time:
+          type: string
+          format: date-time
+          description: ISO 8601 timestamp. Defaults to now.
+        isarrivaltime:
+          type: boolean
+        shorttermchanges:
+          type: boolean
+        via:
+          type: string
+        mobilitySettings:
+          $ref: "#/components/schemas/MobilitySettings"
+        standardSettings:
+          $ref: "#/components/schemas/StandardSettings"
+        format:
+          $ref: "#/components/schemas/Format"
+
+    PrevNextRequest:
+      allOf:
+        - $ref: "#/components/schemas/TripRequest"
+        - type: object
+          required: [sessionId, previous]
+          properties:
+            sessionId:
+              type: string
+              description: "`SessionId` from `tr/trips`."
+            previous:
+              type: boolean
+              description: "`true` for earlier, `false` for later connections."
+            numberprev:
+              type: integer
+            numbernext:
+              type: integer
+
+    PrevNextMoveRequest:
+      type: object
+      required:
+        - origin
+        - destination
+        - sessionid
+        - routeid
+        - partialrouteid
+        - previous
+      properties:
+        origin:
+          type: string
+        destination:
+          type: string
+        sessionid:
+          type: string
+          description: "`SessionId` from `tr/trips`."
+        routeid:
+          type: string
+          description: "`RouteId` of the route to change."
+        partialrouteid:
+          type: string
+          description: "`PartialRouteId` of the leg to replace."
+        previous:
+          type: boolean
+          description: "`true` for an earlier, `false` for a later alternative."
+        time:
+          type: string
+          format: date-time
+        via:
+          type: string
+        mobilitySettings:
+          $ref: "#/components/schemas/MobilitySettings"
+        standardSettings:
+          $ref: "#/components/schemas/StandardSettings"
+        format:
+          $ref: "#/components/schemas/Format"
+
+    RouteMot:
+      type: object
+      description: Vehicle or segment type of a leg. Footpaths have empty strings in most fields.
+      required: [Type]
+      properties:
+        Type:
+          $ref: "#/components/schemas/Mot"
+        Name:
+          type: string
+          examples: ["3", Fussweg]
+        Direction:
+          type: string
+        DlId:
+          type: string
+        StatelessId:
+          type: string
+          examples: ["voe:11003: :H:j26"]
+        Changes:
+          type: array
+          description: IDs of route changes affecting this leg.
+          items: { type: string }
+        Diva:
+          $ref: "#/components/schemas/Diva"
+        TransportationCompany:
+          type: string
+        OperatorCode:
+          type: string
+        ProductName:
+          type: string
+        TrainNumber:
+          type: string
+
+    ParkingLot:
+      type: object
+      properties:
+        Coordinates:
+          $ref: "#/components/schemas/LatLng"
+        Occupied:
+          type: boolean
+        DisabledPersonsOnly:
+          type: boolean
+
+    LatLng:
+      type: object
+      description: GK4 coordinate with decimals.
+      properties:
+        Lat: { type: number }
+        Lng: { type: number }
+
+    ParkAndRail:
+      type: object
+      properties:
+        Name:
+          type: string
+        Coordinates:
+          $ref: "#/components/schemas/LatLng"
+        FreeSpaces:
+          type: integer
+        TotalSpaces:
+          type: integer
+        ParkingLots:
+          type: array
+          items:
+            $ref: "#/components/schemas/ParkingLot"
+
+    RegularStop:
+      type: object
+      required: [Name, DataId, ArrivalTime, DepartureTime]
+      properties:
+        DataId:
+          type: string
+          description: Stop ID, or a street/POI/coordinate ID for the first and last point.
+        DhId:
+          type: string
+          description: DHID of the stop. Empty for non-stops.
+        Name:
+          type: string
+        Place:
+          type: string
+        Type:
+          type: string
+          description: Point type.
+          examples: [Stop, Address]
+        Platform:
+          $ref: "#/components/schemas/Platform"
+        Latitude:
+          $ref: "#/components/schemas/GK4Coordinate"
+        Longitude:
+          $ref: "#/components/schemas/GK4Coordinate"
+        ArrivalTime:
+          $ref: "#/components/schemas/MsDate"
+        DepartureTime:
+          $ref: "#/components/schemas/MsDate"
+        ArrivalRealTime:
+          $ref: "#/components/schemas/MsDate"
+        DepartureRealTime:
+          $ref: "#/components/schemas/MsDate"
+        ArrivalState:
+          $ref: "#/components/schemas/RealtimeState"
+        DepartureState:
+          $ref: "#/components/schemas/RealtimeState"
+        CancelReasons:
+          type: array
+          items:
+            $ref: "#/components/schemas/CancelReason"
+        ParkAndRail:
+          type: array
+          items:
+            $ref: "#/components/schemas/ParkAndRail"
+        BikeAndRideBoxes:
+          type: array
+          items: {}
+        Occupancy:
+          $ref: "#/components/schemas/Occupancy"
+        MapPdfId:
+          type: string
+
+    PartialRoute:
+      type: object
+      required: [Mot]
+      properties:
+        PartialRouteId:
+          type: integer
+          description: Missing for some footpath segments.
+        Duration:
+          type: integer
+          description: Minutes. Missing for some accessibility segments.
+        Mot:
+          $ref: "#/components/schemas/RouteMot"
+        MapDataIndex:
+          type: integer
+          description: Index into the route's `MapData`.
+        Shift:
+          type: string
+          examples: [None]
+        Infos:
+          type: array
+          items: { type: string }
+        RegularStops:
+          type: array
+          description: Missing for short transfer footpaths.
+          items:
+            $ref: "#/components/schemas/RegularStop"
+        NextDepartureTimes:
+          type: array
+          items:
+            $ref: "#/components/schemas/MsDate"
+        PreviousDepartureTimes:
+          type: array
+          items:
+            $ref: "#/components/schemas/MsDate"
+        TripCancelled:
+          type: boolean
+        ChangeoverEndangered:
+          type: boolean
+          description: The transfer to the next leg is at risk.
+        BookingLink:
+          type: string
+          description: Booking hotline or URL for on-demand services.
+
+    Ticket:
+      type: object
+      properties:
+        Name:
+          type: string
+          examples: [VVO Einzelfahrt]
+        PriceLevel:
+          type: integer
+        Price:
+          type: string
+          description: Price in euros with a decimal comma.
+          examples: ["3,60"]
+        NumberOfFareZones:
+          type: string
+          examples: [1 Tarifzone]
+        FareZoneNames:
+          type: string
+
+    Route:
+      type: object
+      required: [RouteId, Duration, Interchanges, PartialRoutes]
+      properties:
+        RouteId:
+          type: integer
+        Duration:
+          type: integer
+          description: Minutes.
+        Interchanges:
+          type: integer
+        Price:
+          type: string
+          description: Single ticket price in euros with a decimal comma.
+          examples: ["3,60"]
+        PriceDayTicket:
+          type: string
+        PriceLevel:
+          type: integer
+        TicketNotes:
+          type: string
+        Net:
+          type: string
+        FareZoneOrigin:
+          type: integer
+        FareZoneDestination:
+          type: integer
+        FareZoneNames:
+          type: string
+          examples: [TZ Dresden (10)]
+        FareZoneNamesDayTicket:
+          type: string
+        NumberOfFareZones:
+          type: string
+          examples: [1 Tarifzone]
+        NumberOfFareZonesDayTicket:
+          type: string
+        RouteCancelled:
+          type: boolean
+        MapData:
+          type: array
+          description: Pipe-separated GK4 coordinate lists, one per leg, prefixed with the mode of transport.
+          items: { type: string }
+        MapPdfId:
+          type: string
+        MotChain:
+          type: array
+          description: Summary of the vehicles used.
+          items:
+            $ref: "#/components/schemas/RouteMot"
+        PartialRoutes:
+          type: array
+          items:
+            $ref: "#/components/schemas/PartialRoute"
+        Tickets:
+          type: array
+          items:
+            $ref: "#/components/schemas/Ticket"
+
+    TripResponse:
+      type: object
+      required: [Status]
+      properties:
+        SessionId:
+          type: string
+          description: Use with `tr/prevnext`, `tr/prevnextmove` and `tr/trippdf`.
+        Status:
+          $ref: "#/components/schemas/Status"
+        StandardSettingsActive:
+          type: boolean
+        MobilitySettingsActive:
+          type: boolean
+        Routes:
+          type: array
+          items:
+            $ref: "#/components/schemas/Route"
+
+    RouteChangesRequest:
+      type: object
+      properties:
+        shortterm:
+          type: boolean
+          description: Include short-term changes.
+        provider:
+          type: string
+        format:
+          $ref: "#/components/schemas/Format"
+
+    ValidityPeriod:
+      type: object
+      required: [Begin]
+      properties:
+        Begin:
+          $ref: "#/components/schemas/MsDate"
+        End:
+          $ref: "#/components/schemas/MsDate"
+
+    RouteChange:
+      type: object
+      required: [Id, Title]
+      properties:
+        Id:
+          type: string
+        SeqID:
+          type: string
+        Title:
+          type: string
+        Summary:
+          type: string
+        Description:
+          type: string
+          description: HTML. May contain inline styles.
+        Topic:
+          type: string
+        Type:
+          type: string
+          examples: [Scheduled]
+        TripRequestInclude:
+          type: boolean
+          description: Whether trip planning takes this change into account.
+        PublishDate:
+          $ref: "#/components/schemas/MsDate"
+        LineIds:
+          type: array
+          description: "`Id` values from `Lines`."
+          items: { type: string }
+        ValidityPeriods:
+          type: array
+          items:
+            $ref: "#/components/schemas/ValidityPeriod"
+
+    Banner:
+      type: object
+      properties:
+        Title:
+          type: string
+        Description:
+          type: string
+        Type:
+          type: string
+          examples: [MobileWebsite]
+        ModifiedTime:
+          $ref: "#/components/schemas/MsDate"
+        TripRequestInclude:
+          type: boolean
+
+    NetworkLine:
+      type: object
+      required: [Id, Name, Mot]
+      properties:
+        Id:
+          type: string
+          description: DIVA number and network joined by a colon, i.e. `Diva.Number + ":" + Diva.Network` of a departure.
+          examples: ["11001:voe"]
+        Name:
+          type: string
+        Mot:
+          $ref: "#/components/schemas/Mot"
+        RouteDescription:
+          type: string
+        TransportationCompany:
+          type: string
+        Diva:
+          $ref: "#/components/schemas/Diva"
+        Divas:
+          type: array
+          items:
+            $ref: "#/components/schemas/Diva"
+        Changes:
+          type: array
+          description: IDs of route changes affecting the line. Only in `/rc`.
+          items: { type: string }
+        DorisId:
+          type: string
+          description: Only in `/rc/lines`, and not for every line.
+
+    RouteChangesResponse:
+      type: object
+      required: [Status]
+      properties:
+        Changes:
+          type: array
+          items:
+            $ref: "#/components/schemas/RouteChange"
+        Banners:
+          type: array
+          items:
+            $ref: "#/components/schemas/Banner"
+        Lines:
+          type: array
+          description: Only lines that currently have changes.
+          items:
+            $ref: "#/components/schemas/NetworkLine"
+        Status:
+          $ref: "#/components/schemas/Status"
+        ExpirationTime:
+          $ref: "#/components/schemas/MsDate"
+
+    RouteChangeLinesRequest:
+      type: object
+      properties:
+        provider:
+          type: string
+        format:
+          $ref: "#/components/schemas/Format"
+
+    RouteChangeLinesResponse:
+      type: object
+      required: [Status]
+      properties:
+        Lines:
+          type: array
+          items:
+            $ref: "#/components/schemas/NetworkLine"
+        Status:
+          $ref: "#/components/schemas/Status"
+        ExpirationTime:
+          $ref: "#/components/schemas/MsDate"
+
+    LinesRequest:
+      type: object
+      required: [stopid]
+      properties:
+        stopid:
+          type: string
+          description: Stop ID or DHID.
+        format:
+          $ref: "#/components/schemas/Format"
+
+    StopLine:
+      type: object
+      required: [Name, Mot]
+      properties:
+        Name:
+          type: string
+        Mot:
+          $ref: "#/components/schemas/Mot"
+        Changes:
+          type: array
+          description: IDs of route changes affecting the line.
+          items: { type: string }
+        Directions:
+          type: array
+          items:
+            type: object
+            properties:
+              Name:
+                type: string
+              TimeTables:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    Id:
+                      type: string
+                    Name:
+                      type: string
+        Diva:
+          $ref: "#/components/schemas/Diva"
+
+    LinesResponse:
+      type: object
+      required: [Status]
+      properties:
+        Lines:
+          type: array
+          items:
+            $ref: "#/components/schemas/StopLine"
+        Status:
+          $ref: "#/components/schemas/Status"
+        ExpirationTime:
+          $ref: "#/components/schemas/MsDate"
+
+    MapPinsRequest:
+      type: object
+      required: [swlat, swlng, nelat, nelng, pintypes]
+      properties:
+        swlat:
+          type: [integer, string]
+          description: South-west corner, GK4 up value.
+        swlng:
+          type: [integer, string]
+          description: South-west corner, GK4 right value.
+        nelat:
+          type: [integer, string]
+          description: North-east corner, GK4 up value.
+        nelng:
+          type: [integer, string]
+          description: North-east corner, GK4 right value.
+        pintypes:
+          type: array
+          items:
+            type: string
+            enum:
+              - Stop
+              - Platform
+              - Poi
+              - RentABike
+              - CarSharing
+              - TicketMachine
+              - ParkAndRide
+        format:
+          $ref: "#/components/schemas/Format"
+
+    MapPinsResponse:
+      type: object
+      required: [Status]
+      properties:
+        Pins:
+          type: array
+          items:
+            type: string
+            description: |
+              Pipe-separated: ID, pin type (empty for stops, `pf` platform,
+              `p` POI, `r` rent a bike, `c` car sharing, `t` ticket machine,
+              `pr` park and ride), city, name, GK4 up, GK4 right, extra info
+              (platform name or P+R capacity). Stop and platform IDs are DHIDs.
+            examples:
+              - de:14612:28:2:3|pf||Hauptbahnhof|5657497|4621685|3|
+        Status:
+          $ref: "#/components/schemas/Status"
+        ExpirationTime:
+          $ref: "#/components/schemas/MsDate"
+
+    FormatOnlyRequest:
+      type: object
+      properties:
+        format:
+          $ref: "#/components/schemas/Format"
+
+    PolygonsResponse:
+      type: object
+      required: [Status]
+      properties:
+        Polygons:
+          type: array
+          items:
+            type: string
+            description: |
+              Pipe-separated: zone number, zone name, display color (hex
+              without `#`), GK4 center (up, right), then alternating GK4 up and
+              right values of the outline.
+        Status:
+          $ref: "#/components/schemas/Status"
+        ExpirationTime:
+          $ref: "#/components/schemas/MsDate"

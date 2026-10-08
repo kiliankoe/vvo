@@ -1,0 +1,177 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+
+// Major interchanges sampled for the delay overview.
+const hubs = [
+	['33000028', 'Hauptbahnhof'],
+	['33000037', 'Postplatz'],
+	['33000016', 'Bahnhof Neustadt'],
+	['33000013', 'Albertplatz'],
+	['33000005', 'Pirnaischer Platz'],
+	['33000001', 'Bahnhof Mitte'],
+	['33000007', 'Straßburger Platz'],
+	['33000115', 'Wasaplatz'],
+];
+---
+
+<StarlightPage
+	frontmatter={{
+		title: 'Network status',
+		description: 'Current and upcoming route changes and live delays at the main hubs in Dresden.',
+		tableOfContents: false,
+	}}
+>
+	<p>
+		Data comes live from the <a href={`${import.meta.env.BASE_URL}docs/webapi/#route-changes`}>WebAPI</a>, directly from your
+		browser.{' '}<span class="muted" id="updated"></span>
+	</p>
+
+	<div class="stats" id="stats" aria-live="polite">
+		<div><strong>…</strong><span>active route changes</span></div>
+		<div><strong>…</strong><span>starting within 7 days</span></div>
+		<div><strong>…</strong><span>lines affected now</span></div>
+		<div><strong>…</strong><span>on time at hubs</span></div>
+	</div>
+
+	<h2 id="hubs">Delays at main hubs</h2>
+	<p class="muted">Departures in the next 30 minutes. Delayed means at least 3 minutes late.</p>
+	<div class="table-scroll">
+		<table>
+			<thead>
+				<tr><th>Stop</th><th class="num">Departures</th><th class="num">Delayed</th><th class="num wide-only">Avg. delay</th><th class="num wide-only">Max.</th><th class="num">Cancelled</th></tr>
+			</thead>
+			<tbody id="hub-rows">
+				{hubs.map(([id, name]) => <tr data-stop={id} data-name={name}><td><a href={`${import.meta.env.BASE_URL}departures/?stop=${id}`}>{name}</a></td><td class="num" colspan="5">…</td></tr>)}
+			</tbody>
+		</table>
+	</div>
+
+	<h2 id="changes">Route changes</h2>
+	<input class="search" id="filter" type="search" placeholder="Filter by line, place or operator, e.g. 61, Pirna or RVSOE" aria-label="Filter route changes" />
+	<h3>Active now <span class="muted" id="active-count"></span></h3>
+	<ul class="list" id="active"></ul>
+	<h3>Upcoming <span class="muted" id="upcoming-count"></span></h3>
+	<ul class="list" id="upcoming"></ul>
+	<p class="muted" id="error" hidden></p>
+</StarlightPage>
+
+<script>
+	import { webapi, parseDate, formatDate, formatTime, sanitizeHtml, el, fold } from '../lib/vvo';
+
+	interface Line { Id: string; Name: string; Mot?: string; TransportationCompany?: string }
+	interface Change {
+		Id: string;
+		Title: string;
+		Description: string;
+		ValidityPeriods: { Begin?: string; End?: string }[];
+		LineIds?: string[];
+		PublishDate?: string;
+	}
+	interface Departure { ScheduledTime: string; RealTime?: string; State?: string; CancelReasons?: unknown[] }
+
+	const DAY = 86_400_000;
+	const now = Date.now();
+	const $ = (id: string) => document.getElementById(id)!;
+	const setStat = (i: number, value: string) => ($('stats').children[i].querySelector('strong')!.textContent = value);
+
+	function periods(c: Change) {
+		return c.ValidityPeriods.map((p) => ({ begin: parseDate(p.Begin)?.getTime() ?? 0, end: parseDate(p.End)?.getTime() ?? Infinity }));
+	}
+
+	function describe(c: Change, lines: Map<string, Line>) {
+		const ps = periods(c);
+		const range = ps
+			.slice(0, 3)
+			.map((p) => `${formatDate(new Date(p.begin))}${p.end === Infinity ? ' until further notice' : ` – ${formatDate(new Date(p.end))}`}`)
+			.join(', ');
+		const chips = (c.LineIds ?? [])
+			.map((id) => lines.get(id))
+			.filter((l): l is Line => !!l)
+			.map((l) => el('span', { class: 'chip', title: [l.Mot, l.TransportationCompany].filter(Boolean).join(', ') }, l.Name));
+		const body = el('div', { class: 'body' });
+		const details = el('details', {}, el('summary', {}, c.Title), body);
+		// Descriptions can be long; only parse them when someone opens the entry.
+		details.addEventListener('toggle', () => body.childElementCount || body.append(sanitizeHtml(c.Description)), { once: true });
+		const operators = [...new Set((c.LineIds ?? []).map((id) => lines.get(id)?.TransportationCompany).filter(Boolean))];
+		const li = el('li', {}, details, el('div', {}, ...chips), el('div', { class: 'muted' }, [range, operators.join(', ')].filter(Boolean).join(' · ')));
+		// Descriptions often name further affected stops, so search them too. DOMParser output is inert.
+		const description = new DOMParser().parseFromString(c.Description, 'text/html').body.textContent ?? '';
+		li.dataset.search = fold(`${c.Title} ${operators.join(' ')} ${description}`);
+		li.dataset.lines = chips.map((n) => n.textContent!.toLowerCase()).join('|');
+		return li;
+	}
+
+	async function loadChanges() {
+		const data = await webapi<{ Changes: Change[]; Lines: Line[] }>('rc', { shortterm: true });
+		const lines = new Map(data.Lines.map((l) => [l.Id, l]));
+		const active = data.Changes.filter((c) => periods(c).some((p) => p.begin <= now && now < p.end));
+		const upcoming = data.Changes.filter((c) => !active.includes(c) && periods(c).some((p) => p.begin > now))
+			.sort((a, b) => Math.min(...periods(a).map((p) => p.begin)) - Math.min(...periods(b).map((p) => p.begin)));
+		const soon = upcoming.filter((c) => periods(c).some((p) => p.begin > now && p.begin - now < 7 * DAY));
+
+		setStat(0, String(active.length));
+		setStat(1, String(soon.length));
+		setStat(2, String(new Set(active.flatMap((c) => c.LineIds ?? [])).size));
+		$('active').replaceChildren(...active.map((c) => describe(c, lines)));
+		$('upcoming').replaceChildren(...upcoming.map((c) => describe(c, lines)));
+		applyFilter();
+	}
+
+	function applyFilter() {
+		const terms = ($('filter') as HTMLInputElement).value.toLowerCase().split(/\s+/).filter(Boolean);
+		for (const listId of ['active', 'upcoming']) {
+			let shown = 0;
+			for (const li of Array.from($(listId).children) as HTMLElement[]) {
+				// Line numbers must match a whole line, so "3" doesn't also find 30 or 333.
+				const lines = li.dataset.lines!.split('|');
+				const match = terms.every((t) => lines.includes(t) || (!/^\d+$/.test(t) && li.dataset.search!.includes(fold(t))));
+				li.hidden = !match;
+				shown += +match;
+			}
+			$(`${listId}-count`).textContent = `(${shown})`;
+		}
+	}
+	$('filter').addEventListener('input', applyFilter);
+
+	async function loadHub(row: HTMLTableRowElement) {
+		const data = await webapi<{ Departures?: Departure[] }>('dm', { stopid: row.dataset.stop, limit: 60 });
+		const deps = (data.Departures ?? []).filter((d) => (parseDate(d.ScheduledTime)?.getTime() ?? 0) < now + 30 * 60_000);
+		const cancelled = deps.filter((d) => d.State === 'Cancelled' || (d.CancelReasons?.length ?? 0) > 0).length;
+		const delays = deps
+			.filter((d) => d.RealTime && d.State !== 'Cancelled')
+			.map((d) => Math.round((parseDate(d.RealTime)!.getTime() - parseDate(d.ScheduledTime)!.getTime()) / 60_000));
+		const delayed = delays.filter((m) => m >= 3).length;
+		const avg = delays.length ? delays.reduce((a, b) => a + b, 0) / delays.length : 0;
+		const max = delays.length ? Math.max(...delays) : 0;
+		const cls = (bad: boolean, warn: boolean) => (bad ? 'bad' : warn ? 'warn' : '');
+		row.replaceChildren(
+			row.cells[0],
+			el('td', { class: 'num' }, String(deps.length)),
+			el('td', { class: `num ${cls(delayed > deps.length / 3, delayed > 0)}` }, String(delayed)),
+			el('td', { class: 'num wide-only' }, `${avg.toFixed(1)} min`),
+			el('td', { class: `num wide-only ${cls(max >= 10, max >= 3)}` }, `${max} min`),
+			el('td', { class: `num ${cancelled ? 'bad' : ''}` }, String(cancelled)),
+		);
+		return { total: deps.length - cancelled, onTime: deps.length - cancelled - delayed };
+	}
+
+	async function loadHubs() {
+		const rows = Array.from(document.querySelectorAll<HTMLTableRowElement>('#hub-rows tr'));
+		const results = await Promise.allSettled(rows.map(loadHub));
+		rows.forEach((row, i) => {
+			if (results[i].status === 'rejected') row.cells[1].textContent = 'Could not load departures';
+		});
+		const ok = results.flatMap((r) => (r.status === 'fulfilled' ? [r.value] : []));
+		const total = ok.reduce((a, r) => a + r.total, 0);
+		setStat(3, total ? `${Math.round((100 * ok.reduce((a, r) => a + r.onTime, 0)) / total)} %` : '–');
+	}
+
+	Promise.allSettled([loadChanges(), loadHubs()]).then(([changes]) => {
+		$('updated').textContent = `Loaded at ${formatTime(new Date())}.`;
+		if (changes.status === 'rejected') {
+			for (const i of [0, 1, 2]) setStat(i, '–');
+			$('error').hidden = false;
+			$('error').textContent = `Could not load route changes: ${changes.reason}. Check the endpoint health page.`;
+		}
+	});
+</script>

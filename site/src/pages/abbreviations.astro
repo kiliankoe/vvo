@@ -1,0 +1,64 @@
+---
+import { readFile } from 'node:fs/promises';
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { repoPath } from '../lib/data';
+
+// The files are semicolon-separated without a header: "Name;CODE" in Dresden,
+// "Name, Place;CODE" for the surrounding area.
+async function load(file: string, region: string) {
+	const text = await readFile(repoPath(file), 'utf8');
+	return text
+		.trim()
+		.split(/\r?\n/)
+		.map((line) => {
+			const [name, code] = line.split(';');
+			const [stop, place] = region === 'Dresden' ? [name, 'Dresden'] : [name.split(', ')[0], name.split(', ').slice(1).join(', ')];
+			return { stop, place, code };
+		});
+}
+const rows = [...(await load('data/abbreviations_dresden.csv', 'Dresden')), ...(await load('data/abbreviations_regional.csv', 'Region'))];
+---
+
+<StarlightPage
+	frontmatter={{
+		title: 'Abbreviations',
+		description: 'Three-letter stop codes used by DVB, searchable in both directions.',
+		tableOfContents: false,
+	}}
+>
+	<p>
+		DVB uses short codes for stops on displays and in internal data. This list of {rows.length} codes comes from the{' '}
+		<a href="https://www.dvb.de/de-de/fahrplan/haltestellenauskunft/haltestellenkuerzel/">DVB website</a> and is checked for changes daily.
+	</p>
+	<input class="search" id="q" type="search" placeholder="Code or stop name, e.g. HBF or Albertplatz" aria-label="Search abbreviations" autocomplete="off" />
+	<p class="muted" id="count" aria-live="polite"></p>
+	<div class="table-scroll">
+		<table>
+			<thead><tr><th>Code</th><th>Stop</th><th>Place</th></tr></thead>
+			<tbody id="rows">
+				{
+					rows.map((r) => (
+						<tr data-search={`${r.code} ${r.stop} ${r.place}`.toLowerCase()}>
+							<td><code>{r.code}</code></td>
+							<td>{r.stop}</td>
+							<td>{r.place}</td>
+						</tr>
+					))
+				}
+			</tbody>
+		</table>
+	</div>
+</StarlightPage>
+
+<script>
+	const input = document.getElementById('q') as HTMLInputElement;
+	const rows = Array.from(document.querySelectorAll<HTMLTableRowElement>('#rows tr'));
+	input.addEventListener('input', () => {
+		const q = input.value.trim().toLowerCase();
+		// An exact code match is the common case, so show only that row when there is one.
+		const exact = rows.filter((r) => r.cells[0].textContent!.toLowerCase() === q);
+		for (const r of rows) r.hidden = exact.length ? !exact.includes(r) : !r.dataset.search!.includes(q);
+		const shown = rows.filter((r) => !r.hidden).length;
+		document.getElementById('count')!.textContent = !q ? '' : shown ? `${shown} ${shown === 1 ? 'match' : 'matches'}` : 'No matching code or stop.';
+	});
+</script>

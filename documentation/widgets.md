@@ -13,6 +13,9 @@ The Widget API is a simple GET-based interface designed for website integration.
 - No authentication required
 - Intended for small-scale, non-commercial use
 - Covers all VVO network area (not just Dresden)
+- Plain HTTP only, no HTTPS. Browsers block requests from HTTPS pages (mixed content), although the server sends `Access-Control-Allow-Origin: *`
+
+An OpenAPI 3.1 description of these endpoints is available at [`openapi/widgets.yaml`](../openapi/widgets.yaml).
 
 ## Important Usage Restrictions
 
@@ -42,8 +45,10 @@ Params:
 | `ort`       | String  | City/municipality name to disambiguate stop (e.g. "Dresden")     | No       | -            |
 | `vm`        | String  | Comma-separated list of transport modes to filter                | No       | All modes    |
 | `lim`       | Int     | Maximum number of departures to return                           | No       | All          |
-| `timestamp` | Int     | Unix timestamp for departure time search                         | No       | Current time |
+| `timestamp` | Int     | Unix timestamp for departure time search (unconfirmed)           | No       | Current time |
 | `iso`       | Boolean | Return times in ISO format (unconfirmed)                         | No       | false        |
+
+Neither `timestamp` nor `iso` had a visible effect when tested in October 2026.
 
 Possible transport modes are listed [here](http://widgets.vvo-online.de/abfahrtsmonitor/Verkehrsmittel.do). Currently included are `AST/Rufbus`, `Rufbus`, `Fähre`, `Regionalbus`, `S-Bahn`, `Seil-/Schwebebahn`, `Stadtbus`, `Straßenbahn`, `Zug`.
 
@@ -57,6 +62,7 @@ Possible transport modes are listed [here](http://widgets.vvo-online.de/abfahrts
     "1", // Minutes until departure
   ],
   ["1", "Prohlis", "2"],
+  ["9", "Kaditz", ""],
 ];
 ```
 
@@ -66,9 +72,11 @@ Possible transport modes are listed [here](http://widgets.vvo-online.de/abfahrts
 - Each departure is an array with exactly 3 elements:
   - Index 0: Line number (String)
   - Index 1: Direction/final destination (String)
-  - Index 2: Minutes until departure (String)
+  - Index 2: Minutes until departure (String), empty string if the vehicle departs now
 - Times are relative (minutes from now), not absolute
 - Empty array `[]` returned if no departures found
+- Unknown stop names often do not cause an error: the API may return `[]` or silently pick another stop. Use stop IDs from Haltestelle.do where possible
+- An unknown `ort` gives HTTP 503 with the non-JSON body `[# no id#]`. A missing `hst` gives HTTP 503 with `#err1#`
 
 ```
 # Example: Next 2 departures from Postplatz in Dresden
@@ -123,6 +131,8 @@ Params:
 - Each stop entry contains: [name, city, stopId]
 - Stop IDs can be used directly in departure queries
 - Empty sections if no matches found
+- Without `ort`, the search may resolve to stops outside the VVO area
+- A missing `hst` gives HTTP 503 with the non-JSON body `[err235]`
 
 ```
 curl -X "GET" "http://widgets.vvo-online.de/abfahrtsmonitor/Haltestelle.do?ort=Dresden&hst=Helmholtz"
@@ -138,7 +148,7 @@ GET `http://widgets.vvo-online.de/abfahrtsmonitor/Verkehrsmittel.do`
 
 ### Response
 
-Returns an array of 2-element arrays. The first element is the internal identifier, the second is the display name used for the `vm` parameter:
+Returns an array of 2-element arrays. The first element is the internal identifier, the second is the display name used for the `vm` parameter. The body starts with a UTF-8 byte order mark, which some JSON parsers reject.
 
 ```js
 [
@@ -161,6 +171,8 @@ Use the second element (display name) in the `vm` parameter of Abfahrten.do to f
 # Integration Examples
 
 ## Simple Departure Monitor Widget
+
+This only works on pages served over plain HTTP, see above.
 
 ```html
 <!-- Basic departure monitor for a website -->
@@ -201,7 +213,7 @@ The simple format makes it ideal for IoT devices and embedded systems.
 
 2. **Content-Type**: The API returns `text/html` as Content-Type despite serving JSON. Most JSON parsers handle this fine, but you may need to parse the body explicitly instead of relying on response type detection.
 
-3. **Stop Name Matching**: The API requires exact stop names. Use Haltestelle.do first to find the correct spelling.
+3. **Stop Name Matching**: The API resolves stop names loosely and may silently pick the wrong stop. Use Haltestelle.do first and query by stop ID.
 
 4. **No Results**: If you get an empty array, verify:
    - Stop name spelling is exact

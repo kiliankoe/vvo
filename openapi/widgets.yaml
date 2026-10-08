@@ -1,0 +1,237 @@
+openapi: 3.1.0
+info:
+  title: VVO Widget API
+  version: "2026-10-08"
+  summary: Minimal departure monitor API for website widgets.
+  description: |
+    A small GET API originally built for embeddable departure monitor
+    widgets. It covers the whole VVO network.
+
+    This description is **community reverse-engineered**. The API is not
+    officially documented and may change without notice. The version above is
+    the date the spec was last checked against the live API.
+
+    **Usage terms:** VVO allows non-commercial use only. Do not query it in an
+    automated, high-volume way; violations may lead to IP blocking. For
+    commercial or high-volume use, contact opendata@vvo-online.de.
+
+    Quirks:
+
+    - Responses are JSON arrays of arrays, but the server labels them
+      `Content-Type: text/html`. Parse the body as JSON yourself.
+    - Errors come back as HTTP 503 with a short non-JSON error token.
+    - `Content-Type` has no charset, but the body is UTF-8. Decode it as
+      UTF-8 explicitly (`utf-8-sig` for `Verkehrsmittel.do`).
+    - The API is only reachable over plain `http`. Browsers block requests to
+      it from `https` pages (mixed content), so "try it" from an `https`
+      documentation page will fail. Use curl or a server-side client instead.
+      The server does send `Access-Control-Allow-Origin: *`.
+  contact:
+    name: kiliankoe/vvo
+    url: https://github.com/kiliankoe/vvo
+externalDocs:
+  description: Widget API documentation (Markdown)
+  url: https://github.com/kiliankoe/vvo/blob/main/documentation/widgets.md
+servers:
+  - url: http://widgets.vvo-online.de/abfahrtsmonitor
+# No authentication.
+security: []
+tags:
+  - name: Abfahrten
+    description: Departures from a stop.
+  - name: Haltestelle
+    description: Stop search.
+  - name: Verkehrsmittel
+    description: Transport modes usable as departure filters.
+
+paths:
+  /Abfahrten.do:
+    get:
+      tags: [Abfahrten]
+      operationId: abfahrten
+      summary: Abfahrten
+      description: List upcoming departures from a stop.
+      parameters:
+        - name: hst
+          in: query
+          required: true
+          schema: { type: string }
+          example: Postplatz
+          description: Stop name or numeric stop ID. The server resolves names loosely and may silently pick an unrelated stop, so look names up with `Haltestelle.do` first and prefer IDs.
+        - name: ort
+          in: query
+          schema: { type: string }
+          example: Dresden
+          description: City, to disambiguate stop names.
+        - name: lim
+          in: query
+          schema: { type: integer, minimum: 1 }
+          example: 3
+          description: Maximum number of departures. Defaults to all.
+        - name: vz
+          in: query
+          schema: { type: integer, default: 0 }
+          description: Offset from now in minutes.
+        - name: vm
+          in: query
+          schema: { type: string }
+          example: Straßenbahn,Stadtbus
+          description: Comma-separated transport modes, using the display names from `Verkehrsmittel.do`. Defaults to all.
+        - name: timestamp
+          in: query
+          schema: { type: integer }
+          description: Unix timestamp to search from. Unconfirmed; had no visible effect when tested.
+        - name: iso
+          in: query
+          schema: { type: boolean }
+          description: Return times in ISO format. Unconfirmed; had no visible effect when tested.
+      responses:
+        "200":
+          description: Departures. An empty array if there are none, and also for some stop names that cannot be resolved, so `[]` does not prove the stop exists.
+          content:
+            text/html:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Departure"
+              example:
+                - ["9", Kaditz, ""]
+                - ["11", Bühlau, "2"]
+                - ["9", Laubegast, "5"]
+        "503":
+          $ref: "#/components/responses/Error"
+
+  /Haltestelle.do:
+    get:
+      tags: [Haltestelle]
+      operationId: haltestelle
+      summary: Haltestelle
+      description: Find stops by (partial) name.
+      parameters:
+        - name: hst
+          in: query
+          required: true
+          schema: { type: string }
+          example: Helmholtz
+          description: Stop name or part of it.
+        - name: ort
+          in: query
+          schema: { type: string }
+          example: Dresden
+          description: City.
+      responses:
+        "200":
+          description: |
+            A two-element array. The first element lists matching cities, the
+            second lists matching stops. An empty array if nothing matches. Without `ort` the search may resolve
+            to stops in other cities, even outside the VVO area.
+          content:
+            text/html:
+              schema:
+                $ref: "#/components/schemas/StopSearchResult"
+              example:
+                - [[Dresden]]
+                - [[Helmholtzstraße, Dresden, "33000742"]]
+        "503":
+          $ref: "#/components/responses/Error"
+
+  /Verkehrsmittel.do:
+    get:
+      tags: [Verkehrsmittel]
+      operationId: verkehrsmittel
+      summary: Verkehrsmittel
+      description: |
+        List transport modes. The body starts with a UTF-8 byte order mark,
+        which some JSON parsers reject.
+      responses:
+        "200":
+          description: Pairs of internal identifier and display name.
+          content:
+            text/html:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/TransportMode"
+              example:
+                - [AST/Rufbus, Rufbus]
+                - [Fähre, Fähre]
+                - [Regionalbus, Regionalbus]
+                - [Rufbus, Rufbus]
+                - [S-Bahn, S-Bahn]
+                - [Seil-/Schwebebahn, Seil-/Schwebebahn]
+                - [Stadtbus, Stadtbus]
+                - [Straßenbahn, Straßenbahn]
+                - [Zug, Zug]
+
+components:
+  responses:
+    Error:
+      description: |
+        The request failed, for example because `ort` is unknown
+        (`[# no id#]`) or `hst` is missing (`#err1#`, `[err235]`). The body
+        is a short error token, not JSON. Unknown stop names often do not
+        cause an error but return `[]` or departures of another stop.
+      content:
+        text/html:
+          schema:
+            type: string
+          example: "[# no id#]"
+
+  schemas:
+    Departure:
+      type: array
+      description: "`[line, direction, minutes]`"
+      prefixItems:
+        - type: string
+          description: Line.
+          examples: ["11"]
+        - type: string
+          description: Direction.
+          examples: [Bühlau]
+        - type: string
+          description: Minutes until departure, including delays. Empty string if the vehicle departs now.
+          examples: ["2", ""]
+      minItems: 3
+      maxItems: 3
+      items: { type: string }
+
+    StopSearchResult:
+      type: array
+      prefixItems:
+        - type: array
+          description: Matching cities, each as a one-element array.
+          items:
+            type: array
+            prefixItems:
+              - type: string
+                description: City.
+            minItems: 1
+            maxItems: 1
+            items: { type: string }
+        - type: array
+          description: Matching stops as `[name, city, id]`.
+          items:
+            type: array
+            prefixItems:
+              - type: string
+                description: Stop name.
+              - type: string
+                description: City.
+              - type: string
+                description: Stop ID, usable as `hst` in `Abfahrten.do`.
+            minItems: 3
+            maxItems: 3
+            items: { type: string }
+      minItems: 0
+      maxItems: 2
+      items: { type: array, items: {} }
+
+    TransportMode:
+      type: array
+      description: "`[identifier, display name]`. Use the display name in the `vm` parameter."
+      prefixItems:
+        - type: string
+        - type: string
+      minItems: 2
+      maxItems: 2
+      items: { type: string }

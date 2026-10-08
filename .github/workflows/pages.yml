@@ -1,0 +1,73 @@
+name: Deploy Site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/**'
+      - 'documentation/**'
+      - 'openapi/**'
+      - 'data/**'
+      - 'README.md'
+      - '.github/workflows/pages.yml'
+  # Data commits are pushed with GITHUB_TOKEN, which doesn't trigger push events,
+  # so rebuild after the data workflows instead.
+  workflow_run:
+    workflows: ['Update Station Data', 'Update GTFS Data']
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  # Let a running deployment finish instead of cancelling it halfway.
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          # The downloads page shows when each data file last changed.
+          fetch-depth: 0
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v6
+        with:
+          package_json_file: site/package.json
+
+      - name: Install Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: pnpm
+          cache-dependency-path: site/pnpm-lock.yaml
+
+      - name: Build site
+        working-directory: site
+        run: |
+          pnpm install --frozen-lockfile
+          pnpm build
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: site/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
