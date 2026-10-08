@@ -35,9 +35,9 @@ Total stations: 3908
 - Anruflinienbus: 432 stations
 - Straßenbahn: 270 stations
 - Anruflinientaxi: 204 stations
-- Ersatzverkehr: 106 stations
 - Taktbus: 101 stations
 - Zug: 99 stations
+- Ersatzverkehr: 96 stations
 - S-Bahn: 54 stations
 - Bus: 49 stations
 - Fähre: 29 stations
@@ -63,7 +63,7 @@ Total stations: 3908
 - RBM: 30 stations
 - DB AG: 28 stations
 - SDG: 24 stations
-- Mitteldeutsche Regiobahn: 21 stations
+- Mitteldeutsche Regiobahn: 22 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
 - Cottbusverkehr GmbH: 11 stations
 - trilex - Die Länderbahn GmbH DLB: 9 stations
@@ -101,11 +101,11 @@ Total stations: 3908
 - Dresden Postplatz: 16 lines
 - Dresden Trachenberger Platz: 16 lines
 - Dresden Walpurgisstraße: 16 lines
-- Freital S-Bf. / Busbf. Deuben: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
 - Großenhain Lessingplatz: 16 lines
 - Riesa Sachsenhof: 16 lines
 - Dresden S-Bahnhof Dobritz: 15 lines
+- Freital S-Bf. / Busbf. Deuben: 15 lines
 - Meißen Uferstraße: 15 lines
 - Pirna Breite Straße: 15 lines
 - Bad Schandau Nationalparkbahnhof: 14 lines

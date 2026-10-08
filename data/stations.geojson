@@ -37790,13 +37790,14 @@
           "Regionalbus": [
             "344",
             "345",
+            "363",
             "376"
           ],
           "PlusBus": [
             "348"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -37992,12 +37993,9 @@
           ],
           "S-Bahn": [
             "S3"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 16
+        "total_lines": 15
       }
     },
     {
@@ -45456,12 +45454,9 @@
         "lines": {
           "Zug": [
             "RB45"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -45480,6 +45475,7 @@
         "city": "Gröditz b Riesa",
         "name_with_city": "Gröditz b Riesa Busbahnhof",
         "operators": [
+          "Mitteldeutsche Regiobahn",
           "VGM"
         ],
         "lines": {
@@ -52580,12 +52576,9 @@
           ],
           "S-Bahn": [
             "S3"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -56552,12 +56545,9 @@
           ],
           "S-Bahn": [
             "S3"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -89559,6 +89549,7 @@
         "city": "Ragewitz (b Riesa)",
         "name_with_city": "Ragewitz (b Riesa) Ragewitz",
         "operators": [
+          "Mitteldeutsche Regiobahn",
           "VGM"
         ],
         "lines": {
@@ -100322,12 +100313,9 @@
         "lines": {
           "Zug": [
             "RB45"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -100346,7 +100334,6 @@
         "city": "Seerhausen",
         "name_with_city": "Seerhausen Gasthaus",
         "operators": [
-          "Mitteldeutsche Regiobahn",
           "VGM"
         ],
         "lines": {
@@ -100356,12 +100343,9 @@
           "Regionalbus": [
             "431",
             "443"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -102211,12 +102195,9 @@
           ],
           "Zug": [
             "RB45"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -105230,12 +105211,9 @@
           ],
           "Zug": [
             "RB45"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -111082,12 +111060,9 @@
         "lines": {
           "Zug": [
             "RB45"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -111767,12 +111742,9 @@
           ],
           "Zug": [
             "RB45"
-          ],
-          "Ersatzverkehr": [
-            "SEV"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {

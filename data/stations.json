@@ -27467,13 +27467,14 @@
         "Regionalbus": [
           "344",
           "345",
+          "363",
           "376"
         ],
         "PlusBus": [
           "348"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14628:1124",
@@ -27629,12 +27630,9 @@
         ],
         "S-Bahn": [
           "S3"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 16
+      "total_lines": 15
     },
     {
       "id": "de:14628:1176",
@@ -33005,12 +33003,9 @@
       "lines": {
         "Zug": [
           "RB45"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:5800",
@@ -33021,6 +33016,7 @@
       "longitude": 13.44257,
       "latitude": 51.412208,
       "operators": [
+        "Mitteldeutsche Regiobahn",
         "VGM"
       ],
       "lines": {
@@ -38121,12 +38117,9 @@
         ],
         "S-Bahn": [
           "S3"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14628:1637",
@@ -40989,12 +40982,9 @@
         ],
         "S-Bahn": [
           "S3"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 5
     },
     {
       "id": "de:14628:1246",
@@ -64844,6 +64834,7 @@
       "longitude": 13.238841,
       "latitude": 51.266109,
       "operators": [
+        "Mitteldeutsche Regiobahn",
         "VGM"
       ],
       "lines": {
@@ -72607,12 +72598,9 @@
       "lines": {
         "Zug": [
           "RB45"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:5951",
@@ -72623,7 +72611,6 @@
       "longitude": 13.253537,
       "latitude": 51.268071,
       "operators": [
-        "Mitteldeutsche Regiobahn",
         "VGM"
       ],
       "lines": {
@@ -72633,12 +72620,9 @@
         "Regionalbus": [
           "431",
           "443"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14627:5952",
@@ -73952,12 +73936,9 @@
         ],
         "Zug": [
           "RB45"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14627:5981",
@@ -76115,12 +76096,9 @@
         ],
         "Zug": [
           "RB45"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14627:5874",
@@ -80311,12 +80289,9 @@
       "lines": {
         "Zug": [
           "RB45"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:5850",
@@ -80812,12 +80787,9 @@
         ],
         "Zug": [
           "RB45"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 7
+      "total_lines": 6
     },
     {
       "id": "de:14627:5607",
