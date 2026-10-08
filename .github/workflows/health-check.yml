@@ -2,8 +2,9 @@ name: Endpoint Health Check
 
 on:
   schedule:
-    # Hourly, off the full hour when scheduled runs pile up
-    - cron: '17 * * * *'
+    # Daily, off the full hour when scheduled runs pile up. This documents which
+    # endpoints still work; it is not meant as an uptime monitor.
+    - cron: '17 5 * * *'
   workflow_dispatch:
 
 permissions:
@@ -25,7 +26,7 @@ jobs:
         with:
           version: "latest"
 
-      # Results live on their own branch so hourly updates don't clutter main
+      # Results live on their own branch so daily updates don't clutter main
       # or trigger site rebuilds. The site reads health.json from there directly.
       # A failed fetch must fail the run, otherwise the force push below would
       # replace 30 days of history with a single sample.
@@ -42,7 +43,7 @@ jobs:
         run: uv run scripts/check_endpoints.py /tmp/health.json
 
       # The file holds the whole history, so the branch is rewritten as a single
-      # commit instead of growing by one commit per hour.
+      # commit instead of growing by one commit per run.
       - name: Publish results
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
