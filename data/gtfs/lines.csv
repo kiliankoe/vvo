@@ -1,0 +1,550 @@
+agency,line,type,mon,tue,wed,thu,fri,sat,sun,first_departure,last_departure,stops
+-,613,Bus,33,33,33,33,33,0,0,05:25:00,17:13:00,41
+-,616,Bus,28,28,28,28,28,8,8,05:31:00,20:05:00,44
+-,617,Bus,25,25,25,25,25,6,6,04:05:00,19:05:00,40
+-,618,Bus,16,16,16,16,16,6,6,06:20:00,20:50:00,48
+-,619,Bus,9,9,9,9,9,0,0,05:50:00,18:03:00,25
+-,620,Bus,19,19,19,19,19,6,6,05:20:00,18:00:00,27
+-,621,Bus,21,21,21,21,21,0,0,06:20:00,18:00:00,34
+-,622,Bus,36,36,36,36,36,12,8,04:10:00,20:00:00,29
+-,623,Bus,30,30,30,30,30,0,0,06:05:00,18:10:00,43
+-,624,Bus,21,21,21,21,21,0,0,05:50:00,19:05:00,26
+-,625,Bus,13,13,13,13,13,0,0,06:30:00,17:40:00,23
+-,626,Bus,28,28,28,28,28,4,4,05:05:00,19:42:00,42
+-,641,Bus,24,24,24,24,24,8,0,06:20:00,17:50:00,18
+-,642,Bus,11,11,11,11,11,0,0,06:20:00,16:55:00,12
+-,643,Bus,11,11,11,11,11,0,0,06:45:00,17:20:00,12
+-,A/690,Bus,15,15,15,15,15,3,0,06:00:00,17:30:00,18
+-,B/691,Bus,22,22,22,22,22,4,0,04:55:00,19:30:00,20
+-,C/692,Bus,23,24,23,23,23,4,0,05:30:00,18:30:00,15
+-,G/693,Bus,15,15,15,15,15,2,0,04:50:00,19:00:00,23
+Cottbusverkehr,800,Bus,35,35,35,35,35,13,13,04:36:00,20:47:00,33
+Cottbusverkehr,886,Bus,28,28,28,28,28,6,6,05:35:00,17:48:00,38
+DB Fernverkehr AG,EBU,Bus,10,0,0,0,0,0,0,08:50:00,17:50:00,3
+Flixbus,020,Bus,2,2,2,2,2,2,2,07:15:00,08:30:00,11
+Flixbus,023,Bus,2,2,2,2,2,2,2,08:10:00,08:15:00,15
+Flixbus,060,Bus,12,12,12,12,12,12,12,04:25:00,13:00:00,18
+Flixbus,070,Bus,9,7,6,7,8,9,8,07:30:00,18:45:00,6
+Flixbus,082,Bus,2,2,2,2,2,2,2,06:55:00,14:00:00,7
+Flixbus,167,Bus,4,1,1,4,4,4,4,06:45:00,14:30:00,9
+Flixbus,170,Bus,2,2,2,2,2,2,2,08:00:00,09:30:00,13
+Flixbus,220,Bus,2,2,2,2,2,2,2,06:25:00,06:40:00,8
+Flixbus,239,Bus,2,0,0,2,2,2,2,05:30:00,16:00:00,10
+Flixbus,260,Bus,2,2,2,2,2,2,2,09:20:00,09:25:00,9
+Flixbus,264,Bus,2,2,2,2,2,2,2,08:40:00,09:30:00,11
+Flixbus,270,Bus,2,2,2,2,4,2,2,07:20:00,17:40:00,9
+Flixbus,321,Bus,2,2,2,2,2,2,2,10:30:00,10:40:00,12
+Flixbus,860,Bus,2,1,0,1,2,2,2,05:30:00,08:15:00,15
+Flixbus,910,Bus,2,2,2,2,2,2,2,09:45:00,10:00:00,14
+Flixbus,1304,Bus,2,2,2,2,2,2,2,11:55:00,21:30:00,15
+Flixbus,1304A,Bus,1,0,0,1,2,2,2,04:25:00,08:50:00,12
+Flixbus,1926,Bus,2,0,1,1,0,2,0,02:45:00,08:25:00,20
+Flixbus,N20,Bus,2,2,2,2,2,2,2,09:00:00,20:45:00,17
+Flixbus,N23,Bus,2,2,2,2,2,2,2,20:00:00,22:10:00,10
+Flixbus,N42,Bus,2,2,2,2,2,2,2,18:20:00,21:40:00,12
+Flixbus,N60,Bus,6,5,4,5,6,6,6,14:55:00,23:59:00,25
+Flixbus,N67,Bus,4,4,4,4,4,4,4,17:30:00,22:30:00,13
+Flixbus,N69,Bus,2,2,2,2,2,2,2,17:15:00,22:00:00,20
+Flixbus,N70,Bus,2,2,2,2,2,2,2,21:30:00,23:00:00,7
+Flixbus,N160,Bus,2,2,2,2,2,2,2,07:45:00,21:20:00,19
+Flixbus,N232,Bus,2,1,1,2,2,2,2,19:10:00,20:30:00,13
+Flixbus,N260,Bus,5,5,6,6,6,6,6,18:30:00,23:30:00,11
+Flixbus,N360,Bus,1,1,2,2,2,2,2,16:00:00,21:30:00,11
+Flixbus,N360A,Bus,1,1,0,0,0,0,0,16:00:00,21:30:00,11
+Flixbus,N367,Bus,2,2,2,2,2,2,2,10:00:00,21:55:00,15
+Flixbus,N881,Bus,1,0,1,2,2,2,2,17:30:00,19:00:00,14
+Flixbus,N1222,Bus,1,0,1,2,2,2,2,16:05:00,16:45:00,21
+Flixbus,N1230,Bus,2,2,2,2,2,2,2,08:50:00,17:20:00,21
+Flixbus,N1304,Bus,2,2,2,2,2,2,2,17:40:00,22:45:00,17
+Flixbus,N1305,Bus,2,2,2,2,2,2,2,13:20:00,16:50:00,13
+Flixbus,N1306,Bus,2,2,2,2,2,2,2,05:55:00,17:30:00,17
+Flixbus,N1366,Bus,1,0,1,2,2,2,2,11:50:00,19:15:00,16
+Flixbus,N1367,Bus,1,1,0,1,1,2,2,07:20:00,18:10:00,15
+Flixbus,N1908,Bus,0,1,1,1,1,1,1,05:10:00,10:00:00,15
+Flixbus,N3205,Bus,2,2,2,2,2,2,2,07:45:00,08:30:00,21
+MittelSachsen,400,Bus,8,8,8,8,8,8,9,06:20:00,21:28:00,48
+MittelSachsen,454,Bus,4,4,4,4,4,0,0,11:30:00,15:30:00,29
+MittelSachsen,458,Bus,21,21,21,21,21,0,0,05:00:00,18:35:00,51
+MittelSachsen,465,Bus,6,6,6,6,6,6,6,10:25:00,19:25:00,20
+MittelSachsen,492,Bus,7,7,7,7,7,0,0,05:10:00,14:40:00,47
+MittelSachsen,493,Bus,21,21,21,21,21,0,0,05:45:00,16:15:00,18
+MittelSachsen,690,Bus,8,8,8,8,8,0,0,06:20:00,16:13:00,36
+MittelSachsen,691,Bus,11,11,11,11,11,0,0,05:52:00,15:05:00,24
+MittelSachsen,695,Bus,12,12,12,12,12,0,0,06:13:00,14:12:00,32
+MittelSachsen,705,Bus,25,25,25,25,25,6,4,05:21:00,18:24:00,48
+MittelSachsen,710,Bus,23,25,23,23,25,0,0,04:48:00,18:05:00,53
+MittelSachsen,711,Bus,7,7,7,7,7,0,0,10:18:00,16:03:00,15
+MittelSachsen,712,Bus,28,31,28,31,28,0,0,05:25:00,18:05:00,36
+MittelSachsen,716,Bus,11,12,11,12,11,0,0,06:20:00,16:30:00,28
+MittelSachsen,725,Bus,19,19,19,19,19,0,0,05:33:00,14:22:00,25
+MittelSachsen,726,Bus,31,31,31,31,31,0,0,05:20:00,18:50:00,49
+MittelSachsen,727,Bus,21,21,21,21,21,0,0,05:55:00,16:49:00,38
+MittelSachsen,728,Bus,23,23,23,23,23,0,0,05:20:00,18:22:00,19
+MittelSachsen,729,Bus,4,4,4,4,4,0,0,06:54:00,14:35:00,19
+MittelSachsen,733,Bus,30,30,30,30,30,0,0,05:10:00,16:40:00,71
+MittelSachsen,735,Bus,28,28,28,28,28,4,4,05:10:00,18:10:00,42
+MittelSachsen,736,Bus,18,18,18,18,18,6,6,05:50:00,17:15:00,29
+MittelSachsen,737,Bus,19,19,19,19,19,6,4,05:03:00,18:15:00,61
+MittelSachsen,738,Bus,30,30,30,30,30,0,0,05:04:00,18:59:00,47
+MittelSachsen,739,Bus,21,21,21,21,21,0,0,05:19:00,17:32:00,24
+MittelSachsen,742,Bus,28,28,28,28,28,0,0,05:40:00,19:05:00,32
+MittelSachsen,745,Bus,10,11,10,11,10,0,0,05:23:00,16:05:00,23
+MittelSachsen,747,Bus,40,40,40,40,40,0,0,05:09:00,18:52:00,42
+MittelSachsen,749,Bus,26,26,26,26,26,0,0,04:49:00,19:10:00,34
+MittelSachsen,750,Bus,47,47,47,47,47,32,32,04:00:00,22:57:00,62
+MittelSachsen,751,Bus,12,12,12,12,12,0,0,06:27:00,15:44:00,34
+MittelSachsen,755,Bus,20,20,20,20,20,0,0,05:15:00,17:52:00,43
+MittelSachsen,761,Bus,19,19,20,19,19,0,0,06:20:00,16:56:00,37
+MittelSachsen,764,Bus,22,22,22,22,22,0,0,05:25:00,18:45:00,34
+MittelSachsen,765,Bus,24,24,24,24,24,0,0,05:30:00,18:45:00,31
+MittelSachsen,768,Bus,29,29,29,29,29,0,0,05:51:00,18:21:00,18
+MittelSachsen,770,Bus,35,35,35,35,35,0,0,04:54:00,19:11:00,30
+MittelSachsen,774,Bus,13,13,13,13,13,0,0,06:28:00,16:05:00,16
+MittelSachsen,775,Bus,36,36,36,36,36,4,4,05:19:00,18:15:00,51
+MittelSachsen,785,Bus,20,20,20,20,20,0,0,05:05:00,17:20:00,15
+MittelSachsen,786,Bus,29,29,29,29,29,0,0,06:00:00,18:21:00,13
+MittelSachsen,886,Bus,11,11,11,11,11,0,0,06:29:00,18:44:00,26
+MittelSachsen,892,Bus,19,19,19,19,19,0,0,05:13:00,18:12:00,26
+MittelSachsen,905,Bus,6,6,6,6,6,0,0,06:22:00,15:58:00,17
+MittelSachsen,A,Bus,59,59,59,59,59,8,8,05:01:00,19:20:00,48
+MittelSachsen,B,Bus,87,87,87,87,87,56,54,04:44:00,23:39:00,45
+MittelSachsen,C,Bus,66,66,66,66,66,28,28,04:45:00,23:15:00,45
+MittelSachsen,D,Bus,0,0,0,0,0,16,16,07:42:00,23:06:00,14
+MittelSachsen,F,Bus,66,66,66,66,66,28,26,04:17:00,21:34:00,29
+MittelSachsen,G,Bus,32,32,32,32,32,0,0,05:22:00,17:50:00,20
+MittelSachsen,I,Bus,6,6,6,6,6,6,6,05:05:00,22:24:00,27
+MittelSachsen,II,Bus,22,22,22,22,22,12,12,04:56:00,22:25:00,34
+Mitteldeutsche Regiobahn,RB30,Bus,41,41,41,41,41,85,85,00:24:00,24:54:00,3
+Mitteldeutsche Regiobahn,RE3,Bus,63,63,63,63,63,33,33,04:33:00,22:14:00,3
+Mitteldeutsche Regiobahn,RE30,Bus,26,26,26,26,26,3,3,06:43:00,19:43:00,3
+Nahreisezug,RB31,Bus,6,6,6,6,6,2,2,00:30:00,22:31:00,10
+Nahreisezug,RB71,Bus,1,1,1,1,1,0,0,04:55:00,04:55:00,3
+Nahreisezug,S1,Bus,20,7,0,0,0,0,0,08:51:00,18:19:00,3
+Nahreisezug,S3,Bus,68,68,68,68,68,62,62,00:26:00,23:28:00,3
+Nahreisezug,S8,Bus,11,24,24,24,24,0,0,00:17:00,23:35:00,10
+Nahreisezug,U28,Bus,8,0,0,0,0,0,0,10:36:00,16:44:00,5
+Nordsachsen Mobil,805,Bus,5,5,5,5,5,0,0,07:00:00,14:19:00,13
+Nordsachsen Mobil,806,Bus,11,11,11,11,11,0,0,06:13:00,16:20:00,26
+Nordsachsen Mobil,810,Bus,19,19,19,19,19,0,0,06:03:00,17:38:00,19
+Nordsachsen Mobil,811,Bus,3,3,3,3,3,0,0,13:00:00,15:00:00,9
+Nordsachsen Mobil,813,Bus,11,11,11,11,11,0,0,06:22:00,16:00:00,22
+VMEE,520,Bus,35,35,35,35,35,0,0,05:19:00,18:30:00,38
+VMEE,524,Bus,18,18,18,18,18,0,0,05:58:00,16:51:00,36
+VMEE,536,Bus,19,19,19,19,19,0,0,06:20:00,16:59:00,27
+VMEE,560,Bus,33,33,33,33,33,14,10,04:34:00,20:05:00,58
+VMEE,565,Bus,13,13,13,13,13,0,0,06:12:00,16:07:00,22
+VMEE,570,Bus,23,23,23,23,23,0,0,05:42:00,18:03:00,39
+VMEE,575,Bus,10,10,10,10,10,0,0,05:26:00,16:34:00,17
+VMEE,577,Bus,16,16,16,16,16,0,0,05:43:00,18:06:00,28
+VMEE,578,Bus,9,9,9,9,9,0,0,06:29:00,16:12:00,39
+VMEE,579,Bus,35,35,35,34,34,14,10,04:42:00,19:42:00,28
+VMEE,579e,Bus,6,6,6,3,3,0,0,06:19:00,15:31:00,13
+VMEE,581,Bus,20,20,20,20,20,0,0,05:45:00,17:02:00,39
+VMEE,584,Bus,5,5,5,5,5,0,0,06:33:00,17:07:00,27
+VMEE,585,Bus,35,35,35,35,35,0,0,05:11:00,18:36:00,45
+VMEE,586,Bus,9,9,9,9,9,0,0,06:24:00,15:49:00,35
+VMEE,587,Bus,19,19,19,19,19,0,0,05:29:00,17:59:00,44
+VMEE,599,Bus,20,20,20,20,20,0,0,04:34:00,19:30:00,36
+Verkehrsverbund Oberelbe,1 (Hoyerswerda),Bus,65,65,65,65,65,19,0,03:56:00,21:31:00,17
+Verkehrsverbund Oberelbe,2 (Hoyerswerda),Bus,63,63,63,63,63,18,0,03:59:00,21:28:00,23
+Verkehrsverbund Oberelbe,3 (Hoyerswerda),Bus,61,61,61,61,61,19,0,04:25:00,21:25:00,15
+Verkehrsverbund Oberelbe,4 (Hoyerswerda),Bus,52,52,52,52,52,0,0,05:58:00,19:02:00,11
+Verkehrsverbund Oberelbe,5 (Hoyerswerda),Bus,32,32,32,32,32,0,0,05:56:00,19:27:00,28
+Verkehrsverbund Oberelbe,21 (Kamenz),Bus,29,29,29,29,29,4,4,05:06:00,20:06:00,19
+Verkehrsverbund Oberelbe,22 (Kamenz),Bus,27,27,27,27,27,0,0,05:42:00,18:12:00,20
+Verkehrsverbund Oberelbe,23 (Kamenz),Bus,19,19,19,19,19,0,0,06:37:00,17:37:00,11
+Verkehrsverbund Oberelbe,28,Bus,21,21,21,21,21,6,4,05:30:00,20:52:00,32
+Verkehrsverbund Oberelbe,61,Bus,331,331,331,331,339,272,251,03:51:00,27:59:00,51
+Verkehrsverbund Oberelbe,62,Bus,255,255,255,255,263,188,139,04:25:00,28:22:00,50
+Verkehrsverbund Oberelbe,63,Bus,239,239,239,239,245,166,160,03:44:00,28:29:00,64
+Verkehrsverbund Oberelbe,64,Bus,215,215,215,215,215,144,136,03:57:00,24:46:00,52
+Verkehrsverbund Oberelbe,65,Bus,226,226,226,226,226,165,164,04:13:00,24:59:00,50
+Verkehrsverbund Oberelbe,66,Bus,221,221,221,221,221,146,143,04:00:00,25:13:00,47
+Verkehrsverbund Oberelbe,68,Bus,252,252,252,252,260,197,191,03:51:00,28:43:00,55
+Verkehrsverbund Oberelbe,70,Bus,121,121,121,121,121,88,87,04:04:00,25:17:00,53
+Verkehrsverbund Oberelbe,72,Bus,65,65,65,65,65,30,30,05:30:00,22:39:00,35
+Verkehrsverbund Oberelbe,73,Bus,64,64,64,64,64,54,0,05:40:00,21:15:00,8
+Verkehrsverbund Oberelbe,74,Bus,80,80,80,80,80,48,36,05:12:00,20:38:00,5
+Verkehrsverbund Oberelbe,77,Bus,158,158,158,158,158,134,122,04:02:00,24:48:00,29
+Verkehrsverbund Oberelbe,78,Bus,82,82,82,82,85,85,82,04:21:00,27:52:00,46
+Verkehrsverbund Oberelbe,79,Bus,85,85,85,85,85,75,51,05:32:00,21:17:00,11
+Verkehrsverbund Oberelbe,80,Bus,118,118,118,118,118,82,84,03:37:00,23:37:00,71
+Verkehrsverbund Oberelbe,81,Bus,69,69,69,69,69,62,62,03:02:00,23:31:00,21
+Verkehrsverbund Oberelbe,83,Bus,78,78,78,78,78,63,63,04:45:00,24:56:00,13
+Verkehrsverbund Oberelbe,84,Bus,45,45,45,45,45,50,50,05:51:00,24:46:00,19
+Verkehrsverbund Oberelbe,85,Bus,101,101,101,101,101,59,57,05:03:00,21:42:00,34
+Verkehrsverbund Oberelbe,86,Bus,112,112,112,112,112,68,66,04:48:00,24:48:00,52
+Verkehrsverbund Oberelbe,87,Bus,93,93,93,93,93,52,52,05:06:00,21:09:00,25
+Verkehrsverbund Oberelbe,88,Bus,149,149,149,149,149,86,86,04:50:00,22:45:00,21
+Verkehrsverbund Oberelbe,89,Bus,60,60,60,60,60,52,52,06:02:00,20:47:00,10
+Verkehrsverbund Oberelbe,90,Bus,108,108,108,108,108,74,72,04:43:00,24:50:00,22
+Verkehrsverbund Oberelbe,91,Bus,38,38,38,38,38,10,10,05:40:00,23:32:00,26
+Verkehrsverbund Oberelbe,92,Bus,99,99,99,99,99,57,55,04:59:00,22:33:00,22
+Verkehrsverbund Oberelbe,93,Bus,38,38,38,38,38,12,12,05:14:00,22:25:00,25
+Verkehrsverbund Oberelbe,98A,Bus,28,28,28,28,28,0,0,06:10:00,20:17:00,14
+Verkehrsverbund Oberelbe,98B,Bus,32,32,32,32,32,17,17,05:31:00,19:47:00,29
+Verkehrsverbund Oberelbe,98C,Bus,35,35,35,35,35,10,10,05:36:00,20:41:00,9
+Verkehrsverbund Oberelbe,160,Bus,152,152,152,152,156,121,76,03:59:00,26:57:00,35
+Verkehrsverbund Oberelbe,161,Bus,66,66,66,66,66,20,14,04:43:00,21:06:00,27
+Verkehrsverbund Oberelbe,162,Bus,82,82,82,82,82,53,39,04:09:00,25:12:00,61
+Verkehrsverbund Oberelbe,163,Bus,74,74,74,74,74,35,20,04:09:00,23:38:00,34
+Verkehrsverbund Oberelbe,164,Bus,85,85,85,85,85,37,19,04:45:00,23:23:00,47
+Verkehrsverbund Oberelbe,166,Bus,95,95,95,95,95,64,58,04:25:00,21:27:00,14
+Verkehrsverbund Oberelbe,201,Bus,15,15,16,16,15,0,0,05:27:00,16:40:00,30
+Verkehrsverbund Oberelbe,202,Bus,12,12,13,13,12,0,0,06:38:00,15:31:00,24
+Verkehrsverbund Oberelbe,204,Bus,34,36,34,34,34,0,0,05:10:00,19:05:00,37
+Verkehrsverbund Oberelbe,205,Bus,15,15,15,15,15,0,0,04:55:00,16:47:00,43
+Verkehrsverbund Oberelbe,206,Bus,17,17,17,17,17,0,0,05:35:00,17:59:00,11
+Verkehrsverbund Oberelbe,207a,Bus,37,37,37,37,37,0,0,05:02:00,18:52:00,60
+Verkehrsverbund Oberelbe,207b,Bus,12,12,12,12,12,0,0,06:07:00,15:51:00,25
+Verkehrsverbund Oberelbe,209,Bus,13,13,13,13,13,0,0,04:46:00,17:45:00,26
+Verkehrsverbund Oberelbe,214,Bus,12,12,12,12,12,0,0,06:18:00,15:56:00,17
+Verkehrsverbund Oberelbe,216,Bus,15,15,15,15,15,7,7,05:04:00,17:15:00,45
+Verkehrsverbund Oberelbe,217,Bus,0,0,0,0,0,15,15,08:39:00,18:19:00,15
+Verkehrsverbund Oberelbe,218,Bus,19,19,19,19,19,0,0,05:20:00,18:15:00,35
+Verkehrsverbund Oberelbe,219,Bus,43,43,43,43,45,17,15,04:30:00,23:00:00,34
+Verkehrsverbund Oberelbe,226,Bus,42,42,42,42,42,10,10,04:27:00,21:05:00,46
+Verkehrsverbund Oberelbe,228,Bus,36,36,36,36,36,26,22,05:04:00,24:49:00,36
+Verkehrsverbund Oberelbe,229,Bus,15,15,15,15,15,0,0,06:24:00,18:41:00,9
+Verkehrsverbund Oberelbe,232,Bus,15,15,15,15,15,0,0,07:03:00,15:33:00,23
+Verkehrsverbund Oberelbe,233,Bus,17,25,25,25,25,0,0,06:13:00,16:05:00,13
+Verkehrsverbund Oberelbe,234,Bus,32,32,32,32,32,12,9,04:14:00,19:36:00,50
+Verkehrsverbund Oberelbe,235,Bus,14,14,14,14,14,0,0,06:00:00,15:57:00,23
+Verkehrsverbund Oberelbe,236,Bus,11,11,11,11,11,0,0,04:35:00,16:40:00,48
+Verkehrsverbund Oberelbe,237,Bus,40,40,40,40,40,39,39,04:19:00,20:10:00,59
+Verkehrsverbund Oberelbe,238,Bus,31,31,31,31,31,0,0,05:25:00,19:32:00,37
+Verkehrsverbund Oberelbe,239,Bus,0,0,0,0,0,22,22,08:53:00,19:13:00,13
+Verkehrsverbund Oberelbe,241,Bus,45,45,45,45,45,50,50,05:02:00,20:52:00,50
+Verkehrsverbund Oberelbe,242,Bus,21,21,21,21,21,15,15,06:01:00,19:20:00,18
+Verkehrsverbund Oberelbe,243,Bus,34,34,34,34,34,20,20,05:36:00,19:36:00,25
+Verkehrsverbund Oberelbe,244,Bus,41,41,41,41,41,23,23,04:50:00,20:10:00,19
+Verkehrsverbund Oberelbe,245,Bus,25,25,25,25,25,8,8,05:15:00,18:31:00,43
+Verkehrsverbund Oberelbe,246,Bus,33,33,33,33,33,5,5,05:28:00,18:58:00,45
+Verkehrsverbund Oberelbe,247,Bus,12,12,12,12,12,0,0,05:49:00,17:39:00,41
+Verkehrsverbund Oberelbe,251,Bus,13,13,13,13,13,8,8,06:25:00,17:50:00,11
+Verkehrsverbund Oberelbe,252,Bus,77,77,77,77,77,38,38,04:43:00,19:51:00,29
+Verkehrsverbund Oberelbe,253,Bus,26,26,26,26,26,4,4,04:41:00,17:44:00,23
+Verkehrsverbund Oberelbe,254,Bus,28,28,28,28,28,30,30,07:00:00,21:51:00,42
+Verkehrsverbund Oberelbe,260,Bus,58,58,58,58,58,35,35,05:05:00,20:25:00,22
+Verkehrsverbund Oberelbe,261,Bus,59,59,59,59,59,19,19,03:35:00,22:22:00,51
+Verkehrsverbund Oberelbe,263,Bus,44,44,44,44,44,0,0,04:57:00,17:10:00,36
+Verkehrsverbund Oberelbe,263 b,Bus,3,3,3,3,3,0,0,09:08:00,13:35:00,27
+Verkehrsverbund Oberelbe,264,Bus,41,41,41,41,41,8,0,04:35:00,19:10:00,34
+Verkehrsverbund Oberelbe,265,Bus,14,14,14,14,14,0,0,05:52:00,16:00:00,36
+Verkehrsverbund Oberelbe,267,Bus,49,49,49,49,49,12,10,04:55:00,19:29:00,29
+Verkehrsverbund Oberelbe,268,Bus,22,23,23,23,23,13,13,04:05:00,19:55:00,18
+Verkehrsverbund Oberelbe,269,Bus,17,17,17,17,17,26,26,05:07:00,18:23:00,25
+Verkehrsverbund Oberelbe,333,Bus,67,67,67,67,72,35,26,04:22:00,26:46:00,56
+Verkehrsverbund Oberelbe,336,Bus,24,24,24,24,24,0,0,04:20:00,21:16:00,27
+Verkehrsverbund Oberelbe,337,Bus,17,17,17,17,17,0,0,06:50:00,15:45:00,39
+Verkehrsverbund Oberelbe,343,Bus,22,22,22,22,22,0,0,05:59:00,18:29:00,18
+Verkehrsverbund Oberelbe,344,Bus,9,9,9,9,9,0,0,06:18:00,15:41:00,26
+Verkehrsverbund Oberelbe,345,Bus,38,38,38,38,39,6,3,05:17:00,21:54:00,24
+Verkehrsverbund Oberelbe,346,Bus,21,21,21,21,21,0,0,05:50:00,16:21:00,12
+Verkehrsverbund Oberelbe,347,Bus,19,19,19,19,19,0,0,05:40:00,17:19:00,16
+Verkehrsverbund Oberelbe,348,Bus,58,58,58,58,58,24,20,04:34:00,22:43:00,25
+Verkehrsverbund Oberelbe,351,Bus,12,12,12,12,12,0,0,06:15:00,16:17:00,26
+Verkehrsverbund Oberelbe,352,Bus,3,3,3,3,3,0,0,05:29:00,16:10:00,31
+Verkehrsverbund Oberelbe,353,Bus,31,31,31,31,31,0,0,05:39:00,18:51:00,22
+Verkehrsverbund Oberelbe,356,Bus,9,9,9,9,9,0,0,06:48:00,16:15:00,8
+Verkehrsverbund Oberelbe,360,Bus,108,108,108,108,113,64,38,04:25:00,27:46:00,40
+Verkehrsverbund Oberelbe,361,Bus,21,21,21,21,21,0,0,06:15:00,16:30:00,23
+Verkehrsverbund Oberelbe,362,Bus,17,17,17,17,17,0,0,06:20:00,17:37:00,14
+Verkehrsverbund Oberelbe,363,Bus,21,21,21,21,22,16,13,05:10:00,22:09:00,33
+Verkehrsverbund Oberelbe,365,Bus,24,24,24,24,24,8,6,05:18:00,21:40:00,51
+Verkehrsverbund Oberelbe,366,Bus,17,17,17,17,17,0,0,05:19:00,18:04:00,39
+Verkehrsverbund Oberelbe,367,Bus,32,32,32,32,32,10,11,04:44:00,21:36:00,24
+Verkehrsverbund Oberelbe,368,Bus,28,28,28,28,28,0,0,05:25:00,17:24:00,38
+Verkehrsverbund Oberelbe,369,Bus,18,18,18,18,18,0,0,05:55:00,17:09:00,22
+Verkehrsverbund Oberelbe,370,Bus,28,28,28,28,28,6,6,05:00:00,19:15:00,21
+Verkehrsverbund Oberelbe,372,Bus,12,12,12,12,12,0,0,05:18:00,17:48:00,5
+Verkehrsverbund Oberelbe,373,Bus,28,28,28,28,28,0,0,05:10:00,21:52:00,30
+Verkehrsverbund Oberelbe,374,Bus,8,8,8,8,8,0,0,06:20:00,17:03:00,10
+Verkehrsverbund Oberelbe,375,Bus,20,20,20,20,20,6,6,06:23:00,17:59:00,24
+Verkehrsverbund Oberelbe,376,Bus,34,34,34,34,34,8,8,05:05:00,19:31:00,32
+Verkehrsverbund Oberelbe,378,Bus,14,14,14,14,14,0,0,06:15:00,17:33:00,20
+Verkehrsverbund Oberelbe,379,Bus,26,26,26,26,26,6,6,05:30:00,18:41:00,33
+Verkehrsverbund Oberelbe,380,Bus,29,29,29,29,29,0,0,05:36:00,17:45:00,17
+Verkehrsverbund Oberelbe,382,Bus,27,27,27,27,27,0,0,05:38:00,18:37:00,26
+Verkehrsverbund Oberelbe,385,Bus,22,22,22,22,22,0,0,05:00:00,16:50:00,20
+Verkehrsverbund Oberelbe,386,Bus,31,31,31,31,31,6,6,05:13:00,19:53:00,41
+Verkehrsverbund Oberelbe,387,Bus,28,28,28,28,28,0,0,06:06:00,16:38:00,14
+Verkehrsverbund Oberelbe,388,Bus,45,45,45,45,45,12,12,05:11:00,22:20:00,11
+Verkehrsverbund Oberelbe,389,Bus,44,44,44,44,44,0,0,05:03:00,21:08:00,34
+Verkehrsverbund Oberelbe,398,Bus,32,32,32,32,32,30,14,05:15:00,21:11:00,13
+Verkehrsverbund Oberelbe,400,Bus,69,69,69,69,69,21,21,04:19:00,24:41:00,40
+Verkehrsverbund Oberelbe,401,Bus,61,61,61,61,61,14,14,05:03:00,20:41:00,29
+Verkehrsverbund Oberelbe,402,Bus,9,9,9,9,9,0,0,06:58:00,15:41:00,15
+Verkehrsverbund Oberelbe,403,Bus,15,15,15,15,15,0,0,05:42:00,17:02:00,27
+Verkehrsverbund Oberelbe,404,Bus,26,26,26,26,27,11,10,04:30:00,27:12:00,28
+Verkehrsverbund Oberelbe,405,Bus,14,14,14,14,14,10,10,05:52:00,18:23:00,26
+Verkehrsverbund Oberelbe,407,Bus,32,32,32,32,32,12,12,04:58:00,19:59:00,44
+Verkehrsverbund Oberelbe,408,Bus,10,10,10,10,10,0,0,04:58:00,16:32:00,23
+Verkehrsverbund Oberelbe,409,Bus,35,35,35,35,35,12,12,05:02:00,20:45:00,27
+Verkehrsverbund Oberelbe,410,Bus,24,24,24,24,24,0,0,05:00:00,17:35:00,26
+Verkehrsverbund Oberelbe,411,Bus,40,40,40,40,40,14,14,04:57:00,20:23:00,35
+Verkehrsverbund Oberelbe,412,Bus,35,35,35,35,35,9,8,04:50:00,19:54:00,48
+Verkehrsverbund Oberelbe,413,Bus,21,21,21,21,21,0,0,04:32:00,18:38:00,39
+Verkehrsverbund Oberelbe,414,Bus,22,22,22,22,22,6,6,04:31:00,19:23:00,40
+Verkehrsverbund Oberelbe,415,Bus,34,34,34,34,36,14,12,05:38:00,21:54:00,26
+Verkehrsverbund Oberelbe,416,Bus,48,48,48,48,48,15,15,04:11:00,19:45:00,41
+Verkehrsverbund Oberelbe,417,Bus,22,22,22,22,22,6,6,04:33:00,18:21:00,51
+Verkehrsverbund Oberelbe,418,Bus,42,42,42,42,42,14,14,04:33:00,21:08:00,59
+Verkehrsverbund Oberelbe,419,Bus,13,13,13,13,13,0,0,05:30:00,18:20:00,17
+Verkehrsverbund Oberelbe,420,Bus,24,24,24,24,24,8,8,05:07:00,18:15:00,65
+Verkehrsverbund Oberelbe,421,Bus,38,38,38,38,38,12,12,04:38:00,21:00:00,14
+Verkehrsverbund Oberelbe,422,Bus,24,24,24,24,24,6,6,04:40:00,18:30:00,40
+Verkehrsverbund Oberelbe,423,Bus,22,22,22,22,22,0,0,05:02:00,17:56:00,22
+Verkehrsverbund Oberelbe,424,Bus,31,31,31,31,31,12,12,06:02:00,20:04:00,14
+Verkehrsverbund Oberelbe,425,Bus,10,10,10,10,10,0,0,06:59:00,18:16:00,25
+Verkehrsverbund Oberelbe,426,Bus,5,5,5,5,5,0,0,06:35:00,13:52:00,26
+Verkehrsverbund Oberelbe,427,Bus,3,3,3,3,3,0,0,12:42:00,16:44:00,16
+Verkehrsverbund Oberelbe,428,Bus,36,36,36,36,36,10,10,04:46:00,18:44:00,46
+Verkehrsverbund Oberelbe,429,Bus,9,9,9,9,9,0,0,06:10:00,19:25:00,17
+Verkehrsverbund Oberelbe,430,Bus,22,24,22,22,24,6,6,05:35:00,20:09:00,33
+Verkehrsverbund Oberelbe,431,Bus,31,31,31,31,31,8,8,04:35:00,19:15:00,43
+Verkehrsverbund Oberelbe,432,Bus,7,7,7,7,7,0,0,06:11:00,16:37:00,25
+Verkehrsverbund Oberelbe,433,Bus,42,42,42,42,42,12,12,04:24:00,20:13:00,32
+Verkehrsverbund Oberelbe,437,Bus,27,27,27,27,27,0,0,04:50:00,19:12:00,29
+Verkehrsverbund Oberelbe,439,Bus,31,31,31,31,31,6,6,04:30:00,19:16:00,36
+Verkehrsverbund Oberelbe,440,Bus,15,15,15,15,15,6,6,04:09:00,19:20:00,37
+Verkehrsverbund Oberelbe,441,Bus,33,33,33,33,33,12,12,04:43:00,20:58:00,32
+Verkehrsverbund Oberelbe,442,Bus,6,6,6,6,6,0,0,06:27:00,15:40:00,33
+Verkehrsverbund Oberelbe,443,Bus,3,3,3,3,3,0,0,06:46:00,15:02:00,16
+Verkehrsverbund Oberelbe,445,Bus,24,24,24,24,24,6,6,04:32:00,19:56:00,27
+Verkehrsverbund Oberelbe,446,Bus,42,42,42,42,42,14,14,04:37:00,20:52:00,36
+Verkehrsverbund Oberelbe,450,Bus,40,40,40,40,40,10,10,04:35:00,20:55:00,30
+Verkehrsverbund Oberelbe,451,Bus,21,21,21,21,21,0,0,06:10:00,17:01:00,31
+Verkehrsverbund Oberelbe,453,Bus,14,14,14,14,14,0,0,05:58:00,16:10:00,21
+Verkehrsverbund Oberelbe,454,Bus,16,16,16,16,16,0,0,04:46:00,18:34:00,23
+Verkehrsverbund Oberelbe,455,Bus,23,23,23,23,23,0,0,05:58:00,17:20:00,37
+Verkehrsverbund Oberelbe,456,Bus,41,41,41,41,41,0,0,04:18:00,18:36:00,44
+Verkehrsverbund Oberelbe,458,Bus,20,20,20,20,20,6,6,04:50:00,18:51:00,31
+Verkehrsverbund Oberelbe,459,Bus,12,12,12,12,12,0,0,05:12:00,17:19:00,17
+Verkehrsverbund Oberelbe,460,Bus,27,27,27,27,27,0,0,05:09:00,18:23:00,46
+Verkehrsverbund Oberelbe,461,Bus,27,27,27,27,27,0,0,04:43:00,18:35:00,34
+Verkehrsverbund Oberelbe,462,Bus,11,11,11,11,11,0,0,06:02:00,15:01:00,25
+Verkehrsverbund Oberelbe,463,Bus,18,18,18,18,18,0,0,06:06:00,17:03:00,32
+Verkehrsverbund Oberelbe,467,Bus,10,10,10,10,10,0,0,05:20:00,16:39:00,30
+Verkehrsverbund Oberelbe,475,Bus,58,58,58,58,58,20,20,05:10:00,24:14:00,29
+Verkehrsverbund Oberelbe,476,Bus,34,34,34,34,34,16,16,05:17:00,21:47:00,20
+Verkehrsverbund Oberelbe,477,Bus,74,74,74,74,78,54,50,04:16:00,26:46:00,66
+Verkehrsverbund Oberelbe,478,Bus,33,33,33,33,33,18,18,04:30:00,20:59:00,42
+Verkehrsverbund Oberelbe,500,Bus,31,33,31,31,33,13,12,04:27:00,21:32:00,58
+Verkehrsverbund Oberelbe,501,Bus,0,0,0,2,0,0,0,09:12:00,11:13:00,20
+Verkehrsverbund Oberelbe,512,Bus,14,14,14,14,14,10,10,06:26:00,18:59:00,22
+Verkehrsverbund Oberelbe,520,Bus,50,50,50,50,50,12,8,04:28:00,22:34:00,47
+Verkehrsverbund Oberelbe,521,Bus,58,58,58,58,58,22,21,04:32:00,22:14:00,47
+Verkehrsverbund Oberelbe,522,Bus,44,44,44,44,44,12,8,04:41:00,19:41:00,30
+Verkehrsverbund Oberelbe,530,Bus,38,38,38,38,40,12,8,04:36:00,23:30:00,31
+Verkehrsverbund Oberelbe,531,Bus,41,41,41,41,41,17,13,04:36:00,22:35:00,44
+Verkehrsverbund Oberelbe,532,Bus,47,47,47,47,47,15,10,04:33:00,23:04:00,26
+Verkehrsverbund Oberelbe,533,Bus,35,35,35,35,35,8,0,05:12:00,18:35:00,25
+Verkehrsverbund Oberelbe,534,Bus,41,41,41,41,41,8,8,05:04:00,19:35:00,26
+Verkehrsverbund Oberelbe,535,Bus,41,41,41,41,41,12,8,04:46:00,22:30:00,21
+Verkehrsverbund Oberelbe,536,Bus,32,32,32,32,32,12,8,04:35:00,19:36:00,24
+Verkehrsverbund Oberelbe,739,Bus,13,13,13,13,13,0,0,05:25:00,16:50:00,16
+Verkehrsverbund Oberelbe,746,Bus,15,15,15,15,15,0,0,06:20:00,16:50:00,8
+Verkehrsverbund Oberelbe,751,Bus,19,19,19,19,19,0,0,06:20:00,16:55:00,22
+Verkehrsverbund Oberelbe,753,Bus,24,24,24,24,24,0,0,05:24:00,18:46:00,21
+Verkehrsverbund Oberelbe,755,Bus,37,37,37,37,37,0,0,05:05:00,18:15:00,30
+Verkehrsverbund Oberelbe,756,Bus,25,25,25,25,25,0,0,05:05:00,18:03:00,20
+Verkehrsverbund Oberelbe,757,Bus,13,13,13,13,13,0,0,06:00:00,15:45:00,20
+Verkehrsverbund Oberelbe,758,Bus,6,6,6,6,6,0,0,07:15:00,15:00:00,15
+Verkehrsverbund Oberelbe,759,Bus,33,33,33,33,33,0,0,05:10:00,18:20:00,31
+Verkehrsverbund Oberelbe,760,Bus,41,41,41,41,41,0,0,04:38:00,19:13:00,38
+Verkehrsverbund Oberelbe,761,Bus,41,41,41,41,41,0,0,05:27:00,19:16:00,33
+Verkehrsverbund Oberelbe,762,Bus,5,5,5,5,5,0,0,06:46:00,16:00:00,9
+Verkehrsverbund Oberelbe,764,Bus,16,16,16,16,16,0,0,05:31:00,16:26:00,32
+Verkehrsverbund Oberelbe,765,Bus,25,25,25,25,25,0,0,05:06:00,18:33:00,8
+Verkehrsverbund Oberelbe,766,Bus,31,31,31,31,31,0,0,05:16:00,18:16:00,23
+Verkehrsverbund Oberelbe,767,Bus,17,17,17,17,17,0,0,06:32:00,15:15:00,13
+Verkehrsverbund Oberelbe,769,Bus,0,0,0,0,3,3,0,24:19:00,27:15:00,23
+Verkehrsverbund Oberelbe,771,Bus,6,6,6,6,6,0,0,07:20:00,14:40:00,11
+Verkehrsverbund Oberelbe,772,Bus,25,25,25,25,25,0,0,05:35:00,16:30:00,25
+Verkehrsverbund Oberelbe,773,Bus,11,11,11,11,11,0,0,05:55:00,15:25:00,21
+Verkehrsverbund Oberelbe,774,Bus,16,16,16,16,16,0,0,06:10:00,17:00:00,19
+Verkehrsverbund Oberelbe,775,Bus,14,14,14,14,14,0,0,06:09:00,16:46:00,22
+Verkehrsverbund Oberelbe,776,Bus,24,24,24,24,24,0,0,05:08:00,19:08:00,27
+Verkehrsverbund Oberelbe,777,Bus,6,6,6,6,6,0,0,06:40:00,15:50:00,13
+Verkehrsverbund Oberelbe,778,Bus,9,9,9,9,9,0,0,06:25:00,15:15:00,21
+Verkehrsverbund Oberelbe,779,Bus,2,2,2,2,2,0,0,05:15:00,15:22:00,11
+Verkehrsverbund Oberelbe,780,Bus,23,23,23,23,23,0,0,05:30:00,16:37:00,30
+Verkehrsverbund Oberelbe,781,Bus,13,13,13,13,13,0,0,06:00:00,15:20:00,20
+Verkehrsverbund Oberelbe,782,Bus,14,14,14,14,14,0,0,06:35:00,16:35:00,14
+Verkehrsverbund Oberelbe,783,Bus,7,7,7,7,7,0,0,06:30:00,15:42:00,15
+Verkehrsverbund Oberelbe,784,Bus,29,29,29,29,29,0,0,05:26:00,18:28:00,27
+Verkehrsverbund Oberelbe,785,Bus,9,9,9,9,9,0,0,06:51:00,15:05:00,15
+Verkehrsverbund Oberelbe,786,Bus,19,19,19,19,19,0,0,05:17:00,17:50:00,23
+Verkehrsverbund Oberelbe,787,Bus,25,25,25,25,25,0,0,05:05:00,17:00:00,36
+Verkehrsverbund Oberelbe,788,Bus,18,18,18,18,18,0,0,06:07:00,18:32:00,24
+Verkehrsverbund Oberelbe,789,Bus,19,19,19,19,19,0,0,05:57:00,16:51:00,32
+Verkehrsverbund Oberelbe,790,Bus,28,28,28,28,28,0,0,05:30:00,17:30:00,35
+Verkehrsverbund Oberelbe,791,Bus,21,21,21,21,21,0,0,05:35:00,17:35:00,27
+Verkehrsverbund Oberelbe,792,Bus,23,23,23,23,23,0,0,06:10:00,16:10:00,30
+Verkehrsverbund Oberelbe,793,Bus,20,20,20,20,20,0,0,06:07:00,18:29:00,12
+Verkehrsverbund Oberelbe,794,Bus,30,30,30,30,30,8,10,05:03:00,19:22:00,21
+Verkehrsverbund Oberelbe,795,Bus,13,13,13,13,13,0,0,06:50:00,15:15:00,32
+Verkehrsverbund Oberelbe,796,Bus,4,4,4,4,4,0,0,06:29:00,14:36:00,19
+Verkehrsverbund Oberelbe,797,Bus,2,2,2,2,2,0,0,06:30:00,15:30:00,29
+Verkehrsverbund Oberelbe,A1 (Riesa),Bus,26,26,26,26,26,16,12,04:29:00,21:01:00,30
+Verkehrsverbund Oberelbe,A2 (Riesa),Bus,28,28,28,28,28,18,13,04:06:00,20:21:00,28
+Verkehrsverbund Oberelbe,A (Großenhain),Bus,38,38,38,38,38,17,17,05:13:00,20:30:00,31
+Verkehrsverbund Oberelbe,A (Heidenau),Bus,22,23,22,23,22,0,0,05:18:00,17:35:00,28
+Verkehrsverbund Oberelbe,A (Meißen),Bus,63,63,63,63,63,25,25,05:03:00,20:28:00,32
+Verkehrsverbund Oberelbe,B (Heidenau),Bus,21,23,21,23,21,0,0,05:55:00,16:13:00,21
+Verkehrsverbund Oberelbe,B (Meißen),Bus,64,64,64,64,64,27,27,04:57:00,20:28:00,29
+Verkehrsverbund Oberelbe,B (Riesa),Bus,107,107,107,107,107,53,31,04:25:00,20:35:00,25
+Verkehrsverbund Oberelbe,C (Meißen),Bus,121,121,121,121,121,51,51,04:44:00,20:25:00,32
+Verkehrsverbund Oberelbe,C (Riesa),Bus,9,9,9,9,9,0,0,07:09:00,16:54:00,10
+Verkehrsverbund Oberelbe,D (Riesa),Bus,50,50,50,50,50,32,32,04:18:00,20:57:00,27
+Verkehrsverbund Oberelbe,E (Meißen),Bus,8,8,8,8,8,8,8,10:00:00,17:00:00,7
+Verkehrsverbund Oberelbe,E (Riesa),Bus,6,6,6,6,6,3,3,04:19:00,21:10:00,7
+Verkehrsverbund Oberelbe,G/L (Pirna),Bus,39,39,39,39,39,15,13,05:01:00,21:30:00,28
+Verkehrsverbund Oberelbe,H/S (Pirna),Bus,136,136,136,136,139,62,29,04:20:00,26:49:00,49
+Verkehrsverbund Oberelbe,M (Pirna),Bus,16,16,16,16,16,0,0,06:03:00,15:17:00,17
+Verkehrsverbund Oberelbe,N (Pirna),Bus,70,70,70,70,70,28,24,05:30:00,22:08:00,20
+Verkehrsverbund Oberelbe,P (Pirna),Bus,47,47,47,47,47,18,18,04:24:00,25:07:00,19
+Verkehrsverbund Oberelbe,P+R,Bus,60,60,60,60,60,18,18,10:30:00,20:00:00,4
+Verkehrsverbund Oberelbe,R (Sebnitz),Bus,7,7,7,7,7,0,0,06:40:00,15:45:00,21
+Verkehrsverbund Oberelbe,Sv120,Bus,3,3,3,3,3,0,0,06:27:00,14:20:00,30
+Verkehrsverbund Oberelbe,Sv121,Bus,2,2,2,2,2,0,0,06:21:00,14:05:00,26
+Verkehrsverbund Oberelbe,Sv123,Bus,1,1,1,1,1,0,0,06:45:00,06:45:00,4
+Verkehrsverbund Oberelbe,Sv124,Bus,1,1,1,1,1,0,0,15:50:00,15:50:00,5
+Verkehrsverbund Oberelbe,Sv125,Bus,2,2,2,2,2,0,0,06:36:00,14:00:00,21
+Verkehrsverbund Oberelbe,Sv140,Bus,2,2,2,2,2,0,0,06:34:00,15:07:00,28
+Verkehrsverbund Oberelbe,Sv152,Bus,2,2,2,2,2,0,0,06:06:00,14:05:00,31
+Verkehrsverbund Oberelbe,Sv170,Bus,2,2,2,2,2,0,0,06:58:00,13:47:00,16
+Verkehrsverbund Oberelbe,Sv180,Bus,1,1,1,1,1,0,0,16:26:00,16:26:00,8
+Verkehrsverbund Oberelbe,Sv190,Bus,1,1,1,1,1,0,0,06:32:00,06:32:00,26
+Verkehrsverbund Oberelbe,Sv191,Bus,1,1,1,1,1,0,0,06:50:00,06:50:00,14
+Verkehrsverbund Oberelbe,Sv210,Bus,4,4,4,4,4,0,0,07:14:00,13:24:00,15
+Verkehrsverbund Oberelbe,Sv230,Bus,3,3,3,3,3,0,0,06:44:00,14:26:00,41
+Verkehrsverbund Oberelbe,Sv232,Bus,1,1,1,1,1,0,0,07:20:00,07:20:00,15
+Verkehrsverbund Oberelbe,Sv234,Bus,1,1,2,2,1,0,0,15:45:00,15:45:00,22
+Verkehrsverbund Oberelbe,Sv250,Bus,4,4,4,4,4,0,0,07:03:00,15:25:00,22
+Verkehrsverbund Oberelbe,Sv252,Bus,1,1,1,1,1,0,0,14:33:00,14:33:00,22
+Verkehrsverbund Oberelbe,Sv254,Bus,2,2,2,2,2,0,0,07:42:00,13:48:00,3
+Verkehrsverbund Oberelbe,Sv256,Bus,1,1,1,1,1,0,0,14:27:00,14:27:00,17
+Verkehrsverbund Oberelbe,Sv270,Bus,3,3,3,3,3,0,0,06:32:00,14:27:00,51
+Verkehrsverbund Oberelbe,Sv280,Bus,1,1,1,1,1,0,0,15:50:00,15:50:00,28
+Verkehrsverbund Oberelbe,Sv290,Bus,2,2,2,2,2,0,0,06:11:00,14:30:00,45
+Verkehrsverbund Oberelbe,Sv310,Bus,1,1,1,1,1,0,0,07:24:00,07:24:00,10
+Verkehrsverbund Oberelbe,Sv313,Bus,4,4,4,4,4,0,0,07:03:00,13:55:00,22
+Verkehrsverbund Oberelbe,T (Sebnitz),Bus,16,16,16,16,16,0,0,05:38:00,16:53:00,27
+Verkehrsverbund Oberelbe,Z (Pirna),Bus,41,41,41,41,41,15,15,06:15:00,19:54:00,21
+Verkehrsverbund Oberelbe,alita 8,Bus,11,11,11,11,17,28,22,04:00:00,27:42:00,6
+Verkehrsverbund Oberelbe,alita 63,Bus,10,10,10,10,20,22,12,04:36:00,27:47:00,11
+Verkehrsverbund Oberelbe,alita 65,Bus,27,27,27,27,27,30,30,04:06:00,27:46:00,20
+Verkehrsverbund Oberelbe,alita 66,Bus,40,40,40,40,52,80,75,04:00:00,27:50:00,17
+Verkehrsverbund Oberelbe,alita 68,Bus,13,13,13,13,18,26,23,04:05:00,27:35:00,20
+Verkehrsverbund Oberelbe,alita 70,Bus,7,7,7,7,13,15,9,04:03:00,27:49:00,6
+Verkehrsverbund Oberelbe,alita 72,Bus,11,11,11,11,11,12,12,04:41:00,24:12:00,12
+Verkehrsverbund Oberelbe,alita 73,Bus,0,0,0,0,0,0,54,08:01:00,21:17:00,8
+Verkehrsverbund Oberelbe,alita 74,Bus,17,17,17,17,18,18,29,08:48:00,25:02:00,5
+Verkehrsverbund Oberelbe,alita 76,Bus,51,51,51,51,51,54,54,05:20:00,22:15:00,6
+Verkehrsverbund Oberelbe,alita 77,Bus,6,6,6,6,12,12,6,25:06:00,27:42:00,8
+Verkehrsverbund Oberelbe,alita 79,Bus,25,25,25,25,31,43,38,04:03:00,27:33:00,11
+Verkehrsverbund Oberelbe,alita 81,Bus,8,8,8,8,13,13,8,23:42:00,26:42:00,15
+Verkehrsverbund Oberelbe,alita 83,Bus,0,0,0,0,0,7,7,04:53:00,08:16:00,11
+Verkehrsverbund Oberelbe,alita 84,Bus,10,10,10,10,16,28,22,04:34:00,28:09:00,14
+Verkehrsverbund Oberelbe,alita 88,Bus,1,1,1,1,1,2,0,04:33:00,21:43:00,16
+Verkehrsverbund Oberelbe,alita 89,Bus,22,22,22,22,22,30,30,04:50:00,24:58:00,10
+Verkehrsverbund Oberelbe,alita 92,Bus,27,27,27,27,34,48,39,04:06:00,27:44:00,9
+Verkehrsverbund Oberelbe,alita 95,Bus,17,17,17,17,17,0,0,05:54:00,17:54:00,10
+Verkehrsverbund Oberelbe,alita 97,Bus,19,19,19,19,19,0,0,05:43:00,20:02:00,4
+Verkehrsverbund Oberelbe,F 1,Ferry,180,180,180,180,180,180,180,06:55:00,21:28:00,2
+Verkehrsverbund Oberelbe,F 2,Ferry,198,198,198,198,198,198,198,06:20:00,22:33:00,2
+Verkehrsverbund Oberelbe,F 3,Ferry,98,98,98,98,98,90,90,05:46:00,22:43:00,2
+Verkehrsverbund Oberelbe,F 4,Ferry,34,34,34,34,34,30,30,05:50:00,22:00:00,2
+Verkehrsverbund Oberelbe,F 5,Ferry,69,69,69,69,69,64,64,04:55:00,22:00:00,2
+Verkehrsverbund Oberelbe,F 6,Ferry,222,222,222,222,222,210,210,04:50:00,23:15:00,2
+Verkehrsverbund Oberelbe,F 7,Ferry,234,234,234,234,234,222,222,04:30:00,23:55:00,2
+Verkehrsverbund Oberelbe,F 8,Ferry,230,230,230,230,230,218,218,04:40:00,23:43:00,2
+Verkehrsverbund Oberelbe,F 9,Ferry,174,174,174,174,174,96,72,05:00:00,19:25:00,2
+Verkehrsverbund Oberelbe,F 10,Ferry,222,222,222,222,222,204,204,04:30:00,22:55:00,2
+Verkehrsverbund Oberelbe,F 14,Ferry,192,192,192,192,192,192,192,06:00:00,21:54:00,2
+Verkehrsverbund Oberelbe,F 16,Ferry,150,150,150,150,150,98,98,06:30:00,19:54:00,2
+Verkehrsverbund Oberelbe,F 17,Ferry,156,156,156,156,156,98,98,06:30:00,19:54:00,2
+Verkehrsverbund Oberelbe,F 24,Ferry,104,104,104,104,104,68,68,06:00:00,18:50:00,2
+Verkehrsverbund Oberelbe,F 28,Ferry,104,104,104,104,104,68,68,06:00:00,18:50:00,2
+Verkehrsverbund Oberelbe,F 30,Ferry,104,104,104,104,104,68,68,06:00:00,18:50:00,2
+Verkehrsverbund Oberelbe,Schwebebahn,Funicular,86,86,86,86,86,86,86,09:30:00,20:00:00,2
+Verkehrsverbund Oberelbe,Standseilbahn,Funicular,128,128,128,128,128,100,100,06:30:00,21:23:00,2
+Verkehrsverbund Oberelbe,1,Tram,210,210,210,210,210,138,120,04:12:00,24:35:00,50
+Verkehrsverbund Oberelbe,2,Tram,219,219,219,219,225,158,144,03:21:00,27:48:00,41
+Verkehrsverbund Oberelbe,3,Tram,230,230,230,230,237,205,150,03:21:00,28:42:00,34
+Verkehrsverbund Oberelbe,4,Tram,231,231,231,231,237,210,155,03:45:00,27:48:00,71
+Verkehrsverbund Oberelbe,6,Tram,222,222,222,222,228,162,148,03:47:00,28:25:00,62
+Verkehrsverbund Oberelbe,7,Tram,231,231,231,231,237,202,152,03:23:00,29:07:00,58
+Verkehrsverbund Oberelbe,8,Tram,209,209,209,209,209,128,109,04:36:00,24:48:00,52
+Verkehrsverbund Oberelbe,9,Tram,230,230,230,230,236,200,150,03:39:00,27:29:00,74
+Verkehrsverbund Oberelbe,10,Tram,207,207,207,207,207,134,123,04:09:00,24:08:00,99
+Verkehrsverbund Oberelbe,11,Tram,232,232,232,232,238,204,150,03:14:00,27:54:00,52
+Verkehrsverbund Oberelbe,12,Tram,224,224,224,224,230,161,147,03:31:00,28:08:00,63
+Verkehrsverbund Oberelbe,13,Tram,229,229,229,229,235,168,152,03:45:00,28:20:00,46
+Verkehrsverbund Oberelbe,Kirnitzschtalbahn,Tram,41,41,41,41,41,41,41,08:15:00,19:40:00,9
+ZVON Oberlausitz-Niederschlesien,11,Bus,49,49,49,49,53,45,29,04:37:00,23:23:00,22
+ZVON Oberlausitz-Niederschlesien,12,Bus,46,46,46,46,46,0,0,04:30:00,19:46:00,21
+ZVON Oberlausitz-Niederschlesien,13,Bus,54,54,54,54,54,22,18,05:48:00,19:00:00,24
+ZVON Oberlausitz-Niederschlesien,14,Bus,17,17,17,17,17,5,5,05:16:00,20:16:00,30
+ZVON Oberlausitz-Niederschlesien,15,Bus,12,12,12,12,12,0,0,07:30:00,15:41:00,11
+ZVON Oberlausitz-Niederschlesien,16,Bus,18,18,18,18,18,0,0,06:10:00,17:47:00,20
+ZVON Oberlausitz-Niederschlesien,24,Bus,42,42,42,42,42,0,0,05:25:00,18:34:00,29
+ZVON Oberlausitz-Niederschlesien,500,Bus,34,34,34,34,34,11,9,04:23:00,21:32:00,31
+ZVON Oberlausitz-Niederschlesien,501,Bus,34,34,34,34,34,8,6,05:03:00,20:04:00,27
+ZVON Oberlausitz-Niederschlesien,502,Bus,38,38,38,38,38,12,8,04:58:00,20:23:00,26
+ZVON Oberlausitz-Niederschlesien,503,Bus,35,35,35,35,35,12,8,05:00:00,20:04:00,21
+ZVON Oberlausitz-Niederschlesien,504,Bus,27,27,27,27,27,8,0,04:51:00,20:07:00,26
+ZVON Oberlausitz-Niederschlesien,510,Bus,37,37,37,37,37,12,8,04:30:00,19:40:00,35
+ZVON Oberlausitz-Niederschlesien,511,Bus,39,39,39,39,40,13,11,05:01:00,22:28:00,33
+ZVON Oberlausitz-Niederschlesien,513,Bus,30,30,30,30,30,8,0,05:09:00,19:03:00,33
+ZVON Oberlausitz-Niederschlesien,514,Bus,35,35,35,35,36,14,8,05:08:00,22:00:00,37
+ZVON Oberlausitz-Niederschlesien,700,Bus,24,24,24,24,24,0,0,05:40:00,18:26:00,27
+ZVON Oberlausitz-Niederschlesien,701,Bus,34,34,34,34,34,0,0,05:01:00,19:35:00,39
+ZVON Oberlausitz-Niederschlesien,702,Bus,19,19,19,19,19,0,0,05:10:00,18:30:00,36
+ZVON Oberlausitz-Niederschlesien,703,Bus,19,19,19,19,19,0,0,05:26:00,18:15:00,23
+ZVON Oberlausitz-Niederschlesien,706,Bus,11,11,11,11,11,0,0,06:30:00,18:30:00,28
+ZVON Oberlausitz-Niederschlesien,707,Bus,20,20,20,20,20,0,0,05:50:00,18:31:00,23
+ZVON Oberlausitz-Niederschlesien,708,Bus,6,6,6,6,6,0,0,07:08:00,15:53:00,15
+ZVON Oberlausitz-Niederschlesien,709,Bus,6,6,6,6,6,0,0,06:15:00,16:30:00,24
+ZVON Oberlausitz-Niederschlesien,710,Bus,4,4,4,4,4,0,0,06:12:00,16:50:00,29
+ZVON Oberlausitz-Niederschlesien,711,Bus,17,17,17,17,17,0,0,06:05:00,17:00:00,33
+ZVON Oberlausitz-Niederschlesien,712,Bus,16,16,16,16,16,0,0,05:15:00,18:00:00,25
+ZVON Oberlausitz-Niederschlesien,713,Bus,7,7,7,7,8,0,0,06:30:00,15:10:00,23
+ZVON Oberlausitz-Niederschlesien,714,Bus,15,15,15,15,15,0,0,05:07:00,18:25:00,28
+ZVON Oberlausitz-Niederschlesien,716,Bus,12,12,12,12,12,0,0,08:55:00,16:36:00,9
+ZVON Oberlausitz-Niederschlesien,717,Bus,21,21,21,21,21,0,0,05:40:00,17:03:00,30
+ZVON Oberlausitz-Niederschlesien,719,Bus,10,10,10,10,10,0,0,06:32:00,15:20:00,19
+ZVON Oberlausitz-Niederschlesien,720,Bus,10,10,10,10,10,0,0,06:20:00,16:50:00,26
+ZVON Oberlausitz-Niederschlesien,722,Bus,28,28,28,28,28,0,0,06:36:00,20:33:00,21
+ZVON Oberlausitz-Niederschlesien,723,Bus,31,31,31,31,31,0,0,05:10:00,18:55:00,32
+ZVON Oberlausitz-Niederschlesien,724,Bus,11,26,26,26,26,0,0,07:55:00,18:02:00,37
+ZVON Oberlausitz-Niederschlesien,725,Bus,17,17,17,17,17,0,0,06:03:00,16:00:00,21
+ZVON Oberlausitz-Niederschlesien,726,Bus,19,19,19,19,20,1,0,06:20:00,22:53:00,26
+ZVON Oberlausitz-Niederschlesien,727,Bus,15,23,15,23,15,8,8,05:22:00,17:10:00,26
+ZVON Oberlausitz-Niederschlesien,728,Bus,16,16,16,16,16,0,0,06:35:00,16:10:00,25
+ZVON Oberlausitz-Niederschlesien,729,Bus,15,15,15,15,15,0,0,05:55:00,16:40:00,36
+ZVON Oberlausitz-Niederschlesien,730,Bus,26,26,26,26,26,0,0,05:12:00,16:40:00,24
+ZVON Oberlausitz-Niederschlesien,731,Bus,8,8,8,8,8,0,0,06:05:00,16:10:00,16
+ZVON Oberlausitz-Niederschlesien,732,Bus,9,9,9,9,9,0,0,06:33:00,16:47:00,21
+ZVON Oberlausitz-Niederschlesien,733,Bus,15,15,15,15,15,0,0,05:57:00,15:48:00,35
+ZVON Oberlausitz-Niederschlesien,734,Bus,17,17,17,17,17,0,0,05:48:00,16:15:00,26
+ZVON Oberlausitz-Niederschlesien,735,Bus,23,23,23,23,23,0,0,05:19:00,18:27:00,28
+ZVON Oberlausitz-Niederschlesien,736,Bus,27,27,27,27,27,0,0,05:05:00,19:15:00,36
+ZVON Oberlausitz-Niederschlesien,738,Bus,20,20,20,20,20,0,0,05:20:00,17:20:00,41
+ZVON Oberlausitz-Niederschlesien,739,Bus,14,14,14,14,14,0,0,05:00:00,16:20:00,16
+ZVON Oberlausitz-Niederschlesien,741,Bus,13,13,13,13,13,0,0,06:11:00,15:54:00,21
+ZVON Oberlausitz-Niederschlesien,743,Bus,6,6,6,6,6,0,0,06:30:00,15:20:00,27
+ZVON Oberlausitz-Niederschlesien,744,Bus,10,10,10,10,10,0,0,06:39:00,15:33:00,24
+ZVON Oberlausitz-Niederschlesien,747,Bus,22,22,22,22,22,0,0,05:35:00,17:11:00,18
+ZVON Oberlausitz-Niederschlesien,748,Bus,19,19,19,19,19,0,0,06:08:00,18:10:00,27
+ZVON Oberlausitz-Niederschlesien,749,Bus,4,4,4,4,4,0,0,07:05:00,16:00:00,11
+ZVON Oberlausitz-Niederschlesien,750,Bus,18,18,18,18,18,0,0,06:05:00,16:44:00,30
+ZVON Oberlausitz-Niederschlesien,512402,Bus,38,38,38,38,38,14,14,03:55:00,22:41:00,34
+ZVON Oberlausitz-Niederschlesien,512404,Bus,4,4,4,4,4,0,0,06:27:00,16:49:00,22
+ZVON Oberlausitz-Niederschlesien,512406,Bus,16,16,16,16,16,0,0,05:35:00,16:16:00,6
+ZVON Oberlausitz-Niederschlesien,512407,Bus,15,15,15,15,15,12,12,04:48:00,18:39:00,24
+ZVON Oberlausitz-Niederschlesien,512408,Bus,22,22,22,22,22,0,0,04:58:00,22:02:00,20
+ZVON Oberlausitz-Niederschlesien,512409,Bus,50,50,50,50,50,14,14,04:13:00,22:20:00,44
+ZVON Oberlausitz-Niederschlesien,512410,Bus,38,38,38,38,38,15,15,04:38:00,23:09:00,39

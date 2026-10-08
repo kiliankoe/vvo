@@ -1,0 +1,85 @@
+name: Update GTFS Data
+
+on:
+  schedule:
+    # Run weekly on Mondays at 4:00 AM UTC
+    - cron: '0 4 * * 1'
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+# Parallel runs would race on creating the same dated release
+concurrency:
+  group: update-gtfs
+
+env:
+  GTFS_ZIP: /tmp/vvo-gtfs.zip
+  COMMIT_MSG_FILE: /tmp/commit_msg.txt
+  RELEASE_NOTES_FILE: /tmp/release_notes.md
+  # Number of weekly releases to keep, so old snapshots don't pile up
+  KEEP_RELEASES: 8
+
+jobs:
+  update-gtfs:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v7
+
+    - name: Install uv
+      uses: astral-sh/setup-uv@v10
+      with:
+        version: "latest"
+
+    - name: Build GTFS subset and summary
+      uses: nick-fields/retry@v3
+      with:
+        timeout_minutes: 20
+        max_attempts: 3
+        retry_wait_seconds: 60
+        command: >-
+          uv run scripts/fetch_gtfs.py
+          --zip "$GTFS_ZIP"
+          --commit-message "$COMMIT_MSG_FILE"
+          --release-notes "$RELEASE_NOTES_FILE"
+
+    - name: Check for changes
+      id: check_changes
+      run: |
+        git add data/gtfs
+        git diff --staged --quiet || echo "changes=true" >> "$GITHUB_OUTPUT"
+
+    - name: Commit and push changes
+      if: steps.check_changes.outputs.changes == 'true'
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git commit -F "$COMMIT_MSG_FILE"
+        # The daily station update may have pushed in the meantime
+        git pull --rebase
+        git push
+
+    - name: Publish release
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        TAG="gtfs-$(date -u +%F)"
+        if gh release view "$TAG" > /dev/null 2>&1; then
+          gh release upload "$TAG" "$GTFS_ZIP" --clobber
+          gh release edit "$TAG" --notes-file "$RELEASE_NOTES_FILE"
+        else
+          gh release create "$TAG" "$GTFS_ZIP" \
+            --title "VVO GTFS $(date -u +%F)" \
+            --notes-file "$RELEASE_NOTES_FILE" \
+            --latest
+        fi
+
+    - name: Delete old releases
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        gh release list --limit 1000 --json tagName --jq '.[].tagName' \
+          | grep '^gtfs-' | sort -r | tail -n +$((KEEP_RELEASES + 1)) \
+          | xargs -r -n1 gh release delete --yes --cleanup-tag

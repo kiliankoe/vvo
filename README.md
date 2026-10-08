@@ -41,6 +41,8 @@ For commercial applications or high-volume usage, contact VVO at opendata@vvo-on
 - [`stations_summary.md`](https://raw.githubusercontent.com/kiliankoe/vvo/master/data/stations_summary.md) - Statistics and summary of the VVO network
 - [`abbreviations_dresden.csv`](https://raw.githubusercontent.com/kiliankoe/vvo/master/data/abbreviations_dresden.csv) - Station abbreviations in Dresden
 - [`abbreviations_regional.csv`](https://raw.githubusercontent.com/kiliankoe/vvo/master/data/abbreviations_regional.csv) - Station abbreviations in surrounding areas
+- [`gtfs/lines.csv`](https://raw.githubusercontent.com/kiliankoe/vvo/master/data/gtfs/lines.csv) - Weekly summary of typical trips per weekday for each line in the VVO-area GTFS snapshot
+- [`vvo-gtfs.zip`](https://github.com/kiliankoe/vvo/releases/latest/download/vvo-gtfs.zip) - Weekly VVO-area GTFS snapshot, cut from the [gtfs.de](https://gtfs.de/) local transit feed (see [GTFS docs](documentation/gtfs.md#vvo-snapshot))
 - [`liniennetzplan.jpg`](https://raw.githubusercontent.com/kiliankoe/vvo/master/data/liniennetzplan.jpg) - Current DVB standard network map (JPEG)
 - [`liniennetzplan.pdf`](https://raw.githubusercontent.com/kiliankoe/vvo/master/data/liniennetzplan.pdf) - Current DVB standard network map (PDF)
 - [`VVO_STOPS.JSON`](https://www.vvo-online.de/open_data/VVO_STOPS.JSON) - Official daily updated station data (external)
