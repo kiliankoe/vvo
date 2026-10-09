@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3908,
+    "count": 3910,
     "format_version": "2.0"
   },
   "stations": [
@@ -36280,6 +36280,42 @@
       "total_lines": 4
     },
     {
+      "id": "de:14628:3680",
+      "numeric_id": "33003680",
+      "name": "Wanderweg nach Kurort Rathen",
+      "city": "Hohnstein",
+      "name_with_city": "Hohnstein Wanderweg nach Kurort Rathen",
+      "longitude": 14.105823,
+      "latitude": 50.960372,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Regionalbus": [
+          "254"
+        ]
+      },
+      "total_lines": 1
+    },
+    {
+      "id": "de:14628:3681",
+      "numeric_id": "33003681",
+      "name": "Wanderweg zum Amselgrund",
+      "city": "Hohnstein",
+      "name_with_city": "Hohnstein Wanderweg zum Amselgrund",
+      "longitude": 14.093219,
+      "latitude": 50.974244,
+      "operators": [
+        "RVSOE"
+      ],
+      "lines": {
+        "Regionalbus": [
+          "254"
+        ]
+      },
+      "total_lines": 1
+    },
+    {
       "id": "de:14625:6497",
       "numeric_id": "33006497",
       "name": "Hauptstraße",
@@ -42864,10 +42900,11 @@
       ],
       "lines": {
         "Regionalbus": [
+          "242",
           "246"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3505",
@@ -60551,10 +60588,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "253"
+          "253",
+          "254"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3664",
@@ -60588,10 +60626,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "253"
+          "253",
+          "254"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3743",
@@ -68932,10 +68971,15 @@
       "lines": {
         "Regionalbus": [
           "437",
-          "441"
+          "439",
+          "440",
+          "441",
+          "442",
+          "450",
+          "451"
         ]
       },
-      "total_lines": 2
+      "total_lines": 7
     },
     {
       "id": "de:14627:5634",
@@ -77324,10 +77368,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "253"
+          "253",
+          "254"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14628:3669",

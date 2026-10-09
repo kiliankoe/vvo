@@ -1,6 +1,6 @@
 # VVO Station Data Summary
 
-Total stations: 3908
+Total stations: 3910
 
 ## Stations by City
 
@@ -29,7 +29,7 @@ Total stations: 3908
 
 ## Stations by Transit Type
 
-- Regionalbus: 2692 stations
+- Regionalbus: 2694 stations
 - Stadtbus: 1292 stations
 - PlusBus: 647 stations
 - Anruflinienbus: 432 stations
@@ -50,7 +50,7 @@ Total stations: 3908
 
 ## Transit Operators
 
-- RVSOE: 1301 stations
+- RVSOE: 1303 stations
 - VGM: 1171 stations
 - DVB: 775 stations
 - RBO: 677 stations
