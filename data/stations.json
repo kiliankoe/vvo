@@ -376,6 +376,7 @@
       "longitude": 14.182386,
       "latitude": 50.935611,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -11445,14 +11446,13 @@
           "360"
         ],
         "Regionalbus": [
-          "352",
           "366"
         ],
         "Bus": [
           "400"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:843",
@@ -11912,9 +11912,12 @@
           "S1",
           "S2",
           "S8"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 24
+      "total_lines": 25
     },
     {
       "id": "de:14612:16",
@@ -15200,7 +15203,6 @@
       "longitude": 13.781055,
       "latitude": 51.12737,
       "operators": [
-        "DB Regio AG Südost",
         "DVB"
       ],
       "lines": {
@@ -15686,9 +15688,12 @@
           "S2",
           "S3",
           "S8"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 30
+      "total_lines": 31
     },
     {
       "id": "de:14612:36",
@@ -27630,9 +27635,12 @@
         ],
         "S-Bahn": [
           "S3"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 15
+      "total_lines": 16
     },
     {
       "id": "de:14628:1176",
@@ -27920,11 +27928,10 @@
       ],
       "lines": {
         "Stadtbus": [
-          "161",
           "162"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14628:1178",
@@ -30261,7 +30268,9 @@
       "name_with_city": "Goßdorf Waitzdorfer Kreuz",
       "longitude": 14.150783,
       "latitude": 50.964129,
-      "operators": [],
+      "operators": [
+        "DB Regio AG Südost"
+      ],
       "lines": {
         "Ersatzverkehr": [
           "SEV"
@@ -33029,9 +33038,12 @@
           "440",
           "461",
           "462"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14627:5781",
@@ -33732,6 +33744,7 @@
       "longitude": 14.232476,
       "latitude": 50.966301,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -38242,15 +38255,19 @@
       "longitude": 13.585689,
       "latitude": 50.93012,
       "operators": [
+        "Mitteldeutsche Regiobahn",
         "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
           "375",
           "382"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:1632",
@@ -41018,9 +41035,12 @@
         ],
         "S-Bahn": [
           "S3"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14628:1246",
@@ -41309,7 +41329,9 @@
       "name_with_city": "Kohlmühle (Hohnstn.) Bahnhof Goßdorf-Kohlmühle",
       "longitude": 14.164842,
       "latitude": 50.941283,
-      "operators": [],
+      "operators": [
+        "DB Regio AG Südost"
+      ],
       "lines": {
         "Zug": [
           "U28"
@@ -59468,11 +59490,10 @@
           "237",
           "241",
           "245",
-          "246",
           "207a"
         ]
       },
-      "total_lines": 10
+      "total_lines": 9
     },
     {
       "id": "de:14628:3382",
@@ -59487,30 +59508,16 @@
       ],
       "lines": {
         "Regionalbus": [
-          "204",
-          "216",
-          "218",
           "226",
           "234",
-          "236",
-          "237",
-          "238",
-          "241",
-          "245",
-          "246",
-          "207a"
-        ],
-        "PlusBus": [
-          "219"
+          "241"
         ],
         "Stadtbus": [
-          "G/L (Pirna)",
           "H/S (Pirna)",
-          "M (Pirna)",
           "N (Pirna)"
         ]
       },
-      "total_lines": 17
+      "total_lines": 5
     },
     {
       "id": "de:14628:3373",
@@ -60544,6 +60551,7 @@
       "longitude": 14.136788,
       "latitude": 50.945795,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -60602,7 +60610,9 @@
       "name_with_city": "Porschdorf Haltepunkt",
       "longitude": 14.138476,
       "latitude": 50.943281,
-      "operators": [],
+      "operators": [
+        "DB Regio AG Südost"
+      ],
       "lines": {
         "Zug": [
           "U28"
@@ -64882,9 +64892,12 @@
         ],
         "Regionalbus": [
           "431"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6470",
@@ -65023,9 +65036,15 @@
       "name_with_city": "Rathen Kurort Parkplatz",
       "longitude": 14.078765,
       "latitude": 50.956196,
-      "operators": [],
-      "lines": {},
-      "total_lines": 0
+      "operators": [
+        "DB Regio AG Südost"
+      ],
+      "lines": {
+        "Ersatzverkehr": [
+          "SEV"
+        ]
+      },
+      "total_lines": 1
     },
     {
       "id": "de:14628:3705",
@@ -65164,6 +65183,7 @@
       "longitude": 14.131002,
       "latitude": 50.927249,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -65189,6 +65209,7 @@
       "longitude": 14.131928,
       "latitude": 50.92486,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -66370,19 +66391,17 @@
       "longitude": 13.903917,
       "latitude": 51.026638,
       "operators": [
-        "Müller Busreisen",
-        "RVSOE"
+        "Müller Busreisen"
       ],
       "lines": {
         "Regionalbus": [
-          "226",
           "228"
         ],
         "Stadtbus": [
           "98C"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:445",
@@ -68977,9 +68996,13 @@
           "442",
           "450",
           "451"
+        ],
+        "Anruflinienbus": [
+          "439",
+          "440"
         ]
       },
-      "total_lines": 7
+      "total_lines": 9
     },
     {
       "id": "de:14627:5634",
@@ -71695,19 +71718,17 @@
       "longitude": 13.901079,
       "latitude": 51.0297,
       "operators": [
-        "Müller Busreisen",
-        "RVSOE"
+        "Müller Busreisen"
       ],
       "lines": {
         "Regionalbus": [
-          "226",
           "228"
         ],
         "Stadtbus": [
           "98C"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:3790",
@@ -73980,9 +74001,12 @@
         ],
         "Zug": [
           "RB45"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14627:5981",
@@ -76140,9 +76164,12 @@
         ],
         "Zug": [
           "RB45"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14627:5874",
@@ -76542,6 +76569,7 @@
       "longitude": 14.203964,
       "latitude": 50.966516,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -76564,7 +76592,9 @@
       "name_with_city": "Ulbersdorf Bahnhof",
       "longitude": 14.220133,
       "latitude": 50.955523,
-      "operators": [],
+      "operators": [
+        "DB Regio AG Südost"
+      ],
       "lines": {
         "Zug": [
           "U28"
@@ -77869,11 +77899,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "411",
-          "Sv250"
+          "411"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4151",
@@ -80334,9 +80363,12 @@
       "lines": {
         "Zug": [
           "RB45"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14627:5850",
@@ -80832,9 +80864,12 @@
         ],
         "Zug": [
           "RB45"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14627:5607",

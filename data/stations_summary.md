@@ -31,13 +31,13 @@ Total stations: 3910
 
 - Regionalbus: 2694 stations
 - Stadtbus: 1292 stations
-- PlusBus: 647 stations
-- Anruflinienbus: 432 stations
+- PlusBus: 646 stations
+- Anruflinienbus: 433 stations
 - Straßenbahn: 270 stations
 - Anruflinientaxi: 204 stations
+- Ersatzverkehr: 108 stations
 - Taktbus: 101 stations
 - Zug: 99 stations
-- Ersatzverkehr: 96 stations
 - S-Bahn: 54 stations
 - Bus: 49 stations
 - Fähre: 29 stations
@@ -50,11 +50,11 @@ Total stations: 3910
 
 ## Transit Operators
 
-- RVSOE: 1303 stations
+- RVSOE: 1301 stations
 - VGM: 1171 stations
 - DVB: 775 stations
 - RBO: 677 stations
-- DB Regio AG Südost: 117 stations
+- DB Regio AG Südost: 127 stations
 - VGH: 82 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 67 stations
@@ -63,7 +63,7 @@ Total stations: 3910
 - RBM: 30 stations
 - DB AG: 28 stations
 - SDG: 24 stations
-- Mitteldeutsche Regiobahn: 22 stations
+- Mitteldeutsche Regiobahn: 23 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
 - Cottbusverkehr GmbH: 11 stations
 - trilex - Die Länderbahn GmbH DLB: 9 stations
@@ -80,11 +80,11 @@ Total stations: 3910
 ## Major Transit Hubs (10+ lines)
 
 - Meißen Busbahnhof: 33 lines
-- Dresden Hauptbahnhof: 30 lines
+- Dresden Hauptbahnhof: 31 lines
 - Dresden Bahnhof Neustadt: 27 lines
 - Meißen Altstadtbrücke: 27 lines
 - Riesa Busbahnhof / Bahnhof: 27 lines
-- Dresden Bahnhof Mitte: 24 lines
+- Dresden Bahnhof Mitte: 25 lines
 - Pirna ZOB / Bahnhof: 22 lines
 - Großenhain Cottbuser Bahnhof: 21 lines
 - Meißen Bahnhofstraße: 21 lines
@@ -96,16 +96,15 @@ Total stations: 3910
 - Lommatzsch Busbahnhof: 18 lines
 - Großenhain Mozartallee: 17 lines
 - Meißen S-Bahnhof Altstadt: 17 lines
-- Pirna Rosa-Luxemburg-Straße: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
 - Dresden Postplatz: 16 lines
 - Dresden Trachenberger Platz: 16 lines
 - Dresden Walpurgisstraße: 16 lines
+- Freital S-Bf. / Busbf. Deuben: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
 - Großenhain Lessingplatz: 16 lines
 - Riesa Sachsenhof: 16 lines
 - Dresden S-Bahnhof Dobritz: 15 lines
-- Freital S-Bf. / Busbf. Deuben: 15 lines
 - Meißen Uferstraße: 15 lines
 - Pirna Breite Straße: 15 lines
 - Bad Schandau Nationalparkbahnhof: 14 lines
@@ -158,5 +157,4 @@ Total stations: 3910
 - Dresden Schlehenstraße: 10 lines
 - Glashütte (Sachs) Bahnhof / Busbahnhof: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
-- Pirna Robert-Koch-Straße: 10 lines
 - Tharandt Bahnhof: 10 lines
