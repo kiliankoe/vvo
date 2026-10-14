@@ -10320,10 +10320,11 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "1",
           "10"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:13",
@@ -11398,9 +11399,12 @@
           "4",
           "7",
           "9"
+        ],
+        "Stadtbus": [
+          "EV 12"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14612:334",
@@ -18958,10 +18962,11 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "1",
           "10"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:523",
@@ -18976,10 +18981,11 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "1",
           "10"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:526",
@@ -18994,10 +19000,11 @@
       ],
       "lines": {
         "Straßenbahn": [
+          "1",
           "10"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:100",
