@@ -33,7 +33,7 @@ Total stations: 3910
 - Stadtbus: 1293 stations
 - PlusBus: 647 stations
 - Anruflinienbus: 433 stations
-- Straßenbahn: 270 stations
+- Straßenbahn: 271 stations
 - Anruflinientaxi: 204 stations
 - Ersatzverkehr: 108 stations
 - Taktbus: 101 stations
@@ -59,7 +59,7 @@ Total stations: 3910
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 67 stations
 - Müller Busreisen: 58 stations
-- SATRA: 43 stations
+- SATRA: 44 stations
 - RBM: 30 stations
 - DB AG: 28 stations
 - SDG: 24 stations

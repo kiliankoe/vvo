@@ -18268,21 +18268,24 @@
       "longitude": 13.67049,
       "latitude": 51.059261,
       "operators": [
-        "DVB"
+        "DVB",
+        "SATRA"
       ],
       "lines": {
         "Straßenbahn": [
           "12"
         ],
         "Stadtbus": [
+          "91",
           "92",
+          "93",
           "EV 12"
         ],
         "Anruflinientaxi": [
           "alita 97"
         ]
       },
-      "total_lines": 4
+      "total_lines": 6
     },
     {
       "id": "de:14612:965",
@@ -24038,11 +24041,14 @@
         "DVB"
       ],
       "lines": {
+        "Straßenbahn": [
+          "3"
+        ],
         "Stadtbus": [
           "63"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:121",
@@ -80652,11 +80658,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "407",
-          "415"
+          "407"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4107",
@@ -80672,10 +80677,11 @@
       "lines": {
         "Regionalbus": [
           "407",
+          "415",
           "Sv152"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:3797",

@@ -25191,21 +25191,24 @@
         "city": "Dresden",
         "name_with_city": "Dresden Leutewitz",
         "operators": [
-          "DVB"
+          "DVB",
+          "SATRA"
         ],
         "lines": {
           "Straßenbahn": [
             "12"
           ],
           "Stadtbus": [
+            "91",
             "92",
+            "93",
             "EV 12"
           ],
           "Anruflinientaxi": [
             "alita 97"
           ]
         },
-        "total_lines": 4
+        "total_lines": 6
       }
     },
     {
@@ -33009,11 +33012,14 @@
           "DVB"
         ],
         "lines": {
+          "Straßenbahn": [
+            "3"
+          ],
           "Stadtbus": [
             "63"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -111543,11 +111549,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "407",
-            "415"
+            "407"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -111571,10 +111576,11 @@
         "lines": {
           "Regionalbus": [
             "407",
+            "415",
             "Sv152"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
