@@ -33,7 +33,7 @@ Total stations: 3910
 - Stadtbus: 1293 stations
 - PlusBus: 647 stations
 - Anruflinienbus: 433 stations
-- Straßenbahn: 271 stations
+- Straßenbahn: 270 stations
 - Anruflinientaxi: 204 stations
 - Ersatzverkehr: 108 stations
 - Taktbus: 101 stations

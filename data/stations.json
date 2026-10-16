@@ -24041,14 +24041,11 @@
         "DVB"
       ],
       "lines": {
-        "Straßenbahn": [
-          "3"
-        ],
         "Stadtbus": [
           "63"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:121",
