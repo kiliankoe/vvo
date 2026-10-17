@@ -31,11 +31,11 @@ Total stations: 3910
 
 - Regionalbus: 2694 stations
 - Stadtbus: 1293 stations
-- PlusBus: 647 stations
+- PlusBus: 646 stations
 - Anruflinienbus: 433 stations
 - Straßenbahn: 270 stations
 - Anruflinientaxi: 204 stations
-- Ersatzverkehr: 108 stations
+- Ersatzverkehr: 109 stations
 - Taktbus: 101 stations
 - Zug: 99 stations
 - S-Bahn: 54 stations
@@ -50,7 +50,7 @@ Total stations: 3910
 
 ## Transit Operators
 
-- RVSOE: 1303 stations
+- RVSOE: 1301 stations
 - VGM: 1171 stations
 - DVB: 775 stations
 - RBO: 677 stations
@@ -103,7 +103,6 @@ Total stations: 3910
 - Freital S-Bf. / Busbf. Deuben: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
 - Großenhain Lessingplatz: 16 lines
-- Pirna Rosa-Luxemburg-Straße: 16 lines
 - Riesa Sachsenhof: 16 lines
 - Dresden S-Bahnhof Dobritz: 15 lines
 - Meißen Uferstraße: 15 lines
