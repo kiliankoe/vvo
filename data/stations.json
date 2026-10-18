@@ -50301,12 +50301,9 @@
         ],
         "Regionalbus": [
           "Sv190"
-        ],
-        "Ersatzverkehr": [
-          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4076",
@@ -59524,13 +59521,9 @@
           "226",
           "234",
           "241"
-        ],
-        "Stadtbus": [
-          "H/S (Pirna)",
-          "N (Pirna)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 3
     },
     {
       "id": "de:14628:3373",
