@@ -11450,13 +11450,14 @@
           "360"
         ],
         "Regionalbus": [
+          "352",
           "366"
         ],
         "Bus": [
           "400"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:843",
@@ -45167,14 +45168,15 @@
         "VGM"
       ],
       "lines": {
-        "Anruflinienbus": [
+        "Regionalbus": [
+          "417",
           "420"
         ],
-        "Regionalbus": [
+        "Anruflinienbus": [
           "420"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:4957",
@@ -59518,12 +59520,29 @@
       ],
       "lines": {
         "Regionalbus": [
+          "204",
+          "216",
+          "218",
           "226",
           "234",
-          "241"
+          "236",
+          "237",
+          "238",
+          "241",
+          "246",
+          "207a"
+        ],
+        "PlusBus": [
+          "219"
+        ],
+        "Stadtbus": [
+          "G/L (Pirna)",
+          "H/S (Pirna)",
+          "M (Pirna)",
+          "N (Pirna)"
         ]
       },
-      "total_lines": 3
+      "total_lines": 16
     },
     {
       "id": "de:14628:3373",
@@ -66397,17 +66416,19 @@
       "longitude": 13.903917,
       "latitude": 51.026638,
       "operators": [
-        "Müller Busreisen"
+        "Müller Busreisen",
+        "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
+          "226",
           "228"
         ],
         "Stadtbus": [
           "98C"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:445",
@@ -71724,17 +71745,19 @@
       "longitude": 13.901079,
       "latitude": 51.0297,
       "operators": [
-        "Müller Busreisen"
+        "Müller Busreisen",
+        "RVSOE"
       ],
       "lines": {
         "Regionalbus": [
+          "226",
           "228"
         ],
         "Stadtbus": [
           "98C"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:3790",
@@ -80651,10 +80674,11 @@
       "lines": {
         "Regionalbus": [
           "407",
+          "415",
           "Sv152"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:3797",
@@ -81272,11 +81296,12 @@
         "Regionalbus": [
           "417",
           "420",
+          "422",
           "Sv121",
           "Sv230"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14627:4882",
