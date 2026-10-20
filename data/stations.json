@@ -172,9 +172,12 @@
         "Zug": [
           "RB72",
           "RE19"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14628:1796",
@@ -5866,9 +5869,12 @@
         ],
         "Zug": [
           "RB72"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:1865",
@@ -5888,9 +5894,12 @@
         ],
         "Zug": [
           "RB72"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:1868",
@@ -9784,9 +9793,12 @@
         ],
         "Stadtbus": [
           "B (Heidenau)"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14628:3108",
@@ -29025,9 +29037,12 @@
         "Zug": [
           "RB72",
           "RE19"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14628:1803",
@@ -29048,9 +29063,12 @@
         "Zug": [
           "RB72",
           "RE19"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:1799",
@@ -29504,9 +29522,12 @@
         "Zug": [
           "RB72",
           "RE19"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 10
+      "total_lines": 11
     },
     {
       "id": "de:14628:1945",
@@ -43179,9 +43200,12 @@
         ],
         "Zug": [
           "RB72"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3115",
@@ -44259,9 +44283,12 @@
         "Zug": [
           "RB72",
           "RE19"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:1872",
@@ -45670,11 +45697,12 @@
       "lines": {
         "Regionalbus": [
           "711",
+          "773",
           "774",
           "789"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14625:6334",
@@ -58488,10 +58516,11 @@
           "219"
         ],
         "Stadtbus": [
-          "N (Pirna)"
+          "N (Pirna)",
+          "Z (Pirna)"
         ]
       },
-      "total_lines": 7
+      "total_lines": 8
     },
     {
       "id": "de:14628:3446",
@@ -59503,9 +59532,12 @@
           "241",
           "245",
           "207a"
+        ],
+        "Stadtbus": [
+          "Z (Pirna)"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14628:3382",
@@ -70517,9 +70549,12 @@
         ],
         "Zug": [
           "RB72"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:1951",
@@ -70530,6 +70565,7 @@
       "longitude": 13.8152,
       "latitude": 50.873983,
       "operators": [
+        "DB Regio AG Südost",
         "RVSOE"
       ],
       "lines": {
@@ -70537,9 +70573,12 @@
           "201",
           "372",
           "389"
+        ],
+        "Ersatzverkehr": [
+          "SEV"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:1952",

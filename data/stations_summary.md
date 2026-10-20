@@ -30,12 +30,12 @@ Total stations: 3910
 ## Stations by Transit Type
 
 - Regionalbus: 2694 stations
-- Stadtbus: 1293 stations
+- Stadtbus: 1294 stations
 - PlusBus: 647 stations
 - Anruflinienbus: 433 stations
 - Straßenbahn: 270 stations
 - Anruflinientaxi: 204 stations
-- Ersatzverkehr: 108 stations
+- Ersatzverkehr: 119 stations
 - Taktbus: 101 stations
 - Zug: 99 stations
 - S-Bahn: 54 stations
@@ -54,7 +54,7 @@ Total stations: 3910
 - VGM: 1171 stations
 - DVB: 775 stations
 - RBO: 677 stations
-- DB Regio AG Südost: 127 stations
+- DB Regio AG Südost: 128 stations
 - VGH: 82 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
 - Omnibusunternehmen Gottfried Beck: 67 stations
@@ -139,9 +139,11 @@ Total stations: 3910
 - Dresden Julius-Vahlteich-Straße: 11 lines
 - Dresden Mickten: 11 lines
 - Freital S-Bahnhof Hainsberg: 11 lines
+- Glashütte (Sachs) Bahnhof / Busbahnhof: 11 lines
 - Großenhain Hohe Straße: 11 lines
 - Pulsnitz Bahnhof: 11 lines
 - Sebnitz Bahnhof: 11 lines
+- Altenberg (Erzgeb) Bahnhof: 10 lines
 - Bischofswerda Schulstraße: 10 lines
 - Dresden Amalie-Dietrich-Platz: 10 lines
 - Dresden Bahnhof Neustadt (Hansastraße): 10 lines
@@ -156,6 +158,6 @@ Total stations: 3910
 - Dresden S-Bf. Industriegelände: 10 lines
 - Dresden Schillerplatz: 10 lines
 - Dresden Schlehenstraße: 10 lines
-- Glashütte (Sachs) Bahnhof / Busbahnhof: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
+- Pirna Robert-Koch-Straße: 10 lines
 - Tharandt Bahnhof: 10 lines
