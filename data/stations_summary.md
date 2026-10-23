@@ -115,13 +115,13 @@ Total stations: 3909
 - Coswig (b Dresden) Bahnhof: 15 lines
 - Dresden Prager Straße: 15 lines
 - Dresden S-Bahnhof Dobritz: 15 lines
+- Heidenau (Sachs) Bahnhof: 15 lines
 - Meißen Uferstraße: 15 lines
 - Pirna Breite Straße: 15 lines
 - Dippoldiswalde Busbahnhof: 14 lines
 - Dresden Großenhainer Platz: 14 lines
 - Dresden S-Bahnhof Niedersedlitz: 14 lines
 - Dresden Tharandter Straße: 14 lines
-- Heidenau (Sachs) Bahnhof: 14 lines
 - Hoyerswerda Behördenpark: 14 lines
 - Hoyerswerda Lausitzer Platz: 14 lines
 - Kamenz Macherstraße: 14 lines
@@ -154,11 +154,13 @@ Total stations: 3909
 - Dresden Lößnitzstraße: 11 lines
 - Dresden Mickten: 11 lines
 - Dresden S-Bf. Freiberger Straße: 11 lines
+- Glashütte (Sachs) Bahnhof / Busbahnhof: 11 lines
 - Großenhain Hohe Straße: 11 lines
 - Priestewitz Bahnhof: 11 lines
 - Pulsnitz Bahnhof: 11 lines
 - Sebnitz Bahnhof: 11 lines
 - Weinböhla Haltepunkt: 11 lines
+- Altenberg (Erzgeb) Bahnhof: 10 lines
 - Bischofswerda Schulstraße: 10 lines
 - Dresden Amalie-Dietrich-Platz: 10 lines
 - Dresden Anton-/Leipziger Straße: 10 lines
@@ -169,7 +171,6 @@ Total stations: 3909
 - Dresden Kongresszentrum / Haus der Presse: 10 lines
 - Dresden Lennéplatz: 10 lines
 - Dresden Prohlis Gleisschleife: 10 lines
-- Glashütte (Sachs) Bahnhof / Busbahnhof: 10 lines
 - Gompitz Gompitzer Höhe: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
 - Niederau (b Meißen) Bahnhof: 10 lines

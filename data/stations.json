@@ -167,14 +167,15 @@
           "368",
           "370",
           "373",
-          "374"
+          "374",
+          "SEV RB 72"
         ],
         "Zug": [
           "RB72",
           "RE19"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14628:1796",
@@ -5870,13 +5871,14 @@
       "lines": {
         "Regionalbus": [
           "368",
-          "369"
+          "369",
+          "SEV RB 72"
         ],
         "Zug": [
           "RB72"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:1865",
@@ -5892,13 +5894,14 @@
       ],
       "lines": {
         "Regionalbus": [
-          "368"
+          "368",
+          "SEV RB 72"
         ],
         "Zug": [
           "RB72"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:1868",
@@ -9789,7 +9792,8 @@
         "Regionalbus": [
           "201",
           "202",
-          "372"
+          "372",
+          "SEV RB 72"
         ],
         "Zug": [
           "RB72"
@@ -9798,7 +9802,7 @@
           "B (Heidenau)"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14628:3108",
@@ -29272,14 +29276,15 @@
         "Regionalbus": [
           "367",
           "368",
-          "385"
+          "385",
+          "SEV RB 72"
         ],
         "Zug": [
           "RB72",
           "RE19"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14628:1803",
@@ -29295,14 +29300,15 @@
       ],
       "lines": {
         "Regionalbus": [
-          "385"
+          "385",
+          "SEV RB 72"
         ],
         "Zug": [
           "RB72",
           "RE19"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:1799",
@@ -29748,7 +29754,8 @@
           "372",
           "385",
           "386",
-          "389"
+          "389",
+          "SEV RB 72"
         ],
         "PlusBus": [
           "388"
@@ -29758,7 +29765,7 @@
           "RE19"
         ]
       },
-      "total_lines": 10
+      "total_lines": 11
     },
     {
       "id": "de:14628:1945",
@@ -34581,7 +34588,8 @@
         "Regionalbus": [
           "201",
           "202",
-          "372"
+          "372",
+          "SEV RB 72"
         ],
         "Zug": [
           "RB72",
@@ -34596,7 +34604,7 @@
           "SEV S1"
         ]
       },
-      "total_lines": 14
+      "total_lines": 15
     },
     {
       "id": "de:14628:3064",
@@ -35207,8 +35215,8 @@
       "name": "Abzweig Limbach",
       "city": "Helbigsdorf (Kr PIR)",
       "name_with_city": "Helbigsdorf (Kr PIR) Abzweig Limbach",
-      "longitude": 13.470858,
-      "latitude": 51.028299,
+      "longitude": 13.471046,
+      "latitude": 51.028316,
       "operators": [
         "RVSOE"
       ],
@@ -35225,8 +35233,8 @@
       "name": "Alter Bahnhof",
       "city": "Helbigsdorf (Kr PIR)",
       "name_with_city": "Helbigsdorf (Kr PIR) Alter Bahnhof",
-      "longitude": 13.464174,
-      "latitude": 51.026005,
+      "longitude": 13.4658,
+      "latitude": 51.026237,
       "operators": [
         "RVSOE"
       ],
@@ -43417,13 +43425,14 @@
       "lines": {
         "Regionalbus": [
           "201",
-          "202"
+          "202",
+          "SEV RB 72"
         ],
         "Zug": [
           "RB72"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:3115",
@@ -44496,14 +44505,15 @@
       "lines": {
         "Regionalbus": [
           "368",
-          "385"
+          "385",
+          "SEV RB 72"
         ],
         "Zug": [
           "RB72",
           "RE19"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14628:1872",
@@ -48279,10 +48289,11 @@
       "lines": {
         "Regionalbus": [
           "202",
-          "386"
+          "386",
+          "SEV RB 72"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3140",
@@ -51996,14 +52007,16 @@
         "VGM"
       ],
       "lines": {
+        "Regionalbus": [
+          "405",
+          "458",
+          "Sv270"
+        ],
         "PlusBus": [
           "477"
-        ],
-        "Regionalbus": [
-          "Sv270"
         ]
       },
-      "total_lines": 2
+      "total_lines": 4
     },
     {
       "id": "de:14625:6985",
@@ -70762,13 +70775,14 @@
       "lines": {
         "Regionalbus": [
           "201",
-          "372"
+          "372",
+          "SEV RB 72"
         ],
         "Zug": [
           "RB72"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:1951",
@@ -70785,10 +70799,11 @@
         "Regionalbus": [
           "201",
           "372",
-          "389"
+          "389",
+          "SEV RB 72"
         ]
       },
-      "total_lines": 3
+      "total_lines": 4
     },
     {
       "id": "de:14628:1952",
@@ -77852,10 +77867,11 @@
       "lines": {
         "Regionalbus": [
           "201",
-          "202"
+          "202",
+          "SEV RB 72"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14628:3130",
@@ -78301,11 +78317,10 @@
         "Regionalbus": [
           "403",
           "411",
-          "459",
           "Sv250"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14627:4407",
