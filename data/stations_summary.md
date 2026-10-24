@@ -31,11 +31,11 @@ Total stations: 3909
 
 - Regionalbus: 2694 stations
 - Stadtbus: 1315 stations
-- PlusBus: 647 stations
+- PlusBus: 646 stations
 - Anruflinienbus: 433 stations
 - Straßenbahn: 271 stations
 - Anruflinientaxi: 204 stations
-- Ersatzverkehr: 103 stations
+- Ersatzverkehr: 106 stations
 - Taktbus: 101 stations
 - Zug: 99 stations
 - S-Bahn: 54 stations
@@ -50,7 +50,7 @@ Total stations: 3909
 
 ## Transit Operators
 
-- RVSOE: 1303 stations
+- RVSOE: 1301 stations
 - VGM: 1171 stations
 - DVB: 776 stations
 - RBO: 677 stations
@@ -83,7 +83,7 @@ Total stations: 3909
 ## Major Transit Hubs (10+ lines)
 
 - Dresden Hauptbahnhof: 36 lines
-- Dresden Bahnhof Neustadt: 33 lines
+- Dresden Bahnhof Neustadt: 34 lines
 - Meißen Busbahnhof: 33 lines
 - Dresden Bahnhof Mitte: 29 lines
 - Riesa Busbahnhof / Bahnhof: 28 lines
@@ -109,7 +109,6 @@ Total stations: 3909
 - Großenhain Franz-Schubert-Allee: 16 lines
 - Großenhain Lessingplatz: 16 lines
 - Meißen S-Bahnhof Altstadt: 16 lines
-- Pirna Rosa-Luxemburg-Straße: 16 lines
 - Riesa Sachsenhof: 16 lines
 - Bad Schandau Nationalparkbahnhof: 15 lines
 - Coswig (b Dresden) Bahnhof: 15 lines

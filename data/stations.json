@@ -11474,14 +11474,13 @@
           "360"
         ],
         "Regionalbus": [
-          "352",
           "366"
         ],
         "Bus": [
           "400"
         ]
       },
-      "total_lines": 5
+      "total_lines": 4
     },
     {
       "id": "de:14612:843",
@@ -12026,6 +12025,7 @@
           "SEV RB61",
           "SEV RE1",
           "SEV RE2",
+          "SEV S1",
           "SEV S2",
           "SEV S8"
         ],
@@ -12033,7 +12033,7 @@
           "Fernbus"
         ]
       },
-      "total_lines": 33
+      "total_lines": 34
     },
     {
       "id": "de:14612:198",
@@ -21576,9 +21576,12 @@
         ],
         "S-Bahn": [
           "S1"
+        ],
+        "Ersatzverkehr": [
+          "SEV S1"
         ]
       },
-      "total_lines": 8
+      "total_lines": 9
     },
     {
       "id": "de:14612:919",
@@ -21713,12 +21716,15 @@
         "S-Bahn": [
           "S1"
         ],
+        "Ersatzverkehr": [
+          "SEV S1"
+        ],
         "Anruflinientaxi": [
           "alita 73",
           "alita 76"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14612:166",
@@ -21809,9 +21815,12 @@
         ],
         "S-Bahn": [
           "S1"
+        ],
+        "Ersatzverkehr": [
+          "SEV S1"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:212",
@@ -45421,15 +45430,14 @@
         "VGM"
       ],
       "lines": {
-        "Regionalbus": [
-          "417",
+        "Anruflinienbus": [
           "420"
         ],
-        "Anruflinienbus": [
+        "Regionalbus": [
           "420"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14627:4957",
@@ -59777,29 +59785,16 @@
       ],
       "lines": {
         "Regionalbus": [
-          "204",
-          "216",
-          "218",
           "226",
           "234",
-          "236",
-          "237",
-          "238",
-          "241",
-          "246",
-          "207a"
-        ],
-        "PlusBus": [
-          "219"
+          "241"
         ],
         "Stadtbus": [
-          "G/L (Pirna)",
           "H/S (Pirna)",
-          "M (Pirna)",
           "N (Pirna)"
         ]
       },
-      "total_lines": 16
+      "total_lines": 5
     },
     {
       "id": "de:14628:3373",
@@ -66677,19 +66672,17 @@
       "longitude": 13.903917,
       "latitude": 51.026638,
       "operators": [
-        "Müller Busreisen",
-        "RVSOE"
+        "Müller Busreisen"
       ],
       "lines": {
         "Regionalbus": [
-          "226",
           "228"
         ],
         "Stadtbus": [
           "98C"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:445",
@@ -72003,19 +71996,17 @@
       "longitude": 13.901079,
       "latitude": 51.0297,
       "operators": [
-        "Müller Busreisen",
-        "RVSOE"
+        "Müller Busreisen"
       ],
       "lines": {
         "Regionalbus": [
-          "226",
           "228"
         ],
         "Stadtbus": [
           "98C"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:3790",
