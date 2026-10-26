@@ -1,5 +1,6 @@
+Am Rittergut, Altfranken;AFR
 Bonnewitz, Bonnewitz;BON
-Borthen, Borthen;BTN
+Borthen, Dorfplatz, Borthen;BTN
 An der Triebe, Boxdorf (Moritzburg);ADT
 Am Grunde, Boxdorf (Moritzburg);AGD
 Am Weiher, Boxdorf (Moritzburg);AMW
@@ -8,6 +9,7 @@ Bebelplatz, Boxdorf (Moritzburg);BEB
 Ernst-Wagner-Straße, Boxdorf (Moritzburg);EWA
 Feuerwehr Boxdorf, Boxdorf (Moritzburg);FBX
 Querweg, Boxdorf (Moritzburg);QUW
+Straße, (b Kamenz)Lausaer;OLA
 Am Dathepark, Freital;ADA
 Burgker Straße, Freital;BUR
 Meßweg, Freital;MEW
@@ -25,19 +27,50 @@ Tiefer Grund, Graupa;TGR
 Dresdner Straße, Heidenau;DRD
 Bf. Heidenau, Heidenau;HDN
 K.-Kollwitz-Straße, Heidenau;KKS
+Haußmannplatz, Kreischa;HAP
 Klinikum Kreischa, Kreischa;KLK
 Kreischa, Kreischa;KRE
+Am Mühlenteich, Langebrück;AMU
+Borngäßchen, Langebrück;BGC
+Heidehof, Langebrück;HEH
+Klotzscher Straße, Langebrück;KSS
+Lindenhof, Langebrück;LIN
+Schule Langebrück, Langebrück;SLA
+Spritzenhaus, Langebrück;SPR
+Bahnhof Langebrück, Langebrück;BLA
+Abzweig Schönborn, Liegau-Augustusbad;RAS
+Altes Gemeindeamt, Liegau-Augustusbad;RAG
+Hofeberg, Liegau-Augustusbad;RHB
+Silberdiele, Liegau-Augustusbad;RSD
+Bahnhof Süd, Ottendorf-Okrilla;OBF
+Bergener Ring Mitte, Ottendorf-Okrilla;OBF
+Einkaufszentrum, Ottendorf-Okrilla;ODS
+Frankenfurt, Ottendorf-Okrilla;OFF
+Poststraße, Ottendorf-Okrilla;OPO
+Rathaus, Ottendorf-Okrilla;ORA
+Sandweg, Ottendorf-Okrilla;OSW
+Winkelweg, Ottendorf-Okrilla;OWW
 Dorfplatz Pesterwitz, Pesterwitz;DFP
+Mittelweg, Pesterwitz;MIW
 Obere Straße, Pesterwitz;OBS
 Pesterwitz, Pesterwitz;PES
+Sonnenleite, Pesterwitz;PES
 Wurgwitzer Straße, Pesterwitz;WWS
+Zum Weinberg, Pesterwitz;ZWB
+Ärztehaus, Radeberg;RAH
+Dr.-Rudolf-Friedrichs-Straße, Radeberg;RRF
+August-Bebel-Straße, Radeberg;RAB
+Bahnhof, Radeberg;RBF
+Lotzdorf Mitte, Radeberg;RLM
+Lotzdorf Schule, Radeberg;RSL
+Oberstraße, Radeberg;ROR
+Otto-Uhlig-Straße, Radeberg;ROU
 Altserkowitz, Radebeul;ASE
 Bergblick, Radebeul;BBL
 Borstraße, Radebeul;BOR
 Dr.-Külz-Straße, Radebeul;DKU
 Eduard-Bilz-Straße, Radebeul;EBI
 Eisenbahnbrücke, Radebeul;EIS
-Fichtestraße, Radebeul;FIS
 Flemmingstraße, Radebeul;FLM
 Forststraße, Radebeul;FOR
 Fritz-Schulze-Straße, Radebeul;FSR
@@ -49,6 +82,7 @@ Hauptstraße, Radebeul;HPT
 Johannisbergstraße, Radebeul;JHA
 Kaufland, Radebeul;KLR
 Landesbühnen Sachsen, Radebeul;LDB
+Moritzburger Straße, Radebeul;MOG
 Nizzastraße, Radebeul;NIZ
 Radebeul Ost, Radebeul;RBO
 Reichsstraße, Radebeul;RES
@@ -58,7 +92,7 @@ Schloß Wackerbarth, Radebeul;SWA
 Wasastraße, Radebeul;WAA
 Zillerstraße, Radebeul;ZIL
 Zinzendorfstraße, Radebeul;ZIZ
-Röhrsdorf, Röhrsdorf (b Pirna);ROE
+Röhrsdorf, Am Landgut, Röhrsdorf (b Pirna);ROE
 Fußweg nach Sobrigen, Sobrigau;FSO
 Hummelmühle, Sobrigau;HUM
 Sechserhaus, Sobrigau;SHS

@@ -3,38 +3,36 @@ Aachener Straße;AAC
 Abzweig nach Reick;ABR
 Achtbeeteweg;ABW
 Adalbert-Stifter-Weg;AST
-Agentur für Arbeit;AFA
 Ahlbecker Straße;AHL
 Alaunplatz;ALA
+Alberthafen;ABH
 Albert-Hensel-Straße;AHS
 Albertplatz;ALP
-Albertstadt West;ASW
 Albert-Wolf-Platz;AWP
 Alexander-Puschkin-Platz;APU
 Alfred-Thiele-Straße;ATH
+Alnpeckstraße;APS
 Altburgstädtel;ABU
 Altcotta;ACO
 Altdobritz;ADB
 Altenberger Platz;ABP
-Altenberger Straße;ALB
+Alte Moritzburger Straße;ALM
 Alter Postweg;NIC
 Alter Schlachthof;ASH
 Altfranken;AFR
 Altkaditz;AKD
 Altkaitz;AKA
-Altklotzsche;AKL
 Altleuben;ALN
 Altleubnitz;ALZ
 Altlockwitz;ALO
 Altmarkt;AMT
 Altmockritz;AMO
 Altnaußlitz;ANA
-Altnickern;ANI
 Altnossener Straße;ANS
+Altomsewitz;AOM
 Altpieschen;API
 Altplauen;APL
 Altreick;ARE
-Altstrehlen;EALS
 Alttolkewitz;ATO
 Alttrachau;ATR
 Altwachwitz;AWW
@@ -46,7 +44,6 @@ Am Festspielhaus;AFE
 Am Galgenberg;AGB
 Am Hellerhof;AHH
 Am Hellerrand;AHR
-Am Krähenhügel;AKH
 Am Lehmberg;AML
 Am Olter;AOL
 Am Querfeld;AQU
@@ -58,6 +55,7 @@ Am Viertelacker;AVA
 Am Waldrand;AWR
 Am Weißen Adler;AWA
 Am Wiesenrand;AWS
+Am Zollhaus;AZO
 Am Zwingerteich;AZT
 Amalie-Dietrich-Platz;ADP
 Amselgrund;AMG
@@ -70,11 +68,9 @@ An der Rennbahn;ADR
 Angelikastraße;ANG
 Anton-/Leipziger Straße;LEI
 Arkonastraße;ARK
-Arno-Holz-Allee;AHA
 Arno-Schellenberg-Str.;ASC
 Auf der Höhe;ADH
 Augsburger Straße;AUG
-Äußerer Matthäusfriedhof;AMF
 B.-Smetana-Straße;BSM
 Babisnauer Straße;BAB
 Bahnhof Klotzsche;BFK
@@ -82,15 +78,13 @@ Bahnhof Mitte;BMI
 Bahnhof Neustadt;BFN
 Bahnhofstraße;BHF
 Bamberger Straße;BAM
-Bärensteiner Straße;BAE
+Bannewitzer Straße;BAN
 Bärwalder Straße;BWR
-Bauhofstraße;BHS
 Bautz./Rothenburger Str.;BTZ
 Beckerstraße;BEC
 Beerenhut;BEH
 Bergfelderweg;BGW
 Berggartenstraße;BGG
-Berggießhübler Straße;BGH
 Bergmannstraße;BMA
 Bernhardstraße;BER
 Berthold-Haupt-Straße;BHT
@@ -107,10 +101,9 @@ Böhmertstraße;BMS
 Bonhoefferplatz;BHP
 Bönischplatz;BNP
 Borsbergblick;BBB
+Boxdorfer Straße;BOX
 Breitscheidstraße;BRS
 Bremer Straße;BRM
-Breschke und Schuch;EBUS
-Brunnenweg;BRU
 Brockwitzer Straße;BRW
 Buchenstraße;BUC
 Budapester Straße;BDP
@@ -157,19 +150,17 @@ Dorfstraße;DOF
 Dornblüthstraße;DOR
 Dörnichtweg;DNW
 Dorothea-Erxleben-Straße;DEX
-Dreyßigplatz;DRP
+Droste-Hülshoff-Straße;DHS
 Duckwitzstraße;DUC
-Dungerstraße;EDNG
 Dürerstraße;DUR
 Ebertplatz;EBP
 Eichbergstraße;EIC
-Eisenbahnstraße;EBS
 Eissporthalle;ESH
 ElbePark;EPK
 Elbschlösser;ESL
 Elisabethstraße;ELI
 Elsterweg;ELS
-Energie-Museum;EEGM
+Emanuel-Goldberg-Platz;ALB
 Enno-Heidebroek-Straße;EHS
 Erich-Kästner-Straße;EKA
 Erna-Berger-Straße;EBE
@@ -177,18 +168,19 @@ Ernst-Toller-Straße;ETO
 Ernst-Wagner-Straße;EWA
 Eschebachstraße;ESB
 Eugen-Bracht-Straße;EBR
+Ewald-Kluge-Straße;EWK
 F.- Schreiter- Straße;FSS
 Fabricestraße;FAS
 Fehrmannweg;FMW
-Felsenkeller;EFLK
 Festspielhaus Hellerau;FSH
 Fetscherplatz;FEP
+Flensburger Straße;FLE
 Flügelweg;FLW
 Flughafen;FLU
 Flughafen West;FWE
 Flughafenstraße;FLH
 Flugzeugwerke;FGW
-Fontane-Center;FTC
+Florastraße;FLO
 Försterlingstraße;FLR
 Frankenbergstraße;FKB
 Fraunhofer-Inst.-Zentrum;FIZ
@@ -213,6 +205,7 @@ Gewerbegebiet Kaditz;GKA
 Gohlis;GOH
 Gohliser Weg;GOW
 Gombsener Straße;GMS
+Gomlitzer Höhe;GOM
 Gompitz,Gompitzer Höhe;GMP
 Gondelweg;GDW
 Göppersdorfer Weg;GPW
@@ -221,7 +214,6 @@ Gorbitzer Straße;GOB
 Görlitzer Straße;GLS
 Gottfried-Keller-Straße;GKE
 Gottleubaer Straße;GOT
-Greifswalder Straße;GWS
 Grenzstraße;GRE
 Gret-Palucca-Straße;GPS
 Grillparzerstraße;GRI
@@ -231,20 +223,17 @@ Großenhainer Platz;GRP
 Großglocknerstraße;GGL
 Gruna;GRN
 Grunaer Weg;GRW
-Grundschule Luga;EGSL
 Grundstraße;GRD
 Grüner Weg;GNW
+Guerickestraße;GUE
 Güntzplatz;GUN
 Gustav-Freytag-Straße;GFT
 Gustavheim;GUS
-Gutenbergstraße;GUT
 H.-Steyer-Stadion;HST
 Hamburger Straße;HAM
-Hammerweg;HMW
 Hänichenweg;HNW
 Hans-Dankner-Straße;HDA
 Hans-Oster-Str.;HAO
-Hartigstraße;EHAT
 Hauptbahnhof;HBF
 Hauptbahnhof Nord;HBN
 Hebbelplatz;HEB
@@ -253,24 +242,22 @@ Heeresbäckerei;HBR
 Hegereiterstraße;HEG
 Heidefriedhof;HEF
 Heideparkstraße;HPK
-Heinrich-Greif-Straße;EHGR
 Heinrich-Schütz-Straße;HSS
 Heinrich-Tessenow-Weg;HTW
 Heinrich-Zille-Straße;HZS
 Helena-Rott-Straße;HRS
 Hellerau Kiefernweg;HEL
+Hellerberge;HBE
 Hellerhofstraße;HHO
 Hellersiedlung;HLS
 Helmholtzstraße;HHZ
 Hendrichstraße;HNS
 Hepkeplatz;HEK
 Hepkestraße;HEP
-Herkuleskeule;EHKK
 Hermann-Michel-Straße;HMI
 Hermann-Seidel-Straße;HSE
-Heroldstraße;HRO
+Hertelstraße;HET
 Hirtenstraße;HIR
-Hochsch Technik/Wirtscha;EHSW
 Höckendorfer Weg;HKW
 Hohe Straße;HHS
 Hohlweg;HOH
@@ -287,7 +274,7 @@ Hutbergstraße;HGS
 Ikarusweg;IKW
 Industriegebiet Nord;IDN
 Industriepark Klotzsche;IPK
-Infineon;KIN
+Klotzsche, Infineon;KIN
 Infineon Nord;IFN
 Infineon Süd;IFS
 Innsbrucker Straße;INN
@@ -307,9 +294,10 @@ Jüngststraße;JGS
 Justizvollzugsanstalt;JUZ
 K.-Kollwitz-Ufer;KKU
 Kadenstraße;KSE
-KaditzAmVorwerksfeld;KAD
+Kaditz Am Vorwerksfeld;KAD
 Kaditzer Straße;KDS
 Kaitzer Straße;KTZ
+Kamenzer Straße;KMS
 Kapellenweg;KAP
 Karcherallee;KAR
 Karl-Laux-Straße;KLX
@@ -319,7 +307,6 @@ Kasseler Straße;KAS
 Kastanienstraße;KST
 Käthe-Kollwitz-Platz;KKW
 Kauschaer Straße;KAU
-Kelterei;KEL
 Keppgrundstraße;KEP
 Keulenbergstraße;KEU
 Kipsdorfer Straße;KPS
@@ -327,7 +314,7 @@ Kirschenstraße;KIR
 Kleestraße;KLE
 Kleinnaundorfer Straße;KLN
 Kleinzschachw. Fähre;KLF
-Kleinzschachwitz;KLZ
+Kleinzschachwitz, Freystraße;KLZ
 Klettestraße;KLT
 Klosterteichplatz;KLP
 Klotzsche, M.-Reiche-Str;MRS
@@ -335,6 +322,7 @@ Knappestraße;KNA
 Koblenzer Straße;KOB
 Kohlsdorfer Landstraße;KOH
 Kölner Straße;KLS
+Koloniestraße;KOS
 Kolpingstraße;KLG
 Kongresszentrum;KGZ
 Königsheimplatz;KHP
@@ -344,11 +332,10 @@ Körnerplatz;KNP
 Kotteweg;KOT
 Kotzschweg;KOZ
 Krankenh. Friedrichstadt;KHF
-Krankenhaus Neustadt;KHN
+Krhs. St.Joseph-Stift;KHJ
 Krebser Straße;KRB
 Krebser Straße Nord;KRN
 Kretschmerstraße;KRT
-Krhs. St.Joseph-Stift;KHJ
 Krügerstraße;KGS
 Künstlerhaus;KTN
 Kurhausstraße;KUR
@@ -357,7 +344,7 @@ Kurzer Schritt;KSC
 Laibacher Straße;LAI
 Landesdirektion Sachsen;LDS
 Lassallestraße;LAS
-Laubegast;LBG
+Laubegast, Kronstädter Platz;LBG
 Laubegast Fähre;FTOL
 Lauterbacher Straße;LAU
 Leiblstraße;LBL
@@ -372,8 +359,6 @@ Liebstädter Straße;LST
 Lipsiusstraße;LIP
 Lise-Meitner-Straße;LME
 Liststraße;LIS
-Liststraße (Harkortstr.);HKT
-Löbtau Gröbelstraße;LGS
 Lockwitz;LOC
 Lohmener Straße;LOM
 Lohrmannstraße;LOR
@@ -386,6 +371,7 @@ Ludwigstraße;LUD
 Luga;LUG
 M.-Oeder-Straße;MOE
 Malerstraße;MAL
+Malterstraße;MTR
 Manitiusstraße;MAN
 Mansfelder Straße;MFS
 Marienallee;MAA
@@ -397,7 +383,6 @@ Maxim-Gorki-Straße;MGS
 Maxstraße;MAX
 Mengsstraße;MEN
 Merbitzer Straße;MER
-Merianplatz;MAP
 Messe Dresden;MES
 Messe, Gleisschleife;MEG
 Messering (HALLE 1);MEH
@@ -411,21 +396,18 @@ Mohorner Straße;MHS
 Mommsenstraße;MOM
 Moosleite;MLW
 Mordgrundbrücke;MOR
+Moritzburger Platz;MBP
 Moritzburger Weg;MOW
 Mosenstraße;MOS
 Mügelner Straße;MUG
 Mühlenstraße;MLS
 Münchner Platz;MUP
-Münzgasse;EMZG
 Münzteichweg;MTW
 Nätherstraße;NAE
-Neubertstraße;NEU
 Neue Straße;NES
 Neuer Annenfriedhof;NAF
-Neuer Kathol. Friedhof;NKF
 Neuländer Straße;NLS
 Neunimptscher Straße;NNI
-Neuostra;NEA
 Neustadt Fähre;FNEU
 Neustädter Markt;NMT
 Nickerner Weg;NIW
@@ -456,18 +438,18 @@ Otto-Pilz-Straße;OPI
 Overbeckstraße;OVE
 P+R Ostragehege;OGP
 Palaisplatz;PAP
-Panometer;EPAN
 Paradiesstraße;PAS
+Paul-Wicke-Straße;PWI
 Pennrich, Gleisschleife;PEG
 Pennricher Straße;PER
 Permoserstraße;PMS
 Peschelstraße;PSC
-Pesterwitz;PES
+Pestalozziplatz;PST
 Pfeifferhannsstraße;PFH
 Pferderennbahn;PFB
 Pfotenhauerstraße;PFO
 Pieschener Allee;PSA
-Pillnitz;PIL
+Pillnitz, L.-da-Vinci-Straße;PIL
 Pillnitz Fähre;FPIL
 Pillnitz, Schloss;PLO
 Pillnitzer Platz;PLP
@@ -477,7 +459,6 @@ Plattleite;PTL
 Plauen, Rathaus;PLR
 Plauen,Nöthnitzer Straße;NTN
 Plauenscher Ring;PAR
-Podemusstraße;POD
 Pohlandplatz;POH
 Postplatz;POS
 Prager Straße;PGS
@@ -487,10 +468,10 @@ Prof.-Ricker-Straße;PRS
 Prohlis Gleisschleife;PRO
 Prohlis Kaufpark Nickern;PRL
 Pulsnitzer Straße;PUL
+Putbuser Weg;PBW
 Putjatinplatz;PTP
 Querallee;QUE
 Quohrener Straße;QUO
-R.-Harbig-Stadion;RHX
 Räcknitzhöhe;RAC
 Rähnitzer Allee;RAL
 Rankestraße;RAN
@@ -499,24 +480,21 @@ Rathaus Leuben;RTL
 Rathaus Pieschen;RPN
 Rathaus Pillnitz;RPI
 Rathausstraße;RTS
-Ratsstraße;RAT
 Rauensteinstraße;RAU
 Regensburger Straße;REG
 Reichenbachstraße;REI
 Reichenhaller Straße;RCS
-Reineckeweg;RNW
 Reisstraße;RSS
-Reitbahnstraße;RIT
 Rennplatzstraße;REN
 Rethelstraße;RET
-Riegelplatz;RIE
+Kaditz, Riegelplatz;RIE
 Rißweg;RIS
+Robert-Bosch-Ring;RBR
 Robert-Sterl-Straße;RBS
 Rochwitz,Bühlauer Str.;ROC
 Rohrbahn;ROB
 Rosa-Luxemburg-Platz;RLP
 Roseggerstraße;RSG
-Rosenstraße;ROS
 Rossendorfer Straße;ROD
 Rottwerndorfer Straße;ROT
 Rubensweg;RUW
@@ -538,31 +516,30 @@ S-Bf. Industriegelände;SIG
 S-Bf. Niedersedlitz;SND
 S-Bf. Pieschen;SPN
 S-Bf. Plauen;SPL
+S-Bf. Reick;SRE
 S-Bf. Strehlen;SSR
 S-Bf. Trachau;STR
 S-Bf. Trachau West;STW
 Schanzenstraße;SAZ
 Scharfenberger Straße;SBG
 Scharfensteinstraße;SST
-Schaufußstraße;SCU
 Schiffswerft Laubegast;SWL
-Schillerplatz;SIP
+Blasewitz, Schillerplatz;SIP
 Schillerstraße;SHL
 Schillingstraße;SLI
 Schlehenstraße;SLE
 Schlüterstraße;SLT
 Schneebergstraße;SNS
 Schönaer Straße;SNA
-Schule Gompitz;SCG
 Schulstraße;SUL
 Schunckstraße;SUK
 Schurichtstraße;SUR
 Schweizer Straße;SZS
-Schweriner Straße;SCH
 Schwimmh. Freib. Platz;SHF
 Schwimmhalle Bühlau;SHB
 Schwimmhalle Klotzsche;SHK
 Seewiesenweg;SEW
+Seidnitz Center;SEC
 Seidnitzer Weg;SEI
 Semmelweisstraße;SEM
 Sobrigauer Weg;SOW
@@ -583,7 +560,6 @@ Staffelsteinstraße;SSS
 Stauffenbergallee;STF
 Steglichstraße;STE
 Stephanstraße;STS
-Stralsunder Straße;SSU
 Straßburger Platz;SBP
 Straße des 17.Juni;STJ
 Strehlener Platz;STP
@@ -591,10 +567,8 @@ Striesener Straße;STN
 Struppener Straße;SRU
 Südhöhe;SUE
 Südvorstadt;SVS
-Synagoge;SYN
 Tannenstraße;TAN
 Tännichtstraße;TNS
-Taschenbergpalais;ETPA
 Tatzberg;TBG
 Taubenberg;TAU
 Technische Sammlungen;TSA
@@ -605,8 +579,8 @@ Theaterplatz;THE
 Theilestraße;TEI
 Thomas-Mann-Straße;TMS
 Tiergartenstraße;TIE
-Tiroler Straße;TIS
 Tolkewitz, Schulcampus;TSC
+Tonbergstraße;TOB
 Tornaer Straße;TON
 Trachauer Straße;TAS
 Trachenberger Platz;TRP
@@ -614,6 +588,7 @@ Trattendorfer Straße;TRS
 Trinitatisplatz;TIP
 Tronitzer Straße;TRO
 Troppauer Straße;TPS
+Uhlandstraße;UHL
 Universitätsklinikum;UKD
 Urnenstraße;URN
 Van-Gogh-Straße;VGO
@@ -636,10 +611,11 @@ Weberplatz;WPL
 Weidentalstraße;WDS
 Weißdornstraße;WSD
 Weißer Hirsch;BWHI
-Weißeritzstraße;WSR
+Dresden, Weixdorf;WXD
+Weixdorf, Rathausplatz;WRP
 Werftstraße;WEF
 Wernerstraße;WER
-Wettiner Platz;EWTP
+Westendstraße;WEE
 Wieckestraße;WIE
 Wilder Mann;WIM
 Wilder-Mann-Straße;WMS
@@ -660,9 +636,8 @@ Wurzener Straße;WUZ
 Zachengrundring;ZGR
 Zeithainer Straße;ZEH
 Zellescher Weg;ZEL
-Zinnowitzer Straße;ZNW
 Zoo;ZOO
-Zschertnitz;ZTZ
+Zschertnitz, Müntzmeisterstr.;ZTZ
 Zschertnitzer Straße;ZZN
 Zschierener Straße;ZSS
 Zschonergrundstraße;ZSO
@@ -671,5 +646,4 @@ Zur Elbinsel;ZEI
 Zur Neuen Brücke;ZNB
 Zur Steinhöhe;ZSH
 Zweibrüderweg;ZWE
-Zwickauer Straße;ZWU
 Zwinglistraße;ZWI
