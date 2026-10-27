@@ -16266,14 +16266,18 @@
       "longitude": 13.86652,
       "latitude": 51.066933,
       "operators": [
+        "DVB",
         "RBO"
       ],
       "lines": {
+        "Stadtbus": [
+          "84"
+        ],
         "PlusBus": [
           "521"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:746",
@@ -37680,18 +37684,14 @@
       "longitude": 14.245026,
       "latitude": 51.436535,
       "operators": [
-        "RBO",
         "VGH"
       ],
       "lines": {
-        "PlusBus": [
-          "500"
-        ],
         "Stadtbus": [
           "1 (Hoyerswerda)"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14625:8054",

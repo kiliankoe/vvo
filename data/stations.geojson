@@ -22413,14 +22413,18 @@
         "city": "Dresden",
         "name_with_city": "Dresden Hermann-Löns-Straße",
         "operators": [
+          "DVB",
           "RBO"
         ],
         "lines": {
+          "Stadtbus": [
+            "84"
+          ],
           "PlusBus": [
             "521"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -51843,18 +51847,14 @@
         "city": "Hoyerswerda",
         "name_with_city": "Hoyerswerda Lessinghaus",
         "operators": [
-          "RBO",
           "VGH"
         ],
         "lines": {
-          "PlusBus": [
-            "500"
-          ],
           "Stadtbus": [
             "1 (Hoyerswerda)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
