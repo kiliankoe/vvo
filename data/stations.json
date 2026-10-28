@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3909,
+    "count": 3910,
     "format_version": "2.0"
   },
   "stations": [
@@ -11162,14 +11162,13 @@
       ],
       "lines": {
         "Stadtbus": [
-          "86",
           "89"
         ],
         "Anruflinientaxi": [
           "alita 89"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14612:543",
@@ -39581,14 +39580,9 @@
         "Regionalbus": [
           "772",
           "788"
-        ],
-        "Stadtbus": [
-          "21 (Kamenz)",
-          "22 (Kamenz)",
-          "23 (Kamenz)"
         ]
       },
-      "total_lines": 6
+      "total_lines": 3
     },
     {
       "id": "de:14625:6205",
@@ -56583,12 +56577,11 @@
       ],
       "lines": {
         "Regionalbus": [
-          "751",
           "758",
           "764"
         ]
       },
-      "total_lines": 3
+      "total_lines": 2
     },
     {
       "id": "de:14625:6049",
@@ -62924,6 +62917,24 @@
       "total_lines": 1
     },
     {
+      "id": "de:14625:6729",
+      "numeric_id": "33006729",
+      "name": "Güterbahnhofstraße",
+      "city": "Radeberg",
+      "name_with_city": "Radeberg Güterbahnhofstraße",
+      "longitude": 13.917769,
+      "latitude": 51.110014,
+      "operators": [
+        "RBO"
+      ],
+      "lines": {
+        "Regionalbus": [
+          "753"
+        ]
+      },
+      "total_lines": 1
+    },
+    {
       "id": "de:14625:6706",
       "numeric_id": "33006706",
       "name": "Heidehäuser",
@@ -63175,11 +63186,10 @@
           "521"
         ],
         "Regionalbus": [
-          "753",
           "755"
         ]
       },
-      "total_lines": 4
+      "total_lines": 3
     },
     {
       "id": "de:14625:6730",
