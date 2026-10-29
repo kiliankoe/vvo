@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3910,
+    "count": 3908,
     "format_version": "2.0"
   },
   "stations": [
@@ -12973,10 +12973,11 @@
           "8"
         ],
         "Stadtbus": [
-          "EV 12"
+          "EV 12",
+          "EV 7"
         ]
       },
-      "total_lines": 9
+      "total_lines": 10
     },
     {
       "id": "de:14612:244",
@@ -13106,12 +13107,15 @@
           "1",
           "10",
           "11",
+          "12",
           "2",
+          "6",
+          "7",
           "8",
           "9"
         ]
       },
-      "total_lines": 6
+      "total_lines": 9
     },
     {
       "id": "de:14612:723",
@@ -13227,13 +13231,17 @@
       ],
       "lines": {
         "Straßenbahn": [
-          "12"
+          "11",
+          "12",
+          "6",
+          "7",
+          "8"
         ],
         "Stadtbus": [
           "EV 12"
         ]
       },
-      "total_lines": 2
+      "total_lines": 6
     },
     {
       "id": "de:14612:785",
@@ -13375,7 +13383,10 @@
           "1",
           "10",
           "11",
+          "12",
           "2",
+          "6",
+          "7",
           "8",
           "9"
         ],
@@ -13385,7 +13396,7 @@
           "EV 7"
         ]
       },
-      "total_lines": 9
+      "total_lines": 12
     },
     {
       "id": "de:14612:861",
@@ -13496,7 +13507,10 @@
           "1",
           "10",
           "11",
+          "12",
           "2",
+          "6",
+          "7",
           "8",
           "9"
         ],
@@ -13509,7 +13523,7 @@
           "alita 70"
         ]
       },
-      "total_lines": 10
+      "total_lines": 13
     },
     {
       "id": "de:14612:260",
@@ -13909,10 +13923,11 @@
       "lines": {
         "Stadtbus": [
           "90",
-          "EV 12"
+          "EV 12",
+          "EV 7"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14612:980",
@@ -14190,24 +14205,6 @@
         ]
       },
       "total_lines": 3
-    },
-    {
-      "id": "de:14612:609",
-      "numeric_id": "33000609",
-      "name": "Fabricestraße",
-      "city": "Dresden",
-      "name_with_city": "Dresden Fabricestraße",
-      "longitude": 13.743146,
-      "latitude": 51.090101,
-      "operators": [
-        "DVB"
-      ],
-      "lines": {
-        "Anruflinientaxi": [
-          "alita 76"
-        ]
-      },
-      "total_lines": 1
     },
     {
       "id": "de:14612:726",
@@ -15865,12 +15862,15 @@
           "1",
           "10",
           "11",
+          "12",
           "2",
+          "6",
+          "7",
           "8",
           "9"
         ]
       },
-      "total_lines": 6
+      "total_lines": 9
     },
     {
       "id": "de:14612:99",
@@ -16265,18 +16265,14 @@
       "longitude": 13.86652,
       "latitude": 51.066933,
       "operators": [
-        "DVB",
         "RBO"
       ],
       "lines": {
-        "Stadtbus": [
-          "84"
-        ],
         "PlusBus": [
           "521"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14612:746",
@@ -17052,24 +17048,6 @@
       "total_lines": 1
     },
     {
-      "id": "de:14612:603",
-      "numeric_id": "33000603",
-      "name": "Justizvollzugsanstalt",
-      "city": "Dresden",
-      "name_with_city": "Dresden Justizvollzugsanstalt",
-      "longitude": 13.749443,
-      "latitude": 51.089153,
-      "operators": [
-        "DVB"
-      ],
-      "lines": {
-        "Anruflinientaxi": [
-          "alita 76"
-        ]
-      },
-      "total_lines": 1
-    },
-    {
       "id": "de:14612:989",
       "numeric_id": "33000989",
       "name": "Jägerpark Heideblick",
@@ -17634,9 +17612,12 @@
           "6",
           "7",
           "8"
+        ],
+        "Stadtbus": [
+          "EV 7"
         ]
       },
-      "total_lines": 8
+      "total_lines": 9
     },
     {
       "id": "de:14612:810",
@@ -18830,9 +18811,12 @@
           "6",
           "7",
           "8"
+        ],
+        "Stadtbus": [
+          "EV 7"
         ]
       },
-      "total_lines": 8
+      "total_lines": 9
     },
     {
       "id": "de:14612:184",
@@ -20218,6 +20202,8 @@
           "11",
           "12",
           "2",
+          "6",
+          "7",
           "8",
           "9"
         ],
@@ -20225,7 +20211,7 @@
           "EV 12"
         ]
       },
-      "total_lines": 8
+      "total_lines": 10
     },
     {
       "id": "de:14612:41",
@@ -21724,11 +21710,10 @@
           "SEV S1"
         ],
         "Anruflinientaxi": [
-          "alita 73",
-          "alita 76"
+          "alita 73"
         ]
       },
-      "total_lines": 7
+      "total_lines": 6
     },
     {
       "id": "de:14612:166",
@@ -22087,11 +22072,10 @@
           "478"
         ],
         "Anruflinientaxi": [
-          "alita 76",
           "alita 81"
         ]
       },
-      "total_lines": 8
+      "total_lines": 7
     },
     {
       "id": "de:14612:640",
@@ -23380,13 +23364,14 @@
           "61",
           "63",
           "90",
-          "EV 12"
+          "EV 12",
+          "EV 7"
         ],
         "PlusBus": [
           "333"
         ]
       },
-      "total_lines": 14
+      "total_lines": 15
     },
     {
       "id": "de:14612:20",
@@ -23628,11 +23613,10 @@
           "477"
         ],
         "Anruflinientaxi": [
-          "alita 73",
-          "alita 76"
+          "alita 73"
         ]
       },
-      "total_lines": 20
+      "total_lines": 19
     },
     {
       "id": "de:14612:127",
@@ -24190,10 +24174,11 @@
       ],
       "lines": {
         "Stadtbus": [
-          "70"
+          "70",
+          "80"
         ]
       },
-      "total_lines": 1
+      "total_lines": 2
     },
     {
       "id": "de:14612:942",
@@ -65032,11 +65017,10 @@
       ],
       "lines": {
         "Regionalbus": [
-          "403",
-          "405"
+          "403"
         ]
       },
-      "total_lines": 2
+      "total_lines": 1
     },
     {
       "id": "de:14627:4367",

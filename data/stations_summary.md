@@ -1,10 +1,10 @@
 # VVO Station Data Summary
 
-Total stations: 3910
+Total stations: 3908
 
 ## Stations by City
 
-- Dresden: 659
+- Dresden: 657
 - Meißen: 104
 - Freital: 87
 - Pirna: 85
@@ -30,11 +30,11 @@ Total stations: 3910
 ## Stations by Transit Type
 
 - Regionalbus: 2695 stations
-- Stadtbus: 1315 stations
+- Stadtbus: 1316 stations
 - PlusBus: 647 stations
 - Anruflinienbus: 433 stations
 - Straßenbahn: 271 stations
-- Anruflinientaxi: 204 stations
+- Anruflinientaxi: 202 stations
 - Ersatzverkehr: 106 stations
 - Taktbus: 101 stations
 - Zug: 99 stations
@@ -52,7 +52,7 @@ Total stations: 3910
 
 - RVSOE: 1303 stations
 - VGM: 1171 stations
-- DVB: 777 stations
+- DVB: 774 stations
 - RBO: 678 stations
 - DB Regio AG Südost: 125 stations
 - VGH: 82 stations
@@ -93,8 +93,8 @@ Total stations: 3910
 - Großenhain Cottbuser Bahnhof: 22 lines
 - Hoyerswerda Bahnhof: 22 lines
 - Meißen Bahnhofstraße: 21 lines
-- Dresden Trachenberger Platz: 20 lines
 - Kamenz Bahnhof: 20 lines
+- Dresden Trachenberger Platz: 19 lines
 - Riesa Alexander-Puschkin-Platz: 19 lines
 - Riesa Rudolf-Breitscheid-Straße: 19 lines
 - Dresden Bahnhof Klotzsche: 18 lines
@@ -115,13 +115,13 @@ Total stations: 3910
 - Coswig (b Dresden) Bahnhof: 15 lines
 - Dresden Prager Straße: 15 lines
 - Dresden S-Bahnhof Dobritz: 15 lines
+- Dresden Tharandter Straße: 15 lines
 - Heidenau (Sachs) Bahnhof: 15 lines
 - Meißen Uferstraße: 15 lines
 - Pirna Breite Straße: 15 lines
 - Dippoldiswalde Busbahnhof: 14 lines
 - Dresden Großenhainer Platz: 14 lines
 - Dresden S-Bahnhof Niedersedlitz: 14 lines
-- Dresden Tharandter Straße: 14 lines
 - Hoyerswerda Behördenpark: 14 lines
 - Hoyerswerda Lausitzer Platz: 14 lines
 - Kamenz Macherstraße: 14 lines
@@ -129,6 +129,7 @@ Total stations: 3910
 - Meißen Neugasse: 14 lines
 - Meißen Talbad: 14 lines
 - Radeberg Bahnhof: 14 lines
+- Dresden Dahlienweg: 13 lines
 - Dresden Julius-Vahlteich-Straße: 13 lines
 - Dresden Zeithainer Straße: 13 lines
 - Freital S-Bahnhof Hainsberg: 13 lines
@@ -136,6 +137,7 @@ Total stations: 3910
 - Nossen Markt: 13 lines
 - Nossen Talstraße: 13 lines
 - Dresden Bahnhof Neustadt (Hansastraße): 12 lines
+- Dresden Coventrystraße: 12 lines
 - Dresden Kirschenstraße: 12 lines
 - Dresden Merianplatz: 12 lines
 - Dresden Pirnaischer Platz: 12 lines
@@ -165,12 +167,13 @@ Total stations: 3910
 - Bischofswerda Schulstraße: 10 lines
 - Dresden Amalie-Dietrich-Platz: 10 lines
 - Dresden Anton-/Leipziger Straße: 10 lines
-- Dresden Dahlienweg: 10 lines
+- Dresden Bünaustraße: 10 lines
 - Dresden Fetscherplatz: 10 lines
 - Dresden Försterlingstraße: 10 lines
 - Dresden Gret-Palucca-Straße: 10 lines
 - Dresden Kongresszentrum / Haus der Presse: 10 lines
 - Dresden Lennéplatz: 10 lines
+- Dresden Pennricher Straße: 10 lines
 - Dresden Prohlis Gleisschleife: 10 lines
 - Gompitz Gompitzer Höhe: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines

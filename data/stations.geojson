@@ -17928,10 +17928,11 @@
             "8"
           ],
           "Stadtbus": [
-            "EV 12"
+            "EV 12",
+            "EV 7"
           ]
         },
-        "total_lines": 9
+        "total_lines": 10
       }
     },
     {
@@ -18109,12 +18110,15 @@
             "1",
             "10",
             "11",
+            "12",
             "2",
+            "6",
+            "7",
             "8",
             "9"
           ]
         },
-        "total_lines": 6
+        "total_lines": 9
       }
     },
     {
@@ -18278,13 +18282,17 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "12"
+            "11",
+            "12",
+            "6",
+            "7",
+            "8"
           ],
           "Stadtbus": [
             "EV 12"
           ]
         },
-        "total_lines": 2
+        "total_lines": 6
       }
     },
     {
@@ -18474,7 +18482,10 @@
             "1",
             "10",
             "11",
+            "12",
             "2",
+            "6",
+            "7",
             "8",
             "9"
           ],
@@ -18484,7 +18495,7 @@
             "EV 7"
           ]
         },
-        "total_lines": 9
+        "total_lines": 12
       }
     },
     {
@@ -18635,7 +18646,10 @@
             "1",
             "10",
             "11",
+            "12",
             "2",
+            "6",
+            "7",
             "8",
             "9"
           ],
@@ -18648,7 +18662,7 @@
             "alita 70"
           ]
         },
-        "total_lines": 10
+        "total_lines": 13
       }
     },
     {
@@ -19200,10 +19214,11 @@
         "lines": {
           "Stadtbus": [
             "90",
-            "EV 12"
+            "EV 12",
+            "EV 7"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -19577,32 +19592,6 @@
           ]
         },
         "total_lines": 3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.743146,
-          51.090101
-        ]
-      },
-      "properties": {
-        "id": "de:14612:609",
-        "numeric_id": "33000609",
-        "name": "Fabricestraße",
-        "city": "Dresden",
-        "name_with_city": "Dresden Fabricestraße",
-        "operators": [
-          "DVB"
-        ],
-        "lines": {
-          "Anruflinientaxi": [
-            "alita 76"
-          ]
-        },
-        "total_lines": 1
       }
     },
     {
@@ -21860,12 +21849,15 @@
             "1",
             "10",
             "11",
+            "12",
             "2",
+            "6",
+            "7",
             "8",
             "9"
           ]
         },
-        "total_lines": 6
+        "total_lines": 9
       }
     },
     {
@@ -22412,18 +22404,14 @@
         "city": "Dresden",
         "name_with_city": "Dresden Hermann-Löns-Straße",
         "operators": [
-          "DVB",
           "RBO"
         ],
         "lines": {
-          "Stadtbus": [
-            "84"
-          ],
           "PlusBus": [
             "521"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -23484,32 +23472,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.749443,
-          51.089153
-        ]
-      },
-      "properties": {
-        "id": "de:14612:603",
-        "numeric_id": "33000603",
-        "name": "Justizvollzugsanstalt",
-        "city": "Dresden",
-        "name_with_city": "Dresden Justizvollzugsanstalt",
-        "operators": [
-          "DVB"
-        ],
-        "lines": {
-          "Anruflinientaxi": [
-            "alita 76"
-          ]
-        },
-        "total_lines": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.788448,
           51.070269
         ]
@@ -24277,9 +24239,12 @@
             "6",
             "7",
             "8"
+          ],
+          "Stadtbus": [
+            "EV 7"
           ]
         },
-        "total_lines": 8
+        "total_lines": 9
       }
     },
     {
@@ -25889,9 +25854,12 @@
             "6",
             "7",
             "8"
+          ],
+          "Stadtbus": [
+            "EV 7"
           ]
         },
-        "total_lines": 8
+        "total_lines": 9
       }
     },
     {
@@ -27805,6 +27773,8 @@
             "11",
             "12",
             "2",
+            "6",
+            "7",
             "8",
             "9"
           ],
@@ -27812,7 +27782,7 @@
             "EV 12"
           ]
         },
-        "total_lines": 8
+        "total_lines": 10
       }
     },
     {
@@ -29815,11 +29785,10 @@
             "SEV S1"
           ],
           "Anruflinientaxi": [
-            "alita 73",
-            "alita 76"
+            "alita 73"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
@@ -30282,11 +30251,10 @@
             "478"
           ],
           "Anruflinientaxi": [
-            "alita 76",
             "alita 81"
           ]
         },
-        "total_lines": 8
+        "total_lines": 7
       }
     },
     {
@@ -32039,13 +32007,14 @@
             "61",
             "63",
             "90",
-            "EV 12"
+            "EV 12",
+            "EV 7"
           ],
           "PlusBus": [
             "333"
           ]
         },
-        "total_lines": 14
+        "total_lines": 15
       }
     },
     {
@@ -32367,11 +32336,10 @@
             "477"
           ],
           "Anruflinientaxi": [
-            "alita 73",
-            "alita 76"
+            "alita 73"
           ]
         },
-        "total_lines": 20
+        "total_lines": 19
       }
     },
     {
@@ -33121,10 +33089,11 @@
         ],
         "lines": {
           "Stadtbus": [
-            "70"
+            "70",
+            "80"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -89699,11 +89668,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "403",
-            "405"
+            "403"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
