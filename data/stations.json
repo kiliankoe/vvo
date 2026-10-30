@@ -45415,14 +45415,15 @@
         "VGM"
       ],
       "lines": {
-        "Anruflinienbus": [
+        "Regionalbus": [
+          "417",
           "420"
         ],
-        "Regionalbus": [
+        "Anruflinienbus": [
           "420"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14627:4957",
