@@ -30,11 +30,11 @@ Total stations: 3910
 ## Stations by Transit Type
 
 - Regionalbus: 2694 stations
-- Stadtbus: 1316 stations
+- Stadtbus: 1319 stations
 - PlusBus: 647 stations
 - Anruflinienbus: 433 stations
 - Straßenbahn: 270 stations
-- Anruflinientaxi: 204 stations
+- Anruflinientaxi: 206 stations
 - Ersatzverkehr: 104 stations
 - Taktbus: 101 stations
 - Zug: 99 stations
@@ -84,7 +84,7 @@ Total stations: 3910
 - Dresden Hauptbahnhof: 35 lines
 - Dresden Bahnhof Neustadt: 34 lines
 - Meißen Busbahnhof: 33 lines
-- Dresden Bahnhof Mitte: 28 lines
+- Dresden Bahnhof Mitte: 29 lines
 - Riesa Busbahnhof / Bahnhof: 28 lines
 - Meißen Altstadtbrücke: 27 lines
 - Pirna ZOB / Bahnhof: 23 lines
@@ -150,9 +150,11 @@ Total stations: 3910
 - Dresden Kirschenstraße: 11 lines
 - Dresden Lößnitzstraße: 11 lines
 - Dresden Merianplatz: 11 lines
+- Dresden Pennricher Straße: 11 lines
 - Dresden Schillerplatz: 11 lines
 - Dresden Schlehenstraße: 11 lines
 - Glashütte (Sachs) Bahnhof / Busbahnhof: 11 lines
+- Gompitz Gompitzer Höhe: 11 lines
 - Großenhain Hohe Straße: 11 lines
 - Pirna Robert-Koch-Straße: 11 lines
 - Priestewitz Bahnhof: 11 lines
@@ -163,13 +165,15 @@ Total stations: 3910
 - Bischofswerda Schulstraße: 10 lines
 - Dresden Anton-/Leipziger Straße: 10 lines
 - Dresden Betriebshof Gorbitz: 10 lines
+- Dresden Chamissostraße: 10 lines
 - Dresden Fetscherplatz: 10 lines
 - Dresden Försterlingstraße: 10 lines
+- Dresden Hebbelplatz: 10 lines
+- Dresden Koblenzer Straße: 10 lines
 - Dresden Kongresszentrum / Haus der Presse: 10 lines
 - Dresden Lennéplatz: 10 lines
-- Dresden Pennricher Straße: 10 lines
+- Dresden Malterstraße: 10 lines
 - Dresden Prohlis Gleisschleife: 10 lines
 - Dresden S-Bf. Freiberger Straße: 10 lines
-- Gompitz Gompitzer Höhe: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
 - Niederau (b Meißen) Bahnhof: 10 lines
