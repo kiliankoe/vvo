@@ -1,6 +1,6 @@
 # VVO Station Data Summary
 
-Total stations: 3910
+Total stations: 3911
 
 ## Stations by City
 
@@ -29,13 +29,13 @@ Total stations: 3910
 
 ## Stations by Transit Type
 
-- Regionalbus: 2694 stations
-- Stadtbus: 1319 stations
-- PlusBus: 647 stations
+- Regionalbus: 2695 stations
+- Stadtbus: 1320 stations
+- PlusBus: 648 stations
 - Anruflinienbus: 433 stations
 - Straßenbahn: 270 stations
 - Anruflinientaxi: 206 stations
-- Ersatzverkehr: 104 stations
+- Ersatzverkehr: 105 stations
 - Taktbus: 101 stations
 - Zug: 99 stations
 - S-Bahn: 54 stations
@@ -53,7 +53,7 @@ Total stations: 3910
 - RVSOE: 1303 stations
 - VGM: 1171 stations
 - DVB: 776 stations
-- RBO: 678 stations
+- RBO: 679 stations
 - DB Regio AG Südost: 125 stations
 - VGH: 82 stations
 - SchmidtSchwarz GmbH & CO. KG: 73 stations
@@ -84,7 +84,7 @@ Total stations: 3910
 - Dresden Hauptbahnhof: 35 lines
 - Dresden Bahnhof Neustadt: 34 lines
 - Meißen Busbahnhof: 33 lines
-- Dresden Bahnhof Mitte: 29 lines
+- Dresden Bahnhof Mitte: 30 lines
 - Riesa Busbahnhof / Bahnhof: 28 lines
 - Meißen Altstadtbrücke: 27 lines
 - Pirna ZOB / Bahnhof: 23 lines
@@ -103,11 +103,11 @@ Total stations: 3910
 - Dresden Postplatz: 17 lines
 - Dresden S-Bf. Industriegelände: 17 lines
 - Dresden Walpurgisstraße: 17 lines
+- Großenhain Lessingplatz: 17 lines
 - Großenhain Mozartallee: 17 lines
 - Pirna Rosa-Luxemburg-Straße: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
-- Großenhain Lessingplatz: 16 lines
 - Meißen S-Bahnhof Altstadt: 16 lines
 - Riesa Sachsenhof: 16 lines
 - Bad Schandau Nationalparkbahnhof: 15 lines
@@ -151,6 +151,7 @@ Total stations: 3910
 - Dresden Lößnitzstraße: 11 lines
 - Dresden Merianplatz: 11 lines
 - Dresden Pennricher Straße: 11 lines
+- Dresden S-Bf. Freiberger Straße: 11 lines
 - Dresden Schillerplatz: 11 lines
 - Dresden Schlehenstraße: 11 lines
 - Glashütte (Sachs) Bahnhof / Busbahnhof: 11 lines
@@ -174,6 +175,5 @@ Total stations: 3910
 - Dresden Lennéplatz: 10 lines
 - Dresden Malterstraße: 10 lines
 - Dresden Prohlis Gleisschleife: 10 lines
-- Dresden S-Bf. Freiberger Straße: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
 - Niederau (b Meißen) Bahnhof: 10 lines

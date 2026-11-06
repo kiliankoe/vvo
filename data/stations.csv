@@ -576,7 +576,7 @@ de:14612:48,33000048,Augsburger Straße,Dresden,Dresden Augsburger Straße,51.05
 de:14612:737,33000737,Babisnauer Straße,Dresden,Dresden Babisnauer Straße,51.013234,13.742957,DVB,3,,63|66,,
 de:14612:192,33000192,Bahnhof Friedrichstadt,Dresden,Dresden Bahnhof Friedrichstadt,51.056026,13.708192,DB Regio AG Nordost,1,,,RB31,
 de:14612:658,33000658,Bahnhof Klotzsche,Dresden,Dresden Bahnhof Klotzsche,51.11483,13.789041,DB Regio AG Südost|DVB|RBO|trilex - Die Länderbahn GmbH DLB,18,,70|78|80,RB33|RB60|RB61|RE1|RE2,S2|S8
-de:14612:1,33000001,Bahnhof Mitte,Dresden,Dresden Bahnhof Mitte,51.055642,13.723392,DB Regio AG Nordost|DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn|trilex - Die Länderbahn GmbH DLB,29,1|10|11|12|2|20|3|4|6|7|8|9,68|92,RB30|RB60|RB61|RE1|RE18|RE2|RE3|RE50,S1|S2|S8
+de:14612:1,33000001,Bahnhof Mitte,Dresden,Dresden Bahnhof Mitte,51.055642,13.723392,DB Regio AG Nordost|DB Regio AG Südost|DVB|Mitteldeutsche Regiobahn|trilex - Die Länderbahn GmbH DLB,30,1|10|11|12|2|20|3|4|6|7|8|9,68|92,RB30|RB60|RB61|RE1|RE18|RE2|RE3|RE50,S1|S2|S8
 de:14612:16,33000016,Bahnhof Neustadt,Dresden,Dresden Bahnhof Neustadt,51.065426,13.740882,DB AG|DB Fernverkehr AG|DB Regio AG Nordost|DB Regio AG Südost|DVB|FlixTrain|LEO Express|MAV|Mitteldeutsche Regiobahn|VGM|trilex - Die Länderbahn GmbH DLB|Österreichische Bundesbahnen,34,11|13|3|6|7|8|9,81,RB30|RB31|RB33|RB60|RB61|RE1|RE15|RE17|RE18|RE2|RE3|RE50,S1|S2|S8
 de:14612:198,33000198,Bahnhof Neustadt (Hansastraße),Dresden,Dresden Bahnhof Neustadt (Hansastraße),51.066374,13.739112,DVB|VGM,12,10|11|13|2|20|3|4|6|7|8|9,,,
 de:14612:943,33000943,Bahnhofstraße,Dresden,Dresden Bahnhofstraße,51.002268,13.84188,DVB,4,,65|88,,
@@ -1015,7 +1015,7 @@ de:14612:166,33000166,S-Bahnhof Plauen,Dresden,Dresden S-Bahnhof Plauen,51.02979
 de:14612:907,33000907,S-Bahnhof Reick,Dresden,Dresden S-Bahnhof Reick,51.02127,13.79064,DB Regio AG Südost|DVB,8,,64|65|87,RE19|RE20,S1|S2
 de:14612:622,33000622,S-Bahnhof Trachau,Dresden,Dresden S-Bahnhof Trachau,51.089937,13.703854,DB Regio AG Südost|DVB|VGM,5,,70|80,,S1
 de:14612:212,33000212,S-Bahnhof Trachau West,Dresden,Dresden S-Bahnhof Trachau West,51.090214,13.702569,DVB,1,4,,,
-de:14612:25,33000025,S-Bf. Freiberger Straße,Dresden,Dresden S-Bf. Freiberger Straße,51.048617,13.720122,DB Regio AG Südost|DVB,10,10|11|12|20|3|7|8,EV 12,,S1|S2
+de:14612:25,33000025,S-Bf. Freiberger Straße,Dresden,Dresden S-Bf. Freiberger Straße,51.048617,13.720122,DB Regio AG Südost|DVB,11,10|11|12|20|3|7|8,EV 12,,S1|S2
 de:14612:267,33000267,S-Bf. Industriegelände,Dresden,Dresden S-Bf. Industriegelände,51.086992,13.763026,DB Regio AG Südost|DVB|trilex - Die Länderbahn GmbH DLB,17,11|7|8,EV 7|EV 8,RB33|RB60|RB61|RE1,S2|S8
 de:14612:757,33000757,S-Bf. Strehlen,Dresden,Dresden S-Bf. Strehlen,51.031022,13.761139,DB Regio AG Südost|DVB,12,10|13|4,61|63|68|85,RE19|RE20,S1|S2
 de:14612:910,33000910,S-Bf. Zschachwitz,Dresden,Dresden S-Bf. Zschachwitz,50.989649,13.845168,DB Regio AG Südost,3,,,RE19,S1|S2
@@ -1484,7 +1484,7 @@ de:14627:5034,33005034,Johannes-R-Becher-Straße,Großenhain,Großenhain Johanne
 de:14627:5092,33005092,Kleinraschütz Mittelstraße,Großenhain,Großenhain Kleinraschütz Mittelstraße,51.29498,13.502927,VGM,2,,A (Großenhain),,
 de:14627:5093,33005093,Kleinraschütz Skassaer Straße,Großenhain,Großenhain Kleinraschütz Skassaer Straße,51.295249,13.505856,VGM,3,,A (Großenhain),,
 de:14627:5014,33005014,Kupferberg,Großenhain,Großenhain Kupferberg,51.283946,13.546657,VGM,2,,A (Großenhain),,
-de:14627:5005,33005005,Lessingplatz,Großenhain,Großenhain Lessingplatz,51.291834,13.53462,VGM,16,,,,
+de:14627:5005,33005005,Lessingplatz,Großenhain,Großenhain Lessingplatz,51.291834,13.53462,VGM,17,,A (Großenhain),,
 de:14627:5049,33005049,M-Scheumann-Straße,Großenhain,Großenhain M-Scheumann-Straße,51.286092,13.543387,VGM,1,,A (Großenhain),,
 de:14627:5007,33005007,Markusstraße,Großenhain,Großenhain Markusstraße,51.285957,13.537108,VGM,2,,A (Großenhain),,
 de:14627:5001,33005001,Mozartallee,Großenhain,Großenhain Mozartallee,51.291525,13.527676,VGM,17,,A (Großenhain),,
@@ -2933,9 +2933,10 @@ de:14627:5832,33005832,Mittelweg,Pulsen,Pulsen Mittelweg,51.3896,13.439102,VGM,4
 de:14627:5833,33005833,Schule,Pulsen,Pulsen Schule,51.388171,13.442597,VGM,4,,,,
 de:14627:5831,33005831,Siedlung,Pulsen,Pulsen Siedlung,51.390307,13.450187,VGM,5,,,,
 de:14625:6040,33006040,An der Walke,Pulsnitz,Pulsnitz An der Walke,51.192395,14.017716,RBO,3,,,,
+de:14625:6077,33006077,Bachstraße,Pulsnitz,Pulsnitz Bachstraße,51.182925,14.009946,RBO,2,,,,
 de:14625:6038,33006038,Bahnhof,Pulsnitz,Pulsnitz Bahnhof,51.18784,14.013763,DB Regio AG Südost|RBO,11,,,,S8
 de:14625:6078,33006078,Haltepunkt Süd,Pulsnitz,Pulsnitz Haltepunkt Süd,51.180532,14.007538,DB Regio AG Südost,2,,,,S8
-de:14625:6042,33006042,Hempelstraße,Pulsnitz,Pulsnitz Hempelstraße,51.182367,14.020465,RBO,2,,,,
+de:14625:6042,33006042,Hempelstraße,Pulsnitz,Pulsnitz Hempelstraße,51.182367,14.020465,RBO,3,,,,
 de:14625:6035,33006035,Mittelbacher Straße,Pulsnitz,Pulsnitz Mittelbacher Straße,51.181241,14.00575,RBO,2,,,,
 de:14625:6043,33006043,Polzenberg,Pulsnitz,Pulsnitz Polzenberg,51.17994,14.015192,RBO,1,,,,
 de:14625:6036,33006036,Robert-Koch-Straße,Pulsnitz,Pulsnitz Robert-Koch-Straße,51.181596,14.010161,RBO,2,,,,

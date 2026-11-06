@@ -16558,10 +16558,11 @@
             "SEV RB60",
             "SEV RB61",
             "SEV RE1",
-            "SEV RE2"
+            "SEV RE2",
+            "SEV S2"
           ]
         },
-        "total_lines": 29
+        "total_lines": 30
       }
     },
     {
@@ -29984,9 +29985,12 @@
           "S-Bahn": [
             "S1",
             "S2"
+          ],
+          "Ersatzverkehr": [
+            "SEV S2"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -43716,9 +43720,12 @@
             "462",
             "463",
             "467"
+          ],
+          "Stadtbus": [
+            "A (Großenhain)"
           ]
         },
-        "total_lines": 16
+        "total_lines": 17
       }
     },
     {
@@ -85460,6 +85467,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.009946,
+          51.182925
+        ]
+      },
+      "properties": {
+        "id": "de:14625:6077",
+        "numeric_id": "33006077",
+        "name": "Bachstraße",
+        "city": "Pulsnitz",
+        "name_with_city": "Pulsnitz Bachstraße",
+        "operators": [
+          "RBO"
+        ],
+        "lines": {
+          "PlusBus": [
+            "521"
+          ],
+          "Regionalbus": [
+            "756"
+          ]
+        },
+        "total_lines": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.013763,
           51.18784
         ]
@@ -85547,11 +85583,12 @@
         ],
         "lines": {
           "Regionalbus": [
+            "759",
             "764",
             "765"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {

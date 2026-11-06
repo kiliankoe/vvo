@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3910,
+    "count": 3911,
     "format_version": "2.0"
   },
   "stations": [
@@ -11939,10 +11939,11 @@
           "SEV RB60",
           "SEV RB61",
           "SEV RE1",
-          "SEV RE2"
+          "SEV RE2",
+          "SEV S2"
         ]
       },
-      "total_lines": 29
+      "total_lines": 30
     },
     {
       "id": "de:14612:16",
@@ -21853,9 +21854,12 @@
         "S-Bahn": [
           "S1",
           "S2"
+        ],
+        "Ersatzverkehr": [
+          "SEV S2"
         ]
       },
-      "total_lines": 10
+      "total_lines": 11
     },
     {
       "id": "de:14612:267",
@@ -31833,9 +31837,12 @@
           "462",
           "463",
           "467"
+        ],
+        "Stadtbus": [
+          "A (Großenhain)"
         ]
       },
-      "total_lines": 16
+      "total_lines": 17
     },
     {
       "id": "de:14627:5049",
@@ -61988,6 +61995,27 @@
       "total_lines": 3
     },
     {
+      "id": "de:14625:6077",
+      "numeric_id": "33006077",
+      "name": "Bachstraße",
+      "city": "Pulsnitz",
+      "name_with_city": "Pulsnitz Bachstraße",
+      "longitude": 14.009946,
+      "latitude": 51.182925,
+      "operators": [
+        "RBO"
+      ],
+      "lines": {
+        "PlusBus": [
+          "521"
+        ],
+        "Regionalbus": [
+          "756"
+        ]
+      },
+      "total_lines": 2
+    },
+    {
       "id": "de:14625:6038",
       "numeric_id": "33006038",
       "name": "Bahnhof",
@@ -62056,11 +62084,12 @@
       ],
       "lines": {
         "Regionalbus": [
+          "759",
           "764",
           "765"
         ]
       },
-      "total_lines": 2
+      "total_lines": 3
     },
     {
       "id": "de:14625:6035",
