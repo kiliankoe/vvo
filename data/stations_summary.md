@@ -30,12 +30,12 @@ Total stations: 3911
 ## Stations by Transit Type
 
 - Regionalbus: 2695 stations
-- Stadtbus: 1320 stations
-- PlusBus: 648 stations
+- Stadtbus: 1319 stations
+- PlusBus: 647 stations
 - Anruflinienbus: 433 stations
 - Straßenbahn: 270 stations
 - Anruflinientaxi: 206 stations
-- Ersatzverkehr: 105 stations
+- Ersatzverkehr: 106 stations
 - Taktbus: 101 stations
 - Zug: 99 stations
 - S-Bahn: 54 stations
@@ -50,7 +50,7 @@ Total stations: 3911
 
 ## Transit Operators
 
-- RVSOE: 1303 stations
+- RVSOE: 1301 stations
 - VGM: 1171 stations
 - DVB: 776 stations
 - RBO: 679 stations
@@ -63,7 +63,7 @@ Total stations: 3911
 - RBM: 30 stations
 - DB Regio AG Nordost: 28 stations
 - SDG: 24 stations
-- Mitteldeutsche Regiobahn: 21 stations
+- Mitteldeutsche Regiobahn: 22 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
 - Cottbusverkehr GmbH: 11 stations
 - trilex - Die Länderbahn GmbH DLB: 9 stations
@@ -103,11 +103,10 @@ Total stations: 3911
 - Dresden Postplatz: 17 lines
 - Dresden S-Bf. Industriegelände: 17 lines
 - Dresden Walpurgisstraße: 17 lines
-- Großenhain Lessingplatz: 17 lines
 - Großenhain Mozartallee: 17 lines
-- Pirna Rosa-Luxemburg-Straße: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
+- Großenhain Lessingplatz: 16 lines
 - Meißen S-Bahnhof Altstadt: 16 lines
 - Riesa Sachsenhof: 16 lines
 - Bad Schandau Nationalparkbahnhof: 15 lines
@@ -157,7 +156,6 @@ Total stations: 3911
 - Glashütte (Sachs) Bahnhof / Busbahnhof: 11 lines
 - Gompitz Gompitzer Höhe: 11 lines
 - Großenhain Hohe Straße: 11 lines
-- Pirna Robert-Koch-Straße: 11 lines
 - Priestewitz Bahnhof: 11 lines
 - Pulsnitz Bahnhof: 11 lines
 - Sebnitz Bahnhof: 11 lines
@@ -177,3 +175,4 @@ Total stations: 3911
 - Dresden Prohlis Gleisschleife: 10 lines
 - Hoyerswerda Albert-Einstein-Straße: 10 lines
 - Niederau (b Meißen) Bahnhof: 10 lines
+- Pirna Robert-Koch-Straße: 10 lines
