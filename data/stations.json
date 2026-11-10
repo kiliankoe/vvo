@@ -11034,8 +11034,8 @@
       "name": "Am Festspielhaus",
       "city": "Dresden",
       "name_with_city": "Dresden Am Festspielhaus",
-      "longitude": 13.753566,
-      "latitude": 51.116189,
+      "longitude": 13.753216,
+      "latitude": 51.116212,
       "operators": [
         "DVB"
       ],
@@ -11254,8 +11254,8 @@
       "name": "Am Steinacker",
       "city": "Dresden",
       "name_with_city": "Dresden Am Steinacker",
-      "longitude": 13.761337,
-      "latitude": 51.117903,
+      "longitude": 13.76131,
+      "latitude": 51.117943,
       "operators": [
         "DVB"
       ],
@@ -11784,6 +11784,7 @@
       "lines": {
         "Straßenbahn": [
           "10",
+          "12",
           "6"
         ],
         "Stadtbus": [
@@ -11796,7 +11797,7 @@
           "520"
         ]
       },
-      "total_lines": 7
+      "total_lines": 8
     },
     {
       "id": "de:14612:737",
@@ -12523,6 +12524,7 @@
       "lines": {
         "Straßenbahn": [
           "10",
+          "12",
           "6"
         ],
         "Stadtbus": [
@@ -12535,7 +12537,7 @@
           "520"
         ]
       },
-      "total_lines": 7
+      "total_lines": 8
     },
     {
       "id": "de:14612:888",
@@ -14918,6 +14920,9 @@
         "DVB"
       ],
       "lines": {
+        "Straßenbahn": [
+          "12"
+        ],
         "Stadtbus": [
           "64",
           "EV 10",
@@ -14925,7 +14930,7 @@
           "EV 6"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:789",
@@ -15522,6 +15527,7 @@
       "lines": {
         "Straßenbahn": [
           "10",
+          "12",
           "6"
         ],
         "Stadtbus": [
@@ -15529,7 +15535,7 @@
           "EV 6"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:877",
@@ -16021,6 +16027,7 @@
       "lines": {
         "Straßenbahn": [
           "10",
+          "12",
           "6"
         ],
         "Stadtbus": [
@@ -16028,7 +16035,7 @@
           "EV 6"
         ]
       },
-      "total_lines": 4
+      "total_lines": 5
     },
     {
       "id": "de:14612:272",
@@ -17089,6 +17096,7 @@
       "lines": {
         "Straßenbahn": [
           "10",
+          "12",
           "6"
         ],
         "Stadtbus": [
@@ -17098,7 +17106,7 @@
           "EV 6"
         ]
       },
-      "total_lines": 6
+      "total_lines": 7
     },
     {
       "id": "de:14612:997",
@@ -18088,6 +18096,7 @@
       "lines": {
         "Straßenbahn": [
           "10",
+          "12",
           "6"
         ],
         "Stadtbus": [
@@ -18096,7 +18105,7 @@
           "EV 6"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14612:832",
@@ -18280,6 +18289,7 @@
       "lines": {
         "Straßenbahn": [
           "10",
+          "12",
           "6"
         ],
         "Stadtbus": [
@@ -18288,7 +18298,7 @@
           "EV 6"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14612:892",
@@ -20667,6 +20677,7 @@
       "lines": {
         "Straßenbahn": [
           "10",
+          "12",
           "6"
         ],
         "Stadtbus": [
@@ -20675,7 +20686,7 @@
           "EV 6"
         ]
       },
-      "total_lines": 5
+      "total_lines": 6
     },
     {
       "id": "de:14612:952",
@@ -20923,8 +20934,8 @@
       "name": "Rathaus Klotzsche",
       "city": "Dresden",
       "name_with_city": "Dresden Rathaus Klotzsche",
-      "longitude": 13.774802,
-      "latitude": 51.111091,
+      "longitude": 13.774758,
+      "latitude": 51.111221,
       "operators": [
         "DVB"
       ],
@@ -22213,6 +22224,7 @@
       "lines": {
         "Straßenbahn": [
           "10",
+          "12",
           "6"
         ],
         "Stadtbus": [
@@ -22231,7 +22243,7 @@
           "alita 84"
         ]
       },
-      "total_lines": 11
+      "total_lines": 12
     },
     {
       "id": "de:14612:563",
@@ -67557,11 +67569,26 @@
         "VGM"
       ],
       "lines": {
+        "Regionalbus": [
+          "430",
+          "431",
+          "432",
+          "433",
+          "437",
+          "439",
+          "440",
+          "441",
+          "445",
+          "446"
+        ],
         "Stadtbus": [
+          "A1 (Riesa)",
+          "B (Riesa)",
+          "D (Riesa)",
           "E (Riesa)"
         ]
       },
-      "total_lines": 1
+      "total_lines": 14
     },
     {
       "id": "de:14627:5506",

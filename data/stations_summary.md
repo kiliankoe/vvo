@@ -29,11 +29,11 @@ Total stations: 3911
 
 ## Stations by Transit Type
 
-- Regionalbus: 2695 stations
+- Regionalbus: 2696 stations
 - Stadtbus: 1320 stations
 - PlusBus: 648 stations
 - Anruflinienbus: 433 stations
-- Straßenbahn: 270 stations
+- Straßenbahn: 271 stations
 - Anruflinientaxi: 206 stations
 - Ersatzverkehr: 106 stations
 - Taktbus: 101 stations
@@ -128,6 +128,7 @@ Total stations: 3911
 - Meißen Neugasse: 14 lines
 - Meißen Talbad: 14 lines
 - Radeberg Bahnhof: 14 lines
+- Riesa Kasernenstraße: 14 lines
 - Dresden Dahlienweg: 13 lines
 - Dresden Zeithainer Straße: 13 lines
 - Freital S-Bahnhof Hainsberg: 13 lines
@@ -139,6 +140,7 @@ Total stations: 3911
 - Dresden Julius-Vahlteich-Straße: 12 lines
 - Dresden Pirnaischer Platz: 12 lines
 - Dresden S-Bf. Strehlen: 12 lines
+- Dresden Schillerplatz: 12 lines
 - Kamenz Flugplatz: 12 lines
 - Kamenz Landesämter: 12 lines
 - Pirna Copitz Schulstraße: 12 lines
@@ -152,7 +154,6 @@ Total stations: 3911
 - Dresden Merianplatz: 11 lines
 - Dresden Pennricher Straße: 11 lines
 - Dresden S-Bf. Freiberger Straße: 11 lines
-- Dresden Schillerplatz: 11 lines
 - Dresden Schlehenstraße: 11 lines
 - Glashütte (Sachs) Bahnhof / Busbahnhof: 11 lines
 - Gompitz Gompitzer Höhe: 11 lines

@@ -15341,8 +15341,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.753566,
-          51.116189
+          13.753216,
+          51.116212
         ]
       },
       "properties": {
@@ -15641,8 +15641,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.761337,
-          51.117903
+          13.76131,
+          51.117943
         ]
       },
       "properties": {
@@ -16371,6 +16371,7 @@
         "lines": {
           "Straßenbahn": [
             "10",
+            "12",
             "6"
           ],
           "Stadtbus": [
@@ -16383,7 +16384,7 @@
             "520"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -17326,6 +17327,7 @@
         "lines": {
           "Straßenbahn": [
             "10",
+            "12",
             "6"
           ],
           "Stadtbus": [
@@ -17338,7 +17340,7 @@
             "520"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -20585,6 +20587,9 @@
           "DVB"
         ],
         "lines": {
+          "Straßenbahn": [
+            "12"
+          ],
           "Stadtbus": [
             "64",
             "EV 10",
@@ -20592,7 +20597,7 @@
             "EV 6"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -21413,6 +21418,7 @@
         "lines": {
           "Straßenbahn": [
             "10",
+            "12",
             "6"
           ],
           "Stadtbus": [
@@ -21420,7 +21426,7 @@
             "EV 6"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -22080,6 +22086,7 @@
         "lines": {
           "Straßenbahn": [
             "10",
+            "12",
             "6"
           ],
           "Stadtbus": [
@@ -22087,7 +22094,7 @@
             "EV 6"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -23540,6 +23547,7 @@
         "lines": {
           "Straßenbahn": [
             "10",
+            "12",
             "6"
           ],
           "Stadtbus": [
@@ -23549,7 +23557,7 @@
             "EV 6"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -24907,6 +24915,7 @@
         "lines": {
           "Straßenbahn": [
             "10",
+            "12",
             "6"
           ],
           "Stadtbus": [
@@ -24915,7 +24924,7 @@
             "EV 6"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -25163,6 +25172,7 @@
         "lines": {
           "Straßenbahn": [
             "10",
+            "12",
             "6"
           ],
           "Stadtbus": [
@@ -25171,7 +25181,7 @@
             "EV 6"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -28406,6 +28416,7 @@
         "lines": {
           "Straßenbahn": [
             "10",
+            "12",
             "6"
           ],
           "Stadtbus": [
@@ -28414,7 +28425,7 @@
             "EV 6"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -28742,8 +28753,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.774802,
-          51.111091
+          13.774758,
+          51.111221
         ]
       },
       "properties": {
@@ -30464,6 +30475,7 @@
         "lines": {
           "Straßenbahn": [
             "10",
+            "12",
             "6"
           ],
           "Stadtbus": [
@@ -30482,7 +30494,7 @@
             "alita 84"
           ]
         },
-        "total_lines": 11
+        "total_lines": 12
       }
     },
     {
@@ -93200,11 +93212,26 @@
           "VGM"
         ],
         "lines": {
+          "Regionalbus": [
+            "430",
+            "431",
+            "432",
+            "433",
+            "437",
+            "439",
+            "440",
+            "441",
+            "445",
+            "446"
+          ],
           "Stadtbus": [
+            "A1 (Riesa)",
+            "B (Riesa)",
+            "D (Riesa)",
             "E (Riesa)"
           ]
         },
-        "total_lines": 1
+        "total_lines": 14
       }
     },
     {
