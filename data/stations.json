@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "https://www.vvo-online.de/open_data/VVO_STOPS.JSON",
-    "count": 3911,
+    "count": 3914,
     "format_version": "2.0"
   },
   "stations": [
@@ -10359,7 +10359,6 @@
       "lines": {
         "Straßenbahn": [
           "11",
-          "13",
           "3",
           "6",
           "7",
@@ -10371,7 +10370,7 @@
           "477"
         ]
       },
-      "total_lines": 9
+      "total_lines": 8
     },
     {
       "id": "de:14612:202",
@@ -11955,7 +11954,6 @@
       "longitude": 13.740882,
       "latitude": 51.065426,
       "operators": [
-        "DB AG",
         "DB Fernverkehr AG",
         "DB Regio AG Nordost",
         "DB Regio AG Südost",
@@ -11971,7 +11969,6 @@
       "lines": {
         "Straßenbahn": [
           "11",
-          "13",
           "3",
           "6",
           "7",
@@ -12015,12 +12012,9 @@
           "SEV S1",
           "SEV S2",
           "SEV S8"
-        ],
-        "Fernbus": [
-          "Fernbus"
         ]
       },
-      "total_lines": 34
+      "total_lines": 32
     },
     {
       "id": "de:14612:198",
@@ -12038,7 +12032,6 @@
         "Straßenbahn": [
           "10",
           "11",
-          "13",
           "2",
           "20",
           "3",
@@ -12052,7 +12045,7 @@
           "477"
         ]
       },
-      "total_lines": 12
+      "total_lines": 11
     },
     {
       "id": "de:14612:943",
@@ -15355,7 +15348,6 @@
         "Straßenbahn": [
           "10",
           "11",
-          "13",
           "2",
           "20",
           "3",
@@ -15375,7 +15367,7 @@
           "478"
         ]
       },
-      "total_lines": 14
+      "total_lines": 13
     },
     {
       "id": "de:14612:237",
@@ -18743,7 +18735,6 @@
         "Straßenbahn": [
           "10",
           "11",
-          "13",
           "2",
           "20",
           "3",
@@ -18754,7 +18745,7 @@
           "9"
         ]
       },
-      "total_lines": 11
+      "total_lines": 10
     },
     {
       "id": "de:14612:634",
@@ -67814,6 +67805,29 @@
       "total_lines": 4
     },
     {
+      "id": "de:14627:5567",
+      "numeric_id": "33005567",
+      "name": "Merzdorfer Ring",
+      "city": "Riesa",
+      "name_with_city": "Riesa Merzdorfer Ring",
+      "longitude": 13.250025,
+      "latitude": 51.306106,
+      "operators": [
+        "VGM"
+      ],
+      "lines": {
+        "Regionalbus": [
+          "442"
+        ],
+        "Stadtbus": [
+          "A1 (Riesa)",
+          "A2 (Riesa)",
+          "B (Riesa)"
+        ]
+      },
+      "total_lines": 4
+    },
+    {
       "id": "de:14627:5899",
       "numeric_id": "33005899",
       "name": "Neunickritz",
@@ -68288,6 +68302,29 @@
       "total_lines": 16
     },
     {
+      "id": "de:14627:5516",
+      "numeric_id": "33005516",
+      "name": "Segouer Straße",
+      "city": "Riesa",
+      "name_with_city": "Riesa Segouer Straße",
+      "longitude": 13.25272,
+      "latitude": 51.30286,
+      "operators": [
+        "VGM"
+      ],
+      "lines": {
+        "Regionalbus": [
+          "442"
+        ],
+        "Stadtbus": [
+          "A1 (Riesa)",
+          "A2 (Riesa)",
+          "B (Riesa)"
+        ]
+      },
+      "total_lines": 4
+    },
+    {
       "id": "de:14627:5505",
       "numeric_id": "33005505",
       "name": "Seifenwerk",
@@ -68531,6 +68568,29 @@
       "name_with_city": "Riesa Weida Wendeplatz",
       "longitude": 13.253636,
       "latitude": 51.30017,
+      "operators": [
+        "VGM"
+      ],
+      "lines": {
+        "Regionalbus": [
+          "442"
+        ],
+        "Stadtbus": [
+          "A1 (Riesa)",
+          "A2 (Riesa)",
+          "B (Riesa)"
+        ]
+      },
+      "total_lines": 4
+    },
+    {
+      "id": "de:14627:5517",
+      "numeric_id": "33005517",
+      "name": "Weidaer Straße",
+      "city": "Riesa",
+      "name_with_city": "Riesa Weidaer Straße",
+      "longitude": 13.249189,
+      "latitude": 51.309515,
       "operators": [
         "VGM"
       ],
@@ -81288,15 +81348,14 @@
           "439",
           "440",
           "441",
-          "442",
-          "451"
+          "442"
         ],
         "Anruflinienbus": [
           "439",
           "440"
         ]
       },
-      "total_lines": 8
+      "total_lines": 7
     },
     {
       "id": "de:14627:5610",
@@ -81313,16 +81372,13 @@
         "Regionalbus": [
           "437",
           "439",
-          "440",
-          "441",
-          "442",
-          "451"
+          "441"
         ],
         "Anruflinienbus": [
           "439"
         ]
       },
-      "total_lines": 7
+      "total_lines": 4
     },
     {
       "id": "de:14627:5603",

@@ -14426,7 +14426,6 @@
         "lines": {
           "Straßenbahn": [
             "11",
-            "13",
             "3",
             "6",
             "7",
@@ -14438,7 +14437,7 @@
             "477"
           ]
         },
-        "total_lines": 9
+        "total_lines": 8
       }
     },
     {
@@ -16582,7 +16581,6 @@
         "city": "Dresden",
         "name_with_city": "Dresden Bahnhof Neustadt",
         "operators": [
-          "DB AG",
           "DB Fernverkehr AG",
           "DB Regio AG Nordost",
           "DB Regio AG Südost",
@@ -16598,7 +16596,6 @@
         "lines": {
           "Straßenbahn": [
             "11",
-            "13",
             "3",
             "6",
             "7",
@@ -16642,12 +16639,9 @@
             "SEV S1",
             "SEV S2",
             "SEV S8"
-          ],
-          "Fernbus": [
-            "Fernbus"
           ]
         },
-        "total_lines": 34
+        "total_lines": 32
       }
     },
     {
@@ -16673,7 +16667,6 @@
           "Straßenbahn": [
             "10",
             "11",
-            "13",
             "2",
             "20",
             "3",
@@ -16687,7 +16680,7 @@
             "477"
           ]
         },
-        "total_lines": 12
+        "total_lines": 11
       }
     },
     {
@@ -21190,7 +21183,6 @@
           "Straßenbahn": [
             "10",
             "11",
-            "13",
             "2",
             "20",
             "3",
@@ -21210,7 +21202,7 @@
             "478"
           ]
         },
-        "total_lines": 14
+        "total_lines": 13
       }
     },
     {
@@ -25778,7 +25770,6 @@
           "Straßenbahn": [
             "10",
             "11",
-            "13",
             "2",
             "20",
             "3",
@@ -25789,7 +25780,7 @@
             "9"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -93550,6 +93541,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.250025,
+          51.306106
+        ]
+      },
+      "properties": {
+        "id": "de:14627:5567",
+        "numeric_id": "33005567",
+        "name": "Merzdorfer Ring",
+        "city": "Riesa",
+        "name_with_city": "Riesa Merzdorfer Ring",
+        "operators": [
+          "VGM"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "442"
+          ],
+          "Stadtbus": [
+            "A1 (Riesa)",
+            "A2 (Riesa)",
+            "B (Riesa)"
+          ]
+        },
+        "total_lines": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.296189,
           51.27228
         ]
@@ -94184,6 +94206,37 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.25272,
+          51.30286
+        ]
+      },
+      "properties": {
+        "id": "de:14627:5516",
+        "numeric_id": "33005516",
+        "name": "Segouer Straße",
+        "city": "Riesa",
+        "name_with_city": "Riesa Segouer Straße",
+        "operators": [
+          "VGM"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "442"
+          ],
+          "Stadtbus": [
+            "A1 (Riesa)",
+            "A2 (Riesa)",
+            "B (Riesa)"
+          ]
+        },
+        "total_lines": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.261631,
           51.314434
         ]
@@ -94518,6 +94571,37 @@
         "name": "Weida Wendeplatz",
         "city": "Riesa",
         "name_with_city": "Riesa Weida Wendeplatz",
+        "operators": [
+          "VGM"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "442"
+          ],
+          "Stadtbus": [
+            "A1 (Riesa)",
+            "A2 (Riesa)",
+            "B (Riesa)"
+          ]
+        },
+        "total_lines": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.249189,
+          51.309515
+        ]
+      },
+      "properties": {
+        "id": "de:14627:5517",
+        "numeric_id": "33005517",
+        "name": "Weidaer Straße",
+        "city": "Riesa",
+        "name_with_city": "Riesa Weidaer Straße",
         "operators": [
           "VGM"
         ],
@@ -112291,15 +112375,14 @@
             "439",
             "440",
             "441",
-            "442",
-            "451"
+            "442"
           ],
           "Anruflinienbus": [
             "439",
             "440"
           ]
         },
-        "total_lines": 8
+        "total_lines": 7
       }
     },
     {
@@ -112324,16 +112407,13 @@
           "Regionalbus": [
             "437",
             "439",
-            "440",
-            "441",
-            "442",
-            "451"
+            "441"
           ],
           "Anruflinienbus": [
             "439"
           ]
         },
-        "total_lines": 7
+        "total_lines": 4
       }
     },
     {
