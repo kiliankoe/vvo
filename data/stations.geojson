@@ -66067,7 +66067,8 @@
         "city": "Malter",
         "name_with_city": "Malter Bad",
         "operators": [
-          "RVSOE"
+          "RVSOE",
+          "SDG"
         ],
         "lines": {
           "Regionalbus": [
@@ -76478,7 +76479,8 @@
         "city": "Obercarsdorf",
         "name_with_city": "Obercarsdorf Bahnbrücke",
         "operators": [
-          "RVSOE"
+          "RVSOE",
+          "SDG"
         ],
         "lines": {
           "PlusBus": [
@@ -86061,7 +86063,8 @@
         "city": "Rabenau (Sachs)",
         "name_with_city": "Rabenau (Sachs) Abzweig Spechtritz",
         "operators": [
-          "RVSOE"
+          "RVSOE",
+          "SDG"
         ],
         "lines": {
           "Regionalbus": [
@@ -86194,7 +86197,8 @@
         "city": "Rabenau (Sachs)",
         "name_with_city": "Rabenau (Sachs) Markt",
         "operators": [
-          "RVSOE"
+          "RVSOE",
+          "SDG"
         ],
         "lines": {
           "Regionalbus": [
@@ -98042,7 +98046,8 @@
         "city": "Schmiedeberg (Osterzgeb)",
         "name_with_city": "Schmiedeberg (Osterzgeb) Mitte",
         "operators": [
-          "RVSOE"
+          "RVSOE",
+          "SDG"
         ],
         "lines": {
           "PlusBus": [
@@ -98096,7 +98101,8 @@
         "city": "Schmiedeberg (Osterzgeb)",
         "name_with_city": "Schmiedeberg (Osterzgeb) Naundorf Stadion",
         "operators": [
-          "RVSOE"
+          "RVSOE",
+          "SDG"
         ],
         "lines": {
           "PlusBus": [
@@ -98154,7 +98160,8 @@
         "city": "Schmiedeberg (Osterzgeb)",
         "name_with_city": "Schmiedeberg (Osterzgeb) Ziegengasse",
         "operators": [
-          "RVSOE"
+          "RVSOE",
+          "SDG"
         ],
         "lines": {
           "PlusBus": [
@@ -101018,7 +101025,8 @@
         "city": "Seifersdorf (Kr PIR)",
         "name_with_city": "Seifersdorf (Kr PIR) Mitte",
         "operators": [
-          "RVSOE"
+          "RVSOE",
+          "SDG"
         ],
         "lines": {
           "Regionalbus": [
@@ -101097,7 +101105,8 @@
         "city": "Seifersdorf (Kr PIR)",
         "name_with_city": "Seifersdorf (Kr PIR) Weißeritzbrücke",
         "operators": [
-          "RVSOE"
+          "RVSOE",
+          "SDG"
         ],
         "lines": {
           "Regionalbus": [

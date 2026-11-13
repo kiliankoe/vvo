@@ -47896,7 +47896,8 @@
       "longitude": 13.655919,
       "latitude": 50.920624,
       "operators": [
-        "RVSOE"
+        "RVSOE",
+        "SDG"
       ],
       "lines": {
         "Regionalbus": [
@@ -55499,7 +55500,8 @@
       "longitude": 13.666142,
       "latitude": 50.850055,
       "operators": [
-        "RVSOE"
+        "RVSOE",
+        "SDG"
       ],
       "lines": {
         "PlusBus": [
@@ -62426,7 +62428,8 @@
       "longitude": 13.64805,
       "latitude": 50.961526,
       "operators": [
-        "RVSOE"
+        "RVSOE",
+        "SDG"
       ],
       "lines": {
         "Regionalbus": [
@@ -62519,7 +62522,8 @@
       "longitude": 13.641618,
       "latitude": 50.963552,
       "operators": [
-        "RVSOE"
+        "RVSOE",
+        "SDG"
       ],
       "lines": {
         "Regionalbus": [
@@ -71055,7 +71059,8 @@
       "longitude": 13.675485,
       "latitude": 50.838047,
       "operators": [
-        "RVSOE"
+        "RVSOE",
+        "SDG"
       ],
       "lines": {
         "PlusBus": [
@@ -71093,7 +71098,8 @@
       "longitude": 13.669574,
       "latitude": 50.843969,
       "operators": [
-        "RVSOE"
+        "RVSOE",
+        "SDG"
       ],
       "lines": {
         "PlusBus": [
@@ -71135,7 +71141,8 @@
       "longitude": 13.681252,
       "latitude": 50.833123,
       "operators": [
-        "RVSOE"
+        "RVSOE",
+        "SDG"
       ],
       "lines": {
         "PlusBus": [
@@ -73199,7 +73206,8 @@
       "longitude": 13.638034,
       "latitude": 50.931263,
       "operators": [
-        "RVSOE"
+        "RVSOE",
+        "SDG"
       ],
       "lines": {
         "Regionalbus": [
@@ -73254,7 +73262,8 @@
       "longitude": 13.648365,
       "latitude": 50.938295,
       "operators": [
-        "RVSOE"
+        "RVSOE",
+        "SDG"
       ],
       "lines": {
         "Regionalbus": [

@@ -59,9 +59,9 @@ Total stations: 3914
 - Omnibusunternehmen Gottfried Beck: 67 stations
 - Müller Busreisen: 58 stations
 - SATRA: 44 stations
+- SDG: 33 stations
 - RBM: 30 stations
 - DB Regio AG Nordost: 28 stations
-- SDG: 24 stations
 - Mitteldeutsche Regiobahn: 22 stations
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
 - Cottbusverkehr GmbH: 11 stations
