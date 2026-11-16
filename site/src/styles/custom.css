@@ -63,20 +63,9 @@
 	white-space: nowrap;
 }
 
-.dot {
-	display: inline-block;
-	width: 0.6rem;
-	height: 0.6rem;
-	border-radius: 50%;
-	background: var(--sl-color-gray-4);
-	margin-right: 0.4rem;
-}
 .ok { color: var(--vvo-ok); }
 .warn { color: var(--vvo-warn); }
 .bad { color: var(--vvo-bad); }
-.dot.ok { background: var(--vvo-ok); }
-.dot.warn { background: var(--vvo-warn); }
-.dot.bad { background: var(--vvo-bad); }
 
 .search {
 	width: 100%;
@@ -131,23 +120,6 @@
 .list .body h4 {
 	font-size: var(--sl-text-base);
 }
-
-.bars {
-	display: flex;
-	gap: 1px;
-	height: 1.5rem;
-	align-items: stretch;
-}
-.bars > i {
-	flex: 1;
-	margin: 0;
-	min-width: 1px;
-	background: var(--sl-color-gray-5);
-	border-radius: 1px;
-}
-.bars > i.ok { background: var(--vvo-ok); }
-.bars > i.warn { background: var(--vvo-warn); }
-.bars > i.bad { background: var(--vvo-bad); }
 
 /* Secondary table columns give way on phones so the key ones stay readable. */
 @media (max-width: 40rem) {

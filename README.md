@@ -8,7 +8,7 @@ This document is inspired by [derhuerst/vbb-modules](https://github.com/derhuers
 
 Got any more info, details, links? Please don't hesitate to open an issue and/or PR!
 
-The [website](https://oepnv.dresden.lol/) renders these docs together with interactive API references, live network status, endpoint health checks and searchable stop data.
+The [website](https://oepnv.dresden.lol/) renders these docs together with interactive API references, live network status and searchable stop data.
 
 ![DVB transit map](./data/liniennetzplan.jpg)
 
@@ -55,7 +55,7 @@ For commercial applications or high-volume usage, contact VVO at opendata@vvo-on
 
 ## Development
 
-The data in `data/` and the endpoint health results are updated by the GitHub Actions in `.github/workflows/`. The website lives in `site/` and is built with [Astro Starlight](https://starlight.astro.build/). It reads the markdown in `documentation/`, the specs in `openapi/` and the files in `data/` at build time, so there is no second copy to keep in sync.
+The data in `data/` is updated by the GitHub Actions in `.github/workflows/`. The website lives in `site/` and is built with [Astro Starlight](https://starlight.astro.build/). It reads the markdown in `documentation/`, the specs in `openapi/` and the files in `data/` at build time, so there is no second copy to keep in sync.
 
 ```sh
 nix develop   # or direnv allow, provides Node.js, pnpm and uv

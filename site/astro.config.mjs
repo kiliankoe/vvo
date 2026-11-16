@@ -24,7 +24,6 @@ export default defineConfig({
 					items: [
 						{ label: 'Network status', link: '/status/' },
 						{ label: 'Departures', link: '/departures/' },
-						{ label: 'Endpoint health', link: '/health/' },
 					],
 				},
 				{

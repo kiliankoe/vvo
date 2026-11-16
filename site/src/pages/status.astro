@@ -171,7 +171,7 @@ const hubs = [
 		if (changes.status === 'rejected') {
 			for (const i of [0, 1, 2]) setStat(i, '–');
 			$('error').hidden = false;
-			$('error').textContent = `Could not load route changes: ${changes.reason}. Check the endpoint health page.`;
+			$('error').textContent = `Could not load route changes: ${changes.reason}.`;
 		}
 	});
 </script>
