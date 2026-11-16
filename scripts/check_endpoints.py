@@ -48,6 +48,33 @@ TRIAS_LIR = """<?xml version="1.0" encoding="UTF-8"?>
   </ServiceRequest>
 </Trias>"""
 
+# OJP puts the envelope in the SIRI namespace, unlike TRIAS.
+OJP = """<?xml version="1.0" encoding="UTF-8"?>
+<OJP xmlns="http://www.siri.org.uk/siri" xmlns:ojp="http://www.vdv.de/ojp" version="1.0">
+  <OJPRequest>
+    <ServiceRequest>
+      <RequestTimestamp>{{now}}</RequestTimestamp>
+      <RequestorRef>OpenService</RequestorRef>
+      {payload}
+    </ServiceRequest>
+  </OJPRequest>
+</OJP>"""
+
+OJP_LIR = OJP.format(payload="""<ojp:OJPLocationInformationRequest>
+        <RequestTimestamp>{now}</RequestTimestamp>
+        <ojp:InitialInput><ojp:LocationName>Hauptbahnhof</ojp:LocationName></ojp:InitialInput>
+        <ojp:Restrictions><ojp:Type>stop</ojp:Type><ojp:NumberOfResults>1</ojp:NumberOfResults></ojp:Restrictions>
+      </ojp:OJPLocationInformationRequest>""")
+
+OJP_SER = OJP.format(payload="""<ojp:OJPStopEventRequest>
+        <RequestTimestamp>{now}</RequestTimestamp>
+        <ojp:Location><ojp:PlaceRef>
+          <ojp:StopPlaceRef>de:14612:28</ojp:StopPlaceRef>
+          <ojp:LocationName><ojp:Text>Dresden Hauptbahnhof</ojp:Text></ojp:LocationName>
+        </ojp:PlaceRef></ojp:Location>
+        <ojp:Params><ojp:NumberOfResults>1</ojp:NumberOfResults></ojp:Params>
+      </ojp:OJPStopEventRequest>""")
+
 
 def webapi(path, body):
     return {"url": f"{WEBAPI}/{path}", "json": {**body, "format": "json"}, "expect": "Status"}
@@ -71,6 +98,10 @@ CHECKS = [
      "url": f"{WIDGETS}/Haltestelle.do?hst=Postplatz&ort=Dresden", "expect": "["},
     {"id": "trias", "group": "TRIAS", "name": "LocationInformationRequest", "docs": "docs/trias/",
      "url": "https://efa.vvo-online.de/std3/trias", "xml": TRIAS_LIR, "expect": "LocationResult"},
+    {"id": "ojp", "group": "OJP", "name": "OJPLocationInformationRequest", "docs": "docs/ojp/",
+     "url": "https://efa.vvo-online.de/std3/ojp", "xml": OJP_LIR, "expect": "StopPlaceRef"},
+    {"id": "ojp-delfi", "group": "OJP", "name": "OJPStopEventRequest (DELFI data via VRR)", "docs": "docs/ojp/#endpoints",
+     "url": "https://efa.vrr.de/std3/ojp", "xml": OJP_SER, "expect": "StopEventResult"},
     {"id": "gtfs-static", "group": "GTFS", "name": "gtfs.de local transit feed", "docs": "docs/gtfs/",
      "url": "https://download.gtfs.de/germany/nv_free/latest.zip", "head": True, "max_age": 8 * DAY},
     {"id": "gtfs-rt", "group": "GTFS", "name": "gtfs.de realtime feed", "docs": "docs/gtfs/#gtfs-realtime",

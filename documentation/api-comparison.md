@@ -100,6 +100,23 @@ This guide helps you choose the right API or data source for your Dresden public
 
 **Best for**: Professional applications, long-term projects, commercial use
 
+### OJP
+
+**Pros**
+
+- European standard, successor of TRIAS
+- Stop search and journey planning with real-time data on VVO's server
+- A DELFI-backed endpoint returns departures for most of Germany
+
+**Cons**
+
+- VVO's server returns no departures
+- Undocumented by VVO, and the DELFI-backed endpoint is undocumented too
+- No real-time data for the VVO area on the DELFI-backed endpoint
+- No CORS preflight support, so not usable from browsers
+
+**Best for**: Applications that cover more than one German region; use [TRIAS](trias.md) for VVO data
+
 ### SIRI ET
 
 **Pros**

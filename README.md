@@ -18,6 +18,7 @@ The [website](https://oepnv.dresden.lol/) renders these docs together with inter
 - **[Widget API](documentation/widgets.md)** - Simple GET-based API for departure monitors
 - **[WebAPI](documentation/webapi.md)** - JSON REST API used by mobile apps
 - **[TRIAS API](documentation/trias.md)** - Official XML-based API following European standards
+- **[OJP API](documentation/ojp.md)** - European journey planner standard, including a DELFI endpoint covering most of Germany
 - **[GTFS Data](documentation/gtfs.md)** - Standard transit data format with static and real-time feeds
 - **[SIRI ET Real-Time Data](documentation/siri.md)** - DELFI real-time feed with delays, cancellations, and occupancy
 - **[Dresden OpenData](documentation/opendata.md)** - Geographic transit datasets via OGC API Features (lines, stops, accessibility)
@@ -69,6 +70,12 @@ cd site && pnpm install && pnpm dev
   - Comprehensive features: journey planning, real-time departures, stop search
   - No authentication required (use RequestorRef: "OpenService")
   - [VDV Standard v1.1](https://www.vdv.de/431-2sds-v1.1.pdfx?forced=true) or [v1.2](https://www.vdv.de/431-2-sdsv1.2.pdfx?forced=false)
+
+- **[OJP API](documentation/ojp.md)** - `https://efa.vvo-online.de/std3/ojp`
+  - Open Journey Planner 1.0 (CEN/TS 17118), the European successor of TRIAS
+  - Stop search and journey planning, but no departures on VVO's server
+  - `https://efa.vrr.de/std3/ojp` serves DELFI data for most of Germany, including Dresden departures
+  - Undocumented by VVO, no authentication required
 
 - **[Widget API](documentation/widgets.md)** - `http://widgets.vvo-online.de`
   - Simple GET-based API for departure monitors

@@ -34,6 +34,7 @@ export default defineConfig({
 						{ label: 'WebAPI', link: '/docs/webapi/' },
 						{ label: 'Widget API', link: '/docs/widgets/' },
 						{ label: 'TRIAS', link: '/docs/trias/' },
+						{ label: 'OJP', link: '/docs/ojp/' },
 						{ label: 'GTFS', link: '/docs/gtfs/' },
 						{ label: 'SIRI ET', link: '/docs/siri/' },
 						{ label: 'Dresden OpenData', link: '/docs/opendata/' },
