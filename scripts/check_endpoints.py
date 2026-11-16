@@ -102,6 +102,9 @@ CHECKS = [
      "url": "https://efa.vvo-online.de/std3/ojp", "xml": OJP_LIR, "expect": "StopPlaceRef"},
     {"id": "ojp-delfi", "group": "OJP", "name": "OJPStopEventRequest (DELFI data via VRR)", "docs": "docs/ojp/#endpoints",
      "url": "https://efa.vrr.de/std3/ojp", "xml": OJP_SER, "expect": "StopEventResult"},
+    {"id": "transitous", "group": "Transitous", "name": "stoptimes", "docs": "docs/transitous/",
+     "url": "https://api.transitous.org/api/v6/stoptimes?stopId=de-DELFI_de:14612:28&n=1",
+     "expect": "tripId"},
     {"id": "gtfs-static", "group": "GTFS", "name": "gtfs.de local transit feed", "docs": "docs/gtfs/",
      "url": "https://download.gtfs.de/germany/nv_free/latest.zip", "head": True, "max_age": 8 * DAY},
     {"id": "gtfs-rt", "group": "GTFS", "name": "gtfs.de realtime feed", "docs": "docs/gtfs/#gtfs-realtime",
@@ -126,7 +129,7 @@ def run(check):
     try:
         if check.get("websocket"):
             return websocket_handshake(check["url"], start)
-        headers = {"User-Agent": "kiliankoe/vvo endpoint health check (+https://github.com/kiliankoe/vvo)"}
+        headers = {"User-Agent": "vvo-endpoint-health-check/1.0 (+https://github.com/kiliankoe/vvo)"}
         data = None
         if "json" in check:
             data = json.dumps(check["json"]).encode()

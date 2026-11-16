@@ -4,6 +4,8 @@
 
 VVO/DVB transit data is available through Germany's national GTFS (General Transit Feed Specification) implementation. There is no standalone VVO GTFS feed — VVO data is part of the Germany-wide DELFI dataset, published through [GTFS.de](https://gtfs.de/).
 
+[Transitous](transitous.md) imports the DELFI GTFS and real-time feeds and offers them as a JSON API for departures and journey planning.
+
 ## Data Sources
 
 ### Static GTFS Feed (DELFI)

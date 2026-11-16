@@ -4,17 +4,18 @@ This guide helps you choose the right API or data source for your Dresden public
 
 ## Quick Decision Matrix
 
-| Use Case                 | Recommended API | Why                                  |
-| ------------------------ | --------------- | ------------------------------------ |
-| Simple departure display | Widget API      | Lightweight, easy to parse           |
-| Mobile app               | WebAPI          | Rich features, JSON format           |
-| Professional integration | TRIAS           | Standards-based, official support    |
-| Data analysis            | GTFS            | Complete dataset, standard format    |
-| Real-time bulk feed      | SIRI ET         | All delays/cancellations in one feed |
-| Real-time tracking       | WebAPI or TRIAS | Live delays and service alerts       |
-| Live vehicle positions   | [TLMS](tlms.md) | Community WebSocket with GPS streams |
-| Route planning           | WebAPI or TRIAS | Full journey planning features       |
-| Stop/station search      | WebAPI or TRIAS | Comprehensive search options         |
+| Use Case                 | Recommended API             | Why                                   |
+| ------------------------ | --------------------------- | ------------------------------------- |
+| Simple departure display | Widget API                  | Lightweight, easy to parse            |
+| Mobile app               | WebAPI                      | Rich features, JSON format            |
+| Professional integration | TRIAS                       | Standards-based, official support     |
+| Data analysis            | GTFS                        | Complete dataset, standard format     |
+| Real-time bulk feed      | SIRI ET                     | All delays/cancellations in one feed  |
+| Real-time tracking       | WebAPI or TRIAS             | Live delays and service alerts        |
+| Live vehicle positions   | [TLMS](tlms.md)             | Community WebSocket with GPS streams  |
+| Route planning           | WebAPI or TRIAS             | Full journey planning features        |
+| Cross-border routing     | [Transitous](transitous.md) | Europe-wide data, real-time routing   |
+| Stop/station search      | WebAPI or TRIAS             | Comprehensive search options          |
 
 ## Feature Comparison
 
@@ -116,6 +117,26 @@ This guide helps you choose the right API or data source for your Dresden public
 - No CORS preflight support, so not usable from browsers
 
 **Best for**: Applications that cover more than one German region; use [TRIAS](trias.md) for VVO data
+
+### Transitous
+
+**Pros**
+
+- JSON over plain GET requests
+- CORS enabled, usable from browsers
+- Trams, buses, S-Bahn, regional and long-distance trains in one API
+- Journey planning across Germany and into neighboring countries, with real-time data applied to routing
+- Bike sharing, address search and street routing
+
+**Cons**
+
+- Open-source, non-commercial projects only
+- Community-run on a best-effort basis
+- No service alerts or route change notices for VVO stops
+- Delays and scheduled times sometimes differ from the WebAPI's
+- Most Dresden stations can only be queried by platform ID or coordinates
+
+**Best for**: Open-source projects that need destinations outside the VVO or real-time-aware routing; use the [WebAPI](webapi.md) for DVB departures
 
 ### SIRI ET
 
