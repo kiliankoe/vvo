@@ -148,6 +148,73 @@ Plan journeys between locations.
   - `NoEscalator`
   - `NoElevator`
 - Time-based search (departure or arrival)
+- Fares per trip with `<IncludeFares>true</IncludeFares>`, see below
+
+With `IncludeFares`, each `TripResult` contains `TripFares` elements with the passed fare zones and one `Ticket` per passenger type (`Adult`, `Child`):
+
+```xml
+<trias:Ticket>
+  <trias:TicketId>empty</trias:TicketId>
+  <trias:TicketName>Einzelkarte</trias:TicketName>
+  <trias:FaresAuthorityRef>voe</trias:FaresAuthorityRef>
+  <trias:Price>3.60</trias:Price>
+  <trias:NetPrice>3.36</trias:NetPrice>
+  <trias:Currency>EUR</trias:Currency>
+  <trias:TariffLevel>1</trias:TariffLevel>
+  <trias:TravelClass>second</trias:TravelClass>
+  <trias:ValidFor>Adult</trias:ValidFor>
+</trias:Ticket>
+```
+
+### 4. TripInfoRequest
+
+Get all stops of a single journey, with real-time times. Take `JourneyRef` and `OperatingDayRef` from the `Service` element of a `StopEventRequest` or `TripRequest` result.
+
+```xml
+<RequestPayload>
+  <TripInfoRequest>
+    <JourneyRef>ddb:90RE5:0:R:j26:220</JourneyRef>
+    <OperatingDayRef>2026-11-16</OperatingDayRef>
+    <Params>
+      <IncludeCalls>true</IncludeCalls>
+      <IncludeService>true</IncludeService>
+    </Params>
+  </TripInfoRequest>
+</RequestPayload>
+```
+
+The `TripInfoResult` lists the stops already served as `PreviousCall` and the remaining stops as `OnwardCall`, each with timetabled and estimated times and the planned platform. `IncludeService` adds the line, operator, origin and destination. `IncludePosition` is accepted, but VVO returns no vehicle position. An unknown journey returns the error code `ERROR_INVALID_JOURNEY_REF`.
+
+### 5. FaresRequest
+
+Only the `StopFaresRequest` variant returns data. It lists the fare zones of a stop for each fare authority (`voe` for VVO, `vms` for the neighboring VMS). `StaticFaresRequest` returns an empty result. For ticket prices, use `TripRequest` with `IncludeFares`.
+
+```xml
+<RequestPayload>
+  <FaresRequest>
+    <StopFaresRequest>
+      <StopPointRef>de:14612:28</StopPointRef>
+    </StopFaresRequest>
+  </FaresRequest>
+</RequestPayload>
+```
+
+```xml
+<trias:StopFaresResult>
+  <trias:FareZoneListInArea>
+    <trias:FaresAuthorityRef>voe</trias:FaresAuthorityRef>
+    <trias:FaresAuthorityText>voe</trias:FaresAuthorityText>
+    <trias:FareZone>
+      <trias:FareZoneRef>103</trias:FareZoneRef>
+      <trias:FareZoneText>103</trias:FareZoneText>
+    </trias:FareZone>
+  </trias:FareZoneListInArea>
+</trias:StopFaresResult>
+```
+
+### Unsupported services
+
+VVO does not implement the other request types of TRIAS 1.2: `BookingInfoRequest`, the four `Connection*Request` types, `FacilityRequest`, `FacilityStatusReport`, `GeoCoordinatesRequest`, `ImageCoordinatesRequest`, `IndividualRouteRequest`, `MapServiceRequest`, `PersonalisationRequest`, `PositioningRequest`, `ServiceRegisterRequest`, `VehicleDataRequest` and `VehicleInteractionRequest`. Subscriptions (`SubscriptionRequest`) and `CapabilitiesRequest` are not available either. `RefineRequest` returns an empty `RefineResponse`; it is unclear whether it works with a real trip.
 
 ## Example: Complete Stop Departure Request
 
@@ -222,6 +289,8 @@ Errors in the request content are returned with HTTP 200 inside the `DeliveryPay
 ```
 
 Malformed XML results in HTTP 400 with an HTML body.
+
+A request type the server does not implement, or a well-formed request it cannot interpret, results in HTTP 200 with an empty body.
 
 ## Additional Resources
 

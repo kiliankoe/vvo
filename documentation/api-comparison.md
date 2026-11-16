@@ -30,7 +30,7 @@ This guide helps you choose the right API or data source for your Dresden public
 | **Departure board**        | ✔︎            | ✔︎             | ✔︎            | ❌ (scheduled only)   | ✔︎ (all stops)     |
 | **Line information**       | ❌           | ✔︎             | ✔︎            | ✔︎                     | ✔︎                 |
 | **Service alerts**         | ❌           | ✔︎             | ✔︎            | ✔︎ (GTFS-RT)           | ❌                |
-| **Vehicle positions**      | ❌           | ❌            | Limited      | ❌ (not in free feed) | ❌                |
+| **Vehicle positions**      | ❌           | ❌            | ❌           | ❌ (not in free feed) | ❌                |
 | **Occupancy data**         | ❌           | ✔︎             | ❌           | ❌                    | ✔︎                 |
 | **Platform information**   | ❌           | ✔︎             | ✔︎            | ❌                    | ✔︎ (rail)          |
 | **Cancellation info**      | ❌           | ✔︎             | ✔︎            | ❌                    | ✔︎                 |

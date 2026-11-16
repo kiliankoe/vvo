@@ -6,12 +6,16 @@ info:
   description: |
     TRIAS (Traveller Realtime Information and Advisory Standard) is VVO's
     official XML interface. It implements VDV 431-2, versions 1.1 and 1.2,
-    and offers stop search, departure boards and journey planning with
-    realtime data.
+    and offers stop search, departure boards, journey planning, journey
+    details and fares with realtime data.
 
     All services share one endpoint. The service is selected by the element
-    inside `RequestPayload`. This spec does not model the XML schema; see the
-    VDV 431-2 specification and the official XSD files for the full structure.
+    inside `RequestPayload`. VVO implements `LocationInformationRequest`,
+    `StopEventRequest`, `TripRequest`, `TripInfoRequest` and `FaresRequest`
+    (only `StopFaresRequest` returns data). All other TRIAS request types,
+    subscriptions and `CapabilitiesRequest` are not implemented. This spec
+    does not model the XML schema; see the VDV 431-2 specification and the
+    official XSD files for the full structure.
 
     - Specification: [VDV 431-2 v1.2 (PDF)](https://www.vdv.de/431-2-sdsv1.2.pdfx?forced=false)
     - XML schema: [VDVde/TRIAS](https://github.com/VDVde/TRIAS)
@@ -27,6 +31,8 @@ info:
     Errors in the request content are reported inside the response's
     `DeliveryPayload` as an `ErrorMessage` element with HTTP 200. Malformed
     XML or an unsupported content type yields HTTP 400 with an HTML body.
+    An unimplemented request type, or a well-formed request the server cannot
+    interpret, yields HTTP 200 with an empty body.
   contact:
     name: kiliankoe/vvo
     url: https://github.com/kiliankoe/vvo
@@ -116,7 +122,7 @@ paths:
                   </Trias>
               TripRequest:
                 summary: Journey planning
-                description: Plan journeys between two locations.
+                description: Plan journeys between two locations. Set `IncludeFares` to `true` to get ticket prices per trip.
                 value: |
                   <?xml version="1.0" encoding="UTF-8"?>
                   <Trias xmlns="trias" xmlns:siri="http://www.siri.org.uk/siri" version="1.2">
@@ -142,6 +148,45 @@ paths:
                             <IncludeFares>false</IncludeFares>
                           </Params>
                         </TripRequest>
+                      </RequestPayload>
+                    </ServiceRequest>
+                  </Trias>
+              TripInfoRequest:
+                summary: Journey details
+                description: All stops of one journey with realtime data. Take `JourneyRef` and `OperatingDayRef` from a departure or trip result.
+                value: |
+                  <?xml version="1.0" encoding="UTF-8"?>
+                  <Trias xmlns="trias" xmlns:siri="http://www.siri.org.uk/siri" version="1.2">
+                    <ServiceRequest>
+                      <siri:RequestTimestamp>2026-11-16T13:12:00Z</siri:RequestTimestamp>
+                      <siri:RequestorRef>OpenService</siri:RequestorRef>
+                      <RequestPayload>
+                        <TripInfoRequest>
+                          <JourneyRef>ddb:90RE5:0:R:j26:220</JourneyRef>
+                          <OperatingDayRef>2026-11-16</OperatingDayRef>
+                          <Params>
+                            <IncludeCalls>true</IncludeCalls>
+                            <IncludeService>true</IncludeService>
+                          </Params>
+                        </TripInfoRequest>
+                      </RequestPayload>
+                    </ServiceRequest>
+                  </Trias>
+              FaresRequest:
+                summary: Fare zones of a stop
+                description: Fare zones of a stop per fare authority. Other `FaresRequest` variants return no data; use `TripRequest` with `IncludeFares` for prices.
+                value: |
+                  <?xml version="1.0" encoding="UTF-8"?>
+                  <Trias xmlns="trias" xmlns:siri="http://www.siri.org.uk/siri" version="1.2">
+                    <ServiceRequest>
+                      <siri:RequestTimestamp>2026-11-16T13:12:00Z</siri:RequestTimestamp>
+                      <siri:RequestorRef>OpenService</siri:RequestorRef>
+                      <RequestPayload>
+                        <FaresRequest>
+                          <StopFaresRequest>
+                            <StopPointRef>de:14612:28</StopPointRef>
+                          </StopFaresRequest>
+                        </FaresRequest>
                       </RequestPayload>
                     </ServiceRequest>
                   </Trias>
@@ -257,6 +302,102 @@ paths:
                               </trias:StopEvent>
                             </trias:StopEventResult>
                           </trias:StopEventResponse>
+                        </trias:DeliveryPayload>
+                      </trias:ServiceDelivery>
+                    </trias:Trias>
+                TripInfoResponse:
+                  summary: Journey details (shortened)
+                  value: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <trias:Trias xmlns:siri="http://www.siri.org.uk/siri" xmlns:trias="http://www.vdv.de/trias" version="1.2">
+                      <trias:ServiceDelivery>
+                        <siri:ResponseTimestamp>2026-11-16T13:12:37Z</siri:ResponseTimestamp>
+                        <siri:ProducerRef>DELIVVO2019</siri:ProducerRef>
+                        <siri:Status>true</siri:Status>
+                        <trias:DeliveryPayload>
+                          <trias:TripInfoResponse>
+                            <trias:TripInfoResult>
+                              <trias:PreviousCall>
+                                <trias:StopPointRef>de:14612:28:1:Gleis12</trias:StopPointRef>
+                                <trias:StopPointName>
+                                  <trias:Text>Dresden Hauptbahnhof</trias:Text>
+                                  <trias:Language>de</trias:Language>
+                                </trias:StopPointName>
+                                <trias:ServiceDeparture>
+                                  <trias:TimetabledTime>2026-11-16T13:12:00Z</trias:TimetabledTime>
+                                  <trias:EstimatedTime>2026-11-16T13:12:00Z</trias:EstimatedTime>
+                                </trias:ServiceDeparture>
+                                <trias:StopSeqNumber>1</trias:StopSeqNumber>
+                              </trias:PreviousCall>
+                              <trias:OnwardCall>
+                                <trias:StopPointRef>de:14612:1:8:Gleis3</trias:StopPointRef>
+                                <trias:StopPointName>
+                                  <trias:Text>Dresden Bahnhof Mitte</trias:Text>
+                                  <trias:Language>de</trias:Language>
+                                </trias:StopPointName>
+                                <trias:ServiceArrival>
+                                  <trias:TimetabledTime>2026-11-16T13:16:00Z</trias:TimetabledTime>
+                                  <trias:EstimatedTime>2026-11-16T13:15:00Z</trias:EstimatedTime>
+                                </trias:ServiceArrival>
+                                <trias:ServiceDeparture>
+                                  <trias:TimetabledTime>2026-11-16T13:16:00Z</trias:TimetabledTime>
+                                  <trias:EstimatedTime>2026-11-16T13:16:00Z</trias:EstimatedTime>
+                                </trias:ServiceDeparture>
+                                <trias:StopSeqNumber>2</trias:StopSeqNumber>
+                              </trias:OnwardCall>
+                              <trias:Service>
+                                <trias:OperatingDayRef>2026-11-16</trias:OperatingDayRef>
+                                <trias:JourneyRef>ddb:90RE5:0:R:j26:220</trias:JourneyRef>
+                                <trias:ServiceSection>
+                                  <trias:LineRef>ddb:90RE5:0:R</trias:LineRef>
+                                  <trias:PublishedLineName>
+                                    <trias:Text>RE50</trias:Text>
+                                    <trias:Language>de</trias:Language>
+                                  </trias:PublishedLineName>
+                                </trias:ServiceSection>
+                                <trias:DestinationText>
+                                  <trias:Text>Leipzig, Hauptbahnhof</trias:Text>
+                                  <trias:Language>de</trias:Language>
+                                </trias:DestinationText>
+                              </trias:Service>
+                            </trias:TripInfoResult>
+                          </trias:TripInfoResponse>
+                        </trias:DeliveryPayload>
+                      </trias:ServiceDelivery>
+                    </trias:Trias>
+                FaresResponse:
+                  summary: Fare zones of a stop
+                  value: |
+                    <?xml version="1.0" encoding="UTF-8"?>
+                    <trias:Trias xmlns:siri="http://www.siri.org.uk/siri" xmlns:trias="http://www.vdv.de/trias" version="1.2">
+                      <trias:ServiceDelivery>
+                        <siri:ResponseTimestamp>2026-11-16T13:12:37Z</siri:ResponseTimestamp>
+                        <siri:ProducerRef>DELIVVO2019</siri:ProducerRef>
+                        <siri:Status>true</siri:Status>
+                        <trias:DeliveryPayload>
+                          <trias:FaresResponse>
+                            <trias:FaresResult>
+                              <trias:ResultId>ID-FCE158B2-EFEA-4929-A561-E6482718746B</trias:ResultId>
+                              <trias:StopFaresResult>
+                                <trias:FareZoneListInArea>
+                                  <trias:FaresAuthorityRef>vms</trias:FaresAuthorityRef>
+                                  <trias:FaresAuthorityText>vms</trias:FaresAuthorityText>
+                                </trias:FareZoneListInArea>
+                                <trias:FareZoneListInArea>
+                                  <trias:FaresAuthorityRef>voe</trias:FaresAuthorityRef>
+                                  <trias:FaresAuthorityText>voe</trias:FaresAuthorityText>
+                                  <trias:FareZone>
+                                    <trias:FareZoneRef>103</trias:FareZoneRef>
+                                    <trias:FareZoneText>103</trias:FareZoneText>
+                                  </trias:FareZone>
+                                  <trias:FareZone>
+                                    <trias:FareZoneRef>10000</trias:FareZoneRef>
+                                    <trias:FareZoneText>10000</trias:FareZoneText>
+                                  </trias:FareZone>
+                                </trias:FareZoneListInArea>
+                              </trias:StopFaresResult>
+                            </trias:FaresResult>
+                          </trias:FaresResponse>
                         </trias:DeliveryPayload>
                       </trias:ServiceDelivery>
                     </trias:Trias>
