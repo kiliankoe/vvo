@@ -8,9 +8,9 @@ export async function loadSpecs() {
 		files.map(async (file) => {
 			const source = await readFile(repoPath('openapi', file), 'utf8');
 			const title = source.match(/^\s{2}title:\s*["']?(.+?)["']?\s*$/m)?.[1] ?? file;
-			// Browsers block plain-http requests from an https page, so "try it" can't work there.
-			const httpOnly = /^\s*- url:\s*["']?http:\/\//m.test(source);
-			return { name: file.replace(/\.yaml$/, ''), file, title, source, httpOnly };
+			// Set by specs whose API a browser can't call (plain http, missing CORS), so "try it" can't work.
+			const browserBlocked = /^x-browser-blocked:\s*true\s*$/m.test(source);
+			return { name: file.replace(/\.yaml$/, ''), file, title, source, browserBlocked };
 		}),
 	);
 }

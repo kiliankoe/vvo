@@ -32,6 +32,8 @@ info:
 externalDocs:
   description: Widget API documentation (Markdown)
   url: https://github.com/kiliankoe/vvo/blob/main/documentation/widgets.md
+# Read by the docs site to disable "try it": browsers block plain http from https pages.
+x-browser-blocked: true
 servers:
   - url: http://widgets.vvo-online.de/abfahrtsmonitor
 # No authentication.

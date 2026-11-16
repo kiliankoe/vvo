@@ -64,7 +64,7 @@ cd site && pnpm install && pnpm dev
 
 ### Open Access APIs
 
-- **[TRIAS API](documentation/trias.md)** - `http://efa.vvo-online.de:8080/std3/trias`
+- **[TRIAS API](documentation/trias.md)** - `https://efa.vvo-online.de/std3/trias`
   - **Official** XML-based API following VDV 431-2 standard
   - Comprehensive features: journey planning, real-time departures, stop search
   - No authentication required (use RequestorRef: "OpenService")

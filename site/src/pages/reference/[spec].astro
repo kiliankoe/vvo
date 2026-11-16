@@ -7,7 +7,7 @@ import { REPO_BLOB_URL } from '../../lib/config';
 export const getStaticPaths = (async () =>
 	(await loadSpecs()).map((spec) => ({ params: { spec: spec.name }, props: spec }))) satisfies GetStaticPaths;
 
-const { name, file, title, httpOnly } = Astro.props;
+const { name, file, title, browserBlocked } = Astro.props;
 const specUrl = `${import.meta.env.BASE_URL}openapi/${file}`;
 ---
 
@@ -16,8 +16,8 @@ const specUrl = `${import.meta.env.BASE_URL}openapi/${file}`;
 		OpenAPI spec: <a href={specUrl} download>{file}</a> (<a href={`${REPO_BLOB_URL}/openapi/${file}`}>source</a>). Import it
 		into Postman, Bruno or a client generator.{' '}
 		{
-			httpOnly ? (
-				<>This API only works over plain http, which browsers block on this page. Copy the generated request and run it from a terminal or app instead.</>
+			browserBlocked ? (
+				<>Browsers can't call this API directly, see the description below. Copy the generated request and run it from a terminal or app instead.</>
 			) : (
 				<>Requests from "Test request" go directly from your browser to the API.</>
 			)

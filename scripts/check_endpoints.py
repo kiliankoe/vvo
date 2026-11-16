@@ -70,7 +70,7 @@ CHECKS = [
     {"id": "widgets-stops", "group": "Widget API", "name": "Haltestelle", "docs": "docs/widgets/#haltestelle",
      "url": f"{WIDGETS}/Haltestelle.do?hst=Postplatz&ort=Dresden", "expect": "["},
     {"id": "trias", "group": "TRIAS", "name": "LocationInformationRequest", "docs": "docs/trias/",
-     "url": "http://efa.vvo-online.de:8080/std3/trias", "xml": TRIAS_LIR, "expect": "LocationResult"},
+     "url": "https://efa.vvo-online.de/std3/trias", "xml": TRIAS_LIR, "expect": "LocationResult"},
     {"id": "gtfs-static", "group": "GTFS", "name": "gtfs.de local transit feed", "docs": "docs/gtfs/",
      "url": "https://download.gtfs.de/germany/nv_free/latest.zip", "head": True, "max_age": 8 * DAY},
     {"id": "gtfs-rt", "group": "GTFS", "name": "gtfs.de realtime feed", "docs": "docs/gtfs/#gtfs-realtime",

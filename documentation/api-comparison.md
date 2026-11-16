@@ -96,7 +96,7 @@ This guide helps you choose the right API or data source for your Dresden public
 - Verbose responses
 - Steeper learning curve
 - Larger payloads
-- HTTP only and no CORS preflight support, so not usable from browsers
+- No CORS preflight support, so not usable from browsers
 
 **Best for**: Professional applications, long-term projects, commercial use
 

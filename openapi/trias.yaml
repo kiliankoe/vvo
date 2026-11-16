@@ -20,10 +20,8 @@ info:
     No authentication is needed for basic access. Send
     `<siri:RequestorRef>OpenService</siri:RequestorRef>`.
 
-    Browser limitations: the endpoint is only reachable over plain `http` on
-    port 8080, so browsers block requests from `https` pages (mixed content).
-    It also answers CORS preflight (`OPTIONS`) requests with 404, so even
-    from an `http` page a browser cannot send XML to it. "Try it" from a
+    Browser limitation: the endpoint answers CORS preflight (`OPTIONS`)
+    requests with 404, so a browser cannot send XML to it. "Try it" from a
     documentation page will not work. Use curl or a server-side client.
 
     Errors in the request content are reported inside the response's
@@ -35,7 +33,10 @@ info:
 externalDocs:
   description: TRIAS documentation (Markdown)
   url: https://github.com/kiliankoe/vvo/blob/main/documentation/trias.md
+# Read by the docs site to disable "try it", see the browser limitation above.
+x-browser-blocked: true
 servers:
+  - url: https://efa.vvo-online.de/std3
   - url: http://efa.vvo-online.de:8080/std3
 # No authentication; requests identify themselves with RequestorRef.
 security: []

@@ -1,6 +1,6 @@
 # VVO TRIAS API Documentation
 
-Base URL: `http://efa.vvo-online.de:8080/std3/trias`
+Base URL: `https://efa.vvo-online.de/std3/trias`
 
 ## Overview
 
@@ -13,8 +13,9 @@ TRIAS (Traveller Realtime Information and Advisory Standard) is VVO's official s
 - No authentication required for basic access (use `<RequestorRef>OpenService</RequestorRef>`)
 - Supports real-time data
 - Comprehensive functionality for journey planning, stop information, and departures
-- Plain HTTP on port 8080 only. Requests must use `Content-Type: application/xml` or `text/xml` (`text/plain` is rejected with HTTP 400)
-- Not usable from browsers: besides mixed-content blocking on HTTPS pages, the server answers CORS preflight (`OPTIONS`) requests with 404
+- Also reachable over plain HTTP at `http://efa.vvo-online.de:8080/std3/trias`. HTTPS on port 8080 does not work
+- Requests must use `Content-Type: application/xml` or `text/xml` (`text/plain` is rejected with HTTP 400)
+- Not usable from browsers, because the server answers CORS preflight (`OPTIONS`) requests with 404
 
 An OpenAPI 3.1 description of the endpoint, with the request types below as examples, is available at [`openapi/trias.yaml`](../openapi/trias.yaml).
 
@@ -151,7 +152,7 @@ Plan journeys between locations.
 ## Example: Complete Stop Departure Request
 
 ```bash
-curl -X POST "http://efa.vvo-online.de:8080/std3/trias" \
+curl -X POST "https://efa.vvo-online.de/std3/trias" \
   -H "Content-Type: application/xml" \
   -d '<?xml version="1.0" encoding="UTF-8"?>
 <Trias xmlns="trias" xmlns:siri="http://www.siri.org.uk/siri" version="1.2">
