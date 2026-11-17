@@ -19,6 +19,7 @@ The [website](https://oepnv.dresden.lol/) renders these docs together with inter
 - **[WebAPI](documentation/webapi.md)** - JSON REST API used by mobile apps
 - **[TRIAS API](documentation/trias.md)** - Official XML-based API following European standards
 - **[OJP API](documentation/ojp.md)** - European journey planner standard, including a DELFI endpoint covering most of Germany
+- **[EFA JSON API](documentation/efa.md)** - The journey planner's own JSON interface for stop search, departures and journey planning
 - **[Transitous](documentation/transitous.md)** - Community-run Europe-wide JSON API for stop search, departures and journey planning
 - **[GTFS Data](documentation/gtfs.md)** - Standard transit data format with static and real-time feeds
 - **[SIRI ET Real-Time Data](documentation/siri.md)** - DELFI real-time feed with delays, cancellations, and occupancy
@@ -77,6 +78,11 @@ cd site && pnpm install && pnpm dev
   - Stop search and journey planning, but no departures on VVO's server
   - `https://efa.vrr.de/std3/ojp` serves DELFI data for most of Germany, including Dresden departures
   - Undocumented by VVO, no authentication required
+
+- **[EFA JSON API](documentation/efa.md)** - `https://efa.vvo-online.de/std3`
+  - The journey planner's own HTTP interface with JSON output
+  - Stop search, departures and journey planning with real-time data
+  - Undocumented by VVO, documented by the vendor MENTZ, no authentication required
 
 - **[Transitous](documentation/transitous.md)** - `https://api.transitous.org/api/`
   - Community-run instance of the MOTIS journey planner, built on the DELFI GTFS and real-time feeds

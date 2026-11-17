@@ -34,6 +34,7 @@ export default defineConfig({
 						{ label: 'Widget API', link: '/docs/widgets/' },
 						{ label: 'TRIAS', link: '/docs/trias/' },
 						{ label: 'OJP', link: '/docs/ojp/' },
+						{ label: 'EFA JSON', link: '/docs/efa/' },
 						{ label: 'Transitous', link: '/docs/transitous/' },
 						{ label: 'GTFS', link: '/docs/gtfs/' },
 						{ label: 'SIRI ET', link: '/docs/siri/' },
