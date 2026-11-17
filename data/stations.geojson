@@ -524,18 +524,14 @@
         "city": "Altendorf (Sebnitz)",
         "name_with_city": "Altendorf (Sebnitz) Erbgericht",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "PlusBus": [
             "260"
-          ],
-          "Ersatzverkehr": [
-            "SEV U28"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -1554,7 +1550,6 @@
         "city": "Bad Schandau",
         "name_with_city": "Bad Schandau Elbkai",
         "operators": [
-          "DB Regio",
           "RVSOE"
         ],
         "lines": {
@@ -1565,8 +1560,7 @@
             "251",
             "252",
             "253",
-            "254",
-            "EV U28"
+            "254"
           ],
           "PlusBus": [
             "260"
@@ -1576,7 +1570,7 @@
             "F 5"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -11244,11 +11238,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "771",
             "772"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -11271,11 +11264,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "771",
             "772"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -14274,14 +14266,13 @@
             "70",
             "72",
             "77",
-            "78",
-            "EV 7"
+            "78"
           ],
           "Anruflinientaxi": [
             "alita 77"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -14304,11 +14295,10 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "13",
-            "6"
+            "13"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -14398,9 +14388,12 @@
             "10",
             "12",
             "20"
+          ],
+          "Stadtbus": [
+            "EV 10"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -14766,8 +14759,6 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "10",
-            "12",
             "2",
             "6"
           ],
@@ -14779,7 +14770,7 @@
             "alita 65"
           ]
         },
-        "total_lines": 7
+        "total_lines": 5
       }
     },
     {
@@ -15854,17 +15845,13 @@
         "lines": {
           "Straßenbahn": [
             "11",
-            "20",
-            "3",
-            "4",
-            "7",
-            "9"
+            "20"
           ],
           "Stadtbus": [
             "EV 12"
           ]
         },
-        "total_lines": 7
+        "total_lines": 3
       }
     },
     {
@@ -16173,6 +16160,7 @@
         "name_with_city": "Dresden Angelikastraße",
         "operators": [
           "DVB",
+          "RBO",
           "RVSOE"
         ],
         "lines": {
@@ -16365,7 +16353,8 @@
         "city": "Dresden",
         "name_with_city": "Dresden Augsburger Straße",
         "operators": [
-          "DVB"
+          "DVB",
+          "RBO"
         ],
         "lines": {
           "Straßenbahn": [
@@ -16537,7 +16526,8 @@
           ],
           "Stadtbus": [
             "68",
-            "92"
+            "92",
+            "EV 10"
           ],
           "Zug": [
             "RB30",
@@ -16562,7 +16552,7 @@
             "SEV S2"
           ]
         },
-        "total_lines": 30
+        "total_lines": 31
       }
     },
     {
@@ -16735,10 +16725,11 @@
         "lines": {
           "Stadtbus": [
             "61",
-            "62"
+            "62",
+            "63"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -16990,11 +16981,10 @@
         "lines": {
           "Stadtbus": [
             "61",
-            "63",
             "65"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -17082,8 +17072,6 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "10",
-            "12",
             "2",
             "6"
           ],
@@ -17095,7 +17083,7 @@
             "alita 65"
           ]
         },
-        "total_lines": 7
+        "total_lines": 5
       }
     },
     {
@@ -17282,9 +17270,7 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "11",
             "13",
-            "6",
             "7",
             "8"
           ],
@@ -17296,7 +17282,7 @@
             "EV 8"
           ]
         },
-        "total_lines": 8
+        "total_lines": 6
       }
     },
     {
@@ -17315,7 +17301,8 @@
         "city": "Dresden",
         "name_with_city": "Dresden Blasewitzer Straße / Fetscherstraße",
         "operators": [
-          "DVB"
+          "DVB",
+          "RBO"
         ],
         "lines": {
           "Straßenbahn": [
@@ -17790,7 +17777,8 @@
         "city": "Dresden",
         "name_with_city": "Dresden Böhmertstraße",
         "operators": [
-          "DVB"
+          "DVB",
+          "RBO"
         ],
         "lines": {
           "Stadtbus": [
@@ -18016,14 +18004,12 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "11",
             "3",
             "7",
-            "8",
             "9"
           ]
         },
-        "total_lines": 5
+        "total_lines": 3
       }
     },
     {
@@ -18757,14 +18743,13 @@
         ],
         "lines": {
           "Stadtbus": [
-            "68",
-            "87"
+            "68"
           ],
           "Anruflinientaxi": [
             "alita 68"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -18902,11 +18887,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "61",
-            "63"
+            "61"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -19127,14 +19111,13 @@
         "lines": {
           "Stadtbus": [
             "72",
-            "77",
-            "EV 7"
+            "77"
           ],
           "Anruflinientaxi": [
             "alita 77"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -19244,11 +19227,10 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "6",
-            "9"
+            "6"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -19724,10 +19706,8 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "12",
-            "2",
             "9"
           ],
           "Stadtbus": [
@@ -19738,7 +19718,7 @@
             "EV 9"
           ]
         },
-        "total_lines": 10
+        "total_lines": 8
       }
     },
     {
@@ -19756,7 +19736,9 @@
         "name": "Fischhausstraße",
         "city": "Dresden",
         "name_with_city": "Dresden Fischhausstraße",
-        "operators": [],
+        "operators": [
+          "RBO"
+        ],
         "lines": {
           "PlusBus": [
             "520"
@@ -20192,7 +20174,6 @@
         "lines": {
           "Straßenbahn": [
             "13",
-            "6",
             "7",
             "8"
           ],
@@ -20204,7 +20185,7 @@
             "EV 8"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
@@ -20516,8 +20497,6 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "10",
-            "12",
             "6"
           ],
           "Stadtbus": [
@@ -20532,7 +20511,7 @@
             "alita 89"
           ]
         },
-        "total_lines": 10
+        "total_lines": 8
       }
     },
     {
@@ -21126,11 +21105,10 @@
             "9"
           ],
           "Stadtbus": [
-            "66",
-            "68"
+            "66"
           ]
         },
-        "total_lines": 9
+        "total_lines": 8
       }
     },
     {
@@ -21220,15 +21198,9 @@
         "name": "Großenhainer Straße / Fritz-Reuter-Straße",
         "city": "Dresden",
         "name_with_city": "Dresden Großenhainer Straße / Fritz-Reuter-Straße",
-        "operators": [
-          "DVB"
-        ],
-        "lines": {
-          "Straßenbahn": [
-            "7"
-          ]
-        },
-        "total_lines": 1
+        "operators": [],
+        "lines": {},
+        "total_lines": 0
       }
     },
     {
@@ -21345,8 +21317,7 @@
         "lines": {
           "Stadtbus": [
             "72",
-            "77",
-            "EV 7"
+            "77"
           ],
           "PlusBus": [
             "522"
@@ -21355,7 +21326,7 @@
             "alita 77"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -21378,15 +21349,13 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "10",
-            "12",
             "6"
           ],
           "Stadtbus": [
             "EV 6"
           ]
         },
-        "total_lines": 4
+        "total_lines": 2
       }
     },
     {
@@ -21519,11 +21488,10 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "13",
-            "6"
+            "13"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -21707,7 +21675,6 @@
           ],
           "Stadtbus": [
             "66",
-            "68",
             "H/S (Pirna)"
           ],
           "PlusBus": [
@@ -21749,7 +21716,7 @@
             "SEV RE2"
           ]
         },
-        "total_lines": 35
+        "total_lines": 34
       }
     },
     {
@@ -21812,12 +21779,9 @@
             "4",
             "7",
             "9"
-          ],
-          "Stadtbus": [
-            "68"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -21906,7 +21870,6 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "11",
             "7",
             "8"
           ],
@@ -21915,7 +21878,7 @@
             "EV 8"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -21989,7 +21952,9 @@
         "name": "Heidemühle",
         "city": "Dresden",
         "name_with_city": "Dresden Heidemühle",
-        "operators": [],
+        "operators": [
+          "RBO"
+        ],
         "lines": {
           "PlusBus": [
             "520"
@@ -22294,7 +22259,6 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "11",
             "7",
             "8"
           ],
@@ -22303,7 +22267,7 @@
             "EV 8"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -23130,13 +23094,9 @@
           "Stadtbus": [
             "EV 7",
             "EV 8"
-          ],
-          "Anruflinientaxi": [
-            "alita 77",
-            "alita 8"
           ]
         },
-        "total_lines": 6
+        "total_lines": 4
       }
     },
     {
@@ -23502,7 +23462,8 @@
         "city": "Dresden",
         "name_with_city": "Dresden Jägerpark Heideblick",
         "operators": [
-          "DVB"
+          "DVB",
+          "RBO"
         ],
         "lines": {
           "Stadtbus": [
@@ -23805,11 +23766,10 @@
         "lines": {
           "Stadtbus": [
             "70",
-            "78",
-            "EV 7"
+            "78"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -24527,10 +24487,11 @@
           ],
           "Stadtbus": [
             "68",
-            "92"
+            "92",
+            "EV 10"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -24580,17 +24541,15 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "1",
             "10",
             "12",
-            "2",
             "9"
           ],
           "Stadtbus": [
             "EV 12"
           ]
         },
-        "total_lines": 6
+        "total_lines": 4
       }
     },
     {
@@ -24846,7 +24805,8 @@
         "city": "Dresden",
         "name_with_city": "Dresden Käthe-Kollwitz-Ufer",
         "operators": [
-          "DVB"
+          "DVB",
+          "RBO"
         ],
         "lines": {
           "Stadtbus": [
@@ -25622,20 +25582,14 @@
         "city": "Dresden",
         "name_with_city": "Dresden Louisenstraße",
         "operators": [
-          "DVB",
           "VGM"
         ],
         "lines": {
-          "Straßenbahn": [
-            "11",
-            "7",
-            "8"
-          ],
           "PlusBus": [
             "477"
           ]
         },
-        "total_lines": 4
+        "total_lines": 1
       }
     },
     {
@@ -26304,9 +26258,12 @@
             "10",
             "12",
             "20"
+          ],
+          "Stadtbus": [
+            "EV 10"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -26361,9 +26318,12 @@
             "10",
             "12",
             "20"
+          ],
+          "Stadtbus": [
+            "EV 10"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -26717,7 +26677,6 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "11",
             "7",
             "8"
           ],
@@ -26726,7 +26685,7 @@
             "EV 8"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -27038,15 +26997,13 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "11",
             "3",
             "4",
             "7",
-            "8",
             "9"
           ]
         },
-        "total_lines": 6
+        "total_lines": 4
       }
     },
     {
@@ -27260,11 +27217,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "61",
-            "63"
+            "61"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -27756,14 +27712,11 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "11",
             "4",
-            "7",
-            "8",
             "9"
           ]
         },
-        "total_lines": 5
+        "total_lines": 2
       }
     },
     {
@@ -27945,7 +27898,8 @@
         "city": "Dresden",
         "name_with_city": "Dresden Pfotenhauerstraße",
         "operators": [
-          "DVB"
+          "DVB",
+          "RBO"
         ],
         "lines": {
           "Stadtbus": [
@@ -28285,12 +28239,11 @@
           ],
           "Stadtbus": [
             "61",
-            "63",
             "EV 12",
             "EV 9"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
@@ -28760,14 +28713,13 @@
         "lines": {
           "Stadtbus": [
             "72",
-            "77",
-            "EV 7"
+            "77"
           ],
           "Anruflinientaxi": [
             "alita 77"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -29610,7 +29562,6 @@
         "lines": {
           "Straßenbahn": [
             "13",
-            "6",
             "7",
             "8"
           ],
@@ -29628,7 +29579,7 @@
             "SEV S1"
           ]
         },
-        "total_lines": 9
+        "total_lines": 8
       }
     },
     {
@@ -29738,7 +29689,6 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "12",
             "6"
           ],
           "Stadtbus": [
@@ -29764,7 +29714,7 @@
             "alita 89"
           ]
         },
-        "total_lines": 14
+        "total_lines": 13
       }
     },
     {
@@ -30017,7 +29967,6 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "11",
             "7",
             "8"
           ],
@@ -30044,7 +29993,7 @@
             "SEV S8"
           ]
         },
-        "total_lines": 17
+        "total_lines": 16
       }
     },
     {
@@ -30837,7 +30786,6 @@
             "10",
             "11",
             "2",
-            "3",
             "4",
             "7",
             "9"
@@ -30846,7 +30794,7 @@
             "68"
           ]
         },
-        "total_lines": 9
+        "total_lines": 8
       }
     },
     {
@@ -31251,14 +31199,13 @@
           "Straßenbahn": [
             "10",
             "13",
-            "6",
             "8"
           ],
           "Stadtbus": [
             "62"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -31389,7 +31336,6 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "11",
             "7",
             "8"
           ],
@@ -31399,7 +31345,7 @@
             "EV 8"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -31483,11 +31429,10 @@
         "lines": {
           "Stadtbus": [
             "70",
-            "78",
-            "EV 7"
+            "78"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -31545,15 +31490,13 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "10",
-            "12",
             "6"
           ],
           "Stadtbus": [
             "EV 6"
           ]
         },
-        "total_lines": 4
+        "total_lines": 2
       }
     },
     {
@@ -31581,11 +31524,10 @@
           ],
           "Stadtbus": [
             "66",
-            "68",
             "H/S (Pirna)"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -31879,7 +31821,6 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "11",
             "7",
             "8"
           ],
@@ -31889,7 +31830,7 @@
             "EV 8"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -31908,7 +31849,8 @@
         "city": "Dresden",
         "name_with_city": "Dresden Tatzberg",
         "operators": [
-          "DVB"
+          "DVB",
+          "RBO"
         ],
         "lines": {
           "Stadtbus": [
@@ -32051,14 +31993,13 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "11",
             "3",
             "4",
             "7",
             "9"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -32562,11 +32503,10 @@
         "lines": {
           "Stadtbus": [
             "66",
-            "68",
             "H/S (Pirna)"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -32735,10 +32675,11 @@
           ],
           "Stadtbus": [
             "68",
-            "92"
+            "92",
+            "EV 10"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -32758,6 +32699,7 @@
         "name_with_city": "Dresden Waldschlößchen",
         "operators": [
           "DVB",
+          "RBO",
           "RVSOE"
         ],
         "lines": {
@@ -32872,10 +32814,6 @@
             "7",
             "9"
           ],
-          "Stadtbus": [
-            "68",
-            "H/S (Pirna)"
-          ],
           "PlusBus": [
             "261",
             "333",
@@ -32884,9 +32822,12 @@
           "Regionalbus": [
             "365",
             "366"
+          ],
+          "Stadtbus": [
+            "H/S (Pirna)"
           ]
         },
-        "total_lines": 17
+        "total_lines": 16
       }
     },
     {
@@ -33047,14 +32988,12 @@
         "lines": {
           "Straßenbahn": [
             "12",
-            "2",
             "3",
             "4",
-            "7",
-            "9"
+            "7"
           ]
         },
-        "total_lines": 6
+        "total_lines": 4
       }
     },
     {
@@ -33169,10 +33108,11 @@
           ],
           "Stadtbus": [
             "68",
-            "92"
+            "92",
+            "EV 10"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -33927,11 +33867,10 @@
         "lines": {
           "Stadtbus": [
             "70",
-            "78",
-            "EV 7"
+            "78"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -34726,12 +34665,9 @@
           ],
           "Zug": [
             "RB71"
-          ],
-          "Ersatzverkehr": [
-            "SEV RB71"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -39104,34 +39040,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.390184,
-          51.369942
-        ]
-      },
-      "properties": {
-        "id": "de:14625:6977",
-        "numeric_id": "33006977",
-        "name": "Campingpark",
-        "city": "Friedersdorf b HY",
-        "name_with_city": "Friedersdorf b HY Campingpark",
-        "operators": [
-          "RBO"
-        ],
-        "lines": {
-          "Regionalbus": [
-            "775",
-            "777",
-            "785"
-          ]
-        },
-        "total_lines": 3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.38757,
           51.361445
         ]
@@ -40966,13 +40874,66 @@
         ],
         "lines": {
           "Regionalbus": [
+            "369",
             "386"
           ],
           "PlusBus": [
             "388"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.76378,
+          50.849953
+        ]
+      },
+      "properties": {
+        "id": "de:14628:1941",
+        "numeric_id": "33001941",
+        "name": "Prießnitztalhalle",
+        "city": "Glashütte (Sachs)",
+        "name_with_city": "Glashütte (Sachs) Prießnitztalhalle",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "369"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.756773,
+          50.84549
+        ]
+      },
+      "properties": {
+        "id": "de:14628:1939",
+        "numeric_id": "33001939",
+        "name": "Rückhaltebecken",
+        "city": "Glashütte (Sachs)",
+        "name_with_city": "Glashütte (Sachs) Rückhaltebecken",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "369"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
@@ -44729,7 +44690,9 @@
         "name": "Freiheitsstraße",
         "city": "Großröhrsdorf (BZ)",
         "name_with_city": "Großröhrsdorf (BZ) Freiheitsstraße",
-        "operators": [],
+        "operators": [
+          "RBO"
+        ],
         "lines": {
           "PlusBus": [
             "520"
@@ -44842,7 +44805,9 @@
         "name": "Niederstadt",
         "city": "Großröhrsdorf (BZ)",
         "name_with_city": "Großröhrsdorf (BZ) Niederstadt",
-        "operators": [],
+        "operators": [
+          "RBO"
+        ],
         "lines": {
           "PlusBus": [
             "520"
@@ -45359,7 +45324,9 @@
         "name": "Denkmal",
         "city": "Gräfenhain (Königsbrück)",
         "name_with_city": "Gräfenhain (Königsbrück) Denkmal",
-        "operators": [],
+        "operators": [
+          "RBO"
+        ],
         "lines": {
           "Taktbus": [
             "533"
@@ -47358,7 +47325,9 @@
         "name": "Waldeingang",
         "city": "Hauswalde",
         "name_with_city": "Hauswalde Waldeingang",
-        "operators": [],
+        "operators": [
+          "RBO"
+        ],
         "lines": {
           "PlusBus": [
             "520"
@@ -50513,7 +50482,6 @@
           ],
           "Regionalbus": [
             "776",
-            "779",
             "780",
             "782",
             "784",
@@ -50524,7 +50492,7 @@
             "1 (Hoyerswerda)"
           ]
         },
-        "total_lines": 10
+        "total_lines": 9
       }
     },
     {
@@ -50599,6 +50567,7 @@
         "city": "Hoyerswerda",
         "name_with_city": "Hoyerswerda Am Bahnhofsvorplatz",
         "operators": [
+          "RBO",
           "VGH"
         ],
         "lines": {
@@ -51026,11 +50995,10 @@
             "779"
           ],
           "Stadtbus": [
-            "3 (Hoyerswerda)",
-            "4 (Hoyerswerda)"
+            "3 (Hoyerswerda)"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -51411,15 +51379,9 @@
         "name": "Hufelandstraße",
         "city": "Hoyerswerda",
         "name_with_city": "Hoyerswerda Hufelandstraße",
-        "operators": [
-          "VGH"
-        ],
-        "lines": {
-          "Stadtbus": [
-            "4 (Hoyerswerda)"
-          ]
-        },
-        "total_lines": 1
+        "operators": [],
+        "lines": {},
+        "total_lines": 0
       }
     },
     {
@@ -52288,11 +52250,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "3 (Hoyerswerda)",
-            "4 (Hoyerswerda)"
+            "3 (Hoyerswerda)"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -52363,6 +52324,7 @@
         "city": "Hoyerswerda",
         "name_with_city": "Hoyerswerda Thomas-Müntzer-Straße",
         "operators": [
+          "RBO",
           "VGH"
         ],
         "lines": {
@@ -53667,6 +53629,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.737316,
+          50.844106
+        ]
+      },
+      "properties": {
+        "id": "de:14628:1957",
+        "numeric_id": "33001957",
+        "name": "Bretthäusl",
+        "city": "Johnsbach (Sachs)",
+        "name_with_city": "Johnsbach (Sachs) Bretthäusl",
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "369"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.74002,
           50.835551
         ]
@@ -53677,9 +53665,15 @@
         "name": "Niederdorf",
         "city": "Johnsbach (Sachs)",
         "name_with_city": "Johnsbach (Sachs) Niederdorf",
-        "operators": [],
-        "lines": {},
-        "total_lines": 0
+        "operators": [
+          "RVSOE"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "369"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
@@ -56411,7 +56405,9 @@
         "name": "Am Spielmannszug",
         "city": "Kleinröhrsdorf",
         "name_with_city": "Kleinröhrsdorf Am Spielmannszug",
-        "operators": [],
+        "operators": [
+          "RBO"
+        ],
         "lines": {
           "PlusBus": [
             "520"
@@ -56435,7 +56431,9 @@
         "name": "An der Kegelhalle",
         "city": "Kleinröhrsdorf",
         "name_with_city": "Kleinröhrsdorf An der Kegelhalle",
-        "operators": [],
+        "operators": [
+          "RBO"
+        ],
         "lines": {
           "PlusBus": [
             "520"
@@ -56459,7 +56457,9 @@
         "name": "An der Siedlung",
         "city": "Kleinröhrsdorf",
         "name_with_city": "Kleinröhrsdorf An der Siedlung",
-        "operators": [],
+        "operators": [
+          "RBO"
+        ],
         "lines": {
           "PlusBus": [
             "520"
@@ -56484,7 +56484,8 @@
         "city": "Kleinröhrsdorf",
         "name_with_city": "Kleinröhrsdorf Haltepunkt",
         "operators": [
-          "DB Regio AG Südost"
+          "DB Regio AG Südost",
+          "RBO"
         ],
         "lines": {
           "PlusBus": [
@@ -63938,7 +63939,8 @@
         "city": "Liegau-Augustusbad",
         "name_with_city": "Liegau-Augustusbad Epilepsiezentrum",
         "operators": [
-          "DVB"
+          "DVB",
+          "RBO"
         ],
         "lines": {
           "Stadtbus": [
@@ -64271,7 +64273,6 @@
         "city": "Lohmen (Sachs)",
         "name_with_city": "Lohmen (Sachs) Bahnhofstraße",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -64281,12 +64282,9 @@
             "237",
             "238",
             "254"
-          ],
-          "Ersatzverkehr": [
-            "SEV RB71"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -67284,24 +67282,6 @@
           "VGM"
         ],
         "lines": {
-          "Regionalbus": [
-            "401",
-            "404",
-            "407",
-            "409",
-            "412",
-            "413",
-            "414",
-            "416",
-            "417",
-            "418",
-            "421",
-            "422",
-            "426",
-            "428",
-            "446",
-            "Sv191"
-          ],
           "Anruflinienbus": [
             "404",
             "412",
@@ -67309,6 +67289,18 @@
             "417",
             "422",
             "428"
+          ],
+          "Regionalbus": [
+            "404",
+            "412",
+            "413",
+            "414",
+            "417",
+            "422",
+            "426",
+            "428",
+            "446",
+            "Sv191"
           ],
           "PlusBus": [
             "416",
@@ -67320,7 +67312,7 @@
             "C (Meißen)"
           ]
         },
-        "total_lines": 27
+        "total_lines": 21
       }
     },
     {
@@ -67614,33 +67606,6 @@
           ]
         },
         "total_lines": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.49266,
-          51.15524
-        ]
-      },
-      "properties": {
-        "id": "de:14627:4492",
-        "numeric_id": "33004492",
-        "name": "Berglehne",
-        "city": "Meißen",
-        "name_with_city": "Meißen Berglehne",
-        "operators": [
-          "VGM"
-        ],
-        "lines": {
-          "Stadtbus": [
-            "A (Meißen)",
-            "B (Meißen)"
-          ]
-        },
-        "total_lines": 2
       }
     },
     {
@@ -69145,33 +69110,6 @@
           ]
         },
         "total_lines": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.497699,
-          51.153989
-        ]
-      },
-      "properties": {
-        "id": "de:14627:4479",
-        "numeric_id": "33004479",
-        "name": "Mittelberg",
-        "city": "Meißen",
-        "name_with_city": "Meißen Mittelberg",
-        "operators": [
-          "VGM"
-        ],
-        "lines": {
-          "Stadtbus": [
-            "A (Meißen)",
-            "B (Meißen)"
-          ]
-        },
-        "total_lines": 2
       }
     },
     {
@@ -73471,7 +73409,9 @@
         "name": "Betonwerk",
         "city": "Neustadt (Spree)",
         "name_with_city": "Neustadt (Spree) Betonwerk",
-        "operators": [],
+        "operators": [
+          "RBO"
+        ],
         "lines": {
           "PlusBus": [
             "536"
@@ -73495,7 +73435,9 @@
         "name": "Neustadt (Spree)",
         "city": "Neustadt (Spree)",
         "name_with_city": "Neustadt (Spree) Neustadt (Spree)",
-        "operators": [],
+        "operators": [
+          "RBO"
+        ],
         "lines": {
           "PlusBus": [
             "536"
@@ -74591,8 +74533,6 @@
           ],
           "Zug": [
             "RB31",
-            "RE15",
-            "RE18",
             "RE50"
           ],
           "Ersatzverkehr": [
@@ -74601,7 +74541,7 @@
             "SEV RE50"
           ]
         },
-        "total_lines": 10
+        "total_lines": 8
       }
     },
     {
@@ -77911,11 +77851,10 @@
           "Regionalbus": [
             "751",
             "758",
-            "764",
-            "765"
+            "764"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -77994,11 +77933,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "751",
-            "765"
+            "751"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -81281,7 +81219,6 @@
         "city": "Pirna",
         "name_with_city": "Pirna Copitz Heinrich-Heine-Straße",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -81292,12 +81229,9 @@
             "238",
             "246",
             "254"
-          ],
-          "Ersatzverkehr": [
-            "SEV RB71"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
@@ -81503,7 +81437,6 @@
         "city": "Pirna",
         "name_with_city": "Pirna Copitz Schulstraße",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -81516,9 +81449,6 @@
             "246",
             "254"
           ],
-          "Ersatzverkehr": [
-            "SEV RB71"
-          ],
           "Stadtbus": [
             "G/L (Pirna)",
             "H/S (Pirna)",
@@ -81526,7 +81456,7 @@
             "P (Pirna)"
           ]
         },
-        "total_lines": 12
+        "total_lines": 11
       }
     },
     {
@@ -82865,7 +82795,6 @@
             "219"
           ],
           "Ersatzverkehr": [
-            "SEV RB71",
             "SEV S1"
           ],
           "Stadtbus": [
@@ -82877,7 +82806,7 @@
             "Z (Pirna)"
           ]
         },
-        "total_lines": 23
+        "total_lines": 22
       }
     },
     {
@@ -83932,18 +83861,13 @@
         "name": "Haltepunkt",
         "city": "Porschdorf",
         "name_with_city": "Porschdorf Haltepunkt",
-        "operators": [
-          "DB Regio AG Südost"
-        ],
+        "operators": [],
         "lines": {
-          "Ersatzverkehr": [
-            "SEV U28"
-          ],
           "Zug": [
             "U28"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -86388,7 +86312,9 @@
         "name": "Am Sandberg",
         "city": "Radeberg",
         "name_with_city": "Radeberg Am Sandberg",
-        "operators": [],
+        "operators": [
+          "RBO"
+        ],
         "lines": {
           "Stadtbus": [
             "28"
@@ -86412,7 +86338,9 @@
         "name": "Am Wall",
         "city": "Radeberg",
         "name_with_city": "Radeberg Am Wall",
-        "operators": [],
+        "operators": [
+          "RBO"
+        ],
         "lines": {
           "Stadtbus": [
             "28"
@@ -86436,7 +86364,9 @@
         "name": "An der Ziegelei",
         "city": "Radeberg",
         "name_with_city": "Radeberg An der Ziegelei",
-        "operators": [],
+        "operators": [
+          "RBO"
+        ],
         "lines": {
           "Stadtbus": [
             "28"
@@ -86669,7 +86599,9 @@
         "name": "Forststraße",
         "city": "Radeberg",
         "name_with_city": "Radeberg Forststraße",
-        "operators": [],
+        "operators": [
+          "RBO"
+        ],
         "lines": {
           "Stadtbus": [
             "28"
@@ -86754,36 +86686,12 @@
         "name": "Großröhrsdorfer Straße",
         "city": "Radeberg",
         "name_with_city": "Radeberg Großröhrsdorfer Straße",
-        "operators": [],
-        "lines": {
-          "PlusBus": [
-            "520"
-          ]
-        },
-        "total_lines": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.917769,
-          51.110014
-        ]
-      },
-      "properties": {
-        "id": "de:14625:6729",
-        "numeric_id": "33006729",
-        "name": "Güterbahnhofstraße",
-        "city": "Radeberg",
-        "name_with_city": "Radeberg Güterbahnhofstraße",
         "operators": [
           "RBO"
         ],
         "lines": {
-          "Regionalbus": [
-            "753"
+          "PlusBus": [
+            "520"
           ]
         },
         "total_lines": 1
@@ -86804,7 +86712,9 @@
         "name": "Heidehäuser",
         "city": "Radeberg",
         "name_with_city": "Radeberg Heidehäuser",
-        "operators": [],
+        "operators": [
+          "RBO"
+        ],
         "lines": {
           "PlusBus": [
             "520"
@@ -87101,7 +87011,9 @@
         "name": "Randsiedlung",
         "city": "Radeberg",
         "name_with_city": "Radeberg Randsiedlung",
-        "operators": [],
+        "operators": [
+          "RBO"
+        ],
         "lines": {
           "PlusBus": [
             "520"
@@ -87132,14 +87044,11 @@
           "Stadtbus": [
             "28"
           ],
-          "PlusBus": [
-            "521"
-          ],
           "Regionalbus": [
             "755"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -87218,7 +87127,9 @@
         "name": "Steinstraße",
         "city": "Radeberg",
         "name_with_city": "Radeberg Steinstraße",
-        "operators": [],
+        "operators": [
+          "RBO"
+        ],
         "lines": {
           "Stadtbus": [
             "28"
@@ -87962,33 +87873,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.685761,
-          51.105637
-        ]
-      },
-      "properties": {
-        "id": "de:14627:4257",
-        "numeric_id": "33004257",
-        "name": "Grüne Straße",
-        "city": "Radebeul",
-        "name_with_city": "Radebeul Grüne Straße",
-        "operators": [
-          "VGM"
-        ],
-        "lines": {
-          "Regionalbus": [
-            "475",
-            "Sv280"
-          ]
-        },
-        "total_lines": 2
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.670445,
           51.108677
         ]
@@ -88182,18 +88066,14 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Hospiz",
         "operators": [
-          "DVB",
-          "VGM"
+          "DVB"
         ],
         "lines": {
           "Stadtbus": [
             "72"
-          ],
-          "Regionalbus": [
-            "475"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -88821,7 +88701,6 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul S-Bahnhof Ost",
         "operators": [
-          "DB Regio AG Nordost",
           "DB Regio AG Südost",
           "SDG",
           "VGM"
@@ -88832,7 +88711,6 @@
             "Sv280"
           ],
           "Zug": [
-            "RB31",
             "RE50"
           ],
           "S-Bahn": [
@@ -88843,7 +88721,7 @@
             "SEV S1"
           ]
         },
-        "total_lines": 7
+        "total_lines": 6
       }
     },
     {
@@ -90074,7 +89952,8 @@
         "city": "Rammenau",
         "name_with_city": "Rammenau Johann-Gottlieb-Fichte-Straße",
         "operators": [
-          "Omnibusunternehmen Gottfried Beck"
+          "Omnibusunternehmen Gottfried Beck",
+          "RBO"
         ],
         "lines": {
           "PlusBus": [
@@ -90103,7 +89982,8 @@
         "city": "Rammenau",
         "name_with_city": "Rammenau Schaudorf",
         "operators": [
-          "Omnibusunternehmen Gottfried Beck"
+          "Omnibusunternehmen Gottfried Beck",
+          "RBO"
         ],
         "lines": {
           "PlusBus": [
@@ -90405,7 +90285,6 @@
         "city": "Rathmannsdorf (PIR)",
         "name_with_city": "Rathmannsdorf (PIR) Brücke",
         "operators": [
-          "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
@@ -90415,12 +90294,9 @@
           ],
           "PlusBus": [
             "260"
-          ],
-          "Ersatzverkehr": [
-            "SEV U28"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -93208,26 +93084,11 @@
           "VGM"
         ],
         "lines": {
-          "Regionalbus": [
-            "430",
-            "431",
-            "432",
-            "433",
-            "437",
-            "439",
-            "440",
-            "441",
-            "445",
-            "446"
-          ],
           "Stadtbus": [
-            "A1 (Riesa)",
-            "B (Riesa)",
-            "D (Riesa)",
             "E (Riesa)"
           ]
         },
-        "total_lines": 14
+        "total_lines": 1
       }
     },
     {
@@ -98332,21 +98193,19 @@
         "city": "Schmilka",
         "name_with_city": "Schmilka Grenzübergang",
         "operators": [
-          "DB Regio",
           "DB Regio AG Südost",
           "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
-            "252",
-            "EV U28"
+            "252"
           ],
           "Ersatzverkehr": [
             "SEV S1",
             "SEV U28"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -99825,7 +99684,6 @@
         "city": "Sebnitz",
         "name_with_city": "Sebnitz Bahnhof",
         "operators": [
-          "DB Regio",
           "DB Regio AG Südost",
           "RVSOE"
         ],
@@ -99833,8 +99691,7 @@
           "Regionalbus": [
             "237",
             "268",
-            "269",
-            "EV U28"
+            "269"
           ],
           "PlusBus": [
             "260",
@@ -99852,7 +99709,7 @@
             "T (Sebnitz)"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -106352,18 +106209,13 @@
         "name": "Bahnhof",
         "city": "Ulbersdorf",
         "name_with_city": "Ulbersdorf Bahnhof",
-        "operators": [
-          "DB Regio AG Südost"
-        ],
+        "operators": [],
         "lines": {
-          "Ersatzverkehr": [
-            "SEV U28"
-          ],
           "Zug": [
             "U28"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -107047,7 +106899,9 @@
         "name": "Werkstätten",
         "city": "Wachau b Radeberg",
         "name_with_city": "Wachau b Radeberg Werkstätten",
-        "operators": [],
+        "operators": [
+          "RBO"
+        ],
         "lines": {
           "Stadtbus": [
             "28"
@@ -108270,17 +108124,16 @@
           "VGM"
         ],
         "lines": {
+          "PlusBus": [
+            "421"
+          ],
           "Regionalbus": [
-            "403",
             "459",
             "Sv152",
             "Sv250"
-          ],
-          "PlusBus": [
-            "421"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
