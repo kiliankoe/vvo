@@ -152,7 +152,7 @@ Plan journeys between locations.
 - Time-based search (departure or arrival)
 - Fares per trip with `<IncludeFares>true</IncludeFares>`, see below
 
-With `NumberOfResults`, a search by departure time also returns one trip that leaves before the given time, and a search by arrival time one that arrives after it. Use `<NumberOfResultsAfter>` for a departure time or `<NumberOfResultsBefore>` for an arrival time instead to get only trips on that side of the time. The same holds for `OJPTripRequest` on the [OJP](ojp.md) endpoint.
+With `NumberOfResults`, a search by departure time also returns one trip that leaves before the given time, and a search by arrival time one that arrives after it. To get only trips on the asked side of the time, send `<NumberOfResultsBefore>` and `<NumberOfResultsAfter>` instead, with a zero for the side that is not wanted: `<NumberOfResultsBefore>0</NumberOfResultsBefore><NumberOfResultsAfter>5</NumberOfResultsAfter>` for a departure time, and the other way around for an arrival time. The schema asks for both elements together. It does not allow a zero in TRIAS 1.2 (it does in OJP 1.0), but the server takes it. The same holds for `OJPTripRequest` on the [OJP](ojp.md) endpoint.
 
 With `IncludeFares`, each `TripResult` contains `TripFares` elements with the passed fare zones and one `Ticket` per passenger type (`Adult`, `Child`):
 
