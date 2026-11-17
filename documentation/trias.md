@@ -31,7 +31,7 @@ All TRIAS requests follow this XML structure:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<Trias xmlns="trias" xmlns:siri="http://www.siri.org.uk/siri" version="1.2">
+<Trias xmlns="http://www.vdv.de/trias" xmlns:siri="http://www.siri.org.uk/siri" version="1.2">
   <ServiceRequest>
     <siri:RequestTimestamp>2026-02-20T10:30:00Z</siri:RequestTimestamp>
     <siri:RequestorRef>OpenService</siri:RequestorRef>
@@ -47,6 +47,8 @@ All TRIAS requests follow this XML structure:
 - `RequestTimestamp`: ISO 8601 timestamp of the request
 - `RequestorRef`: Service identification (use "OpenService" for public access)
 - `RequestPayload`: Contains the actual service request
+
+The server does not validate requests against the schema. It also accepts `xmlns="trias"` as the default namespace, and a `LocationRef` without the `LocationName` that the schema requires next to the reference.
 
 ## Main Services
 
@@ -222,7 +224,7 @@ VVO does not implement the other request types of TRIAS 1.2: `BookingInfoRequest
 curl -X POST "https://efa.vvo-online.de/std3/trias" \
   -H "Content-Type: application/xml" \
   -d '<?xml version="1.0" encoding="UTF-8"?>
-<Trias xmlns="trias" xmlns:siri="http://www.siri.org.uk/siri" version="1.2">
+<Trias xmlns="http://www.vdv.de/trias" xmlns:siri="http://www.siri.org.uk/siri" version="1.2">
   <ServiceRequest>
     <siri:RequestTimestamp>2026-02-20T10:30:00Z</siri:RequestTimestamp>
     <siri:RequestorRef>OpenService</siri:RequestorRef>

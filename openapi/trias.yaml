@@ -76,7 +76,7 @@ paths:
                 description: Find stops, addresses or POIs by name or coordinate.
                 value: |
                   <?xml version="1.0" encoding="UTF-8"?>
-                  <Trias xmlns="trias" xmlns:siri="http://www.siri.org.uk/siri" version="1.2">
+                  <Trias xmlns="http://www.vdv.de/trias" xmlns:siri="http://www.siri.org.uk/siri" version="1.2">
                     <ServiceRequest>
                       <siri:RequestTimestamp>2026-10-08T13:00:00Z</siri:RequestTimestamp>
                       <siri:RequestorRef>OpenService</siri:RequestorRef>
@@ -99,7 +99,7 @@ paths:
                 description: Departures or arrivals at a stop, with realtime data and situations.
                 value: |
                   <?xml version="1.0" encoding="UTF-8"?>
-                  <Trias xmlns="trias" xmlns:siri="http://www.siri.org.uk/siri" version="1.2">
+                  <Trias xmlns="http://www.vdv.de/trias" xmlns:siri="http://www.siri.org.uk/siri" version="1.2">
                     <ServiceRequest>
                       <siri:RequestTimestamp>2026-10-08T13:00:00Z</siri:RequestTimestamp>
                       <siri:RequestorRef>OpenService</siri:RequestorRef>
@@ -125,7 +125,7 @@ paths:
                 description: Plan journeys between two locations. Set `IncludeFares` to `true` to get ticket prices per trip.
                 value: |
                   <?xml version="1.0" encoding="UTF-8"?>
-                  <Trias xmlns="trias" xmlns:siri="http://www.siri.org.uk/siri" version="1.2">
+                  <Trias xmlns="http://www.vdv.de/trias" xmlns:siri="http://www.siri.org.uk/siri" version="1.2">
                     <ServiceRequest>
                       <siri:RequestTimestamp>2026-10-08T13:00:00Z</siri:RequestTimestamp>
                       <siri:RequestorRef>OpenService</siri:RequestorRef>
@@ -156,7 +156,7 @@ paths:
                 description: All stops of one journey with realtime data. Take `JourneyRef` and `OperatingDayRef` from a departure or trip result.
                 value: |
                   <?xml version="1.0" encoding="UTF-8"?>
-                  <Trias xmlns="trias" xmlns:siri="http://www.siri.org.uk/siri" version="1.2">
+                  <Trias xmlns="http://www.vdv.de/trias" xmlns:siri="http://www.siri.org.uk/siri" version="1.2">
                     <ServiceRequest>
                       <siri:RequestTimestamp>2026-11-16T13:12:00Z</siri:RequestTimestamp>
                       <siri:RequestorRef>OpenService</siri:RequestorRef>
@@ -177,7 +177,7 @@ paths:
                 description: Fare zones of a stop per fare authority. Other `FaresRequest` variants return no data; use `TripRequest` with `IncludeFares` for prices.
                 value: |
                   <?xml version="1.0" encoding="UTF-8"?>
-                  <Trias xmlns="trias" xmlns:siri="http://www.siri.org.uk/siri" version="1.2">
+                  <Trias xmlns="http://www.vdv.de/trias" xmlns:siri="http://www.siri.org.uk/siri" version="1.2">
                     <ServiceRequest>
                       <siri:RequestTimestamp>2026-11-16T13:12:00Z</siri:RequestTimestamp>
                       <siri:RequestorRef>OpenService</siri:RequestorRef>
