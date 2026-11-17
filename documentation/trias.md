@@ -152,6 +152,8 @@ Plan journeys between locations.
 - Time-based search (departure or arrival)
 - Fares per trip with `<IncludeFares>true</IncludeFares>`, see below
 
+With `NumberOfResults`, a search by departure time also returns one trip that leaves before the given time, and a search by arrival time one that arrives after it. Use `<NumberOfResultsAfter>` for a departure time or `<NumberOfResultsBefore>` for an arrival time instead to get only trips on that side of the time. The same holds for `OJPTripRequest` on the [OJP](ojp.md) endpoint.
+
 With `IncludeFares`, each `TripResult` contains `TripFares` elements with the passed fare zones and one `Ticket` per passenger type (`Adult`, `Child`):
 
 ```xml

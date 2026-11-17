@@ -117,8 +117,11 @@ curl "https://efa.vvo-online.de/std3/XML_TRIP_REQUEST2?outputFormat=rapidJSON&co
 | `calcNumberOfTrips` | Number of journeys |
 | `itdDate`, `itdTime` | Date and time as `YYYYMMDD` and `HHMM` in local time |
 | `itdTripDateTimeDepArr` | `dep` if the time is the departure, `arr` if it is the arrival |
+| `calcOneDirection` | `1` to get only journeys on the asked side of the time, see below |
 
 The journeys are in `journeys`, each a list of `legs` with `origin`, `destination`, `transportation` and `stopSequence` (every call of the ride, including both ends).
+
+Without `calcOneDirection=1`, the first journey of a departure search leaves *before* the given time, and the last journey of an arrival search arrives *after* it. A client that pages by asking again from the last departure would get that journey twice. MENTZ's documents do not list the parameter, but the server honors it.
 
 Things to know when reading a journey:
 
