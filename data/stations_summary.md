@@ -30,8 +30,8 @@ Total stations: 3912
 ## Stations by Transit Type
 
 - Regionalbus: 2698 stations
-- Stadtbus: 1322 stations
-- PlusBus: 647 stations
+- Stadtbus: 1321 stations
+- PlusBus: 646 stations
 - Anruflinienbus: 433 stations
 - Straßenbahn: 269 stations
 - Anruflinientaxi: 205 stations
@@ -49,7 +49,7 @@ Total stations: 3912
 
 ## Transit Operators
 
-- RVSOE: 1307 stations
+- RVSOE: 1305 stations
 - VGM: 1170 stations
 - DVB: 774 stations
 - RBO: 712 stations
@@ -100,7 +100,6 @@ Total stations: 3912
 - Dresden Postplatz: 17 lines
 - Großenhain Lessingplatz: 17 lines
 - Großenhain Mozartallee: 17 lines
-- Pirna Rosa-Luxemburg-Straße: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
 - Dresden S-Bf. Industriegelände: 16 lines
 - Dresden Walpurgisstraße: 16 lines
@@ -151,7 +150,6 @@ Total stations: 3912
 - Gompitz Gompitzer Höhe: 11 lines
 - Großenhain Hohe Straße: 11 lines
 - Pirna Copitz Schulstraße: 11 lines
-- Pirna Robert-Koch-Straße: 11 lines
 - Priestewitz Bahnhof: 11 lines
 - Pulsnitz Bahnhof: 11 lines
 - Weinböhla Haltepunkt: 11 lines
@@ -169,4 +167,5 @@ Total stations: 3912
 - Dresden Lößnitzstraße: 10 lines
 - Dresden Malterstraße: 10 lines
 - Dresden Prohlis Gleisschleife: 10 lines
+- Pirna Robert-Koch-Straße: 10 lines
 - Sebnitz Bahnhof: 10 lines
