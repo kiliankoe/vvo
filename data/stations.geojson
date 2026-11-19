@@ -8126,10 +8126,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "368"
+            "368",
+            "369"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -8154,13 +8155,14 @@
         "lines": {
           "Regionalbus": [
             "368",
+            "369",
             "SEV RB 72"
           ],
           "Zug": [
             "RB72"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -15910,13 +15912,14 @@
             "360"
           ],
           "Regionalbus": [
+            "352",
             "366"
           ],
           "Bus": [
             "400"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -38596,10 +38599,11 @@
         ],
         "lines": {
           "Stadtbus": [
+            "161",
             "162"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -40717,10 +40721,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "368"
+            "368",
+            "369"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -40784,10 +40789,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "368"
+            "368",
+            "369"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -64751,9 +64757,12 @@
         "lines": {
           "Anruflinienbus": [
             "419"
+          ],
+          "Regionalbus": [
+            "419"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -76309,10 +76318,11 @@
         "lines": {
           "Regionalbus": [
             "441",
-            "442"
+            "442",
+            "450"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -82308,13 +82318,14 @@
             "237",
             "241",
             "245",
+            "246",
             "207a"
           ],
           "Stadtbus": [
             "Z (Pirna)"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -82337,12 +82348,29 @@
         ],
         "lines": {
           "Regionalbus": [
+            "204",
+            "216",
+            "218",
             "226",
             "234",
-            "241"
+            "237",
+            "238",
+            "241",
+            "245",
+            "246",
+            "207a"
+          ],
+          "PlusBus": [
+            "219"
+          ],
+          "Stadtbus": [
+            "G/L (Pirna)",
+            "H/S (Pirna)",
+            "M (Pirna)",
+            "N (Pirna)"
           ]
         },
-        "total_lines": 3
+        "total_lines": 16
       }
     },
     {
@@ -91917,17 +91945,19 @@
         "city": "Reitzendorf(Dresden)",
         "name_with_city": "Reitzendorf(Dresden) Kleinbauernmuseum",
         "operators": [
-          "Müller Busreisen"
+          "Müller Busreisen",
+          "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
+            "226",
             "228"
           ],
           "Stadtbus": [
             "98C"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -99375,17 +99405,19 @@
         "city": "Schönfeld (Dresden)",
         "name_with_city": "Schönfeld (Dresden) Meixstraße",
         "operators": [
-          "Müller Busreisen"
+          "Müller Busreisen",
+          "RVSOE"
         ],
         "lines": {
           "Regionalbus": [
+            "226",
             "228"
           ],
           "Stadtbus": [
             "98C"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -108014,10 +108046,11 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411"
+            "411",
+            "Sv250"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
