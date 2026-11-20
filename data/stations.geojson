@@ -1702,6 +1702,7 @@
           "Zug": [
             "RE20",
             "RE50",
+            "S1",
             "U28"
           ],
           "S-Bahn": [
@@ -1712,7 +1713,7 @@
             "SEV U28"
           ]
         },
-        "total_lines": 15
+        "total_lines": 16
       }
     },
     {
@@ -21701,7 +21702,8 @@
             "RE20",
             "RE3",
             "RE50",
-            "RE50X"
+            "RE50X",
+            "S1"
           ],
           "S-Bahn": [
             "S1",
@@ -21716,7 +21718,7 @@
             "SEV RE2"
           ]
         },
-        "total_lines": 34
+        "total_lines": 35
       }
     },
     {
@@ -29621,7 +29623,8 @@
           ],
           "Zug": [
             "RE19",
-            "RE20"
+            "RE20",
+            "S1"
           ],
           "S-Bahn": [
             "S1",
@@ -29631,7 +29634,7 @@
             "SEV S1"
           ]
         },
-        "total_lines": 15
+        "total_lines": 16
       }
     },
     {
@@ -29699,7 +29702,8 @@
           ],
           "Zug": [
             "RE19",
-            "RE20"
+            "RE20",
+            "S1"
           ],
           "S-Bahn": [
             "S1",
@@ -29714,7 +29718,7 @@
             "alita 89"
           ]
         },
-        "total_lines": 13
+        "total_lines": 14
       }
     },
     {
@@ -29825,7 +29829,8 @@
           ],
           "Zug": [
             "RE19",
-            "RE20"
+            "RE20",
+            "S1"
           ],
           "S-Bahn": [
             "S1",
@@ -29835,7 +29840,7 @@
             "SEV S1"
           ]
         },
-        "total_lines": 8
+        "total_lines": 9
       }
     },
     {
@@ -30029,7 +30034,8 @@
           ],
           "Zug": [
             "RE19",
-            "RE20"
+            "RE20",
+            "S1"
           ],
           "S-Bahn": [
             "S1",
@@ -30039,7 +30045,7 @@
             "SEV S1"
           ]
         },
-        "total_lines": 12
+        "total_lines": 13
       }
     },
     {
@@ -30062,14 +30068,15 @@
         ],
         "lines": {
           "Zug": [
-            "RE19"
+            "RE19",
+            "S1"
           ],
           "S-Bahn": [
             "S1",
             "S2"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -45619,7 +45626,8 @@
         "city": "Gröditz b Riesa",
         "name_with_city": "Gröditz b Riesa Am Castello",
         "operators": [
-          "VGM"
+          "VGM",
+          "Verkehrsmanagement Elbe-Elster GmbH"
         ],
         "lines": {
           "Anruflinienbus": [
@@ -45629,9 +45637,12 @@
             "439",
             "461",
             "462"
+          ],
+          "Bus": [
+            "587"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -45650,7 +45661,8 @@
         "city": "Gröditz b Riesa",
         "name_with_city": "Gröditz b Riesa Am Kanal",
         "operators": [
-          "VGM"
+          "VGM",
+          "Verkehrsmanagement Elbe-Elster GmbH"
         ],
         "lines": {
           "Regionalbus": [
@@ -45658,9 +45670,12 @@
             "440",
             "461",
             "Sv313"
+          ],
+          "Bus": [
+            "587"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -45706,7 +45721,8 @@
         "name_with_city": "Gröditz b Riesa Busbahnhof",
         "operators": [
           "Mitteldeutsche Regiobahn",
-          "VGM"
+          "VGM",
+          "Verkehrsmanagement Elbe-Elster GmbH"
         ],
         "lines": {
           "Anruflinienbus": [
@@ -45719,11 +45735,14 @@
             "461",
             "462"
           ],
+          "Bus": [
+            "587"
+          ],
           "Ersatzverkehr": [
             "SEV RB45"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -45769,16 +45788,20 @@
         "city": "Gröditz b Riesa",
         "name_with_city": "Gröditz b Riesa Feldstraße",
         "operators": [
-          "VGM"
+          "VGM",
+          "Verkehrsmanagement Elbe-Elster GmbH"
         ],
         "lines": {
           "Regionalbus": [
             "439",
             "440",
             "461"
+          ],
+          "Bus": [
+            "587"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -45797,7 +45820,8 @@
         "city": "Gröditz b Riesa",
         "name_with_city": "Gröditz b Riesa Fröbelstraße",
         "operators": [
-          "VGM"
+          "VGM",
+          "Verkehrsmanagement Elbe-Elster GmbH"
         ],
         "lines": {
           "Regionalbus": [
@@ -45805,9 +45829,12 @@
             "440",
             "461",
             "Sv313"
+          ],
+          "Bus": [
+            "587"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -45884,16 +45911,20 @@
         "city": "Gröditz b Riesa",
         "name_with_city": "Gröditz b Riesa Rathausstraße",
         "operators": [
-          "VGM"
+          "VGM",
+          "Verkehrsmanagement Elbe-Elster GmbH"
         ],
         "lines": {
           "Regionalbus": [
             "439",
             "440",
             "461"
+          ],
+          "Bus": [
+            "587"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -45938,16 +45969,20 @@
         "city": "Gröditz b Riesa",
         "name_with_city": "Gröditz b Riesa Schulstraße",
         "operators": [
-          "VGM"
+          "VGM",
+          "Verkehrsmanagement Elbe-Elster GmbH"
         ],
         "lines": {
           "Regionalbus": [
             "439",
             "440",
             "461"
+          ],
+          "Bus": [
+            "587"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -47541,7 +47576,8 @@
           "Zug": [
             "RB72",
             "RE19",
-            "RE20"
+            "RE20",
+            "S1"
           ],
           "S-Bahn": [
             "S1",
@@ -47551,7 +47587,7 @@
             "SEV S1"
           ]
         },
-        "total_lines": 15
+        "total_lines": 16
       }
     },
     {
@@ -48272,6 +48308,9 @@
             "S1",
             "S2"
           ],
+          "Zug": [
+            "S1"
+          ],
           "Ersatzverkehr": [
             "SEV S1"
           ],
@@ -48279,7 +48318,7 @@
             "A (Heidenau)"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -48304,9 +48343,12 @@
           "S-Bahn": [
             "S1",
             "S2"
+          ],
+          "Zug": [
+            "S1"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -58282,13 +58324,14 @@
           "Zug": [
             "RE20",
             "RE50",
+            "S1",
             "U28"
           ],
           "S-Bahn": [
             "S1"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -59342,13 +59385,14 @@
         ],
         "lines": {
           "Zug": [
-            "RE50"
+            "RE50",
+            "S1"
           ],
           "S-Bahn": [
             "S1"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -59676,15 +59720,12 @@
           "SchmidtSchwarz GmbH & CO. KG"
         ],
         "lines": {
-          "TaktBus": [
-            "504"
-          ],
           "Regionalbus": [
             "712",
             "780"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -77232,9 +77273,12 @@
         "lines": {
           "S-Bahn": [
             "S1"
+          ],
+          "Zug": [
+            "S1"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -80820,14 +80864,15 @@
           "Zug": [
             "RB71",
             "RE20",
-            "RE50"
+            "RE50",
+            "S1"
           ],
           "S-Bahn": [
             "S1",
             "S2"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -90018,13 +90063,14 @@
         ],
         "lines": {
           "Zug": [
-            "RE50"
+            "RE50",
+            "S1"
           ],
           "S-Bahn": [
             "S1"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -98231,13 +98277,14 @@
         "lines": {
           "Zug": [
             "RE20",
+            "S1",
             "U28"
           ],
           "S-Bahn": [
             "S1"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -102126,13 +102173,14 @@
         ],
         "lines": {
           "Zug": [
-            "RE50"
+            "RE50",
+            "S1"
           ],
           "S-Bahn": [
             "S1"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {

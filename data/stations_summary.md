@@ -35,15 +35,15 @@ Total stations: 3912
 - Anruflinienbus: 433 stations
 - Straßenbahn: 269 stations
 - Anruflinientaxi: 205 stations
+- Zug: 102 stations
 - Taktbus: 101 stations
-- Zug: 99 stations
 - Ersatzverkehr: 98 stations
+- Bus: 56 stations
 - S-Bahn: 54 stations
-- Bus: 49 stations
 - Fähre: 29 stations
 - Stadtverkehr: 29 stations
 - Schülerlinie: 12 stations
-- TaktBus: 5 stations
+- TaktBus: 4 stations
 - Schwebebahn: 2 stations
 - Seilbahn: 2 stations
 
@@ -66,6 +66,7 @@ Total stations: 3912
 - Verkehrsgesellschaft Oberspreewald-Lausitz mbH: 13 stations
 - Cottbusverkehr GmbH: 11 stations
 - trilex - Die Länderbahn GmbH DLB: 9 stations
+- Verkehrsmanagement Elbe-Elster GmbH: 7 stations
 - DB Fernverkehr AG: 5 stations
 - Österreichische Bundesbahnen: 4 stations
 - LEO Express: 3 stations
@@ -78,7 +79,7 @@ Total stations: 3912
 
 ## Major Transit Hubs (10+ lines)
 
-- Dresden Hauptbahnhof: 34 lines
+- Dresden Hauptbahnhof: 35 lines
 - Meißen Busbahnhof: 33 lines
 - Dresden Bahnhof Neustadt: 32 lines
 - Dresden Bahnhof Mitte: 31 lines
@@ -101,20 +102,21 @@ Total stations: 3912
 - Großenhain Lessingplatz: 17 lines
 - Großenhain Mozartallee: 17 lines
 - Riesa Friedrich-Engels-Straße: 17 lines
+- Bad Schandau Nationalparkbahnhof: 16 lines
+- Dresden S-Bahnhof Dobritz: 16 lines
 - Dresden S-Bf. Industriegelände: 16 lines
 - Dresden Walpurgisstraße: 16 lines
 - Großenhain Franz-Schubert-Allee: 16 lines
+- Heidenau (Sachs) Bahnhof: 16 lines
 - Meißen S-Bahnhof Altstadt: 16 lines
 - Pirna Rosa-Luxemburg-Straße: 16 lines
 - Riesa Sachsenhof: 16 lines
-- Bad Schandau Nationalparkbahnhof: 15 lines
 - Coswig (b Dresden) Bahnhof: 15 lines
 - Dresden Prager Straße: 15 lines
-- Dresden S-Bahnhof Dobritz: 15 lines
-- Heidenau (Sachs) Bahnhof: 15 lines
 - Meißen Uferstraße: 15 lines
 - Pirna Breite Straße: 15 lines
 - Dippoldiswalde Busbahnhof: 14 lines
+- Dresden S-Bahnhof Niedersedlitz: 14 lines
 - Dresden Tharandter Straße: 14 lines
 - Hoyerswerda Behördenpark: 14 lines
 - Hoyerswerda Lausitzer Platz: 14 lines
@@ -125,7 +127,7 @@ Total stations: 3912
 - Radeberg Bahnhof: 14 lines
 - Dresden Dahlienweg: 13 lines
 - Dresden Großenhainer Platz: 13 lines
-- Dresden S-Bahnhof Niedersedlitz: 13 lines
+- Dresden S-Bf. Strehlen: 13 lines
 - Dresden Zeithainer Straße: 13 lines
 - Freital S-Bahnhof Hainsberg: 13 lines
 - Kamenz Schwimmhalle: 13 lines
@@ -134,7 +136,6 @@ Total stations: 3912
 - Dresden Coventrystraße: 12 lines
 - Dresden Julius-Vahlteich-Straße: 12 lines
 - Dresden Pirnaischer Platz: 12 lines
-- Dresden S-Bf. Strehlen: 12 lines
 - Dresden Schillerplatz: 12 lines
 - Kamenz Flugplatz: 12 lines
 - Kamenz Landesämter: 12 lines
