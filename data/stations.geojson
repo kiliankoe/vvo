@@ -1699,7 +1699,6 @@
           "Zug": [
             "RE20",
             "RE50",
-            "S1",
             "U28"
           ],
           "S-Bahn": [
@@ -1710,7 +1709,7 @@
             "SEV U28"
           ]
         },
-        "total_lines": 16
+        "total_lines": 15
       }
     },
     {
@@ -21699,8 +21698,7 @@
             "RE20",
             "RE3",
             "RE50",
-            "RE50X",
-            "S1"
+            "RE50X"
           ],
           "S-Bahn": [
             "S1",
@@ -21715,7 +21713,7 @@
             "SEV RE2"
           ]
         },
-        "total_lines": 35
+        "total_lines": 34
       }
     },
     {
@@ -29620,8 +29618,7 @@
           ],
           "Zug": [
             "RE19",
-            "RE20",
-            "S1"
+            "RE20"
           ],
           "S-Bahn": [
             "S1",
@@ -29631,7 +29628,7 @@
             "SEV S1"
           ]
         },
-        "total_lines": 16
+        "total_lines": 15
       }
     },
     {
@@ -29699,8 +29696,7 @@
           ],
           "Zug": [
             "RE19",
-            "RE20",
-            "S1"
+            "RE20"
           ],
           "S-Bahn": [
             "S1",
@@ -29715,7 +29711,7 @@
             "alita 89"
           ]
         },
-        "total_lines": 14
+        "total_lines": 13
       }
     },
     {
@@ -29826,8 +29822,7 @@
           ],
           "Zug": [
             "RE19",
-            "RE20",
-            "S1"
+            "RE20"
           ],
           "S-Bahn": [
             "S1",
@@ -29837,7 +29832,7 @@
             "SEV S1"
           ]
         },
-        "total_lines": 9
+        "total_lines": 8
       }
     },
     {
@@ -30031,8 +30026,7 @@
           ],
           "Zug": [
             "RE19",
-            "RE20",
-            "S1"
+            "RE20"
           ],
           "S-Bahn": [
             "S1",
@@ -30042,7 +30036,7 @@
             "SEV S1"
           ]
         },
-        "total_lines": 13
+        "total_lines": 12
       }
     },
     {
@@ -30065,15 +30059,14 @@
         ],
         "lines": {
           "Zug": [
-            "RE19",
-            "S1"
+            "RE19"
           ],
           "S-Bahn": [
             "S1",
             "S2"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -47573,8 +47566,7 @@
           "Zug": [
             "RB72",
             "RE19",
-            "RE20",
-            "S1"
+            "RE20"
           ],
           "S-Bahn": [
             "S1",
@@ -47584,7 +47576,7 @@
             "SEV S1"
           ]
         },
-        "total_lines": 16
+        "total_lines": 15
       }
     },
     {
@@ -48305,9 +48297,6 @@
             "S1",
             "S2"
           ],
-          "Zug": [
-            "S1"
-          ],
           "Ersatzverkehr": [
             "SEV S1"
           ],
@@ -48315,7 +48304,7 @@
             "A (Heidenau)"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -48340,12 +48329,9 @@
           "S-Bahn": [
             "S1",
             "S2"
-          ],
-          "Zug": [
-            "S1"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -58350,14 +58336,13 @@
           "Zug": [
             "RE20",
             "RE50",
-            "S1",
             "U28"
           ],
           "S-Bahn": [
             "S1"
           ]
         },
-        "total_lines": 8
+        "total_lines": 7
       }
     },
     {
@@ -59411,14 +59396,13 @@
         ],
         "lines": {
           "Zug": [
-            "RE50",
-            "S1"
+            "RE50"
           ],
           "S-Bahn": [
             "S1"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -77299,12 +77283,9 @@
         "lines": {
           "S-Bahn": [
             "S1"
-          ],
-          "Zug": [
-            "S1"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -80884,15 +80865,14 @@
           "Zug": [
             "RB71",
             "RE20",
-            "RE50",
-            "S1"
+            "RE50"
           ],
           "S-Bahn": [
             "S1",
             "S2"
           ]
         },
-        "total_lines": 6
+        "total_lines": 5
       }
     },
     {
@@ -90070,14 +90050,13 @@
         ],
         "lines": {
           "Zug": [
-            "RE50",
-            "S1"
+            "RE50"
           ],
           "S-Bahn": [
             "S1"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -98284,14 +98263,13 @@
         "lines": {
           "Zug": [
             "RE20",
-            "S1",
             "U28"
           ],
           "S-Bahn": [
             "S1"
           ]
         },
-        "total_lines": 4
+        "total_lines": 3
       }
     },
     {
@@ -102180,14 +102158,13 @@
         ],
         "lines": {
           "Zug": [
-            "RE50",
-            "S1"
+            "RE50"
           ],
           "S-Bahn": [
             "S1"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
