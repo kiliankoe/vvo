@@ -229,12 +229,16 @@
             "374",
             "SEV RB 72"
           ],
+          "R-Bahn": [
+            "RB72",
+            "RE19"
+          ],
           "Zug": [
             "RB72",
             "RE19"
           ]
         },
-        "total_lines": 10
+        "total_lines": 12
       }
     },
     {
@@ -803,6 +807,12 @@
           "Regionalbus": [
             "755"
           ],
+          "R-Bahn": [
+            "RB60",
+            "RB61",
+            "RE1",
+            "RE2"
+          ],
           "Zug": [
             "RB60",
             "RB61",
@@ -813,7 +823,7 @@
             "S8"
           ]
         },
-        "total_lines": 6
+        "total_lines": 10
       }
     },
     {
@@ -1696,6 +1706,10 @@
           "Fähre": [
             "F 5"
           ],
+          "R-Bahn": [
+            "RE20",
+            "RE50"
+          ],
           "Zug": [
             "RE20",
             "RE50",
@@ -1709,7 +1723,7 @@
             "SEV U28"
           ]
         },
-        "total_lines": 15
+        "total_lines": 17
       }
     },
     {
@@ -4772,6 +4786,12 @@
             "748",
             "750"
           ],
+          "R-Bahn": [
+            "RB60",
+            "RB61",
+            "RE1",
+            "RE2"
+          ],
           "Zug": [
             "RB60",
             "RB61",
@@ -4785,7 +4805,7 @@
             "SEV RE2"
           ]
         },
-        "total_lines": 22
+        "total_lines": 26
       }
     },
     {
@@ -7908,11 +7928,14 @@
           "Regionalbus": [
             "201"
           ],
+          "R-Bahn": [
+            "RB72"
+          ],
           "Zug": [
             "RB72"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -8155,11 +8178,14 @@
             "369",
             "SEV RB 72"
           ],
+          "R-Bahn": [
+            "RB72"
+          ],
           "Zug": [
             "RB72"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -8186,11 +8212,14 @@
             "368",
             "SEV RB 72"
           ],
+          "R-Bahn": [
+            "RB72"
+          ],
           "Zug": [
             "RB72"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -9522,6 +9551,9 @@
             "RB31",
             "RE50"
           ],
+          "S-Bahn": [
+            "S6"
+          ],
           "Ersatzverkehr": [
             "SEV RB31"
           ],
@@ -9530,7 +9562,7 @@
             "alita 95"
           ]
         },
-        "total_lines": 11
+        "total_lines": 12
       }
     },
     {
@@ -9898,8 +9930,14 @@
             "RE18",
             "RE50"
           ],
+          "R-Bahn": [
+            "RE15",
+            "RE18",
+            "RE50"
+          ],
           "S-Bahn": [
-            "S1"
+            "S1",
+            "S6"
           ],
           "Ersatzverkehr": [
             "SEV RB31",
@@ -9908,7 +9946,7 @@
             "SEV S1"
           ]
         },
-        "total_lines": 15
+        "total_lines": 19
       }
     },
     {
@@ -13634,6 +13672,9 @@
             "372",
             "SEV RB 72"
           ],
+          "R-Bahn": [
+            "RB72"
+          ],
           "Zug": [
             "RB72"
           ],
@@ -13641,7 +13682,7 @@
             "B (Heidenau)"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -16423,9 +16464,12 @@
         "lines": {
           "Zug": [
             "RB31"
+          ],
+          "S-Bahn": [
+            "S6"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -16461,6 +16505,13 @@
           "Regionalbus": [
             "769"
           ],
+          "R-Bahn": [
+            "RB33",
+            "RB60",
+            "RB61",
+            "RE1",
+            "RE2"
+          ],
           "Zug": [
             "RB33",
             "RB60",
@@ -16481,7 +16532,7 @@
             "SEV S8"
           ]
         },
-        "total_lines": 18
+        "total_lines": 23
       }
     },
     {
@@ -16536,6 +16587,15 @@
             "RE3",
             "RE50"
           ],
+          "R-Bahn": [
+            "RB60",
+            "RB61",
+            "RE1",
+            "RE15",
+            "RE18",
+            "RE2",
+            "RE50"
+          ],
           "S-Bahn": [
             "S1",
             "S2",
@@ -16549,7 +16609,7 @@
             "SEV S2"
           ]
         },
-        "total_lines": 31
+        "total_lines": 38
       }
     },
     {
@@ -16612,9 +16672,21 @@
             "RE3",
             "RE50"
           ],
+          "R-Bahn": [
+            "RB33",
+            "RB60",
+            "RB61",
+            "RE1",
+            "RE15",
+            "RE17",
+            "RE18",
+            "RE2",
+            "RE50"
+          ],
           "S-Bahn": [
             "S1",
             "S2",
+            "S6",
             "S8"
           ],
           "Ersatzverkehr": [
@@ -16628,7 +16700,7 @@
             "SEV S8"
           ]
         },
-        "total_lines": 32
+        "total_lines": 42
       }
     },
     {
@@ -19224,10 +19296,11 @@
         ],
         "lines": {
           "Straßenbahn": [
-            "6"
+            "6",
+            "8"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -20724,10 +20797,11 @@
             "1",
             "13",
             "2",
-            "4"
+            "4",
+            "9"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -21649,6 +21723,7 @@
         "name_with_city": "Dresden Hauptbahnhof",
         "operators": [
           "DB Fernverkehr AG",
+          "DB Regio AG Nordost",
           "DB Regio AG Südost",
           "DVB",
           "European Sleeper",
@@ -21688,6 +21763,20 @@
           "Bus": [
             "400"
           ],
+          "R-Bahn": [
+            "RB30",
+            "RB60",
+            "RB61",
+            "RE1",
+            "RE15",
+            "RE17",
+            "RE18",
+            "RE19",
+            "RE2",
+            "RE20",
+            "RE3",
+            "RE50"
+          ],
           "Zug": [
             "RB30",
             "RB60",
@@ -21704,6 +21793,7 @@
             "S1",
             "S2",
             "S3",
+            "S6",
             "S8"
           ],
           "Ersatzverkehr": [
@@ -21713,7 +21803,7 @@
             "SEV RE2"
           ]
         },
-        "total_lines": 34
+        "total_lines": 47
       }
     },
     {
@@ -21839,12 +21929,9 @@
         "lines": {
           "Straßenbahn": [
             "2"
-          ],
-          "Anruflinientaxi": [
-            "alita 88"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -22587,9 +22674,12 @@
         "lines": {
           "Zug": [
             "RB31"
+          ],
+          "S-Bahn": [
+            "S6"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -22613,9 +22703,12 @@
         "lines": {
           "Zug": [
             "RB31"
+          ],
+          "S-Bahn": [
+            "S6"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -22639,9 +22732,12 @@
         "lines": {
           "Zug": [
             "RB31"
+          ],
+          "S-Bahn": [
+            "S6"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -23149,10 +23245,11 @@
             "1",
             "13",
             "2",
-            "4"
+            "4",
+            "9"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -23819,11 +23916,10 @@
             "65"
           ],
           "Anruflinientaxi": [
-            "alita 65",
-            "alita 88"
+            "alita 65"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -28452,7 +28548,8 @@
             "1",
             "13",
             "2",
-            "4"
+            "4",
+            "9"
           ],
           "Stadtbus": [
             "66",
@@ -28467,7 +28564,7 @@
             "alita 88"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -29616,6 +29713,9 @@
           "Regionalbus": [
             "386"
           ],
+          "R-Bahn": [
+            "RE19"
+          ],
           "Zug": [
             "RE19",
             "RE20"
@@ -29628,7 +29728,7 @@
             "SEV S1"
           ]
         },
-        "total_lines": 15
+        "total_lines": 16
       }
     },
     {
@@ -29694,6 +29794,9 @@
             "89",
             "EV 6"
           ],
+          "R-Bahn": [
+            "RE19"
+          ],
           "Zug": [
             "RE19",
             "RE20"
@@ -29711,7 +29814,7 @@
             "alita 89"
           ]
         },
-        "total_lines": 13
+        "total_lines": 14
       }
     },
     {
@@ -29779,6 +29882,9 @@
             "63",
             "85"
           ],
+          "R-Bahn": [
+            "RB30"
+          ],
           "Zug": [
             "RB30",
             "RE3"
@@ -29792,7 +29898,7 @@
             "SEV S3"
           ]
         },
-        "total_lines": 9
+        "total_lines": 10
       }
     },
     {
@@ -29820,6 +29926,9 @@
             "65",
             "87"
           ],
+          "R-Bahn": [
+            "RE19"
+          ],
           "Zug": [
             "RE19",
             "RE20"
@@ -29832,7 +29941,7 @@
             "SEV S1"
           ]
         },
-        "total_lines": 8
+        "total_lines": 9
       }
     },
     {
@@ -29971,6 +30080,12 @@
             "EV 7",
             "EV 8"
           ],
+          "R-Bahn": [
+            "RB33",
+            "RB60",
+            "RB61",
+            "RE1"
+          ],
           "Zug": [
             "RB33",
             "RB60",
@@ -29990,7 +30105,7 @@
             "SEV S8"
           ]
         },
-        "total_lines": 16
+        "total_lines": 20
       }
     },
     {
@@ -30024,6 +30139,9 @@
             "68",
             "85"
           ],
+          "R-Bahn": [
+            "RE19"
+          ],
           "Zug": [
             "RE19",
             "RE20"
@@ -30036,7 +30154,7 @@
             "SEV S1"
           ]
         },
-        "total_lines": 12
+        "total_lines": 13
       }
     },
     {
@@ -30058,6 +30176,9 @@
           "DB Regio AG Südost"
         ],
         "lines": {
+          "R-Bahn": [
+            "RE19"
+          ],
           "Zug": [
             "RE19"
           ],
@@ -30066,7 +30187,7 @@
             "S2"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -30845,13 +30966,14 @@
         "lines": {
           "Straßenbahn": [
             "12",
-            "7"
+            "7",
+            "9"
           ],
           "Stadtbus": [
             "EV 12"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -31070,15 +31192,13 @@
         ],
         "lines": {
           "Stadtbus": [
-            "65",
             "89"
           ],
           "Anruflinientaxi": [
-            "alita 65",
             "alita 89"
           ]
         },
-        "total_lines": 4
+        "total_lines": 2
       }
     },
     {
@@ -33071,11 +33191,10 @@
             "65"
           ],
           "Anruflinientaxi": [
-            "alita 65",
-            "alita 88"
+            "alita 65"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -33339,14 +33458,13 @@
         ],
         "lines": {
           "Stadtbus": [
-            "63",
             "66"
           ],
           "Anruflinientaxi": [
             "alita 63"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -33703,11 +33821,12 @@
         "lines": {
           "Straßenbahn": [
             "10",
+            "12",
             "6",
             "7"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -34660,11 +34779,14 @@
             "226",
             "234"
           ],
+          "R-Bahn": [
+            "RB71"
+          ],
           "Zug": [
             "RB71"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -36252,13 +36374,17 @@
             "462"
           ],
           "Zug": [
-            "RB31"
+            "RB31",
+            "RE15"
+          ],
+          "S-Bahn": [
+            "S6"
           ],
           "Ersatzverkehr": [
             "SEV RB31"
           ]
         },
-        "total_lines": 3
+        "total_lines": 5
       }
     },
     {
@@ -38092,6 +38218,9 @@
           "PlusBus": [
             "348"
           ],
+          "R-Bahn": [
+            "RB30"
+          ],
           "Zug": [
             "RB30",
             "RE3"
@@ -38105,7 +38234,7 @@
             "SEV S3"
           ]
         },
-        "total_lines": 13
+        "total_lines": 14
       }
     },
     {
@@ -38134,6 +38263,9 @@
             "161",
             "164"
           ],
+          "R-Bahn": [
+            "RB30"
+          ],
           "Zug": [
             "RB30",
             "RE3"
@@ -38147,7 +38279,7 @@
             "SEV S3"
           ]
         },
-        "total_lines": 9
+        "total_lines": 10
       }
     },
     {
@@ -38189,6 +38321,9 @@
             "363",
             "376"
           ],
+          "R-Bahn": [
+            "RB30"
+          ],
           "Zug": [
             "RB30",
             "RE3"
@@ -38202,7 +38337,7 @@
             "SEV S3"
           ]
         },
-        "total_lines": 18
+        "total_lines": 19
       }
     },
     {
@@ -38231,6 +38366,9 @@
             "345",
             "363"
           ],
+          "R-Bahn": [
+            "RB30"
+          ],
           "Zug": [
             "RB30",
             "RE3"
@@ -38244,7 +38382,7 @@
             "SEV S3"
           ]
         },
-        "total_lines": 9
+        "total_lines": 10
       }
     },
     {
@@ -40093,12 +40231,16 @@
             "385",
             "SEV RB 72"
           ],
+          "R-Bahn": [
+            "RB72",
+            "RE19"
+          ],
           "Zug": [
             "RB72",
             "RE19"
           ]
         },
-        "total_lines": 6
+        "total_lines": 8
       }
     },
     {
@@ -40125,12 +40267,16 @@
             "385",
             "SEV RB 72"
           ],
+          "R-Bahn": [
+            "RB72",
+            "RE19"
+          ],
           "Zug": [
             "RB72",
             "RE19"
           ]
         },
-        "total_lines": 4
+        "total_lines": 6
       }
     },
     {
@@ -40758,12 +40904,16 @@
           "PlusBus": [
             "388"
           ],
+          "R-Bahn": [
+            "RB72",
+            "RE19"
+          ],
           "Zug": [
             "RB72",
             "RE19"
           ]
         },
-        "total_lines": 11
+        "total_lines": 13
       }
     },
     {
@@ -40871,66 +41021,13 @@
         ],
         "lines": {
           "Regionalbus": [
-            "369",
             "386"
           ],
           "PlusBus": [
             "388"
           ]
         },
-        "total_lines": 3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.76378,
-          50.849953
-        ]
-      },
-      "properties": {
-        "id": "de:14628:1941",
-        "numeric_id": "33001941",
-        "name": "Prießnitztalhalle",
-        "city": "Glashütte (Sachs)",
-        "name_with_city": "Glashütte (Sachs) Prießnitztalhalle",
-        "operators": [
-          "RVSOE"
-        ],
-        "lines": {
-          "Regionalbus": [
-            "369"
-          ]
-        },
-        "total_lines": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.756773,
-          50.84549
-        ]
-      },
-      "properties": {
-        "id": "de:14628:1939",
-        "numeric_id": "33001939",
-        "name": "Rückhaltebecken",
-        "city": "Glashütte (Sachs)",
-        "name_with_city": "Glashütte (Sachs) Rückhaltebecken",
-        "operators": [
-          "RVSOE"
-        ],
-        "lines": {
-          "Regionalbus": [
-            "369"
-          ]
-        },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -40982,6 +41079,9 @@
           "Regionalbus": [
             "450"
           ],
+          "R-Bahn": [
+            "RE50"
+          ],
           "Zug": [
             "RE50"
           ],
@@ -40989,7 +41089,7 @@
             "SEV RE50"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -43007,6 +43107,7 @@
         "name_with_city": "Großenhain Cottbuser Bahnhof",
         "operators": [
           "DB Regio AG Nordost",
+          "DB Regio AG Südost",
           "VGM"
         ],
         "lines": {
@@ -43037,6 +43138,13 @@
             "RE15",
             "RE18"
           ],
+          "R-Bahn": [
+            "RE15",
+            "RE18"
+          ],
+          "S-Bahn": [
+            "S6"
+          ],
           "Ersatzverkehr": [
             "SEV RB31",
             "SEV RE15"
@@ -43045,7 +43153,7 @@
             "A (Großenhain)"
           ]
         },
-        "total_lines": 22
+        "total_lines": 25
       }
     },
     {
@@ -45687,11 +45795,14 @@
           "Mitteldeutsche Regiobahn"
         ],
         "lines": {
+          "R-Bahn": [
+            "RB45"
+          ],
           "Zug": [
             "RB45"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -47563,6 +47674,10 @@
             "372",
             "SEV RB 72"
           ],
+          "R-Bahn": [
+            "RB72",
+            "RE19"
+          ],
           "Zug": [
             "RB72",
             "RE19",
@@ -47576,7 +47691,7 @@
             "SEV S1"
           ]
         },
-        "total_lines": 15
+        "total_lines": 17
       }
     },
     {
@@ -48769,11 +48884,14 @@
             "234",
             "265"
           ],
+          "R-Bahn": [
+            "RB71"
+          ],
           "Zug": [
             "RB71"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -49124,6 +49242,9 @@
             "760",
             "769"
           ],
+          "R-Bahn": [
+            "RB33"
+          ],
           "Zug": [
             "RB33"
           ],
@@ -49131,7 +49252,7 @@
             "SEV RB33"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -50831,6 +50952,7 @@
           "Cottbusverkehr GmbH",
           "DB Fernverkehr AG",
           "DB Regio AG Nordost",
+          "DB Regio AG Südost",
           "Ostdeutsche Eisenbahn GmbH",
           "RBO",
           "VGH",
@@ -50863,6 +50985,11 @@
             "3 (Hoyerswerda)",
             "5 (Hoyerswerda)"
           ],
+          "R-Bahn": [
+            "RB64",
+            "RE11",
+            "RE15"
+          ],
           "Zug": [
             "RB64",
             "RE11",
@@ -50874,7 +51001,7 @@
             "SEV RE15"
           ]
         },
-        "total_lines": 22
+        "total_lines": 25
       }
     },
     {
@@ -51408,6 +51535,9 @@
           "Stadtbus": [
             "4 (Hoyerswerda)"
           ],
+          "R-Bahn": [
+            "RB64"
+          ],
           "Zug": [
             "RB64"
           ],
@@ -51415,7 +51545,7 @@
             "SEV RB64"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -52914,6 +53044,9 @@
             "375",
             "382"
           ],
+          "R-Bahn": [
+            "RB30"
+          ],
           "Zug": [
             "RB30"
           ],
@@ -52921,7 +53054,7 @@
             "S3"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -53683,32 +53816,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.737316,
-          50.844106
-        ]
-      },
-      "properties": {
-        "id": "de:14628:1957",
-        "numeric_id": "33001957",
-        "name": "Bretthäusl",
-        "city": "Johnsbach (Sachs)",
-        "name_with_city": "Johnsbach (Sachs) Bretthäusl",
-        "operators": [
-          "RVSOE"
-        ],
-        "lines": {
-          "Regionalbus": [
-            "369"
-          ]
-        },
-        "total_lines": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.74002,
           50.835551
         ]
@@ -53719,15 +53826,9 @@
         "name": "Niederdorf",
         "city": "Johnsbach (Sachs)",
         "name_with_city": "Johnsbach (Sachs) Niederdorf",
-        "operators": [
-          "RVSOE"
-        ],
-        "lines": {
-          "Regionalbus": [
-            "369"
-          ]
-        },
-        "total_lines": 1
+        "operators": [],
+        "lines": {},
+        "total_lines": 0
       }
     },
     {
@@ -56921,6 +57022,9 @@
             "363",
             "379"
           ],
+          "R-Bahn": [
+            "RB30"
+          ],
           "Zug": [
             "RB30",
             "RE3"
@@ -56934,7 +57038,7 @@
             "SEV S3"
           ]
         },
-        "total_lines": 9
+        "total_lines": 10
       }
     },
     {
@@ -58338,11 +58442,14 @@
             "RE50",
             "U28"
           ],
+          "R-Bahn": [
+            "RE50"
+          ],
           "S-Bahn": [
             "S1"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -58558,11 +58665,14 @@
           "DB Regio AG Südost"
         ],
         "lines": {
+          "R-Bahn": [
+            "RB71"
+          ],
           "Zug": [
             "RB71"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -59067,6 +59177,9 @@
             "762",
             "766"
           ],
+          "R-Bahn": [
+            "RB33"
+          ],
           "Zug": [
             "RB33"
           ],
@@ -59074,7 +59187,7 @@
             "SEV RB33"
           ]
         },
-        "total_lines": 9
+        "total_lines": 10
       }
     },
     {
@@ -59395,6 +59508,9 @@
           "DB Regio AG Südost"
         ],
         "lines": {
+          "R-Bahn": [
+            "RE50"
+          ],
           "Zug": [
             "RE50"
           ],
@@ -59402,7 +59518,7 @@
             "S1"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -59730,12 +59846,15 @@
           "SchmidtSchwarz GmbH & CO. KG"
         ],
         "lines": {
+          "TaktBus": [
+            "504"
+          ],
           "Regionalbus": [
             "712",
             "780"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -59887,11 +60006,14 @@
             "202",
             "SEV RB 72"
           ],
+          "R-Bahn": [
+            "RB72"
+          ],
           "Zug": [
             "RB72"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -59993,12 +60115,17 @@
         "name_with_city": "Lampertswalde (Kr MEI) Bahnhof",
         "operators": [
           "DB Regio AG Nordost",
+          "DB Regio AG Südost",
           "VGM"
         ],
         "lines": {
           "Regionalbus": [
             "455",
             "456"
+          ],
+          "R-Bahn": [
+            "RE15",
+            "RE18"
           ],
           "Zug": [
             "RE15",
@@ -60008,7 +60135,7 @@
             "SEV RE15"
           ]
         },
-        "total_lines": 5
+        "total_lines": 7
       }
     },
     {
@@ -60392,6 +60519,11 @@
           "Stadtbus": [
             "78"
           ],
+          "R-Bahn": [
+            "RB60",
+            "RB61",
+            "RE1"
+          ],
           "Zug": [
             "RB60",
             "RB61",
@@ -60401,7 +60533,7 @@
             "S8"
           ]
         },
-        "total_lines": 5
+        "total_lines": 8
       }
     },
     {
@@ -60960,11 +61092,14 @@
           "PlusBus": [
             "261"
           ],
+          "R-Bahn": [
+            "RB71"
+          ],
           "Zug": [
             "RB71"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -61037,11 +61172,14 @@
           "DB Regio AG Südost"
         ],
         "lines": {
+          "R-Bahn": [
+            "RB71"
+          ],
           "Zug": [
             "RB71"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -61407,12 +61545,16 @@
             "385",
             "SEV RB 72"
           ],
+          "R-Bahn": [
+            "RB72",
+            "RE19"
+          ],
           "Zug": [
             "RB72",
             "RE19"
           ]
         },
-        "total_lines": 5
+        "total_lines": 7
       }
     },
     {
@@ -61566,6 +61708,7 @@
         "name_with_city": "Lauta/Niederlausitz Bahnhof",
         "operators": [
           "DB Regio AG Nordost",
+          "DB Regio AG Südost",
           "RBO",
           "Verkehrsgesellschaft Oberspreewald-Lausitz mbH"
         ],
@@ -61580,6 +61723,10 @@
             "778",
             "784"
           ],
+          "R-Bahn": [
+            "RE11",
+            "RE15"
+          ],
           "Zug": [
             "RE11",
             "RE15"
@@ -61589,7 +61736,7 @@
             "SEV RE15"
           ]
         },
-        "total_lines": 8
+        "total_lines": 10
       }
     },
     {
@@ -62079,6 +62226,9 @@
           "Regionalbus": [
             "756"
           ],
+          "R-Bahn": [
+            "RB33"
+          ],
           "Zug": [
             "RB33"
           ],
@@ -62086,7 +62236,7 @@
             "SEV RB33"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -64301,11 +64451,14 @@
           "DB Regio AG Südost"
         ],
         "lines": {
+          "R-Bahn": [
+            "RB71"
+          ],
           "Zug": [
             "RB71"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -64532,11 +64685,14 @@
             "776",
             "785"
           ],
+          "R-Bahn": [
+            "RB64"
+          ],
           "Zug": [
             "RB64"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -72076,11 +72232,14 @@
             "202",
             "372"
           ],
+          "R-Bahn": [
+            "RB72"
+          ],
           "Zug": [
             "RB72"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -73615,6 +73774,9 @@
             "264",
             "267"
           ],
+          "R-Bahn": [
+            "RB71"
+          ],
           "Zug": [
             "RB71"
           ],
@@ -73623,7 +73785,7 @@
             "SEV U28"
           ]
         },
-        "total_lines": 9
+        "total_lines": 10
       }
     },
     {
@@ -74589,13 +74751,19 @@
             "RB31",
             "RE50"
           ],
+          "R-Bahn": [
+            "RE50"
+          ],
+          "S-Bahn": [
+            "S6"
+          ],
           "Ersatzverkehr": [
             "SEV RB31",
             "SEV RE15",
             "SEV RE50"
           ]
         },
-        "total_lines": 8
+        "total_lines": 10
       }
     },
     {
@@ -75145,6 +75313,9 @@
           "Zug": [
             "RB31"
           ],
+          "S-Bahn": [
+            "S6"
+          ],
           "Ersatzverkehr": [
             "SEV RB31"
           ],
@@ -75152,7 +75323,7 @@
             "alita 68"
           ]
         },
-        "total_lines": 8
+        "total_lines": 9
       }
     },
     {
@@ -76230,6 +76401,9 @@
             "450",
             "451"
           ],
+          "R-Bahn": [
+            "RE50"
+          ],
           "Zug": [
             "RE50"
           ],
@@ -76237,7 +76411,7 @@
             "SEV RE50"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
@@ -78734,6 +78908,9 @@
             "761",
             "769"
           ],
+          "R-Bahn": [
+            "RB33"
+          ],
           "Zug": [
             "RB33"
           ],
@@ -78741,7 +78918,7 @@
             "SEV RB33"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -78845,6 +79022,9 @@
           "DB Regio AG Südost"
         ],
         "lines": {
+          "R-Bahn": [
+            "RB33"
+          ],
           "Zug": [
             "RB33"
           ],
@@ -78852,7 +79032,7 @@
             "SEV RB33"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -78955,18 +79135,14 @@
         "city": "Ottendorf-Okrilla",
         "name_with_city": "Ottendorf-Okrilla Geldroper Straße",
         "operators": [
-          "DVB",
           "RBO"
         ],
         "lines": {
-          "Stadtbus": [
-            "78"
-          ],
           "Regionalbus": [
             "761"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -78988,11 +79164,14 @@
           "DB Regio AG Südost"
         ],
         "lines": {
+          "R-Bahn": [
+            "RB33"
+          ],
           "Zug": [
             "RB33"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -80862,6 +81041,10 @@
           "DB Regio AG Südost"
         ],
         "lines": {
+          "R-Bahn": [
+            "RB71",
+            "RE50"
+          ],
           "Zug": [
             "RB71",
             "RE20",
@@ -80872,7 +81055,7 @@
             "S2"
           ]
         },
-        "total_lines": 5
+        "total_lines": 7
       }
     },
     {
@@ -81815,11 +81998,14 @@
           "DB Regio AG Südost"
         ],
         "lines": {
+          "R-Bahn": [
+            "RB71"
+          ],
           "Zug": [
             "RB71"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -81841,11 +82027,14 @@
           "DB Regio AG Südost"
         ],
         "lines": {
+          "R-Bahn": [
+            "RB71"
+          ],
           "Zug": [
             "RB71"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -84928,13 +85117,21 @@
             "RE18",
             "RE50"
           ],
+          "R-Bahn": [
+            "RE15",
+            "RE18",
+            "RE50"
+          ],
+          "S-Bahn": [
+            "S6"
+          ],
           "Ersatzverkehr": [
             "SEV RB31",
             "SEV RE15",
             "SEV RE50"
           ]
         },
-        "total_lines": 11
+        "total_lines": 15
       }
     },
     {
@@ -86477,6 +86674,12 @@
             "760",
             "761"
           ],
+          "R-Bahn": [
+            "RB60",
+            "RB61",
+            "RE1",
+            "RE2"
+          ],
           "Zug": [
             "RB60",
             "RB61",
@@ -86490,7 +86693,7 @@
             "SEV S8"
           ]
         },
-        "total_lines": 14
+        "total_lines": 18
       }
     },
     {
@@ -87423,11 +87626,14 @@
           "Zug": [
             "RB31"
           ],
+          "S-Bahn": [
+            "S6"
+          ],
           "Ersatzverkehr": [
             "SEV RB31"
           ]
         },
-        "total_lines": 3
+        "total_lines": 4
       }
     },
     {
@@ -88673,18 +88879,14 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Riesestraße",
         "operators": [
-          "DVB",
           "VGM"
         ],
         "lines": {
-          "Stadtbus": [
-            "72"
-          ],
           "Regionalbus": [
             "476"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -88703,6 +88905,7 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul S-Bahnhof Kötzschenbroda",
         "operators": [
+          "DB Regio AG Nordost",
           "DB Regio AG Südost",
           "VGM"
         ],
@@ -88712,11 +88915,14 @@
             "475",
             "476"
           ],
+          "Zug": [
+            "RE15"
+          ],
           "S-Bahn": [
             "S1"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -88735,6 +88941,7 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul S-Bahnhof Ost",
         "operators": [
+          "DB Regio AG Nordost",
           "DB Regio AG Südost",
           "SDG",
           "VGM"
@@ -88745,6 +88952,7 @@
             "Sv280"
           ],
           "Zug": [
+            "RE15",
             "RE50"
           ],
           "S-Bahn": [
@@ -88755,7 +88963,7 @@
             "SEV S1"
           ]
         },
-        "total_lines": 6
+        "total_lines": 7
       }
     },
     {
@@ -88800,6 +89008,7 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul S-Bahnhof Weintraube",
         "operators": [
+          "DB Regio AG Nordost",
           "DB Regio AG Südost",
           "DVB"
         ],
@@ -88807,11 +89016,14 @@
           "Stadtbus": [
             "72"
           ],
+          "Zug": [
+            "RE15"
+          ],
           "S-Bahn": [
             "S1"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -88830,14 +89042,18 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul S-Bahnhof Zitzschewig",
         "operators": [
+          "DB Regio AG Nordost",
           "DB Regio AG Südost"
         ],
         "lines": {
+          "Zug": [
+            "RE15"
+          ],
           "S-Bahn": [
             "S1"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -88934,18 +89150,14 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Serkowitzer Str. (SV)",
         "operators": [
-          "DVB",
           "VGM"
         ],
         "lines": {
-          "Stadtbus": [
-            "72"
-          ],
           "Regionalbus": [
             "Sv280"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -89042,18 +89254,14 @@
         "city": "Radebeul",
         "name_with_city": "Radebeul Steinbachstraße",
         "operators": [
-          "DVB",
           "VGM"
         ],
         "lines": {
-          "Stadtbus": [
-            "72"
-          ],
           "Regionalbus": [
             "476"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -90049,6 +90257,9 @@
           "DB Regio AG Südost"
         ],
         "lines": {
+          "R-Bahn": [
+            "RE50"
+          ],
           "Zug": [
             "RE50"
           ],
@@ -90056,7 +90267,7 @@
             "S1"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -92358,6 +92569,10 @@
             "D (Riesa)",
             "E (Riesa)"
           ],
+          "R-Bahn": [
+            "RB45",
+            "RE50"
+          ],
           "Zug": [
             "RB45",
             "RE50"
@@ -92367,7 +92582,7 @@
             "SEV RE50"
           ]
         },
-        "total_lines": 28
+        "total_lines": 30
       }
     },
     {
@@ -97639,11 +97854,14 @@
           "DB Regio AG Südost"
         ],
         "lines": {
+          "R-Bahn": [
+            "RB72"
+          ],
           "Zug": [
             "RB72"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -97723,11 +97941,14 @@
             "372",
             "SEV RB 72"
           ],
+          "R-Bahn": [
+            "RB72"
+          ],
           "Zug": [
             "RB72"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -98534,6 +98755,7 @@
         "name_with_city": "Schwarzkollm Bahnhof",
         "operators": [
           "DB Regio AG Nordost",
+          "DB Regio AG Südost",
           "RBO",
           "Verkehrsgesellschaft Oberspreewald-Lausitz mbH"
         ],
@@ -98544,6 +98766,10 @@
           "Regionalbus": [
             "784"
           ],
+          "R-Bahn": [
+            "RE11",
+            "RE15"
+          ],
           "Zug": [
             "RE11",
             "RE15"
@@ -98553,7 +98779,7 @@
             "SEV RE15"
           ]
         },
-        "total_lines": 6
+        "total_lines": 8
       }
     },
     {
@@ -99731,6 +99957,9 @@
             "260",
             "261"
           ],
+          "R-Bahn": [
+            "RB71"
+          ],
           "Zug": [
             "RB71",
             "U28"
@@ -99743,7 +99972,7 @@
             "T (Sebnitz)"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -100732,11 +100961,14 @@
           "Mitteldeutsche Regiobahn"
         ],
         "lines": {
+          "R-Bahn": [
+            "RB45"
+          ],
           "Zug": [
             "RB45"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -102157,6 +102389,9 @@
           "DB Regio AG Südost"
         ],
         "lines": {
+          "R-Bahn": [
+            "RE50"
+          ],
           "Zug": [
             "RE50"
           ],
@@ -102164,7 +102399,7 @@
             "S1"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -102616,6 +102851,9 @@
           "Regionalbus": [
             "431"
           ],
+          "R-Bahn": [
+            "RB45"
+          ],
           "Zug": [
             "RB45"
           ],
@@ -102623,7 +102861,7 @@
             "SEV RB45"
           ]
         },
-        "total_lines": 4
+        "total_lines": 5
       }
     },
     {
@@ -103236,11 +103474,14 @@
           "DB Regio AG Südost"
         ],
         "lines": {
+          "R-Bahn": [
+            "RB71"
+          ],
           "Zug": [
             "RB71"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -105124,6 +105365,10 @@
             "363",
             "382"
           ],
+          "R-Bahn": [
+            "RB30",
+            "RE3"
+          ],
           "Zug": [
             "RB30",
             "RE3"
@@ -105137,7 +105382,7 @@
             "SEV S3"
           ]
         },
-        "total_lines": 12
+        "total_lines": 14
       }
     },
     {
@@ -105637,6 +105882,9 @@
             "439",
             "Sv313"
           ],
+          "R-Bahn": [
+            "RB45"
+          ],
           "Zug": [
             "RB45"
           ],
@@ -105644,7 +105892,7 @@
             "SEV RB45"
           ]
         },
-        "total_lines": 5
+        "total_lines": 6
       }
     },
     {
@@ -107652,12 +107900,16 @@
           "DB Regio AG Südost"
         ],
         "lines": {
+          "R-Bahn": [
+            "RB72",
+            "RE19"
+          ],
           "Zug": [
             "RB72",
             "RE19"
           ]
         },
-        "total_lines": 2
+        "total_lines": 4
       }
     },
     {
@@ -107910,13 +108162,21 @@
             "RE18",
             "RE50"
           ],
+          "R-Bahn": [
+            "RE15",
+            "RE18",
+            "RE50"
+          ],
+          "S-Bahn": [
+            "S6"
+          ],
           "Ersatzverkehr": [
             "SEV RB31",
             "SEV RE15",
             "SEV RE50"
           ]
         },
-        "total_lines": 11
+        "total_lines": 15
       }
     },
     {
@@ -108633,11 +108893,14 @@
           "DB Regio AG Südost"
         ],
         "lines": {
+          "R-Bahn": [
+            "RB33"
+          ],
           "Zug": [
             "RB33"
           ]
         },
-        "total_lines": 1
+        "total_lines": 2
       }
     },
     {
@@ -108794,11 +109057,14 @@
           "Straßenbahn": [
             "7"
           ],
+          "R-Bahn": [
+            "RB33"
+          ],
           "Zug": [
             "RB33"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -111491,6 +111757,9 @@
           "Mitteldeutsche Regiobahn"
         ],
         "lines": {
+          "R-Bahn": [
+            "RB45"
+          ],
           "Zug": [
             "RB45"
           ],
@@ -111498,7 +111767,7 @@
             "SEV RB45"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -111751,13 +112020,17 @@
             "467"
           ],
           "Zug": [
-            "RB31"
+            "RB31",
+            "RE15"
+          ],
+          "S-Bahn": [
+            "S6"
           ],
           "Ersatzverkehr": [
             "SEV RB31"
           ]
         },
-        "total_lines": 3
+        "total_lines": 5
       }
     },
     {
@@ -112177,6 +112450,9 @@
             "442",
             "451"
           ],
+          "R-Bahn": [
+            "RB45"
+          ],
           "Zug": [
             "RB45"
           ],
@@ -112184,7 +112460,7 @@
             "SEV RB45"
           ]
         },
-        "total_lines": 7
+        "total_lines": 8
       }
     },
     {
