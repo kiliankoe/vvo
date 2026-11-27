@@ -6066,9 +6066,9 @@
       "properties": {
         "id": "de:14625:6448",
         "numeric_id": "33006448",
-        "name": "Boderitz",
+        "name": "S 105",
         "city": "Boderitz (Kr BZ)",
-        "name_with_city": "Boderitz (Kr BZ) Boderitz",
+        "name_with_city": "Boderitz (Kr BZ) S 105",
         "operators": [
           "RBO"
         ],
@@ -13371,9 +13371,9 @@
       "properties": {
         "id": "de:14625:6437",
         "numeric_id": "33006437",
-        "name": "Dobrig",
+        "name": "Am Schwarzenberg",
         "city": "Dobrig",
-        "name_with_city": "Dobrig Dobrig",
+        "name_with_city": "Dobrig Am Schwarzenberg",
         "operators": [
           "RBO"
         ],
@@ -23719,6 +23719,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.829555,
+          50.988858
+        ]
+      },
+      "properties": {
+        "id": "de:14612:924",
+        "numeric_id": "33000924",
+        "name": "Kalmusring",
+        "city": "Dresden",
+        "name_with_city": "Dresden Kalmusring",
+        "operators": [
+          "DVB"
+        ],
+        "lines": {
+          "Stadtbus": [
+            "65"
+          ],
+          "Anruflinientaxi": [
+            "alita 65"
+          ]
+        },
+        "total_lines": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.666448,
           51.04001
         ]
@@ -24674,35 +24703,6 @@
           ]
         },
         "total_lines": 3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.829555,
-          50.988858
-        ]
-      },
-      "properties": {
-        "id": "de:14612:924",
-        "numeric_id": "33000924",
-        "name": "Krebser Straße Nord",
-        "city": "Dresden",
-        "name_with_city": "Dresden Krebser Straße Nord",
-        "operators": [
-          "DVB"
-        ],
-        "lines": {
-          "Stadtbus": [
-            "65"
-          ],
-          "Anruflinientaxi": [
-            "alita 65"
-          ]
-        },
-        "total_lines": 2
       }
     },
     {
@@ -42497,9 +42497,9 @@
       "properties": {
         "id": "de:14625:6967",
         "numeric_id": "33006967",
-        "name": "Cafe",
+        "name": "Hauptstraße",
         "city": "Groß Särchen",
-        "name_with_city": "Groß Särchen Cafe",
+        "name_with_city": "Groß Särchen Hauptstraße",
         "operators": [
           "RBO"
         ],
@@ -49500,9 +49500,9 @@
       "properties": {
         "id": "de:14625:6999",
         "numeric_id": "33006999",
-        "name": "Königswarthaer Straße",
+        "name": "Hermsdorf (Spree) bei Lohsa",
         "city": "Hermsdorf/Spree",
-        "name_with_city": "Hermsdorf/Spree Königswarthaer Straße",
+        "name_with_city": "Hermsdorf/Spree Hermsdorf (Spree) bei Lohsa",
         "operators": [
           "RBO"
         ],
@@ -59777,9 +59777,9 @@
       "properties": {
         "id": "de:14625:7732",
         "numeric_id": "33007732",
-        "name": "Bahnhof",
+        "name": "Bahnhofstraße",
         "city": "Königswartha",
-        "name_with_city": "Königswartha Bahnhof",
+        "name_with_city": "Königswartha Bahnhofstraße",
         "operators": [
           "RBO",
           "SchmidtSchwarz GmbH & CO. KG"
@@ -64336,9 +64336,9 @@
       "properties": {
         "id": "de:14625:8415",
         "numeric_id": "33008415",
-        "name": "Denkmal",
+        "name": "Lindenstraße",
         "city": "Lippen (Kr BZ)",
-        "name_with_city": "Lippen (Kr BZ) Denkmal",
+        "name_with_city": "Lippen (Kr BZ) Lindenstraße",
         "operators": [
           "RBO"
         ],
@@ -67452,32 +67452,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.47013,
-          51.165961
-        ]
-      },
-      "properties": {
-        "id": "de:14627:4049",
-        "numeric_id": "33004049",
-        "name": "Albrechtsburg / Dom",
-        "city": "Meißen",
-        "name_with_city": "Meißen Albrechtsburg / Dom",
-        "operators": [
-          "VGM"
-        ],
-        "lines": {
-          "Stadtbus": [
-            "E (Meißen)"
-          ]
-        },
-        "total_lines": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.474424,
           51.164046
         ]
@@ -68066,32 +68040,6 @@
           ]
         },
         "total_lines": 3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.470247,
-          51.165032
-        ]
-      },
-      "properties": {
-        "id": "de:14627:4037",
-        "numeric_id": "33004037",
-        "name": "Cafe Zieger",
-        "city": "Meißen",
-        "name_with_city": "Meißen Cafe Zieger",
-        "operators": [
-          "VGM"
-        ],
-        "lines": {
-          "Stadtbus": [
-            "E (Meißen)"
-          ]
-        },
-        "total_lines": 1
       }
     },
     {
@@ -69217,32 +69165,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.470211,
-          51.163049
-        ]
-      },
-      "properties": {
-        "id": "de:14627:4017",
-        "numeric_id": "33004017",
-        "name": "Markt",
-        "city": "Meißen",
-        "name_with_city": "Meißen Markt",
-        "operators": [
-          "VGM"
-        ],
-        "lines": {
-          "Stadtbus": [
-            "E (Meißen)"
-          ]
-        },
-        "total_lines": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.498121,
           51.158333
         ]
@@ -69294,32 +69216,6 @@
           ]
         },
         "total_lines": 2
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.469187,
-          51.164902
-        ]
-      },
-      "properties": {
-        "id": "de:14627:4028",
-        "numeric_id": "33004028",
-        "name": "Meißner Burgstuben",
-        "city": "Meißen",
-        "name_with_city": "Meißen Meißner Burgstuben",
-        "operators": [
-          "VGM"
-        ],
-        "lines": {
-          "Stadtbus": [
-            "E (Meißen)"
-          ]
-        },
-        "total_lines": 1
       }
     },
     {
@@ -69546,11 +69442,10 @@
             "418"
           ],
           "Stadtbus": [
-            "C (Meißen)",
-            "E (Meißen)"
+            "C (Meißen)"
           ]
         },
-        "total_lines": 5
+        "total_lines": 4
       }
     },
     {
@@ -69705,32 +69600,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.47234,
-          51.162136
-        ]
-      },
-      "properties": {
-        "id": "de:14627:4089",
-        "numeric_id": "33004089",
-        "name": "Roßmarkt",
-        "city": "Meißen",
-        "name_with_city": "Meißen Roßmarkt",
-        "operators": [
-          "VGM"
-        ],
-        "lines": {
-          "Stadtbus": [
-            "E (Meißen)"
-          ]
-        },
-        "total_lines": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.481997,
           51.16315
         ]
@@ -69795,11 +69664,10 @@
           ],
           "Stadtbus": [
             "A (Meißen)",
-            "C (Meißen)",
-            "E (Meißen)"
+            "C (Meißen)"
           ]
         },
-        "total_lines": 16
+        "total_lines": 15
       }
     },
     {
@@ -73171,9 +73039,9 @@
       "properties": {
         "id": "de:14625:7740",
         "numeric_id": "33007740",
-        "name": "Neudorf b Königswartha",
+        "name": "Ortsmitte",
         "city": "Neudorf (Königsw.)",
-        "name_with_city": "Neudorf (Königsw.) Neudorf b Königswartha",
+        "name_with_city": "Neudorf (Königsw.) Ortsmitte",
         "operators": [
           "RBO"
         ],
@@ -75478,32 +75346,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.315489,
-          51.300889
-        ]
-      },
-      "properties": {
-        "id": "de:14625:7715",
-        "numeric_id": "33007715",
-        "name": "Abzw Niesendorf",
-        "city": "Niesendorf",
-        "name_with_city": "Niesendorf Abzw Niesendorf",
-        "operators": [
-          "RBO"
-        ],
-        "lines": {
-          "Regionalbus": [
-            "791"
-          ]
-        },
-        "total_lines": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.317044,
           51.298221
         ]
@@ -75530,6 +75372,32 @@
           ]
         },
         "total_lines": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.315489,
+          51.300889
+        ]
+      },
+      "properties": {
+        "id": "de:14625:7715",
+        "numeric_id": "33007715",
+        "name": "S 101",
+        "city": "Niesendorf",
+        "name_with_city": "Niesendorf S 101",
+        "operators": [
+          "RBO"
+        ],
+        "lines": {
+          "Regionalbus": [
+            "791"
+          ]
+        },
+        "total_lines": 1
       }
     },
     {
@@ -90744,9 +90612,9 @@
       "properties": {
         "id": "de:14625:6435",
         "numeric_id": "33006435",
-        "name": "Rauschwitz",
+        "name": "Am Sportplatz",
         "city": "Rauschwitz b Kamenz",
-        "name_with_city": "Rauschwitz b Kamenz Rauschwitz",
+        "name_with_city": "Rauschwitz b Kamenz Am Sportplatz",
         "operators": [
           "RBO"
         ],
@@ -90942,9 +90810,9 @@
       "properties": {
         "id": "de:14625:6436",
         "numeric_id": "33006436",
-        "name": "Rehnsdorf (Sachsen)",
+        "name": "Zur Linde",
         "city": "Rehnsdorf (Sachsen)",
-        "name_with_city": "Rehnsdorf (Sachsen) Rehnsdorf (Sachsen)",
+        "name_with_city": "Rehnsdorf (Sachsen) Zur Linde",
         "operators": [
           "RBO"
         ],
@@ -92336,9 +92204,9 @@
       "properties": {
         "id": "de:14625:6974",
         "numeric_id": "33006974",
-        "name": "Riegel bei Hoyerswerda",
+        "name": "Scheibesee",
         "city": "Riegel b Hoyerswerda",
-        "name_with_city": "Riegel b Hoyerswerda Riegel bei Hoyerswerda",
+        "name_with_city": "Riegel b Hoyerswerda Scheibesee",
         "operators": [
           "RBO"
         ],
@@ -103271,9 +103139,9 @@
       "properties": {
         "id": "de:14627:4355",
         "numeric_id": "33004355",
-        "name": "An der Triebe",
+        "name": "Am Bindebach",
         "city": "Steinbach b Moritzb.",
-        "name_with_city": "Steinbach b Moritzb. An der Triebe",
+        "name_with_city": "Steinbach b Moritzb. Am Bindebach",
         "operators": [
           "VGM"
         ],
@@ -103722,6 +103590,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.087919,
+          51.353485
+        ]
+      },
+      "properties": {
+        "id": "de:14625:6323",
+        "numeric_id": "33006323",
+        "name": "Am Gewerbepark",
+        "city": "Straßgräbchen",
+        "name_with_city": "Straßgräbchen Am Gewerbepark",
+        "operators": [
+          "RBO"
+        ],
+        "lines": {
+          "PlusBus": [
+            "531"
+          ]
+        },
+        "total_lines": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.067087,
           51.359639
         ]
@@ -103767,32 +103661,6 @@
         "lines": {
           "Regionalbus": [
             "772"
-          ]
-        },
-        "total_lines": 1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.087919,
-          51.353485
-        ]
-      },
-      "properties": {
-        "id": "de:14625:6323",
-        "numeric_id": "33006323",
-        "name": "TDDK",
-        "city": "Straßgräbchen",
-        "name_with_city": "Straßgräbchen TDDK",
-        "operators": [
-          "RBO"
-        ],
-        "lines": {
-          "PlusBus": [
-            "531"
           ]
         },
         "total_lines": 1
@@ -112825,9 +112693,9 @@
       "properties": {
         "id": "de:14625:6450",
         "numeric_id": "33006450",
-        "name": "Kreuzung Zerna/Gränze",
+        "name": "Abzweig Caßlau",
         "city": "Zerna",
-        "name_with_city": "Zerna Kreuzung Zerna/Gränze",
+        "name_with_city": "Zerna Abzweig Caßlau",
         "operators": [
           "RBO",
           "SchmidtSchwarz GmbH & CO. KG"
