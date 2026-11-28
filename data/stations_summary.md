@@ -31,7 +31,7 @@ Total stations: 3905
 
 - Regionalbus: 2697 stations
 - Stadtbus: 1312 stations
-- PlusBus: 644 stations
+- PlusBus: 645 stations
 - Anruflinienbus: 433 stations
 - Straßenbahn: 269 stations
 - Anruflinientaxi: 204 stations
@@ -50,7 +50,7 @@ Total stations: 3905
 
 ## Transit Operators
 
-- RVSOE: 1304 stations
+- RVSOE: 1302 stations
 - VGM: 1166 stations
 - DVB: 770 stations
 - RBO: 712 stations
@@ -155,8 +155,8 @@ Total stations: 3905
 - Dresden Schlehenstraße: 11 lines
 - Gompitz Gompitzer Höhe: 11 lines
 - Großenhain Hohe Straße: 11 lines
+- Niederau (b Meißen) Bahnhof: 11 lines
 - Pirna Copitz Schulstraße: 11 lines
-- Pirna Robert-Koch-Straße: 11 lines
 - Pulsnitz Bahnhof: 11 lines
 - Sebnitz Bahnhof: 11 lines
 - Arnsdorf (b Dresden) Bahnhof: 10 lines
@@ -179,4 +179,4 @@ Total stations: 3905
 - Königsbrück Bahnhof: 10 lines
 - Lauta/Niederlausitz Bahnhof: 10 lines
 - Neustadt in Sachsen Bahnhof: 10 lines
-- Niederau (b Meißen) Bahnhof: 10 lines
+- Pirna Robert-Koch-Straße: 10 lines

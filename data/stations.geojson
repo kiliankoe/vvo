@@ -478,12 +478,15 @@
           "RVSOE"
         ],
         "lines": {
+          "PlusBus": [
+            "360"
+          ],
           "Regionalbus": [
             "370",
             "374"
           ]
         },
-        "total_lines": 2
+        "total_lines": 3
       }
     },
     {
@@ -38734,11 +38737,10 @@
         ],
         "lines": {
           "Stadtbus": [
-            "161",
             "162"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
@@ -74617,6 +74619,7 @@
           ],
           "Zug": [
             "RB31",
+            "RE15",
             "RE50"
           ],
           "R-Bahn": [
@@ -74631,7 +74634,7 @@
             "SEV RE50"
           ]
         },
-        "total_lines": 10
+        "total_lines": 11
       }
     },
     {
@@ -76411,11 +76414,10 @@
         "lines": {
           "Regionalbus": [
             "441",
-            "442",
-            "450"
+            "442"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -82420,14 +82422,13 @@
             "237",
             "241",
             "245",
-            "246",
             "207a"
           ],
           "Stadtbus": [
             "Z (Pirna)"
           ]
         },
-        "total_lines": 11
+        "total_lines": 10
       }
     },
     {
@@ -92056,19 +92057,17 @@
         "city": "Reitzendorf(Dresden)",
         "name_with_city": "Reitzendorf(Dresden) Kleinbauernmuseum",
         "operators": [
-          "Müller Busreisen",
-          "RVSOE"
+          "Müller Busreisen"
         ],
         "lines": {
           "Regionalbus": [
-            "226",
             "228"
           ],
           "Stadtbus": [
             "98C"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -99531,19 +99530,17 @@
         "city": "Schönfeld (Dresden)",
         "name_with_city": "Schönfeld (Dresden) Meixstraße",
         "operators": [
-          "Müller Busreisen",
-          "RVSOE"
+          "Müller Busreisen"
         ],
         "lines": {
           "Regionalbus": [
-            "226",
             "228"
           ],
           "Stadtbus": [
             "98C"
           ]
         },
-        "total_lines": 3
+        "total_lines": 2
       }
     },
     {
@@ -108206,11 +108203,10 @@
         ],
         "lines": {
           "Regionalbus": [
-            "411",
-            "Sv250"
+            "411"
           ]
         },
-        "total_lines": 2
+        "total_lines": 1
       }
     },
     {
